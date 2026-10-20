@@ -1,0 +1,3313 @@
+{
+  "meta": {
+    "checked": "2026-10-21",
+    "status": "未预订的理想化行程",
+    "defaultStart": 16
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-16",
+      "title": "上海出发，留体力给落地后的港湾",
+      "area": "上海→悉尼",
+      "timezone": "上海 UTC+8 / 次晨悉尼 UTC+11",
+      "hotelId": null,
+      "summary": "下午抵浦东，晚班直飞；机上以休息为主。",
+      "drive": "机场接送/国际航班",
+      "photoGoal": "出发纪实，勿为窗口照片牺牲睡眠。",
+      "weatherPlan": "若航班变动，以航司通知为准；悉尼第一天下午安排可整段缩减。",
+      "events": [
+        {
+          "time": "14:30",
+          "endTime": "15:40",
+          "placeId": "pvg",
+          "place": "上海浦东机场（航站楼以航司通知为准）",
+          "kind": "airport",
+          "detail": "建议起飞前约3小时到指定航站楼，完成值机、托运、安检；摄影包称重，HO本次票规手提1×5kg。",
+          "photoTip": "Z6III和镜头随身；备用电池单独防短路；脚架可放托运行李。",
+          "lat": 31.144,
+          "lon": 121.808,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-shanghai",
+            "i-airnz-battery"
+          ]
+        },
+        {
+          "time": "15:40",
+          "endTime": "16:40",
+          "placeId": "pvg",
+          "place": "上海浦东机场（航站楼以航司通知为准）",
+          "kind": "meal",
+          "detail": "吃一顿简餐，补水、充电；16:40前回登机口，以登机牌为准。",
+          "photoTip": "",
+          "lat": 31.144,
+          "lon": 121.808,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "17:40",
+          "endTime": "次日06:50",
+          "placeId": "pvg",
+          "place": "HO1669 · 上海→悉尼",
+          "kind": "flight",
+          "detail": "HO1669上海PVG→悉尼SYD，11/17当地06:50到。",
+          "photoTip": "只轻拍窗景；优先补觉。",
+          "lat": 31.144,
+          "lon": 121.808,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-shanghai"
+          ],
+          "endDate": "2026-11-17",
+          "endTimezone": "Australia/Sydney",
+          "arrivalPlaceId": "syd_t1"
+        }
+      ],
+      "shortTitle": "上海出发",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 2,
+      "date": "2026-11-17",
+      "title": "会合与轻量港湾初见",
+      "area": "悉尼",
+      "timezone": "澳东夏令时 UTC+11",
+      "hotelId": "camperdown",
+      "summary": "早晨抵达、午间休息，下午只安排The Rocks与歌剧院周边。",
+      "drive": "步行＋网约车/公交；不租车",
+      "photoGoal": "港湾建筑、朋友会合、蓝调水面；落地日不追日出。",
+      "weatherPlan": "下雨时把The Rocks和海港外拍缩成一小时，改市区咖啡馆/室内展馆；若出关晚，直接酒店休息。",
+      "events": [
+        {
+          "time": "06:50",
+          "endTime": "08:40",
+          "placeId": "syd_t1",
+          "place": "悉尼机场T1国际到达",
+          "kind": "arrival",
+          "detail": "HO1669与JL51计划同为06:50抵达；出关、提行李、申报留约1.5–2小时，这是规划缓冲而非机场保证。朋友在T1公共到达大厅会合。",
+          "photoTip": "先收好设备，边检/海关区域不拍照。",
+          "lat": -33.939,
+          "lon": 151.166,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-shanghai",
+            "i-flight-tokyo16",
+            "i-syd-arrival"
+          ]
+        },
+        {
+          "time": "08:40",
+          "endTime": "09:30",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "transfer",
+          "detail": "三人带行李去Camperdown住宿，网约车/出租约30–50分钟为规划值；寄存行李，提前入住并不保证。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "09:30",
+          "endTime": "12:00",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "附近早餐、咖啡和低强度散步；累了就在咖啡馆休息，不安排跨城景点。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "12:00",
+          "endTime": "14:00",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "meal",
+          "detail": "午餐后保留空档；按酒店实际入住时间拿房，必要时压缩下午行程。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "14:00",
+          "endTime": "16:00",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "入住后洗澡与补觉；如酒店15:00才可入住，休息顺延。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "16:00",
+          "endTime": "17:45",
+          "placeId": "rocks",
+          "place": "The Rocks",
+          "kind": "photo",
+          "detail": "前往The Rocks，拍砂岩街巷、坡道与港口人物，步行到Circular Quay。",
+          "photoTip": "24–120mm覆盖街景和细节；16mm只用于狭窄空间，人物避开画面边缘。",
+          "lat": -33.859,
+          "lon": 151.209,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-nsw-payment"
+          ]
+        },
+        {
+          "time": "17:45",
+          "endTime": "18:30",
+          "placeId": "opera_house",
+          "place": "悉尼歌剧院外部及Circular Quay",
+          "kind": "meal",
+          "detail": "歌剧院/码头周边早晚餐，不预设高价餐厅。",
+          "photoTip": "",
+          "lat": -33.857,
+          "lon": 151.215,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "18:30",
+          "endTime": "20:00",
+          "placeId": "opera_house",
+          "place": "悉尼歌剧院外部及Circular Quay",
+          "kind": "photo",
+          "detail": "拍歌剧院外观、渡轮、港湾桥与蓝调；日落预计约19:35–19:45，需临行复核。20:00左右收工。",
+          "photoTip": "24–70mm环境，70–120mm压缩帆壳；蓝调有空位再架脚架，勿堵通道。",
+          "lat": -33.857,
+          "lon": 151.215,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "20:00",
+          "endTime": "21:30",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "回酒店、备份照片、尽早睡；当天不加酒吧或夜间跨海拍摄。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        }
+      ],
+      "shortTitle": "悉尼初见",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 3,
+      "date": "2026-11-18",
+      "title": "渡轮视角与经典港湾夕照",
+      "area": "悉尼",
+      "timezone": "澳东夏令时 UTC+11",
+      "hotelId": "camperdown",
+      "summary": "上午Manly渡轮和海边，下午休息后到植物园与Mrs Macquarie’s Chair。",
+      "drive": "公共渡轮＋公交/网约车＋步行",
+      "photoGoal": "渡轮上的城市层次、海滩人文、歌剧院和海港大桥同框。",
+      "weatherPlan": "大风或渡轮停航则取消Manly，改The Rocks/市区展馆；只在海港风雨减弱时补短时外拍。",
+      "events": [
+        {
+          "time": "08:00",
+          "endTime": "09:15",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "meal",
+          "detail": "早餐后去Circular Quay；按当天实时F1班次，留20–30分钟候船。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": [
+            "i-nsw-payment"
+          ]
+        },
+        {
+          "time": "09:15",
+          "endTime": "10:00",
+          "placeId": "manly_wharf",
+          "place": "Manly Wharf",
+          "kind": "ferry",
+          "detail": "乘公共渡轮到Manly，航程与候船合计约45分钟为规划值，不是已订班次。",
+          "photoTip": "24–120mm手持拍港湾，风大时提高快门；船上不架脚架。",
+          "lat": -33.8,
+          "lon": 151.284,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-nsw-payment"
+          ]
+        },
+        {
+          "time": "10:00",
+          "endTime": "12:00",
+          "placeId": "manly_beach",
+          "place": "Manly Beach",
+          "kind": "photo",
+          "detail": "海滩与The Corso散步，不强制走到North Head。",
+          "photoTip": "70–120mm拍冲浪者与海面层次；24–35mm拍街景。",
+          "lat": -33.797,
+          "lon": 151.289,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "12:00",
+          "endTime": "13:00",
+          "placeId": "manly_wharf",
+          "place": "Manly Wharf",
+          "kind": "meal",
+          "detail": "午餐，之后乘渡轮返回市区。",
+          "photoTip": "",
+          "lat": -33.8,
+          "lon": 151.284,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "13:00",
+          "endTime": "15:30",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "返程交通与酒店休息；保留约1小时真正坐下或补觉。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "15:30",
+          "endTime": "17:45",
+          "placeId": "royal_botanic",
+          "place": "Royal Botanic Garden Sydney",
+          "kind": "photo",
+          "detail": "植物园步行到Farm Cove，观察傍晚光线；不需要无人机。",
+          "photoTip": "24–120mm拍植物、树影和帆壳局部；16mm做环境构图。",
+          "lat": -33.864,
+          "lon": 151.217,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-garden-hours",
+            "i-garden-drone"
+          ]
+        },
+        {
+          "time": "17:45",
+          "endTime": "18:30",
+          "placeId": "mrs_macquarie",
+          "place": "Mrs Macquarie’s Chair观景区",
+          "kind": "meal",
+          "detail": "带简餐/水，或提前在市区用餐；提前到观景区挑不挡路的位置。",
+          "photoTip": "",
+          "lat": -33.86,
+          "lon": 151.222,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "18:30",
+          "endTime": "19:50",
+          "placeId": "mrs_macquarie",
+          "place": "Mrs Macquarie’s Chair观景区",
+          "kind": "photo",
+          "detail": "拍歌剧院与大桥同框；若还在园内，20:00关门前离开，回程不用封闭园门。",
+          "photoTip": "先24–50mm定构图，再70–120mm压缩；蓝调可脚架低ISO。",
+          "lat": -33.86,
+          "lon": 151.222,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-garden-hours"
+          ]
+        },
+        {
+          "time": "19:50",
+          "endTime": "21:30",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "返酒店与照片备份；不再加远端夜景。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        }
+      ],
+      "shortTitle": "海港与曼利",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 4,
+      "date": "2026-11-19",
+      "title": "海岸线半日，晚上早点收工",
+      "area": "悉尼",
+      "timezone": "澳东夏令时 UTC+11",
+      "hotelId": "camperdown",
+      "summary": "Bondi至Bronte慢走，下午回城休息，给次日早起留出睡眠。",
+      "drive": "公交/网约车＋约2–3km海岸步行",
+      "photoGoal": "海浪、岩壁、海滨泳池与朋友环境人像。",
+      "weatherPlan": "风雨大则取消海岸步道，改市区室内场馆；不靠近浪打礁石。",
+      "events": [
+        {
+          "time": "07:45",
+          "endTime": "09:00",
+          "placeId": "bondi",
+          "place": "Bondi Beach / Icebergs公共步道",
+          "kind": "transfer",
+          "detail": "早餐后去Bondi，跨城公交/网约车留45–60分钟。",
+          "photoTip": "",
+          "lat": -33.891,
+          "lon": 151.277,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "09:00",
+          "endTime": "11:45",
+          "placeId": "bronte",
+          "place": "Bronte Beach",
+          "kind": "photo",
+          "detail": "从Bondi沿公共步道走到Bronte，边拍边休息；无需走完整段到Coogee。",
+          "photoTip": "24–120mm为主，120mm拍浪和泳池纹理；16mm拍岩壁与海岸，但不跨越护栏。",
+          "lat": -33.904,
+          "lon": 151.268,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-bronte"
+          ]
+        },
+        {
+          "time": "11:45",
+          "endTime": "12:45",
+          "placeId": "bronte",
+          "place": "Bronte Beach",
+          "kind": "meal",
+          "detail": "午餐、补水，脚累就提前结束。",
+          "photoTip": "",
+          "lat": -33.904,
+          "lon": 151.268,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "12:45",
+          "endTime": "15:30",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "返回酒店午休，整理明日飞机用品和电池。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "16:00",
+          "endTime": "18:00",
+          "placeId": "darling_harbour",
+          "place": "Darling Harbour",
+          "kind": "photo",
+          "detail": "可选Darling Harbour建筑与街景；不追完整夜景。",
+          "photoTip": "24–70mm拍城市线条，光线一般就把时间留给晚饭。",
+          "lat": -33.874,
+          "lon": 151.201,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "18:00",
+          "endTime": "19:00",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "meal",
+          "detail": "回住宿附近吃晚餐；确认明早接送。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": []
+        },
+        {
+          "time": "19:00",
+          "endTime": "21:00",
+          "placeId": "camperdown",
+          "place": "Camperdown住宿区域",
+          "kind": "rest",
+          "detail": "收拾行李、充电、备份，21:00左右睡；不安排日出或午夜拍星。",
+          "photoTip": "",
+          "lat": -33.88702,
+          "lon": 151.17917,
+          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+          "sourceIds": [
+            "i-driver-rest"
+          ]
+        }
+      ],
+      "shortTitle": "邦迪海岸",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 5,
+      "date": "2026-11-20",
+      "title": "跨海到基督城，不当天长途自驾",
+      "area": "悉尼→基督城",
+      "timezone": "上午悉尼 UTC+11 / 下午新西兰 UTC+13",
+      "hotelId": "distinction",
+      "summary": "EK412上午起飞下午抵达；市区住一晚，恢复精神。",
+      "drive": "机场接送；当天不租车",
+      "photoGoal": "基督城河岸与市场轻量纪实，优先休息。",
+      "weatherPlan": "抵达遇雨或晚点就直接入住；晚间散步完全可取消。",
+      "events": [
+        {
+          "time": "05:15",
+          "endTime": "06:20",
+          "placeId": "syd_t1",
+          "place": "悉尼机场T1国际出发",
+          "kind": "transfer",
+          "detail": "悉尼当地05:15起床，约05:45离店，06:20到T1；具体预约依酒店位置与路况调整。",
+          "photoTip": "摄影包、电池与托运行李提前分好。",
+          "lat": -33.939,
+          "lon": 151.166,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-ek",
+            "i-emirates-drone"
+          ],
+          "timezone": "Australia/Sydney"
+        },
+        {
+          "time": "06:20",
+          "endTime": "08:20",
+          "placeId": "syd_t1",
+          "place": "悉尼机场T1国际出发",
+          "kind": "airport",
+          "detail": "悉尼当地值机、托运与安检，留约2小时40分；带Mini5Pro则机身按Emirates规则托运，备用电池随身防短路。",
+          "photoTip": "",
+          "lat": -33.939,
+          "lon": 151.166,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-ek",
+            "i-emirates-drone"
+          ],
+          "timezone": "Australia/Sydney"
+        },
+        {
+          "time": "09:00",
+          "endTime": "14:15",
+          "placeId": "syd_t1",
+          "place": "悉尼机场T1国际出发",
+          "kind": "flight",
+          "detail": "EK412 SYD09:00（澳东夏令时）→CHC14:15（新西兰夏令时），实际飞行3小时15分。",
+          "photoTip": "",
+          "lat": -33.939,
+          "lon": 151.166,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-ek"
+          ],
+          "timezone": "Australia/Sydney",
+          "endTimezone": "Pacific/Auckland",
+          "arrivalPlaceId": "chc_airport"
+        },
+        {
+          "time": "14:15",
+          "endTime": "16:00",
+          "placeId": "chc_airport",
+          "place": "基督城机场",
+          "kind": "arrival",
+          "detail": "入境、提行李、生物安全检查，之后进城；总共留约1小时45分缓冲，时间为规划值。",
+          "photoTip": "",
+          "lat": -43.489,
+          "lon": 172.532,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "16:00",
+          "endTime": "17:30",
+          "placeId": "distinction",
+          "place": "Distinction Christchurch住宿区域",
+          "kind": "rest",
+          "detail": "入住、洗澡、休息；明天才取车。",
+          "photoTip": "",
+          "lat": -43.5314831,
+          "lon": 172.6374377,
+          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+          "sourceIds": []
+        },
+        {
+          "time": "17:30",
+          "endTime": "19:15",
+          "placeId": "riverside_market",
+          "place": "Riverside Market / Avon River",
+          "kind": "meal",
+          "detail": "Riverside Market或附近餐馆晚餐，Avon河畔短走。",
+          "photoTip": "24–120mm手持纪实，雨天拍室内光影；不追求所有景点。",
+          "lat": -43.534,
+          "lon": 172.633,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-nz-route"
+          ]
+        },
+        {
+          "time": "19:15",
+          "endTime": "21:30",
+          "placeId": "distinction",
+          "place": "Distinction Christchurch住宿区域",
+          "kind": "rest",
+          "detail": "回酒店休息，核对次日租车、驾驶人材料与天气路况。",
+          "photoTip": "",
+          "lat": -43.5314831,
+          "lon": 172.6374377,
+          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+          "sourceIds": [
+            "i-road-conditions",
+            "i-weather"
+          ]
+        }
+      ],
+      "shortTitle": "飞往基督城",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 6,
+      "date": "2026-11-21",
+      "title": "中午取车，慢慢进入特卡波",
+      "area": "基督城→Tekapo",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "mantra",
+      "summary": "上午基督城短走，中午取车，下午到Tekapo；日落在约20:50。",
+      "drive": "自驾 · 约3.2小时纯驾驶",
+      "photoGoal": "湖岸、教堂外观与山湖晚光；可选短时月光夜景。",
+      "weatherPlan": "若D6晴D7雨，抵Tekapo后仅可把Pukaki南岸短停提前，取消同时间Tekapo外拍，并额外预留约1.5小时往返驾驶；司机疲劳则不去。整段Mt Cook不硬塞入D6。",
+      "events": [
+        {
+          "time": "08:30",
+          "endTime": "10:00",
+          "placeId": "chc_gardens",
+          "place": "Christchurch Botanic Gardens",
+          "kind": "photo",
+          "detail": "早餐后Botanic Gardens/河岸轻走，不赶付费活动。",
+          "photoTip": "24–120mm拍园林细节和河岸生活。",
+          "lat": -43.531,
+          "lon": 172.621,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "10:00",
+          "endTime": "11:15",
+          "placeId": "distinction",
+          "place": "Distinction Christchurch住宿区域",
+          "kind": "meal",
+          "detail": "回酒店取行李、退房，提前午餐；11:15左右前往实际租车点。",
+          "photoTip": "",
+          "lat": -43.5314831,
+          "lon": 172.6374377,
+          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+          "sourceIds": []
+        },
+        {
+          "time": "11:45",
+          "endTime": "12:30",
+          "placeId": "chc_airport",
+          "place": "基督城机场",
+          "kind": "rental",
+          "detail": "按机场取车规划；验车、拍已有伤痕、调座椅和导航，熟悉右舵后出发。若实际市区取车则省去机场往返。",
+          "photoTip": "验车照片单独建相册。",
+          "lat": -43.489,
+          "lon": 172.532,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "12:30",
+          "endTime": "14:15",
+          "placeId": "geraldine",
+          "place": "Geraldine镇中心",
+          "kind": "drive",
+          "detail": "CHC机场→Geraldine约1小时45分，路况与取车点影响时间。",
+          "photoTip": "",
+          "lat": -44.094,
+          "lon": 171.246,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-road-conditions",
+            "i-driver-rest"
+          ]
+        },
+        {
+          "time": "14:15",
+          "endTime": "14:45",
+          "placeId": "geraldine",
+          "place": "Geraldine镇中心",
+          "kind": "break",
+          "detail": "咖啡、厕所与步行伸展；不以赶日落为由跳过休息。",
+          "photoTip": "",
+          "lat": -44.094,
+          "lon": 171.246,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "14:45",
+          "endTime": "16:00",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "drive",
+          "detail": "经Fairlie到Tekapo，抵达后入住；全程尽量白天驾驶。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": [
+            "i-nz-route",
+            "i-road-conditions"
+          ]
+        },
+        {
+          "time": "16:00",
+          "endTime": "18:15",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "rest",
+          "detail": "休息、超市补给和早晚餐；不立即冲Cook山。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": []
+        },
+        {
+          "time": "19:30",
+          "endTime": "21:15",
+          "placeId": "good_shepherd",
+          "place": "Church of the Good Shepherd公共外部",
+          "kind": "photo",
+          "detail": "公共湖岸与教堂外部拍黄昏、日落和蓝调；11/21日落约20:51，具体地形遮挡会更早。",
+          "photoTip": "Z6III＋24–120mm先拍山层，再用16mm带湖岸前景；脚架用于蓝调，避开教堂私有/封闭区域。",
+          "lat": -44.003,
+          "lon": 170.482,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-tekapo-sun",
+            "i-nz-route"
+          ]
+        },
+        {
+          "time": "21:45",
+          "endTime": "22:15",
+          "placeId": "tekapo_lake",
+          "place": "Lake Tekapo镇区湖岸",
+          "kind": "photo_optional",
+          "detail": "仅在精神好、无风无雨且步行可达时，尝试30分钟暮光与月光湖景（天尚未全黑）；不承诺银河，不驾车追暗空。",
+          "photoTip": "这两晚月光较强，16mm+脚架更适合星月与山湖环境；若效果一般立即收工。",
+          "lat": -44.003,
+          "lon": 170.478,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-tekapo-moon"
+          ],
+          "optional": true
+        },
+        {
+          "time": "22:15",
+          "endTime": "22:45",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "rest",
+          "detail": "回房后睡觉，次日不设日出闹钟。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": [
+            "i-driver-rest"
+          ]
+        }
+      ],
+      "shortTitle": "特卡波湖",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 7,
+      "date": "2026-11-22",
+      "title": "Pukaki与Aoraki：以短步道换好照片",
+      "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "mantra",
+      "summary": "睡足后出发，拍Pukaki、Kea Point与Tasman Valley；不把三小时Hooker全程当必选。",
+      "drive": "自驾 · 约3小时纯驾驶",
+      "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
+      "weatherPlan": "早晨查MetService/NZTA/DOC。山被云遮且大雨/强风时取消入山，改Tekapo咖啡、室内暗空体验或温泉休息；Pukaki可改D8顺路拍。不以追晴为由穿越封闭步道。 想走Hooker Valley全程时，以其替换Kea Point与Tasman两项，至少留3小时步行加拍摄；不可全部叠加。",
+      "events": [
+        {
+          "time": "08:00",
+          "endTime": "09:00",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "meal",
+          "detail": "早餐与天气路况判断；前晚拍月光也能睡足8小时左右。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": [
+            "i-weather",
+            "i-road-conditions",
+            "i-driver-rest"
+          ]
+        },
+        {
+          "time": "09:00",
+          "endTime": "10:15",
+          "placeId": "pukaki_view",
+          "place": "Lake Pukaki南岸观景区",
+          "kind": "photo",
+          "detail": "开车到Pukaki南岸，合法停车后拍湖与远山，途中时间约45–50分钟。",
+          "photoTip": "70–120mm压缩山湖，24–35mm带湖岸；不要站在SH8/SH80路中间拍。",
+          "lat": -44.186,
+          "lon": 170.143,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-nz-route"
+          ]
+        },
+        {
+          "time": "10:15",
+          "endTime": "10:40",
+          "placeId": "peters_lookout",
+          "place": "Peters Lookout正式观景停车区",
+          "kind": "photo",
+          "detail": "沿SH80行驶后，在有空位的正式停车区短停。无安全停车位就跳过，不在公路中线取景。",
+          "photoTip": "24–35mm拍湖岸与山谷，70–120mm突出远处Aoraki主峰；倒影需要低风，湖水颜色也受光线影响。",
+          "lat": -44.08901,
+          "lon": 170.135833,
+          "coordinateStatus": "参考点，停车区入口以现场指示为准",
+          "sourceIds": [
+            "w-nztaRest"
+          ]
+        },
+        {
+          "time": "10:40",
+          "endTime": "11:30",
+          "placeId": "white_horse",
+          "place": "White Horse Hill停车区",
+          "kind": "drive",
+          "detail": "沿SH80到White Horse Hill；预留停车与厕所时间，停车费依现场牌示。",
+          "photoTip": "",
+          "lat": -43.72,
+          "lon": 170.092,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-doc-kea",
+            "i-road-conditions"
+          ]
+        },
+        {
+          "time": "11:30",
+          "endTime": "13:00",
+          "placeId": "kea_point",
+          "place": "Kea Point步道观景区",
+          "kind": "walk_photo",
+          "detail": "以Kea Point短步道为主，1.5小时为慢走拍照预算；体力一般可换Mueller Lookout更短折返。",
+          "photoTip": "24–120mm足够拍山脊与人物；16mm拍步道纵深，风大不用架高脚架。",
+          "lat": -43.71055,
+          "lon": 170.08428,
+          "coordinateStatus": "已核对观景点；非精确停车入口",
+          "sourceIds": [
+            "i-doc-kea",
+            "i-doc-hooker"
+          ]
+        },
+        {
+          "time": "13:00",
+          "endTime": "14:00",
+          "placeId": "mount_cook_village",
+          "place": "Aoraki/Mount Cook Village",
+          "kind": "meal",
+          "detail": "在村内吃午餐或自带简餐，留一小时坐下休息；天气一般可加游客中心而删下午步道。",
+          "photoTip": "",
+          "lat": -43.734,
+          "lon": 170.096,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "14:00",
+          "endTime": "15:15",
+          "placeId": "tasman_view",
+          "place": "Tasman Glacier Viewpoint步道停车区",
+          "kind": "walk_photo",
+          "detail": "可选Tasman Glacier Viewpoint短走；台阶湿滑/腿累则取消，改村内景观。",
+          "photoTip": "70–120mm拍冰川湖与山体纹理；照片优先级低于驾驶体力。",
+          "lat": -43.698,
+          "lon": 170.163,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "15:15",
+          "endTime": "17:00",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "drive",
+          "detail": "回Tekapo，途中需要就停正规休息点；不在山里等到日落再开夜路。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": [
+            "i-driver-rest",
+            "i-road-conditions"
+          ]
+        },
+        {
+          "time": "17:00",
+          "endTime": "19:45",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "rest",
+          "detail": "休息、晚餐和备份照片。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": []
+        },
+        {
+          "time": "19:45",
+          "endTime": "21:15",
+          "placeId": "tekapo_lake",
+          "place": "Lake Tekapo镇区湖岸",
+          "kind": "photo_optional",
+          "detail": "若D6已拍满意，这晚自由休息；否则补一组湖岸晚光。11/22日落约20:52。",
+          "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
+          "lat": -44.003,
+          "lon": 170.478,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-tekapo-sun"
+          ],
+          "optional": true
+        }
+      ],
+      "shortTitle": "普卡基与雪山",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 8,
+      "date": "2026-11-23",
+      "title": "穿过Lindis Pass，到皇后镇住下",
+      "area": "Tekapo→Queenstown",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "bluepeaks",
+      "summary": "不绕Wanaka，走Omarama、Lindis Pass、Cromwell；沿途少而精停靠。",
+      "drive": "自驾 · 约3.5小时纯驾驶",
+      "photoGoal": "公路山形、盆地层次和Wakatipu晚光；不追网红树绕路。",
+      "weatherPlan": "Lindis Pass遇恶劣天气按NZTA实时道路信息调整；不冒险走替代小路。若山湖多云，停留缩短，把时间给皇后镇休息。",
+      "events": [
+        {
+          "time": "08:00",
+          "endTime": "09:30",
+          "placeId": "mantra",
+          "place": "Mantra Lake Tekapo住宿区域",
+          "kind": "meal",
+          "detail": "早餐、打包、退房；09:30出发。",
+          "photoTip": "",
+          "lat": -44.006986,
+          "lon": 170.485883,
+          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "sourceIds": []
+        },
+        {
+          "time": "09:30",
+          "endTime": "11:15",
+          "placeId": "omarama",
+          "place": "Omarama休息区",
+          "kind": "drive",
+          "detail": "经Pukaki/Twizel到Omarama；若D7湖景未拍成，可在Pukaki正规观景区补20分钟，已拍好则直接走。",
+          "photoTip": "24–120mm短停即可，不在车道或无停车空间的路肩取景。",
+          "lat": -44.488,
+          "lon": 169.967,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-tekapo-qt-drive",
+            "i-road-conditions"
+          ]
+        },
+        {
+          "time": "11:15",
+          "endTime": "11:45",
+          "placeId": "omarama",
+          "place": "Omarama休息区",
+          "kind": "break",
+          "detail": "咖啡、厕所、伸展，司机休息。",
+          "photoTip": "",
+          "lat": -44.488,
+          "lon": 169.967,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-driver-rest"
+          ]
+        },
+        {
+          "time": "11:45",
+          "endTime": "12:40",
+          "placeId": "lindis_pass",
+          "place": "Lindis Pass观景区（停车入口以标识为准）",
+          "kind": "photo",
+          "detail": "约半小时驾驶后在正式观景停车区拍山坡线条，停约20分钟。",
+          "photoTip": "70–120mm拍山形压缩；风大不换镜、不放无人机。",
+          "lat": -44.58885,
+          "lon": 169.64304,
+          "coordinateStatus": "已核对观景点；非精确停车入口",
+          "sourceIds": [
+            "i-tekapo-qt-drive"
+          ]
+        },
+        {
+          "time": "12:40",
+          "endTime": "14:30",
+          "placeId": "cromwell",
+          "place": "Cromwell镇中心",
+          "kind": "meal",
+          "detail": "驶向Cromwell并午餐，包含约1小时车程与45分钟用餐。",
+          "photoTip": "",
+          "lat": -45.038,
+          "lon": 169.201,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "14:30",
+          "endTime": "15:30",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "drive",
+          "detail": "经Kawarau Gorge到Queenstown入住；不额外绕Arrowtown和Wanaka。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": [
+            "i-tekapo-qt-drive"
+          ]
+        },
+        {
+          "time": "15:30",
+          "endTime": "18:30",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "rest",
+          "detail": "洗澡、休息、晚餐；若次晨选择日出，今晚不再追日落，21:00前睡。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": []
+        },
+        {
+          "time": "20:00",
+          "endTime": "21:25",
+          "placeId": "queenstown_bay",
+          "place": "Queenstown Bay湖畔",
+          "kind": "photo_optional",
+          "detail": "步行到湖畔拍晚光；11/23日落约21:04，拍完步行回酒店。此项和次日日出二选一。",
+          "photoTip": "24–120mm拍山湖层次，16mm只在有明确近景时使用；脚架不要占满步道。",
+          "lat": -45.033,
+          "lon": 168.66,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-queenstown-sun"
+          ],
+          "optional": true,
+          "exclusiveGroup": "qt-sunset-or-sunrise"
+        },
+        {
+          "time": "21:25",
+          "endTime": "22:15",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "rest",
+          "detail": "回房、简单备份并睡觉；若拍了晚光，明早睡足再出发。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": []
+        }
+      ],
+      "shortTitle": "穿越林迪斯",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 9,
+      "date": "2026-11-24",
+      "title": "Glenorchy湖湾，给返程前留余裕",
+      "area": "Queenstown→Glenorchy→Queenstown",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "bluepeaks",
+      "summary": "默认不早起；上午Glenorchy慢行，下午返皇后镇休息。",
+      "drive": "自驾 · 约2小时纯驾驶",
+      "photoGoal": "红色船屋、湖湾倒影、湿地步道与山谷；不深入Paradise砂石路。",
+      "weatherPlan": "雨大或阵风强就改皇后镇市区咖啡、室内展馆与湖边短走；云低但无恶劣天气可只到近处观景点。 若更想拍高处湖湾全景，可用Skyline缆车替换Glenorchy整段，确认运营和天气后再买票；不在同一天硬塞两处。",
+      "events": [
+        {
+          "time": "05:30",
+          "endTime": "06:30",
+          "placeId": "queenstown_bay",
+          "place": "Queenstown Bay湖畔",
+          "kind": "photo_optional",
+          "detail": "全程唯一可选日出：仅当D8未拍晚光、已睡足时步行湖边；司机可继续睡。11/24日出约05:58。",
+          "photoTip": "16mm带前景，24–120mm拍晨光山层；不驾车赶机位。",
+          "lat": -45.033,
+          "lon": 168.66,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-queenstown-sun",
+            "i-driver-rest"
+          ],
+          "optional": true,
+          "exclusiveGroup": "qt-sunset-or-sunrise"
+        },
+        {
+          "time": "08:00",
+          "endTime": "09:30",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "meal",
+          "detail": "正常起床早餐；拍日出的人先休息，司机精神状态优先。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": []
+        },
+        {
+          "time": "09:30",
+          "endTime": "11:00",
+          "placeId": "glenorchy_wharf",
+          "place": "Glenorchy Wharf",
+          "kind": "drive",
+          "detail": "往Glenorchy，给湖岸正规观景点留20–30分钟；不随意路边停车。",
+          "photoTip": "短停用24–120mm拍湖湾；Bennetts Bluff只在开放且能安全停车时停。",
+          "lat": -44.851,
+          "lon": 168.383,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-glenorchy",
+            "i-road-conditions"
+          ]
+        },
+        {
+          "time": "11:00",
+          "endTime": "12:30",
+          "placeId": "glenorchy_lagoon",
+          "place": "Glenorchy Lagoon Walkway",
+          "kind": "walk_photo",
+          "detail": "船屋/码头外部加Lagoon Walkway轻量折返，不必走满长环线。",
+          "photoTip": "24–50mm倒影，70–120mm山峰与鸟类环境；不追逐鸟、不依赖无人机。",
+          "lat": -44.846,
+          "lon": 168.386,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-glenorchy-walk"
+          ]
+        },
+        {
+          "time": "12:30",
+          "endTime": "13:30",
+          "placeId": "glenorchy_wharf",
+          "place": "Glenorchy Wharf",
+          "kind": "meal",
+          "detail": "镇内午餐和休息，留意营业情况，可备简餐。",
+          "photoTip": "",
+          "lat": -44.851,
+          "lon": 168.383,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "13:30",
+          "endTime": "14:45",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "drive",
+          "detail": "原路回Queenstown；司机累就中途正规停车区休息。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": [
+            "i-glenorchy",
+            "i-driver-rest"
+          ]
+        },
+        {
+          "time": "14:45",
+          "endTime": "18:00",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "rest",
+          "detail": "至少两小时不赶景点，收拾行李、照片备份、核对次日飞机与还车。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": []
+        },
+        {
+          "time": "18:00",
+          "endTime": "19:30",
+          "placeId": "queenstown_bay",
+          "place": "Queenstown Bay湖畔",
+          "kind": "meal",
+          "detail": "湖畔晚餐后散步；如果前面已拍满意，今晚直接休息。",
+          "photoTip": "",
+          "lat": -45.033,
+          "lon": 168.66,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "20:15",
+          "endTime": "21:15",
+          "placeId": "queenstown_bay",
+          "place": "Queenstown Bay湖畔",
+          "kind": "photo_optional",
+          "detail": "仅在没拍日出、精神好时补最后一组湖景；步行返回，不开车追远处日落。",
+          "photoTip": "用24–120mm集中拍一两张，21:15收工；不拍午夜星空。",
+          "lat": -45.033,
+          "lon": 168.66,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-queenstown-sun"
+          ],
+          "optional": true
+        },
+        {
+          "time": "21:15",
+          "endTime": "22:00",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "rest",
+          "detail": "回酒店睡觉，给返程司机保留8小时左右睡眠。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": [
+            "i-driver-rest"
+          ]
+        }
+      ],
+      "shortTitle": "格林诺奇",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 10,
+      "date": "2026-11-25",
+      "title": "湖边收尾，提早还车接上海夜航",
+      "area": "Queenstown→Auckland→上海",
+      "timezone": "新西兰 UTC+13 / 次晨上海 UTC+8",
+      "hotelId": null,
+      "summary": "不再跨城拍摄；中午前还车，NZ626接NZ289留4小时45分。",
+      "drive": "市区→加油→还车 · 约45分钟驾驶，另留验车接驳",
+      "photoGoal": "简单晨间湖岸和旅行收尾；优先保证机场衔接。",
+      "weatherPlan": "天气不好就酒店休息到退房；机场受天气延误时保留时间处理航班，不追加景点。",
+      "events": [
+        {
+          "time": "08:00",
+          "endTime": "09:00",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "meal",
+          "detail": "早餐，核对NZ626/NZ289状态和行李直挂要求。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": [
+            "i-flight-nz"
+          ]
+        },
+        {
+          "time": "09:00",
+          "endTime": "10:00",
+          "placeId": "queenstown_gardens",
+          "place": "Queenstown Gardens",
+          "kind": "photo_optional",
+          "detail": "步行湖边/Queenstown Gardens短走，或直接休息；不安排日出和山路。",
+          "photoTip": "24–120mm一镜即可，避免开包摊开全部器材。",
+          "lat": -45.036,
+          "lon": 168.662,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [],
+          "optional": true
+        },
+        {
+          "time": "10:00",
+          "endTime": "10:45",
+          "placeId": "bluepeaks",
+          "place": "Blue Peaks住宿区域",
+          "kind": "packing",
+          "detail": "按酒店实际退房时间办理，清点行李，随后加油去还车。",
+          "photoTip": "",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+          "sourceIds": []
+        },
+        {
+          "time": "10:45",
+          "endTime": "12:00",
+          "placeId": "zqn_return",
+          "place": "加油站与皇后镇租车还车点",
+          "kind": "meal",
+          "detail": "按11/21中午12:00开始、11/25中午12:00结束的4个24小时规划，11:45前抵达实际门店验车。正式门店和合同计费时间确定后重排。",
+          "photoTip": "",
+          "lat": -45.022,
+          "lon": 168.739,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "12:00",
+          "endTime": "13:30",
+          "placeId": "zqn_airport",
+          "place": "皇后镇机场",
+          "kind": "rental_return",
+          "detail": "租车接驳到机场、午餐休息。若希望下午再还车，应按可能5天计费重新报价，而不是沿用4天预算。",
+          "photoTip": "",
+          "lat": -45.021,
+          "lon": 168.739,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "13:30",
+          "endTime": "16:30",
+          "placeId": "zqn_airport",
+          "place": "皇后镇机场",
+          "kind": "airport",
+          "detail": "13:30–14:30办理值机与托运，随后候机休息。按联程国际旅客的60分钟截止要求，最迟16:20前完成，不能把航班起飞时间当作值机截止时间。以出票后的航司通知为准。",
+          "photoTip": "相机随身；返程不再取无人机。",
+          "lat": -45.021,
+          "lon": 168.739,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-nz-checkin",
+            "i-flight-nz"
+          ]
+        },
+        {
+          "time": "17:20",
+          "endTime": "19:10",
+          "placeId": "zqn_airport",
+          "place": "皇后镇机场",
+          "kind": "flight",
+          "detail": "NZ626皇后镇→奥克兰，落地后直接转国际航站楼。",
+          "photoTip": "",
+          "lat": -45.021,
+          "lon": 168.739,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-nz"
+          ],
+          "arrivalPlaceId": "akl_airport"
+        },
+        {
+          "time": "19:10",
+          "endTime": "20:30",
+          "placeId": "akl_airport",
+          "place": "奥克兰机场国内/国际航站楼",
+          "kind": "transfer",
+          "detail": "预留出机舱、国内→国际航站楼转移和手续；已直挂PVG的行李不用在AKL重提，以现场行李条为准。",
+          "photoTip": "",
+          "lat": -37.008,
+          "lon": 174.791,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-akl-transfer"
+          ]
+        },
+        {
+          "time": "20:30",
+          "endTime": "22:30",
+          "placeId": "akl_airport",
+          "place": "奥克兰机场国内/国际航站楼",
+          "kind": "meal",
+          "detail": "国际航站楼晚餐、休息和登机前准备；不进奥克兰市区。",
+          "photoTip": "",
+          "lat": -37.008,
+          "lon": 174.791,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "23:55",
+          "endTime": "次日07:00",
+          "placeId": "akl_airport",
+          "place": "奥克兰机场国内/国际航站楼",
+          "kind": "flight",
+          "detail": "NZ289奥克兰→上海PVG，11/26上海当地07:00到达。",
+          "photoTip": "机上休息，别用整段航程修图。",
+          "lat": -37.008,
+          "lon": 174.791,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-nz"
+          ],
+          "endDate": "2026-11-26",
+          "endTimezone": "Asia/Shanghai",
+          "arrivalPlaceId": "pvg"
+        }
+      ],
+      "shortTitle": "启程回上海",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 11,
+      "date": "2026-11-26",
+      "title": "上海落地，结束十一日行程",
+      "area": "上海",
+      "timezone": "中国时间 UTC+8",
+      "hotelId": null,
+      "summary": "07:00到浦东，留出入境和提行李时间，回家休息。",
+      "drive": "机场接送",
+      "photoGoal": "旅行完成，不再增加拍摄任务。",
+      "weatherPlan": "航班晚点则顺延接送，不安排紧接着的国内交通或工作。",
+      "events": [
+        {
+          "time": "07:00",
+          "endTime": "09:00",
+          "placeId": "pvg",
+          "place": "上海浦东机场（航站楼以航司通知为准）",
+          "kind": "arrival",
+          "detail": "NZ289到达后入境、提行李；约两小时是规划缓冲，不是保证通关时间。",
+          "photoTip": "",
+          "lat": 31.144,
+          "lon": 121.808,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-flight-nz"
+          ]
+        },
+        {
+          "time": "09:00",
+          "endTime": "10:30",
+          "placeId": "pvg",
+          "place": "上海浦东机场（航站楼以航司通知为准）",
+          "kind": "transfer",
+          "detail": "机场接送回家，休息后再整理照片；不建议红眼后自行长途开车。",
+          "photoTip": "",
+          "lat": 31.144,
+          "lon": 121.808,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "i-driver-rest"
+          ]
+        }
+      ],
+      "shortTitle": "上海到达",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "camperdown",
+      "name": "Rydges Camperdown",
+      "lat": -33.88702,
+      "lon": 151.17917,
+      "address": "9 Missenden Road, Camperdown NSW 2050, Australia",
+      "sourceUrl": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "coordinateNote": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
+      "coordinateSource": "https://mapcarta.com/25331992",
+      "checkin": "2026-11-17",
+      "checkout": "2026-11-20",
+      "nights": 3,
+      "beds": "家庭房29㎡ · 1大床＋2单人床",
+      "price": "3人总AUD1,003≈¥4,713",
+      "cancel": "Booking报价：11/16前免费取消，具体截止时间以订单为准。"
+    },
+    {
+      "id": "distinction",
+      "name": "Distinction Christchurch Hotel",
+      "lat": -43.5314831,
+      "lon": 172.6374377,
+      "address": "14 Cathedral Square, Christchurch Central 8011, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/distinction-christchurch.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
+      "coordinateNote": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+      "coordinateSource": "https://www.distinctionhotelschristchurch.co.nz/x,17,4131/",
+      "checkin": "2026-11-20",
+      "checkout": "2026-11-21",
+      "nights": 1,
+      "beds": "家庭套房63㎡ · 1特大床＋2大床",
+      "price": "3人总NZD646.75≈¥2,466（含卡费估算）",
+      "cancel": "11/19前免费取消；11/17付款期限，以订单为准。"
+    },
+    {
+      "id": "mantra",
+      "name": "Mantra Lake Tekapo",
+      "lat": -44.006986,
+      "lon": 170.485883,
+      "address": "1 Beauchamp Place, Lake Tekapo 7999, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/mantra-lake-tekapo.zh-cn.html?checkin=2026-11-21&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1",
+      "coordinateNote": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+      "coordinateSource": "https://all.accor.com/hotel/B3M7/index.en.shtml",
+      "checkin": "2026-11-21",
+      "checkout": "2026-11-23",
+      "nights": 2,
+      "beds": "三卧公寓158㎡ · 2大床＋2单人床",
+      "price": "3人总NZD1,306≈¥4,979",
+      "cancel": "此低价不可退；等三人签证与NZeTA齐后再决定。"
+    },
+    {
+      "id": "bluepeaks",
+      "name": "Blue Peaks Apartments",
+      "lat": -45.03301,
+      "lon": 168.66448,
+      "address": "11 Sydney Street, Queenstown, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-25&group_adults=3&group_children=0&no_rooms=1",
+      "coordinateNote": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
+      "coordinateSource": "https://mapcarta.com/W1289569912",
+      "checkin": "2026-11-23",
+      "checkout": "2026-11-25",
+      "nights": 2,
+      "beds": "两卧两卫100㎡ · 1双人床＋2单人床",
+      "price": "3人总NZD1,555.49≈¥5,930（含卡费估算）",
+      "cancel": "11/21前免费取消；11/19付款期限，以订单为准。"
+    }
+  ],
+  "photos": [
+    {
+      "id": "mrs_macquarie",
+      "title": "麦考利夫人座椅一带：歌剧院与海港大桥",
+      "place": "Mrs Macquaries Point, Sydney",
+      "lat": -33.859374,
+      "lon": 151.22182,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Mrs_Macquaries_Chair_%286861982111%29.jpg/1280px-Mrs_Macquaries_Chair_%286861982111%29.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mrs_Macquaries_Chair_%286861982111%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mrs_Macquaries_Chair_(6861982111).jpg",
+      "author": "popejon2 from Paddington, Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "树枝框景下的悉尼歌剧院与海港大桥，黑白照片。",
+      "seasonNote": "2012年2月，澳洲夏季；黑白真实摄影，非11月实景。",
+      "shootingTip": "24–35mm把海港大桥与歌剧院放在同一幅画面；先找不遮挡主体的岸边位置，50–70mm再拍建筑关系。三脚架用于日落后；16mm通常不必。",
+      "day": 3,
+      "hero": false,
+      "dateTaken": "2012-02-05 18:34",
+      "visualChecked": true,
+      "sourceTitle": "File:Mrs Macquaries Chair (6861982111).jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Mrs_Macquaries_Chair_(6861982111).jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "circular_quay",
+      "title": "环形码头：蓝调时刻的渡轮与海港",
+      "place": "Circular Quay, Sydney",
+      "lat": -33.861231,
+      "lon": 151.210756,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Circular_Quay_from_train_station_after_sunset.jpg/1280px-Circular_Quay_from_train_station_after_sunset.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Circular_Quay_from_train_station_after_sunset.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circular_Quay_from_train_station_after_sunset.jpg",
+      "author": "Dicklyon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "蓝调时刻的环形码头、渡轮、海港大桥与歌剧院。",
+      "seasonNote": "2024年3月30日，澳洲秋季；可参考蓝调构图，11月的落日方位和时间不同。",
+      "shootingTip": "24–35mm保留前景渡轮和远处海港；50–120mm挑选船与大桥。该参考从车站拍摄，现场遵守站台规则、不要阻挡客流；岸边三脚架可拍灯光。",
+      "day": 2,
+      "hero": false,
+      "dateTaken": "2024-03-30 19:17:35",
+      "visualChecked": true,
+      "sourceTitle": "File:Circular Quay from train station after sunset.jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Circular_Quay_from_train_station_after_sunset.jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "bondi",
+      "title": "邦迪 Icebergs：泳池、浪花和色彩",
+      "place": "Bondi Icebergs, Sydney",
+      "lat": -33.894996,
+      "lon": 151.27434,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Bondi_Icebergs_POOL%2C_Bondi_Beach%2C_Australia_%28Unsplash%29.jpg/1280px-Bondi_Icebergs_POOL%2C_Bondi_Beach%2C_Australia_%28Unsplash%29.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bondi_Icebergs_POOL%2C_Bondi_Beach%2C_Australia_%28Unsplash%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_POOL,_Bondi_Beach,_Australia_(Unsplash).jpg",
+      "author": "Mike Wilson mkwlsn",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "alt": "邦迪Icebergs泳池边缘、蓝绿色海水和拍岸浪，竖幅。",
+      "seasonNote": "2017年3月26日，澳洲秋季；海浪、泳池开放和水色随当天条件变化。",
+      "shootingTip": "在上方公共步道用50–120mm挑泳池几何与浪花，24mm拍海滩全景。参考中的池边位置不是站位建议，不跨栏、不靠近拍岸浪。",
+      "day": 4,
+      "hero": false,
+      "dateTaken": "2017-03-26",
+      "visualChecked": true,
+      "sourceTitle": "File:Bondi Icebergs POOL, Bondi Beach, Australia (Unsplash).jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_POOL,_Bondi_Beach,_Australia_(Unsplash).jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "manly",
+      "title": "曼利：海滩弧线与雨后天空",
+      "place": "Manly Beach, Sydney",
+      "lat": -33.79768,
+      "lon": 151.28947,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/A_Rainbow_over_Manly_Beach_%285273210189%29.jpg/1280px-A_Rainbow_over_Manly_Beach_%285273210189%29.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/A_Rainbow_over_Manly_Beach_%285273210189%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Rainbow_over_Manly_Beach_(5273210189).jpg",
+      "author": "Nigel Howe from Sydney, Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "曼利海滩的宽幅全景，天空有淡淡的彩虹。",
+      "seasonNote": "2010年12月16日，初夏；作者说明约12张拼接。彩虹是偶遇，不承诺复现。",
+      "shootingTip": "24–35mm先拍单张海滩弧线；想做长幅可用35–50mm竖拍、锁定曝光后连续拼接。带三脚架即可，不必为全景专门上16mm。",
+      "day": 3,
+      "hero": false,
+      "dateTaken": "2010-12-16 19:03",
+      "visualChecked": true,
+      "sourceTitle": "File:A Rainbow over Manly Beach (5273210189).jpg",
+      "coordinateSource": "https://mapcarta.com/16663410",
+      "coordinateNote": "OpenStreetMap海滩面近似中心；源图无相机GPS，并非原摄影者精确站位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "christchurch",
+      "title": "基督城：艾芬河春季绿意",
+      "place": "Avon River / Ōtākaro, Christchurch",
+      "lat": -43.531943,
+      "lon": 172.621875,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Avon_River_in_Christchurch_09.jpg/1280px-Avon_River_in_Christchurch_09.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Avon_River_in_Christchurch_09.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "基督城艾芬河、春季绿色树冠与河面倒影。",
+      "seasonNote": "2017年11月16日，南半球春季；月份与行程相同，树冠、水位和天气仍会变化。",
+      "shootingTip": "24–35mm让河道形成引导线；70–120mm拍垂枝、倒影和小船。城市轻松散步优先手持，水面长曝再架脚架。",
+      "day": 6,
+      "hero": false,
+      "dateTaken": "2017-11-16 02:21:12",
+      "visualChecked": true,
+      "sourceTitle": "File:Avon River in Christchurch 09.jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "good_shepherd",
+      "title": "特卡波：好牧羊人教堂与11月花色",
+      "place": "Church of the Good Shepherd, Lake Tekapo",
+      "lat": -44.002719,
+      "lon": 170.482011,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Church_of_the_Good_Shepherd_Lake_Tekapo.jpg/1280px-Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
+      "author": "Vincent60030",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "好牧羊人教堂、云层，以及前景紫色鲁冰花。",
+      "seasonNote": "2019年11月20日；图中确有鲁冰花，但2026年的花期、数量和管理情况不能保证。",
+      "shootingTip": "24–35mm保留教堂与天空，50–70mm减少杂乱前景；只在允许步道拍摄，不踩花丛。16mm仅在需要很近的前景时选用，避免教堂被拉得过小。",
+      "day": 6,
+      "hero": false,
+      "dateTaken": "2019-11-20 12:10:21",
+      "visualChecked": true,
+      "sourceTitle": "File:Church of the Good Shepherd Lake Tekapo.jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "peters_lookout",
+      "title": "Peters Lookout：普卡基湖与库克山",
+      "place": "Peters Lookout, Lake Pukaki",
+      "lat": -44.08901,
+      "lon": 170.135833,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mt_Cook_from_Peters_Lookout.jpg/1280px-Mt_Cook_from_Peters_Lookout.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mt_Cook_from_Peters_Lookout.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Cook_from_Peters_Lookout.jpg",
+      "author": "Francis Vallance (Heritage Warrior)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "alt": "普卡基湖蓝色湖面、南阿尔卑斯山和库克山主峰倒影。",
+      "seasonNote": "2015年11月13日；月份匹配。晴空、低风和倒影属于当时条件，不能保证。",
+      "shootingTip": "24–35mm交代湖岸；70–120mm强调远处库克山并压缩山层。想要长横幅可用50mm拼接，三脚架在低风时有帮助；16mm会让远山显小。",
+      "day": 7,
+      "hero": true,
+      "dateTaken": "2015-11-13 17:36:35",
+      "visualChecked": true,
+      "sourceTitle": "File:Mt Cook from Peters Lookout.jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Mt_Cook_from_Peters_Lookout.jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "kea_point",
+      "title": "Kea Point：塞夫顿山冰雪细节",
+      "place": "Kea Point, Aoraki / Mount Cook National Park",
+      "lat": -43.71055,
+      "lon": 170.08428,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Sefton_from_Kea_Point_02.jpg/1280px-Mount_Sefton_from_Kea_Point_02.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mount_Sefton_from_Kea_Point_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Sefton_from_Kea_Point_02.jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": "从Kea Point拍摄的塞夫顿山雪坡与冰川细节。",
+      "seasonNote": "2017年11月17日；同为春季。此图主体是Mount Sefton塞夫顿山，并非Aoraki/库克山主峰；积雪与冰川变化明显。",
+      "shootingTip": "70–120mm选取雪山和冰川层次，120mm仍不够紧时可适度裁切；24–35mm补拍步道环境。建议焦段并非源片EXIF，不能保证复刻这张近景。",
+      "day": 7,
+      "hero": false,
+      "dateTaken": "2017-11-17 02:39:58",
+      "visualChecked": true,
+      "sourceTitle": "File:Mount Sefton from Kea Point 02.jpg",
+      "coordinateSource": "https://mapcarta.com/N1313378949",
+      "coordinateNote": "OpenStreetMap观景点；与Commons相机GPS相距约几十米，地图采用观景点位置。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "lindis",
+      "title": "林迪斯山口：草坡与公路曲线",
+      "place": "Lindis Pass",
+      "lat": -44.58885,
+      "lon": 169.64304,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Lindis_pass.JPG/1280px-Lindis_pass.JPG",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Lindis_pass.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lindis_pass.JPG",
+      "author": "William M. Connolley",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "林迪斯山口公路与起伏的草坡。",
+      "seasonNote": "2005年12月14日，初夏；这是较早的山形参考，11月草色、积雪和道路设施可能不同。",
+      "shootingTip": "仅在指定停车区停车并沿步道取景；用50–120mm拍山脊层次，24–35mm拍宽阔山谷。这张道路中央视角只参考地貌，勿模仿站在车道中拍照。",
+      "day": 8,
+      "hero": false,
+      "dateTaken": "2005-12-14",
+      "visualChecked": true,
+      "sourceTitle": "File:Lindis pass.JPG",
+      "coordinateSource": "https://mapcarta.com/N4773885821",
+      "coordinateNote": "OpenStreetMap山口观景点；源图拍摄于附近公路，地图标合法观景点而非道路中央原机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "queenstown",
+      "title": "皇后镇：高处俯瞰瓦卡蒂普湖",
+      "place": "Queenstown Skyline upper area",
+      "lat": -45.02683,
+      "lon": 168.64956,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Lake_Wakatipu_from_Queenstown_gondola.jpg/1280px-Lake_Wakatipu_from_Queenstown_gondola.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Lake_Wakatipu_from_Queenstown_gondola.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_from_Queenstown_gondola.jpg",
+      "author": "Avenue",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "alt": "从皇后镇缆车上方区域俯瞰城镇、湖湾与远山的宽幅全景。",
+      "seasonNote": "2009年12月22日，初夏；照片较早，城市和缆车设施已变化，适合参考湖山格局。 本图是缆车上站视角；与Glenorchy日游二选一替换，不能在湖畔复刻此高度。",
+      "shootingTip": "24–35mm拍湖湾与城镇；70–120mm挑半岛、船只和山层。长横幅可用35–50mm拼接；平台使用三脚架时留出通行空间。",
+      "day": 9,
+      "hero": false,
+      "dateTaken": "2009-12-22",
+      "visualChecked": true,
+      "sourceTitle": "File:Lake Wakatipu from Queenstown gondola.jpg",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_from_Queenstown_gondola.jpg",
+      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "glenorchy",
+      "title": "格林诺奇：码头引导线与雪山金光",
+      "place": "Glenorchy Wharf",
+      "lat": -44.85156,
+      "lon": 168.38143,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Golden_moment_-_Glenorchy_Wharf.jpg/1280px-Golden_moment_-_Glenorchy_Wharf.jpg",
+      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Golden_moment_-_Glenorchy_Wharf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_moment_-_Glenorchy_Wharf.jpg",
+      "author": "Jamie Wang",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "alt": "格林诺奇木码头通往湖面，远山带金色光线并映在静水中。",
+      "seasonNote": "2022年11月10日；月份匹配。雪量、静水和金光仍取决于当天天气，此图是他人历史摄影参考。 本行程白天到访，重点参考码头构图；不承诺照片中的金光，不为复现晚光夜间开山路。",
+      "shootingTip": "24–35mm让栈桥通向远山，50–85mm压缩山体与码头；三脚架可帮助低ISO拍摄静水。16mm可强化近处栏杆，但容易让雪山显小。",
+      "day": 9,
+      "hero": false,
+      "dateTaken": "2022-11-10 20:28:16",
+      "visualChecked": true,
+      "sourceTitle": "File:Golden moment - Glenorchy Wharf.jpg",
+      "coordinateSource": "https://mapcarta.com/W1289096084",
+      "coordinateNote": "OpenStreetMap码头位置；源图自带GPS偏到码头北方，未照抄该GPS。地图点为码头近似中心。",
+      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
+      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    }
+  ],
+  "light": [
+    {
+      "place": "Sydney",
+      "date": "2026-11-17",
+      "sunrise": "05:42",
+      "sunset": "19:37",
+      "blueHour": "清晨05:15–05:42；傍晚19:37–20:05（民用曙暮光宽窗口）",
+      "civilDawn": "05:15",
+      "civilDusk": "20:05",
+      "astronomicalDawn": "04:06",
+      "astronomicalDusk": "21:14",
+      "timezone": "Australia/Sydney",
+      "tzLabel": "AEDT UTC+11",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunSydney"
+      ],
+      "area": "悉尼",
+      "note": "清晨05:15–05:42；傍晚19:37–20:05（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Sydney",
+      "date": "2026-11-18",
+      "sunrise": "05:42",
+      "sunset": "19:38",
+      "blueHour": "清晨05:14–05:42；傍晚19:38–20:06（民用曙暮光宽窗口）",
+      "civilDawn": "05:14",
+      "civilDusk": "20:06",
+      "astronomicalDawn": "04:05",
+      "astronomicalDusk": "21:16",
+      "timezone": "Australia/Sydney",
+      "tzLabel": "AEDT UTC+11",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunSydney"
+      ],
+      "area": "悉尼",
+      "note": "清晨05:14–05:42；傍晚19:38–20:06（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Sydney",
+      "date": "2026-11-19",
+      "sunrise": "05:41",
+      "sunset": "19:39",
+      "blueHour": "清晨05:13–05:41；傍晚19:39–20:07（民用曙暮光宽窗口）",
+      "civilDawn": "05:13",
+      "civilDusk": "20:07",
+      "astronomicalDawn": "04:04",
+      "astronomicalDusk": "21:17",
+      "timezone": "Australia/Sydney",
+      "tzLabel": "AEDT UTC+11",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunSydney"
+      ],
+      "area": "悉尼",
+      "note": "清晨05:13–05:41；傍晚19:39–20:07（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Lake Tekapo",
+      "date": "2026-11-21",
+      "sunrise": "05:57",
+      "sunset": "20:51",
+      "blueHour": "清晨05:23–05:57；傍晚20:51–21:25（民用曙暮光宽窗口）",
+      "civilDawn": "05:23",
+      "civilDusk": "21:25",
+      "astronomicalDawn": "03:49",
+      "astronomicalDusk": "22:59",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunTekapo"
+      ],
+      "area": "基督城→Tekapo",
+      "note": "清晨05:23–05:57；傍晚20:51–21:25（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Lake Tekapo",
+      "date": "2026-11-22",
+      "sunrise": "05:56",
+      "sunset": "20:52",
+      "blueHour": "清晨05:22–05:56；傍晚20:52–21:26（民用曙暮光宽窗口）",
+      "civilDawn": "05:22",
+      "civilDusk": "21:26",
+      "astronomicalDawn": "03:48",
+      "astronomicalDusk": "23:01",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunTekapo"
+      ],
+      "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
+      "note": "清晨05:22–05:56；傍晚20:52–21:26（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Queenstown",
+      "date": "2026-11-23",
+      "sunrise": "05:59",
+      "sunset": "21:04",
+      "blueHour": "清晨05:24–05:59；傍晚21:04–21:39（民用曙暮光宽窗口）",
+      "civilDawn": "05:24",
+      "civilDusk": "21:39",
+      "astronomicalDawn": "03:45",
+      "astronomicalDusk": "23:19",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunQT"
+      ],
+      "area": "Tekapo→Queenstown",
+      "note": "清晨05:24–05:59；傍晚21:04–21:39（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Queenstown",
+      "date": "2026-11-24",
+      "sunrise": "05:58",
+      "sunset": "21:05",
+      "blueHour": "清晨05:23–05:58；傍晚21:05–21:41（民用曙暮光宽窗口）",
+      "civilDawn": "05:23",
+      "civilDusk": "21:41",
+      "astronomicalDawn": "03:43",
+      "astronomicalDusk": "23:21",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunQT"
+      ],
+      "area": "Queenstown→Glenorchy→Queenstown",
+      "note": "清晨05:23–05:58；傍晚21:05–21:41（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Queenstown",
+      "date": "2026-11-25",
+      "sunrise": "05:57",
+      "sunset": "21:07",
+      "blueHour": "清晨05:22–05:57；傍晚21:07–21:42（民用曙暮光宽窗口）",
+      "civilDawn": "05:22",
+      "civilDusk": "21:42",
+      "astronomicalDawn": "03:41",
+      "astronomicalDusk": "23:24",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunQT"
+      ],
+      "area": "Queenstown→Auckland→上海",
+      "note": "清晨05:22–05:57；傍晚21:07–21:42（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    }
+  ],
+  "gear": [
+    {
+      "title": "24–120mm，是这次的主力",
+      "body": "24–35mm拍海港、湖岸和朋友环境人像；50–120mm挑出雪山、云层和山坡曲线。阴天尤其适合收紧画面。参考照片的建议焦段是构图建议，不是原作者EXIF。",
+      "sourceIds": []
+    },
+    {
+      "title": "16mm值得带，但不是必需",
+      "body": "你已有16mm且愿意多带一枚时，推荐带上：适合带前景的教堂/湖岸、海港大场景与窄街建筑。画面里没有好前景时，用24–120mm会让远山更有存在感。",
+      "sourceIds": []
+    },
+    {
+      "title": "脚架带，无人机不作主力",
+      "body": "脚架用于蓝调、低ISO湖景和合影；强风下缩低脚架，不稳就提高快门。Mini5Pro只适合你愿意提前完成逐点许可并接受全程不飞时携带。",
+      "sourceIds": [
+        "w-caaFAQ",
+        "w-docDrone",
+        "w-mackenzieDrone"
+      ]
+    }
+  ],
+  "weather": {
+    "highlight": {
+      "title": "这次追月光与蓝调，\n不熬夜等银河。",
+      "body": "特卡波11/21、22两晚接近满月：月亮落下时，天文晨光已经开始，基本没有无月的全黑窗口。把拍摄重心放在20:50左右的湖山晚光、教堂外观和短时间暮光/月光风景。满月、低云和阵风都不会因为“暗空保护区”而消失。",
+      "sourceIds": [
+        "w-moonTekapo",
+        "w-sunTekapo"
+      ]
+    },
+    "cards": [
+      {
+        "title": "悉尼11月：温和偏暖，仍可能下雨",
+        "body": "BOM Sydney Airport长期平均11月日最高24.3°C、日最低15.6°C，月雨量80.7mm。用约16–24°C理解常年日夜平均水平；这不是当天温度上下限，也不是海港机位保证。早晚海风可冷，准备薄防风防雨层。",
+        "sourceIds": [
+          "w-bomSydney"
+        ]
+      },
+      {
+        "title": "南岛11月：春末，早晚冷、白昼长",
+        "body": "Queenstown 1991–2020常年11月日最高约17.9°C、日最低7.3°C。Tekapo本次未拿到可逐项读取的同周期常年绝对高低温表；NIWA资料确认11月平均日较差约12°C，Air Safaris站2023/2024年11月平均高/低分别18.0/4.2°C、18.5/4.6°C。Tekapo约5–18°C可作穿衣规划参考，但后两组只是历史实测例子，不冒充30年常年值。高山及湖边风寒明显，冷空气时可低于0°C。",
+        "sourceIds": [
+          "w-niwaQTmax",
+          "w-niwaQTmin",
+          "w-niwaCanterbury",
+          "w-niwaTekapo2023",
+          "w-niwaTekapo2024"
+        ]
+      },
+      {
+        "title": "库克山不能套用Tekapo镇的天气",
+        "body": "DOC说明Aoraki山区全年均可能出现大风、大雨、降雪和快速温度变化。东侧湖区较干不等于山内晴；山口、峡谷与湖面阵风会更强。带防水外壳、保暖中层、帽手套和头灯；不用夏季衣物独自守夜。",
+        "sourceIds": [
+          "w-docHooker",
+          "w-niwaInland"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "Hooker Valley已重开，旧关闭消息失效",
+        "body": "DOC当前步道页确认第二座189米新吊桥已于2026年7月开放；7月22日公告的开放日为7月28日。9月22日最新管理新闻要求第一座老桥同时不超过20人，并计划设置限流门。当前可规划走至Hooker Lake，约10km往返、纯步行约3小时，拍摄另加时间；现场临时封闭、限流和天气仍优先。",
+        "sourceIds": [
+          "w-docHooker",
+          "w-docHookerOpen",
+          "w-docHookerGate"
+        ]
+      },
+      {
+        "title": "不深度徒步可选短步道",
+        "body": "Kea Point从White Horse Hill营地往返约1小时；Tasman Glacier View从Blue Lakes停车场往返约40分钟、上升约100m并有台阶；Governors Bush为1.2km环线约1小时，较背风；Bowen Bush约10分钟。晴天在Kea/Tasman中选1–2条即可，Hooker是替代项，不要所有步道叠加。普通阴天可选林间；强风暴雨或树木风险时林间也不作为避险点。",
+        "sourceIds": [
+          "w-docKea",
+          "w-docGovernors",
+          "w-docWalks"
+        ]
+      },
+      {
+        "title": "SH80、Lindis Pass、SH6当天检查",
+        "body": "SH80可能因雪关闭；Lindis Pass为SH8高海拔路段，春季仍有雪、冰和突变天气实例。南行默认经Omarama—Lindis—Cromwell—SH6 Kawarau Gorge—Queenstown；SH6峡谷段关注落石、事故、临时管制和阴影结冰。不要把另一路SH6 Haast Pass的警报直接当本路线；也别因拍照临时绕更高的Crown Range。闭路时不自行绕障碍或走小路，服从NZTA指定绕行/延后。",
+        "sourceIds": [
+          "w-docHooker",
+          "w-nztaSpring",
+          "w-nztaOperations",
+          "w-nztaRoads"
+        ]
+      },
+      {
+        "title": "花季只作为附加收获",
+        "body": "DOC物种资料给Russell lupin一般开花范围11月至2月；11月下旬在季节范围内，不等于2026年某机位已大片盛开。花量会受天气、位置和清除管理影响。它是入侵植物，不采种传播；不跨围栏、不踩脆弱植被，不把公路边停车拍花列为动作。",
+        "sourceIds": [
+          "w-docLupin",
+          "w-nztaRest"
+        ]
+      },
+      {
+        "title": "什么时候直接取消户外",
+        "body": "目标区域出现Orange/Red大风、大雨、大雪警报，或道路/步道关闭时，取消该处外拍；回住宿或安全室内。林间、桥上和湖岸不是暴风雨避险替代。出发前3天、前一晚、当天出门前各查一次。",
+        "sourceIds": [
+          "w-metWarnings",
+          "w-metExplainer",
+          "w-nztaRoads"
+        ]
+      },
+      {
+        "title": "轻旅行的天气代价",
+        "body": "南岛只有5晚，库克山核心只安排1天，无法保证等到主峰露出。D7不行就改湖岸细节；D8可顺路补Pukaki，但不回山里重走长线。回程日不补远端机位。",
+        "sourceIds": [
+          "w-docHooker",
+          "w-nztaRoads"
+        ]
+      },
+      {
+        "title": "库克山一天留足时间，按正式停车区停车",
+        "body": "DOC列Tekapo至White Horse Hill约1.5小时单程。往返开车已约3小时，配长步道就是一天。White Horse Hill收费NZD2.50/半小时或25/日，超过20分钟需抵达时付费，只收卡。NZTA已改进SH80 Peter’s Lookout、Acland Lagoon等停车区；只在合法停车位停，不站公路中线拍引导线。",
+        "sourceIds": [
+          "w-docHooker",
+          "w-nztaRest"
+        ]
+      }
+    ]
+  },
+  "before": [
+    {
+      "title": "01 / 会合：朋友提前一晚到悉尼",
+      "body": "11/16、17东京均查到JL51，19:15从羽田起飞、次日06:50到悉尼；主方案与你的HO1669同到达时刻。墨尔本11/17已见最早06:00→07:25，无法比你06:50落地更早。推荐朋友11/16晚到悉尼，自己安排前晚住宿，17日上午在T1公共到达大厅接人。朋友只能在你出关后会合，提前准备英文酒店地址、回程票和离线翻译。",
+      "sourceIds": [
+        "i-flight-tokyo16",
+        "i-flight-tokyo17",
+        "i-mel-early",
+        "i-syd-transfer"
+      ]
+    },
+    {
+      "title": "02 / 签证齐全，再买不可退住宿",
+      "body": "此页假设11/2同伴澳签已下，不是获批承诺。每人自行确认护照、澳签及NZeTA；先实际入境澳洲，再直飞新西兰。当前试点在评估及下一步决定前继续适用，不能把11/3当作自动失效日。NZeTA至少预留72小时。Mantra低价不可退，其他酒店也要看具体取消截止时间。",
+      "sourceIds": [
+        "visa",
+        "nzeta"
+      ]
+    },
+    {
+      "title": "03 / 无人机：两种许可都要看",
+      "body": "新西兰小于249g也无一般豁免。CAA空域与目视等要求、土地/人员同意同时满足；AirShare批准不代替地主同意。Tekapo有特定禁飞区，Pukaki多处涉及Meridian土地，Aoraki保护地需DOC许可；Queenstown/Glenorchy公地和附近机场另有限制。本手册没有任何“已获准可飞点”。",
+      "sourceIds": [
+        "w-caaFAQ",
+        "w-mackenzieDrone",
+        "w-docDrone",
+        "w-qldcDrone",
+        "w-airshare"
+      ]
+    },
+    {
+      "title": "04 / 无人机上飞机：EK412特别注意",
+      "body": "Emirates当前规定无人机机身不得随身，只能托运；若带Mini5Pro，要有硬保护并按航司要求处理电池。备用锂电池随身、单独防短路，按实际Wh和数量核对每家执飞航司。上海这张HO报价手提仅1×5kg，Z6III＋镜头＋脚架＋无人机容易超重：出发前称包，脚架可托运，贵重机身镜头尽量随身。",
+      "sourceIds": [
+        "i-emirates-drone",
+        "i-airnz-battery",
+        "i-flight-shanghai"
+      ]
+    },
+    {
+      "title": "05 / 租车、徒步与睡眠",
+      "body": "悉尼用步行/渡轮/公共交通；新西兰租车两位驾驶人都写进合同，原驾照与合格英文翻译/正式IDP随身。按中午取车、中午还车4个24小时规划，延后还车重核费用。每约2小时休息，清晨拍摄不强制司机参加；不站公路中线，不涉冰川湖，不为构图越栏。鞋底和脚架脚清理泥土，按NZTD如实申报。 中国大陆驾照需原件＋NZTA认可英文翻译；日本驾照持有人带原件＋日本签发的正式IDP。按出发日年龄，两位驾驶人分别按25岁及24岁核查。",
+      "sourceIds": [
+        "nzta-license",
+        "i-driver-rest",
+        "w-nztaRest",
+        "nztd"
+      ]
+    },
+    {
+      "title": "06 / 预算和备份，留一点弹性",
+      "body": "沿用10/21实查主方案，你个人约¥23,800–26,200；机票住宿实查小计约¥18,182，其他为规划估算与机动预留；均未锁价。酒店8晚总约AUD1,003＋NZD3,508，三人均摊约¥6,029。现金每人AUD100–200＋NZD200–400≈¥1,232–2,465；可先换AUD150＋NZD300≈¥1,849，属于消费预算的一部分。每天回房备份两份，别清空唯一存储卡；准备防雨罩、擦镜布、保暖层、帽手套、防晒、头灯与备用电池。",
+      "sourceIds": [
+        "boc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "i-flight-shanghai",
+      "title": "携程：11/16 HO1669上海至悉尼指定日期选舱，前次现场核验",
+      "url": "https://flights.ctrip.com/online/list/oneway-sha-syd?depdate=2026-11-16&cabin=y&adult=1&child=0&infant=0"
+    },
+    {
+      "id": "i-flight-tokyo16",
+      "title": "Google Flights：11/16 JL51羽田至悉尼，前次现场核验",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpDEgoyMDI2LTExLTE2Ih4KA0hORBIKMjAyNi0xMS0xNhoDU1lEKgJKTDICNTFqDAgCEggvbS8wN2Rma3IHCAESA1NZREABSAFwAYIBCwj___________8BmAEC&tfu=CmhDalJJVUY5S1NtWlhiRUZUUVZGQlJrUTRXRUZDUnkwdExTMHRMWFJpZFdreU55MXVNa0ZCUVVGQlIzSllOa013UlhoRlQzbEJFZ1JLVERVeEdnb0kzaVlRQUJvRFEwNVpPQnh3ZzhRRRICCAAiAxIBMA&hl=en&curr=CNY"
+    },
+    {
+      "id": "i-flight-tokyo17",
+      "title": "Google Flights：11/17 JL51羽田至悉尼，前次现场核验",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpDEgoyMDI2LTExLTE3Ih4KA0hORBIKMjAyNi0xMS0xNxoDU1lEKgJKTDICNTFqDAgCEggvbS8wN2Rma3IHCAESA1NZREABSAFwAYIBCwj___________8BmAEC&tfu=CmhDalJJTlZSU2IyTk9WME42YkVWQlJqWk5aa0ZDUnkwdExTMHRMUzB0TFhSc1ltTnZOVUZCUVVGQlIzSllOa3ByUmxkVk1FVkJFZ1JLVERVeEdnb0kyaVlRQUJvRFEwNVpPQjF3eDhNRRICCAAiAA&hl=en&curr=CNY"
+    },
+    {
+      "id": "i-flight-ek",
+      "title": "Google Flights：11/20 EK412悉尼至基督城，前次现场核验",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTIwIh8KA1NZRBIKMjAyNi0xMS0yMBoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYmpacVdWTjBZWFUyUjBWQlEwaHVXR2RDUnkwdExTMHRMWFJpZFdReE1pMXVNa0ZCUVVGQlIzSllOa1ZOUjFWeU5YZEJFZ1ZGU3pReE1ob0tDS0ExRUFBYUEwTk9XVGdjY0xLZEJnPT0SAggAIgMKATA&hl=en&curr=CNY"
+    },
+    {
+      "id": "i-flight-nz",
+      "title": "Google Flights：11/25 NZ626接NZ289同票联程，前次现场核验",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI1Ih8KA1pRThIKMjAyNi0xMS0yNRoDQUtMKgJOWjIDNjI2Ih8KA0FLTBIKMjAyNi0xMS0yNRoDUFZHKgJOWjIDMjg5agcIARIDWlFOcgcIARIDUFZHQAFAAUgBcAGCAQsI____________AZgBAg&tfu=CnRDalJJWWtSWldGSmZZakpQWkhkQlIwZExlWGRDUnkwdExTMHRMUzB0ZEdKaVkzUTBNa0ZCUVVGQlIzSllObGRWU1RocVJWRkJFZ3RPV2pZeU5ueE9Xakk0T1JvS0NMOVdFQUFhQTBOT1dUZ2NjSmFQQ2c9PRICCAAiAwoBMA&hl=en&curr=CNY"
+    },
+    {
+      "id": "i-mel-early",
+      "title": "Google Flights：11/17 MEL-SYD早班实际搜索，06:00起飞07:25/07:30到",
+      "url": "https://www.google.com/travel/flights?hl=en&curr=CNY&q=One%20way%20flights%20from%20MEL%20to%20SYD%20on%20November%2017%202026%20for%201%20adult"
+    },
+    {
+      "id": "i-syd-transfer",
+      "title": "悉尼机场官方：国内国际航站楼交通",
+      "url": "https://www.sydneyairport.com.au/airport-guide/arriving/domestic/get-to-your-next-flight"
+    },
+    {
+      "id": "i-syd-arrival",
+      "title": "悉尼机场官方：国际抵达",
+      "url": "https://www.sydneyairport.com.au/airport-guide/arriving/international"
+    },
+    {
+      "id": "i-nsw-payment",
+      "title": "Transport for NSW：游客支付公共交通",
+      "url": "https://transportnsw.info/tickets-fares/fares/best-ways-for-visitors-to-pay"
+    },
+    {
+      "id": "i-garden-hours",
+      "title": "悉尼皇家植物园官方：开放时间，11月07:00–20:00",
+      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit"
+    },
+    {
+      "id": "i-bronte",
+      "title": "Destination NSW官方：Bronte Beach and Baths",
+      "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bronte-beach-and-baths"
+    },
+    {
+      "id": "i-nz-route",
+      "title": "新西兰旅游局：Christchurch–Tekapo–Aoraki–Queenstown路线",
+      "url": "https://www.newzealand.com/nz/feature/road-trip-christchurch-to-queenstown/"
+    },
+    {
+      "id": "i-tekapo-qt-drive",
+      "title": "新西兰旅游局行程：Tekapo–Queenstown 256km/3h15",
+      "url": "https://traveltrade.newzealand.com/assets/Uploads/Resources/01-General/Itineraries/10-days-Culture-and-cuisine-South-Island.pdf"
+    },
+    {
+      "id": "i-doc-kea",
+      "title": "DOC：Kea Point Track及White Horse Hill停车",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/kea-point-track/"
+    },
+    {
+      "id": "i-doc-hooker",
+      "title": "DOC：Hooker Valley Track，新二桥2026年7月已开放；出发前仍查实时警报",
+      "url": "https://www.doc.govt.nz/hooker-valley-track?tab-id=50578"
+    },
+    {
+      "id": "i-glenorchy",
+      "title": "Queenstown官方旅游局：Glenorchy距皇后镇约45分钟车程",
+      "url": "https://www.queenstownnz.co.nz/plan/surrounding-region/glenorchy/"
+    },
+    {
+      "id": "i-glenorchy-walk",
+      "title": "Queenstown官方旅游局：Glenorchy Lagoon Walkway",
+      "url": "https://www.queenstownnz.co.nz/stories/post/glenorchy-walks-hikes/"
+    },
+    {
+      "id": "i-road-conditions",
+      "title": "NZTA官方Journey Planner：路况、施工和封路",
+      "url": "https://www.journeys.nzta.govt.nz/journey-planner"
+    },
+    {
+      "id": "i-driver-rest",
+      "title": "NZTA官方：司机疲劳，建议睡8小时；约2小时或100公里休息",
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/general-road-code/about-limits/driver-fatigue"
+    },
+    {
+      "id": "i-weather",
+      "title": "MetService：Lake Tekapo天气；当前无法预测一个月后的逐日天气",
+      "url": "https://www.metservice.com/towns-cities/locations/lake-tekapo"
+    },
+    {
+      "id": "i-tekapo-sun",
+      "title": "Timeanddate：Tekapo 2026年11月太阳时刻",
+      "url": "https://www.timeanddate.com/sun/%406211234?month=11&year=2026"
+    },
+    {
+      "id": "i-tekapo-moon",
+      "title": "Timeanddate：Tekapo 2026年11月月相，25日当地03:53满月",
+      "url": "https://www.timeanddate.com/moon/%402188526?month=11&year=2026"
+    },
+    {
+      "id": "i-queenstown-sun",
+      "title": "Timeanddate：Queenstown 11/23日落21:04，11/24日落21:05",
+      "url": "https://www.timeanddate.com/sun/new-zealand/queenstown?month=11&year=2026"
+    },
+    {
+      "id": "i-nz-checkin",
+      "title": "Air NZ：国内接国际航班，值机在国内起飞前60分钟截止",
+      "url": "https://www.airnewzealand.com/en-nz/my-trip/domestic-check-in"
+    },
+    {
+      "id": "i-akl-transfer",
+      "title": "Air NZ：奥克兰转机；已直挂行李的国内接国际无需重提行李",
+      "url": "https://www.airnewzealand.com/connecting-at-auckland"
+    },
+    {
+      "id": "i-casa-travel",
+      "title": "CASA：携无人机旅行与空域核验",
+      "url": "https://www.casa.gov.au/drones/drone-rules/travelling-your-drone"
+    },
+    {
+      "id": "i-casa-app",
+      "title": "CASA：经核验的无人机安全地图App",
+      "url": "https://www.casa.gov.au/knowyourdrone/drone-safety-apps"
+    },
+    {
+      "id": "i-casa-harbour",
+      "title": "2026年Sydney Harbour R407A/R407B特定App授权规则，不能等同自由飞行",
+      "url": "https://www.legislation.gov.au/F2026L00946/asmade"
+    },
+    {
+      "id": "i-garden-drone",
+      "title": "皇家植物园官方：普通游客严格禁止无人机",
+      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit/conditions-of-entry"
+    },
+    {
+      "id": "i-nsw-park-drone",
+      "title": "NSW National Parks：无人机须提前取得公园批准",
+      "url": "https://www.nationalparks.nsw.gov.au/conservation-and-heritage/care-for-parks/drones-in-parks"
+    },
+    {
+      "id": "i-emirates-drone",
+      "title": "Emirates危险品规则：无人机机身只能托运，不能随身",
+      "url": "https://www.emirates.com/tz/English/before-you-fly/travel/dangerous-goods-policy/"
+    },
+    {
+      "id": "i-airnz-battery",
+      "title": "Air NZ：电池、设备和充电宝携带规则",
+      "url": "https://www.airnewzealand.com/en-nz/travel-info/baggage/travelling-with-batteries-devices"
+    },
+    {
+      "id": "w-docHooker",
+      "title": "DOC：Hooker Valley Track（2026年7月新桥已开放）",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/hooker-valley-track/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docHookerGate",
+      "title": "DOC：2026年9月22日第一桥20人限流通知",
+      "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/doc-plans-to-install-a-gate-to-manage-visitors-on-the-hooker-valley-track/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docHookerOpen",
+      "title": "DOC：2026年7月28日开放新桥",
+      "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/aorakimount-cook-suspension-bridge-open-date-revealed/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docKea",
+      "title": "DOC：Kea Point Track",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/kea-point-track/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docGovernors",
+      "title": "DOC：Governors Bush Walk",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/governors-bush-walk/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docWalks",
+      "title": "DOC：Aoraki/Mount Cook步道手册",
+      "url": "https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/canterbury/aoraki/walking-and-cycling-tracks-in-aoraki-mt-cook.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-bomSydney",
+      "title": "BOM：Sydney Airport长期月气候统计",
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_066037.shtml",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaInland",
+      "title": "NIWA：南岛内陆气候概况",
+      "url": "https://niwa.co.nz/climate-and-weather/map-i-south",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaCanterbury",
+      "title": "NIWA：The Climate and Weather of Canterbury，2016",
+      "url": "https://webstatic.niwa.co.nz/library/NIWAsts68.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaQTmax",
+      "title": "NIWA：Queenstown 1991–2020日最高温常年值",
+      "url": "https://data.niwa.co.nz/products/climate-station-normals/files/675f6e0447ec2f9a2282935a",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaQTmin",
+      "title": "NIWA：Queenstown 1991–2020日最低温常年值",
+      "url": "https://data.niwa.co.nz/products/climate-station-normals/files/675f6e0447ec2f9a22829372",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaTekapo2023",
+      "title": "NIWA：2023年11月历史实测月统计",
+      "url": "https://niwa.co.nz/sites/default/files/2024-02/Climate-Statistics-November-2023-NIWA.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-niwaTekapo2024",
+      "title": "NIWA：2024年11月历史实测月统计",
+      "url": "https://niwa.co.nz/sites/default/files/inline-images/ClimateStatistics-November2024-NIWA.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-metWarnings",
+      "title": "MetService：天气与道路降雪警报入口",
+      "url": "https://www.metservice.com/warnings/home",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-metExplainer",
+      "title": "MetService：Watch与Orange/Red Warning解释",
+      "url": "https://about.metservice.com/about-severe-weather-warnings",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-nztaSpring",
+      "title": "NZTA：2025年9月春雪影响SH80/Lindis的实例",
+      "url": "https://www.journeys.nzta.govt.nz/traffic-bulletins/more-snow-means-more-risk-of-travel-disruption",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-nztaRoads",
+      "title": "NZTA Journey Planner实时路况",
+      "url": "https://www.journeys.nzta.govt.nz/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-nztaRest",
+      "title": "NZTA：SH8/SH79/SH80正式停车观景区项目",
+      "url": "https://www.nzta.govt.nz/projects/sh8-sh79-sh80-mackenzie-basin-pull-over-areas",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-nztaOperations",
+      "title": "NZTA：Lower South Island道路运营计划",
+      "url": "https://nzta.govt.nz/assets/Roads-and-Rail/RCA-operating-plans/RCA-operating-plan-lower-south-island.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-sunSydney",
+      "title": "Timeanddate：Sydney 2026年11月太阳表",
+      "url": "https://www.timeanddate.com/sun/australia/sydney?month=11&year=2026",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-sunTekapo",
+      "title": "Timeanddate：Lake Tekapo 2026年11月太阳表",
+      "url": "https://www.timeanddate.com/sun/@6211234?month=11&year=2026",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-sunQT",
+      "title": "Timeanddate：Queenstown NZ 2026年11月太阳表",
+      "url": "https://www.timeanddate.com/sun/new-zealand/queenstown?month=11&year=2026",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-moonTekapo",
+      "title": "Timeanddate：Lake Tekapo 2026年11月月亮表",
+      "url": "https://www.timeanddate.com/moon/@6211234?month=11&year=2026",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docLupin",
+      "title": "DOC：Braided River Field Guide，Russell lupin",
+      "url": "https://www.doc.govt.nz/globalassets/documents/conservation/land-and-freshwater/freshwater/prr/braided-river-field-guide.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-caaFAQ",
+      "title": "CAA：Your drone questions answered（现行，含小型无人机无豁免说明）",
+      "url": "https://www.aviation.govt.nz/drones/your-drone-questions-answered/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-caa101",
+      "title": "CAA：Intro to Part 101 rules for unmanned aircraft",
+      "url": "https://www.aviation.govt.nz/drones/regulations/part-101-rules-for-drones/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-docDrone",
+      "title": "DOC：Recreational drone permit",
+      "url": "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land/recreational-drone-use/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-mackenzieDrone",
+      "title": "Mackenzie District Council：Flying of UAV - Drones",
+      "url": "https://www.mackenzie.govt.nz/community/flying-of-uav-drones",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-qldcDrone",
+      "title": "QLDC：Glenorchy Aerodrome与无人机政策",
+      "url": "https://www.qldc.govt.nz/services/airports/glenorchy-aerodrome",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-airshare",
+      "title": "AirShare：记录飞行与申请空域批准",
+      "url": "https://airshare.co.nz/log-a-flight-via-airshare/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-airshareLand",
+      "title": "AirShare：土地管理方同意信息",
+      "url": "https://airshare.co.nz/faqs/property-owner-consent-information/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-casaTravel",
+      "title": "CASA：Travelling with your drone",
+      "url": "https://www.casa.gov.au/drones/drone-rules/travelling-your-drone",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-casaSydney",
+      "title": "CASA：Flight approvals and permissions，2026 Sydney Harbour R407 A/B",
+      "url": "https://www.casa.gov.au/drones/flight-authorisations/flight-approvals-and-permissions",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "w-churchLandRecord",
+      "title": "Mackenzie Council：2016年会议记录，教堂/人行桥不属Council土地（仅历史产权线索）",
+      "url": "https://www.mackenzie.govt.nz/__data/assets/pdf_file/0019/521821/Tekapo-Community-Board-Minutes-25-01-16.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mrs_Macquaries_Chair_(6861982111).jpg",
+      "purpose": "mrs_macquarie：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-0",
+      "title": "mrs_macquarie：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Circular_Quay_from_train_station_after_sunset.jpg",
+      "purpose": "circular_quay：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-1",
+      "title": "circular_quay：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_POOL,_Bondi_Beach,_Australia_(Unsplash).jpg",
+      "purpose": "bondi：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-2",
+      "title": "bondi：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A_Rainbow_over_Manly_Beach_(5273210189).jpg",
+      "purpose": "manly：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-3",
+      "title": "manly：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
+      "purpose": "christchurch：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-4",
+      "title": "christchurch：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
+      "purpose": "good_shepherd：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-5",
+      "title": "good_shepherd：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mt_Cook_from_Peters_Lookout.jpg",
+      "purpose": "peters_lookout：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-6",
+      "title": "peters_lookout：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Mount_Sefton_from_Kea_Point_02.jpg",
+      "purpose": "kea_point：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-7",
+      "title": "kea_point：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lindis_pass.JPG",
+      "purpose": "lindis：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-8",
+      "title": "lindis：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_from_Queenstown_gondola.jpg",
+      "purpose": "queenstown：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-9",
+      "title": "queenstown：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Golden_moment_-_Glenorchy_Wharf.jpg",
+      "purpose": "glenorchy：原作、作者、许可、拍摄日期与照片描述",
+      "id": "p-10",
+      "title": "glenorchy：原作、作者、许可、拍摄日期与照片描述"
+    },
+    {
+      "url": "https://mapcarta.com/16663410",
+      "purpose": "manly：地图坐标核对",
+      "id": "p-11",
+      "title": "manly：地图坐标核对"
+    },
+    {
+      "url": "https://mapcarta.com/N1313378949",
+      "purpose": "kea_point：地图坐标核对",
+      "id": "p-12",
+      "title": "kea_point：地图坐标核对"
+    },
+    {
+      "url": "https://mapcarta.com/N4773885821",
+      "purpose": "lindis：地图坐标核对",
+      "id": "p-13",
+      "title": "lindis：地图坐标核对"
+    },
+    {
+      "url": "https://mapcarta.com/W1289096084",
+      "purpose": "glenorchy：地图坐标核对",
+      "id": "p-14",
+      "title": "glenorchy：地图坐标核对"
+    },
+    {
+      "url": "https://mapcarta.com/25331992",
+      "purpose": "Rydges Camperdown：坐标",
+      "id": "p-15",
+      "title": "Rydges Camperdown：坐标"
+    },
+    {
+      "url": "https://www.distinctionhotelschristchurch.co.nz/x,17,4131/",
+      "purpose": "Distinction Christchurch Hotel：坐标",
+      "id": "p-16",
+      "title": "Distinction Christchurch Hotel：坐标"
+    },
+    {
+      "url": "https://all.accor.com/hotel/B3M7/index.en.shtml",
+      "purpose": "Mantra Lake Tekapo：坐标",
+      "id": "p-17",
+      "title": "Mantra Lake Tekapo：坐标"
+    },
+    {
+      "url": "https://mapcarta.com/W1289569912",
+      "purpose": "Blue Peaks Apartments：坐标",
+      "id": "p-18",
+      "title": "Blue Peaks Apartments：坐标"
+    },
+    {
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lindis-conservation-area/",
+      "purpose": "Lindis有标示停车区、公共通行和步道原则",
+      "id": "p-19",
+      "title": "Lindis有标示停车区、公共通行和步道原则"
+    },
+    {
+      "url": "https://www.newzealand.com/cn/plan/business/blue-peaks-apartments/",
+      "purpose": "Blue Peaks前台/营业地址提示",
+      "id": "p-20",
+      "title": "Blue Peaks前台/营业地址提示"
+    },
+    {
+      "id": "visa",
+      "title": "新西兰移民局：持符合要求澳签从澳洲直飞新西兰的现行安排",
+      "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/chinese-and-pacific-island-visitors-travelling-from-australia/"
+    },
+    {
+      "id": "nzeta",
+      "title": "新西兰官方NZeTA申请",
+      "url": "https://nzeta.immigration.govt.nz/"
+    },
+    {
+      "id": "nztd",
+      "title": "新西兰旅客申报 NZTD",
+      "url": "https://www.travellerdeclaration.govt.nz/"
+    },
+    {
+      "id": "nzta-license",
+      "title": "NZTA：海外驾照在新西兰驾驶",
+      "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads/"
+    },
+    {
+      "id": "boc",
+      "title": "中国银行外汇牌价，预算参考",
+      "url": "https://www.boc.cn/sourcedb/whpj/"
+    },
+    {
+      "id": "b-boc",
+      "title": "中国银行外汇牌价",
+      "url": "https://www.boc.cn/sourcedb/whpj/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-A-SYD-CHC",
+      "title": "EK412：2026-11-20，3 人合价",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTIwIh8KA1NZRBIKMjAyNi0xMS0yMBoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYmpacVdWTjBZWFUyUjBWQlEwaHVXR2RDUnkwdExTMHRMWFJpZFdReE1pMXVNa0ZCUVVGQlIzSllOa1ZOUjFWeU5YZEJFZ1ZGU3pReE1ob0tDS0ExRUFBYUEwTk9XVGdjY0xLZEJnPT0SAggAIgMKATA&hl=en&curr=CNY",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-A-ZQN-PVG-recommended",
+      "title": "NZ626 / NZ289：2026-11-25，2 人合价",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI1Ih8KA1pRThIKMjAyNi0xMS0yNRoDQUtMKgJOWjIDNjI2Ih8KA0FLTBIKMjAyNi0xMS0yNRoDUFZHKgJOWjIDMjg5agcIARIDWlFOcgcIARIDUFZHQAFAAUgBcAGCAQsI____________AZgBAg&tfu=CnRDalJJWWtSWldGSmZZakpQWkhkQlIwZExlWGRDUnkwdExTMHRMUzB0ZEdKaVkzUTBNa0ZCUVVGQlIzSllObGRWU1RocVJWRkJFZ3RPV2pZeU5ueE9Xakk0T1JvS0NMOVdFQUFhQTBOT1dUZ2NjSmFQQ2c9PRICCAAiAwoBMA&hl=en&curr=CNY",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-A-PVG-Ctrip-China-preferred",
+      "title": "HO1669：2026-11-16，1 人合价",
+      "url": "https://flights.ctrip.com/online/list/oneway-sha-syd?depdate=2026-11-16&cabin=y&adult=1&child=0&infant=0",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-hotel-0",
+      "title": "Rydges Camperdown：2026-11-17 至 2026-11-20，3 成人",
+      "url": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-hotel-1",
+      "title": "Distinction Christchurch：2026-11-20 至 2026-11-21，3 成人",
+      "url": "https://www.booking.com/hotel/nz/distinction-christchurch.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-hotel-2",
+      "title": "Mantra Lake Tekapo：2026-11-21 至 2026-11-23，3 成人",
+      "url": "https://www.booking.com/hotel/nz/mantra-lake-tekapo.zh-cn.html?checkin=2026-11-21&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-hotel-3",
+      "title": "Blue Peaks Apartments：2026-11-23 至 2026-11-25，3 成人",
+      "url": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-25&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-apex",
+      "title": "Apex 租车查询（未取得可售报价）",
+      "url": "https://www.apexrentals.co.nz/reservations",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-apex-faq",
+      "title": "Apex 年龄、附加驾驶与支付 FAQ",
+      "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-apex-cover",
+      "title": "Apex 自付额减免方案",
+      "url": "https://www.apexrentals.co.nz/rental-info/excess-reduction-cover",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-apex-contract",
+      "title": "Apex NZ 租车合同",
+      "url": "https://www.apexrentals.cn/en-nz/rental-info/terms-and-conditions/new-zealand",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-nzta-licence",
+      "title": "NZTA 海外驾照驾驶",
+      "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-nzta-translation",
+      "title": "NZTA 认可翻译",
+      "url": "https://www.nzta.govt.nz/driver-licences/converting-to-nz-driver-licence/approved-translators",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-japan-idp",
+      "title": "警视厅：国外运転免许证",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokugai01.html",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-skyline",
+      "title": "Skyline Queenstown 官方套餐价",
+      "url": "https://queenstown.skyline.co.nz/pricing-and-packages/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-qldc-parking",
+      "title": "Queenstown 停车费",
+      "url": "https://www.qldc.govt.nz/your-council/user-fees-and-charges/parking",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "b-syd-airport",
+      "title": "悉尼机场地面交通",
+      "url": "https://transportnsw.info/travel-info/using-public-transport/getting-to-airport",
+      "checked": "2026-10-21"
+    }
+  ],
+  "droneAreas": [
+    {
+      "place": "Sydney Harbour / Opera House周边",
+      "conclusion": "默认不安排游客随手飞。海港为空域限制区，专业ReOC等申请渠道不等于普通游客自动可飞。出发时查CASA核准App及最新空域；2026已改为R407 A/B名称，不用旧R405截图。",
+      "sourceIds": [
+        "w-casaTravel",
+        "w-casaSydney"
+      ],
+      "status": "地面拍摄主力"
+    },
+    {
+      "place": "Christchurch市区/机场周边",
+      "conclusion": "仍须CAA规则、精确地点土地同意及AirShare空域核查；本次未取得任何城市公园或机场附近点的批准，不提供可飞坐标。短暂停留不建议为飞行占用行程。",
+      "sourceIds": [
+        "w-caaFAQ",
+        "w-airshare"
+      ],
+      "status": "未核准任何点"
+    },
+    {
+      "place": "Tekapo教堂/湖岸",
+      "conclusion": "Mackenzie官网明确Tekapo有No Drone Zone；并非Council全区通用同意。教堂/人行桥历史Council记录显示不属Council地，不能套Council blanket consent；现地主及边界仍需确认。教堂、人群、湖岸、直升机活动与空域须逐点核查，主行程按不飞。",
+      "sourceIds": [
+        "w-mackenzieDrone",
+        "w-churchLandRecord",
+        "w-caaFAQ"
+      ],
+      "status": "不承诺可飞"
+    },
+    {
+      "place": "Lake Pukaki / Peter’s Lookout / SH80",
+      "conclusion": "Council说明Pukaki湖及周边大多属Meridian，需确认实际业主同意；若在DOC地另需DOC条件；公路上、上空或旁边联系NZTA。还需查Pukaki/Glentanner/MtCook等机场/直升机活动。开阔无人不等于自由飞。",
+      "sourceIds": [
+        "w-mackenzieDrone",
+        "w-caaFAQ",
+        "w-airshare"
+      ],
+      "status": "仅适合事先完成逐点许可后可选"
+    },
+    {
+      "place": "Aoraki/Mount Cook NP / Hooker / Tasman",
+      "conclusion": "DOC保护地起降和悬停需permit，Hooker页面明确无permit不得飞。CAA人地同意和空域要求仍同时适用；无许可按不飞，不能从停车场外起飞绕过要求。",
+      "sourceIds": [
+        "w-docHooker",
+        "w-docDrone",
+        "w-caaFAQ"
+      ],
+      "status": "无许可不飞"
+    },
+    {
+      "place": "Queenstown市区/湖岸/机场空域",
+      "conclusion": "QLDC当前不批准普通无人机飞越其公园、保留地和道路（商业Film permit且Part102运营另论）。私有地须业主同意，并查Queenstown机场管制区；超过机场4km仍可能在管制空域。AirShare的ATC批准不替代QLDC/业主同意。",
+      "sourceIds": [
+        "w-qldcDrone",
+        "w-airshareLand",
+        "w-caaFAQ"
+      ],
+      "status": "主行程按不飞"
+    },
+    {
+      "place": "Glenorchy waterfront / red shed",
+      "conclusion": "不把水岸红屋当默认可飞点；QLDC公地政策适用，附近Glenorchy aerodrome有额外空域/4km条件。官网明确附近飞行需授权；没有取得土地与空域批准则不飞。",
+      "sourceIds": [
+        "w-qldcDrone",
+        "w-caaFAQ",
+        "w-airshare"
+      ],
+      "status": "主行程按不飞"
+    }
+  ],
+  "budget": {
+    "rows": [
+      {
+        "id": "A-SYD-CHC",
+        "category": "flight",
+        "title": "EK412 SYD-CHC",
+        "currency": "AUD",
+        "quotedOrBudgetTotal": {
+          "min": 1459,
+          "max": 1459
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 486.3333333333333,
+          "max": 486.3333333333333
+        },
+        "perPersonCny": {
+          "min": 2285.28,
+          "max": 2285.28
+        },
+        "perPersonCnyUnrounded": {
+          "min": 2285.280333333333,
+          "max": 2285.280333333333
+        },
+        "status": "实查 Google Flights 航司报价选项",
+        "note": "3 人合计，分摊 3 份；未进入航司最终支付页，行李重量与票规须复核。",
+        "sourceIds": [
+          "b-A-SYD-CHC"
+        ]
+      },
+      {
+        "id": "A-ZQN-PVG-recommended",
+        "category": "flight",
+        "title": "NZ626 / NZ289 ZQN-AKL-PVG",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 2917,
+          "max": 2917
+        },
+        "splitPeople": 2,
+        "perPersonNative": {
+          "min": 1458.5,
+          "max": 1458.5
+        },
+        "perPersonCny": {
+          "min": 5560.39,
+          "max": 5560.39
+        },
+        "perPersonCnyUnrounded": {
+          "min": 5560.3854,
+          "max": 5560.3854
+        },
+        "status": "实查 Google Flights 航司报价选项",
+        "note": "2 人合计，分摊 2 份；未进入航司最终支付页，行李重量与票规须复核。",
+        "sourceIds": [
+          "b-A-ZQN-PVG-recommended"
+        ]
+      },
+      {
+        "id": "A-PVG-Ctrip-China-preferred",
+        "category": "flight",
+        "title": "HO1669 PVG-SYD",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 4307,
+          "max": 4307
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 4307,
+          "max": 4307
+        },
+        "perPersonCny": {
+          "min": 4307,
+          "max": 4307
+        },
+        "perPersonCnyUnrounded": {
+          "min": 4307,
+          "max": 4307
+        },
+        "status": "实查携程含税报价",
+        "note": "1 人含税；未预订。经济舱 W：托运 2×23kg、手提 1×5kg；不可退票，税费可退320元；出发前改期免更改费但补差价。",
+        "sourceIds": [
+          "b-A-PVG-Ctrip-China-preferred"
+        ]
+      },
+      {
+        "id": "hotel-0",
+        "category": "hotel",
+        "title": "Rydges Camperdown 2026-11-17–2026-11-20",
+        "currency": "AUD",
+        "quotedOrBudgetTotal": {
+          "min": 1003,
+          "max": 1003
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 334.3333333333333,
+          "max": 334.3333333333333
+        },
+        "perPersonCny": {
+          "min": 1571.03,
+          "max": 1571.03
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1571.032333333333,
+          "max": 1571.032333333333
+        },
+        "status": "实查含税房价",
+        "note": "3 晚，3 成人 1 间/套，不含早餐；1 queen + 2 singles。",
+        "sourceIds": [
+          "b-hotel-0"
+        ],
+        "cancellation": "Free until 2026-11-16; within 1 day of arrival/no-show first-night charge",
+        "payment": "No prepayment; pay at property",
+        "refundableDepositExcluded": {
+          "currency": "AUD",
+          "amount": 200
+        }
+      },
+      {
+        "id": "hotel-1",
+        "category": "hotel",
+        "title": "Distinction Christchurch 2026-11-20–2026-11-21",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 646.7475,
+          "max": 646.7475
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 215.58249999999998,
+          "max": 215.58249999999998
+        },
+        "perPersonCny": {
+          "min": 821.89,
+          "max": 821.89
+        },
+        "perPersonCnyUnrounded": {
+          "min": 821.8867229999998,
+          "max": 821.8867229999998
+        },
+        "status": "实查房价 + 按已列卡费推算",
+        "note": "1 晚，3 成人 1 间/套，不含早餐；Bedroom 1:1 king; bedroom 2:2 queens。已按 Visa/Mastercard 1.85% 卡费计入；635 × 1.0185 = 646.7475 NZD。",
+        "sourceIds": [
+          "b-hotel-1"
+        ],
+        "cancellation": "Free until 2026-11-19; within 1 day of arrival/no-show full-stay charge",
+        "payment": "Pay by 2026-11-17 local time",
+        "refundableDepositExcluded": null
+      },
+      {
+        "id": "hotel-2",
+        "category": "hotel",
+        "title": "Mantra Lake Tekapo 2026-11-21–2026-11-23",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 1306,
+          "max": 1306
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 435.3333333333333,
+          "max": 435.3333333333333
+        },
+        "perPersonCny": {
+          "min": 1659.66,
+          "max": 1659.66
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1659.6647999999998,
+          "max": 1659.6647999999998
+        },
+        "status": "实查含税房价",
+        "note": "2 晚，3 成人 1 间/套，不含早餐；Bedroom1:1 queen; Bedroom2:1 queen; Bedroom3:2 singles。",
+        "sourceIds": [
+          "b-hotel-2"
+        ],
+        "cancellation": "NZD1306 nonrefundable. NZD1452 free only until2026-10-22; within30days full-stay penalty",
+        "payment": "Property may charge full prepayment at any time",
+        "refundableDepositExcluded": null
+      },
+      {
+        "id": "hotel-3",
+        "category": "hotel",
+        "title": "Blue Peaks Apartments 2026-11-23–2026-11-25",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 1555.4875,
+          "max": 1555.4875
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 518.4958333333333,
+          "max": 518.4958333333333
+        },
+        "perPersonCny": {
+          "min": 1976.71,
+          "max": 1976.71
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1976.7135149999997,
+          "max": 1976.7135149999997
+        },
+        "status": "实查房价 + 按已列卡费推算",
+        "note": "2 晚，3 成人 1 间/套，不含早餐；Bedroom1:1 double; Bedroom2:2 singles。1532.50 已含 2.50 订房费，再按 1.5% 卡费计入，精算 1555.4875 NZD。",
+        "sourceIds": [
+          "b-hotel-3"
+        ],
+        "cancellation": "Free until2026-11-21; within2days/no-show full-stay charge",
+        "payment": "Pay by2026-11-19 localtime",
+        "refundableDepositExcluded": null
+      },
+      {
+        "id": "au-transport",
+        "category": "ground",
+        "title": "悉尼 3 天交通",
+        "currency": "AUD",
+        "quotedOrBudgetTotal": {
+          "min": 70,
+          "max": 100
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 70,
+          "max": 100
+        },
+        "perPersonCny": {
+          "min": 328.93,
+          "max": 469.9
+        },
+        "perPersonCnyUnrounded": {
+          "min": 328.93,
+          "max": 469.9
+        },
+        "status": "预算",
+        "note": "机场往返、市内公共交通或分摊出租车；并非已购车票。",
+        "sourceIds": [
+          "b-syd-airport"
+        ]
+      },
+      {
+        "id": "au-meals",
+        "category": "ground",
+        "title": "悉尼 3 天餐饮",
+        "currency": "AUD",
+        "quotedOrBudgetTotal": {
+          "min": 180,
+          "max": 270
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 180,
+          "max": 270
+        },
+        "perPersonCny": {
+          "min": 845.82,
+          "max": 1268.73
+        },
+        "perPersonCnyUnrounded": {
+          "min": 845.8199999999999,
+          "max": 1268.73
+        },
+        "status": "预算",
+        "note": "按每人每天 AUD60–90，3 天；酒店不含早。",
+        "sourceIds": []
+      },
+      {
+        "id": "nz-meals",
+        "category": "ground",
+        "title": "新西兰 6 个自然日餐饮",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 420,
+          "max": 600
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 420,
+          "max": 600
+        },
+        "perPersonCny": {
+          "min": 1601.21,
+          "max": 2287.44
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1601.2079999999999,
+          "max": 2287.44
+        },
+        "status": "预算",
+        "note": "11/20–25 共 6 个自然日；按每天 NZD70–100 预留，部分到离境日不足整天，属于宽松预算。",
+        "sourceIds": []
+      },
+      {
+        "id": "nz-rental",
+        "category": "ground",
+        "title": "新西兰 4×24 小时租车及较高等级自付额减免",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 700,
+          "max": 1100
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 233.33333333333334,
+          "max": 366.6666666666667
+        },
+        "perPersonCny": {
+          "min": 889.56,
+          "max": 1397.88
+        },
+        "perPersonCnyUnrounded": {
+          "min": 889.56,
+          "max": 1397.8799999999999
+        },
+        "status": "预算；未取得可售报价",
+        "note": "CHC 11/21 12:00 → ZQN 11/25 12:00；整车预算 700–1100，3 人均分。2 名司机、3 大箱需确认车型、异地费、保险排除、卡预授权、GST 与附加费；延后还车可能计第 5 天。",
+        "sourceIds": [
+          "b-apex",
+          "b-apex-faq",
+          "b-apex-cover"
+        ]
+      },
+      {
+        "id": "nz-fuel",
+        "category": "ground",
+        "title": "新西兰油费",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 250,
+          "max": 350
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 83.33333333333333,
+          "max": 116.66666666666667
+        },
+        "perPersonCny": {
+          "min": 317.7,
+          "max": 444.78
+        },
+        "perPersonCnyUnrounded": {
+          "min": 317.7,
+          "max": 444.78
+        },
+        "status": "预算",
+        "note": "整车 900–1100km、约8L/100km、NZD3–4/L 的宽松估计；不是当前油站实价。",
+        "sourceIds": []
+      },
+      {
+        "id": "nz-parking",
+        "category": "ground",
+        "title": "新西兰停车",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 50,
+          "max": 100
+        },
+        "splitPeople": 3,
+        "perPersonNative": {
+          "min": 16.666666666666668,
+          "max": 33.333333333333336
+        },
+        "perPersonCny": {
+          "min": 63.54,
+          "max": 127.08
+        },
+        "perPersonCnyUnrounded": {
+          "min": 63.54,
+          "max": 127.08
+        },
+        "status": "预算",
+        "note": "整车 4 天，假设住宿免费停车；不表示所有景区停车都免费。",
+        "sourceIds": [
+          "b-qldc-parking"
+        ]
+      },
+      {
+        "id": "nz-activities",
+        "category": "ground",
+        "title": "新西兰基础活动",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 199,
+          "max": 249
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 199,
+          "max": 249
+        },
+        "perPersonCny": {
+          "min": 758.67,
+          "max": 949.29
+        },
+        "perPersonCnyUnrounded": {
+          "min": 758.6676,
+          "max": 949.2876
+        },
+        "status": "官方公开价 + 预算",
+        "note": "Skyline 缆车＋3 次滑板车 NZD99 官方公开价，加 NZD100–150 弹性活动预算；未验证指定日期库存。未含跳伞、蹦极、直升机或米尔福德项目。 缆车与Glenorchy日游二选一；不参加付费活动可少花相应预算。",
+        "sourceIds": [
+          "b-skyline"
+        ]
+      },
+      {
+        "id": "unallocated-residual",
+        "category": "unallocated",
+        "title": "未分项机动预留",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 810.4228000000003,
+          "max": 1086.6707999999999
+        },
+        "splitPeople": 1,
+        "perPersonNative": {
+          "min": 810.4228000000003,
+          "max": 1086.6707999999999
+        },
+        "perPersonCny": {
+          "min": 810.42,
+          "max": 1086.67
+        },
+        "perPersonCnyUnrounded": {
+          "min": 810.4228000000003,
+          "max": 1086.6707999999999
+        },
+        "status": "规划预留，非商家报价",
+        "note": "用于尚未单独核价的签证/电子许可、保险、通信、翻译等；未保证足够覆盖全部费用。购物和高价自选活动另计。",
+        "sourceIds": []
+      }
+    ],
+    "summary": {
+      "flight": {
+        "CNY": 4307,
+        "AUD": 486.3333333333333,
+        "NZD": 1458.5,
+        "equivalentCNY": 12152.67,
+        "status": "三段报价可复算，全部未锁价"
+      },
+      "hotel": {
+        "AUD": 334.3333333333333,
+        "NZD": 1169.4116666666666,
+        "equivalentCNY": 6029.3,
+        "wholeGroup": {
+          "AUD": 1003,
+          "NZD": 3508.235,
+          "equivalentCNY": 18087.89
+        },
+        "status": "4 家8晚，三人均摊，含两家已列卡费的推算值"
+      },
+      "itemizedGround": {
+        "AUD": {
+          "min": 250,
+          "max": 370
+        },
+        "NZD": {
+          "min": 952.3333333333334,
+          "max": 1365.6666666666667
+        },
+        "equivalentCNY": {
+          "min": 4805.43,
+          "max": 6945.1
+        },
+        "status": "预算为主；仅 Skyline99 为官方公开价基础"
+      },
+      "itemizedTotalCNY": {
+        "min": 22987.39,
+        "max": 25127.06,
+        "note": "能从源文件逐项重建的预算；不称为全包旅行总价。"
+      },
+      "legacyOtherCNY": {
+        "min": 5615.85,
+        "max": 8031.77,
+        "formula": "逐项地面预算 + 未分项余量"
+      },
+      "unallocatedResidualCNY": {
+        "min": 810.42,
+        "max": 1086.67,
+        "fullyReconstructed": false
+      },
+      "legacyTotalCNY": {
+        "min": 23797.81,
+        "max": 26213.73,
+        "display": "约 ¥23,800–26,200 / 人",
+        "status": "沿用原预算；其中 ¥810–1,087 未保存分项，不应展示为全数已报价"
+      },
+      "comparisonNote": "日元出发机票属于东京朋友，不计入上海用户。EK412的AUD1459除3；返程NZD2917除2，不得再当单人票价或除3。金额先全精度运算，末端四舍五入，逐行显示相加可能差几分钱。"
+    },
+    "licences": [
+      {
+        "driver": "25 岁主驾驶（中国大陆驾照）",
+        "advice": "带有效正式驾照原件＋NZTA认可英文翻译；不要把商业‘国际驾照认证件’当正式IDP。",
+        "sourceIds": [
+          "b-nzta-licence",
+          "b-nzta-translation"
+        ]
+      },
+      {
+        "driver": "24 岁附加驾驶（日本驾照）",
+        "advice": "带日本有效正式驾照原件＋日本签发的正式IDP。Apex最低21岁，FAQ表示21–25岁无低龄附加费；需持正式驾照至少连续12个月。两人取车到场并都列入合同，所选报价核实附加驾驶为0。",
+        "sourceIds": [
+          "b-japan-idp",
+          "b-apex-faq",
+          "b-apex-contract"
+        ]
+      }
+    ]
+  }
+}
