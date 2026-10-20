@@ -627,9 +627,9 @@
           "time": "11:45",
           "endTime": "12:30",
           "placeId": "chc_airport",
-          "place": "基督城机场",
+          "place": "基督城机场 Budget取车柜台（候选）",
           "kind": "rental",
-          "detail": "按机场取车规划；验车、拍已有伤痕、调座椅和导航，熟悉右舵后出发。若实际市区取车则省去机场往返。",
+          "detail": "两位司机11:45前到基督城机场到达厅Budget柜台，出示驾照、翻译/IDP及主驾实体信用卡，登记两人并核对保险、附项和押金。合同按12:00开始；步行到车位，先试装三只28寸箱与背包，验车拍照，调座椅和导航、熟悉右舵后出发。",
           "photoTip": "验车照片单独建相册。",
           "lat": -43.489,
           "lon": 172.532,
@@ -1281,7 +1281,7 @@
           "placeId": "zqn_return",
           "place": "加油站与皇后镇租车还车点",
           "kind": "meal",
-          "detail": "按11/21中午12:00开始、11/25中午12:00结束的4个24小时规划，11:45前抵达实际门店验车。正式门店和合同计费时间确定后重排。",
+          "detail": "当前候选Budget为皇后镇机场还车，按机场Rental Car Returns指示和最终凭证找车位，11:45前到达验车，合同最迟12:00结束。三人清点相机、行李和车内物品；取还车照片留存。",
           "photoTip": "",
           "lat": -45.022,
           "lon": 168.739,
@@ -1294,7 +1294,7 @@
           "placeId": "zqn_airport",
           "place": "皇后镇机场",
           "kind": "rental_return",
-          "detail": "租车接驳到机场、午餐休息。若希望下午再还车，应按可能5天计费重新报价，而不是沿用4天预算。",
+          "detail": "当前候选为机场还车，步行至航站楼、午餐休息；若换机场外门店则重留接驳时间。下午还车可能按5天计费，须重新报价。",
           "photoTip": "",
           "lat": -45.021,
           "lon": 168.739,
@@ -2090,7 +2090,7 @@
     },
     {
       "title": "05 / 租车、徒步与睡眠",
-      "body": "悉尼用步行/渡轮/公共交通；新西兰租车两位驾驶人都写进合同，原驾照与合格英文翻译/正式IDP随身。按中午取车、中午还车4个24小时规划，延后还车重核费用。每约2小时休息，清晨拍摄不强制司机参加；不站公路中线，不涉冰川湖，不为构图越栏。鞋底和脚架脚清理泥土，按NZTD如实申报。 中国大陆驾照需原件＋NZTA认可英文翻译；日本驾照持有人带原件＋日本签发的正式IDP。按出发日年龄，两位驾驶人分别按25岁及24岁核查。",
+      "body": "悉尼用步行/渡轮/公共交通；新西兰租车两位驾驶人都写进合同，原驾照与合格英文翻译/正式IDP随身。按中午取车、中午还车4个24小时规划，延后还车重核费用。每约2小时休息，清晨拍摄不强制司机参加；不站公路中线，不涉冰川湖，不为构图越栏。鞋底和脚架脚清理泥土，按NZTD如实申报。 中国大陆驾照需原件＋NZTA认可英文翻译；日本驾照持有人带原件＋日本签发的正式IDP。按出发日年龄，两位驾驶人分别按25岁及24岁核查。 优先Budget嘉华级MPV，三28寸箱须确认第三排折叠及替代车型空间；主驾带本人实体芯片信用卡，此报价不接受银联。",
       "sourceIds": [
         "nzta-license",
         "i-driver-rest",
@@ -2100,7 +2100,7 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "沿用10/21实查主方案，你个人约¥23,800–26,200；机票住宿实查小计约¥18,182，其他为规划估算与机动预留；均未锁价。酒店8晚总约AUD1,003＋NZD3,508，三人均摊约¥6,029。现金每人AUD100–200＋NZD200–400≈¥1,232–2,465；可先换AUD150＋NZD300≈¥1,849，属于消费预算的一部分。每天回房备份两份，别清空唯一存储卡；准备防雨罩、擦镜布、保暖层、帽手套、防晒、头灯与备用电池。",
+      "body": "沿用10/21实查主方案，你个人约¥25,700–27,600；机票住宿实查小计约¥18,182，租车已改为实价支持的整车NZ$2,200预留，含未定附项额度；其他为规划估算与机动预留，均未锁价。酒店8晚总约AUD1,003＋NZD3,508，三人均摊约¥6,029。现金每人AUD100–200＋NZD200–400≈¥1,232–2,465；可先换AUD150＋NZD300≈¥1,849，属于消费预算的一部分。每天回房备份两份，别清空唯一存储卡；准备防雨罩、擦镜布、保暖层、帽手套、防晒、头灯与备用电池。",
       "sourceIds": [
         "boc"
       ]
@@ -2729,6 +2729,66 @@
       "title": "悉尼机场地面交通",
       "url": "https://transportnsw.info/travel-info/using-public-transport/getting-to-airport",
       "checked": "2026-10-21"
+    },
+    {
+      "id": "r-trip-quote",
+      "title": "Trip.com准确日期查询：11/21–25，CHC→ZQN",
+      "url": "https://www.trip.com/carhire/online/list?scountry=1&locale=en-XX&curr=NZD&fromPage=Home&pcity=7505&pcityname=Christchurch&ptime=2026%2F11%2F21%2012%3A00&pcode=CHC&paddress=Christchurch%20International%20Airport&ptype=1&pcountryname=New%20Zealand&ptimezone=&plat=-43.486398&plon=172.536871&rcity=3860&rcityname=Queenstown&rtime=2026%2F11%2F25%2012%3A00&rcode=ZQN&raddress=Queenstown%20Airport&rtype=1&rcountryname=New%20Zealand&rtimezone=&rlat=-45.020972&rlon=168.739923&age=25"
+    },
+    {
+      "id": "r-budget-drivers",
+      "title": "Budget附驾及年轻驾驶人政策",
+      "url": "https://www.budget.co.nz/en/products-services/products/additional-driver"
+    },
+    {
+      "id": "r-budget-age",
+      "title": "Budget NZ年龄与收费条款",
+      "url": "https://www.budget.co.nz/en/reservation-terms-and-conditions"
+    },
+    {
+      "id": "r-budget-cover",
+      "title": "Budget官方保障（不等同平台套餐）",
+      "url": "https://www.budget.co.nz/en/products-services/protections"
+    },
+    {
+      "id": "r-budget-terms",
+      "title": "Budget NZ完整条款与卡费",
+      "url": "https://www.budget.co.nz/en/terms-and-conditions"
+    },
+    {
+      "id": "r-rentalcover",
+      "title": "RentalCover关联通用条款",
+      "url": "https://rentalcover.com/en/policy-wording/full-protection"
+    },
+    {
+      "id": "r-ezi-quote",
+      "title": "Ezi官网查询入口",
+      "url": "https://www.ezicarrental.co.nz/?step=booking"
+    },
+    {
+      "id": "r-ezi-cover",
+      "title": "Ezi Ultra与道路救援",
+      "url": "https://www.ezicarrental.co.nz/support-services/covers-insurance/"
+    },
+    {
+      "id": "r-ezi-prado",
+      "title": "Ezi Prado行李说明",
+      "url": "https://www.ezicarrental.co.nz/vehicles/toyota-prado-4wd/"
+    },
+    {
+      "id": "r-ctrip",
+      "title": "携程租车入口",
+      "url": "https://car.ctrip.com/"
+    },
+    {
+      "id": "r-yesaway",
+      "title": "yesaway中文官网查询",
+      "url": "https://www.yesaway.com/cn/book/CHC01/"
+    },
+    {
+      "id": "r-ace",
+      "title": "ACE官网查询",
+      "url": "https://www.acerentalcars.co.nz/"
     }
   ],
   "droneAreas": [
@@ -3097,31 +3157,31 @@
       {
         "id": "nz-rental",
         "category": "ground",
-        "title": "新西兰 4×24 小时租车及较高等级自付额减免",
+        "title": "新西兰4天嘉华级MPV＋车行零自付暂留预算",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 700,
-          "max": 1100
+          "min": 2200,
+          "max": 2200
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 233.33333333333334,
-          "max": 366.6666666666667
+          "min": 733.3333333333334,
+          "max": 733.3333333333334
         },
         "perPersonCny": {
-          "min": 889.56,
-          "max": 1397.88
+          "min": 2795.76,
+          "max": 2795.76
         },
         "perPersonCnyUnrounded": {
-          "min": 889.56,
-          "max": 1397.8799999999999
+          "min": 2795.7599999999998,
+          "max": 2795.7599999999998
         },
-        "status": "预算；未取得可售报价",
-        "note": "CHC 11/21 12:00 → ZQN 11/25 12:00；整车预算 700–1100，3 人均分。2 名司机、3 大箱需确认车型、异地费、保险排除、卡预授权、GST 与附加费；延后还车可能计第 5 天。",
+        "status": "实查在线价＋标准司机费＋未定附项预留；未预订",
+        "note": "Trip.com Budget Premium在线NZ$1,838.57，已含异地费及对应税；四天附驾/年轻费按标准规则另NZ$138，小计NZ$1,976.57。整车留NZ$2,200供卡费、附项及可能RUC；不能视为全包锁价或确定车型。三28寸箱需确认折叠座椅及替代车容量；燃油、停车另列，押金不计消费。",
         "sourceIds": [
-          "b-apex",
-          "b-apex-faq",
-          "b-apex-cover"
+          "r-trip-quote",
+          "r-budget-drivers",
+          "r-budget-terms"
         ]
       },
       {
@@ -3258,23 +3318,23 @@
           "max": 370
         },
         "NZD": {
-          "min": 952.3333333333334,
-          "max": 1365.6666666666667
+          "min": 1452.3333333333335,
+          "max": 1732.3333333333335
         },
         "equivalentCNY": {
-          "min": 4805.43,
-          "max": 6945.1
+          "min": 6711.63,
+          "max": 8342.98
         },
-        "status": "预算为主；仅 Skyline99 为官方公开价基础"
+        "status": "租车采用实价支持的预留，其他费用以规划估算为主"
       },
       "itemizedTotalCNY": {
-        "min": 22987.39,
-        "max": 25127.06,
-        "note": "能从源文件逐项重建的预算；不称为全包旅行总价。"
+        "min": 24893.59,
+        "max": 26524.94,
+        "note": "逐项预算；含已报价项目和规划预留，不是最终成交总价。"
       },
       "legacyOtherCNY": {
-        "min": 5615.85,
-        "max": 8031.77,
+        "min": 7522.05,
+        "max": 9429.65,
         "formula": "逐项地面预算 + 未分项余量"
       },
       "unallocatedResidualCNY": {
@@ -3283,12 +3343,13 @@
         "fullyReconstructed": false
       },
       "legacyTotalCNY": {
-        "min": 23797.81,
-        "max": 26213.73,
-        "display": "约 ¥23,800–26,200 / 人",
-        "status": "沿用原预算；其中 ¥810–1,087 未保存分项，不应展示为全数已报价"
+        "min": 25704.01,
+        "max": 27611.61,
+        "display": "约¥25,700–27,600／人",
+        "status": "租车包含未定附项预留，非全包锁价；机动预留仍单列"
       },
-      "comparisonNote": "日元出发机票属于东京朋友，不计入上海用户。EK412的AUD1459除3；返程NZD2917除2，不得再当单人票价或除3。金额先全精度运算，末端四舍五入，逐行显示相加可能差几分钱。"
+      "comparisonNote": "日元出发机票属于东京朋友，不计入上海用户。EK412的AUD1459除3；返程NZD2917除2，不得再当单人票价或除3。金额先全精度运算，末端四舍五入，逐行显示相加可能差几分钱。",
+      "narrative": "机票约¥12,153＋住宿约¥6,029＋地面预算约¥6,712–8,343＋机动预留约¥810–1,087，合计约¥25,700–27,600。租车以Budget嘉华级MPV＋Premium实价为依据，整车暂留NZ$2,200≈¥8,387（每人NZ$733.33≈¥2,796），未定附项需再确认。准备约¥28,000；购物及高价项目另计，押金需另留额度。"
     },
     "licences": [
       {
@@ -3301,11 +3362,104 @@
       },
       {
         "driver": "24 岁附加驾驶（日本驾照）",
-        "advice": "带日本有效正式驾照原件＋日本签发的正式IDP。Apex最低21岁，FAQ表示21–25岁无低龄附加费；需持正式驾照至少连续12个月。两人取车到场并都列入合同，所选报价核实附加驾驶为0。",
+        "advice": "日本驾照原件＋日本签发正式IDP一起带。旅行时24岁，Budget通常最低21岁，正式驾照至少12个月；四天年轻费NZ$115加附驾NZ$23已按标准计入预算，两人都必须到场并登记。所选车型/套餐仍以租赁合同为准。",
         "sourceIds": [
           "b-japan-idp",
-          "b-apex-faq",
-          "b-apex-contract"
+          "r-budget-age",
+          "r-budget-drivers"
+        ]
+      }
+    ]
+  },
+  "rental": {
+    "title": "建议：嘉华级MPV\n配车行直接零自付方案",
+    "body": "已在携程国际站Trip.com查到Budget嘉华或同级8座自动挡。推荐按Premium车行保障规划：它省去承保车损自付额的先行垫付，但页面未含玻璃轮胎、底盘车灯、道路救援和停运费，仍须核对附项。三只28寸箱＋背包，需第三排折叠；取车前确认实际车型与空间。未预订。",
+    "sourceIds": [
+      "r-trip-quote",
+      "r-budget-cover"
+    ],
+    "quote": {
+      "supplier": "Budget / Trip.com",
+      "vehicle": "Kia Carnival or similar",
+      "onlineNzd": 1838.57,
+      "onlineCny": 7009.364267999999,
+      "driverFeeEstimateNzd": 138,
+      "subtotalNzd": 1976.57,
+      "subtotalCny": 7535.475468,
+      "perPersonSubtotalCny": 2511.825156,
+      "budgetNzd": 2200,
+      "recommended": true,
+      "booked": false,
+      "checkedAt": "2026-10-21 12:32 NZDT"
+    },
+    "cards": [
+      {
+        "title": "实查 / 四天Premium NZ$1,838.57",
+        "body": "11/21 12:00基督城机场取，11/25 12:00皇后镇机场还。整车在线价NZ$1,838.57≈¥7,009；其中租车及保障NZ$1,637.32、单程费175、对应税26.25，已含异地费用，不再重复加。不限里程、满油取还；页面显示取车前可免费取消，以订单具体截止时间为准。",
+        "sourceIds": [
+          "r-trip-quote"
+        ]
+      },
+      {
+        "title": "两个人开 / 24岁朋友仍有年轻费",
+        "body": "主驾25岁、附驾旅行时24岁。按Budget标准规则，四天附驾费NZ$23＋年轻费NZ$115＝NZ$138≈¥526（含GST），柜台另付；OTA额外项目还提示可能有机场附加费。在线价＋这两项小计NZ$1,976.57≈¥7,535，三人各NZ$658.86≈¥2,512；这是已报价＋规则推算小计，不是最终全包价。",
+        "sourceIds": [
+          "r-trip-quote",
+          "r-budget-drivers",
+          "r-budget-age"
+        ]
+      },
+      {
+        "title": "预算 / 先留整车NZ$2,200",
+        "body": "整车暂留NZ$2,200≈¥8,387，三人各NZ$733.33≈¥2,796。比NZ$1,976.57小计多留223.43，供卡费、尚未定价的附项与可能柴油RUC使用，不保证足够。卡费保守按全额2.2%预留约NZ$43.48，OTA预付是否适用待确认；柴油页面参考NZ$87.40/1000km，900–1100km约NZ$79–96，汽油车不套用。燃油和停车另有预算，不重复计入；押金另留信用额度。",
+        "sourceIds": [
+          "r-budget-terms",
+          "r-trip-quote"
+        ]
+      },
+      {
+        "title": "行李 / 车型空间优先于座位数",
+        "body": "Trip标识为4×24寸箱，不等于已保证3×28寸。优先嘉华级MPV，第三排折叠、第二排保留一位乘客，背包固定在空位；取车先试装。订单写清三只箱子的外尺寸，要求替代车保留足够行李空间。当前不是保证交付嘉华的订单；不接受仅因同为8座就换成行李舱更小的车型。",
+        "sourceIds": [
+          "r-trip-quote"
+        ]
+      },
+      {
+        "title": "保险 / Premium并非所有项目全包",
+        "body": "这份Premium由车行提供，车损、盗抢及第三方责任自付额显示为0；未包含玻璃轮胎、底盘车灯、道路救援及停运费。取车前核对这些附项及违法、涉水、禁路等免责。Budget官网另一款Zero Excess含玻璃轮胎，但不能据此认定本平台套餐也含；如柜台改套餐，应核对原保费抵扣，避免重复购买。",
+        "sourceIds": [
+          "r-trip-quote",
+          "r-budget-cover",
+          "r-budget-terms"
+        ]
+      },
+      {
+        "title": "更便宜的Superior / 暂不作为首选",
+        "body": "Trip.com基础价NZ$928.65、Superior报销型保障NZ$1,005.16，后者约¥3,832整车，但该报价单程费是否包含仍未确认。发生事故须先付车行再索赔；页面免赔补偿上限NZ$6,000，与Budget通用Group V自付额NZ$6,900有差异。关联通用保单还列van除外，需确认乘用MPV适用条款，不能直接承诺嘉华全保。",
+        "sourceIds": [
+          "r-trip-quote",
+          "r-rentalcover",
+          "r-budget-cover"
+        ]
+      },
+      {
+        "title": "比价记录 / 官网也核过",
+        "body": "Ezi 2026 Prado＋Ultra＋额外道路救援实查NZ$1,968.92≈¥7,506，含首位附驾及NZ$950异地费，卡费另计；三大箱空间及柴油RUC仍未确认，仅作参照。Apex四天查询受最低租期限制；ACE该时段异地停售；yesaway无符合条件车辆。Omega查询日期异常，错误报价已排除。",
+        "sourceIds": [
+          "r-ezi-quote",
+          "r-ezi-cover",
+          "r-ezi-prado",
+          "b-apex",
+          "r-ace",
+          "r-yesaway"
+        ]
+      },
+      {
+        "title": "携程渠道 / 平台价与帖子价分清",
+        "body": "已访问携程国内版，桌面页引导扫码，旧境外移动查询未能正常返回；本页实价来自携程国际站Trip.com，不代表国内App的会员、优惠券或支付价格。小红书公开检索未取得可验证的同条件订单，未把帖子宣传日均价用于预算。可以用上述车型、时间和套餐在携程App再次对价。",
+        "sourceIds": [
+          "r-ctrip",
+          "r-trip-quote"
         ]
       }
     ]

@@ -91,15 +91,19 @@ function cards(items,className) {return (items||[]).map(c=>`<article class="${cl
 const amount = n => n.toLocaleString('zh-CN',{maximumFractionDigits:2});
 const range = r => r.min===r.max ? amount(r.min) : `${amount(r.min)}–${amount(r.max)}`;
 function renderBudget(){
-  $('#budget-table').innerHTML=`<div class="table-scroll"><table><caption>11月16日主方案 · 上海出发者本人费用 · 10月21日报价快照</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${D.budget.rows.map(r=>`<tr><td><strong>${esc(r.title)}</strong><small>${esc(r.status)}</small><small>${esc(r.note)}</small>${refLinks(r.sourceIds)}</td><td>${esc(r.currency)} ${range(r.perPersonNative)}</td><td>¥${range(r.perPersonCny)}</td></tr>`).join('')}</tbody></table></div><p class="planner-note">机票约¥12,153＋住宿约¥6,029＋已分项地面预算¥4,805–6,945＋机动预留约¥810–1,087，合计约¥23,800–26,200。准备¥27,000左右更从容，购物和高价项目另计。租车仍是估算，尚未取得可售库存及含全部费用的正式报价。</p><p class="planner-note">折算：AUD1≈¥4.699；NZD1≈¥3.8124（中国银行10/21现钞卖出参考）。各项均为每人：EK412原报价3人共AUD1,459，返程原报价2人共NZD2,917；酒店由3人平摊。现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
+  $('#budget-table').innerHTML=`<div class="table-scroll"><table><caption>11月16日主方案 · 上海出发者本人费用 · 10月21日报价快照</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${D.budget.rows.map(r=>`<tr><td><strong>${esc(r.title)}</strong><small>${esc(r.status)}</small><small>${esc(r.note)}</small>${refLinks(r.sourceIds)}</td><td>${esc(r.currency)} ${range(r.perPersonNative)}</td><td>¥${range(r.perPersonCny)}</td></tr>`).join('')}</tbody></table></div><p class="planner-note">${esc(D.budget.summary.narrative)}</p><p class="planner-note">折算：AUD1≈¥4.699；NZD1≈¥3.8124（中国银行10/21现钞卖出参考）。各项均为每人：EK412原报价3人共AUD1,459，返程原报价2人共NZD2,917；酒店由3人平摊。现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
   $('#licence-detail').innerHTML=cards(D.budget.licences.map(l=>({title:l.driver,body:l.advice,sourceIds:l.sourceIds})),'risk-card');
+}
+function renderRental(){
+  $('#rental-highlight').innerHTML=`<h3>${esc(D.rental.title).replace(/\n/g,'<br>')}</h3><div><p>${esc(D.rental.body)}</p><div class="source-links">${refLinks(D.rental.sourceIds)}</div></div>`;
+  $('#rental-cards').innerHTML=cards(D.rental.cards,'before-card');
 }
 function renderStatic() {
   $('#gear-grid').innerHTML=cards(D.gear,'gear-card');
   $('#weather-highlight').innerHTML=`<h3>${esc(D.weather.highlight.title)}</h3><div><p>${esc(D.weather.highlight.body)}</p><div class="source-links">${refLinks(D.weather.highlight.sourceIds)}</div></div>`;
   $('#weather-grid').innerHTML=cards(D.weather.cards,'weather-card');$('#risk-grid').innerHTML=cards(D.weather.risks,'risk-card');
   $('#before-grid').innerHTML=cards(D.before,'before-card');
-  renderBudget();
+  renderBudget();renderRental();
   $('#drone-areas').innerHTML=cards(D.droneAreas.map(a=>({title:a.place,body:a.conclusion,sourceIds:a.sourceIds})),'risk-card');
   $('#sources').innerHTML=`<ul class="sources-list">${D.sources.map(s=>`<li><a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></li>`).join('')}</ul>`;
   $('#credits').innerHTML=`<h3>照片授权</h3><ul class="credits-list">${D.photos.map(p=>`<li>${esc(p.title)} — ${esc(p.author)}；<a href="${esc(url(p.sourceUrl))}" target="_blank" rel="noopener">原作品</a>；<a href="${esc(url(p.licenseUrl))}" target="_blank" rel="noopener">${esc(p.license)}</a>。页面卡片以CSS裁切显示，放大视图保留原比例；未将作品标记为本次旅行实拍。</li>`).join('')}</ul>`;
