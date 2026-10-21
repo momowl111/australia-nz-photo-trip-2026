@@ -1,9 +1,12 @@
 {
   "meta": {
     "checked": "2026-10-21",
-    "status": "悉尼2晚＋南岛6晚；未预订的摄影优先行程",
+    "status": "12天：悉尼2晚＋南岛7晚；格林诺奇与米尔福德均保留，未预订",
     "defaultStart": 16,
-    "revision": "south-island-priority"
+    "revision": "twelve-day-20261021",
+    "totalDays": 12,
+    "hotelNights": 9,
+    "budgetCapCNY": 30000
   },
   "days": [
     {
@@ -481,10 +484,10 @@
       "title": "睡足后出发，午后到特卡波休息",
       "area": "基督城→Tekapo",
       "timezone": "新西兰夏令时 UTC+13",
-      "hotelId": "peppers",
-      "summary": "09:30从机场酒店出发，经Geraldine午餐和休息，约14:00到Tekapo；留足湖岸晚光前的休息。",
+      "hotelId": "tesoro",
+      "summary": "09:30出发，经Geraldine午餐，14:00左右到Tekapo；Tesoro15:00起入住，留足晚光前休息。",
       "drive": "自驾 · 约3.2小时纯驾驶",
-      "photoGoal": "湖岸、教堂外观与山湖晚光；可选短时月光夜景。",
+      "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
       "weatherPlan": "当天先熟悉左侧通行，不加库克山往返。若到Tekapo遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
       "events": [
         {
@@ -532,39 +535,42 @@
         {
           "time": "12:15",
           "endTime": "14:00",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "drive",
           "detail": "经Fairlie到Tekapo，预留约1小时45分钟含交通缓冲；实际入住以酒店规定为准。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
           "sourceIds": [
             "i-nz-route",
-            "i-road-conditions"
+            "i-road-conditions",
+            "x-tesoro"
           ]
         },
         {
           "time": "14:00",
           "endTime": "18:15",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "rest",
-          "detail": "寄存行李或到时入住，超市补给、午休和早晚餐；不把库克山硬塞首个长途驾驶日。",
+          "detail": "先按管理处指示办理钥匙；Tesoro15:00起入住，不保证14点进房。此前超市补给或休息，正式入住后午休、早晚餐。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
-          "sourceIds": []
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
+          "sourceIds": [
+            "x-tesoro"
+          ]
         },
         {
           "time": "19:30",
-          "endTime": "21:15",
+          "endTime": "21:00",
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd公共外部",
           "kind": "photo",
-          "detail": "公共湖岸与教堂外部拍黄昏、日落和蓝调；11/20日落约20:49、民用暮光约21:23结束，地形可能提前遮光。",
+          "detail": "公共湖岸与教堂外部拍黄昏、日落和蓝调；11/20日落约20:49、民用暮光约21:23结束，地形可能提前遮光。 Tesoro不在教堂门口，留镇内往返时间；不承诺步行路线已核实。",
           "photoTip": "Z6III＋24–120mm先拍山层，再用16mm带湖岸前景；脚架用于蓝调，避开教堂私有/封闭区域。",
           "lat": -44.003,
           "lon": 170.482,
@@ -575,33 +581,18 @@
           ]
         },
         {
-          "time": "21:45",
-          "endTime": "22:15",
-          "placeId": "tekapo_lake",
-          "place": "Lake Tekapo镇区湖岸",
-          "kind": "photo_optional",
-          "detail": "仅在精神好、无风无雨且步行可达时，尝试30分钟暮光与月光湖景（天尚未全黑）；不承诺银河，不驾车追暗空。",
-          "photoTip": "这两晚月光较强，16mm+脚架更适合星月与山湖环境；若效果一般立即收工。",
-          "lat": -44.003,
-          "lon": 170.478,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
-            "i-tekapo-moon"
-          ],
-          "optional": true
-        },
-        {
-          "time": "22:15",
-          "endTime": "22:45",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "time": "21:00",
+          "endTime": "21:30",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "rest",
-          "detail": "回房后睡觉，次日不设日出闹钟。",
+          "detail": "短程返回住宿，备份后休息；今晚不再加月光或银河拍摄，避免换房位置后沿用旧步行安排。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业区域点；按入住指示导航。",
           "sourceIds": [
+            "x-tesoro",
             "i-driver-rest"
           ]
         }
@@ -615,7 +606,7 @@
       "title": "Pukaki与Aoraki：以短步道换好照片",
       "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
       "timezone": "新西兰夏令时 UTC+13",
-      "hotelId": "peppers",
+      "hotelId": "tesoro",
       "summary": "睡足后出发，拍Pukaki、Kea Point与Tasman Valley；不把三小时Hooker全程当必选。",
       "drive": "自驾 · 约3小时纯驾驶",
       "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
@@ -624,18 +615,19 @@
         {
           "time": "08:00",
           "endTime": "09:00",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "meal",
-          "detail": "早餐与天气路况判断；前晚拍月光也能睡足8小时左右。",
+          "detail": "睡足后早餐，判断山区天气与路况；不为银河早起。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
           "sourceIds": [
             "i-weather",
             "i-road-conditions",
-            "i-driver-rest"
+            "i-driver-rest",
+            "x-tesoro"
           ]
         },
         {
@@ -729,39 +721,42 @@
         {
           "time": "15:15",
           "endTime": "17:00",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "drive",
           "detail": "回Tekapo，途中需要就停正规休息点；不在山里等到日落再开夜路。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
           "sourceIds": [
             "i-driver-rest",
-            "i-road-conditions"
+            "i-road-conditions",
+            "x-tesoro"
           ]
         },
         {
           "time": "17:00",
           "endTime": "19:45",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "rest",
           "detail": "休息、晚餐和备份照片。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
-          "sourceIds": []
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
+          "sourceIds": [
+            "x-tesoro"
+          ]
         },
         {
           "time": "19:45",
-          "endTime": "21:15",
+          "endTime": "21:00",
           "placeId": "tekapo_lake",
           "place": "Lake Tekapo镇区湖岸",
           "kind": "photo_optional",
-          "detail": "若D5已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。",
+          "detail": "若D5已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 留返回Tesoro的镇内交通时间，不再按Peppers位置假定步行即到。",
           "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
           "lat": -44.003,
           "lon": 170.478,
@@ -790,15 +785,17 @@
         {
           "time": "08:00",
           "endTime": "09:30",
-          "placeId": "peppers",
-          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
+          "placeId": "tesoro",
+          "place": "Tesoro度假屋住宿区域",
           "kind": "meal",
           "detail": "早餐、打包、按住宿规定退房；09:30出发，正常方案不早起追日出。",
           "photoTip": "",
-          "lat": -44.00312567,
-          "lon": 170.4739952,
-          "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
-          "sourceIds": []
+          "lat": -44.01108,
+          "lon": 170.49353,
+          "coordinateStatus": "物业GPS；非取钥匙前台。按最终入住指示导航。",
+          "sourceIds": [
+            "x-tesoro"
+          ]
         },
         {
           "time": "09:30",
@@ -927,8 +924,8 @@
       "hotelId": "bluepeaks",
       "summary": "晨间再给湖岸一次机会，10:00前退房；经Cromwell与Kawarau Gorge到皇后镇，避开额外山路负担。",
       "drive": "经SH6与Cromwell · 约112公里 / 1.5小时纯驾驶",
-      "photoGoal": "Wānaka柔光湖岸、Cromwell街景与Wakatipu湖湾；不安排Roy’s Peak长徒步。",
-      "weatherPlan": "走SH6/Cromwell。Crown Range虽然里程较短但路况更有挑战，并不一定更快，恶劣天气不作为抢时间捷径；晚光和次日日出仍二选一。",
+      "photoGoal": "上午Wānaka与途中山湖；皇后镇湖畔只做白天轻拍，今晚休息。",
+      "weatherPlan": "经SH6/Cromwell，不以Crown Range抢时间。下午风雨大就休息；今晚给次日米尔福德长巴士日留睡眠。",
       "events": [
         {
           "time": "08:00",
@@ -1018,41 +1015,11 @@
         },
         {
           "time": "15:00",
-          "endTime": "18:30",
+          "endTime": "21:00",
           "placeId": "bluepeaks",
           "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
-          "detail": "入住、洗澡、休息和晚餐；若明天选日出，今天不拍完整日落，21:00前睡。",
-          "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
-          "sourceIds": []
-        },
-        {
-          "time": "20:00",
-          "endTime": "21:25",
-          "placeId": "queenstown_bay",
-          "place": "Queenstown Bay湖畔",
-          "kind": "photo_optional",
-          "detail": "步行到湖畔拍晚光；11/23日落约21:04，拍完步行回酒店。此项和次日日出二选一。",
-          "photoTip": "24–120mm拍山湖层次，16mm只在有明确近景时使用；脚架不要占满步道。",
-          "lat": -45.033,
-          "lon": 168.66,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
-            "i-queenstown-sun"
-          ],
-          "optional": true,
-          "exclusiveGroup": "qt-sunset-or-sunrise"
-        },
-        {
-          "time": "21:25",
-          "endTime": "22:15",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments住宿区域",
-          "kind": "rest",
-          "detail": "回房、简单备份并睡觉；若拍了晚光，明早睡足再出发。",
+          "detail": "入住、休息、晚餐和照片备份；准备明天自带午餐、雨衣、防水相机包，核对接车点，21:00左右睡觉。不排晚间外拍。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
@@ -1061,45 +1028,133 @@
         }
       ],
       "shortTitle": "瓦纳卡到皇后镇",
-      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+      "lightNote": "本晚不追21:04日落；明早米尔福德接车07:40，睡眠优先。"
     },
     {
       "day": 9,
       "date": "2026-11-24",
-      "title": "Glenorchy湖湾，给返程前留余裕",
+      "title": "米尔福德峡湾：正规大巴＋游船整日",
+      "shortTitle": "米尔福德峡湾",
+      "area": "Queenstown→Milford Sound→Queenstown",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "bluepeaks",
+      "summary": "RealNZ官网实查07:35–20:15场次，三人NZ$957。选择Upper Stanley Street后显示07:40接车、至少提前10分钟到；具体接车与游船时刻按确认单。",
+      "drive": "自己不开车；往返大巴＋游船约12小时40分，租车留酒店仍计租金。",
+      "photoGoal": "峡湾峭壁、云雾、瀑布与船只比例；雨天水量可能更有表现，但不保证出航或主峰露出。",
+      "lightNote": "不使用皇后镇日落时刻冒充Milford时刻。船上24–120mm为主，快门防船摇，防雨优先，不架三脚架挡船上通道。",
+      "weatherPlan": "普通雨天仍可能发团，按运营方决定；SH94关闭或停航听通知。至少24小时可改/取消的条件要核对，不能把11/25换日视为必有座位。回程后直接休息。",
+      "events": [
+        {
+          "time": "06:30",
+          "endTime": "07:10",
+          "place": "Blue Peaks Apartments住宿区域",
+          "placeId": "bluepeaks",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "detail": "早餐、带自备午餐饮水、防水外壳、保暖层；行李与三脚架留房间，贵重相机随身。",
+          "photoTip": "",
+          "kind": "meal",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        },
+        {
+          "time": "07:10",
+          "endTime": "07:30",
+          "place": "Upper Stanley Street接车区域 · 11 Stanley Street",
+          "placeId": "milford_pickup",
+          "lat": -45.0305,
+          "lon": 168.6636,
+          "detail": "从酒店前往接车点，预留20分钟；这里只是规划区域点，不是准确站牌。按确认邮件或前台核对Upper Stanley Street站位置。07:30前到场。",
+          "photoTip": "",
+          "kind": "transfer",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        },
+        {
+          "time": "07:40",
+          "endTime": "12:30",
+          "place": "Queenstown→Te Anau→Milford Sound",
+          "placeId": "milford_road",
+          "lat": -45.414,
+          "lon": 167.717,
+          "detail": "随大巴经Te Anau与SH94，观景停车、厕所及到港时间由司机安排；本时间段是规划窗口，不是承诺每站分钟。",
+          "photoTip": "隔车窗有反光；正规停车后再拍，不要求司机额外停靠。",
+          "kind": "coach",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        },
+        {
+          "time": "12:30",
+          "endTime": "15:30",
+          "place": "Milford Sound游船与候船区域",
+          "placeId": "milford_sound",
+          "lat": -44.67,
+          "lon": 167.926,
+          "detail": "窗口包含到港/登船/约1.5–2小时航行与简餐，确切船班依确认单；NZ$319已含来回巴士＋船，未加购午餐。",
+          "photoTip": "24–35mm拍峡湾大场景，70–120mm拍瀑布和山层。移动船上先用1/500秒左右保清晰，按现场调高ISO；防水滴，不伸器材越栏。",
+          "kind": "cruise",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        },
+        {
+          "time": "15:30",
+          "endTime": "20:15",
+          "place": "Milford Sound→Queenstown",
+          "placeId": "milford_return",
+          "lat": -45.033,
+          "lon": 168.66,
+          "detail": "随团返回皇后镇，运营方计划20:15左右结束；依交通天气可能变化，不预订紧接着的晚间项目。",
+          "photoTip": "能见度低时拍云雾与瀑布，别把晴日参考图当成天气保证。",
+          "kind": "coach",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        },
+        {
+          "time": "20:15",
+          "endTime": "21:30",
+          "place": "Blue Peaks Apartments住宿区域",
+          "placeId": "bluepeaks",
+          "lat": -45.03301,
+          "lon": 168.66448,
+          "detail": "回住宿晚餐、洗澡、简单备份并休息。夜间不再驾驶或追星，明早不设日出闹钟。",
+          "photoTip": "",
+          "kind": "rest",
+          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "sourceIds": [
+            "x-milford"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-11-25",
+      "title": "格林诺奇湖湾，下午留给休息",
       "area": "Queenstown→Glenorchy→Queenstown",
       "timezone": "新西兰夏令时 UTC+13",
       "hotelId": "bluepeaks",
-      "summary": "默认不早起；上午Glenorchy慢行，下午返皇后镇休息。",
+      "summary": "米尔福德次日不设日出闹钟。09:30出发去Glenorchy，下午返皇后镇，第三晚仍住Blue Peaks。",
       "drive": "自驾 · 约2小时纯驾驶",
       "photoGoal": "红色船屋、湖湾倒影、湿地步道与山谷；不深入Paradise砂石路。",
-      "weatherPlan": "雨大或阵风强就改皇后镇市区咖啡、室内展馆与湖边短走；云低但无恶劣天气可只到近处观景点。 若更想拍高处湖湾全景，可用Skyline缆车替换Glenorchy整段，确认运营和天气后再买票；不在同一天硬塞两处。",
+      "weatherPlan": "强风大雨取消湖湾自驾，改皇后镇室内和休息。与11/24米尔福德可否交换，须重查RealNZ余位、至少24小时改期条件及路况；并非免费天气保障日。",
       "events": [
-        {
-          "time": "05:30",
-          "endTime": "06:30",
-          "placeId": "queenstown_bay",
-          "place": "Queenstown Bay湖畔",
-          "kind": "photo_optional",
-          "detail": "全程唯一可选日出：仅当D8未拍晚光、已睡足时步行湖边；司机可继续睡。11/24日出约05:58。",
-          "photoTip": "16mm带前景，24–120mm拍晨光山层；不驾车赶机位。",
-          "lat": -45.033,
-          "lon": 168.66,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
-            "i-queenstown-sun",
-            "i-driver-rest"
-          ],
-          "optional": true,
-          "exclusiveGroup": "qt-sunset-or-sunrise"
-        },
         {
           "time": "08:00",
           "endTime": "09:30",
           "placeId": "bluepeaks",
           "place": "Blue Peaks Apartments住宿区域",
           "kind": "meal",
-          "detail": "正常起床早餐；拍日出的人先休息，司机精神状态优先。",
+          "detail": "睡足后早餐；前一晚巴士20:15左右返回，不加日出拍摄。司机未恢复就延后出发或取消远处观景点。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
@@ -1172,7 +1227,7 @@
           "placeId": "bluepeaks",
           "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
-          "detail": "至少两小时不赶景点，收拾行李、照片备份、核对次日飞机与还车。",
+          "detail": "下午休息、整理行李、照片备份，核对明日航班；不再叠加Skyline等付费项目。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
@@ -1198,7 +1253,7 @@
           "placeId": "queenstown_bay",
           "place": "Queenstown Bay湖畔",
           "kind": "photo_optional",
-          "detail": "仅在没拍日出、精神好时补最后一组湖景；步行返回，不开车追远处日落。",
+          "detail": "仅在休息充分时步行到镇区湖畔拍晚光。11/25日落约21:07；不驾车去Glenorchy等日落，不熬夜等星空。",
           "photoTip": "用24–120mm集中拍一两张，21:15收工；不拍午夜星空。",
           "lat": -45.033,
           "lon": 168.66,
@@ -1228,8 +1283,8 @@
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
-      "day": 10,
-      "date": "2026-11-25",
+      "day": 11,
+      "date": "2026-11-26",
       "title": "湖边收尾，提早还车接上海夜航",
       "area": "Queenstown→Auckland→上海",
       "timezone": "新西兰 UTC+13 / 次晨上海 UTC+8",
@@ -1287,7 +1342,7 @@
           "placeId": "zqn_return",
           "place": "APEX皇后镇门店 · 32 Lucas Place",
           "kind": "meal",
-          "detail": "加油后11:45前抵达32 Lucas Place门店，12:00前验车交钥匙；11/19 17点至此刻共6个计费日。门店当前正常营业至17:29，交车后免费接驳机场。",
+          "detail": "加满正确燃油，11:45前到32 Lucas Place门店，12:00前验车交钥匙。11/19 17点至此共163小时、7计费日；米尔福德日停车仍收费。交车后免费接驳机场。",
           "photoTip": "",
           "lat": -45.0242564,
           "lon": 168.7368573,
@@ -1316,7 +1371,7 @@
           "placeId": "zqn_airport",
           "place": "皇后镇机场",
           "kind": "airport",
-          "detail": "13:30–14:30办理值机与托运，随后候机休息。按联程国际旅客的60分钟截止要求，最迟16:20前完成，不能把航班起飞时间当作值机截止时间。以出票后的航司通知为准。",
+          "detail": "先确认机场托运柜台何时开放，开放后及时值机；不假定13:30就能提前托运。按联程国际行程要求至少起飞前60分钟完成，以出票通知为准；17:20起飞不能拖到最后。",
           "photoTip": "相机随身；返程不再取无人机。",
           "lat": -45.021,
           "lon": 168.739,
@@ -1376,7 +1431,7 @@
           "placeId": "akl_airport",
           "place": "奥克兰机场国内/国际航站楼",
           "kind": "flight",
-          "detail": "NZ289奥克兰→上海PVG，11/26上海当地07:00到达。",
+          "detail": "NZ289奥克兰→上海PVG，11/27上海当地07:00到达。",
           "photoTip": "机上休息，别用整段航程修图。",
           "lat": -37.008,
           "lon": 174.791,
@@ -1384,7 +1439,7 @@
           "sourceIds": [
             "i-flight-nz"
           ],
-          "endDate": "2026-11-26",
+          "endDate": "2026-11-27",
           "endTimezone": "Asia/Shanghai",
           "arrivalPlaceId": "pvg"
         }
@@ -1393,9 +1448,9 @@
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
-      "day": 11,
-      "date": "2026-11-26",
-      "title": "上海落地，结束十一日行程",
+      "day": 12,
+      "date": "2026-11-27",
+      "title": "上海落地，结束十二日行程",
       "area": "上海",
       "timezone": "中国时间 UTC+8",
       "hotelId": null,
@@ -1446,15 +1501,33 @@
       "lat": -33.88702,
       "lon": 151.17917,
       "address": "9 Missenden Road, Camperdown NSW 2050, Australia",
-      "sourceUrl": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
-      "coordinateNote": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
-      "coordinateSource": "https://mapcarta.com/25331992",
+      "sourceUrl": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1&selected_currency=AUD",
+      "sourceIds": [
+        "b-hotel-0"
+      ],
+      "coordinateNote": "Unchanged existing map property centre, not exact entrance",
       "checkin": "2026-11-17",
       "checkout": "2026-11-19",
       "nights": 2,
-      "beds": "家庭房29㎡ · 1大床＋2单人床",
-      "price": "3人两晚AUD667≈¥3,134",
-      "cancel": "Booking报价：11/16前免费取消，具体截止时间以订单为准。"
+      "beds": "家庭房29㎡：1大床＋2单人床",
+      "price": "三人2晚 AUD719.69≈¥3,387；已加已知手续费，非所有卡最终扣款保证",
+      "cancel": "11/16前可免费取消，精确时刻依订单；不预付、到店付。15:00起入住、11:00前退房；另AUD200可退押金/预授权。",
+      "nativeTotal": 719.6896,
+      "currency": "AUD",
+      "priceStatus": "实查含税房价AUD712（列表取整）＋官网1.08%卡费估算；未到最终付款页",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "15:00",
+      "checkoutTime": "11:00",
+      "perNightCNY": 1693.3216753600002,
+      "aboveOriginalNightlyCap": false,
+      "cardFeeNote": "Property rate table rounds to whole AUD; exact cents at checkout not successfully retrieved. Do not call 712 the exact final charge.",
+      "refundableDeposit": {
+        "currency": "AUD",
+        "amount": 200,
+        "note": "Credit-card damage deposit, release subject to inspection; not consumption"
+      },
+      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。"
     },
     {
       "id": "palms",
@@ -1462,74 +1535,120 @@
       "lat": -43.49897,
       "lon": 172.56151,
       "address": "56 Roydvale Avenue, Burnside, Christchurch, New Zealand",
-      "coordinateSource": "https://fromto.travel/en/new-zealand/airport-palms-motel-christchurch",
-      "coordinateNote": "第三方物业点与官网地址交叉核对；非车道入口。",
+      "sourceUrl": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "sourceIds": [
+        "b-hotel-1"
+      ],
+      "coordinateNote": "Unchanged existing map third-party property point; official address crosschecked",
       "checkin": "2026-11-19",
       "checkout": "2026-11-20",
       "nights": 1,
-      "beds": "两卧公寓56㎡ · 1特大床＋2单人床",
-      "price": "3人一晚NZ$350≈¥1,334；卡费待确认",
-      "cancel": "Booking报价11/17前可免费取消，不预付到店付；不含早餐。主方案先取车再入住；酒店机场接驳有条件，不视为已确认免费。",
-      "sourceUrl": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1"
+      "beds": "大型一卧公寓45㎡：1特大床＋2单人床",
+      "price": "三人1晚 NZD326.43≈¥1,242；已加已知手续费，非所有卡最终扣款保证",
+      "cancel": "11/17当地00:00前可免费取消，之后收全额NZ326.43；不预付、到店付。14–20时入住、10:00前退房。卡费未找到，不保证为0；本路线先取车，不依赖酒店免费接驳。",
+      "nativeTotal": 326.43,
+      "currency": "NZD",
+      "priceStatus": "已进入未提交个人资料页，含税精确NZ326.43；卡费未确认",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "14:00–20:00",
+      "checkoutTime": "02:00–10:00",
+      "perNightCNY": 1242.294651,
+      "aboveOriginalNightlyCap": false,
+      "cardFeeNote": "No card surcharge was found in live property fine print or Step 1 price summary; zero fee is not guaranteed for every card/payment channel.",
+      "refundableDeposit": null,
+      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。"
     },
     {
-      "id": "peppers",
-      "name": "Peppers Bluewater Resort（床型待确认）",
-      "lat": -44.00312567,
-      "lon": 170.4739952,
-      "address": "State Highway 8, Lake Tekapo 7945, New Zealand",
-      "sourceUrl": "https://www.booking.com/hotel/nz/peppers-bluewater-resort.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
-      "coordinateNote": "Accor酒店官网公布GPS；不是具体公寓门牌。",
-      "coordinateSource": "https://all.accor.com/hotel/B3Q7/index.en.shtml",
+      "id": "tesoro",
+      "name": "Tesoro / 特索罗度假屋",
+      "lat": -44.01108,
+      "lon": 170.49353,
+      "address": "4 Manning Place, Lake Tekapo 7999, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/tesoro.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "sourceIds": [
+        "x-tesoro"
+      ],
+      "coordinateNote": "Third-party page explicitly publishes GPS matching live Booking street address; property point not confirmed driveway/check-in location.",
       "checkin": "2026-11-20",
       "checkout": "2026-11-22",
       "nights": 2,
-      "beds": "山景两卧室套房107㎡；房型列1大床＋2单人床，细则要求预订时指定Twin；须得到确认才能保证三人各一实体床。",
-      "price": "3人2晚总NZD1,618≈¥6,168；每晚约¥3,084，略超¥3,000上限。",
-      "cancel": "不可退；取消/修改/未入住收全额，可随时收全额预付。另NZD200可退押金/预授权。",
-      "nativeTotal": 1618,
+      "beds": "三卧两卫160㎡：2大床＋2单人床（四张实体床）",
+      "price": "三人2晚 NZD1,871.17≈¥7,121；已加已知手续费，非所有卡最终扣款保证 每晚约¥3,561，超过原每晚¥3,000上限；整体预算以这项取舍核算。",
+      "cancel": "11/13当地00:00前房费可退；11/11前不付款。已收2.5%处理费不退。15:00起入住、10:00前退房；钥匙领取地点依确认函，可能需先到管理处。",
+      "nativeTotal": 1871.16825,
       "currency": "NZD",
-      "priceStatus": "2026-10-21实查可售含税总价；未预订。三张实体床须Twin确认，略超每晚预算，属于条件候选。",
-      "fixedThreeBeds": false,
-      "rating": 7.9,
-      "reviewCount": 2507,
-      "checkinTime": "14:00后",
-      "checkoutTime": "10:00前",
-      "refundableDeposit": 200,
-      "cardFeeStatus": "本次Booking房型页/须知未单列刷卡费；不等于保证所有支付方式零费。",
-      "selectedBecause": "Tekapo湖边摄影动线优于Twizel；整城搜索未发现更便宜且舒适度/三实体床要求明确满足的选项。"
+      "priceStatus": "未提交个人资料页精确NZ1825.53＋已列2.5%处理费推算",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "15:00–23:30",
+      "checkoutTime": "06:00–10:00",
+      "perNightCNY": 3560.5525045124996,
+      "aboveOriginalNightlyCap": true,
+      "cardFeeNote": "按已公布手续费保守计入，最终订单优先",
+      "refundableDeposit": null,
+      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。",
+      "coordinateSource": "https://www.gites.fr/gites_tesoro_lake-tekapo_h2085623_it.htm"
     },
     {
       "id": "clearbrook",
       "name": "Clearbrook Motel & Serviced Apartments",
       "lat": -44.697007,
       "lon": 169.137107,
-      "address": "72 Helwick Street, Wānaka 9305, New Zealand",
-      "coordinateSource": "https://www.ehotelsreviews.com/clearbrook-motel-174561-en",
-      "coordinateNote": "第三方物业点；官网地址已对照，不是车道入口",
+      "address": "72 Helwick Street, Wānaka9305, New Zealand",
+      "sourceUrl": "https://book-directonline.com/properties/clearbrookdirect?locale=zh-CN&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-22&checkOutDate=2026-11-23&trackPage=no",
+      "sourceIds": [
+        "b-hotel-4"
+      ],
+      "coordinateNote": "Unchanged existing map property point; not exact driveway",
       "checkin": "2026-11-22",
       "checkout": "2026-11-23",
       "nights": 1,
-      "beds": "两卧公寓70㎡ · 2特大床＋2单人床，有楼梯/夹层",
-      "price": "3人一晚NZ$539＋2%卡费＝549.78≈¥2,096",
-      "cancel": "标准价约11/8以前可退，精确截止依订单；14天内全额。可能提前收费，主动授权更早付款时该款不退。免费停车位有限；14–19时入住，10时退房。",
-      "sourceUrl": "https://book-directonline.com/properties/clearbrookdirect?locale=zh-CN&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-22&checkOutDate=2026-11-23&trackPage=no"
+      "beds": "两卧70㎡：2特大床＋2单人床，有楼梯/夹层",
+      "price": "三人1晚 NZD549.78≈¥2,092；已加已知手续费，非所有卡最终扣款保证",
+      "cancel": "标准价超过14天通常免费，约11/8边界，精确依订单；14天内收全额。主动授权早付的款不退；可能预授权/提前收费。14–19时入住、10:00前退房，免费停车位有限。",
+      "nativeTotal": 549.78,
+      "currency": "NZD",
+      "priceStatus": "官网房价NZ539实查＋2%卡费推算；非已付款订单",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "14:00–19:00",
+      "checkoutTime": "08:00–10:00",
+      "perNightCNY": 2092.2977459999997,
+      "aboveOriginalNightlyCap": false,
+      "cardFeeNote": "按已公布手续费保守计入，最终订单优先",
+      "refundableDeposit": null,
+      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。"
     },
     {
       "id": "bluepeaks",
       "name": "Blue Peaks Apartments",
       "lat": -45.03301,
       "lon": 168.66448,
-      "address": "11 Sydney Street, Queenstown, New Zealand",
-      "sourceUrl": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-25&group_adults=3&group_children=0&no_rooms=1",
-      "coordinateNote": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
-      "coordinateSource": "https://mapcarta.com/W1289569912",
+      "address": "11 Sydney Street, Queenstown9300, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "sourceIds": [
+        "b-hotel-3"
+      ],
+      "coordinateNote": "Unchanged map property centre; reception may be8CoronationDrive, follow booking confirmation",
       "checkin": "2026-11-23",
-      "checkout": "2026-11-25",
-      "nights": 2,
-      "beds": "两卧两卫100㎡ · 1双人床＋2单人床",
-      "price": "3人总NZD1,555.49≈¥5,930（含卡费估算）",
-      "cancel": "11/21前免费取消；11/19付款期限，以订单为准。"
+      "checkout": "2026-11-26",
+      "nights": 3,
+      "beds": "两卧两卫100㎡：1双人床＋2单人床",
+      "price": "三人3晚 NZD2,331.96≈¥8,875；已加已知手续费，非所有卡最终扣款保证",
+      "cancel": "11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时入住、10:00前退房；前台可能在8 Coronation Drive，按确认函。",
+      "nativeTotal": 2331.9625,
+      "currency": "NZD",
+      "priceStatus": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "15:00–20:00",
+      "checkoutTime": "07:30–10:00",
+      "perNightCNY": 2958.2498954166663,
+      "aboveOriginalNightlyCap": false,
+      "cardFeeNote": "Live table whole-NZD room price2295; fixed additional online fee exactly2.50 in fine print (table rounds to+3). Card-inclusive total is calculated from published charge policy, not a completed final payment page.",
+      "refundableDeposit": null,
+      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。"
     }
   ],
   "photos": [
@@ -1746,9 +1865,9 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "alt": "从皇后镇缆车上方区域俯瞰城镇、湖湾与远山的宽幅全景。",
-      "seasonNote": "2009年12月22日，初夏；照片较早，城市和缆车设施已变化，适合参考湖山格局。 本图是缆车上站视角；与Glenorchy日游二选一替换，不能在湖畔复刻此高度。",
+      "seasonNote": "2009年12月22日，初夏；照片较早，城市和缆车设施已变化，适合参考湖山格局。 本图是缆车上站视角；与Glenorchy日游二选一替换，不能在湖畔复刻此高度。 十二天主方案保留Glenorchy与峡湾，不含Skyline；本图只作可替换视角参考。",
       "shootingTip": "24–35mm拍湖湾与城镇；70–120mm挑半岛、船只和山层。长横幅可用35–50mm拼接；平台使用三脚架时留出通行空间。",
-      "day": 9,
+      "day": 10,
       "hero": false,
       "dateTaken": "2009-12-22",
       "visualChecked": true,
@@ -1773,7 +1892,7 @@
       "alt": "格林诺奇木码头通往湖面，远山带金色光线并映在静水中。",
       "seasonNote": "2022年11月10日；月份匹配。雪量、静水和金光仍取决于当天天气，此图是他人历史摄影参考。 本行程白天到访，重点参考码头构图；不承诺照片中的金光，不为复现晚光夜间开山路。",
       "shootingTip": "24–35mm让栈桥通向远山，50–85mm压缩山体与码头；三脚架可帮助低ISO拍摄静水。16mm可强化近处栏杆，但容易让雪山显小。",
-      "day": 9,
+      "day": 10,
       "hero": false,
       "dateTaken": "2022-11-10 20:28:16",
       "visualChecked": true,
@@ -1798,6 +1917,24 @@
       "alt": "真实摄影：瓦纳卡湖中的柳树和远处雪山",
       "shootingTip": "24–35mm保留湖面与天空，70–120mm单拍树枝、雪山层次。画面先找前后景分离；16mm容易把远山拍小，只有近景明确时再用。",
       "seasonNote": "2026年8月15日的真实作品，冬季雪量与树叶状态不代表11月。水位、风和人流决定实际构图；不踩树根、不涉水、不承诺倒影。"
+    },
+    {
+      "id": "milford",
+      "day": 9,
+      "title": "米尔福德：峭壁、云雾与瀑布层次",
+      "place": "Milford Sound / Piopiotahi",
+      "lat": -44.675672,
+      "lon": 167.920703,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Milford_Sound%2C_New_Zealand_%2849432653912%29.jpg/960px-Milford_Sound%2C_New_Zealand_%2849432653912%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milford_Sound,_New_Zealand_(49432653912).jpg",
+      "author": "Pedro Szekely",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "他人真实摄影：云雾下的米尔福德峡湾、峭壁与水面",
+      "seasonNote": "2019年10月30日春季作品；为岸边取景参考，不保证船上相同角度、山峰露出和水面状态。公开JPEG，不是RAW或本次旅行实拍。",
+      "shootingTip": "24–35mm拍峡湾尺度，70–120mm找瀑布、山体和船只比例。船行时快门优先防抖；16mm只在能保护镜头、前景明确时使用。",
+      "referenceType": "第三方真实摄影参考，未生成图片",
+      "visualChecked": true
     }
   ],
   "light": [
@@ -1950,7 +2087,7 @@
       "sourceIds": [
         "w-sunQT"
       ],
-      "area": "Queenstown→Glenorchy→Queenstown",
+      "area": "Queenstown（接车地参考，非Milford）",
       "note": "清晨05:23–05:58；傍晚21:05–21:41（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
     },
     {
@@ -1969,8 +2106,8 @@
       "sourceIds": [
         "w-sunQT"
       ],
-      "area": "Queenstown→Auckland→上海",
-      "note": "清晨05:22–05:57；傍晚21:07–21:42（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+      "area": "Queenstown→Glenorchy→Queenstown",
+      "note": "清晨05:22–05:57；傍晚21:07–21:42（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。 此数值为Queenstown，不能当作Glenorchy山体实际见光时间。"
     }
   ],
   "gear": [
@@ -2029,6 +2166,15 @@
           "w-docHooker",
           "w-niwaInland"
         ]
+      },
+      {
+        "title": "米尔福德：普通雨天也有摄影价值",
+        "body": "峡湾比东侧湖区湿，低云和雨会遮住山峰，也可能让瀑布更明显；照片风格随天气改变。暴雨、道路关闭或停航必须听运营方，不能保证一定出航；带防水外壳、相机雨套和保暖层。",
+        "sourceIds": [
+          "x-milford",
+          "w-metWarnings",
+          "w-nztaRoads"
+        ]
       }
     ],
     "risks": [
@@ -2079,7 +2225,7 @@
       },
       {
         "title": "轻旅行的天气代价",
-        "body": "新版南岛6晚、5个主要游览日。11/21是库克山主窗口；若恶劣天气，11/22可用瓦纳卡下午换一次短程补拍，须早点离山。不等于增加完整机动日；两天都不适合就接受主峰未露出，不从皇后镇折返追晴。",
+        "body": "新版南岛7晚、6个主要游览日。11/21库克山主窗口，22日只能以瓦纳卡下午换短线补拍；峡湾24/25换日需运营方确认库存/取消期限。没有完整天气备用日，两天都不适合就接受看不到主峰或活动取消，不冒险赶路。",
         "sourceIds": [
           "w-docHooker",
           "w-nztaRoads"
@@ -2098,7 +2244,7 @@
   "before": [
     {
       "title": "01 / 会合：朋友提前一晚到悉尼",
-      "body": "11/16、17东京均查到JL51，19:15从羽田起飞、次日06:50到悉尼；主方案与你的HO1669同到达时刻。墨尔本11/17已见最早06:00→07:25，无法比你06:50落地更早。推荐朋友11/16晚到悉尼，自己安排前晚住宿，17日上午在T1公共到达大厅接人。朋友只能在你出关后会合，提前准备英文酒店地址、回程票和离线翻译。",
+      "body": "11/16、17东京均查到JL51，19:15从羽田起飞、次日06:50到悉尼；主方案与你的HO1669同到达时刻。墨尔本11/17已见最早06:00→07:25，无法比你06:50落地更早。推荐朋友11/16晚到悉尼，自己安排前晚住宿，17日上午在T1公共到达大厅接人。朋友只能在你出关后会合，提前准备英文酒店地址、回程票和离线翻译。 东京朋友票价本轮不重算；上述是前轮查到的时刻线索，出票前再核。墨尔本朋友额外前晚和个人机票不在你的9晚均摊内。",
       "sourceIds": [
         "i-flight-tokyo16",
         "i-flight-tokyo17",
@@ -2108,7 +2254,7 @@
     },
     {
       "title": "02 / 签证齐全，再买不可退住宿",
-      "body": "此页假设11/2同伴澳签已下，不是获批承诺。每人自行确认护照、澳签及NZeTA；先实际入境澳洲，再直飞新西兰。当前试点在评估及下一步决定前继续适用，不能把11/3当作自动失效日。NZeTA至少预留72小时。每间新日期房价都要按订单核对取消截止；Clearbrook约11/8进入全额罚金窗口。",
+      "body": "本页理想前提：同伴11/2澳签已下；不代表已获批。先实际入境澳洲，再直飞NZ；NZeTA至少提前72小时申请（非保证时限），App17＋IVL100＝NZ117，NZTD免费。INZ当前说明评估和下一步决定前可继续使用试点，未找到“国会重组所以延长”的官方依据。出发前再核政策；每人签证独立确认。",
       "sourceIds": [
         "visa",
         "nzeta"
@@ -2146,9 +2292,19 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "悉尼2晚＋南岛6晚，上海出发者约¥24,800–26,700。机票约¥11,965，住宿约¥6,221/人；租车含在地面预算内。仍含¥810–1,087未分项机动预留，不能说签证/电子许可、旅行保险、通信与翻译已逐项报价。未含购物、米尔福德等高价新增活动；不参加当前基础付费活动可少花约¥759–949。Peppers需先确认Twin，不能按三床已锁定购买。 现金每人AUD100–200＋NZ$200–400≈¥1,232–2,465；先换AUD150＋NZ$300≈¥1,849即可，已在消费预算内。每天两份照片备份；带防雨保暖层、头灯和备用电池。",
+      "body": "十二天控制版精算¥28,245.77–29,684.06/人，已含¥1,000机动金；按上限距¥30,000只余¥315.94。机票约¥11,958、住宿约¥7,572、租车约¥2,070、峡湾约¥1,214。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,550–30,235，不能承诺不超。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,232–2,463；建议先换AUD150＋NZ300≈¥1,848，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
+      ]
+    },
+    {
+      "title": "07 / 下单前最后四件事",
+      "body": "APEX玻璃轮胎专项＋三箱尺寸；Tesoro三床准备/钥匙地址；手机eSIM兼容；本人旅行险实际保费及历史澳签费。拿到最终支付总价后，把预算替换并重算，不以此页截图代替订单。",
+      "sourceIds": [
+        "r-apex-terms",
+        "x-tesoro",
+        "x-esim",
+        "x-insurance"
       ]
     }
   ],
@@ -2170,14 +2326,15 @@
     },
     {
       "id": "i-flight-ek",
-      "title": "EK412：11/19 09:00–14:15，3人AUD1,339",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTE5Ih8KA1NZRBIKMjAyNi0xMS0xORoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYjBsWk1XSjFlV0ZvY0RCQlJtSnpWbWRDUnkwdExTMHRMUzB0TFhSc1ltWnNPVUZCUVVGQlIzSllObXBuVFROd1NXOUJFZ1ZGU3pReE1ob0tDUGN3RUFBYUEwTk9XVGdjY05uY0JRPT0SAggAIgMKATA&hl=en&curr=CNY",
+      "title": "11/19 EK412：三人含税AUD1,338.09，Saver托运30kg/人",
+      "url": "https://www.emirates.com/booking/search-results/?selddate1=19-Nov-26&seldcity1=SYD&selacity1=CHC&seladults=3&selchildren=0&selinfants=0&pub=%2Fau%2Fenglish&TID=OW&Itinerary=oneway&selcabinclass=0",
       "checked": "2026-10-21"
     },
     {
       "id": "i-flight-nz",
-      "title": "Google Flights：11/25 NZ626接NZ289同票联程，前次现场核验",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI1Ih8KA1pRThIKMjAyNi0xMS0yNRoDQUtMKgJOWjIDNjI2Ih8KA0FLTBIKMjAyNi0xMS0yNRoDUFZHKgJOWjIDMjg5agcIARIDWlFOcgcIARIDUFZHQAFAAUgBcAGCAQsI____________AZgBAg&tfu=CnRDalJJWWtSWldGSmZZakpQWkhkQlIwZExlWGRDUnkwdExTMHRMUzB0ZEdKaVkzUTBNa0ZCUVVGQlIzSllObGRWU1RocVJWRkJFZ3RPV2pZeU5ueE9Xakk0T1JvS0NMOVdFQUFhQTBOT1dUZ2NjSmFQQ2c9PRICCAAiAwoBMA&hl=en&curr=CNY"
+      "title": "11/26 NZ626＋NZ289：17:20出发，11/27 07:00上海到达",
+      "url": "https://www.airnewzealand.co.nz/",
+      "checked": "2026-10-21"
     },
     {
       "id": "i-mel-early",
@@ -2205,19 +2362,9 @@
       "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit"
     },
     {
-      "id": "i-bronte",
-      "title": "Destination NSW官方：Bronte Beach and Baths",
-      "url": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bronte-beach-and-baths"
-    },
-    {
       "id": "i-nz-route",
       "title": "新西兰旅游局：Christchurch–Tekapo–Aoraki–Queenstown路线",
       "url": "https://www.newzealand.com/nz/feature/road-trip-christchurch-to-queenstown/"
-    },
-    {
-      "id": "i-tekapo-qt-drive",
-      "title": "新西兰旅游局行程：Tekapo–Queenstown 256km/3h15",
-      "url": "https://traveltrade.newzealand.com/assets/Uploads/Resources/01-General/Itineraries/10-days-Culture-and-cuisine-South-Island.pdf"
     },
     {
       "id": "i-doc-kea",
@@ -2260,11 +2407,6 @@
       "url": "https://www.timeanddate.com/sun/%406211234?month=11&year=2026"
     },
     {
-      "id": "i-tekapo-moon",
-      "title": "Timeanddate：Tekapo 2026年11月月相，25日当地03:53满月",
-      "url": "https://www.timeanddate.com/moon/%402188526?month=11&year=2026"
-    },
-    {
       "id": "i-queenstown-sun",
       "title": "Timeanddate：Queenstown 11/23日落21:04，11/24日落21:05",
       "url": "https://www.timeanddate.com/sun/new-zealand/queenstown?month=11&year=2026"
@@ -2280,29 +2422,9 @@
       "url": "https://www.airnewzealand.com/connecting-at-auckland"
     },
     {
-      "id": "i-casa-travel",
-      "title": "CASA：携无人机旅行与空域核验",
-      "url": "https://www.casa.gov.au/drones/drone-rules/travelling-your-drone"
-    },
-    {
-      "id": "i-casa-app",
-      "title": "CASA：经核验的无人机安全地图App",
-      "url": "https://www.casa.gov.au/knowyourdrone/drone-safety-apps"
-    },
-    {
-      "id": "i-casa-harbour",
-      "title": "2026年Sydney Harbour R407A/R407B特定App授权规则，不能等同自由飞行",
-      "url": "https://www.legislation.gov.au/F2026L00946/asmade"
-    },
-    {
       "id": "i-garden-drone",
       "title": "皇家植物园官方：普通游客严格禁止无人机",
       "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit/conditions-of-entry"
-    },
-    {
-      "id": "i-nsw-park-drone",
-      "title": "NSW National Parks：无人机须提前取得公园批准",
-      "url": "https://www.nationalparks.nsw.gov.au/conservation-and-heritage/care-for-parks/drones-in-parks"
     },
     {
       "id": "i-emirates-drone",
@@ -2465,12 +2587,6 @@
       "checked": "2026-10-21"
     },
     {
-      "id": "w-caa101",
-      "title": "CAA：Intro to Part 101 rules for unmanned aircraft",
-      "url": "https://www.aviation.govt.nz/drones/regulations/part-101-rules-for-drones/",
-      "checked": "2026-10-21"
-    },
-    {
       "id": "w-docDrone",
       "title": "DOC：Recreational drone permit",
       "url": "https://www.doc.govt.nz/get-involved/apply-for-permits/all-permissions/drone-use-on-conservation-land/recreational-drone-use/",
@@ -2519,132 +2635,6 @@
       "checked": "2026-10-21"
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/File:Mrs_Macquaries_Chair_(6861982111).jpg",
-      "purpose": "mrs_macquarie：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-0",
-      "title": "mrs_macquarie：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Circular_Quay_from_train_station_after_sunset.jpg",
-      "purpose": "circular_quay：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-1",
-      "title": "circular_quay：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Bondi_Icebergs_POOL,_Bondi_Beach,_Australia_(Unsplash).jpg",
-      "purpose": "bondi：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-2",
-      "title": "bondi：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:A_Rainbow_over_Manly_Beach_(5273210189).jpg",
-      "purpose": "manly：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-3",
-      "title": "manly：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
-      "purpose": "christchurch：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-4",
-      "title": "christchurch：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd_Lake_Tekapo.jpg",
-      "purpose": "good_shepherd：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-5",
-      "title": "good_shepherd：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Mt_Cook_from_Peters_Lookout.jpg",
-      "purpose": "peters_lookout：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-6",
-      "title": "peters_lookout：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Mount_Sefton_from_Kea_Point_02.jpg",
-      "purpose": "kea_point：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-7",
-      "title": "kea_point：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Lindis_pass.JPG",
-      "purpose": "lindis：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-8",
-      "title": "lindis：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_from_Queenstown_gondola.jpg",
-      "purpose": "queenstown：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-9",
-      "title": "queenstown：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://commons.wikimedia.org/wiki/File:Golden_moment_-_Glenorchy_Wharf.jpg",
-      "purpose": "glenorchy：原作、作者、许可、拍摄日期与照片描述",
-      "id": "p-10",
-      "title": "glenorchy：原作、作者、许可、拍摄日期与照片描述"
-    },
-    {
-      "url": "https://mapcarta.com/16663410",
-      "purpose": "manly：地图坐标核对",
-      "id": "p-11",
-      "title": "manly：地图坐标核对"
-    },
-    {
-      "url": "https://mapcarta.com/N1313378949",
-      "purpose": "kea_point：地图坐标核对",
-      "id": "p-12",
-      "title": "kea_point：地图坐标核对"
-    },
-    {
-      "url": "https://mapcarta.com/N4773885821",
-      "purpose": "lindis：地图坐标核对",
-      "id": "p-13",
-      "title": "lindis：地图坐标核对"
-    },
-    {
-      "url": "https://mapcarta.com/W1289096084",
-      "purpose": "glenorchy：地图坐标核对",
-      "id": "p-14",
-      "title": "glenorchy：地图坐标核对"
-    },
-    {
-      "url": "https://mapcarta.com/25331992",
-      "purpose": "Rydges Camperdown：坐标",
-      "id": "p-15",
-      "title": "Rydges Camperdown：坐标"
-    },
-    {
-      "url": "https://www.distinctionhotelschristchurch.co.nz/x,17,4131/",
-      "purpose": "Distinction Christchurch Hotel：坐标",
-      "id": "p-16",
-      "title": "Distinction Christchurch Hotel：坐标"
-    },
-    {
-      "url": "https://all.accor.com/hotel/B3M7/index.en.shtml",
-      "purpose": "Mantra Lake Tekapo：坐标",
-      "id": "p-17",
-      "title": "Mantra Lake Tekapo：坐标"
-    },
-    {
-      "url": "https://mapcarta.com/W1289569912",
-      "purpose": "Blue Peaks Apartments：坐标",
-      "id": "p-18",
-      "title": "Blue Peaks Apartments：坐标"
-    },
-    {
-      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lindis-conservation-area/",
-      "purpose": "Lindis有标示停车区、公共通行和步道原则",
-      "id": "p-19",
-      "title": "Lindis有标示停车区、公共通行和步道原则"
-    },
-    {
-      "url": "https://www.newzealand.com/cn/plan/business/blue-peaks-apartments/",
-      "purpose": "Blue Peaks前台/营业地址提示",
-      "id": "p-20",
-      "title": "Blue Peaks前台/营业地址提示"
-    },
-    {
       "id": "visa",
       "title": "新西兰移民局：持符合要求澳签从澳洲直飞新西兰的现行安排",
       "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/chinese-and-pacific-island-visitors-travelling-from-australia/"
@@ -2670,39 +2660,33 @@
       "url": "https://www.boc.cn/sourcedb/whpj/"
     },
     {
-      "id": "b-boc",
-      "title": "中国银行外汇牌价",
-      "url": "https://www.boc.cn/sourcedb/whpj/",
-      "checked": "2026-10-21"
-    },
-    {
       "id": "b-A-SYD-CHC",
-      "title": "EK412：11/19 09:00–14:15，3人AUD1,339",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTE5Ih8KA1NZRBIKMjAyNi0xMS0xORoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYjBsWk1XSjFlV0ZvY0RCQlJtSnpWbWRDUnkwdExTMHRMUzB0TFhSc1ltWnNPVUZCUVVGQlIzSllObXBuVFROd1NXOUJFZ1ZGU3pReE1ob0tDUGN3RUFBYUEwTk9XVGdjY05uY0JRPT0SAggAIgMKATA&hl=en&curr=CNY",
+      "title": "EK412 · 2026-11-19 · 3成人 AUD1,338.09 · 未锁价",
+      "url": "https://www.emirates.com/booking/search-results/?selddate1=19-Nov-26&seldcity1=SYD&selacity1=CHC&seladults=3&selchildren=0&selinfants=0&pub=%2Fau%2Fenglish&TID=OW&Itinerary=oneway&selcabinclass=0",
       "checked": "2026-10-21"
     },
     {
       "id": "b-A-ZQN-PVG-recommended",
-      "title": "NZ626 / NZ289：2026-11-25，2 人合价",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI2LTExLTI1Ih8KA1pRThIKMjAyNi0xMS0yNRoDQUtMKgJOWjIDNjI2Ih8KA0FLTBIKMjAyNi0xMS0yNRoDUFZHKgJOWjIDMjg5agcIARIDWlFOcgcIARIDUFZHQAFAAUgBcAGCAQsI____________AZgBAg&tfu=CnRDalJJWWtSWldGSmZZakpQWkhkQlIwZExlWGRDUnkwdExTMHRMUzB0ZEdKaVkzUTBNa0ZCUVVGQlIzSllObGRWU1RocVJWRkJFZ3RPV2pZeU5ueE9Xakk0T1JvS0NMOVdFQUFhQTBOT1dUZ2NjSmFQQ2c9PRICCAAiAwoBMA&hl=en&curr=CNY",
+      "title": "NZ626 + NZ289 · 2026-11-26 · 1成人 NZD1,459.00 · 未锁价",
+      "url": "https://www.airnewzealand.co.nz/",
       "checked": "2026-10-21"
     },
     {
       "id": "b-A-PVG-Ctrip-China-preferred",
-      "title": "HO1669：2026-11-16，1 人合价",
+      "title": "HO1669 · 2026-11-16 · 1成人 CNY4,307.00 · 未锁价",
       "url": "https://flights.ctrip.com/online/list/oneway-sha-syd?depdate=2026-11-16&cabin=y&adult=1&child=0&infant=0",
       "checked": "2026-10-21"
     },
     {
       "id": "b-hotel-0",
-      "title": "Sydney三床家庭房：11/17–19，两晚AUD667",
-      "url": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
+      "title": "Rydges Camperdown · 11-17–11-19 · 3成人2晚",
+      "url": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1&selected_currency=AUD",
       "checked": "2026-10-21"
     },
     {
       "id": "b-hotel-1",
-      "title": "Airport Palms三床两卧：11/19–20，NZ$350",
-      "url": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "title": "Airport Palms Motel · 11-19–11-20 · 3成人1晚",
+      "url": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "checked": "2026-10-21"
     },
     {
@@ -2713,32 +2697,8 @@
     },
     {
       "id": "b-hotel-3",
-      "title": "Blue Peaks Apartments：2026-11-23 至 2026-11-25，3 成人",
-      "url": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-25&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "b-apex",
-      "title": "APEX官方预订入口；本次已取得6日可售报价",
-      "url": "https://www.apexrentals.co.nz/reservations",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "b-apex-faq",
-      "title": "Apex 年龄、附加驾驶与支付 FAQ",
-      "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "b-apex-cover",
-      "title": "Apex 自付额减免方案",
-      "url": "https://www.apexrentals.co.nz/rental-info/excess-reduction-cover",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "b-apex-contract",
-      "title": "Apex NZ 租车合同",
-      "url": "https://www.apexrentals.cn/en-nz/rental-info/terms-and-conditions/new-zealand",
+      "title": "Blue Peaks Apartments · 11-23–11-26 · 3成人3晚",
+      "url": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "checked": "2026-10-21"
     },
     {
@@ -2757,12 +2717,6 @@
       "id": "b-japan-idp",
       "title": "警视厅：国外运転免许证",
       "url": "https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/kokugai/kokugai01.html",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "b-skyline",
-      "title": "Skyline Queenstown 官方套餐价",
-      "url": "https://queenstown.skyline.co.nz/pricing-and-packages/",
       "checked": "2026-10-21"
     },
     {
@@ -2788,16 +2742,6 @@
       "url": "https://www.newzealand.com/int/feature/the-crown-range/"
     },
     {
-      "id": "route-milford-day",
-      "title": "RealNZ：皇后镇至米尔福德整日行程约12–13小时",
-      "url": "https://www.realnz.com/en/blog/day-trip-to-milford-sound-from-queenstown/"
-    },
-    {
-      "id": "route-milford-product",
-      "title": "RealNZ：米尔福德巴士游船日游",
-      "url": "https://www.realnz.com/en/experiences/day-cruises/milford-sound-day-trip-from-queenstown/"
-    },
-    {
       "id": "route-clearbrook",
       "title": "Clearbrook官方：两卧公寓",
       "url": "https://www.clearbrook.co.nz/twobedroomapartment"
@@ -2808,43 +2752,14 @@
       "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026"
     },
     {
-      "id": "route-palms-shuttle",
-      "title": "Airport Palms官方机场接驳规则",
-      "url": "https://airportpalmsmotelchch.co.nz/airport-shuttle-christchurch-html/"
-    },
-    {
-      "id": "v-airport-palms",
-      "title": "Airport Palms官网位置与机场接驳条件",
-      "url": "https://airportpalmsmotelchch.co.nz/contact/",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "v-wanaka-sun",
-      "title": "Wanaka 2026年11月日出日落",
-      "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "v-clearbrook-policy",
-      "title": "Clearbrook官网付款及取消条款",
-      "url": "https://book-directonline.com/properties/clearbrookdirect/policies",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "v-clearbrook-room",
-      "title": "Clearbrook两卧公寓四张实体床",
-      "url": "https://www.clearbrook.co.nz/twobedroomapartment",
-      "checked": "2026-10-21"
-    },
-    {
       "id": "b-hotel-4",
-      "title": "Clearbrook：11/22–23，三人一晚NZ$539＋卡费",
+      "title": "Clearbrook Motel & Serviced Apartments · 11-22–11-23 · 3成人1晚",
       "url": "https://book-directonline.com/properties/clearbrookdirect?locale=zh-CN&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-22&checkOutDate=2026-11-23&trackPage=no",
       "checked": "2026-10-21"
     },
     {
       "id": "r-apex-booking",
-      "title": "APEX官网：6天Santa Fe，Maximum＋Roadside总NZ$1,473.72",
+      "title": "APEX官网：11/19–26七日Maximum＋Roadside，整车NZ$1,631.56",
       "url": "https://www.apexrentals.co.nz/reservations",
       "checked": "2026-10-21"
     },
@@ -2885,39 +2800,45 @@
       "checked": "2026-10-21"
     },
     {
-      "id": "r-omega-booking",
-      "title": "Omega官网预订报价入口",
-      "url": "https://www.omegarentalcars.com/",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "r-omega-terms",
-      "title": "Omega租赁条款",
-      "url": "https://www.omegarentalcars.com/terms-and-conditions/",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "r-trip-old",
-      "title": "Trip.com租车：旧四天Budget对照，非新版同日期价",
-      "url": "https://www.trip.com/carhire/",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "r-ezi",
-      "title": "Ezi官方预订入口：6日Carnival售罄，Prado基础价不合预算",
-      "url": "https://www.ezicarrental.co.nz/",
-      "checked": "2026-10-21"
-    },
-    {
-      "id": "r-twizel-alternative",
-      "title": "Twizel省钱房源：价格符合但仅1条5.0/10评价",
-      "url": "https://www.booking.com/hotel/nz/modern-mackenzie-escape.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-10-21"
-    },
-    {
       "id": "v-apex-zqn-map",
       "title": "APEX皇后镇商户坐标，已与官网地址交叉核对",
       "url": "https://nz.near-place.com/apex-car-rentals-queenstown-airport-32-lucas-place-frankton-queenstown",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-nzeta-ivl",
+      "title": "INZ澳签试点说明：NZeTA之外仍需IVL",
+      "url": "https://www.immigration.govt.nz/assets/inz/documents/media/Fact-sheet-Trial-of-Australian-visa-recognition-for-eligible-Chinese-visitors.pdf",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-translation",
+      "title": "A2Z认证翻译公开起价，须按驾照材料询价",
+      "url": "https://www.aucklandtranslation.co.nz/prices.aspx",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-esim",
+      "title": "Airalo澳新15天10GB实查NZ$45，须确认手机兼容",
+      "url": "https://www.airalo.com/oceania-esim/oceanlink-in-15days-10gb?currency=NZD",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-insurance",
+      "title": "安联当前旅行险候选，¥300–500仅为保费预算",
+      "url": "https://sales.allianz.com.cn/ewebsite/pages/product/yw/axwl2/YW0303.shtml",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-milford",
+      "title": "RealNZ 11/24米尔福德：Queenstown巴士＋Classic Cruise，NZ$319/人",
+      "url": "https://www.realnz.com/en/experiences/day-cruises/milford-sound-day-trip-from-queenstown/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "x-tesoro",
+      "title": "Tesoro / 特索罗度假屋 · 11-20–11-22 · 3成人2晚",
+      "url": "https://www.booking.com/hotel/nz/tesoro.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "checked": "2026-10-21"
     }
   ],
@@ -2989,583 +2910,726 @@
         "w-airshare"
       ],
       "status": "主行程按不飞"
+    },
+    {
+      "place": "Milford Sound / Piopiotahi",
+      "conclusion": "本次随巴士游船，不安排无人机。保护地需要DOC许可，另查CAA空域与运营方规定；Mini低于249g不等于可以起飞。船上及码头不能擅自起飞。",
+      "sourceIds": [
+        "w-docDrone",
+        "w-caaFAQ"
+      ]
     }
   ],
   "budget": {
+    "fx": {
+      "CNY": 1,
+      "AUD": 4.7057,
+      "NZD": 3.8057,
+      "note": "中国银行2026/10/21 09:15:50（北京时间）现钞卖出参考；并非未来刷卡结算汇率"
+    },
     "rows": [
       {
-        "id": "A-SYD-CHC",
-        "category": "flight",
-        "title": "11/19 EK412 悉尼→基督城",
-        "currency": "AUD",
-        "quotedOrBudgetTotal": {
-          "min": 1339,
-          "max": 1339
-        },
-        "splitPeople": 3,
-        "perPersonNative": {
-          "min": 446.3333333333333,
-          "max": 446.3333333333333
-        },
-        "perPersonCny": {
-          "min": 2097.32,
-          "max": 2097.32
-        },
-        "perPersonCnyUnrounded": {
-          "min": 2097.320333333333,
-          "max": 2097.320333333333
-        },
-        "status": "实查 Google Flights 航司报价选项，未锁价",
-        "note": "09:00–14:15，三人合计AUD1,339；未到航司支付页，行李重量和票规须再核。",
-        "sourceIds": [
-          "b-A-SYD-CHC"
-        ]
-      },
-      {
-        "id": "A-ZQN-PVG-recommended",
-        "category": "flight",
-        "title": "NZ626 / NZ289 ZQN-AKL-PVG",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 2917,
-          "max": 2917
-        },
-        "splitPeople": 2,
-        "perPersonNative": {
-          "min": 1458.5,
-          "max": 1458.5
-        },
-        "perPersonCny": {
-          "min": 5560.39,
-          "max": 5560.39
-        },
-        "perPersonCnyUnrounded": {
-          "min": 5560.3854,
-          "max": 5560.3854
-        },
-        "status": "实查 Google Flights 航司报价选项",
-        "note": "2 人合计，分摊 2 份；未进入航司最终支付页，行李重量与票规须复核。",
-        "sourceIds": [
-          "b-A-ZQN-PVG-recommended"
-        ]
-      },
-      {
-        "id": "A-PVG-Ctrip-China-preferred",
-        "category": "flight",
-        "title": "HO1669 PVG-SYD",
+        "id": "flight-outbound",
+        "title": "HO1669 · PVG–SYD · 11-16",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 4307,
           "max": 4307
         },
         "splitPeople": 1,
-        "perPersonNative": {
-          "min": 4307.0,
-          "max": 4307.0
-        },
-        "perPersonCny": {
-          "min": 4307.0,
-          "max": 4307.0
-        },
-        "perPersonCnyUnrounded": {
-          "min": 4307.0,
-          "max": 4307.0
-        },
-        "status": "实查携程含税报价",
-        "note": "1 人含税；未预订。经济舱 W：托运 2×23kg、手提 1×5kg；不可退票，税费可退320元；出发前改期免更改费但补差价。",
+        "category": "flight",
+        "status": "携程指定日期选舱实查，1人含税，未付款",
+        "note": "HO1669 11/16 17:40→11/17 06:50；托运2×23kg，手提1×5kg。所选W不可退（列明可退税¥320），起飞前改签费0但付差价；起飞后不可改。",
         "sourceIds": [
           "b-A-PVG-Ctrip-China-preferred"
-        ]
+        ],
+        "perPersonNative": {
+          "min": 4307.0,
+          "max": 4307.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 4307.0,
+          "max": 4307.0
+        },
+        "perPersonCny": {
+          "min": 4307.0,
+          "max": 4307.0
+        }
       },
       {
-        "id": "hotel-0",
-        "category": "hotel",
-        "title": "悉尼 Rydges Camperdown · 11/17–19",
+        "id": "flight-tasman",
+        "title": "EK412 · SYD–CHC · 11-19",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 667,
-          "max": 667
+          "min": 1338.09,
+          "max": 1338.09
         },
         "splitPeople": 3,
+        "category": "flight",
+        "status": "Emirates航司所选Saver实查，三人含税AUD1338.09；未到付款页",
+        "note": "EK412 11/19 09:00–14:15；托运30kg/人，重量制，不是2×23kg。Saver不可退，普通选座收费，本预算不选。改期政策及随身额度按出票规则核。",
+        "sourceIds": [
+          "b-A-SYD-CHC"
+        ],
         "perPersonNative": {
-          "min": 222.33333333333334,
-          "max": 222.33333333333334
-        },
-        "perPersonCny": {
-          "min": 1044.74,
-          "max": 1044.74
+          "min": 446.03,
+          "max": 446.03
         },
         "perPersonCnyUnrounded": {
-          "min": 1044.7443333333333,
-          "max": 1044.7443333333333
+          "min": 2098.883371,
+          "max": 2098.883371
         },
-        "status": "实查含税两晚价",
-        "note": "1大床＋2单床；不含早。11/16前可退、不预付；另AUD200可退押金。",
+        "perPersonCny": {
+          "min": 2098.88,
+          "max": 2098.88
+        }
+      },
+      {
+        "id": "flight-return",
+        "title": "NZ626 + NZ289 · ZQN–AKL–PVG · 11-26",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 1459,
+          "max": 1459
+        },
+        "splitPeople": 1,
+        "category": "flight",
+        "status": "AirNZ航司所选Economy(V)实查，1人含税NZ1459；卡费依卡种另核",
+        "note": "11/26 NZ626 17:20–19:10接NZ289 23:55→11/27上海07:00，AKL转机4h45。所选联程显示2bags，通用每件23kg/总尺寸158cm、手提7kg，最终以票为准。未取得此V票具体退改条款。",
+        "sourceIds": [
+          "b-A-ZQN-PVG-recommended"
+        ],
+        "perPersonNative": {
+          "min": 1459.0,
+          "max": 1459.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 5552.5163,
+          "max": 5552.5163
+        },
+        "perPersonCny": {
+          "min": 5552.52,
+          "max": 5552.52
+        }
+      },
+      {
+        "id": "hotel-camperdown",
+        "title": "Rydges Camperdown · 11-17–11-19 / 2晚",
+        "currency": "AUD",
+        "quotedOrBudgetTotal": {
+          "min": 719.6896,
+          "max": 719.6896
+        },
+        "splitPeople": 3,
+        "category": "hotel",
+        "status": "实查含税房价AUD712（列表取整）＋官网1.08%卡费估算；未到最终付款页",
+        "note": "家庭房29㎡：1大床＋2单人床；11/16前可免费取消，精确时刻依订单；不预付、到店付。15:00起入住、11:00前退房；另AUD200可退押金/预授权。",
         "sourceIds": [
           "b-hotel-0"
-        ]
-      },
-      {
-        "id": "hotel-1",
-        "category": "hotel",
-        "title": "基督城 Airport Palms · 11/19–20",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 350,
-          "max": 350
-        },
-        "splitPeople": 3,
+        ],
         "perPersonNative": {
-          "min": 116.66666666666667,
-          "max": 116.66666666666667
-        },
-        "perPersonCny": {
-          "min": 444.78,
-          "max": 444.78
+          "min": 239.89653333333334,
+          "max": 239.89653333333334
         },
         "perPersonCnyUnrounded": {
-          "min": 444.78,
-          "max": 444.78
+          "min": 1128.8811169066666,
+          "max": 1128.8811169066666
         },
-        "status": "实查含税一晚价；卡费未确认",
-        "note": "1特大床＋2单床；11/17前可退，到店付款。主方案自驾入住，不计未经确认的免费接驳。",
+        "perPersonCny": {
+          "min": 1128.88,
+          "max": 1128.88
+        }
+      },
+      {
+        "id": "hotel-palms",
+        "title": "Airport Palms Motel · 11-19–11-20 / 1晚",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 326.43,
+          "max": 326.43
+        },
+        "splitPeople": 3,
+        "category": "hotel",
+        "status": "已进入未提交个人资料页，含税精确NZ326.43；卡费未确认",
+        "note": "大型一卧公寓45㎡：1特大床＋2单人床；11/17当地00:00前可免费取消，之后收全额NZ326.43；不预付、到店付。14–20时入住、10:00前退房。卡费未找到，不保证为0；本路线先取车，不依赖酒店免费接驳。",
         "sourceIds": [
           "b-hotel-1"
-        ]
-      },
-      {
-        "id": "hotel-2",
-        "category": "hotel",
-        "title": "特卡波 Peppers · 11/20–22（床型待确认）",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 1618,
-          "max": 1618
-        },
-        "splitPeople": 3,
-        "perPersonNative": {
-          "min": 539.3333333333334,
-          "max": 539.3333333333334
-        },
-        "perPersonCny": {
-          "min": 2056.15,
-          "max": 2056.15
-        },
-        "perPersonCnyUnrounded": {
-          "min": 2056.1544,
-          "max": 2056.1544
-        },
-        "status": "实查含税两晚价；条件候选、不可退",
-        "note": "两卧山景套房页面列1大床＋2单床，但细则要求Twin请求确认；未确认前不算已保证三床。每晚约¥3,084，略超预算。未单列卡费；另NZ$200押金。",
-        "sourceIds": [
-          "b-hotel-2"
-        ]
-      },
-      {
-        "id": "hotel-3",
-        "category": "hotel",
-        "title": "Blue Peaks Apartments 2026-11-23–2026-11-25",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 1555.4875,
-          "max": 1555.4875
-        },
-        "splitPeople": 3,
-        "perPersonNative": {
-          "min": 518.4958333333333,
-          "max": 518.4958333333333
-        },
-        "perPersonCny": {
-          "min": 1976.71,
-          "max": 1976.71
-        },
-        "perPersonCnyUnrounded": {
-          "min": 1976.7135149999997,
-          "max": 1976.7135149999997
-        },
-        "status": "实查房价 + 按已列卡费推算",
-        "note": "2 晚，3 成人 1 间/套，不含早餐；Bedroom1:1 double; Bedroom2:2 singles。1532.50 已含 2.50 订房费，再按 1.5% 卡费计入，精算 1555.4875 NZD。",
-        "sourceIds": [
-          "b-hotel-3"
         ],
-        "cancellation": "Free until2026-11-21; within2days/no-show full-stay charge",
-        "payment": "Pay by2026-11-19 localtime",
-        "refundableDepositExcluded": null
+        "perPersonNative": {
+          "min": 108.81,
+          "max": 108.81
+        },
+        "perPersonCnyUnrounded": {
+          "min": 414.098217,
+          "max": 414.098217
+        },
+        "perPersonCny": {
+          "min": 414.1,
+          "max": 414.1
+        }
       },
       {
-        "id": "hotel-4",
+        "id": "hotel-tesoro",
+        "title": "Tesoro / 特索罗度假屋 · 11-20–11-22 / 2晚",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 1871.16825,
+          "max": 1871.16825
+        },
+        "splitPeople": 3,
         "category": "hotel",
-        "title": "瓦纳卡 Clearbrook · 11/22–23",
+        "status": "未提交个人资料页精确NZ1825.53＋已列2.5%处理费推算",
+        "note": "三卧两卫160㎡：2大床＋2单人床（四张实体床）；11/13当地00:00前房费可退；11/11前不付款。已收2.5%处理费不退。15:00起入住、10:00前退房；钥匙领取地点依确认函，可能需先到管理处。 每晚约¥3,561，明确超原¥3,000酒店上限。",
+        "sourceIds": [
+          "x-tesoro"
+        ],
+        "perPersonNative": {
+          "min": 623.72275,
+          "max": 623.72275
+        },
+        "perPersonCnyUnrounded": {
+          "min": 2373.701669675,
+          "max": 2373.701669675
+        },
+        "perPersonCny": {
+          "min": 2373.7,
+          "max": 2373.7
+        }
+      },
+      {
+        "id": "hotel-clearbrook",
+        "title": "Clearbrook Motel & Serviced Apartments · 11-22–11-23 / 1晚",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
           "min": 549.78,
           "max": 549.78
         },
         "splitPeople": 3,
-        "status": "实查539＋2%卡费推算",
-        "note": "两卧4张实体床，有楼梯/夹层。约11/8前可退，以订单精确时间为准；14天内全额罚金。",
+        "category": "hotel",
+        "status": "官网房价NZ539实查＋2%卡费推算；非已付款订单",
+        "note": "两卧70㎡：2特大床＋2单人床，有楼梯/夹层；标准价超过14天通常免费，约11/8边界，精确依订单；14天内收全额。主动授权早付的款不退；可能预授权/提前收费。14–19时入住、10:00前退房，免费停车位有限。",
         "sourceIds": [
-          "b-hotel-4",
-          "v-clearbrook-policy"
+          "b-hotel-4"
         ],
         "perPersonNative": {
           "min": 183.26,
           "max": 183.26
         },
         "perPersonCnyUnrounded": {
-          "min": 698.6604239999999,
-          "max": 698.6604239999999
+          "min": 697.4325819999999,
+          "max": 697.4325819999999
         },
         "perPersonCny": {
-          "min": 698.66,
-          "max": 698.66
+          "min": 697.43,
+          "max": 697.43
+        }
+      },
+      {
+        "id": "hotel-bluepeaks",
+        "title": "Blue Peaks Apartments · 11-23–11-26 / 3晚",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 2331.9625,
+          "max": 2331.9625
+        },
+        "splitPeople": 3,
+        "category": "hotel",
+        "status": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
+        "note": "两卧两卫100㎡：1双人床＋2单人床；11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时入住、10:00前退房；前台可能在8 Coronation Drive，按确认函。",
+        "sourceIds": [
+          "b-hotel-3"
+        ],
+        "perPersonNative": {
+          "min": 777.3208333333333,
+          "max": 777.3208333333333
+        },
+        "perPersonCnyUnrounded": {
+          "min": 2958.2498954166667,
+          "max": 2958.2498954166667
+        },
+        "perPersonCny": {
+          "min": 2958.25,
+          "max": 2958.25
+        }
+      },
+      {
+        "id": "nz-rental",
+        "title": "APEX Santa Fe/同级 · 7天两位司机",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 1631.56,
+          "max": 1631.56
+        },
+        "splitPeople": 3,
+        "category": "rental",
+        "status": "官网Contact最终汇总实查；未付款",
+        "note": "Maximum＋Roadside已含；玻璃轮胎专项未明确，如补齐另收费须重算；燃油停车分列。",
+        "sourceIds": [
+          "r-apex-booking",
+          "r-apex-terms"
+        ],
+        "perPersonNative": {
+          "min": 543.8533333333334,
+          "max": 543.8533333333334
+        },
+        "perPersonCnyUnrounded": {
+          "min": 2069.7426306666666,
+          "max": 2069.7426306666666
+        },
+        "perPersonCny": {
+          "min": 2069.74,
+          "max": 2069.74
+        }
+      },
+      {
+        "id": "milford",
+        "title": "11/24米尔福德大巴＋游船",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 957,
+          "max": 957
+        },
+        "splitPeople": 3,
+        "category": "activity",
+        "status": "官网未提交付款页含GST总价",
+        "note": "Classic Cruise＋Queenstown往返大巴。未加购餐；自备午餐计餐饮，不再重复加活动费。",
+        "sourceIds": [
+          "x-milford"
+        ],
+        "perPersonNative": {
+          "min": 319.0,
+          "max": 319.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1214.0183,
+          "max": 1214.0183
+        },
+        "perPersonCny": {
+          "min": 1214.02,
+          "max": 1214.02
         }
       },
       {
         "id": "au-transport",
-        "category": "ground",
-        "title": "悉尼两晚交通",
+        "title": "悉尼机场往返＋市内交通",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
           "min": 70,
           "max": 100
         },
         "splitPeople": 1,
+        "category": "ground",
+        "status": "个人预算",
+        "note": "含市内渡轮/公共交通或分摊合适大行李出租车；不在悉尼租车。",
+        "sourceIds": [
+          "b-syd-airport"
+        ],
         "perPersonNative": {
           "min": 70.0,
           "max": 100.0
         },
-        "perPersonCny": {
-          "min": 328.93,
-          "max": 469.9
-        },
         "perPersonCnyUnrounded": {
-          "min": 328.93,
-          "max": 469.9
+          "min": 329.399,
+          "max": 470.57000000000005
         },
-        "status": "预算",
-        "note": "含机场往返、市内交通或分摊出租车；早班机建议预约合适行李车型。",
-        "sourceIds": [
-          "b-syd-airport"
-        ]
+        "perPersonCny": {
+          "min": 329.4,
+          "max": 470.57
+        }
       },
       {
         "id": "au-meals",
-        "category": "ground",
-        "title": "悉尼约2天餐饮",
+        "title": "悉尼餐饮 · 控制版",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
           "min": 120,
-          "max": 180
+          "max": 140
         },
         "splitPeople": 1,
+        "category": "food",
+        "status": "个人支出上限计划，非商家报价",
+        "note": "约2天每天AUD60–70，早餐/咖啡简餐，晚餐适度；早班机日简餐在总额内，不含高价餐厅。",
+        "sourceIds": [],
         "perPersonNative": {
           "min": 120.0,
-          "max": 180.0
-        },
-        "perPersonCny": {
-          "min": 563.88,
-          "max": 845.82
+          "max": 140.0
         },
         "perPersonCnyUnrounded": {
-          "min": 563.88,
-          "max": 845.8199999999999
+          "min": 564.684,
+          "max": 658.798
         },
-        "status": "预算",
-        "note": "按每天AUD60–90；不含酒店早餐，出发日早餐可在机动预留内。",
-        "sourceIds": []
+        "perPersonCny": {
+          "min": 564.68,
+          "max": 658.8
+        }
       },
       {
         "id": "nz-meals",
-        "category": "ground",
-        "title": "新西兰7个自然日餐饮",
+        "title": "新西兰餐饮 · 控制版",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 490,
-          "max": 700
+          "min": 480,
+          "max": 600
         },
         "splitPeople": 1,
+        "category": "food",
+        "status": "个人支出上限计划，非商家报价",
+        "note": "11/19–26跨8自然日期，按NZ60–75/日。早餐简餐、部分公寓自炊、峡湾自备午餐；非每天多顿餐厅预算。",
+        "sourceIds": [],
         "perPersonNative": {
-          "min": 490.0,
-          "max": 700.0
-        },
-        "perPersonCny": {
-          "min": 1868.08,
-          "max": 2668.68
+          "min": 480.0,
+          "max": 600.0
         },
         "perPersonCnyUnrounded": {
-          "min": 1868.0759999999998,
-          "max": 2668.68
-        },
-        "status": "预算",
-        "note": "11/19–25按每天NZ$70–100宽松预留；到离境日不足整天，有厨房可适当自炊。",
-        "sourceIds": []
-      },
-      {
-        "id": "nz-rental",
-        "category": "ground",
-        "title": "APEX Santa Fe/同级 · 6计费日",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 1473.72,
-          "max": 1473.72
-        },
-        "splitPeople": 3,
-        "perPersonNative": {
-          "min": 491.24,
-          "max": 491.24
+          "min": 1826.7359999999999,
+          "max": 2283.42
         },
         "perPersonCny": {
-          "min": 1872.8,
-          "max": 1872.8
-        },
-        "perPersonCnyUnrounded": {
-          "min": 1872.8033759999998,
-          "max": 1872.8033759999998
-        },
-        "status": "官网联系方式前汇总实查总额，未付款；玻璃轮胎范围待确认",
-        "note": "11/19 17:00 CHC→11/25 12:00 ZQN，6计费日；Maximum套餐1,437.72＋Roadside36＝1,473.72。附驾、24岁年轻司机、异地、商家卡费为0，含GST。玻璃轮胎专项未明示包含；若另付费，本行须上调。油费停车另列。",
-        "sourceIds": [
-          "r-apex-booking",
-          "r-apex-faq",
-          "r-apex-terms"
-        ]
+          "min": 1826.74,
+          "max": 2283.42
+        }
       },
       {
         "id": "nz-fuel",
-        "category": "ground",
-        "title": "新西兰油费",
+        "title": "新西兰燃油 · 三人分摊",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
           "min": 280,
           "max": 400
         },
         "splitPeople": 3,
+        "category": "ground",
+        "status": "整车预算",
+        "note": "含湖山路线和Glenorchy，约1000–1200km留余量；Milford坐巴士不再加自驾往返油费。满油取还；实际替代车型燃料/RUC另核。",
+        "sourceIds": [
+          "r-apex-car"
+        ],
         "perPersonNative": {
           "min": 93.33333333333333,
           "max": 133.33333333333334
         },
-        "perPersonCny": {
-          "min": 355.82,
-          "max": 508.32
-        },
         "perPersonCnyUnrounded": {
-          "min": 355.82399999999996,
-          "max": 508.32
+          "min": 355.1986666666666,
+          "max": 507.4266666666667
         },
-        "status": "整车预算",
-        "note": "Santa Fe官方为3.5L汽油车；按约1,000–1,200km和较高油耗留余量，非油站报价。满油取还；无柴油RUC预算。",
-        "sourceIds": [
-          "r-apex-car"
-        ]
+        "perPersonCny": {
+          "min": 355.2,
+          "max": 507.43
+        }
       },
       {
         "id": "nz-parking",
-        "category": "ground",
-        "title": "新西兰停车",
+        "title": "新西兰停车 · 三人分摊",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
           "min": 60,
           "max": 120
         },
         "splitPeople": 3,
+        "category": "ground",
+        "status": "整车预算",
+        "note": "含White Horse Hill等可能付费停车；酒店实际空位以条款为准，峡湾接车步行不再加Milford自驾停车。",
+        "sourceIds": [
+          "b-qldc-parking"
+        ],
         "perPersonNative": {
           "min": 20.0,
           "max": 40.0
         },
-        "perPersonCny": {
-          "min": 76.25,
-          "max": 152.5
-        },
         "perPersonCnyUnrounded": {
-          "min": 76.24799999999999,
-          "max": 152.49599999999998
+          "min": 76.114,
+          "max": 152.228
         },
-        "status": "整车预算",
-        "note": "6个计费日，酒店停车以实际空位/条款为准；不代表景区免费。",
-        "sourceIds": [
-          "b-qldc-parking"
-        ]
+        "perPersonCny": {
+          "min": 76.11,
+          "max": 152.23
+        }
       },
       {
-        "id": "nz-activities",
-        "category": "ground",
-        "title": "新西兰基础活动",
+        "id": "nzeta",
+        "title": "NZeTA App＋IVL",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 199,
-          "max": 249
+          "min": 117,
+          "max": 117
         },
         "splitPeople": 1,
+        "category": "entry",
+        "status": "官方收费：17＋100",
+        "note": "中国澳签试点不是澳洲永久居民免IVL；NZTD免费。网页版123，比App多6NZD。",
+        "sourceIds": [
+          "nzeta",
+          "x-nzeta-ivl",
+          "nztd"
+        ],
         "perPersonNative": {
-          "min": 199.0,
-          "max": 249.0
-        },
-        "perPersonCny": {
-          "min": 758.67,
-          "max": 949.29
+          "min": 117.0,
+          "max": 117.0
         },
         "perPersonCnyUnrounded": {
-          "min": 758.6676,
-          "max": 949.2876
+          "min": 445.26689999999996,
+          "max": 445.26689999999996
         },
-        "status": "官方公开价 + 预算",
-        "note": "Skyline 缆车＋3 次滑板车 NZD99 官方公开价，加 NZD100–150 弹性活动预算；未验证指定日期库存。未含跳伞、蹦极、直升机或米尔福德项目。 缆车与Glenorchy日游二选一；不参加付费活动可少花相应预算。",
-        "sourceIds": [
-          "b-skyline"
-        ]
+        "perPersonCny": {
+          "min": 445.27,
+          "max": 445.27
+        }
       },
       {
-        "id": "unallocated-residual",
-        "category": "unallocated",
-        "title": "未分项机动预留",
-        "currency": "CNY",
+        "id": "translation",
+        "title": "大陆驾照认可英文翻译",
+        "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 810.4228000000003,
-          "max": 1086.6707999999999
+          "min": 69,
+          "max": 100
         },
         "splitPeople": 1,
+        "category": "essential",
+        "status": "A2Z公开认证起价＋预算，不是个人最终报价",
+        "note": "60＋GST＝69起，须按实际驾照确认总价、PDF交付和APEX接受性；不上传个人证件。",
+        "sourceIds": [
+          "b-nzta-translation",
+          "x-translation"
+        ],
         "perPersonNative": {
-          "min": 810.4228000000003,
-          "max": 1086.6707999999999
-        },
-        "perPersonCny": {
-          "min": 810.42,
-          "max": 1086.67
+          "min": 69.0,
+          "max": 100.0
         },
         "perPersonCnyUnrounded": {
-          "min": 810.4228000000003,
-          "max": 1086.6707999999999
+          "min": 262.5933,
+          "max": 380.57
         },
-        "status": "规划预留，非商家报价",
-        "note": "用于尚未单独核价的签证/电子许可、保险、通信、翻译等；未保证足够覆盖全部费用。购物和高价自选活动另计。",
-        "sourceIds": []
+        "perPersonCny": {
+          "min": 262.59,
+          "max": 380.57
+        }
+      },
+      {
+        "id": "communications",
+        "title": "澳新15天10GB通信",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 45,
+          "max": 45
+        },
+        "splitPeople": 1,
+        "category": "essential",
+        "status": "Airalo所选弹窗实查总额；设备兼容待查",
+        "note": "手机必须支持eSIM；若改实体卡/漫游，通信控制在¥200以内，多出的约¥28从机动金扣，不双算。",
+        "sourceIds": [
+          "x-esim"
+        ],
+        "perPersonNative": {
+          "min": 45.0,
+          "max": 45.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 171.2565,
+          "max": 171.2565
+        },
+        "perPersonCny": {
+          "min": 171.26,
+          "max": 171.26
+        }
+      },
+      {
+        "id": "insurance",
+        "title": "12天旅行医疗/救援保险",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 300,
+          "max": 500
+        },
+        "splitPeople": 1,
+        "category": "essential",
+        "status": "明确保费预算，尚未得到个人12天精确报价",
+        "note": "当前安联产品候选；核实常住地/上海出发资格和普通DOC步道。不是APEX车损险，不保证Nikon/DJI财产全保。",
+        "sourceIds": [
+          "x-insurance"
+        ],
+        "perPersonNative": {
+          "min": 300.0,
+          "max": 500.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 300.0,
+          "max": 500.0
+        },
+        "perPersonCny": {
+          "min": 300.0,
+          "max": 500.0
+        }
+      },
+      {
+        "id": "shanghai-transport",
+        "title": "上海机场往返交通",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 100,
+          "max": 300
+        },
+        "splitPeople": 1,
+        "category": "ground",
+        "status": "个人预算",
+        "note": "按普通机场交通至分摊接送预留；实际居住地距离未知，不包含临时跨省接驳。",
+        "sourceIds": [],
+        "perPersonNative": {
+          "min": 100.0,
+          "max": 300.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 100.0,
+          "max": 300.0
+        },
+        "perPersonCny": {
+          "min": 100.0,
+          "max": 300.0
+        }
+      },
+      {
+        "id": "contingency",
+        "title": "新增费用与价格波动机动金",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 1000,
+          "max": 1000
+        },
+        "splitPeople": 1,
+        "category": "reserve",
+        "status": "预算，已计入总额",
+        "note": "用于航司/酒店未明卡费、汇率变动、玻璃轮胎若需加购、SIM替代等，不是任何专项已被报价或保证够用。不能再将同一笔备用钱叠加。",
+        "sourceIds": [],
+        "perPersonNative": {
+          "min": 1000.0,
+          "max": 1000.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1000.0,
+          "max": 1000.0
+        },
+        "perPersonCny": {
+          "min": 1000.0,
+          "max": 1000.0
+        }
       }
     ],
     "summary": {
-      "flight": {
-        "AUD": 446.3333333333333,
-        "NZD": 1458.5,
-        "CNY": 4307.0,
-        "equivalentCNY": 11964.71,
-        "status": "三段实查报价，均未锁价"
+      "totalCNY": {
+        "min": 28245.77,
+        "max": 29684.06,
+        "display": "控制版约¥28,246–29,684/人（含¥1,000机动金）"
       },
-      "hotel": {
-        "AUD": 222.33333333333334,
-        "NZD": 1357.7558333333334,
-        "equivalentCNY": 6221.05,
-        "wholeGroup": {
-          "AUD": 667.0,
-          "NZD": 4073.2675,
-          "equivalentCNY": 18663.16
+      "nativeTotals": {
+        "CNY": {
+          "min": 5707.0,
+          "max": 6107.0
         },
-        "status": "5家8晚；Peppers床型待确认且不可退；两家卡费未明列，不是保证最终价"
-      },
-      "itemizedGround": {
         "AUD": {
-          "min": 190.0,
-          "max": 280.0
+          "min": 875.9265333333333,
+          "max": 925.9265333333333
         },
         "NZD": {
-          "min": 1293.5733333333333,
-          "max": 1613.5733333333333
+          "min": 4839.30025,
+          "max": 5050.30025
+        }
+      },
+      "budgetCapCNY": 30000,
+      "headroomCNY": 315.94,
+      "reserveIncludedCNY": 1000,
+      "fullyItemized": true,
+      "unallocatedResidualCNY": 0,
+      "flight": {
+        "equivalentCNY": 11958.4,
+        "status": "上海出发者三段；未锁价，AirNZ卡费依卡种另核"
+      },
+      "hotel": {
+        "equivalentCNY": 7572.36,
+        "wholeGroup": {
+          "AUD": 719.6896,
+          "NZD": 5079.340749999999
         },
-        "equivalentCNY": {
-          "min": 5824.43,
-          "max": 7467.31
-        },
-        "status": "租车为实查后核算；餐饮油费停车及活动仍是预算"
+        "status": "5处9晚均有明确足够实体床的房型；未锁房，Tesoro超过原单晚上限"
       },
-      "itemizedTotalCNY": {
-        "min": 24010.19,
-        "max": 25653.07
+      "relaxedFoodTotalCNY": {
+        "min": 28550.23,
+        "max": 30234.86,
+        "note": "餐饮放宽至AUD120–160＋NZ560–720；其余相同且含1000机动金，上限超过3万元"
       },
-      "legacyOtherCNY": {
-        "min": 6634.85,
-        "max": 8553.98
-      },
-      "unallocatedResidualCNY": {
-        "min": 810.42,
-        "max": 1086.67,
-        "fullyReconstructed": false
-      },
+      "comparisonNote": "HO报价1人；EK三人AUD1,338.09÷3；NZ返程1人NZ$1,459。酒店、车、油、停车三人均分，餐饮/许可/翻译/保险/通信按本人。",
+      "scope": "本次新增支出含必要交通、9晚住宿、租车燃油停车、峡湾、餐饮、NZeTA+IVL、翻译、保险、通信和1000机动金。购物/新增活动从余量扣；历史已付澳签费未获金额，尚未加进。可退押金/预授权不是消费。",
+      "narrative": "十二天控制版精算¥28,245.77–29,684.06/人，已含¥1,000机动金；按上限距¥30,000只余¥315.94。机票约¥11,958、住宿约¥7,572、租车约¥2,070、峡湾约¥1,214。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,550–30,235，不能承诺不超。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
-        "min": 24820.61,
-        "max": 26739.74,
-        "display": "约¥24,800–26,700/人",
-        "status": "上海出发者；实查报价＋规划预算，未预订"
-      },
-      "comparisonNote": "EK412三人AUD1,339除3；返程两人NZ$2,917除2；住宿和车辆三人均分。此总额仅适用于上海出发者，朋友机票不同。",
-      "narrative": "悉尼2晚＋南岛6晚，上海出发者约¥24,800–26,700。机票约¥11,965，住宿约¥6,221/人；租车含在地面预算内。仍含¥810–1,087未分项机动预留，不能说签证/电子许可、旅行保险、通信与翻译已逐项报价。未含购物、米尔福德等高价新增活动；不参加当前基础付费活动可少花约¥759–949。Peppers需先确认Twin，不能按三床已锁定购买。"
+        "min": 28245.77,
+        "max": 29684.06,
+        "display": "控制版约¥28,246–29,684/人（含¥1,000机动金）"
+      }
     },
     "licences": [
       {
-        "driver": "25 岁主驾驶（中国大陆驾照）",
-        "advice": "带有效正式驾照原件＋NZTA认可英文翻译；不要把商业‘国际驾照认证件’当正式IDP。",
+        "driver": "25岁以上主驾（大陆驾照）",
+        "advice": "有效正式驾照原件＋NZTA认可英文翻译，并获APEX接受；商业国际驾照认证件不是正式IDP。两人取车到场、均入合同，主驾带本人实体受理卡。",
         "sourceIds": [
           "b-nzta-licence",
-          "b-nzta-translation"
+          "b-nzta-translation",
+          "r-apex-faq"
         ]
       },
       {
-        "driver": "24 岁附加驾驶（日本驾照）",
-        "advice": "带日本有效正式驾照原件＋日本签发的正式IDP。Apex最低21岁，FAQ表示21–25岁无低龄附加费；需持正式驾照至少连续12个月。两人取车到场并都列入合同，所选报价核实附加驾驶为0。",
+        "driver": "24岁附驾（日本驾照）",
+        "advice": "带有效正式日本驾照原件＋日本正式IDP。东京官方现行IDP手续费JPY2,250，由朋友自行承担，不计入上海用户费用。APEX最低21、正式驾照至少连续12个月，21–25无年轻附加费。",
         "sourceIds": [
           "b-japan-idp",
-          "b-apex-faq",
-          "b-apex-contract"
+          "r-apex-faq"
         ]
       }
     ]
   },
   "routeReview": [
     {
-      "title": "11天不变，给南岛多一晚",
-      "body": "11/16上海出发、11/26回上海；悉尼2晚，南岛6晚。11/19抵达、11/25离开跨7个自然日，主要游览是11/20–24的5天；不等于7个完整游览日。",
+      "title": "十二天：两处都保留",
+      "body": "11/16上海出发、11/27上海到达。悉尼2晚＋南岛7晚，共9个酒店夜；NZ11/19–26跨8个自然日期，主要游览11/20–25六天，含转场，不能叫八个完整游览日。",
       "sourceIds": []
     },
     {
-      "title": "多出的时间给瓦纳卡和光线",
-      "body": "CHC 1晚→Tekapo 2晚→Wānaka 1晚→Queenstown 2晚。瓦纳卡有黄昏和次晨，跨区驾驶拆开；库克山遇差天气可讨论短线补拍，但不会保证主峰露出。",
-      "sourceIds": [
-        "route-nz-drive",
-        "w-docHooker"
-      ]
-    },
-    {
-      "title": "这是一条湖山精选线",
-      "body": "覆盖Tekapo、Pukaki、Aoraki、Lindis、Wānaka、Queenstown和Glenorchy；没有覆盖米尔福德、西海岸冰川、凯库拉、但尼丁。Roy’s Peak长徒步也未放入本次轻摄影日程。",
+      "title": "主流湖山＋峡湾，适合第一次摄影旅行",
+      "body": "覆盖Tekapo、Pukaki、Aoraki短步道、Lindis、Wānaka、Queenstown、Glenorchy和Milford。西海岸冰川、凯库拉、但尼丁、北岛和Roy’s Peak长徒步没有覆盖；十二天也不是南岛全岛深度游。",
       "sourceIds": [
         "route-nz-drive"
       ]
     },
     {
-      "title": "米尔福德必须整日替换",
-      "body": "皇后镇出发的巴士＋游船约12–13小时；若更想看峡湾，只能用D9替换Glenorchy，或另加一天并重报价。当前11天版不硬塞，往返长途更适合正规巴士团；活动费另计。",
+      "title": "米尔福德用整天，避免疲劳自驾",
+      "body": "11/24 RealNZ大巴＋船07:35–20:15，实查NZ$319/人；11/25 Glenorchy。前一晚早睡，后一天取消日出，不加直升机、Skyline等高价项目。",
       "sourceIds": [
-        "route-milford-day",
-        "route-milford-product"
+        "x-milford"
       ]
     },
     {
-      "title": "若再多一天，先看值不值",
-      "body": "12天版可增加一晚皇后镇或Te Anau。每人暂多留NZ$350–500（约¥1,334–1,906）：整套住宿NZ$600–800、整车多一天NZ$240–300均分三人，加餐饮停车。仅为增量估算，不含机票变价；如再加米尔福德巴士游船，官方公开起价NZ$319/人（约¥1,216），指定日期待查。预算紧时先保留本版11天。",
+      "title": "三床主候选改Tesoro，明确预算取舍",
+      "body": "两晚含2.5%费NZ$1,871.17，房型列四实体床；仍要让商家确认给3人备齐三床与卧室可用。每晚约¥3,561超原住宿上限，比Peppers每人多约¥321；Peppers便宜但三床需Twin确认且不可退，不自动切回。",
       "sourceIds": [
-        "route-milford-product"
-      ]
-    },
-    {
-      "title": "省钱先减付费项目，别压缩到赶路",
-      "body": "免费湖岸、观景点和短步道已经足够形成这次的摄影主线。预算列的NZ$199–249付费活动是可删的；省钱备选Twizel四卧两晚含卡费NZ$1,142.27虽便宜，但仅1条评价5.0/10且不可退，未选作默认好酒店。特卡波主候选仍需解决三床确认。",
-      "sourceIds": [
-        "r-twizel-alternative",
+        "x-tesoro",
         "b-hotel-2"
+      ]
+    },
+    {
+      "title": "三万元可以控制，但不宽裕",
+      "body": "十二天控制版精算¥28,245.77–29,684.06/人，已含¥1,000机动金；按上限距¥30,000只余¥315.94。机票约¥11,958、住宿约¥7,572、租车约¥2,070、峡湾约¥1,214。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,550–30,235，不能承诺不超。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "sourceIds": []
+    },
+    {
+      "title": "多一天用来丰富景观，不是天气保险",
+      "body": "库克山主窗口仍11/21，22日只可牺牲转场休息/瓦纳卡时间作短线补拍。峡湾24/25能否互换取决于团位和至少24小时改期条款；大雨封路不一定能补到。",
+      "sourceIds": [
+        "x-milford",
+        "w-nztaRoads",
+        "w-docHooker"
       ]
     }
   ],
   "rental": {
-    "title": "APEX六天约¥5,618整车，\n先把保险最后一项确认好。",
-    "body": "优先候选：Santa Fe/同级＋Maximum零自付额＋Roadside。官网已显示NZ$1,473.72（含GST），三人分摊NZ$491.24≈¥1,873；比旧方案NZ$2,200预留少约¥2,769，并增加两个计费日。尚未预订，玻璃轮胎专项是否随包包含没有明确证明，因此不是已核实满足全部保障要求的成交价。",
+    "title": "APEX七天 NZ$1,631.56整车，\n两位司机轮流开。",
+    "body": "约¥6,209整车，三人分摊NZ$543.85≈¥2,070。Santa Fe/同级＋Maximum零自付额＋Roadside，官网实查163小时按7天收费。尚未预订；玻璃轮胎专项未明确，未取得全部保障无缺口的书面确认。",
     "sourceIds": [
       "r-apex-booking",
       "r-apex-faq",
@@ -3575,218 +3639,124 @@
       "checked": "2026-10-21",
       "booked": false,
       "provider": "APEX",
-      "vehicle": "Hyundai Santa Fe AWD / Similar，2021–2024车组",
+      "vehicle": "Hyundai Santa Fe AWD / Similar，2021–2024自动挡5座车组",
       "pickup": "2026-11-19T17:00:00+13:00",
-      "return": "2026-11-25T12:00:00+13:00",
-      "billableDays": 6,
-      "maximumPackageNzd": 1437.72,
-      "roadsideNzd": 36,
+      "return": "2026-11-26T12:00:00+13:00",
+      "durationHours": 163,
+      "billableDays": 7,
+      "maximumPackageNzd": 1589.56,
+      "roadsideNzd": 42,
       "additionalDriverNzd": 0,
       "youngDriverNzd": 0,
       "oneWayNzd": 0,
       "cardFeeNzd": 0,
       "gstIncluded": true,
-      "totalNzd": 1473.72,
+      "totalNzd": 1631.56,
       "glassTyresExplicitlyConfirmed": false,
       "luggagePhysicalFitConfirmed": false,
-      "priceStatus": "官网联系方式前汇总实查总额，未付款；玻璃轮胎范围待确认",
-      "budgetNote": "11/19 17:00 CHC→11/25 12:00 ZQN，6计费日；Maximum套餐1,437.72＋Roadside36＝1,473.72。附驾、24岁年轻司机、异地、商家卡费为0，含GST。玻璃轮胎专项未明示包含；若另付费，本行须上调。油费停车另列。",
-      "headline": "APEX六天约¥5,618整车，\n先把保险最后一项确认好。",
-      "summary": "优先候选：Santa Fe/同级＋Maximum零自付额＋Roadside。官网已显示NZ$1,473.72（含GST），三人分摊NZ$491.24≈¥1,873；比旧方案NZ$2,200预留少约¥2,769，并增加两个计费日。尚未预订，玻璃轮胎专项是否随包包含没有明确证明，因此不是已核实满足全部保障要求的成交价。",
-      "cards": [
-        {
-          "title": "01 / 最终页面金额怎么组成",
-          "body": "6天Maximum套餐NZ$1,437.72＋道路救援NZ$6×6＝36；1名附驾免费，合计NZ$1,473.72。官方无21–25岁加价、异地费和商家刷卡费，GST已含。银行外币交易费、加油停车、违约或超时费用不在此价。",
-          "sourceIds": [
-            "r-apex-booking",
-            "r-apex-faq"
-          ]
-        },
-        {
-          "title": "02 / 三只28寸箱：选大SUV，仍要试装",
-          "body": "该车组官方标5成人、4大箱＋3小包，空间匹配度高于仅标2大箱的Prado等组；但“large”未定义28寸外尺寸，且or similar不保证确切车辆。先核对三箱含轮尺寸，确认交付行李空间；提车先试装并固定背包，不能挡驾驶视线。列明汽油车，不加柴油RUC；替代车型另核。",
-          "sourceIds": [
-            "r-apex-car"
-          ]
-        },
-        {
-          "title": "03 / 玻璃轮胎尚不能写成已全包",
-          "body": "本次选中Maximum只明列NZ$0 excess，未明列Windscreen and Tyre Protection。合同另有该专项，所以需在付款前取得随包包含或另购价格的确认；也不能据此断言普通玻璃轮胎必然不保。Roadside已加：涵盖相应人为故障呼叫等，有拖车距离/送油额度限制，不等于免费更换新胎。车顶底盘、违约禁行和个人财物等仍有限制。",
-          "sourceIds": [
-            "r-apex-terms",
-            "r-apex-cover"
-          ]
-        },
-        {
-          "title": "04 / Omega更便宜，但不满足全部条件",
-          "body": "11/20中午→25日中午5天，Highlander＋Gold：NZ$1,182，按1.99%卡费合计NZ$1,205.52≈¥4,596；附驾及年轻司机免费。但官方只标4小箱，三只28寸未证实，Gold玻璃轮胎未明确，司机误操作道路救援另收费。不是同样保障与租期的低价替代。能放3大箱的Carnival/iMax这次显示售罄。",
-          "sourceIds": [
-            "r-omega-booking",
-            "r-omega-terms"
-          ]
-        },
-        {
-          "title": "05 / 为什么改成六个计费日",
-          "body": "这次APEX 11/20中午→25日中午的5日搜索提示最低租期不满足；19日17点开始的6日搜索可售。提前到抵达日下午取车并住机场旁，第二天09:30能直接出发；总旅行仍11天。不能把6天总价除成5天，或把最低租期提示说成全部售罄。",
-          "sourceIds": [
-            "r-apex-booking"
-          ]
-        },
-        {
-          "title": "06 / 携程与旧报价怎样比较",
-          "body": "之前Trip.com/Budget四天Premium在线NZ$1,838.57，附驾与年轻司机另算后已知小计NZ$1,976.57；NZ$2,200（约¥8,387）是预留，并非商家最终应付。该Premium未覆盖你要的玻璃轮胎及道路救援，不能拿它当同保障价。新版优先APEX直接报价；此前携程页面未取得比它更完整且更便宜的同条件报价。",
-          "sourceIds": [
-            "r-trip-old"
-          ]
-        },
-        {
-          "title": "07 / 正常取还车与取消时点",
-          "body": "CHC门店28 Ron Guthrey Rd，当前08:00–18:29；EK412计划14:15抵达，17点取车。QT门店32 Lucas Place，08:00–17:29，11:45到店、12点前交车，再乘免费接驳。APEX取消距取车超过14天一般免费；14天内至24小时前20%上限NZ$100，24小时内50%上限NZ$200，以实际订单为准。",
-          "sourceIds": [
-            "r-apex-chc",
-            "r-apex-zqn",
-            "r-apex-faq"
-          ]
-        },
-        {
-          "title": "08 / Ezi同六天复查：大MPV售罄",
-          "body": "同样11/19 17点→25日12点，Ezi带SUMMER折扣的Carnival Hybrid（保证2026车型，官方4大箱）显示售罄。可售Prado基础价已NZ$2,096.15≈¥7,991，尚未加Ultra、道路救援和卡费，官方仅标2大箱；因此未把它当成低于旧预算且满足空间的方案。",
-          "sourceIds": [
-            "r-ezi"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "r-apex-booking",
-          "title": "APEX官网：6天Santa Fe，Maximum＋Roadside总NZ$1,473.72",
-          "url": "https://www.apexrentals.co.nz/reservations",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-faq",
-          "title": "APEX FAQ：附驾、年轻驾驶员、异地、税费和刷卡费",
-          "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-car",
-          "title": "APEX车队：Santa Fe车组容量与燃料说明",
-          "url": "https://www.apexrentals.co.nz/cars",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-cover",
-          "title": "APEX Maximum自付额减免说明",
-          "url": "https://www.apexrentals.co.nz/rental-info/excess-reduction-cover",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-terms",
-          "title": "APEX租约：玻璃轮胎、救援及豁免边界",
-          "url": "https://www.apexrentals.co.nz/rental-info/terms-and-conditions",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-chc",
-          "title": "APEX基督城机场门店",
-          "url": "https://www.apexrentals.co.nz/rental-car-locations/christchurch-airport-branch",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-apex-zqn",
-          "title": "APEX皇后镇还车与机场接驳",
-          "url": "https://www.apexrentals.co.nz/rental-car-locations/queenstown-airport-branch/drop-off-instructions-normal-hours",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-omega-booking",
-          "title": "Omega官网预订报价入口",
-          "url": "https://www.omegarentalcars.com/",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-omega-terms",
-          "title": "Omega租赁条款",
-          "url": "https://www.omegarentalcars.com/terms-and-conditions/",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-trip-old",
-          "title": "Trip.com租车：旧四天Budget对照，非新版同日期价",
-          "url": "https://www.trip.com/carhire/",
-          "checked": "2026-10-21"
-        },
-        {
-          "id": "r-ezi",
-          "title": "Ezi官方预订入口：6日Carnival售罄，Prado基础价不合预算",
-          "url": "https://www.ezicarrental.co.nz/",
-          "checked": "2026-10-21"
-        }
-      ]
+      "proofImage": "assets/apex-7d-quote-20261021.png",
+      "proofCaption": "10/21官网匿名Contact汇总：11/19 17:00 CHC→11/26 12:00 ZQN，7天；Maximum 1,589.56＋Roadside42＋附驾0＝NZ$1,631.56，未预订。截图不证明玻璃轮胎已全包。",
+      "proofAlt": "APEX七日Santa Fe Maximum及Roadside报价汇总NZ1631.56",
+      "priceStatus": "官网Contact汇总实查，含GST；玻璃轮胎专项与28寸实体装载仍待确认"
     },
     "cards": [
       {
-        "title": "01 / 最终页面金额怎么组成",
-        "body": "6天Maximum套餐NZ$1,437.72＋道路救援NZ$6×6＝36；1名附驾免费，合计NZ$1,473.72。官方无21–25岁加价、异地费和商家刷卡费，GST已含。银行外币交易费、加油停车、违约或超时费用不在此价。",
+        "title": "01 / 已查到的最后汇总金额",
+        "body": "7天Maximum 1,589.56＋Roadside6×7＝42＋附驾0，共NZ$1,631.56含GST。24岁附驾、正常异地、机场、商家卡费和预订费为0；银行外币交易费、燃油停车、违约费用另计。",
         "sourceIds": [
           "r-apex-booking",
           "r-apex-faq"
         ]
       },
       {
-        "title": "02 / 三只28寸箱：选大SUV，仍要试装",
-        "body": "该车组官方标5成人、4大箱＋3小包，空间匹配度高于仅标2大箱的Prado等组；但“large”未定义28寸外尺寸，且or similar不保证确切车辆。先核对三箱含轮尺寸，确认交付行李空间；提车先试装并固定背包，不能挡驾驶视线。列明汽油车，不加柴油RUC；替代车型另核。",
+        "title": "02 / 三只28寸大箱，先确认外尺寸",
+        "body": "车组页面标4大箱＋3小包、5座，适合优先询问。large没有定义28寸外尺寸，or similar也不保证具体后备厢。给三箱含轮把手长宽高，确认三人坐好后可放、遮物帘下可收纳；提车先试装。",
         "sourceIds": [
           "r-apex-car"
         ]
       },
       {
-        "title": "03 / 玻璃轮胎尚不能写成已全包",
-        "body": "本次选中Maximum只明列NZ$0 excess，未明列Windscreen and Tyre Protection。合同另有该专项，所以需在付款前取得随包包含或另购价格的确认；也不能据此断言普通玻璃轮胎必然不保。Roadside已加：涵盖相应人为故障呼叫等，有拖车距离/送油额度限制，不等于免费更换新胎。车顶底盘、违约禁行和个人财物等仍有限制。",
+        "title": "03 / 玻璃轮胎仍是付款前条件",
+        "body": "Maximum只明确NZ$0 excess；合同4.10另定义Windscreen and Tyre Protection，未明确随Maximum包含。请商家书面确认普通玻璃/轮胎意外修换的自付额与除外；若要另买，报含GST的整租期最终价。也不能反过来断言普通玻璃一定不保。",
         "sourceIds": [
           "r-apex-terms",
           "r-apex-cover"
         ]
       },
       {
-        "title": "04 / Omega更便宜，但不满足全部条件",
-        "body": "11/20中午→25日中午5天，Highlander＋Gold：NZ$1,182，按1.99%卡费合计NZ$1,205.52≈¥4,596；附驾及年轻司机免费。但官方只标4小箱，三只28寸未证实，Gold玻璃轮胎未明确，司机误操作道路救援另收费。不是同样保障与租期的低价替代。能放3大箱的Carnival/iMax这次显示售罄。",
+        "title": "04 / Roadside不等于新胎免费",
+        "body": "已加道路救援，包含约定人为故障呼叫和换胎协助；不等于购买新胎、零件与无限拖车免费。拖车约100km/100km内最近租车点限制；车顶底盘、水损、错油、禁行路和个人财物仍有合同边界。",
         "sourceIds": [
-          "r-omega-booking",
-          "r-omega-terms"
+          "r-apex-terms"
         ]
       },
       {
-        "title": "05 / 为什么改成六个计费日",
-        "body": "这次APEX 11/20中午→25日中午的5日搜索提示最低租期不满足；19日17点开始的6日搜索可售。提前到抵达日下午取车并住机场旁，第二天09:30能直接出发；总旅行仍11天。不能把6天总价除成5天，或把最低租期提示说成全部售罄。",
+        "title": "05 / 七天租车和六个主游览日",
+        "body": "11/19抵达取车、11/26中午还，163小时向上计7天。南岛7晚、8个自然日期、6个主游览日；11/24坐峡湾大巴时车辆停酒店，不能据此少算一天租金。新增一天实查较旧6天价每人约增¥201，旧价仅作历史比较。",
         "sourceIds": [
           "r-apex-booking"
         ]
       },
       {
-        "title": "06 / 携程与旧报价怎样比较",
-        "body": "之前Trip.com/Budget四天Premium在线NZ$1,838.57，附驾与年轻司机另算后已知小计NZ$1,976.57；NZ$2,200（约¥8,387）是预留，并非商家最终应付。该Premium未覆盖你要的玻璃轮胎及道路救援，不能拿它当同保障价。新版优先APEX直接报价；此前携程页面未取得比它更完整且更便宜的同条件报价。",
-        "sourceIds": [
-          "r-trip-old"
-        ]
-      },
-      {
-        "title": "07 / 正常取还车与取消时点",
-        "body": "CHC门店28 Ron Guthrey Rd，当前08:00–18:29；EK412计划14:15抵达，17点取车。QT门店32 Lucas Place，08:00–17:29，11:45到店、12点前交车，再乘免费接驳。APEX取消距取车超过14天一般免费；14天内至24小时前20%上限NZ$100，24小时内50%上限NZ$200，以实际订单为准。",
+        "title": "06 / 取还车和司机证件",
+        "body": "CHC28 Ron Guthrey Rd，计划17点取，当前08–18:29；延误须按门店安排。ZQN32 Lucas Place，11:45到、12点交车再接驳机场。两人原件＋合规翻译/日本IDP、本人实体受理卡到场并都入合同。距取车超过14天通常免费取消，14天内至24小时前20%上限NZ100，24小时内50%上限NZ200，订单优先。",
         "sourceIds": [
           "r-apex-chc",
           "r-apex-zqn",
           "r-apex-faq"
         ]
-      },
-      {
-        "title": "08 / Ezi同六天复查：大MPV售罄",
-        "body": "同样11/19 17点→25日12点，Ezi带SUMMER折扣的Carnival Hybrid（保证2026车型，官方4大箱）显示售罄。可售Prado基础价已NZ$2,096.15≈¥7,991，尚未加Ultra、道路救援和卡费，官方仅标2大箱；因此未把它当成低于旧预算且满足空间的方案。",
-        "sourceIds": [
-          "r-ezi"
-        ]
       }
     ]
-  }
+  },
+  "hotelAlternatives": [
+    {
+      "id": "peppers12",
+      "property": "Peppers Bluewater Resort",
+      "checkin": "2026-11-20",
+      "checkout": "2026-11-22",
+      "nights": 2,
+      "adults": 3,
+      "units": 1,
+      "room": "Two-Bedroom Suite with Mountain View / 山景两卧室套房",
+      "sizeSqm": 107,
+      "beds": "Booking lists bedroom1 queen, bedroom2 two singles, living room sofa. Fine print says king remains default unless Twin requested when reserving.",
+      "fixedThreeBedsListed": false,
+      "bedRisk": "Three separate proper beds still require Twin arrangement confirmation. Do not present this as resolved or booked.",
+      "privateBathroom": true,
+      "currency": "NZD",
+      "roomTotal": 1618,
+      "taxIncluded": true,
+      "breakfastIncluded": false,
+      "cardSurchargePercent": null,
+      "cardFeeStatus": "No card fee found in this live room page; not a guarantee of zero fee.",
+      "budgetCardInclusiveTotal": 1618,
+      "stage": "Live dated 3-adult room-rate table NZD1618 including tax; same as prior snapshot. Exact cents not newly retrieved.",
+      "cancellation": "Non-refundable; payment to property before arrival; may charge full amount according to terms",
+      "refundableDeposit": {
+        "currency": "NZD",
+        "amount": 200,
+        "note": "Credit-card pre-authorisation or cash deposit at arrival; not consumption"
+      },
+      "twinPreparation": "Request Twin at reservation; changing bedding after arrival incurs NZD30 according to fine print. Advance request charge not stated.",
+      "checkinTime": "14:00 onwards",
+      "checkoutTime": "10:00",
+      "address": "State Highway 8, Lake Tekapo 7945, New Zealand",
+      "lat": -44.00312567,
+      "lon": 170.4739952,
+      "rating": 7.9,
+      "reviewCount": 2507,
+      "sourceUrl": "https://www.booking.com/hotel/nz/peppers-bluewater-resort.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "officialRoomUrl": "https://all.accor.com/hotel/B3Q7/index.en.shtml",
+      "recommendation": "Conditional saving alternative, not the only workable 3-bed property",
+      "wholeCNY": 6168.463199999999,
+      "perNightCNY": 3084.2315999999996,
+      "perPersonNative": 539.3333333333334,
+      "perPersonCNY": 2056.1544
+    },
+    {
+      "property": "Airbnb19101552",
+      "dates": "2026-11-23–26",
+      "status": "实查不可订；不得使用旧两晚报价"
+    }
+  ]
 }
