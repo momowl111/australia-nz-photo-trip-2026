@@ -1,8 +1,9 @@
 {
   "meta": {
     "checked": "2026-10-21",
-    "status": "未预订的理想化行程",
-    "defaultStart": 16
+    "status": "悉尼2晚＋南岛6晚；未预订的摄影优先行程",
+    "defaultStart": 16,
+    "revision": "south-island-priority"
   },
   "days": [
     {
@@ -101,7 +102,7 @@
           "time": "08:40",
           "endTime": "09:30",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "transfer",
           "detail": "三人带行李去Camperdown住宿，网约车/出租约30–50分钟为规划值；寄存行李，提前入住并不保证。",
           "photoTip": "",
@@ -114,7 +115,7 @@
           "time": "09:30",
           "endTime": "12:00",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "rest",
           "detail": "附近早餐、咖啡和低强度散步；累了就在咖啡馆休息，不安排跨城景点。",
           "photoTip": "",
@@ -127,7 +128,7 @@
           "time": "12:00",
           "endTime": "14:00",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "meal",
           "detail": "午餐后保留空档；按酒店实际入住时间拿房，必要时压缩下午行程。",
           "photoTip": "",
@@ -140,7 +141,7 @@
           "time": "14:00",
           "endTime": "16:00",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "rest",
           "detail": "入住后洗澡与补觉；如酒店15:00才可入住，休息顺延。",
           "photoTip": "",
@@ -194,7 +195,7 @@
           "time": "20:00",
           "endTime": "21:30",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "rest",
           "detail": "回酒店、备份照片、尽早睡；当天不加酒吧或夜间跨海拍摄。",
           "photoTip": "",
@@ -214,16 +215,16 @@
       "area": "悉尼",
       "timezone": "澳东夏令时 UTC+11",
       "hotelId": "camperdown",
-      "summary": "上午Manly渡轮和海边，下午休息后到植物园与Mrs Macquarie’s Chair。",
+      "summary": "悉尼唯一完整游览日：Manly渡轮与海岸，下午休息后拍海港；Bondi只作替换，不额外叠加。",
       "drive": "公共渡轮＋公交/网约车＋步行",
       "photoGoal": "渡轮上的城市层次、海滩人文、歌剧院和海港大桥同框。",
-      "weatherPlan": "大风或渡轮停航则取消Manly，改The Rocks/市区展馆；只在海港风雨减弱时补短时外拍。",
+      "weatherPlan": "大风或渡轮停航则取消Manly，改The Rocks/市区展馆；只在海港风雨减弱时补短时外拍。 若更喜欢泳池与岩岸，用Bondi–Bronte半日替换Manly；次晨早班机，今晚尽量21:00前睡。",
       "events": [
         {
           "time": "08:00",
           "endTime": "09:15",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "meal",
           "detail": "早餐后去Circular Quay；按当天实时F1班次，留20–30分钟候船。",
           "photoTip": "",
@@ -236,7 +237,7 @@
         },
         {
           "time": "09:15",
-          "endTime": "10:00",
+          "endTime": "10:30",
           "placeId": "manly_wharf",
           "place": "Manly Wharf",
           "kind": "ferry",
@@ -250,7 +251,7 @@
           ]
         },
         {
-          "time": "10:00",
+          "time": "10:30",
           "endTime": "12:00",
           "placeId": "manly_beach",
           "place": "Manly Beach",
@@ -279,7 +280,7 @@
           "time": "13:00",
           "endTime": "15:30",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "rest",
           "detail": "返程交通与酒店休息；保留约1小时真正坐下或补觉。",
           "photoTip": "",
@@ -319,11 +320,11 @@
         },
         {
           "time": "18:30",
-          "endTime": "19:50",
+          "endTime": "19:40",
           "placeId": "mrs_macquarie",
           "place": "Mrs Macquarie’s Chair观景区",
           "kind": "photo",
-          "detail": "拍歌剧院与大桥同框；若还在园内，20:00关门前离开，回程不用封闭园门。",
+          "detail": "拍歌剧院与大桥同框；日落约19:38，拍完即收工。20:00关门前离园，回程不用封闭园门。",
           "photoTip": "先24–50mm定构图，再70–120mm压缩；蓝调可脚架低ISO。",
           "lat": -33.86,
           "lon": 151.222,
@@ -333,12 +334,12 @@
           ]
         },
         {
-          "time": "19:50",
-          "endTime": "21:30",
+          "time": "19:40",
+          "endTime": "21:00",
           "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
+          "place": "Rydges Camperdown住宿区域",
           "kind": "rest",
-          "detail": "返酒店与照片备份；不再加远端夜景。",
+          "detail": "直接回酒店，行李提前装好；只做必要备份，尽量21:00前睡，为次晨05:15起床留睡眠。",
           "photoTip": "",
           "lat": -33.88702,
           "lon": 151.17917,
@@ -352,125 +353,14 @@
     {
       "day": 4,
       "date": "2026-11-19",
-      "title": "海岸线半日，晚上早点收工",
-      "area": "悉尼",
-      "timezone": "澳东夏令时 UTC+11",
-      "hotelId": "camperdown",
-      "summary": "Bondi至Bronte慢走，下午回城休息，给次日早起留出睡眠。",
-      "drive": "公交/网约车＋约2–3km海岸步行",
-      "photoGoal": "海浪、岩壁、海滨泳池与朋友环境人像。",
-      "weatherPlan": "风雨大则取消海岸步道，改市区室内场馆；不靠近浪打礁石。",
-      "events": [
-        {
-          "time": "07:45",
-          "endTime": "09:00",
-          "placeId": "bondi",
-          "place": "Bondi Beach / Icebergs公共步道",
-          "kind": "transfer",
-          "detail": "早餐后去Bondi，跨城公交/网约车留45–60分钟。",
-          "photoTip": "",
-          "lat": -33.891,
-          "lon": 151.277,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
-        },
-        {
-          "time": "09:00",
-          "endTime": "11:45",
-          "placeId": "bronte",
-          "place": "Bronte Beach",
-          "kind": "photo",
-          "detail": "从Bondi沿公共步道走到Bronte，边拍边休息；无需走完整段到Coogee。",
-          "photoTip": "24–120mm为主，120mm拍浪和泳池纹理；16mm拍岩壁与海岸，但不跨越护栏。",
-          "lat": -33.904,
-          "lon": 151.268,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
-            "i-bronte"
-          ]
-        },
-        {
-          "time": "11:45",
-          "endTime": "12:45",
-          "placeId": "bronte",
-          "place": "Bronte Beach",
-          "kind": "meal",
-          "detail": "午餐、补水，脚累就提前结束。",
-          "photoTip": "",
-          "lat": -33.904,
-          "lon": 151.268,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
-        },
-        {
-          "time": "12:45",
-          "endTime": "15:30",
-          "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
-          "kind": "rest",
-          "detail": "返回酒店午休，整理明日飞机用品和电池。",
-          "photoTip": "",
-          "lat": -33.88702,
-          "lon": 151.17917,
-          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
-          "sourceIds": []
-        },
-        {
-          "time": "16:00",
-          "endTime": "18:00",
-          "placeId": "darling_harbour",
-          "place": "Darling Harbour",
-          "kind": "photo",
-          "detail": "可选Darling Harbour建筑与街景；不追完整夜景。",
-          "photoTip": "24–70mm拍城市线条，光线一般就把时间留给晚饭。",
-          "lat": -33.874,
-          "lon": 151.201,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
-        },
-        {
-          "time": "18:00",
-          "endTime": "19:00",
-          "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
-          "kind": "meal",
-          "detail": "回住宿附近吃晚餐；确认明早接送。",
-          "photoTip": "",
-          "lat": -33.88702,
-          "lon": 151.17917,
-          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
-          "sourceIds": []
-        },
-        {
-          "time": "19:00",
-          "endTime": "21:00",
-          "placeId": "camperdown",
-          "place": "Camperdown住宿区域",
-          "kind": "rest",
-          "detail": "收拾行李、充电、备份，21:00左右睡；不安排日出或午夜拍星。",
-          "photoTip": "",
-          "lat": -33.88702,
-          "lon": 151.17917,
-          "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
-          "sourceIds": [
-            "i-driver-rest"
-          ]
-        }
-      ],
-      "shortTitle": "邦迪海岸",
-      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
-    },
-    {
-      "day": 5,
-      "date": "2026-11-20",
-      "title": "跨海到基督城，不当天长途自驾",
+      "title": "飞抵基督城，取车后在机场附近休息",
       "area": "悉尼→基督城",
       "timezone": "上午悉尼 UTC+11 / 下午新西兰 UTC+13",
-      "hotelId": "distinction",
-      "summary": "EK412上午起飞下午抵达；市区住一晚，恢复精神。",
-      "drive": "机场接送；当天不租车",
-      "photoGoal": "基督城河岸与市场轻量纪实，优先休息。",
-      "weatherPlan": "抵达遇雨或晚点就直接入住；晚间散步完全可取消。",
+      "hotelId": "palms",
+      "summary": "11/19 EK412上午离开悉尼、14:15抵达基督城，接驳取车后住机场区域；当天只作门店到酒店的短途驾驶。",
+      "drive": "机场接驳＋租车门店至机场区域酒店短途；不长途驾驶",
+      "photoGoal": "抵达日以入境、取车和休息为主；不安排市区打卡。",
+      "weatherPlan": "航班延误先通知车行核对营业/接驳，不能假设下班后仍能取车。若取车延后或疲劳，重排而不硬赶门店。",
       "events": [
         {
           "time": "05:15",
@@ -530,7 +420,7 @@
           "placeId": "chc_airport",
           "place": "基督城机场",
           "kind": "arrival",
-          "detail": "入境、提行李、生物安全检查，之后进城；总共留约1小时45分缓冲，时间为规划值。",
+          "detail": "入境、提行李、生物安全检查；留约1小时45分缓冲。出关后按APEX候选门店的已确认接驳指引联系，班次与营业时间仍需最终核对。",
           "photoTip": "",
           "lat": -43.489,
           "lon": 172.532,
@@ -539,43 +429,43 @@
         },
         {
           "time": "16:00",
-          "endTime": "17:30",
-          "placeId": "distinction",
-          "place": "Distinction Christchurch住宿区域",
-          "kind": "rest",
-          "detail": "入住、洗澡、休息；明天才取车。",
-          "photoTip": "",
-          "lat": -43.5314831,
-          "lon": 172.6374377,
-          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
-          "sourceIds": []
-        },
-        {
-          "time": "17:30",
-          "endTime": "19:15",
-          "placeId": "riverside_market",
-          "place": "Riverside Market / Avon River",
-          "kind": "meal",
-          "detail": "Riverside Market或附近餐馆晚餐，Avon河畔短走。",
-          "photoTip": "24–120mm手持纪实，雨天拍室内光影；不追求所有景点。",
-          "lat": -43.534,
-          "lon": 172.633,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "endTime": "17:45",
+          "placeId": "apex_chc",
+          "place": "APEX基督城门店 · 28 Ron Guthrey Rd",
+          "kind": "rental",
+          "detail": "16点左右拿齐行李后，按确认邮件或致电门店联系免费接驳；目前指引为航站楼1/2号门外右侧等车。17:00合同取车，门店正常营业至18:29。两位驾驶人出示原驾照及翻译/IDP、实体信用卡，试装三只大箱、验车、核对玻璃轮胎保障；延误需及时联系，不能假设下班后自动取车。",
+          "photoTip": "取车后拍摄车身、玻璃、轮胎和油量作为交接记录。",
+          "lat": -43.4985788,
+          "lon": 172.5433357,
+          "coordinateStatus": "APEX官方取车页Directions链接重定向Google Maps的商户地点坐标；非单独实测车辆入口。",
           "sourceIds": [
-            "i-nz-route"
+            "r-apex-chc"
           ]
         },
         {
-          "time": "19:15",
-          "endTime": "21:30",
-          "placeId": "distinction",
-          "place": "Distinction Christchurch住宿区域",
-          "kind": "rest",
-          "detail": "回酒店休息，核对次日租车、驾驶人材料与天气路况。",
+          "time": "17:45",
+          "endTime": "18:30",
+          "placeId": "palms",
+          "place": "Airport Palms Motel住宿区域",
+          "kind": "drive",
+          "detail": "仅短途开到56 Roydvale Ave的机场区域酒店，办理入住；先熟悉左侧通行，今天不进市中心。",
           "photoTip": "",
-          "lat": -43.5314831,
-          "lon": 172.6374377,
-          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+          "lat": -43.49897,
+          "lon": 172.56151,
+          "coordinateStatus": "第三方物业点与官网地址交叉核对；非车道入口。",
+          "sourceIds": []
+        },
+        {
+          "time": "18:30",
+          "endTime": "21:00",
+          "placeId": "palms",
+          "place": "Airport Palms Motel住宿区域",
+          "kind": "rest",
+          "detail": "住宿附近晚餐、洗澡、休息，核对次日天气路况；21:00左右睡，不添加往返市区。",
+          "photoTip": "",
+          "lat": -43.49897,
+          "lon": 172.56151,
+          "coordinateStatus": "第三方物业点与官网地址交叉核对；非车道入口。",
           "sourceIds": [
             "i-road-conditions",
             "i-weather"
@@ -586,63 +476,37 @@
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
-      "day": 6,
-      "date": "2026-11-21",
-      "title": "中午取车，慢慢进入特卡波",
+      "day": 5,
+      "date": "2026-11-20",
+      "title": "睡足后出发，午后到特卡波休息",
       "area": "基督城→Tekapo",
       "timezone": "新西兰夏令时 UTC+13",
-      "hotelId": "mantra",
-      "summary": "上午基督城短走，中午取车，下午到Tekapo；日落在约20:50。",
+      "hotelId": "peppers",
+      "summary": "09:30从机场酒店出发，经Geraldine午餐和休息，约14:00到Tekapo；留足湖岸晚光前的休息。",
       "drive": "自驾 · 约3.2小时纯驾驶",
       "photoGoal": "湖岸、教堂外观与山湖晚光；可选短时月光夜景。",
-      "weatherPlan": "若D6晴D7雨，抵Tekapo后仅可把Pukaki南岸短停提前，取消同时间Tekapo外拍，并额外预留约1.5小时往返驾驶；司机疲劳则不去。整段Mt Cook不硬塞入D6。",
+      "weatherPlan": "当天先熟悉左侧通行，不加库克山往返。若到Tekapo遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
       "events": [
         {
-          "time": "08:30",
-          "endTime": "10:00",
-          "placeId": "chc_gardens",
-          "place": "Christchurch Botanic Gardens",
-          "kind": "photo",
-          "detail": "早餐后Botanic Gardens/河岸轻走，不赶付费活动。",
-          "photoTip": "24–120mm拍园林细节和河岸生活。",
-          "lat": -43.531,
-          "lon": 172.621,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
-        },
-        {
-          "time": "10:00",
-          "endTime": "11:15",
-          "placeId": "distinction",
-          "place": "Distinction Christchurch住宿区域",
+          "time": "08:00",
+          "endTime": "09:30",
+          "placeId": "palms",
+          "place": "Airport Palms Motel住宿区域",
           "kind": "meal",
-          "detail": "回酒店取行李、退房，提前午餐；11:15左右前往实际租车点。",
+          "detail": "早餐、装车、退房，检查路况；昨天已取车，今天不再往返市区或机场。09:30出发。",
           "photoTip": "",
-          "lat": -43.5314831,
-          "lon": 172.6374377,
-          "coordinateStatus": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
+          "lat": -43.49897,
+          "lon": 172.56151,
+          "coordinateStatus": "第三方物业点与官网地址交叉核对；非车道入口。",
           "sourceIds": []
         },
         {
-          "time": "11:45",
-          "endTime": "12:30",
-          "placeId": "chc_airport",
-          "place": "基督城机场 Budget取车柜台（候选）",
-          "kind": "rental",
-          "detail": "两位司机11:45前到基督城机场到达厅Budget柜台，出示驾照、翻译/IDP及主驾实体信用卡，登记两人并核对保险、附项和押金。合同按12:00开始；步行到车位，先试装三只28寸箱与背包，验车拍照，调座椅和导航、熟悉右舵后出发。",
-          "photoTip": "验车照片单独建相册。",
-          "lat": -43.489,
-          "lon": 172.532,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
-        },
-        {
-          "time": "12:30",
-          "endTime": "14:15",
+          "time": "09:30",
+          "endTime": "11:15",
           "placeId": "geraldine",
           "place": "Geraldine镇中心",
           "kind": "drive",
-          "detail": "CHC机场→Geraldine约1小时45分，路况与取车点影响时间。",
+          "detail": "从机场区域驶向Geraldine约1小时45分钟；初次左侧行驶留余量，不赶超车。",
           "photoTip": "",
           "lat": -44.094,
           "lon": 171.246,
@@ -653,12 +517,12 @@
           ]
         },
         {
-          "time": "14:15",
-          "endTime": "14:45",
+          "time": "11:15",
+          "endTime": "12:15",
           "placeId": "geraldine",
           "place": "Geraldine镇中心",
-          "kind": "break",
-          "detail": "咖啡、厕所与步行伸展；不以赶日落为由跳过休息。",
+          "kind": "meal",
+          "detail": "早午餐、厕所与伸展，司机至少完整休息一段再走。",
           "photoTip": "",
           "lat": -44.094,
           "lon": 171.246,
@@ -666,15 +530,15 @@
           "sourceIds": []
         },
         {
-          "time": "14:45",
-          "endTime": "16:00",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "time": "12:15",
+          "endTime": "14:00",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "drive",
-          "detail": "经Fairlie到Tekapo，抵达后入住；全程尽量白天驾驶。",
+          "detail": "经Fairlie到Tekapo，预留约1小时45分钟含交通缓冲；实际入住以酒店规定为准。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": [
             "i-nz-route",
@@ -682,15 +546,15 @@
           ]
         },
         {
-          "time": "16:00",
+          "time": "14:00",
           "endTime": "18:15",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "rest",
-          "detail": "休息、超市补给和早晚餐；不立即冲Cook山。",
+          "detail": "寄存行李或到时入住，超市补给、午休和早晚餐；不把库克山硬塞首个长途驾驶日。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": []
         },
@@ -700,7 +564,7 @@
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd公共外部",
           "kind": "photo",
-          "detail": "公共湖岸与教堂外部拍黄昏、日落和蓝调；11/21日落约20:51，具体地形遮挡会更早。",
+          "detail": "公共湖岸与教堂外部拍黄昏、日落和蓝调；11/20日落约20:49、民用暮光约21:23结束，地形可能提前遮光。",
           "photoTip": "Z6III＋24–120mm先拍山层，再用16mm带湖岸前景；脚架用于蓝调，避开教堂私有/封闭区域。",
           "lat": -44.003,
           "lon": 170.482,
@@ -729,13 +593,13 @@
         {
           "time": "22:15",
           "endTime": "22:45",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "rest",
           "detail": "回房后睡觉，次日不设日出闹钟。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": [
             "i-driver-rest"
@@ -746,27 +610,27 @@
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
-      "day": 7,
-      "date": "2026-11-22",
+      "day": 6,
+      "date": "2026-11-21",
       "title": "Pukaki与Aoraki：以短步道换好照片",
       "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
       "timezone": "新西兰夏令时 UTC+13",
-      "hotelId": "mantra",
+      "hotelId": "peppers",
       "summary": "睡足后出发，拍Pukaki、Kea Point与Tasman Valley；不把三小时Hooker全程当必选。",
       "drive": "自驾 · 约3小时纯驾驶",
       "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
-      "weatherPlan": "早晨查MetService/NZTA/DOC。山被云遮且大雨/强风时取消入山，改Tekapo咖啡、室内暗空体验或温泉休息；Pukaki可改D8顺路拍。不以追晴为由穿越封闭步道。 想走Hooker Valley全程时，以其替换Kea Point与Tasman两项，至少留3小时步行加拍摄；不可全部叠加。",
+      "weatherPlan": "早晨查MetService/NZTA/DOC；山被云遮且大雨或强风时取消入山，改Tekapo休息。D7天气改善可把上午替换成Pukaki/库克山短线，但会压缩Wanaka下午，不能再走完整Hooker。若今天走Hooker Valley全程，应替换Kea Point和Tasman两项，至少留3小时步行加拍摄，不可全部叠加。",
       "events": [
         {
           "time": "08:00",
           "endTime": "09:00",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "meal",
           "detail": "早餐与天气路况判断；前晚拍月光也能睡足8小时左右。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": [
             "i-weather",
@@ -865,13 +729,13 @@
         {
           "time": "15:15",
           "endTime": "17:00",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "drive",
           "detail": "回Tekapo，途中需要就停正规休息点；不在山里等到日落再开夜路。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": [
             "i-driver-rest",
@@ -881,13 +745,13 @@
         {
           "time": "17:00",
           "endTime": "19:45",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "rest",
           "detail": "休息、晚餐和备份照片。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": []
         },
@@ -897,7 +761,7 @@
           "placeId": "tekapo_lake",
           "place": "Lake Tekapo镇区湖岸",
           "kind": "photo_optional",
-          "detail": "若D6已拍满意，这晚自由休息；否则补一组湖岸晚光。11/22日落约20:52。",
+          "detail": "若D5已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。",
           "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
           "lat": -44.003,
           "lon": 170.478,
@@ -912,53 +776,52 @@
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
-      "day": 8,
-      "date": "2026-11-23",
-      "title": "穿过Lindis Pass，到皇后镇住下",
-      "area": "Tekapo→Queenstown",
+      "day": 7,
+      "date": "2026-11-22",
+      "title": "穿越林迪斯，把黄昏留给瓦纳卡",
+      "area": "Tekapo→Wānaka",
       "timezone": "新西兰夏令时 UTC+13",
-      "hotelId": "bluepeaks",
-      "summary": "不绕Wanaka，走Omarama、Lindis Pass、Cromwell；沿途少而精停靠。",
-      "drive": "自驾 · 约3.5小时纯驾驶",
-      "photoGoal": "公路山形、盆地层次和Wakatipu晚光；不追网红树绕路。",
-      "weatherPlan": "Lindis Pass遇恶劣天气按NZTA实时道路信息调整；不冒险走替代小路。若山湖多云，停留缩短，把时间给皇后镇休息。",
+      "hotelId": "clearbrook",
+      "summary": "经Pukaki、Omarama与Lindis Pass到Wānaka住一晚；保留湖岸黄昏，不当过路打卡。",
+      "drive": "自驾 · 约3小时纯驾驶，另留停靠与午餐",
+      "photoGoal": "林迪斯山坡线条、Wānaka湖岸与雪山层次；24–120mm是主力。",
+      "weatherPlan": "Lindis Pass风雪按NZTA调整，不找未经核实的小路绕行。若D6入山取消而今天转晴，可改08:00出发走Pukaki/库克山短线，午前离山；取消或缩短林迪斯拍照，接受Wanaka下午被压缩。该备选约增加1.5–2小时驾驶，司机累就放弃，不走Hooker全程、不等山里日落。",
       "events": [
         {
           "time": "08:00",
           "endTime": "09:30",
-          "placeId": "mantra",
-          "place": "Mantra Lake Tekapo住宿区域",
+          "placeId": "peppers",
+          "place": "Peppers Bluewater Resort（床型待确认）住宿区域",
           "kind": "meal",
-          "detail": "早餐、打包、退房；09:30出发。",
+          "detail": "早餐、打包、按住宿规定退房；09:30出发，正常方案不早起追日出。",
           "photoTip": "",
-          "lat": -44.006986,
-          "lon": 170.485883,
+          "lat": -44.00312567,
+          "lon": 170.4739952,
           "coordinateStatus": "Accor酒店官网公布GPS；不是具体公寓门牌。",
           "sourceIds": []
         },
         {
           "time": "09:30",
-          "endTime": "11:15",
-          "placeId": "omarama",
-          "place": "Omarama休息区",
-          "kind": "drive",
-          "detail": "经Pukaki/Twizel到Omarama；若D7湖景未拍成，可在Pukaki正规观景区补20分钟，已拍好则直接走。",
-          "photoTip": "24–120mm短停即可，不在车道或无停车空间的路肩取景。",
-          "lat": -44.488,
-          "lon": 169.967,
+          "endTime": "10:45",
+          "placeId": "pukaki_view",
+          "place": "Lake Pukaki南岸观景区",
+          "kind": "photo",
+          "detail": "经Pukaki南岸正规观景区短停；D6已拍好就缩短停留。只在安全车位停车，湖面风大时拍山湖层次。",
+          "photoTip": "70–120mm压缩主峰和湖面；24–35mm带岸线。",
+          "lat": -44.186,
+          "lon": 170.143,
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
-            "i-tekapo-qt-drive",
-            "i-road-conditions"
+            "i-nz-route"
           ]
         },
         {
-          "time": "11:15",
-          "endTime": "11:45",
+          "time": "10:45",
+          "endTime": "12:15",
           "placeId": "omarama",
           "place": "Omarama休息区",
-          "kind": "break",
-          "detail": "咖啡、厕所、伸展，司机休息。",
+          "kind": "meal",
+          "detail": "经Twizel驶向Omarama，午餐、厕所和伸展；驾驶约一小时，途中疲劳就提前停。",
           "photoTip": "",
           "lat": -44.488,
           "lon": 169.967,
@@ -968,55 +831,198 @@
           ]
         },
         {
-          "time": "11:45",
-          "endTime": "12:40",
+          "time": "12:15",
+          "endTime": "13:10",
           "placeId": "lindis_pass",
           "place": "Lindis Pass观景区（停车入口以标识为准）",
           "kind": "photo",
-          "detail": "约半小时驾驶后在正式观景停车区拍山坡线条，停约20分钟。",
-          "photoTip": "70–120mm拍山形压缩；风大不换镜、不放无人机。",
+          "detail": "约半小时到Lindis Pass正式观景停车区，拍约20分钟；无安全停车位或强风就跳过。",
+          "photoTip": "70–120mm选山坡曲线；不是站在公路中心拍摄。",
           "lat": -44.58885,
           "lon": 169.64304,
           "coordinateStatus": "已核对观景点；非精确停车入口",
           "sourceIds": [
-            "i-tekapo-qt-drive"
+            "i-road-conditions"
           ]
         },
         {
-          "time": "12:40",
+          "time": "13:10",
           "endTime": "14:30",
-          "placeId": "cromwell",
-          "place": "Cromwell镇中心",
-          "kind": "meal",
-          "detail": "驶向Cromwell并午餐，包含约1小时车程与45分钟用餐。",
+          "placeId": "clearbrook",
+          "place": "Clearbrook Motel & Serviced Apartments住宿区域",
+          "kind": "drive",
+          "detail": "经Tarras转SH8A/SH6到Wānaka，入住前按确认函找72 Helwick Street；不继续开往皇后镇。",
           "photoTip": "",
-          "lat": -45.038,
-          "lon": 169.201,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "lat": -44.697007,
+          "lon": 169.137107,
+          "coordinateStatus": "第三方物业点；官网地址已对照，不是车道入口",
           "sourceIds": []
         },
         {
           "time": "14:30",
-          "endTime": "15:30",
+          "endTime": "17:30",
+          "placeId": "clearbrook",
+          "place": "Clearbrook Motel & Serviced Apartments住宿区域",
+          "kind": "rest",
+          "detail": "入住、洗澡、午休；Clearbrook标准入住14:00–19:00，若延误需提前联系。三人各睡实体床，房型按最终确认函。",
+          "photoTip": "",
+          "lat": -44.697007,
+          "lon": 169.137107,
+          "coordinateStatus": "第三方物业点；官网地址已对照，不是车道入口",
+          "sourceIds": [
+            "route-clearbrook"
+          ]
+        },
+        {
+          "time": "17:30",
+          "endTime": "19:30",
+          "placeId": "wanaka_lakefront",
+          "place": "Wānaka镇区湖岸",
+          "kind": "meal",
+          "detail": "在镇区吃晚餐，顺便看湖岸风向和前景；先吃饭，避免为了晚光漏餐。",
+          "photoTip": "",
+          "lat": -44.693,
+          "lon": 169.133,
+          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
+          "sourceIds": []
+        },
+        {
+          "time": "19:45",
+          "endTime": "21:20",
+          "placeId": "wanaka_lakefront",
+          "place": "Wānaka镇区湖岸",
+          "kind": "photo",
+          "detail": "湖岸黄昏与蓝调；11/22日落约21:00、民用暮光约21:34结束。用可安全到达的公共湖岸，不以孤独树排队或水位作为成片前提。",
+          "photoTip": "24–35mm拍岸线、树影和山；70–120mm拍雪山与水面纹理，脚架压低防阵风。",
+          "lat": -44.693,
+          "lon": 169.133,
+          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
+          "sourceIds": [
+            "route-wanaka-sun"
+          ]
+        },
+        {
+          "time": "21:20",
+          "endTime": "22:00",
+          "placeId": "clearbrook",
+          "place": "Clearbrook Motel & Serviced Apartments住宿区域",
+          "kind": "rest",
+          "detail": "回房备份并休息；拍了完整黄昏，次晨不设日出闹钟，09:00再出门。",
+          "photoTip": "",
+          "lat": -44.697007,
+          "lon": 169.137107,
+          "coordinateStatus": "第三方物业点；官网地址已对照，不是车道入口",
+          "sourceIds": []
+        }
+      ],
+      "shortTitle": "林迪斯与瓦纳卡",
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+    },
+    {
+      "day": 8,
+      "date": "2026-11-23",
+      "title": "瓦纳卡慢早晨，午后到皇后镇",
+      "area": "Wānaka→Queenstown",
+      "timezone": "新西兰夏令时 UTC+13",
+      "hotelId": "bluepeaks",
+      "summary": "晨间再给湖岸一次机会，10:00前退房；经Cromwell与Kawarau Gorge到皇后镇，避开额外山路负担。",
+      "drive": "经SH6与Cromwell · 约112公里 / 1.5小时纯驾驶",
+      "photoGoal": "Wānaka柔光湖岸、Cromwell街景与Wakatipu湖湾；不安排Roy’s Peak长徒步。",
+      "weatherPlan": "走SH6/Cromwell。Crown Range虽然里程较短但路况更有挑战，并不一定更快，恶劣天气不作为抢时间捷径；晚光和次日日出仍二选一。",
+      "events": [
+        {
+          "time": "08:00",
+          "endTime": "09:00",
+          "placeId": "clearbrook",
+          "place": "Clearbrook Motel & Serviced Apartments住宿区域",
+          "kind": "meal",
+          "detail": "正常睡足后早餐、整理行李；11/23日出约05:58，但拍过昨晚黄昏就不安排05点起床。",
+          "photoTip": "",
+          "lat": -44.697007,
+          "lon": 169.137107,
+          "coordinateStatus": "第三方物业点；官网地址已对照，不是车道入口",
+          "sourceIds": [
+            "route-wanaka-sun"
+          ]
+        },
+        {
+          "time": "09:00",
+          "endTime": "09:40",
+          "placeId": "wanaka_lakefront",
+          "place": "Wānaka镇区湖岸",
+          "kind": "photo_optional",
+          "detail": "湖岸短走，尝试与昨晚不同的光线；风雨大就留在住宿休息。",
+          "photoTip": "24–120mm轻装，拍岸边层次与朋友合影。",
+          "lat": -44.693,
+          "lon": 169.133,
+          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
+          "sourceIds": [],
+          "optional": true
+        },
+        {
+          "time": "09:40",
+          "endTime": "10:00",
+          "placeId": "clearbrook",
+          "place": "Clearbrook Motel & Serviced Apartments住宿区域",
+          "kind": "packing",
+          "detail": "回房拿行李，10:00前退房，清点充电器和存储卡。",
+          "photoTip": "",
+          "lat": -44.697007,
+          "lon": 169.137107,
+          "coordinateStatus": "第三方物业点；官网地址已对照，不是车道入口",
+          "sourceIds": []
+        },
+        {
+          "time": "10:00",
+          "endTime": "12:00",
+          "placeId": "cromwell",
+          "place": "Cromwell镇中心",
+          "kind": "meal",
+          "detail": "沿SH6开往Cromwell，途中约一小时；老镇短走、午餐与休息，不加收费活动。",
+          "photoTip": "24–70mm拍老镇建筑细节，长焦收取远山。",
+          "lat": -45.038,
+          "lon": 169.201,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": [
+            "route-nz-drive"
+          ]
+        },
+        {
+          "time": "12:00",
+          "endTime": "13:00",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "drive",
-          "detail": "经Kawarau Gorge到Queenstown入住；不额外绕Arrowtown和Wanaka。",
+          "detail": "经Kawarau Gorge驶向Queenstown；入住前可寄存行李，但提前进房不保证。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
           "coordinateStatus": "基于OpenStreetMap way 1289569912的物业中心。预订页公寓地址11 Sydney Street；旅游/前台信息另见8 Coronation Drive，入住前按确认函找前台。",
           "sourceIds": [
-            "i-tekapo-qt-drive"
+            "route-nz-drive",
+            "route-crown-range"
           ]
         },
         {
-          "time": "15:30",
+          "time": "13:00",
+          "endTime": "15:00",
+          "placeId": "queenstown_bay",
+          "place": "Queenstown Bay湖畔",
+          "kind": "meal",
+          "detail": "镇区午后散步或咖啡，等正式入住；不为了填满时间再开远端山路。",
+          "photoTip": "",
+          "lat": -45.033,
+          "lon": 168.66,
+          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "sourceIds": []
+        },
+        {
+          "time": "15:00",
           "endTime": "18:30",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
-          "detail": "洗澡、休息、晚餐；若次晨选择日出，今晚不再追日落，21:00前睡。",
+          "detail": "入住、洗澡、休息和晚餐；若明天选日出，今天不拍完整日落，21:00前睡。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
@@ -1044,7 +1050,7 @@
           "time": "21:25",
           "endTime": "22:15",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
           "detail": "回房、简单备份并睡觉；若拍了晚光，明早睡足再出发。",
           "photoTip": "",
@@ -1054,7 +1060,7 @@
           "sourceIds": []
         }
       ],
-      "shortTitle": "穿越林迪斯",
+      "shortTitle": "瓦纳卡到皇后镇",
       "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
     },
     {
@@ -1091,7 +1097,7 @@
           "time": "08:00",
           "endTime": "09:30",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "meal",
           "detail": "正常起床早餐；拍日出的人先休息，司机精神状态优先。",
           "photoTip": "",
@@ -1148,7 +1154,7 @@
           "time": "13:30",
           "endTime": "14:45",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "drive",
           "detail": "原路回Queenstown；司机累就中途正规停车区休息。",
           "photoTip": "",
@@ -1164,7 +1170,7 @@
           "time": "14:45",
           "endTime": "18:00",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
           "detail": "至少两小时不赶景点，收拾行李、照片备份、核对次日飞机与还车。",
           "photoTip": "",
@@ -1206,7 +1212,7 @@
           "time": "21:15",
           "endTime": "22:00",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "rest",
           "detail": "回酒店睡觉，给返程司机保留8小时左右睡眠。",
           "photoTip": "",
@@ -1235,9 +1241,9 @@
       "events": [
         {
           "time": "08:00",
-          "endTime": "09:00",
+          "endTime": "08:45",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "meal",
           "detail": "早餐，核对NZ626/NZ289状态和行李直挂要求。",
           "photoTip": "",
@@ -1249,8 +1255,8 @@
           ]
         },
         {
-          "time": "09:00",
-          "endTime": "10:00",
+          "time": "08:45",
+          "endTime": "09:30",
           "placeId": "queenstown_gardens",
           "place": "Queenstown Gardens",
           "kind": "photo_optional",
@@ -1263,12 +1269,12 @@
           "optional": true
         },
         {
-          "time": "10:00",
-          "endTime": "10:45",
+          "time": "09:30",
+          "endTime": "10:00",
           "placeId": "bluepeaks",
-          "place": "Blue Peaks住宿区域",
+          "place": "Blue Peaks Apartments住宿区域",
           "kind": "packing",
-          "detail": "按酒店实际退房时间办理，清点行李，随后加油去还车。",
+          "detail": "回Blue Peaks取行李，按酒店要求10:00前完成退房；清点相机、充电器和存储卡。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
@@ -1276,17 +1282,20 @@
           "sourceIds": []
         },
         {
-          "time": "10:45",
+          "time": "10:00",
           "endTime": "12:00",
           "placeId": "zqn_return",
-          "place": "加油站与皇后镇租车还车点",
+          "place": "APEX皇后镇门店 · 32 Lucas Place",
           "kind": "meal",
-          "detail": "当前候选Budget为皇后镇机场还车，按机场Rental Car Returns指示和最终凭证找车位，11:45前到达验车，合同最迟12:00结束。三人清点相机、行李和车内物品；取还车照片留存。",
+          "detail": "加油后11:45前抵达32 Lucas Place门店，12:00前验车交钥匙；11/19 17点至此刻共6个计费日。门店当前正常营业至17:29，交车后免费接驳机场。",
           "photoTip": "",
-          "lat": -45.022,
-          "lon": 168.739,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
+          "lat": -45.0242564,
+          "lon": 168.7368573,
+          "coordinateStatus": "第三方商户点与官网地址交叉核对；非实测入口。",
+          "sourceIds": [
+            "r-apex-zqn",
+            "v-apex-zqn-map"
+          ]
         },
         {
           "time": "12:00",
@@ -1294,7 +1303,7 @@
           "placeId": "zqn_airport",
           "place": "皇后镇机场",
           "kind": "rental_return",
-          "detail": "当前候选为机场还车，步行至航站楼、午餐休息；若换机场外门店则重留接驳时间。下午还车可能按5天计费，须重新报价。",
+          "detail": "乘APEX免费接驳到机场航站楼，午餐和休息；下午NZ626计划17:20起飞，留足联程行李和值机缓冲。",
           "photoTip": "",
           "lat": -45.021,
           "lon": 168.739,
@@ -1437,47 +1446,74 @@
       "lat": -33.88702,
       "lon": 151.17917,
       "address": "9 Missenden Road, Camperdown NSW 2050, Australia",
-      "sourceUrl": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "sourceUrl": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
       "coordinateNote": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
       "coordinateSource": "https://mapcarta.com/25331992",
       "checkin": "2026-11-17",
-      "checkout": "2026-11-20",
-      "nights": 3,
+      "checkout": "2026-11-19",
+      "nights": 2,
       "beds": "家庭房29㎡ · 1大床＋2单人床",
-      "price": "3人总AUD1,003≈¥4,713",
+      "price": "3人两晚AUD667≈¥3,134",
       "cancel": "Booking报价：11/16前免费取消，具体截止时间以订单为准。"
     },
     {
-      "id": "distinction",
-      "name": "Distinction Christchurch Hotel",
-      "lat": -43.5314831,
-      "lon": 172.6374377,
-      "address": "14 Cathedral Square, Christchurch Central 8011, New Zealand",
-      "sourceUrl": "https://www.booking.com/hotel/nz/distinction-christchurch.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
-      "coordinateNote": "酒店官网公布GPS；到店停车入口仍按酒店指示。",
-      "coordinateSource": "https://www.distinctionhotelschristchurch.co.nz/x,17,4131/",
-      "checkin": "2026-11-20",
-      "checkout": "2026-11-21",
+      "id": "palms",
+      "name": "Airport Palms Motel",
+      "lat": -43.49897,
+      "lon": 172.56151,
+      "address": "56 Roydvale Avenue, Burnside, Christchurch, New Zealand",
+      "coordinateSource": "https://fromto.travel/en/new-zealand/airport-palms-motel-christchurch",
+      "coordinateNote": "第三方物业点与官网地址交叉核对；非车道入口。",
+      "checkin": "2026-11-19",
+      "checkout": "2026-11-20",
       "nights": 1,
-      "beds": "家庭套房63㎡ · 1特大床＋2大床",
-      "price": "3人总NZD646.75≈¥2,466（含卡费估算）",
-      "cancel": "11/19前免费取消；11/17付款期限，以订单为准。"
+      "beds": "两卧公寓56㎡ · 1特大床＋2单人床",
+      "price": "3人一晚NZ$350≈¥1,334；卡费待确认",
+      "cancel": "Booking报价11/17前可免费取消，不预付到店付；不含早餐。主方案先取车再入住；酒店机场接驳有条件，不视为已确认免费。",
+      "sourceUrl": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1"
     },
     {
-      "id": "mantra",
-      "name": "Mantra Lake Tekapo",
-      "lat": -44.006986,
-      "lon": 170.485883,
-      "address": "1 Beauchamp Place, Lake Tekapo 7999, New Zealand",
-      "sourceUrl": "https://www.booking.com/hotel/nz/mantra-lake-tekapo.zh-cn.html?checkin=2026-11-21&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1",
+      "id": "peppers",
+      "name": "Peppers Bluewater Resort（床型待确认）",
+      "lat": -44.00312567,
+      "lon": 170.4739952,
+      "address": "State Highway 8, Lake Tekapo 7945, New Zealand",
+      "sourceUrl": "https://www.booking.com/hotel/nz/peppers-bluewater-resort.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
       "coordinateNote": "Accor酒店官网公布GPS；不是具体公寓门牌。",
-      "coordinateSource": "https://all.accor.com/hotel/B3M7/index.en.shtml",
-      "checkin": "2026-11-21",
-      "checkout": "2026-11-23",
+      "coordinateSource": "https://all.accor.com/hotel/B3Q7/index.en.shtml",
+      "checkin": "2026-11-20",
+      "checkout": "2026-11-22",
       "nights": 2,
-      "beds": "三卧公寓158㎡ · 2大床＋2单人床",
-      "price": "3人总NZD1,306≈¥4,979",
-      "cancel": "此低价不可退；等三人签证与NZeTA齐后再决定。"
+      "beds": "山景两卧室套房107㎡；房型列1大床＋2单人床，细则要求预订时指定Twin；须得到确认才能保证三人各一实体床。",
+      "price": "3人2晚总NZD1,618≈¥6,168；每晚约¥3,084，略超¥3,000上限。",
+      "cancel": "不可退；取消/修改/未入住收全额，可随时收全额预付。另NZD200可退押金/预授权。",
+      "nativeTotal": 1618,
+      "currency": "NZD",
+      "priceStatus": "2026-10-21实查可售含税总价；未预订。三张实体床须Twin确认，略超每晚预算，属于条件候选。",
+      "fixedThreeBeds": false,
+      "rating": 7.9,
+      "reviewCount": 2507,
+      "checkinTime": "14:00后",
+      "checkoutTime": "10:00前",
+      "refundableDeposit": 200,
+      "cardFeeStatus": "本次Booking房型页/须知未单列刷卡费；不等于保证所有支付方式零费。",
+      "selectedBecause": "Tekapo湖边摄影动线优于Twizel；整城搜索未发现更便宜且舒适度/三实体床要求明确满足的选项。"
+    },
+    {
+      "id": "clearbrook",
+      "name": "Clearbrook Motel & Serviced Apartments",
+      "lat": -44.697007,
+      "lon": 169.137107,
+      "address": "72 Helwick Street, Wānaka 9305, New Zealand",
+      "coordinateSource": "https://www.ehotelsreviews.com/clearbrook-motel-174561-en",
+      "coordinateNote": "第三方物业点；官网地址已对照，不是车道入口",
+      "checkin": "2026-11-22",
+      "checkout": "2026-11-23",
+      "nights": 1,
+      "beds": "两卧公寓70㎡ · 2特大床＋2单人床，有楼梯/夹层",
+      "price": "3人一晚NZ$539＋2%卡费＝549.78≈¥2,096",
+      "cancel": "标准价约11/8以前可退，精确截止依订单；14天内全额。可能提前收费，主动授权更早付款时该款不退。免费停车位有限；14–19时入住，10时退房。",
+      "sourceUrl": "https://book-directonline.com/properties/clearbrookdirect?locale=zh-CN&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-22&checkOutDate=2026-11-23&trackPage=no"
     },
     {
       "id": "bluepeaks",
@@ -1560,9 +1596,9 @@
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "alt": "邦迪Icebergs泳池边缘、蓝绿色海水和拍岸浪，竖幅。",
-      "seasonNote": "2017年3月26日，澳洲秋季；海浪、泳池开放和水色随当天条件变化。",
+      "seasonNote": "2017年3月26日，澳洲秋季；海浪、泳池开放和水色随当天条件变化。 本版仅作D3替换Manly的构图参考，不在默认主行程中。",
       "shootingTip": "在上方公共步道用50–120mm挑泳池几何与浪花，24mm拍海滩全景。参考中的池边位置不是站位建议，不跨栏、不靠近拍岸浪。",
-      "day": 4,
+      "day": 3,
       "hero": false,
       "dateTaken": "2017-03-26",
       "visualChecked": true,
@@ -1598,31 +1634,6 @@
       "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
     },
     {
-      "id": "christchurch",
-      "title": "基督城：艾芬河春季绿意",
-      "place": "Avon River / Ōtākaro, Christchurch",
-      "lat": -43.531943,
-      "lon": 172.621875,
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Avon_River_in_Christchurch_09.jpg/1280px-Avon_River_in_Christchurch_09.jpg",
-      "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Avon_River_in_Christchurch_09.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "alt": "基督城艾芬河、春季绿色树冠与河面倒影。",
-      "seasonNote": "2017年11月16日，南半球春季；月份与行程相同，树冠、水位和天气仍会变化。",
-      "shootingTip": "24–35mm让河道形成引导线；70–120mm拍垂枝、倒影和小船。城市轻松散步优先手持，水面长曝再架脚架。",
-      "day": 6,
-      "hero": false,
-      "dateTaken": "2017-11-16 02:21:12",
-      "visualChecked": true,
-      "sourceTitle": "File:Avon River in Christchurch 09.jpg",
-      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Avon_River_in_Christchurch_09.jpg",
-      "coordinateNote": "Commons照片描述中的相机位置；可作附近取景定位，非导航入口或精确复刻机位。",
-      "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
-      "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
-    },
-    {
       "id": "good_shepherd",
       "title": "特卡波：好牧羊人教堂与11月花色",
       "place": "Church of the Good Shepherd, Lake Tekapo",
@@ -1637,7 +1648,7 @@
       "alt": "好牧羊人教堂、云层，以及前景紫色鲁冰花。",
       "seasonNote": "2019年11月20日；图中确有鲁冰花，但2026年的花期、数量和管理情况不能保证。",
       "shootingTip": "24–35mm保留教堂与天空，50–70mm减少杂乱前景；只在允许步道拍摄，不踩花丛。16mm仅在需要很近的前景时选用，避免教堂被拉得过小。",
-      "day": 6,
+      "day": 5,
       "hero": false,
       "dateTaken": "2019-11-20 12:10:21",
       "visualChecked": true,
@@ -1662,7 +1673,7 @@
       "alt": "普卡基湖蓝色湖面、南阿尔卑斯山和库克山主峰倒影。",
       "seasonNote": "2015年11月13日；月份匹配。晴空、低风和倒影属于当时条件，不能保证。",
       "shootingTip": "24–35mm交代湖岸；70–120mm强调远处库克山并压缩山层。想要长横幅可用50mm拼接，三脚架在低风时有帮助；16mm会让远山显小。",
-      "day": 7,
+      "day": 6,
       "hero": true,
       "dateTaken": "2015-11-13 17:36:35",
       "visualChecked": true,
@@ -1687,7 +1698,7 @@
       "alt": "从Kea Point拍摄的塞夫顿山雪坡与冰川细节。",
       "seasonNote": "2017年11月17日；同为春季。此图主体是Mount Sefton塞夫顿山，并非Aoraki/库克山主峰；积雪与冰川变化明显。",
       "shootingTip": "70–120mm选取雪山和冰川层次，120mm仍不够紧时可适度裁切；24–35mm补拍步道环境。建议焦段并非源片EXIF，不能保证复刻这张近景。",
-      "day": 7,
+      "day": 6,
       "hero": false,
       "dateTaken": "2017-11-17 02:39:58",
       "visualChecked": true,
@@ -1712,7 +1723,7 @@
       "alt": "林迪斯山口公路与起伏的草坡。",
       "seasonNote": "2005年12月14日，初夏；这是较早的山形参考，11月草色、积雪和道路设施可能不同。",
       "shootingTip": "仅在指定停车区停车并沿步道取景；用50–120mm拍山脊层次，24–35mm拍宽阔山谷。这张道路中央视角只参考地貌，勿模仿站在车道中拍照。",
-      "day": 8,
+      "day": 7,
       "hero": false,
       "dateTaken": "2005-12-14",
       "visualChecked": true,
@@ -1771,6 +1782,22 @@
       "coordinateNote": "OpenStreetMap码头位置；源图自带GPS偏到码头北方，未照抄该GPS。地图点为码头近似中心。",
       "referenceType": "他人真实摄影参考（公开JPEG，未取得RAW）；无生成图。",
       "displayChanges": "网站缩放展示；如裁切，需在图注注明。"
+    },
+    {
+      "id": "wanaka",
+      "day": 7,
+      "title": "瓦纳卡：湖中柳树与远山留白",
+      "place": "That Wānaka Tree / Lake Wānaka",
+      "lat": -44.691251,
+      "lon": 169.120028,
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/W%C4%81naka%2C_Part_II_-_Wanaka9336.jpg/960px-W%C4%81naka%2C_Part_II_-_Wanaka9336.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W%C4%81naka,_Part_II_-_Wanaka9336.jpg",
+      "author": "lumoplank",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "真实摄影：瓦纳卡湖中的柳树和远处雪山",
+      "shootingTip": "24–35mm保留湖面与天空，70–120mm单拍树枝、雪山层次。画面先找前后景分离；16mm容易把远山拍小，只有近景明确时再用。",
+      "seasonNote": "2026年8月15日的真实作品，冬季雪量与树叶状态不代表11月。水位、风和人流决定实际构图；不踩树根、不涉水、不承诺倒影。"
     }
   ],
   "light": [
@@ -1813,23 +1840,23 @@
       "note": "清晨05:14–05:42；傍晚19:38–20:06（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
     },
     {
-      "place": "Sydney",
-      "date": "2026-11-19",
-      "sunrise": "05:41",
-      "sunset": "19:39",
-      "blueHour": "清晨05:13–05:41；傍晚19:39–20:07（民用曙暮光宽窗口）",
-      "civilDawn": "05:13",
-      "civilDusk": "20:07",
-      "astronomicalDawn": "04:04",
-      "astronomicalDusk": "21:17",
-      "timezone": "Australia/Sydney",
-      "tzLabel": "AEDT UTC+11",
+      "place": "Lake Tekapo",
+      "date": "2026-11-20",
+      "sunrise": "05:57",
+      "sunset": "20:49",
+      "blueHour": "清晨05:24–05:57；晚上20:49–21:23（民用曙暮光参考窗）",
+      "civilDawn": "05:24",
+      "civilDusk": "21:23",
+      "astronomicalDawn": "03:51",
+      "astronomicalDusk": "22:57",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
       "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
       "sourceIds": [
-        "w-sunSydney"
+        "w-sunTekapo"
       ],
-      "area": "悉尼",
-      "note": "清晨05:13–05:41；傍晚19:39–20:07（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+      "area": "基督城→Tekapo",
+      "note": "清晨05:24–05:57；晚上20:49–21:23（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
       "place": "Lake Tekapo",
@@ -1847,27 +1874,27 @@
       "sourceIds": [
         "w-sunTekapo"
       ],
-      "area": "基督城→Tekapo",
+      "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
       "note": "清晨05:23–05:57；傍晚20:51–21:25（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
     },
     {
-      "place": "Lake Tekapo",
+      "place": "Wānaka",
       "date": "2026-11-22",
-      "sunrise": "05:56",
-      "sunset": "20:52",
-      "blueHour": "清晨05:22–05:56；傍晚20:52–21:26（民用曙暮光宽窗口）",
-      "civilDawn": "05:22",
-      "civilDusk": "21:26",
-      "astronomicalDawn": "03:48",
-      "astronomicalDusk": "23:01",
+      "sunrise": "05:59",
+      "sunset": "21:00",
+      "blueHour": "清晨05:24–05:59；晚上21:00–21:34（民用曙暮光参考窗）",
+      "civilDawn": "05:24",
+      "civilDusk": "21:34",
+      "astronomicalDawn": null,
+      "astronomicalDusk": null,
       "timezone": "Pacific/Auckland",
       "tzLabel": "NZDT UTC+13",
       "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
       "sourceIds": [
-        "w-sunTekapo"
+        "route-wanaka-sun"
       ],
-      "area": "Tekapo→Aoraki/Mount Cook→Tekapo",
-      "note": "清晨05:22–05:56；傍晚20:52–21:26（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+      "area": "Tekapo→Wānaka",
+      "note": "清晨05:24–05:59；晚上21:00–21:34（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
       "place": "Queenstown",
@@ -1885,8 +1912,27 @@
       "sourceIds": [
         "w-sunQT"
       ],
-      "area": "Tekapo→Queenstown",
+      "area": "Wānaka→Queenstown",
       "note": "清晨05:24–05:59；傍晚21:04–21:39（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+    },
+    {
+      "place": "Wānaka",
+      "date": "2026-11-23",
+      "sunrise": "05:58",
+      "sunset": "21:01",
+      "blueHour": "清晨05:23–05:58；晚上21:01–21:36（民用曙暮光参考窗）",
+      "civilDawn": "05:23",
+      "civilDusk": "21:36",
+      "astronomicalDawn": null,
+      "astronomicalDusk": null,
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "route-wanaka-sun"
+      ],
+      "area": "Wānaka→Queenstown",
+      "note": "清晨05:23–05:58；晚上21:01–21:36（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
       "place": "Queenstown",
@@ -1951,7 +1997,7 @@
   "weather": {
     "highlight": {
       "title": "这次追月光与蓝调，\n不熬夜等银河。",
-      "body": "特卡波11/21、22两晚接近满月：月亮落下时，天文晨光已经开始，基本没有无月的全黑窗口。把拍摄重心放在20:50左右的湖山晚光、教堂外观和短时间暮光/月光风景。满月、低云和阵风都不会因为“暗空保护区”而消失。",
+      "body": "特卡波改住11/20、21，仍是明亮的盈凸月阶段。11/21、22凌晨分别仅约17分钟及0分钟月落后全黑窗口；考虑睡眠和次日驾驶，不安排熬夜追银河。11/20、21日落约20:49、20:51，拍湖山晚光、教堂外观与短时间蓝调更合适。",
       "sourceIds": [
         "w-moonTekapo",
         "w-sunTekapo"
@@ -2033,7 +2079,7 @@
       },
       {
         "title": "轻旅行的天气代价",
-        "body": "南岛只有5晚，库克山核心只安排1天，无法保证等到主峰露出。D7不行就改湖岸细节；D8可顺路补Pukaki，但不回山里重走长线。回程日不补远端机位。",
+        "body": "新版南岛6晚、5个主要游览日。11/21是库克山主窗口；若恶劣天气，11/22可用瓦纳卡下午换一次短程补拍，须早点离山。不等于增加完整机动日；两天都不适合就接受主峰未露出，不从皇后镇折返追晴。",
         "sourceIds": [
           "w-docHooker",
           "w-nztaRoads"
@@ -2062,7 +2108,7 @@
     },
     {
       "title": "02 / 签证齐全，再买不可退住宿",
-      "body": "此页假设11/2同伴澳签已下，不是获批承诺。每人自行确认护照、澳签及NZeTA；先实际入境澳洲，再直飞新西兰。当前试点在评估及下一步决定前继续适用，不能把11/3当作自动失效日。NZeTA至少预留72小时。Mantra低价不可退，其他酒店也要看具体取消截止时间。",
+      "body": "此页假设11/2同伴澳签已下，不是获批承诺。每人自行确认护照、澳签及NZeTA；先实际入境澳洲，再直飞新西兰。当前试点在评估及下一步决定前继续适用，不能把11/3当作自动失效日。NZeTA至少预留72小时。每间新日期房价都要按订单核对取消截止；Clearbrook约11/8进入全额罚金窗口。",
       "sourceIds": [
         "visa",
         "nzeta"
@@ -2090,7 +2136,7 @@
     },
     {
       "title": "05 / 租车、徒步与睡眠",
-      "body": "悉尼用步行/渡轮/公共交通；新西兰租车两位驾驶人都写进合同，原驾照与合格英文翻译/正式IDP随身。按中午取车、中午还车4个24小时规划，延后还车重核费用。每约2小时休息，清晨拍摄不强制司机参加；不站公路中线，不涉冰川湖，不为构图越栏。鞋底和脚架脚清理泥土，按NZTD如实申报。 中国大陆驾照需原件＋NZTA认可英文翻译；日本驾照持有人带原件＋日本签发的正式IDP。按出发日年龄，两位驾驶人分别按25岁及24岁核查。 优先Budget嘉华级MPV，三28寸箱须确认第三排折叠及替代车型空间；主驾带本人实体芯片信用卡，此报价不接受银联。",
+      "body": "悉尼用步行/渡轮/公共交通；新西兰两位驾驶人都写进租赁合同。中国大陆驾照带原件＋NZTA认可英文翻译，日本驾照带原件＋日本正式IDP。按旅行时25岁及24岁核查，主驾带本人实体信用卡。三只28寸箱按含轮外尺寸核对，取车先试装、固定背包并验车拍照。每约2小时休息，不为补拍赶夜路；鞋底和脚架清泥并如实申报。",
       "sourceIds": [
         "nzta-license",
         "i-driver-rest",
@@ -2100,7 +2146,7 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "沿用10/21实查主方案，你个人约¥25,700–27,600；机票住宿实查小计约¥18,182，租车已改为实价支持的整车NZ$2,200预留，含未定附项额度；其他为规划估算与机动预留，均未锁价。酒店8晚总约AUD1,003＋NZD3,508，三人均摊约¥6,029。现金每人AUD100–200＋NZD200–400≈¥1,232–2,465；可先换AUD150＋NZD300≈¥1,849，属于消费预算的一部分。每天回房备份两份，别清空唯一存储卡；准备防雨罩、擦镜布、保暖层、帽手套、防晒、头灯与备用电池。",
+      "body": "悉尼2晚＋南岛6晚，上海出发者约¥24,800–26,700。机票约¥11,965，住宿约¥6,221/人；租车含在地面预算内。仍含¥810–1,087未分项机动预留，不能说签证/电子许可、旅行保险、通信与翻译已逐项报价。未含购物、米尔福德等高价新增活动；不参加当前基础付费活动可少花约¥759–949。Peppers需先确认Twin，不能按三床已锁定购买。 现金每人AUD100–200＋NZ$200–400≈¥1,232–2,465；先换AUD150＋NZ$300≈¥1,849即可，已在消费预算内。每天两份照片备份；带防雨保暖层、头灯和备用电池。",
       "sourceIds": [
         "boc"
       ]
@@ -2124,8 +2170,9 @@
     },
     {
       "id": "i-flight-ek",
-      "title": "Google Flights：11/20 EK412悉尼至基督城，前次现场核验",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTIwIh8KA1NZRBIKMjAyNi0xMS0yMBoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYmpacVdWTjBZWFUyUjBWQlEwaHVXR2RDUnkwdExTMHRMWFJpZFdReE1pMXVNa0ZCUVVGQlIzSllOa1ZOUjFWeU5YZEJFZ1ZGU3pReE1ob0tDS0ExRUFBYUEwTk9XVGdjY0xLZEJnPT0SAggAIgMKATA&hl=en&curr=CNY"
+      "title": "EK412：11/19 09:00–14:15，3人AUD1,339",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTE5Ih8KA1NZRBIKMjAyNi0xMS0xORoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYjBsWk1XSjFlV0ZvY0RCQlJtSnpWbWRDUnkwdExTMHRMUzB0TFhSc1ltWnNPVUZCUVVGQlIzSllObXBuVFROd1NXOUJFZ1ZGU3pReE1ob0tDUGN3RUFBYUEwTk9XVGdjY05uY0JRPT0SAggAIgMKATA&hl=en&curr=CNY",
+      "checked": "2026-10-21"
     },
     {
       "id": "i-flight-nz",
@@ -2630,8 +2677,8 @@
     },
     {
       "id": "b-A-SYD-CHC",
-      "title": "EK412：2026-11-20，3 人合价",
-      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTIwIh8KA1NZRBIKMjAyNi0xMS0yMBoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYmpacVdWTjBZWFUyUjBWQlEwaHVXR2RDUnkwdExTMHRMWFJpZFdReE1pMXVNa0ZCUVVGQlIzSllOa1ZOUjFWeU5YZEJFZ1ZGU3pReE1ob0tDS0ExRUFBYUEwTk9XVGdjY0xLZEJnPT0SAggAIgMKATA&hl=en&curr=CNY",
+      "title": "EK412：11/19 09:00–14:15，3人AUD1,339",
+      "url": "https://www.google.com/travel/flights/booking?tfs=CBwQAho_EgoyMDI2LTExLTE5Ih8KA1NZRBIKMjAyNi0xMS0xORoDQ0hDKgJFSzIDNDEyagcIARIDU1lEcgcIARIDQ0hDQAFAAUABSAFwAYIBCwj___________8BmAEC&tfu=CmxDalJJYjBsWk1XSjFlV0ZvY0RCQlJtSnpWbWRDUnkwdExTMHRMUzB0TFhSc1ltWnNPVUZCUVVGQlIzSllObXBuVFROd1NXOUJFZ1ZGU3pReE1ob0tDUGN3RUFBYUEwTk9XVGdjY05uY0JRPT0SAggAIgMKATA&hl=en&curr=CNY",
       "checked": "2026-10-21"
     },
     {
@@ -2648,20 +2695,20 @@
     },
     {
       "id": "b-hotel-0",
-      "title": "Rydges Camperdown：2026-11-17 至 2026-11-20，3 成人",
-      "url": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "title": "Sydney三床家庭房：11/17–19，两晚AUD667",
+      "url": "https://www.booking.com/hotel/au/rydges-camperdown.zh-cn.html?checkin=2026-11-17&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
       "checked": "2026-10-21"
     },
     {
       "id": "b-hotel-1",
-      "title": "Distinction Christchurch：2026-11-20 至 2026-11-21，3 成人",
-      "url": "https://www.booking.com/hotel/nz/distinction-christchurch.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
+      "title": "Airport Palms三床两卧：11/19–20，NZ$350",
+      "url": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
       "checked": "2026-10-21"
     },
     {
       "id": "b-hotel-2",
-      "title": "Mantra Lake Tekapo：2026-11-21 至 2026-11-23，3 成人",
-      "url": "https://www.booking.com/hotel/nz/mantra-lake-tekapo.zh-cn.html?checkin=2026-11-21&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1",
+      "title": "Peppers Bluewater Resort（床型待确认）：11/20–22，三人两晚",
+      "url": "https://www.booking.com/hotel/nz/peppers-bluewater-resort.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
       "checked": "2026-10-21"
     },
     {
@@ -2672,7 +2719,7 @@
     },
     {
       "id": "b-apex",
-      "title": "Apex 租车查询（未取得可售报价）",
+      "title": "APEX官方预订入口；本次已取得6日可售报价",
       "url": "https://www.apexrentals.co.nz/reservations",
       "checked": "2026-10-21"
     },
@@ -2731,64 +2778,147 @@
       "checked": "2026-10-21"
     },
     {
-      "id": "r-trip-quote",
-      "title": "Trip.com准确日期查询：11/21–25，CHC→ZQN",
-      "url": "https://www.trip.com/carhire/online/list?scountry=1&locale=en-XX&curr=NZD&fromPage=Home&pcity=7505&pcityname=Christchurch&ptime=2026%2F11%2F21%2012%3A00&pcode=CHC&paddress=Christchurch%20International%20Airport&ptype=1&pcountryname=New%20Zealand&ptimezone=&plat=-43.486398&plon=172.536871&rcity=3860&rcityname=Queenstown&rtime=2026%2F11%2F25%2012%3A00&rcode=ZQN&raddress=Queenstown%20Airport&rtype=1&rcountryname=New%20Zealand&rtimezone=&rlat=-45.020972&rlon=168.739923&age=25"
+      "id": "route-nz-drive",
+      "title": "新西兰旅游局：南岛湖山路线与驾驶时间",
+      "url": "https://www.newzealand.com/sg/feature/mountains-and-glaciers-south-island-itinerary/"
     },
     {
-      "id": "r-budget-drivers",
-      "title": "Budget附驾及年轻驾驶人政策",
-      "url": "https://www.budget.co.nz/en/products-services/products/additional-driver"
+      "id": "route-crown-range",
+      "title": "新西兰旅游局：Crown Range Road驾驶条件",
+      "url": "https://www.newzealand.com/int/feature/the-crown-range/"
     },
     {
-      "id": "r-budget-age",
-      "title": "Budget NZ年龄与收费条款",
-      "url": "https://www.budget.co.nz/en/reservation-terms-and-conditions"
+      "id": "route-milford-day",
+      "title": "RealNZ：皇后镇至米尔福德整日行程约12–13小时",
+      "url": "https://www.realnz.com/en/blog/day-trip-to-milford-sound-from-queenstown/"
     },
     {
-      "id": "r-budget-cover",
-      "title": "Budget官方保障（不等同平台套餐）",
-      "url": "https://www.budget.co.nz/en/products-services/protections"
+      "id": "route-milford-product",
+      "title": "RealNZ：米尔福德巴士游船日游",
+      "url": "https://www.realnz.com/en/experiences/day-cruises/milford-sound-day-trip-from-queenstown/"
     },
     {
-      "id": "r-budget-terms",
-      "title": "Budget NZ完整条款与卡费",
-      "url": "https://www.budget.co.nz/en/terms-and-conditions"
+      "id": "route-clearbrook",
+      "title": "Clearbrook官方：两卧公寓",
+      "url": "https://www.clearbrook.co.nz/twobedroomapartment"
     },
     {
-      "id": "r-rentalcover",
-      "title": "RentalCover关联通用条款",
-      "url": "https://rentalcover.com/en/policy-wording/full-protection"
+      "id": "route-wanaka-sun",
+      "title": "Timeanddate：Wānaka 2026年11月太阳时刻",
+      "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026"
     },
     {
-      "id": "r-ezi-quote",
-      "title": "Ezi官网查询入口",
-      "url": "https://www.ezicarrental.co.nz/?step=booking"
+      "id": "route-palms-shuttle",
+      "title": "Airport Palms官方机场接驳规则",
+      "url": "https://airportpalmsmotelchch.co.nz/airport-shuttle-christchurch-html/"
     },
     {
-      "id": "r-ezi-cover",
-      "title": "Ezi Ultra与道路救援",
-      "url": "https://www.ezicarrental.co.nz/support-services/covers-insurance/"
+      "id": "v-airport-palms",
+      "title": "Airport Palms官网位置与机场接驳条件",
+      "url": "https://airportpalmsmotelchch.co.nz/contact/",
+      "checked": "2026-10-21"
     },
     {
-      "id": "r-ezi-prado",
-      "title": "Ezi Prado行李说明",
-      "url": "https://www.ezicarrental.co.nz/vehicles/toyota-prado-4wd/"
+      "id": "v-wanaka-sun",
+      "title": "Wanaka 2026年11月日出日落",
+      "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026",
+      "checked": "2026-10-21"
     },
     {
-      "id": "r-ctrip",
-      "title": "携程租车入口",
-      "url": "https://car.ctrip.com/"
+      "id": "v-clearbrook-policy",
+      "title": "Clearbrook官网付款及取消条款",
+      "url": "https://book-directonline.com/properties/clearbrookdirect/policies",
+      "checked": "2026-10-21"
     },
     {
-      "id": "r-yesaway",
-      "title": "yesaway中文官网查询",
-      "url": "https://www.yesaway.com/cn/book/CHC01/"
+      "id": "v-clearbrook-room",
+      "title": "Clearbrook两卧公寓四张实体床",
+      "url": "https://www.clearbrook.co.nz/twobedroomapartment",
+      "checked": "2026-10-21"
     },
     {
-      "id": "r-ace",
-      "title": "ACE官网查询",
-      "url": "https://www.acerentalcars.co.nz/"
+      "id": "b-hotel-4",
+      "title": "Clearbrook：11/22–23，三人一晚NZ$539＋卡费",
+      "url": "https://book-directonline.com/properties/clearbrookdirect?locale=zh-CN&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-22&checkOutDate=2026-11-23&trackPage=no",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-booking",
+      "title": "APEX官网：6天Santa Fe，Maximum＋Roadside总NZ$1,473.72",
+      "url": "https://www.apexrentals.co.nz/reservations",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-faq",
+      "title": "APEX FAQ：附驾、年轻驾驶员、异地、税费和刷卡费",
+      "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-car",
+      "title": "APEX车队：Santa Fe车组容量与燃料说明",
+      "url": "https://www.apexrentals.co.nz/cars",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-cover",
+      "title": "APEX Maximum自付额减免说明",
+      "url": "https://www.apexrentals.co.nz/rental-info/excess-reduction-cover",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-terms",
+      "title": "APEX租约：玻璃轮胎、救援及豁免边界",
+      "url": "https://www.apexrentals.co.nz/rental-info/terms-and-conditions",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-chc",
+      "title": "APEX基督城机场门店",
+      "url": "https://www.apexrentals.co.nz/rental-car-locations/christchurch-airport-branch",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-apex-zqn",
+      "title": "APEX皇后镇还车与机场接驳",
+      "url": "https://www.apexrentals.co.nz/rental-car-locations/queenstown-airport-branch/drop-off-instructions-normal-hours",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-omega-booking",
+      "title": "Omega官网预订报价入口",
+      "url": "https://www.omegarentalcars.com/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-omega-terms",
+      "title": "Omega租赁条款",
+      "url": "https://www.omegarentalcars.com/terms-and-conditions/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-trip-old",
+      "title": "Trip.com租车：旧四天Budget对照，非新版同日期价",
+      "url": "https://www.trip.com/carhire/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-ezi",
+      "title": "Ezi官方预订入口：6日Carnival售罄，Prado基础价不合预算",
+      "url": "https://www.ezicarrental.co.nz/",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "r-twizel-alternative",
+      "title": "Twizel省钱房源：价格符合但仅1条5.0/10评价",
+      "url": "https://www.booking.com/hotel/nz/modern-mackenzie-escape.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "v-apex-zqn-map",
+      "title": "APEX皇后镇商户坐标，已与官网地址交叉核对",
+      "url": "https://nz.near-place.com/apex-car-rentals-queenstown-airport-32-lucas-place-frankton-queenstown",
+      "checked": "2026-10-21"
     }
   ],
   "droneAreas": [
@@ -2866,27 +2996,27 @@
       {
         "id": "A-SYD-CHC",
         "category": "flight",
-        "title": "EK412 SYD-CHC",
+        "title": "11/19 EK412 悉尼→基督城",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 1459,
-          "max": 1459
+          "min": 1339,
+          "max": 1339
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 486.3333333333333,
-          "max": 486.3333333333333
+          "min": 446.3333333333333,
+          "max": 446.3333333333333
         },
         "perPersonCny": {
-          "min": 2285.28,
-          "max": 2285.28
+          "min": 2097.32,
+          "max": 2097.32
         },
         "perPersonCnyUnrounded": {
-          "min": 2285.280333333333,
-          "max": 2285.280333333333
+          "min": 2097.320333333333,
+          "max": 2097.320333333333
         },
-        "status": "实查 Google Flights 航司报价选项",
-        "note": "3 人合计，分摊 3 份；未进入航司最终支付页，行李重量与票规须复核。",
+        "status": "实查 Google Flights 航司报价选项，未锁价",
+        "note": "09:00–14:15，三人合计AUD1,339；未到航司支付页，行李重量和票规须再核。",
         "sourceIds": [
           "b-A-SYD-CHC"
         ]
@@ -2930,16 +3060,16 @@
         },
         "splitPeople": 1,
         "perPersonNative": {
-          "min": 4307,
-          "max": 4307
+          "min": 4307.0,
+          "max": 4307.0
         },
         "perPersonCny": {
-          "min": 4307,
-          "max": 4307
+          "min": 4307.0,
+          "max": 4307.0
         },
         "perPersonCnyUnrounded": {
-          "min": 4307,
-          "max": 4307
+          "min": 4307.0,
+          "max": 4307.0
         },
         "status": "实查携程含税报价",
         "note": "1 人含税；未预订。经济舱 W：托运 2×23kg、手提 1×5kg；不可退票，税费可退320元；出发前改期免更改费但补差价。",
@@ -2950,98 +3080,86 @@
       {
         "id": "hotel-0",
         "category": "hotel",
-        "title": "Rydges Camperdown 2026-11-17–2026-11-20",
+        "title": "悉尼 Rydges Camperdown · 11/17–19",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 1003,
-          "max": 1003
+          "min": 667,
+          "max": 667
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 334.3333333333333,
-          "max": 334.3333333333333
+          "min": 222.33333333333334,
+          "max": 222.33333333333334
         },
         "perPersonCny": {
-          "min": 1571.03,
-          "max": 1571.03
+          "min": 1044.74,
+          "max": 1044.74
         },
         "perPersonCnyUnrounded": {
-          "min": 1571.032333333333,
-          "max": 1571.032333333333
+          "min": 1044.7443333333333,
+          "max": 1044.7443333333333
         },
-        "status": "实查含税房价",
-        "note": "3 晚，3 成人 1 间/套，不含早餐；1 queen + 2 singles。",
+        "status": "实查含税两晚价",
+        "note": "1大床＋2单床；不含早。11/16前可退、不预付；另AUD200可退押金。",
         "sourceIds": [
           "b-hotel-0"
-        ],
-        "cancellation": "Free until 2026-11-16; within 1 day of arrival/no-show first-night charge",
-        "payment": "No prepayment; pay at property",
-        "refundableDepositExcluded": {
-          "currency": "AUD",
-          "amount": 200
-        }
+        ]
       },
       {
         "id": "hotel-1",
         "category": "hotel",
-        "title": "Distinction Christchurch 2026-11-20–2026-11-21",
+        "title": "基督城 Airport Palms · 11/19–20",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 646.7475,
-          "max": 646.7475
+          "min": 350,
+          "max": 350
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 215.58249999999998,
-          "max": 215.58249999999998
+          "min": 116.66666666666667,
+          "max": 116.66666666666667
         },
         "perPersonCny": {
-          "min": 821.89,
-          "max": 821.89
+          "min": 444.78,
+          "max": 444.78
         },
         "perPersonCnyUnrounded": {
-          "min": 821.8867229999998,
-          "max": 821.8867229999998
+          "min": 444.78,
+          "max": 444.78
         },
-        "status": "实查房价 + 按已列卡费推算",
-        "note": "1 晚，3 成人 1 间/套，不含早餐；Bedroom 1:1 king; bedroom 2:2 queens。已按 Visa/Mastercard 1.85% 卡费计入；635 × 1.0185 = 646.7475 NZD。",
+        "status": "实查含税一晚价；卡费未确认",
+        "note": "1特大床＋2单床；11/17前可退，到店付款。主方案自驾入住，不计未经确认的免费接驳。",
         "sourceIds": [
           "b-hotel-1"
-        ],
-        "cancellation": "Free until 2026-11-19; within 1 day of arrival/no-show full-stay charge",
-        "payment": "Pay by 2026-11-17 local time",
-        "refundableDepositExcluded": null
+        ]
       },
       {
         "id": "hotel-2",
         "category": "hotel",
-        "title": "Mantra Lake Tekapo 2026-11-21–2026-11-23",
+        "title": "特卡波 Peppers · 11/20–22（床型待确认）",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 1306,
-          "max": 1306
+          "min": 1618,
+          "max": 1618
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 435.3333333333333,
-          "max": 435.3333333333333
+          "min": 539.3333333333334,
+          "max": 539.3333333333334
         },
         "perPersonCny": {
-          "min": 1659.66,
-          "max": 1659.66
+          "min": 2056.15,
+          "max": 2056.15
         },
         "perPersonCnyUnrounded": {
-          "min": 1659.6647999999998,
-          "max": 1659.6647999999998
+          "min": 2056.1544,
+          "max": 2056.1544
         },
-        "status": "实查含税房价",
-        "note": "2 晚，3 成人 1 间/套，不含早餐；Bedroom1:1 queen; Bedroom2:1 queen; Bedroom3:2 singles。",
+        "status": "实查含税两晚价；条件候选、不可退",
+        "note": "两卧山景套房页面列1大床＋2单床，但细则要求Twin请求确认；未确认前不算已保证三床。每晚约¥3,084，略超预算。未单列卡费；另NZ$200押金。",
         "sourceIds": [
           "b-hotel-2"
-        ],
-        "cancellation": "NZD1306 nonrefundable. NZD1452 free only until2026-10-22; within30days full-stay penalty",
-        "payment": "Property may charge full prepayment at any time",
-        "refundableDepositExcluded": null
+        ]
       },
       {
         "id": "hotel-3",
@@ -3075,9 +3193,38 @@
         "refundableDepositExcluded": null
       },
       {
+        "id": "hotel-4",
+        "category": "hotel",
+        "title": "瓦纳卡 Clearbrook · 11/22–23",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 549.78,
+          "max": 549.78
+        },
+        "splitPeople": 3,
+        "status": "实查539＋2%卡费推算",
+        "note": "两卧4张实体床，有楼梯/夹层。约11/8前可退，以订单精确时间为准；14天内全额罚金。",
+        "sourceIds": [
+          "b-hotel-4",
+          "v-clearbrook-policy"
+        ],
+        "perPersonNative": {
+          "min": 183.26,
+          "max": 183.26
+        },
+        "perPersonCnyUnrounded": {
+          "min": 698.6604239999999,
+          "max": 698.6604239999999
+        },
+        "perPersonCny": {
+          "min": 698.66,
+          "max": 698.66
+        }
+      },
+      {
         "id": "au-transport",
         "category": "ground",
-        "title": "悉尼 3 天交通",
+        "title": "悉尼两晚交通",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
           "min": 70,
@@ -3085,8 +3232,8 @@
         },
         "splitPeople": 1,
         "perPersonNative": {
-          "min": 70,
-          "max": 100
+          "min": 70.0,
+          "max": 100.0
         },
         "perPersonCny": {
           "min": 328.93,
@@ -3097,7 +3244,7 @@
           "max": 469.9
         },
         "status": "预算",
-        "note": "机场往返、市内公共交通或分摊出租车；并非已购车票。",
+        "note": "含机场往返、市内交通或分摊出租车；早班机建议预约合适行李车型。",
         "sourceIds": [
           "b-syd-airport"
         ]
@@ -3105,83 +3252,83 @@
       {
         "id": "au-meals",
         "category": "ground",
-        "title": "悉尼 3 天餐饮",
+        "title": "悉尼约2天餐饮",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 180,
-          "max": 270
+          "min": 120,
+          "max": 180
         },
         "splitPeople": 1,
         "perPersonNative": {
-          "min": 180,
-          "max": 270
+          "min": 120.0,
+          "max": 180.0
         },
         "perPersonCny": {
-          "min": 845.82,
-          "max": 1268.73
+          "min": 563.88,
+          "max": 845.82
         },
         "perPersonCnyUnrounded": {
-          "min": 845.8199999999999,
-          "max": 1268.73
+          "min": 563.88,
+          "max": 845.8199999999999
         },
         "status": "预算",
-        "note": "按每人每天 AUD60–90，3 天；酒店不含早。",
+        "note": "按每天AUD60–90；不含酒店早餐，出发日早餐可在机动预留内。",
         "sourceIds": []
       },
       {
         "id": "nz-meals",
         "category": "ground",
-        "title": "新西兰 6 个自然日餐饮",
+        "title": "新西兰7个自然日餐饮",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 420,
-          "max": 600
+          "min": 490,
+          "max": 700
         },
         "splitPeople": 1,
         "perPersonNative": {
-          "min": 420,
-          "max": 600
+          "min": 490.0,
+          "max": 700.0
         },
         "perPersonCny": {
-          "min": 1601.21,
-          "max": 2287.44
+          "min": 1868.08,
+          "max": 2668.68
         },
         "perPersonCnyUnrounded": {
-          "min": 1601.2079999999999,
-          "max": 2287.44
+          "min": 1868.0759999999998,
+          "max": 2668.68
         },
         "status": "预算",
-        "note": "11/20–25 共 6 个自然日；按每天 NZD70–100 预留，部分到离境日不足整天，属于宽松预算。",
+        "note": "11/19–25按每天NZ$70–100宽松预留；到离境日不足整天，有厨房可适当自炊。",
         "sourceIds": []
       },
       {
         "id": "nz-rental",
         "category": "ground",
-        "title": "新西兰4天嘉华级MPV＋车行零自付暂留预算",
+        "title": "APEX Santa Fe/同级 · 6计费日",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 2200,
-          "max": 2200
+          "min": 1473.72,
+          "max": 1473.72
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 733.3333333333334,
-          "max": 733.3333333333334
+          "min": 491.24,
+          "max": 491.24
         },
         "perPersonCny": {
-          "min": 2795.76,
-          "max": 2795.76
+          "min": 1872.8,
+          "max": 1872.8
         },
         "perPersonCnyUnrounded": {
-          "min": 2795.7599999999998,
-          "max": 2795.7599999999998
+          "min": 1872.8033759999998,
+          "max": 1872.8033759999998
         },
-        "status": "实查在线价＋标准司机费＋未定附项预留；未预订",
-        "note": "Trip.com Budget Premium在线NZ$1,838.57，已含异地费及对应税；四天附驾/年轻费按标准规则另NZ$138，小计NZ$1,976.57。整车留NZ$2,200供卡费、附项及可能RUC；不能视为全包锁价或确定车型。三28寸箱需确认折叠座椅及替代车容量；燃油、停车另列，押金不计消费。",
+        "status": "官网联系方式前汇总实查总额，未付款；玻璃轮胎范围待确认",
+        "note": "11/19 17:00 CHC→11/25 12:00 ZQN，6计费日；Maximum套餐1,437.72＋Roadside36＝1,473.72。附驾、24岁年轻司机、异地、商家卡费为0，含GST。玻璃轮胎专项未明示包含；若另付费，本行须上调。油费停车另列。",
         "sourceIds": [
-          "r-trip-quote",
-          "r-budget-drivers",
-          "r-budget-terms"
+          "r-apex-booking",
+          "r-apex-faq",
+          "r-apex-terms"
         ]
       },
       {
@@ -3190,25 +3337,27 @@
         "title": "新西兰油费",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 250,
-          "max": 350
+          "min": 280,
+          "max": 400
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 83.33333333333333,
-          "max": 116.66666666666667
+          "min": 93.33333333333333,
+          "max": 133.33333333333334
         },
         "perPersonCny": {
-          "min": 317.7,
-          "max": 444.78
+          "min": 355.82,
+          "max": 508.32
         },
         "perPersonCnyUnrounded": {
-          "min": 317.7,
-          "max": 444.78
+          "min": 355.82399999999996,
+          "max": 508.32
         },
-        "status": "预算",
-        "note": "整车 900–1100km、约8L/100km、NZD3–4/L 的宽松估计；不是当前油站实价。",
-        "sourceIds": []
+        "status": "整车预算",
+        "note": "Santa Fe官方为3.5L汽油车；按约1,000–1,200km和较高油耗留余量，非油站报价。满油取还；无柴油RUC预算。",
+        "sourceIds": [
+          "r-apex-car"
+        ]
       },
       {
         "id": "nz-parking",
@@ -3216,24 +3365,24 @@
         "title": "新西兰停车",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 50,
-          "max": 100
+          "min": 60,
+          "max": 120
         },
         "splitPeople": 3,
         "perPersonNative": {
-          "min": 16.666666666666668,
-          "max": 33.333333333333336
+          "min": 20.0,
+          "max": 40.0
         },
         "perPersonCny": {
-          "min": 63.54,
-          "max": 127.08
+          "min": 76.25,
+          "max": 152.5
         },
         "perPersonCnyUnrounded": {
-          "min": 63.54,
-          "max": 127.08
+          "min": 76.24799999999999,
+          "max": 152.49599999999998
         },
-        "status": "预算",
-        "note": "整车 4 天，假设住宿免费停车；不表示所有景区停车都免费。",
+        "status": "整车预算",
+        "note": "6个计费日，酒店停车以实际空位/条款为准；不代表景区免费。",
         "sourceIds": [
           "b-qldc-parking"
         ]
@@ -3249,8 +3398,8 @@
         },
         "splitPeople": 1,
         "perPersonNative": {
-          "min": 199,
-          "max": 249
+          "min": 199.0,
+          "max": 249.0
         },
         "perPersonCny": {
           "min": 758.67,
@@ -3295,47 +3444,45 @@
     ],
     "summary": {
       "flight": {
-        "CNY": 4307,
-        "AUD": 486.3333333333333,
+        "AUD": 446.3333333333333,
         "NZD": 1458.5,
-        "equivalentCNY": 12152.67,
-        "status": "三段报价可复算，全部未锁价"
+        "CNY": 4307.0,
+        "equivalentCNY": 11964.71,
+        "status": "三段实查报价，均未锁价"
       },
       "hotel": {
-        "AUD": 334.3333333333333,
-        "NZD": 1169.4116666666666,
-        "equivalentCNY": 6029.3,
+        "AUD": 222.33333333333334,
+        "NZD": 1357.7558333333334,
+        "equivalentCNY": 6221.05,
         "wholeGroup": {
-          "AUD": 1003,
-          "NZD": 3508.235,
-          "equivalentCNY": 18087.89
+          "AUD": 667.0,
+          "NZD": 4073.2675,
+          "equivalentCNY": 18663.16
         },
-        "status": "4 家8晚，三人均摊，含两家已列卡费的推算值"
+        "status": "5家8晚；Peppers床型待确认且不可退；两家卡费未明列，不是保证最终价"
       },
       "itemizedGround": {
         "AUD": {
-          "min": 250,
-          "max": 370
+          "min": 190.0,
+          "max": 280.0
         },
         "NZD": {
-          "min": 1452.3333333333335,
-          "max": 1732.3333333333335
+          "min": 1293.5733333333333,
+          "max": 1613.5733333333333
         },
         "equivalentCNY": {
-          "min": 6711.63,
-          "max": 8342.98
+          "min": 5824.43,
+          "max": 7467.31
         },
-        "status": "租车采用实价支持的预留，其他费用以规划估算为主"
+        "status": "租车为实查后核算；餐饮油费停车及活动仍是预算"
       },
       "itemizedTotalCNY": {
-        "min": 24893.59,
-        "max": 26524.94,
-        "note": "逐项预算；含已报价项目和规划预留，不是最终成交总价。"
+        "min": 24010.19,
+        "max": 25653.07
       },
       "legacyOtherCNY": {
-        "min": 7522.05,
-        "max": 9429.65,
-        "formula": "逐项地面预算 + 未分项余量"
+        "min": 6634.85,
+        "max": 8553.98
       },
       "unallocatedResidualCNY": {
         "min": 810.42,
@@ -3343,13 +3490,13 @@
         "fullyReconstructed": false
       },
       "legacyTotalCNY": {
-        "min": 25704.01,
-        "max": 27611.61,
-        "display": "约¥25,700–27,600／人",
-        "status": "租车包含未定附项预留，非全包锁价；机动预留仍单列"
+        "min": 24820.61,
+        "max": 26739.74,
+        "display": "约¥24,800–26,700/人",
+        "status": "上海出发者；实查报价＋规划预算，未预订"
       },
-      "comparisonNote": "日元出发机票属于东京朋友，不计入上海用户。EK412的AUD1459除3；返程NZD2917除2，不得再当单人票价或除3。金额先全精度运算，末端四舍五入，逐行显示相加可能差几分钱。",
-      "narrative": "机票约¥12,153＋住宿约¥6,029＋地面预算约¥6,712–8,343＋机动预留约¥810–1,087，合计约¥25,700–27,600。租车以Budget嘉华级MPV＋Premium实价为依据，整车暂留NZ$2,200≈¥8,387（每人NZ$733.33≈¥2,796），未定附项需再确认。准备约¥28,000；购物及高价项目另计，押金需另留额度。"
+      "comparisonNote": "EK412三人AUD1,339除3；返程两人NZ$2,917除2；住宿和车辆三人均分。此总额仅适用于上海出发者，朋友机票不同。",
+      "narrative": "悉尼2晚＋南岛6晚，上海出发者约¥24,800–26,700。机票约¥11,965，住宿约¥6,221/人；租车含在地面预算内。仍含¥810–1,087未分项机动预留，不能说签证/电子许可、旅行保险、通信与翻译已逐项报价。未含购物、米尔福德等高价新增活动；不参加当前基础付费活动可少花约¥759–949。Peppers需先确认Twin，不能按三床已锁定购买。"
     },
     "licences": [
       {
@@ -3362,104 +3509,282 @@
       },
       {
         "driver": "24 岁附加驾驶（日本驾照）",
-        "advice": "日本驾照原件＋日本签发正式IDP一起带。旅行时24岁，Budget通常最低21岁，正式驾照至少12个月；四天年轻费NZ$115加附驾NZ$23已按标准计入预算，两人都必须到场并登记。所选车型/套餐仍以租赁合同为准。",
+        "advice": "带日本有效正式驾照原件＋日本签发的正式IDP。Apex最低21岁，FAQ表示21–25岁无低龄附加费；需持正式驾照至少连续12个月。两人取车到场并都列入合同，所选报价核实附加驾驶为0。",
         "sourceIds": [
           "b-japan-idp",
-          "r-budget-age",
-          "r-budget-drivers"
+          "b-apex-faq",
+          "b-apex-contract"
         ]
       }
     ]
   },
+  "routeReview": [
+    {
+      "title": "11天不变，给南岛多一晚",
+      "body": "11/16上海出发、11/26回上海；悉尼2晚，南岛6晚。11/19抵达、11/25离开跨7个自然日，主要游览是11/20–24的5天；不等于7个完整游览日。",
+      "sourceIds": []
+    },
+    {
+      "title": "多出的时间给瓦纳卡和光线",
+      "body": "CHC 1晚→Tekapo 2晚→Wānaka 1晚→Queenstown 2晚。瓦纳卡有黄昏和次晨，跨区驾驶拆开；库克山遇差天气可讨论短线补拍，但不会保证主峰露出。",
+      "sourceIds": [
+        "route-nz-drive",
+        "w-docHooker"
+      ]
+    },
+    {
+      "title": "这是一条湖山精选线",
+      "body": "覆盖Tekapo、Pukaki、Aoraki、Lindis、Wānaka、Queenstown和Glenorchy；没有覆盖米尔福德、西海岸冰川、凯库拉、但尼丁。Roy’s Peak长徒步也未放入本次轻摄影日程。",
+      "sourceIds": [
+        "route-nz-drive"
+      ]
+    },
+    {
+      "title": "米尔福德必须整日替换",
+      "body": "皇后镇出发的巴士＋游船约12–13小时；若更想看峡湾，只能用D9替换Glenorchy，或另加一天并重报价。当前11天版不硬塞，往返长途更适合正规巴士团；活动费另计。",
+      "sourceIds": [
+        "route-milford-day",
+        "route-milford-product"
+      ]
+    },
+    {
+      "title": "若再多一天，先看值不值",
+      "body": "12天版可增加一晚皇后镇或Te Anau。每人暂多留NZ$350–500（约¥1,334–1,906）：整套住宿NZ$600–800、整车多一天NZ$240–300均分三人，加餐饮停车。仅为增量估算，不含机票变价；如再加米尔福德巴士游船，官方公开起价NZ$319/人（约¥1,216），指定日期待查。预算紧时先保留本版11天。",
+      "sourceIds": [
+        "route-milford-product"
+      ]
+    },
+    {
+      "title": "省钱先减付费项目，别压缩到赶路",
+      "body": "免费湖岸、观景点和短步道已经足够形成这次的摄影主线。预算列的NZ$199–249付费活动是可删的；省钱备选Twizel四卧两晚含卡费NZ$1,142.27虽便宜，但仅1条评价5.0/10且不可退，未选作默认好酒店。特卡波主候选仍需解决三床确认。",
+      "sourceIds": [
+        "r-twizel-alternative",
+        "b-hotel-2"
+      ]
+    }
+  ],
   "rental": {
-    "title": "建议：嘉华级MPV\n配车行直接零自付方案",
-    "body": "已在携程国际站Trip.com查到Budget嘉华或同级8座自动挡。推荐按Premium车行保障规划：它省去承保车损自付额的先行垫付，但页面未含玻璃轮胎、底盘车灯、道路救援和停运费，仍须核对附项。三只28寸箱＋背包，需第三排折叠；取车前确认实际车型与空间。未预订。",
+    "title": "APEX六天约¥5,618整车，\n先把保险最后一项确认好。",
+    "body": "优先候选：Santa Fe/同级＋Maximum零自付额＋Roadside。官网已显示NZ$1,473.72（含GST），三人分摊NZ$491.24≈¥1,873；比旧方案NZ$2,200预留少约¥2,769，并增加两个计费日。尚未预订，玻璃轮胎专项是否随包包含没有明确证明，因此不是已核实满足全部保障要求的成交价。",
     "sourceIds": [
-      "r-trip-quote",
-      "r-budget-cover"
+      "r-apex-booking",
+      "r-apex-faq",
+      "r-apex-terms"
     ],
     "quote": {
-      "supplier": "Budget / Trip.com",
-      "vehicle": "Kia Carnival or similar",
-      "onlineNzd": 1838.57,
-      "onlineCny": 7009.364267999999,
-      "driverFeeEstimateNzd": 138,
-      "subtotalNzd": 1976.57,
-      "subtotalCny": 7535.475468,
-      "perPersonSubtotalCny": 2511.825156,
-      "budgetNzd": 2200,
-      "recommended": true,
+      "checked": "2026-10-21",
       "booked": false,
-      "checkedAt": "2026-10-21 12:32 NZDT"
+      "provider": "APEX",
+      "vehicle": "Hyundai Santa Fe AWD / Similar，2021–2024车组",
+      "pickup": "2026-11-19T17:00:00+13:00",
+      "return": "2026-11-25T12:00:00+13:00",
+      "billableDays": 6,
+      "maximumPackageNzd": 1437.72,
+      "roadsideNzd": 36,
+      "additionalDriverNzd": 0,
+      "youngDriverNzd": 0,
+      "oneWayNzd": 0,
+      "cardFeeNzd": 0,
+      "gstIncluded": true,
+      "totalNzd": 1473.72,
+      "glassTyresExplicitlyConfirmed": false,
+      "luggagePhysicalFitConfirmed": false,
+      "priceStatus": "官网联系方式前汇总实查总额，未付款；玻璃轮胎范围待确认",
+      "budgetNote": "11/19 17:00 CHC→11/25 12:00 ZQN，6计费日；Maximum套餐1,437.72＋Roadside36＝1,473.72。附驾、24岁年轻司机、异地、商家卡费为0，含GST。玻璃轮胎专项未明示包含；若另付费，本行须上调。油费停车另列。",
+      "headline": "APEX六天约¥5,618整车，\n先把保险最后一项确认好。",
+      "summary": "优先候选：Santa Fe/同级＋Maximum零自付额＋Roadside。官网已显示NZ$1,473.72（含GST），三人分摊NZ$491.24≈¥1,873；比旧方案NZ$2,200预留少约¥2,769，并增加两个计费日。尚未预订，玻璃轮胎专项是否随包包含没有明确证明，因此不是已核实满足全部保障要求的成交价。",
+      "cards": [
+        {
+          "title": "01 / 最终页面金额怎么组成",
+          "body": "6天Maximum套餐NZ$1,437.72＋道路救援NZ$6×6＝36；1名附驾免费，合计NZ$1,473.72。官方无21–25岁加价、异地费和商家刷卡费，GST已含。银行外币交易费、加油停车、违约或超时费用不在此价。",
+          "sourceIds": [
+            "r-apex-booking",
+            "r-apex-faq"
+          ]
+        },
+        {
+          "title": "02 / 三只28寸箱：选大SUV，仍要试装",
+          "body": "该车组官方标5成人、4大箱＋3小包，空间匹配度高于仅标2大箱的Prado等组；但“large”未定义28寸外尺寸，且or similar不保证确切车辆。先核对三箱含轮尺寸，确认交付行李空间；提车先试装并固定背包，不能挡驾驶视线。列明汽油车，不加柴油RUC；替代车型另核。",
+          "sourceIds": [
+            "r-apex-car"
+          ]
+        },
+        {
+          "title": "03 / 玻璃轮胎尚不能写成已全包",
+          "body": "本次选中Maximum只明列NZ$0 excess，未明列Windscreen and Tyre Protection。合同另有该专项，所以需在付款前取得随包包含或另购价格的确认；也不能据此断言普通玻璃轮胎必然不保。Roadside已加：涵盖相应人为故障呼叫等，有拖车距离/送油额度限制，不等于免费更换新胎。车顶底盘、违约禁行和个人财物等仍有限制。",
+          "sourceIds": [
+            "r-apex-terms",
+            "r-apex-cover"
+          ]
+        },
+        {
+          "title": "04 / Omega更便宜，但不满足全部条件",
+          "body": "11/20中午→25日中午5天，Highlander＋Gold：NZ$1,182，按1.99%卡费合计NZ$1,205.52≈¥4,596；附驾及年轻司机免费。但官方只标4小箱，三只28寸未证实，Gold玻璃轮胎未明确，司机误操作道路救援另收费。不是同样保障与租期的低价替代。能放3大箱的Carnival/iMax这次显示售罄。",
+          "sourceIds": [
+            "r-omega-booking",
+            "r-omega-terms"
+          ]
+        },
+        {
+          "title": "05 / 为什么改成六个计费日",
+          "body": "这次APEX 11/20中午→25日中午的5日搜索提示最低租期不满足；19日17点开始的6日搜索可售。提前到抵达日下午取车并住机场旁，第二天09:30能直接出发；总旅行仍11天。不能把6天总价除成5天，或把最低租期提示说成全部售罄。",
+          "sourceIds": [
+            "r-apex-booking"
+          ]
+        },
+        {
+          "title": "06 / 携程与旧报价怎样比较",
+          "body": "之前Trip.com/Budget四天Premium在线NZ$1,838.57，附驾与年轻司机另算后已知小计NZ$1,976.57；NZ$2,200（约¥8,387）是预留，并非商家最终应付。该Premium未覆盖你要的玻璃轮胎及道路救援，不能拿它当同保障价。新版优先APEX直接报价；此前携程页面未取得比它更完整且更便宜的同条件报价。",
+          "sourceIds": [
+            "r-trip-old"
+          ]
+        },
+        {
+          "title": "07 / 正常取还车与取消时点",
+          "body": "CHC门店28 Ron Guthrey Rd，当前08:00–18:29；EK412计划14:15抵达，17点取车。QT门店32 Lucas Place，08:00–17:29，11:45到店、12点前交车，再乘免费接驳。APEX取消距取车超过14天一般免费；14天内至24小时前20%上限NZ$100，24小时内50%上限NZ$200，以实际订单为准。",
+          "sourceIds": [
+            "r-apex-chc",
+            "r-apex-zqn",
+            "r-apex-faq"
+          ]
+        },
+        {
+          "title": "08 / Ezi同六天复查：大MPV售罄",
+          "body": "同样11/19 17点→25日12点，Ezi带SUMMER折扣的Carnival Hybrid（保证2026车型，官方4大箱）显示售罄。可售Prado基础价已NZ$2,096.15≈¥7,991，尚未加Ultra、道路救援和卡费，官方仅标2大箱；因此未把它当成低于旧预算且满足空间的方案。",
+          "sourceIds": [
+            "r-ezi"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "r-apex-booking",
+          "title": "APEX官网：6天Santa Fe，Maximum＋Roadside总NZ$1,473.72",
+          "url": "https://www.apexrentals.co.nz/reservations",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-faq",
+          "title": "APEX FAQ：附驾、年轻驾驶员、异地、税费和刷卡费",
+          "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-car",
+          "title": "APEX车队：Santa Fe车组容量与燃料说明",
+          "url": "https://www.apexrentals.co.nz/cars",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-cover",
+          "title": "APEX Maximum自付额减免说明",
+          "url": "https://www.apexrentals.co.nz/rental-info/excess-reduction-cover",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-terms",
+          "title": "APEX租约：玻璃轮胎、救援及豁免边界",
+          "url": "https://www.apexrentals.co.nz/rental-info/terms-and-conditions",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-chc",
+          "title": "APEX基督城机场门店",
+          "url": "https://www.apexrentals.co.nz/rental-car-locations/christchurch-airport-branch",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-apex-zqn",
+          "title": "APEX皇后镇还车与机场接驳",
+          "url": "https://www.apexrentals.co.nz/rental-car-locations/queenstown-airport-branch/drop-off-instructions-normal-hours",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-omega-booking",
+          "title": "Omega官网预订报价入口",
+          "url": "https://www.omegarentalcars.com/",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-omega-terms",
+          "title": "Omega租赁条款",
+          "url": "https://www.omegarentalcars.com/terms-and-conditions/",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-trip-old",
+          "title": "Trip.com租车：旧四天Budget对照，非新版同日期价",
+          "url": "https://www.trip.com/carhire/",
+          "checked": "2026-10-21"
+        },
+        {
+          "id": "r-ezi",
+          "title": "Ezi官方预订入口：6日Carnival售罄，Prado基础价不合预算",
+          "url": "https://www.ezicarrental.co.nz/",
+          "checked": "2026-10-21"
+        }
+      ]
     },
     "cards": [
       {
-        "title": "实查 / 四天Premium NZ$1,838.57",
-        "body": "11/21 12:00基督城机场取，11/25 12:00皇后镇机场还。整车在线价NZ$1,838.57≈¥7,009；其中租车及保障NZ$1,637.32、单程费175、对应税26.25，已含异地费用，不再重复加。不限里程、满油取还；页面显示取车前可免费取消，以订单具体截止时间为准。",
+        "title": "01 / 最终页面金额怎么组成",
+        "body": "6天Maximum套餐NZ$1,437.72＋道路救援NZ$6×6＝36；1名附驾免费，合计NZ$1,473.72。官方无21–25岁加价、异地费和商家刷卡费，GST已含。银行外币交易费、加油停车、违约或超时费用不在此价。",
         "sourceIds": [
-          "r-trip-quote"
+          "r-apex-booking",
+          "r-apex-faq"
         ]
       },
       {
-        "title": "两个人开 / 24岁朋友仍有年轻费",
-        "body": "主驾25岁、附驾旅行时24岁。按Budget标准规则，四天附驾费NZ$23＋年轻费NZ$115＝NZ$138≈¥526（含GST），柜台另付；OTA额外项目还提示可能有机场附加费。在线价＋这两项小计NZ$1,976.57≈¥7,535，三人各NZ$658.86≈¥2,512；这是已报价＋规则推算小计，不是最终全包价。",
+        "title": "02 / 三只28寸箱：选大SUV，仍要试装",
+        "body": "该车组官方标5成人、4大箱＋3小包，空间匹配度高于仅标2大箱的Prado等组；但“large”未定义28寸外尺寸，且or similar不保证确切车辆。先核对三箱含轮尺寸，确认交付行李空间；提车先试装并固定背包，不能挡驾驶视线。列明汽油车，不加柴油RUC；替代车型另核。",
         "sourceIds": [
-          "r-trip-quote",
-          "r-budget-drivers",
-          "r-budget-age"
+          "r-apex-car"
         ]
       },
       {
-        "title": "预算 / 先留整车NZ$2,200",
-        "body": "整车暂留NZ$2,200≈¥8,387，三人各NZ$733.33≈¥2,796。比NZ$1,976.57小计多留223.43，供卡费、尚未定价的附项与可能柴油RUC使用，不保证足够。卡费保守按全额2.2%预留约NZ$43.48，OTA预付是否适用待确认；柴油页面参考NZ$87.40/1000km，900–1100km约NZ$79–96，汽油车不套用。燃油和停车另有预算，不重复计入；押金另留信用额度。",
+        "title": "03 / 玻璃轮胎尚不能写成已全包",
+        "body": "本次选中Maximum只明列NZ$0 excess，未明列Windscreen and Tyre Protection。合同另有该专项，所以需在付款前取得随包包含或另购价格的确认；也不能据此断言普通玻璃轮胎必然不保。Roadside已加：涵盖相应人为故障呼叫等，有拖车距离/送油额度限制，不等于免费更换新胎。车顶底盘、违约禁行和个人财物等仍有限制。",
         "sourceIds": [
-          "r-budget-terms",
-          "r-trip-quote"
+          "r-apex-terms",
+          "r-apex-cover"
         ]
       },
       {
-        "title": "行李 / 车型空间优先于座位数",
-        "body": "Trip标识为4×24寸箱，不等于已保证3×28寸。优先嘉华级MPV，第三排折叠、第二排保留一位乘客，背包固定在空位；取车先试装。订单写清三只箱子的外尺寸，要求替代车保留足够行李空间。当前不是保证交付嘉华的订单；不接受仅因同为8座就换成行李舱更小的车型。",
+        "title": "04 / Omega更便宜，但不满足全部条件",
+        "body": "11/20中午→25日中午5天，Highlander＋Gold：NZ$1,182，按1.99%卡费合计NZ$1,205.52≈¥4,596；附驾及年轻司机免费。但官方只标4小箱，三只28寸未证实，Gold玻璃轮胎未明确，司机误操作道路救援另收费。不是同样保障与租期的低价替代。能放3大箱的Carnival/iMax这次显示售罄。",
         "sourceIds": [
-          "r-trip-quote"
+          "r-omega-booking",
+          "r-omega-terms"
         ]
       },
       {
-        "title": "保险 / Premium并非所有项目全包",
-        "body": "这份Premium由车行提供，车损、盗抢及第三方责任自付额显示为0；未包含玻璃轮胎、底盘车灯、道路救援及停运费。取车前核对这些附项及违法、涉水、禁路等免责。Budget官网另一款Zero Excess含玻璃轮胎，但不能据此认定本平台套餐也含；如柜台改套餐，应核对原保费抵扣，避免重复购买。",
+        "title": "05 / 为什么改成六个计费日",
+        "body": "这次APEX 11/20中午→25日中午的5日搜索提示最低租期不满足；19日17点开始的6日搜索可售。提前到抵达日下午取车并住机场旁，第二天09:30能直接出发；总旅行仍11天。不能把6天总价除成5天，或把最低租期提示说成全部售罄。",
         "sourceIds": [
-          "r-trip-quote",
-          "r-budget-cover",
-          "r-budget-terms"
+          "r-apex-booking"
         ]
       },
       {
-        "title": "更便宜的Superior / 暂不作为首选",
-        "body": "Trip.com基础价NZ$928.65、Superior报销型保障NZ$1,005.16，后者约¥3,832整车，但该报价单程费是否包含仍未确认。发生事故须先付车行再索赔；页面免赔补偿上限NZ$6,000，与Budget通用Group V自付额NZ$6,900有差异。关联通用保单还列van除外，需确认乘用MPV适用条款，不能直接承诺嘉华全保。",
+        "title": "06 / 携程与旧报价怎样比较",
+        "body": "之前Trip.com/Budget四天Premium在线NZ$1,838.57，附驾与年轻司机另算后已知小计NZ$1,976.57；NZ$2,200（约¥8,387）是预留，并非商家最终应付。该Premium未覆盖你要的玻璃轮胎及道路救援，不能拿它当同保障价。新版优先APEX直接报价；此前携程页面未取得比它更完整且更便宜的同条件报价。",
         "sourceIds": [
-          "r-trip-quote",
-          "r-rentalcover",
-          "r-budget-cover"
+          "r-trip-old"
         ]
       },
       {
-        "title": "比价记录 / 官网也核过",
-        "body": "Ezi 2026 Prado＋Ultra＋额外道路救援实查NZ$1,968.92≈¥7,506，含首位附驾及NZ$950异地费，卡费另计；三大箱空间及柴油RUC仍未确认，仅作参照。Apex四天查询受最低租期限制；ACE该时段异地停售；yesaway无符合条件车辆。Omega查询日期异常，错误报价已排除。",
+        "title": "07 / 正常取还车与取消时点",
+        "body": "CHC门店28 Ron Guthrey Rd，当前08:00–18:29；EK412计划14:15抵达，17点取车。QT门店32 Lucas Place，08:00–17:29，11:45到店、12点前交车，再乘免费接驳。APEX取消距取车超过14天一般免费；14天内至24小时前20%上限NZ$100，24小时内50%上限NZ$200，以实际订单为准。",
         "sourceIds": [
-          "r-ezi-quote",
-          "r-ezi-cover",
-          "r-ezi-prado",
-          "b-apex",
-          "r-ace",
-          "r-yesaway"
+          "r-apex-chc",
+          "r-apex-zqn",
+          "r-apex-faq"
         ]
       },
       {
-        "title": "携程渠道 / 平台价与帖子价分清",
-        "body": "已访问携程国内版，桌面页引导扫码，旧境外移动查询未能正常返回；本页实价来自携程国际站Trip.com，不代表国内App的会员、优惠券或支付价格。小红书公开检索未取得可验证的同条件订单，未把帖子宣传日均价用于预算。可以用上述车型、时间和套餐在携程App再次对价。",
+        "title": "08 / Ezi同六天复查：大MPV售罄",
+        "body": "同样11/19 17点→25日12点，Ezi带SUMMER折扣的Carnival Hybrid（保证2026车型，官方4大箱）显示售罄。可售Prado基础价已NZ$2,096.15≈¥7,991，尚未加Ultra、道路救援和卡费，官方仅标2大箱；因此未把它当成低于旧预算且满足空间的方案。",
         "sourceIds": [
-          "r-ctrip",
-          "r-trip-quote"
+          "r-ezi"
         ]
       }
     ]

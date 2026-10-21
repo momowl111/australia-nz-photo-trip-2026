@@ -72,7 +72,7 @@ function renderMap() {
     day.events.forEach((e,i)=>{if(!geo(e))return; const key=`${e.lat},${e.lon}`;points.push([e.lat,e.lon]);bounds.push([e.lat,e.lon]);
       if(!seen.has(key)){const m=marker(e,mapMode==='all'?day.day:i+1);activeMarkers.set(`${day.day}-${i}`,m);seen.add(key);}else { const found=[...activeMarkers.values()].find(m=>m.getLatLng().lat===e.lat&&m.getLatLng().lng===e.lon);if(found)activeMarkers.set(`${day.day}-${i}`,found); }
     });
-    if(points.length>1)L.polyline(points,{color:day.day<=4?'#9b4b20':'#1c6c63',weight:2.5,opacity:.65,dashArray:'5,8',interactive:false}).addTo(mapLayers);
+    if(points.length>1)L.polyline(points,{color:day.day<=3?'#9b4b20':'#1c6c63',weight:2.5,opacity:.65,dashArray:'5,8',interactive:false}).addTo(mapLayers);
   });
   if($('#hotels-toggle').checked){const ids=new Set(days.map(d=>d.hotelId)); D.hotels.filter(h=>mapMode==='all'||ids.has(h.id)).forEach(h=>{if(geo(h)){marker(h,'H',true);bounds.push([h.lat,h.lon]);}});}
   if(bounds.length)map.fitBounds(bounds,{padding:[28,28],maxZoom:13,animate:!reducedMotion});
@@ -91,14 +91,16 @@ function cards(items,className) {return (items||[]).map(c=>`<article class="${cl
 const amount = n => n.toLocaleString('zh-CN',{maximumFractionDigits:2});
 const range = r => r.min===r.max ? amount(r.min) : `${amount(r.min)}–${amount(r.max)}`;
 function renderBudget(){
-  $('#budget-table').innerHTML=`<div class="table-scroll"><table><caption>11月16日主方案 · 上海出发者本人费用 · 10月21日报价快照</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${D.budget.rows.map(r=>`<tr><td><strong>${esc(r.title)}</strong><small>${esc(r.status)}</small><small>${esc(r.note)}</small>${refLinks(r.sourceIds)}</td><td>${esc(r.currency)} ${range(r.perPersonNative)}</td><td>¥${range(r.perPersonCny)}</td></tr>`).join('')}</tbody></table></div><p class="planner-note">${esc(D.budget.summary.narrative)}</p><p class="planner-note">折算：AUD1≈¥4.699；NZD1≈¥3.8124（中国银行10/21现钞卖出参考）。各项均为每人：EK412原报价3人共AUD1,459，返程原报价2人共NZD2,917；酒店由3人平摊。现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
+  $('#budget-table').innerHTML=`<div class="table-scroll"><table><caption>11月16日主方案 · 上海出发者本人费用 · 10月21日报价快照</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${D.budget.rows.map(r=>`<tr><td><strong>${esc(r.title)}</strong><small>${esc(r.status)}</small><small>${esc(r.note)}</small>${refLinks(r.sourceIds)}</td><td>${esc(r.currency)} ${range(r.perPersonNative)}</td><td>¥${range(r.perPersonCny)}</td></tr>`).join('')}</tbody></table></div><p class="planner-note">${esc(D.budget.summary.narrative)}</p><p class="planner-note">折算：AUD1≈¥4.699；NZD1≈¥3.8124（中国银行10/21现钞卖出参考）。各项均为每人：EK412原报价3人共AUD1,339，返程原报价2人共NZD2,917；酒店由3人平摊。现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
   $('#licence-detail').innerHTML=cards(D.budget.licences.map(l=>({title:l.driver,body:l.advice,sourceIds:l.sourceIds})),'risk-card');
 }
 function renderRental(){
   $('#rental-highlight').innerHTML=`<h3>${esc(D.rental.title).replace(/\n/g,'<br>')}</h3><div><p>${esc(D.rental.body)}</p><div class="source-links">${refLinks(D.rental.sourceIds)}</div></div>`;
   $('#rental-cards').innerHTML=cards(D.rental.cards,'before-card');
+  $('#rental-proof').innerHTML='<summary>查看APEX实际报价截图 · 未预订</summary><p class="planner-note">2026/10/21官方预订页，6计费日；浏览器自动翻译部分美元标签不准确，右下总额明确为NZ$1,473.72。未输入个人资料或付款。</p><img src="assets/apex-quote-20261021.png" alt="APEX官网报价汇总：11月19日17点至25日12点，Santa Fe含Maximum及道路救援，总价1473.72新西兰元" loading="lazy" style="width:100%;max-width:1000px;height:auto">';
 }
 function renderStatic() {
+  $('#route-review').innerHTML=cards(D.routeReview,'before-card');
   $('#gear-grid').innerHTML=cards(D.gear,'gear-card');
   $('#weather-highlight').innerHTML=`<h3>${esc(D.weather.highlight.title)}</h3><div><p>${esc(D.weather.highlight.body)}</p><div class="source-links">${refLinks(D.weather.highlight.sourceIds)}</div></div>`;
   $('#weather-grid').innerHTML=cards(D.weather.cards,'weather-card');$('#risk-grid').innerHTML=cards(D.weather.risks,'risk-card');
