@@ -13,12 +13,12 @@ const shiftDate = date => {
   const value = new Date(`${date}T12:00:00Z`); value.setUTCDate(value.getUTCDate() + start - 16);
   return value.toISOString().slice(0,10);
 };
-const scheduleText = text => start===16 ? text : String(text || '').replace(/11\/(1[6-9]|2[0-7])(?!\d)/g, (_,day)=>`11/${Number(day)+1}`);
+const scheduleText = text => start===16 ? text : String(text || '').replace(/11\/(1[5-9]|2[0-7])(?!\d)/g, (_,day)=>`11/${Number(day)+1}`);
 const geo = p => Number.isFinite(p.lat) && Number.isFinite(p.lon) && Math.abs(p.lat)<=90 && Math.abs(p.lon)<=180;
 const nav = p => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.lat},${p.lon}`)}`;
 const refLinks = ids => (ids || []).map(id => D.sources.find(s => s.id === id)).filter(Boolean).map(s => `<a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.shortTitle || s.title)} ↗</a>`).join('');
-const ho1669Note = '（HO1669仅周一、三、五、日执飞，11/17周二无此班；顺延需另选航班并重排到达与会合）';
-const eventText = e => scheduleText(e.detail || '') + (start===17 && /HO1669/.test(`${e.place||''}${e.detail||''}`) ? ho1669Note : '');
+const flightShiftNote = '（顺延一天：改为11/16周一晚上到浦东T1、11/17 00:10起飞；MU735每日执飞，但余票和价格须重查）';
+const eventText = e => scheduleText(e.detail || '') + (start===17 && /MU735/.test(`${e.place||''}${e.detail||''}`) ? flightShiftNote : '');
 const workTitle = p => String(p.sourceTitle || '').replace(/^File:\s*/i,'').replace(/\.[a-z0-9]{2,5}$/i,'').trim();
 const cc0 = p => /^CC0\b/i.test(p.license || '');
 const licenseLabel = p => cc0(p) ? 'CC0（公有领域贡献）' : p.license;
@@ -32,8 +32,8 @@ function hotelUrl(h) {
   try{const u=new URL(raw);u.search=u.search.replace(/([?&])(checkin|checkout|checkInDate|checkOutDate)=[^&#]*/g,(_,sep,k)=>`${sep}${k}=${shiftDate(dates[k])}`);return u.href;}catch{return raw;}
 }
 function hotelHtml(h) {
-  if(!h) return '<div class="hotel-card"><span class="eyebrow">OVERNIGHT</span><p>国际飞行夜 / 当日抵达，不计酒店住宿。</p></div>';
-  return `<div class="hotel-card"><span class="eyebrow">STAY / 候选住宿 · 未预订</span><h4>${esc(h.name)}</h4><p>${esc(h.beds)}<br>${esc(h.address)}</p><p>${shortDate(shiftDate(h.checkin))}–${shortDate(shiftDate(h.checkout))} · ${esc(h.nights)}晚${start===16?` · ${esc(h.price)}`:' · 库存与价格需重新核查'}</p><p>${start===16?esc(h.cancel):'顺延后取消期限需按新订单核实。'}</p><a href="${esc(hotelUrl(h))}" target="_blank" rel="noopener">查看房型与日期 ↗</a>${geo(h)?` · <a href="${esc(nav(h))}" target="_blank" rel="noopener">地图位置 ↗</a>`:''}</div>`;
+  if(!h) return '<div class="hotel-card"><span class="eyebrow">OVERNIGHT（过夜）</span><p>国际飞行夜 / 当日抵达，不计酒店住宿。</p></div>';
+  return `<div class="hotel-card"><span class="eyebrow">STAY（候选住宿）· 未预订</span><h4>${esc(h.name)}</h4><p>${esc(h.beds)}<br>${esc(h.address)}</p><p>${shortDate(shiftDate(h.checkin))}–${shortDate(shiftDate(h.checkout))} · ${esc(h.nights)}晚${start===16?` · ${esc(h.price)}`:' · 库存与价格需重新核查'}</p><p>${start===16?esc(h.cancel):'顺延后取消期限需按新订单核实。'}</p><a href="${esc(hotelUrl(h))}" target="_blank" rel="noopener">查看房型与日期 ↗</a>${geo(h)?` · <a href="${esc(nav(h))}" target="_blank" rel="noopener">地图位置 ↗</a>`:''}</div>`;
 }
 function timelineHtml(day, print=false) {
   return `<ol class="timeline">${day.events.map((e,i)=>`<li><div class="time">${esc(e.time)}${e.endTime?`<small>— ${esc(e.endTime)}</small>`:''}</div><div class="event"><h4>${print?'':`<span class="pin" data-index="${i}" aria-hidden="true" hidden></span>`}${esc(e.place)}</h4><p>${esc(eventText(e))}</p>${e.photoTip?`<div class="photo-tip">拍摄笔记 · ${esc(e.photoTip)}</div>`:''}${!print&&geo(e)?`<div class="event-actions"><button class="text-button locate-event" data-index="${i}">在地图上看</button><a class="text-button" href="${esc(nav(e))}" target="_blank" rel="noopener">打开导航 ↗</a></div>`:''}</div></li>`).join('')}</ol>`;
@@ -41,14 +41,14 @@ function timelineHtml(day, print=false) {
 function renderDay(announce=true) {
   const day = D.days.find(d=>d.day===selectedDay), a=document.activeElement;
   const focusKey = a?.closest?.('#day-strip,#day-detail') ? (a.matches('.day-button') ? `.day-button[data-day="${a.dataset.day}"]` : a.id ? `#${a.id}` : null) : null;
-  $('#day-strip').innerHTML=D.days.map(d=>`<button class="day-button${d.day===selectedDay?' active':''}" data-day="${d.day}" aria-pressed="${d.day===selectedDay}"><small>DAY ${String(d.day).padStart(2,'0')} · ${shortDate(dateOf(d.day))}</small><b>${esc(d.shortTitle || d.area)}</b></button>`).join('');
-  $('#day-detail').innerHTML=`<div class="day-head"><p class="eyebrow">DAY ${String(day.day).padStart(2,'0')} / ${shortDate(dateOf(day.day))}</p><div class="day-controls"><button id="prev-day" aria-label="前一天" ${day.day===1?'disabled':''}>←</button><button id="next-day" aria-label="后一天" ${day.day===D.days.length?'disabled':''}>→</button></div></div>${start===17?'<p class="notice">顺延草案：仅日期顺延；全部报价、航班、酒店及活动库存、取消期限、日月时刻均未按新日期查询。</p>':''}<h3 class="day-title">${esc(day.title)}</h3><p class="day-summary">${esc(scheduleText(day.summary))}</p><div class="day-meta"><span class="tag">${esc(day.timezone)}</span><span class="tag">${esc(day.drive)}</span></div><label class="weather-switch"><input type="checkbox" id="rain-mode" ${rainMode?'checked':''}> 看风雨天替代安排</label><div class="weather-plan" ${rainMode?'':'hidden'}><strong>天气不好时：</strong>${esc(scheduleText(day.weatherPlan))}</div>${timelineHtml(day)}${hotelHtml(D.hotels.find(h=>h.id===day.hotelId))}`;
+  $('#day-strip').innerHTML=D.days.map(d=>`<button class="day-button${d.day===selectedDay?' active':''}" data-day="${d.day}" aria-pressed="${d.day===selectedDay}"><small><span class="zh">DAY ${String(d.day).padStart(2,'0')}（第${d.day}天）</span><br>${shortDate(dateOf(d.day))}</small><b>${esc(d.shortTitle || d.area)}</b></button>`).join('');
+  $('#day-detail').innerHTML=`<div class="day-head"><p class="eyebrow">DAY ${String(day.day).padStart(2,'0')}（第${day.day}天）/ ${shortDate(dateOf(day.day))}</p><div class="day-controls"><button id="prev-day" aria-label="前一天" ${day.day===1?'disabled':''}>←</button><button id="next-day" aria-label="后一天" ${day.day===D.days.length?'disabled':''}>→</button></div></div>${start===17?'<p class="notice">顺延草案：仅日期顺延；全部报价、航班、酒店及活动库存、取消期限、日月时刻均未按新日期查询。</p>':''}<h3 class="day-title">${esc(day.title)}</h3><p class="day-summary">${esc(scheduleText(day.summary))}</p><div class="day-meta"><span class="tag">${esc(day.timezone)}</span><span class="tag">${esc(day.drive)}</span></div><label class="weather-switch"><input type="checkbox" id="rain-mode" ${rainMode?'checked':''}> 看风雨天替代安排</label><div class="weather-plan" ${rainMode?'':'hidden'}><strong>天气不好时：</strong>${esc(scheduleText(day.weatherPlan))}</div>${timelineHtml(day)}${hotelHtml(D.hotels.find(h=>h.id===day.hotelId))}`;
   $('#day-strip').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>chooseDay(Number(b.dataset.day))));
   $('#prev-day').onclick=()=>chooseDay(selectedDay-1); $('#next-day').onclick=()=>chooseDay(selectedDay+1);
   $('#rain-mode').onchange=e=>{rainMode=e.target.checked; $('.weather-plan').hidden=!rainMode;};
   $('#day-detail').querySelectorAll('.locate-event').forEach(b=>b.onclick=()=>focusEvent(Number(b.dataset.index)));
   const sun = D.light.find(s=>s.date===day.date && s.area===day.area);
-  $('#map-story').innerHTML=`<p class="eyebrow">TODAY'S FRAME</p><h3>${esc(day.photoGoal || '让旅途有呼吸的空间')}</h3><p>${esc(day.lightNote || '相机设置是拍摄起点；云量、风和山体遮挡决定现场光线。')}</p>${sun?`<div class="light-times"><span>日出约 ${esc(sun.sunrise)}</span><span>日落约 ${esc(sun.sunset)}</span></div><p class="light-note">${start===17?'顺延日期未重算；此处仍为原计划日期参考。':esc(sun.note || '平地天文时刻；山体会改变实际见光时间。')}</p>`:''}`;
+  $('#map-story').innerHTML=`<p class="eyebrow">TODAY'S FRAME（今日画面）</p><h3>${esc(day.photoGoal || '让旅途有呼吸的空间')}</h3><p>${esc(day.lightNote || '相机设置是拍摄起点；云量、风和山体遮挡决定现场光线。')}</p>${sun?`<div class="light-times"><span>日出约 ${esc(sun.sunrise)}</span><span>日落约 ${esc(sun.sunset)}</span></div><p class="light-note">${start===17?'顺延日期未重算；此处仍为原计划日期参考。':esc(sun.note || '平地天文时刻；山体会改变实际见光时间。')}</p>`:''}`;
   $('#day-detail').scrollTop=0;
   $('#hero-dates').textContent=`11.${start} — 11.${start+D.days.length-1}`;
   $('#shift-notice').hidden=start!==17;
@@ -61,10 +61,11 @@ function stripTo(smooth) { const s=$('#day-strip'),b=s.querySelector('.day-butto
 function chooseDay(n) { selectedDay=Math.min(D.days.length,Math.max(1,n)); mapMode='day'; renderDay(); stripTo(true); }
 function initMap() {
   if(!window.L) { $('#map-fallback').hidden=false; $('#map').textContent='地图组件无法载入，请使用每条行程下的导航链接。'; return; }
-  map=L.map('map',{scrollWheelZoom:false,keyboard:true,zoomControl:true,dragging:!L.Browser.mobile}).setView([-43.9,170.1],7);
+  map=L.map('map',{scrollWheelZoom:false,keyboard:true,zoomControl:false,dragging:!L.Browser.mobile}).setView([-43.9,170.1],7);
+  L.control.zoom({zoomInTitle:'Zoom in（放大）',zoomOutTitle:'Zoom out（缩小）'}).addTo(map);map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a><span class="zh">（地图组件）</span>');
   if(L.Browser.mobile)$('#map-hint').hidden=false;
   let errors=0;
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',crossOrigin:true}).on('tileerror',()=>{if(++errors>3)$('#map-fallback').hidden=false;}).addTo(map);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors<span class="zh">（开放街图贡献者）</span>',crossOrigin:true}).on('tileerror',()=>{if(++errors>3)$('#map-fallback').hidden=false;}).addTo(map);
   mapLayers=L.layerGroup().addTo(map);
 }
 // evs: [day,index,event] triples drawn at this point; several events (or a hotel's own stay events) are listed in one popup.
@@ -118,7 +119,7 @@ function renderRental(){
   $('#rental-highlight').innerHTML=`<h3>${esc(D.rental.title).replace(/\n/g,'<br>')}</h3><div><p>${esc(D.rental.body)}</p><div class="source-links">${refLinks(D.rental.sourceIds)}</div></div>`;
   $('#rental-cards').innerHTML=cards(D.rental.cards,'before-card');
   const quote=D.rental.quote;
-  $('#rental-proof').innerHTML=`<summary>查看APEX实际报价截图 · 未预订</summary><p class="planner-note">${esc(quote.proofCaption)}</p><img src="${esc(quote.proofImage)}" alt="${esc(quote.proofAlt || quote.proofCaption)}" loading="lazy" style="width:100%;max-width:400px;height:auto">`;
+  $('#rental-proof').innerHTML=`<summary>查看APEX（租车公司）实际报价截图 · 未预订</summary><p class="planner-note">${esc(quote.proofCaption)}</p><img src="${esc(quote.proofImage)}" alt="${esc(quote.proofAlt || quote.proofCaption)}" loading="lazy" style="width:100%;max-width:400px;height:auto">`;
 }
 function renderStatic() {
   $('#route-review').innerHTML=cards(D.routeReview,'before-card');
@@ -131,7 +132,7 @@ function renderStatic() {
   $('#sources').innerHTML=`<ul class="sources-list">${D.sources.map(s=>`<li><a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.title)} ↗</a> <span class="source-date">${s.checked?`核查 ${esc(String(s.checked).replace(/-/g,'.'))}`:'未复核'}</span></li>`).join('')}</ul>`;
   $('#credits').innerHTML=`<h3>照片授权</h3><ul class="credits-list">${D.photos.map(p=>`<li>${esc(p.title)} — ${workTitle(p)?`原题“${esc(workTitle(p))}”，`:''}${esc(byline(p))}；<a href="${esc(url(p.sourceUrl))}" target="_blank" rel="noopener">原作品</a>；<a href="${esc(url(p.licenseUrl))}" target="_blank" rel="noopener">${esc(licenseLabel(p))}</a>。页面卡片以CSS裁切显示，放大视图保留原比例；未将作品标记为本次旅行实拍。</li>`).join('')}</ul>`;
 }
-function buildPrint(){document.querySelector('#print-plan')?.remove();const section=document.createElement('section');section.id='print-plan';section.className='print-only wrap';section.innerHTML=`<h2>完整${D.days.length}日计划 · ${shortDate(dateOf(1))}–${shortDate(dateOf(D.days.length))}</h2><p>${start===17?"17日顺延草案：仅日期顺延，全部报价、航班、库存、取消期限与日月时刻未复核。":"主方案；全部尚未预订。"}</p>`+D.days.map(day=>`<article class="print-day"><p>DAY ${day.day} · ${shortDate(dateOf(day.day))} · ${esc(day.timezone)}</p><h2>${esc(day.title)}</h2><p>${esc(scheduleText(day.summary))}</p>${timelineHtml(day,true)}<p>风雨替代：${esc(scheduleText(day.weatherPlan))}</p>${hotelHtml(D.hotels.find(h=>h.id===day.hotelId))}</article>`).join('');document.querySelector('main').append(section);}
+function buildPrint(){document.querySelector('#print-plan')?.remove();const section=document.createElement('section');section.id='print-plan';section.className='print-only wrap';section.innerHTML=`<h2>完整${D.days.length}日计划 · ${shortDate(dateOf(1))}–${shortDate(dateOf(D.days.length))}</h2><p>${start===17?"17日顺延草案：仅日期顺延，全部报价、航班、库存、取消期限与日月时刻未复核。":"主方案；全部尚未预订。"}</p>`+D.days.map(day=>`<article class="print-day"><p>DAY ${day.day}（第${day.day}天）· ${shortDate(dateOf(day.day))} · ${esc(day.timezone)}</p><h2>${esc(day.title)}</h2><p>${esc(scheduleText(day.summary))}</p>${timelineHtml(day,true)}<p>风雨替代：${esc(scheduleText(day.weatherPlan))}</p>${hotelHtml(D.hotels.find(h=>h.id===day.hotelId))}</article>`).join('');document.querySelector('main').append(section);}
 // Any print path (button, Ctrl+P, browser menu, mobile "save as PDF") rebuilds the plan for the current start date and opens every <details> until printing ends.
 let printState=null;
 function beforePrint(){if(!D?.days||!$('.day-button'))return;buildPrint();if(!printState){printState=[...document.querySelectorAll('details')].map(d=>[d,d.open]);printState.forEach(([d])=>d.open=true);}}
