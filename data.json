@@ -109,12 +109,14 @@
           "placeId": "camperdown",
           "place": "Rydges Camperdown住宿区域",
           "kind": "transfer",
-          "detail": "三人带3只28寸箱和背包去Camperdown：叫UberXL、Maxi Taxi或旅行车，普通轿车可能装不下，机场出租车排队点可请工作人员安排大车；约30–50分钟为规划值。寄存行李，提前入住并不保证。",
+          "detail": "三人带3只29/30寸箱和3个背包去Camperdown：在T1出租车排队点请调度员派Maxi Taxi，或在App里选Uber Max（有保证的行李空间）；UberXL官方只说“通常”放3只箱子，30寸箱竖不进普通SUV后备厢。约30–50分钟为规划值，大车最高收普通车费150%。寄存行李，提前入住并不保证。",
           "photoTip": "",
           "lat": -33.88702,
           "lon": 151.17917,
           "coordinateStatus": "基于OpenStreetMap way 600225336的物业中心；不是车辆入口的精确定位。",
-          "sourceIds": []
+          "sourceIds": [
+            "x-uber-max"
+          ]
         },
         {
           "time": "09:30",
@@ -374,14 +376,15 @@
           "placeId": "syd_t1",
           "place": "悉尼机场T1国际出发",
           "kind": "transfer",
-          "detail": "悉尼当地05:15起床，约05:45离店，06:20到T1；前一晚就预约05:45上车的UberXL/Maxi Taxi，确认能放3只28寸箱。",
+          "detail": "悉尼当地05:15起床，约05:45离店，06:20到T1；前一晚就预约05:45上车的Maxi Taxi或Uber Max，并先发消息确认能放3只29/30寸箱和3个背包。",
           "photoTip": "摄影包、电池与托运行李提前分好。",
           "lat": -33.939,
           "lon": 151.166,
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
             "i-flight-ek",
-            "i-emirates-drone"
+            "i-emirates-drone",
+            "x-uber-max"
           ],
           "timezone": "Australia/Sydney"
         },
@@ -2150,17 +2153,20 @@
       "sourceIds": []
     },
     {
-      "title": "16mm值得带，但不是必需",
-      "body": "你已有16mm且愿意多带一枚时，推荐带上：适合带前景的教堂/湖岸、海港大场景与窄街建筑。画面里没有好前景时，用24–120mm会让远山更有存在感。 先确认这支16mm的型号：若是DX/APS-C镜头（如NIKKOR Z DX 16-50、Sigma 16mm F1.4 DC DN），装在Z6III上会自动裁成约1060万像素、视角约等于24mm，不比24–120更广，就不必带。",
+      "title": "16mm全画幅，带上",
+      "body": "你确认带的是全画幅16mm：适合带前景的教堂/湖岸、海港大场景与窄街建筑，比24–120的24mm端明显更广。画面里没有好前景时，用24–120mm会让远山更有存在感。",
       "sourceIds": []
     },
     {
-      "title": "脚架带，无人机不作主力",
-      "body": "脚架用于蓝调、低ISO湖景和合影；强风下缩低脚架，不稳就提高快门。Mini5Pro只适合你愿意提前完成逐点许可并接受全程不飞时携带。",
+      "title": "脚架带，无人机建议不带",
+      "body": "脚架用于蓝调、低ISO湖景和合影；强风下缩低脚架，不稳就提高快门。Mini 5 Pro建议不带：新西兰全国规则本身简单（不用注册、不用执照），但这条路线上的主流机位全被另一层规则挡住——Aoraki国家公园整片禁止娱乐飞行，米尔福德是Fiordland国家公园RED区，Tekapo镇和教堂在机场4km内且有No Drone Zone，Pukaki在国道边且湖区多属Meridian，Lindis Pass是ORANGE区（申请至少NZ$2,450+GST），皇后镇、瓦纳卡（含孤独树）和Glenorchy的议会土地QLDC一律不批，悉尼港是限制空域。不付费基本没有合法起飞点；付NZ$207买DOC Green许可后，现实可行的也只有11/25 Glenorchy以北Rees/Dart一带一两个小时。地面全画幅加16mm和24–120mm已能拍到这条路线的经典画面。",
       "sourceIds": [
         "w-caaFAQ",
         "w-docDrone",
-        "w-mackenzieDrone"
+        "w-mackenzieDrone",
+        "x-doc-aoraki",
+        "x-qldc-drone",
+        "x-church-drone"
       ]
     }
   ],
@@ -2298,19 +2304,21 @@
       ]
     },
     {
-      "title": "03 / 无人机：两种许可都要看",
-      "body": "新西兰小于249g也无一般豁免。CAA空域与目视等要求、土地/人员同意同时满足；AirShare批准不代替地主同意。Tekapo有特定禁飞区，Pukaki多处涉及Meridian土地，Aoraki保护地需DOC许可；Queenstown/Glenorchy公地和附近机场另有限制。本手册没有任何“已获准可飞点”。 许可要钱：DOC Green区NZ$180+GST（约¥791，即时批出）、Orange区至少NZ$2,450+GST、Red区至少NZ$180+GST且很少批准；先在DOC无人机地图查Aoraki和Milford的分区颜色。这些不在3万控制版内。",
+      "title": "03 / 无人机：规则简单，但这条路线基本飞不了",
+      "body": "新西兰CAA规则本身简单：不用注册、不用执照、多数空域不用申请，限高120m、只能白天目视飞、机场4km内不行、受控空域要经AirShare拿许可，飞越他人或他人土地要先取得同意，249 g以下也没有豁免。难的是土地方：DOC保护地要许可（Green区NZ$180+GST即时批，Orange区至少NZ$2,450+GST，Red区很少批），而Aoraki国家公园整片禁止、米尔福德是RED、Lindis是ORANGE，Tekapo在机场4km内，Pukaki多属Meridian且国道边NZTA不许，QLDC土地一律不批。结论：这次建议不带。",
       "sourceIds": [
         "w-caaFAQ",
-        "w-mackenzieDrone",
         "w-docDrone",
-        "w-qldcDrone",
+        "x-doc-aoraki",
+        "w-mackenzieDrone",
+        "x-church-drone",
+        "x-qldc-drone",
         "w-airshare"
       ]
     },
     {
       "title": "04 / 行李、电池和无人机：按航段装包",
-      "body": "Emirates当前规定无人机机身不得随身，只能托运；若带Mini5Pro，要有硬保护并按航司要求处理电池。备用锂电池随身、单独防短路，按实际Wh和数量核对每家执飞航司。上海这张HO报价手提仅1×5kg，Z6III＋镜头＋脚架＋无人机容易超重：出发前称包，脚架可托运，贵重机身镜头尽量随身。 手提按航段：HO 1件≤5kg（55×40×20）另加1件放座位下的随身物品（可为相机包）；EK412最紧，只准1件≤7kg、55×38×22，没有额外个人物品，机身镜头和所有锂电池都要放这一件，多出的背包放进30kg托运；AirNZ 7kg加1件小随身物品，鼓胀的相机包可能被算作手提。充电宝：EK412每人只能带1个≤100Wh，机上不能用、不能放行李架；AirNZ最多2个；各航班都按机上不用充电宝充电准备。托运：HO和AirNZ每件23kg、三边和158cm，28寸箱含轮常在155–170cm，先量；超了就用第2件免费额度分装（单件超规HO约¥600、AirNZ从新西兰出发NZ$120）。",
+      "body": "Emirates当前规定无人机机身不得随身，只能托运；若带Mini5Pro，要有硬保护并按航司要求处理电池。备用锂电池随身、单独防短路，按实际Wh和数量核对每家执飞航司。上海这张HO报价手提仅1×5kg，Z6III＋镜头＋脚架＋无人机容易超重：出发前称包，脚架可托运，贵重机身镜头尽量随身。 手提按航段：HO 1件≤5kg（55×40×20）另加1件放座位下的随身物品（可为相机包）；EK412最紧，只准1件≤7kg、55×38×22，没有额外个人物品，机身镜头和所有锂电池都要放这一件，多出的背包放进30kg托运；AirNZ 7kg加1件小随身物品，鼓胀的相机包可能被算作手提。充电宝：EK412每人只能带1个≤100Wh，机上不能用、不能放行李架；AirNZ最多2个；各航班都按机上不用充电宝充电准备。托运：HO和AirNZ每件23kg、三边和158cm，28寸箱含轮常在155–170cm，先量；超了就用第2件免费额度分装（单件超规HO约¥600、AirNZ从新西兰出发NZ$120）。 你们带29/30寸箱：常见款含轮三边和165–173cm，你本人那只在吉祥和新航各收一次超尺寸费，合计约¥1,059；换成三边和≤158cm的箱子（如Samsonite 75cm级157cm、28寸）就是0，装不下的再托第2件，吉祥和新航每人都有2件额度。EK412按重量算，每人托运合计≤30kg，机场补重约USD15/kg，箱子装到23kg以内比较稳。出发前用卷尺量含轮含把手的三边和，不要拉开扩展层（会多约3cm）。",
       "sourceIds": [
         "i-emirates-drone",
         "i-airnz-battery",
@@ -2318,7 +2326,8 @@
         "x-ho-bags",
         "x-ek-cabin",
         "x-ek-powerbank",
-        "f-nz-bags"
+        "f-nz-bags",
+        "x-nz-excess"
       ]
     },
     {
@@ -2333,7 +2342,7 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十二天控制版精算¥28,326.04–30,103.39/人，已含¥1,000机动金；按上限超出¥30,000约¥103.39（上限已含¥1,000机动金和普通Visa/MC外币交易费）。用银联或免外币手续费的卡、瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers中任一项，就能回到3万以内。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–30,656，不能承诺不超。上限已按普通Visa/MC计入约1.5%外币交易费，用银联或免费卡可少约¥356。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,236–2,472；建议先换AUD150＋NZ300≈¥1,854，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十二天控制版精算¥28,326.04–31,043.47/人，已含¥1,000机动金；按上限超出¥30,000约¥1,043.47（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。最有效的是你本人改用三边和≤158cm的托运箱（省约¥1,059）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–31,596，不能承诺不超。上限已保守计入约1%外币交易费（约¥237）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,236–2,472；建议先换AUD150＋NZ300≈¥1,854，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
@@ -2368,13 +2377,15 @@
       ]
     },
     {
-      "title": "10 / 每人带什么卡",
-      "body": "每人至少带一张Visa或Mastercard实体卡（或手机钱包）：悉尼刷卡乘车只收Visa/MC/Amex，White Horse Hill停车机只收卡不收现金，Rydges不收现金。APEX用主驾本人的实体信用卡，银联信用卡也可以，银联借记卡不在其名单；Blue Peaks要出示与订单同名的信用卡。只有银联卡的人在悉尼买实体Opal卡。刷卡一律选当地币种，拒绝DCC；押金和预授权要留足额度。",
+      "title": "10 / 你的两张卡：招行万事达借记卡当主力",
+      "body": "招行万事达借记卡当主力：APEX接受银行发行的Visa/MC借记卡作租车担保（不收JCB），用同一张实体卡下单、主驾本人到场；悉尼刷卡乘车只收Visa/MC/Amex，这张卡可以直接刷；阿联酋澳洲出发不收刷卡附加费；新航借记卡手续费约1.1%，低于信用卡。中行JCB只作备用：JCB在澳新走运通网络，超市、加油站多半能刷，酒店、租车、Opal不一定收；境外取现收3%起，不要用。打95555确认：卡号前6位是不是人民币结算版（531063/534293）、免货币兑换费和0.5%返现对11月是否有效、开通“万事达卡跨境线上支付”并把境外网上支付和拍卡限额调高到至少NZ$1,700（二手资料说默认约800美元/天）、预授权多久解冻。借记卡的押金和预授权会冻结真钱，要多留余额。风险最高的是Blue Peaks：要求入住出示与订单同名的信用卡，第三方资料只列Visa/MC、还有一处写不收借记卡——订后马上邮件问能否用万事达借记卡，否则由持Visa/MC信用卡的同伴以本人名字订。Rydges用借记卡要入住时付清房费再交押金；Fairway写入住出示信用卡，也先问。另外两人若没有Visa/MC/Amex卡，在悉尼买实体Opal卡。刷卡一律选当地币种，拒绝DCC。",
       "sourceIds": [
-        "i-nsw-payment",
-        "x-doc-parking",
         "r-apex-faq",
-        "x-unionpay-fee"
+        "i-nsw-payment",
+        "x-cmb-mc",
+        "x-boc-jcb",
+        "x-jcb-anz",
+        "x-bluepeaks-loc"
       ]
     }
   ],
@@ -2985,12 +2996,6 @@
       "checked": "2026-10-22"
     },
     {
-      "id": "x-unionpay-fee",
-      "title": "银联国际：境外刷银联卡无货币转换费",
-      "url": "https://www.unionpayintl.com/cn/serviceCenter/cardUsingInstructions/1434.shtml",
-      "checked": "2026-10-22"
-    },
-    {
       "id": "x-minashi",
       "title": "出入国在留管理庁：みなし再入国許可",
       "url": "https://www.moj.go.jp/isa/immigration/procedures/minashisainyukoku_00001.html",
@@ -3049,6 +3054,54 @@
       "title": "SunSmart NZ：9月至4月需防晒",
       "url": "https://www.sunsmart.org.nz/",
       "checked": "2026-10-22"
+    },
+    {
+      "id": "x-uber-max",
+      "title": "Uber：Uber Max有保证的行李空间；UberXL只说通常放3只箱子",
+      "url": "https://www.uber.com/au/en/blog/learn-more-about-uber-max-trips/",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-nz-excess",
+      "title": "Air NZ超额行李：从新西兰飞其他地区，超重或超尺寸NZ$120/件",
+      "url": "https://www.airnewzealand.com/excess-baggage",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-cmb-mc",
+      "title": "招行万事达借记卡境外消费：免货币转换费、人民币清算（招行/万事达推广页）",
+      "url": "https://promote.caixin.com/2025-06-09/102328577.html",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-boc-jcb",
+      "title": "中国银行信用卡价目表：JCB网络跨境货币兑换费1%（金卡及以上2026年暂免）",
+      "url": "https://www.boc.cn/bcservice/bi2/202512/t20251226_25633613.html",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-jcb-anz",
+      "title": "JCB：在澳洲、新西兰经美国运通网络受理",
+      "url": "https://www.global.jcb/en/merchants/index.html",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-doc-aoraki",
+      "title": "DOC：Aoraki/Mount Cook国家公园全园禁止娱乐用途无人机",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-qldc-drone",
+      "title": "QLDC：非Part 102运营者不批准在议会土地飞无人机",
+      "url": "https://www.qldc.govt.nz/services/permits/drones",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "x-church-drone",
+      "title": "好牧羊人教堂无人机政策：教堂与Tekapo镇在机场4km内",
+      "url": "https://www.churchofthegoodshepherd.org.nz/visit/drone-policy",
+      "checked": "2026-10-22"
     }
   ],
   "droneAreas": [
@@ -3072,11 +3125,12 @@
     },
     {
       "place": "Tekapo教堂/湖岸",
-      "conclusion": "Mackenzie官网明确Tekapo有No Drone Zone；并非Council全区通用同意。教堂/人行桥历史Council记录显示不属Council地，不能套Council blanket consent；现地主及边界仍需确认。教堂、人群、湖岸、直升机活动与空域须逐点核查，主行程按不飞。",
+      "conclusion": "教堂官方：教堂和Tekapo镇都在Tekapo机场4km内，不允许飞；Mackenzie议会也写明有No Drone Zone。湖岸、教堂、Mt John都按不飞。 Mackenzie官网明确Tekapo有No Drone Zone；并非Council全区通用同意。教堂/人行桥历史Council记录显示不属Council地，不能套Council blanket consent；现地主及边界仍需确认。教堂、人群、湖岸、直升机活动与空域须逐点核查，主行程按不飞。",
       "sourceIds": [
         "w-mackenzieDrone",
         "w-churchLandRecord",
-        "w-caaFAQ"
+        "w-caaFAQ",
+        "x-church-drone"
       ],
       "status": "不承诺可飞"
     },
@@ -3092,27 +3146,29 @@
     },
     {
       "place": "Aoraki/Mount Cook NP / Hooker / Tasman",
-      "conclusion": "DOC保护地起降和悬停需permit，Hooker页面明确无permit不得飞。CAA人地同意和空域要求仍同时适用；无许可按不飞，不能从停车场外起飞绕过要求。",
+      "conclusion": "DOC：整个Aoraki/Mount Cook国家公园不允许娱乐用途无人机，Hooker、Kea Point、Tasman、Mt Cook村在DOC图层上都是RED区，付费也不行。 DOC保护地起降和悬停需permit，Hooker页面明确无permit不得飞。CAA人地同意和空域要求仍同时适用；无许可按不飞，不能从停车场外起飞绕过要求。",
       "sourceIds": [
         "w-docHooker",
         "w-docDrone",
-        "w-caaFAQ"
+        "w-caaFAQ",
+        "x-doc-aoraki"
       ],
       "status": "无许可不飞"
     },
     {
       "place": "Queenstown市区/湖岸/机场空域",
-      "conclusion": "QLDC当前不批准普通无人机飞越其公园、保留地和道路（商业Film permit且Part102运营另论）。私有地须业主同意，并查Queenstown机场管制区；超过机场4km仍可能在管制空域。AirShare的ATC批准不替代QLDC/业主同意。",
+      "conclusion": "Queenstown机场受控空域覆盖整个Wakatipu盆地，ATC许可要提前24小时经AirShare申请；QLDC土地（含湖边、公园、道路）不批。瓦纳卡湖岸和That Wānaka Tree同属QLDC土地，同样不能飞。 QLDC当前不批准普通无人机飞越其公园、保留地和道路（商业Film permit且Part102运营另论）。私有地须业主同意，并查Queenstown机场管制区；超过机场4km仍可能在管制空域。AirShare的ATC批准不替代QLDC/业主同意。",
       "sourceIds": [
         "w-qldcDrone",
         "w-airshareLand",
-        "w-caaFAQ"
+        "w-caaFAQ",
+        "x-qldc-drone"
       ],
       "status": "主行程按不飞"
     },
     {
       "place": "Glenorchy waterfront / red shed",
-      "conclusion": "不把水岸红屋当默认可飞点；QLDC公地政策适用，附近Glenorchy aerodrome有额外空域/4km条件。官网明确附近飞行需授权；没有取得土地与空域批准则不飞。",
+      "conclusion": "Glenorchy镇和码头约在Glenorchy机场2.3–2.5km内，不能飞。若坚持带机，唯一现实窗口是买DOC Green许可（NZ$207）后，在镇北Rees/Dart一带的Green区飞，须先用AirShare核对空域、不飞越牧场和人。 不把水岸红屋当默认可飞点；QLDC公地政策适用，附近Glenorchy aerodrome有额外空域/4km条件。官网明确附近飞行需授权；没有取得土地与空域批准则不飞。",
       "sourceIds": [
         "w-qldcDrone",
         "w-caaFAQ",
@@ -3122,7 +3178,7 @@
     },
     {
       "place": "Milford Sound / Piopiotahi",
-      "conclusion": "本次随巴士游船，不安排无人机。保护地需要DOC许可，另查CAA空域与运营方规定；Mini 5 Pro标称249.9 g±4 g，换长续航电池约296 g；新西兰不论重量都要遵守CAA Part 101、土地方同意和DOC许可。船上及码头不能擅自起飞。",
+      "conclusion": "DOC图层：米尔福德码头、Mirror Lakes、Lake Gunn都在Fiordland国家公园RED区，码头旁就是Milford Sound机场。 本次随巴士游船，不安排无人机。保护地需要DOC许可，另查CAA空域与运营方规定；Mini 5 Pro标称249.9 g±4 g，换长续航电池约296 g；新西兰不论重量都要遵守CAA Part 101、土地方同意和DOC许可。船上及码头不能擅自起飞。",
       "sourceIds": [
         "w-docDrone",
         "w-caaFAQ"
@@ -3629,8 +3685,8 @@
         },
         "splitPeople": 1,
         "category": "essential",
-        "status": "Airalo所选弹窗实查总额；设备兼容待查",
-        "note": "手机必须支持eSIM；若改实体卡/漫游，通信控制在¥200以内，多出的约¥28从机动金扣，不双算。",
+        "status": "Airalo所选弹窗实查总额；手机已确认支持eSIM",
+        "note": "用户10/22确认手机支持eSIM；只有数据，普通电话/短信另计，山区和米尔福德公路没有信号，先下载离线地图。",
         "sourceIds": [
           "x-esim"
         ],
@@ -3728,31 +3784,61 @@
         }
       },
       {
+        "id": "bag-oversize",
+        "title": "本人托运箱超尺寸（若用29/30寸）",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 0,
+          "max": 1058.64
+        },
+        "splitPeople": 1,
+        "category": "baggage",
+        "status": "条件费用：取决于箱子三边和",
+        "note": "常见29/30寸硬箱含轮三边和约165–173cm，超过吉祥和新航每件158cm上限：吉祥澳洲线超尺寸600元/件，新航从新西兰出发NZ$120/件（约¥459），同一件超重又超尺寸只收一次；EK412重量制每件可到203cm，不收。改用三边和≤158cm的托运箱（如75cm级或28寸）就是0。只计你本人那一只；朋友的箱子按各自航班规则。",
+        "sourceIds": [
+          "x-ho-bags",
+          "x-nz-excess"
+        ],
+        "perPersonNative": {
+          "min": 0.0,
+          "max": 1058.64
+        },
+        "perPersonCnyUnrounded": {
+          "min": 0.0,
+          "max": 1058.64
+        },
+        "perPersonCny": {
+          "min": 0.0,
+          "max": 1058.64
+        }
+      },
+      {
         "id": "card-fx-fee",
         "title": "发卡行外币交易费（视卡种）",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 355.69
+          "max": 237.13
         },
         "splitPeople": 1,
         "category": "essential",
-        "status": "按卡种的条件费用",
-        "note": "上限按本人外币支出约1.5%（常见大陆Visa/MC非美元交易手续费）；银联卡或免外币交易费的卡为0。刷卡一律选当地币种（AUD/NZD），拒绝DCC人民币结算。APEX收银联信用卡，可优先用；AirNZ多币种付款不列银联。",
+        "status": "按你的两张卡估算",
+        "note": "主力用招行万事达借记卡：人民币结算版（卡号前6位531063/534293）境外消费由万事达直接折人民币，招行免货币兑换费、另有0.5%返现，按此为0；若是美元结算版（525612）另核。中行JCB信用卡只作备用：普卡收1%货币兑换费，金卡及以上2026年暂免，且澳元/纽币先折日元再折人民币。上限按全部外币支出1%保守计。刷卡一律选当地币种，拒绝DCC。",
         "sourceIds": [
-          "x-unionpay-fee"
+          "x-cmb-mc",
+          "x-boc-jcb"
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 355.69
+          "max": 237.13
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 355.69
+          "max": 237.13
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 355.69
+          "max": 237.13
         }
       },
       {
@@ -3785,13 +3871,13 @@
     "summary": {
       "totalCNY": {
         "min": 28326.04,
-        "max": 30103.39,
-        "display": "控制版约¥28,326–30,103/人（含¥1,000机动金）"
+        "max": 31043.47,
+        "display": "控制版约¥28,326–31,043/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
           "min": 5655.4,
-          "max": 6390.46
+          "max": 7330.54
         },
         "AUD": {
           "min": 873.4366666666666,
@@ -3803,7 +3889,7 @@
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -103.39,
+      "headroomCNY": -1043.47,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -3821,16 +3907,16 @@
       },
       "relaxedFoodTotalCNY": {
         "min": 28631.8,
-        "max": 30656.37,
+        "max": 31596.45,
         "note": "餐饮放宽至AUD120–160＋NZ560–720；其余相同且含1000机动金，上限超过3万元"
       },
       "comparisonNote": "HO报价1人；EK三人AUD1,338.09÷3；NZ返程1人NZ$1,459。酒店、车、油、停车三人均分，餐饮/许可/翻译/保险/通信按本人。",
-      "scope": "本次新增支出含必要交通、9晚住宿、租车燃油停车、峡湾、餐饮、NZeTA+IVL、翻译、保险、通信、视卡种的发卡行外币交易费和1000机动金。购物/新增活动/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥943–1,179），只能从机动金扣，扣完后几乎没有涨价或补险缓冲。可退押金/预授权不是消费。",
-      "narrative": "十二天控制版精算¥28,326.04–30,103.39/人，已含¥1,000机动金；按上限超出¥30,000约¥103.39（上限已含¥1,000机动金和普通Visa/MC外币交易费）。用银联或免外币手续费的卡、瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers中任一项，就能回到3万以内。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–30,656，不能承诺不超。上限已按普通Visa/MC计入约1.5%外币交易费，用银联或免费卡可少约¥356。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "scope": "本次新增支出含必要交通、9晚住宿、租车燃油停车、峡湾、餐饮、NZeTA+IVL、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥943–1,179），只能从机动金扣，扣完后几乎没有涨价或补险缓冲。可退押金/预授权不是消费。",
+      "narrative": "十二天控制版精算¥28,326.04–31,043.47/人，已含¥1,000机动金；按上限超出¥30,000约¥1,043.47（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。最有效的是你本人改用三边和≤158cm的托运箱（省约¥1,059）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–31,596，不能承诺不超。上限已保守计入约1%外币交易费（约¥237）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
         "min": 28326.04,
-        "max": 30103.39,
-        "display": "控制版约¥28,326–30,103/人（含¥1,000机动金）"
+        "max": 31043.47,
+        "display": "控制版约¥28,326–31,043/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -3884,7 +3970,7 @@
     },
     {
       "title": "三万元：上限略超，要选一项省钱",
-      "body": "十二天控制版精算¥28,326.04–30,103.39/人，已含¥1,000机动金；按上限超出¥30,000约¥103.39（上限已含¥1,000机动金和普通Visa/MC外币交易费）。用银联或免外币手续费的卡、瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers中任一项，就能回到3万以内。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–30,656，不能承诺不超。上限已按普通Visa/MC计入约1.5%外币交易费，用银联或免费卡可少约¥356。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "body": "十二天控制版精算¥28,326.04–31,043.47/人，已含¥1,000机动金；按上限超出¥30,000约¥1,043.47（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。最有效的是你本人改用三边和≤158cm的托运箱（省约¥1,059）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是瓦纳卡改Fairway Studio（每人省约¥260）或Tekapo改Peppers。机票约¥11,987、住宿约¥7,659、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥28,632–31,596，不能承诺不超。上限已保守计入约1%外币交易费（约¥237）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
@@ -3941,7 +4027,7 @@
       },
       {
         "title": "02 / 三只28寸大箱，先确认外尺寸",
-        "body": "车组页面标4大箱＋3小包、5座，Santa Fe第三排放倒后约571L。large没有定义28寸外尺寸，or similar也不保证具体后备厢（同级Ford Everest只标3件大箱）。可试的装法：两箱平放后备厢，第三箱平放在放倒的二排\"40\"侧，后排乘客坐\"60\"侧，背包放脚坑，不堆过靠背。提车先试装。",
+        "body": "车组页面标4大箱＋3小包、5座，Santa Fe第三排放倒后约571L。large没有定义28寸外尺寸，or similar也不保证具体后备厢（同级Ford Everest只标3件大箱）。可试的装法：两箱平放后备厢，第三箱平放在放倒的二排\"40\"侧，后排乘客坐\"60\"侧，背包放脚坑，不堆过靠背。提车先试装。 你们带的是29/30寸箱（高约79–82cm）：Santa Fe尾门开口高约76cm，箱子只能平躺；两只30寸并排约110cm宽，大于轮拱间约107cm，所以要两只叠放、第三只放在折倒的二排“40”侧，3人坐车时估计能装但很紧，叠起来会高过遮物帘，停车注意防盗。装不下就当场要求换Ford Everest这类更高的车。",
         "sourceIds": [
           "r-apex-car"
         ]
