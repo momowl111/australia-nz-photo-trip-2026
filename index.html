@@ -1,44 +1,104 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173d3b">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="悉尼与新西兰南岛12天摄影旅行：格林诺奇与米尔福德峡湾、每日交互地图、三床候选住宿、实际报价与预算。">
   <meta name="robots" content="noindex,nofollow">
   <meta property="og:type" content="website"><meta property="og:title" content="南半球，追光十二日 · 澳新摄影旅行"><meta property="og:description" content="悉尼与新西兰南岛12天摄影旅行：每日交互地图、候选住宿、实际报价与预算。候选行程，未预订。"><meta property="og:url" content="https://momowl111.github.io/australia-nz-photo-trip-2026/">
   <title>南半球，追光十二日 · 澳新摄影旅行</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/leaflet.css"><link rel="stylesheet" href="style.css"><style>.zh{white-space:nowrap}.day-button{min-width:126px}</style>
-  <script defer src="assets/leaflet.js"></script><script defer src="app.js"></script>
+  <link rel="preload" as="image" href="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mt_Cook_from_Peters_Lookout.jpg/1280px-Mt_Cook_from_Peters_Lookout.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="assets/leaflet.css"><link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script><script defer src="assets/leaflet.js"></script>
 </head>
 <body>
-<a class="skip" href="#planner">跳转到行程地图</a>
-<header class="topbar"><a class="wordmark" href="#"><span class="brandmark">S</span> SOUTHBOUND（南行） <span class="wordmark-sub">南半球旅行手册</span></a><nav aria-label="页面导航"><a href="#planner">行程地图</a><a href="#photography">摄影参考</a><a href="#weather">天气与预案</a><a href="#rental">租车报价</a><a href="#before">行前审查</a></nav><button class="button small" id="share">分享本页</button></header>
-<main>
+<a class="skip" href="#planner">跳到每日行程</a>
+<header class="topbar" data-state="over-media">
+  <a class="wordmark" href="#top" aria-label="回到页首"><span class="brandmark" aria-hidden="true">S</span><span class="wordmark-name">SOUTHBOUND<span class="zh">（南行）</span></span><span class="wordmark-sub">南半球旅行手册</span></a>
+  <nav class="topnav" aria-label="页面导航"><a href="#planner">行程</a><a href="#budget">预算</a><a href="#before">行前</a><a href="#rental">租车</a><a href="#weather">天气</a><a href="#photography">摄影</a></nav>
+  <div class="topbar-actions"><button class="button small quiet" id="print" type="button">打印</button><button class="button small" id="share" type="button">分享</button></div>
+</header>
+<nav class="tabbar" aria-label="分区导航">
+  <a href="#planner"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6.5v13.5l6-2.5 6 2.5 6-2.5V4l-6 2.5L9 4Z"/><path d="M9 4v13.5M15 6.5V20"/></svg><span>行程</span></a>
+  <a href="#budget"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 14.5h2"/></svg><span>预算</span></a>
+  <a href="#before"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="3"/><path d="m8 9 1.5 1.5L12 8M8 15l1.5 1.5L12 14M14.5 9.5H17M14.5 15.5H17"/></svg><span>行前</span></a>
+  <a href="#weather"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .4-8 6 6 0 0 0-11.5 1.6A3.3 3.3 0 0 0 7 18Z"/></svg><span>天气</span></a>
+  <a href="#photography"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.7l1.3-2h5l1.3 2h1.7A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-8Z"/><circle cx="12" cy="12.5" r="3.5"/></svg><span>摄影</span></a>
+</nav>
+
+<main id="top">
 <section class="hero" aria-labelledby="hero-title">
-  <div class="hero-image" id="hero-image"></div><div class="hero-shade"></div>
-  <div class="hero-copy"><p class="eyebrow light">AUSTRALIA & NEW ZEALAND<span class="zh">（澳大利亚与新西兰）</span>· NOVEMBER 2026<span class="zh">（2026年11月）</span></p><h1 id="hero-title">南半球，<br>追光十二日。</h1><p class="hero-lead">从悉尼的海港蓝调，到南岛的湖泊、雪山与峡湾。<br>格林诺奇与米尔福德，都留在这趟旅程里。</p><div class="hero-pills"><span id="hero-dates">11.16 — 11.27</span><span>悉尼3晚 · 南岛7晚</span><span>Z6III（尼康相机）/ 24–120mm</span></div><a class="button primary" href="#planner">展开旅行地图 <span aria-hidden="true">↗</span></a></div>
+  <img class="hero-image" id="hero-image" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mt_Cook_from_Peters_Lookout.jpg/1280px-Mt_Cook_from_Peters_Lookout.jpg" alt="" fetchpriority="high" decoding="async" width="1280" height="853">
+  <div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="eyebrow light">AUSTRALIA &amp; NEW ZEALAND<span class="zh">（澳大利亚与新西兰）</span> · NOVEMBER 2026<span class="zh">（2026年11月）</span></p>
+    <h1 id="hero-title">南半球，<br>追光十二日。</h1>
+    <p class="hero-lead">从悉尼的海港蓝调，到南岛的湖泊、雪山与峡湾。<br>格林诺奇与米尔福德，都留在这趟旅程里。</p>
+    <div class="hero-pills"><span id="hero-dates">11.16 — 11.27</span><span>悉尼3晚 · 南岛7晚</span><span>Z6III<span class="zh">（尼康相机）</span> · 24–120mm · 16mm</span></div>
+    <a class="button primary" href="#overview">看12天行程 <span aria-hidden="true">↓</span></a>
+  </div>
   <a id="hero-credit" class="hero-credit" target="_blank" rel="noopener">真实摄影参考 · 查看出处</a>
 </section>
-<div class="intro wrap"><div><p class="eyebrow">THE PLAN<span class="zh">（行程方案）</span></p><h2>把好光线，留在路上。</h2></div><p>12天主方案：先悉尼、后南岛，上海往返。去程坐东航MU735（东方航空），11/15周日深夜出发、11/16下午到悉尼；悉尼住3晚两卧公寓、南岛住7晚，其中皇后镇3晚；保留格林诺奇，并加入米尔福德巴士游船。基督城取车、皇后镇还车，南岛有6个主要游览日。个人全程以3万元为目标，按保守上限估算会略超，超多少、怎么省都写在明细里；全部尚未预订。</p></div>
-<div class="wrap before-grid route-review" id="route-review" aria-label="新版路线取舍"></div>
-<section class="wrap" id="planner" aria-labelledby="planner-title">
-  <div class="section-title"><div><p class="eyebrow">01 / ROUTE & DAILY PLAN<span class="zh">（路线与每日安排）</span></p><h2 id="planner-title">每天去哪，地图告诉你。</h2></div><label class="date-choice">出发日期 <select id="start-date"><option value="16">11月16日 · 主方案</option><option value="17">11月17日 · 顺延草案</option></select></label></div>
-  <p id="shift-notice" class="notice" hidden>17日方案仅将游览日期顺延一天；全部报价、航班、酒店与活动库存、取消期限及日月时刻均未按新日期查询，不能沿用16日的预订结果。</p>
-  <div class="day-strip" id="day-strip" aria-label="选择旅行日期"><p>正在载入行程…</p></div><p class="sr-only" id="day-status" role="status" aria-live="polite"></p>
-  <div class="planner-shell">
-    <div class="map-column"><div class="map-toolbar"><div class="segmented"><button id="day-view" class="active" aria-pressed="true">当天路线</button><button id="all-view" aria-pressed="false">全程概览</button></div><label class="check"><input type="checkbox" id="hotels-toggle" checked> 候选酒店</label></div><div id="map" aria-label="行程交互地图"></div><p class="map-hint" id="map-hint" hidden>单指滑动页面；双指拖动或缩放地图，也可点＋/−按钮。</p><div class="map-caption"><span><i class="legend-dot"></i>拍摄 / 游览</span><span><i class="legend-dot hotel-dot"></i>候选住宿</span><span>虚线仅示访问顺序，不是道路导航</span></div><p class="map-fallback" id="map-fallback" hidden>地图底图暂时无法加载。每天的地点、时间和导航链接仍可使用。</p><div id="map-story" class="map-story"></div></div>
-    <article class="day-detail" id="day-detail"></article>
-  </div>
-  <div class="planner-note">时间均为目的地当地时间。地图点位为旅行规划用，停车场入口、步道开放与实际车程请在出发前核对；未给每个日出和日落都排活动，避免疲劳驾驶。</div>
+
+<section class="wrap summary" id="summary" aria-labelledby="summary-title">
+  <div class="summary-intro"><p class="eyebrow">THE PLAN<span class="zh">（行程方案）</span></p><h2 id="summary-title">把好光线，留在路上。</h2><p>先悉尼、后新西兰南岛，上海往返。去程坐东航MU735<span class="zh">（东方航空）</span>，11/15周日深夜出发、11/16下午到悉尼；悉尼住3晚两卧公寓，南岛住7晚，其中皇后镇3晚。格林诺奇和米尔福德都保留。基督城取车、皇后镇还车，两人轮流开。全部尚未预订。</p></div>
+  <dl class="fact-grid" id="fact-grid"><div class="fact"><dt>日期</dt><dd>11/16 — 11/27</dd></div><div class="fact"><dt>住宿</dt><dd>悉尼3晚 → 南岛7晚</dd></div><div class="fact"><dt>每人预算</dt><dd>载入中…</dd></div><div class="fact"><dt>最近要办</dt><dd>载入中…</dd></div></dl>
 </section>
-<section class="photo-section" id="photography"><div class="wrap"><div class="section-title"><div><p class="eyebrow">02 / WHAT YOU CAN PHOTOGRAPH<span class="zh">（这一路能拍什么）</span></p><h2>这一路，镜头里有什么。</h2></div><p class="section-aside">真实作品参考<br>不等于当日天气，也不是RAW<span class="zh">（相机原始文件）</span>原片</p></div><div class="photo-grid" id="photo-grid"></div><div class="gear-grid" id="gear-grid"></div></div></section>
-<section class="wrap weather-section" id="weather"><div class="section-title"><div><p class="eyebrow">03 / LIGHT, WEATHER & PLAN B<span class="zh">（光线、天气与备选方案）</span></p><h2>天气是变量，计划留余地。</h2></div><span class="tag">历史气候 ≠ 当日预报</span></div><div class="weather-highlight" id="weather-highlight"></div><div class="weather-grid" id="weather-grid"></div><div class="risk-grid" id="risk-grid"></div></section>
-<section class="wrap rental-section" id="rental" aria-labelledby="rental-title"><div class="section-title"><div><p class="eyebrow">CAR RENTAL / VERIFIED QUOTES<span class="zh">（租车 / 已核实报价）</span></p><h2 id="rental-title">三个人，三只大箱，一起上路。</h2></div><span class="tag">11/19 17:00 — 11/26 12:00 · 7计费日</span></div><div class="weather-highlight" id="rental-highlight"></div><div class="before-grid" id="rental-cards"></div><details class="source-details" id="rental-proof"></details><p class="planner-note">报价为2026年10月21日查询快照，未预订。主驾驶人25岁以上、第二驾驶人24岁；玻璃轮胎是否包括仍待确认，11月17日顺延草案须重查租期与库存。</p></section>
-<section class="before-section" id="before"><div class="wrap"><div class="section-title"><div><p class="eyebrow">04 / BEFORE YOU GO<span class="zh">（行前须知）</span></p><h2>拍得尽兴，也走得踏实。</h2></div><button class="button" id="print">打印 / 保存为PDF（电子文档）</button></div><p class="planner-note">以下会合与费用信息以11月16日主方案为准；顺延后需重新核对。</p><div class="before-grid" id="before-grid"></div><details class="source-details"><summary>展开机票、酒店与每人预算明细</summary><div id="budget-table"></div><div class="risk-grid" id="licence-detail"></div></details><details class="source-details"><summary>逐个地点看无人机限制</summary><p>以下是许可核查方向；本行程没有已获批准的起飞点。</p><div class="risk-grid" id="drone-areas"></div></details><details class="source-details"><summary>来源与各自核查日期、真实照片授权 <span>逐条标注</span></summary><p>政策、步道和航班会变；下列每条来源后标注各自的核查日期，未标日期者为“未复核”。照片为第三方真实摄影作品，除CC0作品外，权利属于原作者；未提供或声称持有摄影师RAW文件。</p><div id="sources"></div><div id="credits"></div></details></div></section>
+
+<section class="wrap overview" id="overview" aria-labelledby="overview-title">
+  <div class="section-title"><div><p class="eyebrow">12 DAYS AT A GLANCE<span class="zh">（12天一览）</span></p><h2 id="overview-title">12天一览</h2></div><p class="section-aside">点任意一天，下面直接打开那天的地图和时间表。</p></div>
+  <ol class="overview-list" id="overview-list"><li class="loading">正在载入行程…</li></ol>
+</section>
+
+<section class="wrap planner-section" id="planner" aria-labelledby="planner-title">
+  <div class="section-title"><div><p class="eyebrow">01 / ROUTE &amp; DAILY PLAN<span class="zh">（路线与每日安排）</span></p><h2 id="planner-title">每天去哪，地图告诉你。</h2></div><button class="text-link" id="toggle-draft" type="button">看顺延一天的草案（11/17出发）</button></div>
+  <div class="draft-banner" id="shift-notice" role="status" hidden><p><strong>正在看11月17日顺延草案：</strong>只把游览日期顺延一天；全部报价、航班、酒店与活动库存、取消期限及日月时刻均未按新日期查询，不能沿用16日的预订结果。预算、行前和租车各区仍以16日主方案为准。</p><button class="button small" id="back-main" type="button">回到主方案</button></div>
+  <div class="day-strip" id="day-strip" role="tablist" aria-label="选择旅行日期"></div><p class="loading-note" id="loading-note">正在载入行程…</p><p class="sr-only" id="day-status" role="status" aria-live="polite"></p>
+  <div class="planner-shell">
+    <div class="map-column">
+      <div class="map-frame">
+        <div class="map-toolbar"><div class="segmented" role="group" aria-label="地图范围"><button id="day-view" class="active" aria-pressed="true" type="button">当天</button><button id="all-view" aria-pressed="false" type="button">新西兰全程</button></div><label class="check"><input type="checkbox" role="switch" id="hotels-toggle" checked><span>住宿</span></label></div>
+        <div id="map" role="region" aria-label="行程交互地图"></div>
+      </div>
+      <p class="map-hint" id="map-hint" hidden>单指滑动页面；双指拖动或缩放地图，也可以点＋/−。</p>
+      <div class="map-caption"><span><i class="legend-dot"></i>拍摄 / 游览（数字＝时间表顺序）</span><span><i class="legend-dot hotel-dot"></i>候选住宿</span><span id="map-mode-note">虚线只表示先后顺序，不是道路导航</span></div>
+      <p class="map-fallback" id="map-fallback" hidden>地图底图暂时无法加载。每天的地点、时间和导航链接仍可使用。</p>
+    </div>
+    <article class="day-detail" id="day-detail" role="tabpanel" aria-label="当天行程"></article>
+  </div>
+  <p class="planner-note">除特别标注外，时间都是当地时间。地图点位是规划用的大致位置，停车场入口、步道开放和实际车程出发前再核对；没有给每个日出日落都排活动，避免疲劳驾驶。</p>
+  <details class="source-details" id="route-review-wrap"><summary>方案取舍与理由 <span>为什么这样排</span></summary><div class="card-grid" id="route-review"></div></details>
+</section>
+
+<section class="wrap budget-section" id="budget" aria-labelledby="budget-title">
+  <div class="section-title"><div><p class="eyebrow">02 / BUDGET<span class="zh">（预算）</span></p><h2 id="budget-title">钱花在哪，一眼看清。</h2></div><p class="section-aside">上海出发者本人费用 · 报价快照，未预订</p></div>
+  <div class="budget-hero" id="budget-hero"></div>
+  <div class="split-grid"><div class="panel"><h3>住宿一览</h3><div id="stay-table"></div></div><div class="panel"><h3>机票一览</h3><div id="flight-table"></div></div></div>
+  <details class="source-details" id="budget-details"><summary>逐项预算明细 <span>每行都有来源</span></summary><div id="budget-table"></div></details>
+</section>
+
+<section class="before-section" id="before" aria-labelledby="before-title"><div class="wrap">
+  <div class="section-title"><div><p class="eyebrow">03 / BEFORE YOU GO<span class="zh">（行前须知）</span></p><h2 id="before-title">出发前要办的事。</h2></div><p class="section-aside">按截止日期排；勾选只保存在你这台设备上。</p></div>
+  <div class="todo-panel panel"><div class="todo-head"><div class="segmented" role="group" aria-label="按人查看" id="todo-filter"><button class="active" aria-pressed="true" data-who="all" type="button">全部</button><button aria-pressed="false" data-who="user" type="button">上海（你）</button><button aria-pressed="false" data-who="tokyo" type="button">东京同学</button><button aria-pressed="false" data-who="melbourne" type="button">墨尔本同学</button></div><span class="todo-count" id="todo-count"></span></div><ol class="todo-list" id="todo-list"></ol></div>
+  <p class="planner-note">以下会合与费用信息以11月16日主方案为准。</p>
+  <div class="card-grid" id="before-grid"></div>
+  <div class="card-grid compact" id="licence-detail"></div>
+  <details class="source-details" data-print="closed"><summary>逐个地点看无人机限制 <span>这次建议不带</span></summary><p>以下是许可核查方向；本行程没有已获批准的起飞点。</p><div class="card-grid compact" id="drone-areas"></div></details>
+</div></section>
+
+<section class="wrap rental-section" id="rental" aria-labelledby="rental-title"><div class="section-title"><div><p class="eyebrow">04 / CAR RENTAL<span class="zh">（租车 / 已核实报价）</span></p><h2 id="rental-title">三个人，三只大箱，一起上路。</h2></div><span class="tag">11/19 17:00 — 11/26 12:00 · 7计费日</span></div><div class="highlight" id="rental-highlight"></div><div class="card-grid" id="rental-cards"></div><details class="source-details" id="rental-proof"></details><p class="planner-note">报价为2026年10月21日查询快照，10/25复查同价，未预订。主驾驶人25岁以上、第二驾驶人24岁；玻璃轮胎是否包括仍待确认。</p></section>
+
+<section class="wrap weather-section" id="weather" aria-labelledby="weather-title"><div class="section-title"><div><p class="eyebrow">05 / LIGHT, WEATHER &amp; PLAN B<span class="zh">（光线、天气与备选方案）</span></p><h2 id="weather-title">天气是变量，计划留余地。</h2></div><span class="tag">历史气候 ≠ 当日预报</span></div><div class="highlight" id="weather-highlight"></div><div class="card-grid three" id="weather-grid"></div><div class="card-grid compact" id="risk-grid"></div></section>
+
+<section class="photo-section" id="photography" aria-labelledby="photo-title"><div class="wrap"><div class="section-title"><div><p class="eyebrow">06 / WHAT YOU CAN PHOTOGRAPH<span class="zh">（这一路能拍什么）</span></p><h2 id="photo-title">这一路，镜头里有什么。</h2></div><p class="section-aside">别人拍的真实作品，作构图参考<br>不代表当天天气，也不是RAW<span class="zh">（相机原始文件）</span>原片</p></div><div class="photo-grid" id="photo-grid"></div><div class="card-grid three gear" id="gear-grid"></div></div></section>
+
+<section class="wrap appendix" id="sources-section" aria-label="来源与授权"><details class="source-details"><summary>来源与各自核查日期、真实照片授权 <span>逐条标注</span></summary><p>政策、步道和航班会变；下列每条来源后标注各自的核查日期，未标日期者为“未复核”。照片为第三方真实摄影作品，除CC0作品外，权利属于原作者；未提供或声称持有摄影师RAW文件。</p><div id="sources"></div><div id="credits"></div></details></section>
 </main>
 <footer class="wrap footer"><span>SOUTHBOUND（南行）/ 南半球追光十二日</span><span>公开分享版 · 候选行程，未预订</span><a id="repo-link" href="https://github.com/momowl111/australia-nz-photo-trip-2026" target="_blank" rel="noopener">查看与更新行程 ↗</a></footer>
+<button class="return-pill" id="return-pill" type="button" hidden>回到时间表</button>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<dialog id="photo-dialog"><button id="close-photo" class="dialog-close" aria-label="关闭照片">×</button><div id="dialog-content"></div></dialog>
+<dialog id="photo-dialog" aria-labelledby="dialog-title"><button id="close-photo" class="dialog-close" aria-label="关闭照片" type="button">×</button><div id="dialog-content"></div></dialog>
 <noscript><p class="notice">此交互地图需要JavaScript（网页脚本）。请开启后重试，或查看仓库中的行程数据。</p></noscript>
 </body></html>
