@@ -17,7 +17,7 @@
       "area": "上海→悉尼",
       "timezone": "上海 UTC（协调世界时）+8 / 悉尼 UTC+11",
       "hotelId": "adina",
-      "summary": "MU735（东方航空）在11/16凌晨00:10起飞，所以11/15（周日）晚上就要出门，21:10前到浦东T1（1号航站楼）。悉尼当地13:35落地，打车去Town Hall（市政厅）站旁的Adina（阿迪娜公寓酒店），15:00后入住休息；傍晚有精神就步行去环形码头看歌剧院日落。",
+      "summary": "MU735（东方航空）在11/16凌晨00:10起飞，所以11/15（周日）晚上就要出门，21:10前到浦东T1（1号航站楼）。悉尼当地13:35落地，打车去Adina Town Hall（雅迪娜市政厅公寓酒店，在Town Hall（市政厅）站旁）入住休息，15:00起可入住；傍晚有精神就坐火车去环形码头看歌剧院日落。",
       "drive": "国际航班＋机场打车；不租车",
       "photoGoal": "落地日以休息为主；可选环形码头的歌剧院日落和蓝调。",
       "weatherPlan": "航班延误或出关慢，就直接入住休息，取消傍晚外拍；下雨也取消，后两天还会经过歌剧院。",
@@ -50,7 +50,7 @@
           "lat": -33.939,
           "lon": 151.166,
           "kind": "arrival",
-          "detail": "出关、取行李、申报，按约1–1.5小时规划（午后到达，排队通常比清晨航班集中时短，但不保证）。机上用英文填纸质入境卡IPC（入境旅客卡，自备笔，住址写公寓英文地址），食品和检疫栏如实勾选；东航航班不在电子申报试点内（试点只有Qantas（澳洲航空）部分航班）。",
+          "detail": "出关、取行李、申报，按约1–1.5小时规划（午后到达，排队通常比清晨航班集中时短，但不保证）。机上用英文填纸质入境卡IPC（入境旅客卡，自备笔，住址写酒店英文地址511 Kent Street（肯特街）, Sydney（悉尼） NSW（新南威尔士州） 2000），食品和检疫栏如实勾选；东航航班不在电子申报试点内（试点只有Qantas（澳洲航空）部分航班）。",
           "photoTip": "边检和海关区域不拍照，先收好设备。",
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
@@ -61,30 +61,30 @@
         {
           "time": "15:00",
           "endTime": "15:45",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "transfer",
-          "detail": "到出租车排队点打车去Town Hall（市政厅）站旁的Adina（阿迪娜公寓酒店），地址511 Kent Street（肯特街），约13km，平时25–40分钟，傍晚更久。今天若只有你一人（或加墨尔本朋友）和1–2只箱子，普通出租车或UberXL（优步大车型）就行；三人三箱时才要Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）。15:00起入住，24小时前台办理；订房人本人出示证件和订房用的信用卡（预授权AUD200）。",
+          "detail": "到出租车排队点打车去Adina Town Hall（雅迪娜市政厅公寓酒店，511 Kent Street（肯特街），在Town Hall（市政厅）站旁），约13km，平时25–40分钟，傍晚更久。今天若只有你一人（或加墨尔本朋友）和1–2只箱子，普通出租车或UberXL（优步大车型）就行；三人三箱时才要Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）。酒店15:00起入住、24小时前台：出示信用卡和带照片的证件，向前台要3张房卡，并确认第二间卧室已按订单铺成两张单人床（1 King and 1 Twin（一间特大床＋一间两张单人床））。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": [
             "x-uber-max",
-            "b-adina"
+            "h-adina"
           ]
         },
         {
           "time": "15:45",
           "endTime": "18:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
           "detail": "入住、洗澡、补觉。顺路在附近超市买三天的早餐和饮用水，公寓有厨房。墨尔本朋友若今天到，也直接来公寓。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         },
         {
@@ -95,7 +95,7 @@
           "lat": -33.8579415,
           "lon": 151.2100792,
           "kind": "meal",
-          "detail": "从公寓步行约25分钟（约1.8km）到环形码头，或在Town Hall（市政厅）站坐火车两站到Circular Quay（环形码头），简单吃晚饭。",
+          "detail": "从酒店步行约4分钟到Town Hall（市政厅）站，坐火车2站到Circular Quay（环形码头，约10分钟，刷卡进站），或步行约25–30分钟（约2km）；在码头简单吃晚饭。",
           "photoTip": "",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": []
@@ -119,14 +119,14 @@
         {
           "time": "20:10",
           "endTime": "21:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
-          "detail": "坐火车或打车约10–15分钟回公寓，备份照片后早睡；明天上午在公寓等东京朋友。",
+          "detail": "坐火车或打车回酒店（约10–15分钟），备份照片后早睡；明天上午在公寓等东京朋友。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         }
       ]
@@ -165,14 +165,14 @@
         {
           "time": "07:30",
           "endTime": "09:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "meal",
-          "detail": "公寓早餐。东京朋友坐JL51（日本航空） 06:50到T1（1号航站楼），出关后自己叫Uber（优步）或出租车来公寓（约14km、30–40分钟），预计09:00前后到；你在公寓等，不用去机场。墨尔本朋友若坐早班机来，也直接到公寓。",
+          "detail": "公寓早餐。东京朋友坐JL51（日本航空） 06:50到T1（1号航站楼），出关后自己叫Uber（优步）或出租车来酒店（约13km、30–40分钟），到前台报房号领房卡，预计09:00前后到；你在公寓等，不用去机场。墨尔本朋友若坐早班机来，也直接到公寓。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": [
             "i-flight-tokyo16",
             "i-syd-arrival"
@@ -195,27 +195,27 @@
         {
           "time": "11:30",
           "endTime": "12:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "meal",
           "detail": "打车回市区（约10分钟），在公寓附近吃午饭。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         },
         {
           "time": "12:30",
           "endTime": "14:40",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
           "detail": "午休，朋友补觉。下午要走约4–5km，换好走路的鞋，带三脚架、水和薄外套。想上BridgeMuseum（大桥博物馆）就先在网上订16:30的入场时段。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         },
         {
@@ -226,7 +226,7 @@
           "lat": -33.856376,
           "lon": 151.21019,
           "kind": "photo",
-          "detail": "14:30从公寓步行约25分钟（约1.9km），或坐火车到Circular Quay（环形码头）再走5分钟，或打车约10分钟到岩石区。在大桥正下方隔水看歌剧院：下午太阳在西边身后，歌剧院是顺光，适合拍近景。",
+          "detail": "14:40从酒店打车约10分钟，或坐火车到Circular Quay（环形码头）再走约8分钟到岩石区。在大桥正下方隔水看歌剧院：下午太阳在西边身后，歌剧院是顺光，适合拍近景。",
           "photoTip": "24–70mm把歌剧院和渡轮放在一起，16mm从桥下仰拍桥身。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": []
@@ -334,14 +334,14 @@
         {
           "time": "20:10",
           "endTime": "21:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
-          "detail": "在基里比利叫车回公寓（过桥约10分钟），备份照片，21:30前睡。",
+          "detail": "在基里比利叫车回公寓（过桥约15分钟），备份照片，21:30前睡。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         }
       ]
@@ -363,14 +363,14 @@
         {
           "time": "07:30",
           "endTime": "08:15",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "meal",
           "detail": "公寓早餐。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         },
         {
@@ -415,14 +415,14 @@
         {
           "time": "11:45",
           "endTime": "14:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
           "detail": "打车回公寓（约15–25分钟），午休；先把明早的行李收好，按航段分好重量（EK412（阿联酋航空）每人托运合计30kg）。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         },
         {
@@ -433,7 +433,7 @@
           "lat": -33.857198,
           "lon": 151.215123,
           "kind": "photo",
-          "detail": "步行约15分钟或打车到歌剧院，拍台阶和贝壳屋顶近景。想进去看，可参加内部导览（约1小时，要提前订）。16:00左右可能有Grand Princess（至尊公主号）邮轮从Overseas Passenger Terminal（海外客运码头）出港、驶过歌剧院，船期临近再查。",
+          "detail": "坐火车到Circular Quay（环形码头）再走约8分钟，或打车约10分钟到歌剧院，拍台阶和贝壳屋顶近景。想进去看，可参加内部导览（约1小时，要提前订）。16:00左右可能有Grand Princess（至尊公主号）邮轮从Overseas Passenger Terminal（海外客运码头）出港、驶过歌剧院，船期临近再查。",
           "photoTip": "16mm贴近帆壳拍瓷砖纹理和线条，24–120mm挑局部；台阶上别架脚架挡路。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": []
@@ -486,14 +486,14 @@
         {
           "time": "20:15",
           "endTime": "21:30",
-          "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
+          "place": "Adina Town Hall（雅迪娜市政厅公寓酒店）住宿区域",
           "placeId": "adina",
-          "lat": -33.87425933,
-          "lon": 151.20520413,
+          "lat": -33.8745231,
+          "lon": 151.2050285,
           "kind": "rest",
           "detail": "在Art Gallery Rd（美术馆路）叫车回公寓（约10分钟），行李最后装好，21:30前睡；05:15起床。今晚就约好明早05:45上车的Maxi Taxi（大型出租车）或Uber Max（优步大行李车型，三人三箱）。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（511 Kent Street（肯特街））；规划用，非大堂入口",
           "sourceIds": []
         }
       ]
@@ -516,7 +516,7 @@
           "placeId": "syd_t1",
           "place": "悉尼机场T1（1号航站楼）国际出发",
           "kind": "transfer",
-          "detail": "悉尼当地05:15起床，05:45离开公寓，在24小时前台还房卡（到T1（1号航站楼）约13km，清晨约20–25分钟），06:10前后到T1；前一晚约好05:45上车的Maxi Taxi（大型出租车）或Uber Max（优步大行李车型），并先发消息确认能放3只29/30寸箱和3个背包。",
+          "detail": "悉尼当地05:15起床，05:45离开酒店（24小时前台，退房不受影响；到T1（1号航站楼）约13km，清晨约20–25分钟），06:10前后到T1；前一晚约好05:45上车的Maxi Taxi（大型出租车）或Uber Max（优步大行李车型），并先发消息确认能放3只29/30寸箱和3个背包。",
           "photoTip": "摄影包、电池与托运行李提前分好。",
           "lat": -33.939,
           "lon": 151.166,
@@ -635,8 +635,8 @@
       "title": "睡足后出发，约翰山看湖，傍晚拍教堂",
       "area": "基督城→Tekapo（特卡波）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "twinstars",
-      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Twin Stars（双星度假屋）入住休息，傍晚拍教堂。",
+      "hotelId": "bigrock",
+      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Big Rock（大石屋）度假屋入住休息，傍晚拍教堂。",
       "drive": "自驾 · 约3.2小时纯驾驶，另加Mt John（约翰山）上下山约40分钟",
       "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
       "weatherPlan": "云低或大风就跳过Mt John（约翰山，山顶看不到湖色还很冷），直接入住。当天先熟悉左侧通行，不加库克山往返。若到Tekapo（特卡波）遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
@@ -686,18 +686,18 @@
         {
           "time": "12:15",
           "endTime": "14:00",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "drive",
           "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时45分钟含交通缓冲；实际入住以酒店规定为准。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
             "i-nz-route",
             "i-road-conditions",
-            "b-twinstars"
+            "h-bigrock"
           ]
         },
         {
@@ -718,16 +718,17 @@
         {
           "time": "15:30",
           "endTime": "18:15",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "rest",
-          "detail": "Twin Stars（双星度假屋）在16 Aorangi Crescent（奥兰吉新月街），15:00–17:00入住，按确认函的入住方式进门；晚于17:00到要先经房东同意，否则加收NZD25。顺路在镇上Four Square（新西兰小型连锁超市）补少量食材，入住后午休、做早晚餐。",
+          "detail": "Big Rock（大石屋）是Book Tekapo（特卡波订房管理公司）管理的整栋度假屋，钥匙盒或电子锁自助入住，按约提前7天收到的入住信息直接去14 Andrew Don Drive（安德鲁·唐路）；15:00起可入住。四间卧室、两个卫生间，三人各住一间。顺路在镇上Four Square（新西兰小型连锁超市）补少量食材，入住后午休、做早晚餐。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
-            "b-twinstars"
+            "h-bigrock",
+            "h-booktekapo-terms"
           ]
         },
         {
@@ -736,7 +737,7 @@
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd（好牧羊人教堂）公共外部",
           "kind": "photo",
-          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Twin Stars（双星度假屋）离教堂直线约0.6km，步行约10分钟。",
+          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Big Rock（大石屋）离教堂直线约0.9km（步行约18分钟、开车约3分钟）。",
           "photoTip": "Z6III（尼康全画幅相机）＋24–120mm先拍山层，日落后用70–120mm把教堂拍成中远景、带湖岸前景；脚架用于蓝调。教堂内禁止拍照，整个Takapō（特卡波毛利语名）镇禁飞无人机。",
           "lat": -44.003,
           "lon": 170.482,
@@ -750,16 +751,16 @@
         {
           "time": "21:30",
           "endTime": "22:00",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "rest",
           "detail": "短程返回住宿，备份后休息；今晚不再加月光或银河拍摄。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
-            "b-twinstars",
+            "h-bigrock",
             "i-driver-rest"
           ]
         }
@@ -773,7 +774,7 @@
       "title": "Pukaki（普卡基）与Aoraki（奥拉基/库克山）：以短步道换好照片",
       "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Tekapo",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "twinstars",
+      "hotelId": "bigrock",
       "summary": "睡足后出发，拍Pukaki（普卡基）、Kea Point（基亚观景点）与Tasman Valley（塔斯曼谷）；不把三小时Hooker（胡克谷步道）全程当必选。",
       "drive": "自驾 · 约3–3.5小时纯驾驶（全程最长的驾驶日）",
       "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
@@ -782,19 +783,19 @@
         {
           "time": "08:00",
           "endTime": "09:00",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "meal",
           "detail": "睡足后早餐，判断山区天气与路况；不为银河早起。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
             "i-weather",
             "i-road-conditions",
             "i-driver-rest",
-            "b-twinstars"
+            "h-bigrock"
           ]
         },
         {
@@ -889,33 +890,33 @@
         {
           "time": "15:15",
           "endTime": "17:00",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "drive",
           "detail": "回Tekapo（特卡波），途中需要就停正规休息点；不在山里等到日落再开夜路。 回到Tekapo先在镇上加油站加满，明天过Lindis Pass（林迪斯山口）前油量不低于半箱（满箱约630km，D4（第4天）–D7（第7天）合计超过一箱）。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
             "i-driver-rest",
             "i-road-conditions",
-            "b-twinstars"
+            "h-bigrock"
           ]
         },
         {
           "time": "17:00",
           "endTime": "19:45",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "rest",
           "detail": "休息、晚餐和备份照片。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
-            "b-twinstars"
+            "h-bigrock"
           ]
         },
         {
@@ -924,7 +925,7 @@
           "placeId": "tekapo_lake",
           "place": "Lake Tekapo（特卡波湖）镇区湖岸",
           "kind": "photo_optional",
-          "detail": "若D5（第5天）已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 Twin Stars（双星度假屋）离镇中心步行约3分钟，回去很近。",
+          "detail": "若D5（第5天）已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 回Big Rock（大石屋）开车约3分钟。",
           "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
           "lat": -44.003,
           "lon": 170.478,
@@ -944,7 +945,7 @@
       "title": "穿越林迪斯，把黄昏留给瓦纳卡",
       "area": "Tekapo（特卡波）→Wānaka（瓦纳卡）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "archway",
+      "hotelId": "moorings",
       "summary": "经Pukaki（普卡基）、Omarama（奥马拉马）与Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）住一晚；保留湖岸黄昏，不当过路打卡。",
       "drive": "自驾 · 约2.5–3小时纯驾驶，另留停靠与午餐",
       "photoGoal": "林迪斯山坡线条、Wānaka（瓦纳卡）湖岸与雪山层次；24–120mm是主力。",
@@ -953,16 +954,16 @@
         {
           "time": "08:00",
           "endTime": "09:30",
-          "placeId": "twinstars",
-          "place": "Twin Stars（双星度假屋）住宿区域",
+          "placeId": "bigrock",
+          "place": "Big Rock（大石屋）住宿区域",
           "kind": "meal",
           "detail": "早餐、打包、按住宿规定退房；09:30出发，正常方案不早起追日出。",
           "photoTip": "",
-          "lat": -44.0066,
-          "lon": 170.477256,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按确认函入住指示",
+          "lat": -44.0081273,
+          "lon": 170.4734763,
+          "coordinateStatus": "Book Tekapo（特卡波订房管理公司）官网物业坐标；规划用，非车道入口",
           "sourceIds": [
-            "b-twinstars"
+            "h-bigrock"
           ]
         },
         {
@@ -1013,31 +1014,32 @@
         {
           "time": "13:10",
           "endTime": "14:30",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "moorings",
+          "place": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）住宿区域",
           "kind": "drive",
-          "detail": "经Tarras（塔拉斯）转SH8A（8A号国道）/SH6（6号国道）到Wānaka（瓦纳卡），入住前按确认函找64 Hedditch Street（赫迪奇街）；不继续开往皇后镇。",
+          "detail": "经Tarras（塔拉斯）转SH8A（8A号国道）/SH6（6号国道）到Wānaka（瓦纳卡），直接开到湖边的17 Lakeside Road（湖滨路）；不继续开往皇后镇。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.6930577,
+          "lon": 169.1362695,
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（17 Lakeside Road（湖滨路））；规划用",
           "sourceIds": [
-            "b-archway"
+            "h-moorings"
           ]
         },
         {
           "time": "14:30",
           "endTime": "17:30",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "moorings",
+          "place": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）住宿区域",
           "kind": "rest",
-          "detail": "入住、洗澡、午休；Archway（拱门汽车旅馆） 14:00起入住，前台开到20:30，延误到20:30以后要提前一天联系。三间卧室各睡实体床，房型按最终确认函；只有一个浴室。",
+          "detail": "入住、洗澡、午休。The Moorings（停泊处公寓）前台14:00–19:30办入住（10:30–14:00前台不在，别早到），晚到要先打电话或发邮件约好。两卧两卫：2张大床＋1张单人床，三人各睡一张；两层楼没有电梯。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.6930577,
+          "lon": 169.1362695,
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（17 Lakeside Road（湖滨路））；规划用",
           "sourceIds": [
-            "b-archway"
+            "route-clearbrook",
+            "h-moorings"
           ]
         },
         {
@@ -1059,7 +1061,7 @@
           "placeId": "wanaka_lakefront",
           "place": "Wānaka（瓦纳卡）镇区湖岸",
           "kind": "photo",
-          "detail": "湖岸黄昏与蓝调；11/22日落约21:00、民用暮光约21:34结束，21:40收工。用可安全到达的公共湖岸，不以孤独树排队或水位作为成片前提。Archway（拱门汽车旅馆）离湖边约400m（步行5–7分钟）。",
+          "detail": "湖岸黄昏与蓝调；11/22日落约21:00、民用暮光约21:34结束，21:40收工。用可安全到达的公共湖岸，不以孤独树排队或水位作为成片前提。The Moorings（停泊处公寓）就在湖边，过马路就是湖岸，走2分钟到镇中心。",
           "photoTip": "24–35mm拍岸线、树影和山；70–120mm拍雪山与水面纹理，脚架压低防阵风。",
           "lat": -44.693,
           "lon": 169.133,
@@ -1071,16 +1073,16 @@
         {
           "time": "21:40",
           "endTime": "22:15",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "moorings",
+          "place": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）住宿区域",
           "kind": "rest",
           "detail": "回房备份并休息；拍了完整黄昏，次晨不设日出闹钟，09:00再出门。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.6930577,
+          "lon": 169.1362695,
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（17 Lakeside Road（湖滨路））；规划用",
           "sourceIds": [
-            "b-archway"
+            "h-moorings"
           ]
         }
       ],
@@ -1102,17 +1104,17 @@
         {
           "time": "08:00",
           "endTime": "09:00",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "moorings",
+          "place": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）住宿区域",
           "kind": "meal",
           "detail": "正常睡足后早餐、整理行李；11/23日出约05:58，但拍过昨晚黄昏就不安排05点起床。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.6930577,
+          "lon": 169.1362695,
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（17 Lakeside Road（湖滨路））；规划用",
           "sourceIds": [
             "route-wanaka-sun",
-            "b-archway"
+            "h-moorings"
           ]
         },
         {
@@ -1132,16 +1134,16 @@
         {
           "time": "09:40",
           "endTime": "10:00",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "moorings",
+          "place": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）住宿区域",
           "kind": "packing",
           "detail": "回房拿行李，10:00前退房，清点充电器和存储卡。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.6930577,
+          "lon": 169.1362695,
+          "coordinateStatus": "OpenStreetMap（开放街图）地理编码点（17 Lakeside Road（湖滨路））；规划用",
           "sourceIds": [
-            "b-archway"
+            "h-moorings"
           ]
         },
         {
@@ -1231,7 +1233,7 @@
         }
       ],
       "shortTitle": "瓦纳卡到皇后镇",
-      "lightNote": "本晚不追21:04日落；明早米尔福德接车07:40，睡眠优先。 可选：想拍That Wānaka Tree（瓦纳卡孤独树），05:20出门、05:30–06:20在树边拍日出（距Archway（拱门汽车旅馆）约2.4km，开车约5分钟），回来补睡；明天米尔福德要早起，疲劳或阴雨就跳过。"
+      "lightNote": "本晚不追21:04日落；明早米尔福德接车07:40，睡眠优先。 可选：想拍That Wānaka Tree（瓦纳卡孤独树），05:20出门、05:30–06:20在树边拍日出（距The Moorings（停泊处公寓）约2km，开车约4分钟），回来补睡；明天米尔福德要早起，疲劳或阴雨就跳过。"
     },
     {
       "day": 9,
@@ -1708,40 +1710,63 @@
   "hotels": [
     {
       "id": "adina",
-      "name": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）",
-      "lat": -33.87425933,
-      "lon": 151.20520413,
-      "address": "511 Kent Street（肯特街，Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口），悉尼市中心；Town Hall（市政厅）站步行约4分钟，Wynyard（温亚德）站约15分钟，环形码头和岩石区约25分钟",
-      "sourceUrl": "https://www.booking.com/hotel/au/adina-sydney.zh-cn.html?checkin=2026-11-16&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1&selected_currency=AUD",
-      "sourceIds": [
-        "b-adina",
-        "x-au-surcharge",
-        "x-pullman"
-      ],
-      "coordinateNote": "Booking物业地图点（Kent St与Bathurst St路口）；24小时前台",
+      "name": "Adina Apartment Hotel Sydney Town Hall（悉尼市政厅雅迪娜公寓酒店）",
+      "lat": -33.8745231,
+      "lon": 151.2050285,
+      "address": "511 Kent Street（肯特街）, Sydney（悉尼） NSW（新南威尔士州） 2000, Australia（澳大利亚，步行约4分钟到Town Hall（市政厅）站；填入境卡用这个英文地址）",
+      "sourceUrl": "https://reservations.tfehotels.com/?adult=3&arrive=2026-11-16&chain=14687&child=0&config=SBE&currency=AUD&depart=2026-11-19&hotel=58447&level=hotel&locale=en-US&productcurrency=AUD&rooms=1&theme=ADISBE&themecode=ADISBE",
+      "coordinateNote": "OpenStreetMap地理编码点（511 Kent Street）；规划用，非大堂入口",
       "checkin": "2026-11-16",
       "checkout": "2026-11-19",
       "nights": 3,
-      "beds": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大床（queen），有厨房、洗衣烘干机和阳台",
-      "price": "三人3晚 AUD2,326≈¥10,972；Booking（缤客订房网）含税价，每晚约¥3,657，超过原每晚¥3,000上限。澳洲10/1起Visa（维萨卡）、Mastercard（万事达卡）、美国运通、银联刷卡不加收费用，不用JCB（日本信用卡组织）。",
-      "cancel": "11/15前免费取消、11/13前不付款（Booking（缤客订房网）列明，精确时刻依订单）。15:00起入住、11:00前退房，24小时前台，11/19清晨05:45退房也有人。入住时订房人本人出示带照片的证件和订房用的那张信用卡，两卧公寓预授权AUD200（不是消费，离店后5–10天解冻）。在Booking选“尊贵两卧室公寓”里写明“卧室1：2张单人床、卧室2：1张大号双人床”、可免费取消的那一档（AUD2,326），备注里写三位成人、请按两张单人床铺好，并请酒店邮件确认（酒店自己的房型名是“King或Twin（两张单人床）”，要写明Twin）；不要订“标准两卧室公寓”（床型视供应，可能两张大床），也不要订同房型不可退的那档。街角在市中心，怕吵就备注要高楼层；连住3晚约每3晚才全面打扫一次，毛巾可随时要。若售罄，后备是Pullman Quay Grand（悉尼铂尔曼码头大酒店）花园景两卧（贵很多）。",
-      "nativeTotal": 2326.0,
+      "price": "三人3晚 AUD1,969.45≈¥9,290；已加已知手续费，非所有卡最终扣款保证 每晚约¥3,097，超过原每晚¥3,000上限。",
+      "nativeTotal": 1969.45,
       "currency": "AUD",
-      "priceStatus": "Booking（缤客订房网） 3成人11/16–19，10/27实时澳元页：尊贵两卧室公寓（卧室1两张单人床、卧室2一张大床）AUD2,326含税，剩6套；可退价；未到付款页",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00",
       "checkoutTime": "11:00",
-      "perNightCNY": 3657.247333333333,
+      "perNightCNY": 3096.6318833333335,
       "aboveOriginalNightlyCap": true,
-      "cardFeeNote": "澳大利亚2026-10-01起Visa、Mastercard、美国运通、银联、eftpos不得加收刷卡费，含境外发行的卡（RBA/ACCC）；Booking细则里旧的1.2%已不适用，JCB和Diners不在禁令内。",
-      "refundableDeposit": {
-        "currency": "AUD",
-        "amount": 200,
-        "note": "Credit-card pre-authorisation at check-in for two-bedroom apartments; released 5-10 days after departure; card and ID in the booking name; not consumption"
-      },
-      "bedConfirmation": "Booking（缤客订房网）房型列两张单人床＋一张大床；未锁房，订后请酒店邮件确认按两张单人床铺好。",
-      "reviews": "Booking（缤客订房网） 9.3（1,129条）、清洁9.6；2024年4月起全面翻新，2025年2月重开；TripAdvisor（猫途鹰）4.8/5"
+      "cardFeeNote": "Australia bans Visa/Mastercard/Amex/eftpos surcharges from 2026-10-01; price incl. taxes and fees",
+      "beds": "两卧两卫92㎡：卧室1一张特大床（king）＋卧室2两张单人床（订时勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”）；有厨房、阳台、洗衣烘干机",
+      "cancel": "官网Special Deal（特惠价，不含早）：11/15 14:00（悉尼时间）前免费取消，之后收一晚；订时不扣款，入住时要出示信用卡。15:00起入住、11:00前退房，24小时前台。订时在Bedding Request（床型要求）勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”，再在特别要求栏写3位成人要3张床（页面写“视到店情况安排”，不是保证）。想含早：先免费注册eClub（雅迪娜免费会员）会员，同房型AUD1,870.97含每日早餐（是否三人都含没写）。后备：Cosmopolitan Heights（大都会高地公寓）官网直订AUD1,622，但只给1把钥匙、要到外面取还钥匙、订时先付一半。",
+      "priceStatus": "Adina（雅迪娜公寓酒店）官网10/26实时：2 Bedroom King or Twin（两卧公寓，大床或单人床可选）特惠价（不含早）三晚AUD1,969.45含税，显示只剩3间；澳洲10/1起刷卡不加费；未到填资料页",
+      "bedConfirmation": "房型可免费选1张特大床＋2张单人床（视到店情况）；未锁房，订后请朋友邮件确认三张床都铺好。",
+      "sourceIds": [
+        "h-adina",
+        "h-adina-page",
+        "x-au-surcharge",
+        "h-adina-rv"
+      ],
+      "refundableDeposit": null,
+      "review": {
+        "checked": "2026-10-27",
+        "headline": "Google（谷歌） 4.1（911条）· 2025年2月全面翻新后重开",
+        "verdict": "换成它：刚翻新、干净，24小时前台，两个卫生间，三人可以各拿房卡分头出入。",
+        "replaced": "原来的Cosmopolitan Heights（大都会高地公寓）楼不旧（约2019年），但整套只给1把电梯钥匙，钥匙要到步行约11分钟外的KeyNest（钥匙寄存点）点取还（6–8点可能关门），赶不上11/19 05:45出发；第二卧是拼接大床，要申请才分成两张单人床，有住客说忘了分；2026年2月的评价说家具厨具“有点旧、磨损”。",
+        "scores": "Google（谷歌） 4.1/5（911条，含翻新前的老评价）；Tripadvisor（猫途鹰） 4.8/5（79条）；Trip.com（携程国际版） 4.8/5（84条）。",
+        "good": [
+          "近一年的评价多说“翻新后像新的”“非常干净”“床舒服”",
+          "92㎡两卧两卫，有厨房、阳台和洗衣烘干机",
+          "24小时前台，不用去外面取钥匙；步行约4分钟到Town Hall（市政厅）站"
+        ],
+        "bad": [
+          "有住客说15:00到时房间还没好",
+          "有住客说晚上能听到街上的车声；只有两部电梯",
+          "有住客提前很久要的加床到店时没准备好，所以床型要提前确认"
+        ],
+        "ask": [
+          "在官网订2 Bedroom King or Twin（两卧公寓，大床或单人床可选），在Bedding Request（床型要求）勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”，再在特别要求栏写“3 adults, 3 separate beds”",
+          "请会英语的朋友出发前几天发邮件确认床型；入住时向前台要3张房卡",
+          "11/15 14:00（悉尼时间）前可免费取消，订时不扣款"
+        ],
+        "sourceIds": [
+          "h-adina-rv",
+          "h-adina-page",
+          "h-cosmo-direct"
+        ]
+      }
     },
     {
       "id": "palms",
@@ -1751,90 +1776,172 @@
       "address": "56 Roydvale Avenue（罗伊德维尔大道）, Burnside（伯恩赛德）, Christchurch（基督城）, New Zealand（新西兰）",
       "sourceUrl": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "sourceIds": [
-        "b-hotel-1"
+        "h-palms",
+        "h-palms-rv"
       ],
       "coordinateNote": "Unchanged existing map third-party property point; official address crosschecked",
       "checkin": "2026-11-19",
       "checkout": "2026-11-20",
       "nights": 1,
       "beds": "大型一卧公寓45㎡：卧室1特大床＋客厅2单人床（两人睡客厅）",
-      "price": "三人1晚 NZD326.43≈¥1,248；已加已知手续费，非所有卡最终扣款保证",
-      "cancel": "11/17当地00:00前可免费取消，之后收全额NZ326.43；不预付、到店付。14–20时入住、10:00前退房。卡费未找到，不保证为0；本路线先取车，不依赖酒店免费接驳。 想每人单独一间：同店三卧公寓（一张大床＋两间各两张单人床，60㎡）可退价NZD479，比现在多NZD153，只剩1套。要求一楼的房间（没有电梯，箱子重）。",
-      "nativeTotal": 326.43,
+      "price": "三人1晚 NZD279.00≈¥1,066；已加已知手续费，非所有卡最终扣款保证",
+      "cancel": "官网直订：11/17 14:00（基督城时间）前免费取消，之后收一晚；订时不扣款，到店付。14:00–20:00入住（前台20:00下班，晚到要提前联系）、10:00前退房。卡费没写，不保证为0；本路线先取车，不依赖酒店接驳。想每人一间：同店三卧NZ$409（1张特大床＋4张单人床，只剩1间）。",
+      "nativeTotal": 279.0,
       "currency": "NZD",
-      "priceStatus": "已进入未提交个人资料页，含税精确NZ326.43；卡费未确认",
+      "priceStatus": "官网10/26实时：Large One Bedroom（大型一卧公寓）三人NZ$279（Booking（缤客订房网） 10/23为NZ$326.43），只剩2间；卡费未确认",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "14:00–20:00",
       "checkoutTime": "02:00–10:00",
-      "perNightCNY": 1247.61546,
+      "perNightCNY": 1066.338,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "No card surcharge was found in live property fine print or Step 1 price summary; zero fee is not guaranteed for every card/payment channel.",
+      "cardFeeNote": "No card fee shown before the details step; not guaranteed zero",
       "refundableDeposit": null,
-      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。",
-      "reviews": "Booking（缤客订房网） 9.3（891条）、清洁9.7；2011年建；TripAdvisor（猫途鹰） 4.8/5（1,618条）"
+      "bedConfirmation": "官网写明1张特大床＋2张单人床；未锁房，订时备注三张床都铺好、尽量给后排单元。",
+      "review": {
+        "checked": "2026-10-27",
+        "headline": "Google（谷歌） 4.7（327条）· Tripadvisor（猫途鹰） 4.8（1,622条）",
+        "verdict": "保留：基督城评价最好的一档，最常被夸干净；改在官网直订，比Booking（缤客订房网）便宜（NZ$279）。",
+        "scores": "Google（谷歌） 4.7/5（327条）；Tripadvisor（猫途鹰） 4.8/5（1,622条）；Trip.com（携程国际版） 4.4/5（129条）。",
+        "good": [
+          "近一个月的评价多说“一尘不染”“床舒服”，前台热心",
+          "住宅区安静，几乎听不到飞机声；免费停车、免费洗衣",
+          "离机场开车约5分钟，第二天直接往南开"
+        ],
+        "bad": [
+          "不算新：第三方网站写2011年建",
+          "两张单人床在客厅（和小厨房同一间），只有一个卫生间",
+          "有评价说临街的单元早上有车声；附近吃饭要开车",
+          "前台20:00下班，晚到要提前联系"
+        ],
+        "ask": [
+          "官网订Large One Bedroom（大型一卧公寓，NZ$279），备注“3 adults, please make up all 3 beds; a rear unit if possible”",
+          "想每人一间：同店三卧NZ$409（只剩1间，每人多约¥166）",
+          "11/17 14:00（基督城时间）前免费取消，订时不扣款"
+        ],
+        "sourceIds": [
+          "h-palms-rv",
+          "h-palms"
+        ]
+      }
     },
     {
-      "id": "twinstars",
-      "name": "Twin Stars（双星度假屋）",
-      "lat": -44.0066,
-      "lon": 170.477256,
-      "address": "16 Aorangi Crescent（奥兰吉新月街）, Lake Tekapo（特卡波湖） 7999, New Zealand（新西兰）；步行约3分钟到镇中心，离教堂直线约0.6km（步行约10分钟）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/twin-stars.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "sourceIds": [
-        "b-twinstars"
-      ],
-      "coordinateNote": "Booking物业地图点；按确认函入住指示",
+      "id": "bigrock",
+      "name": "Big Rock（大石屋）",
+      "lat": -44.0081273,
+      "lon": 170.4734763,
+      "address": "14 Andrew Don Drive（安德鲁·唐路）, Lake Tekapo（特卡波湖） 7999, New Zealand（新西兰）",
+      "sourceUrl": "https://booktekapo.co.nz/accommodation/big-rock",
+      "coordinateNote": "Book Tekapo官网物业坐标；规划用，非车道入口",
       "checkin": "2026-11-20",
       "checkout": "2026-11-22",
       "nights": 2,
-      "beds": "三卧两卫度假屋100㎡：两间各一张双人床、一间两张单人床，每人可以单独一间；有厨房和洗碗机",
-      "price": "三人2晚 NZD1,972＋刷信用卡3%＝NZD2,031.16≈¥7,763；Booking（缤客订房网）含税价，到店前由房东收款，不收现金",
-      "cancel": "11/6前免费取消（比别处早），到店前房东向订房的卡收款（Booking（缤客订房网）列明，精确时刻依订单）。15:00–17:00入住、07:00–10:00退房；要提前告诉到达时间，过了入住时段才到要先经房东同意，否则加收NZD25；22:00–07:00保持安静。刷信用卡加3%。由Explore Tekapo Accommodation（特卡波住宿管理公司）管理。房子2005年建，不算新，但Booking清洁9.5、爱彼迎清洁4.9，近一年没找到差评。Tesoro（特索罗） 11/20–22已订满。后备：Snowy Peak Apartment（雪峰公寓，2020年建，Booking 8.8分，三卧两卫，NZD2,300＋3%，离镇中心步行约10分钟、回程上坡，11/13前免费取消）。",
-      "nativeTotal": 2031.16,
+      "price": "三人2晚 NZD1,872.68≈¥7,157；已加已知手续费，非所有卡最终扣款保证 每晚约¥3,579，超过原每晚¥3,000上限（整栋四卧，三人各住一间）。",
+      "nativeTotal": 1872.68,
       "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 3成人11/20–22，10/27实时纽币页：NZD1,972含税；刷信用卡另加3%，按NZD2,031.16计；未到付款页",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "15:00–17:00",
-      "checkoutTime": "07:00–10:00",
-      "perNightCNY": 3881.54676,
+      "checkinTime": "15:00",
+      "checkoutTime": "10:00",
+      "perNightCNY": 3578.69148,
       "aboveOriginalNightlyCap": true,
-      "cardFeeNote": "Booking细则：刷信用卡加收3%；不收现金。",
+      "cardFeeNote": "Google Travel stay total NZD 1,827 (Booking.com). Book Tekapo publishes a 2.5% payment processing fee (Tesoro's Booking listing also showed it), so the budget adds 2.5%: NZD 1,872.68",
+      "beds": "整栋四卧两卫约200㎡：两间大床房、一间双单人床房、一间单人床房（按官网照片），三人各住一间",
+      "cancel": "取消条款还没核实：Google（谷歌）上Booking（缤客订房网）的报价没写免费取消；Book Tekapo（特卡波订房管理公司）条款写入住前7天内取消收全款（约11/13前取消不收，以订单为准）。15:00起入住、10:00前退房；钥匙盒或电子锁自助入住，入住信息约提前7天发送，直接去14 Andrew Don Drive（安德鲁·唐路），不必先到管理处。",
+      "priceStatus": "Google Travel（谷歌酒店搜索） 10/26实时：Booking（缤客订房网）两晚NZ$1,827；按Book Tekapo（特卡波订房管理公司）公布的2.5%付款处理费保守计NZ$1,872.68；Book Tekapo库存显示两晚都有房",
+      "bedConfirmation": "官网照片有5张实体床、4间卧室；未锁房，订后请商家确认三人用的三张床都铺好。",
+      "sourceIds": [
+        "h-bigrock",
+        "h-booktekapo-terms",
+        "h-bigrock-rv"
+      ],
       "refundableDeposit": null,
-      "bedConfirmation": "房型列三间卧室四张实体床；未锁房，订后留言三位成人、预计15:30到。",
-      "reviews": "Booking（缤客订房网） 9.1（114条）、清洁9.5；爱彼迎4.79/5（168条）；2005年建"
+      "review": {
+        "checked": "2026-10-27",
+        "headline": "Google（谷歌） 4.6（75条）· 四卧两卫，三人各住一间",
+        "verdict": "换成它：原来的Tesoro（特索罗度假屋） 11/21已经没房。Big Rock（大石屋）是现代风格的整栋房子，离教堂更近，价格差不多。",
+        "replaced": "原来的Tesoro（特索罗度假屋）评价也很好（Booking（缤客订房网） 9.6），但Book Tekapo（特卡波订房管理公司）库存显示11/21晚已被订走，两晚连住订不到。",
+        "scores": "Google（谷歌） 4.6/5（75条）；Booking（缤客订房网） 9.9/10（5条）；另两家订房网站各10/10（8条）。条数偏少。",
+        "good": [
+          "近几个月的评价说“房子很棒、很宽敞”“床非常舒服”“很干净”",
+          "四卧两卫约200㎡、单层；官网照片是两间大床房、一间双单人床房、一间单人床房",
+          "离Church of the Good Shepherd（好牧羊人教堂）直线约0.9km（开车约3分钟），步行约12分钟到Four Square（新西兰小型连锁超市）"
+        ],
+        "bad": [
+          "评价条数少，参考价值有限",
+          "有住客说洗衣机和烘干机不太好用",
+          "同一地址还有一间单独出租的小屋Little Rock（小石屋），11/21晚有别的客人",
+          "没有前台，钥匙盒自助入住；取消条款还没核实"
+        ],
+        "ask": [
+          "下单前看清取消条款（Book Tekapo（特卡波订房管理公司）条款：入住前7天内取消收全款）",
+          "订后请会英语的朋友发邮件确认：三人用的三张床都铺好，自助入住密码怎么发",
+          "后备：Star Lake View（星湖景度假屋，三卧两卫，两晚NZ$1,867，评价很少）"
+        ],
+        "sourceIds": [
+          "h-bigrock-rv",
+          "h-bigrock",
+          "h-booktekapo-terms"
+        ]
+      }
     },
     {
-      "id": "archway",
-      "name": "Archway Motels & Chalets（拱门汽车旅馆小屋）",
-      "lat": -44.69342849,
-      "lon": 169.14169908,
-      "address": "64 Hedditch Street（赫迪奇街）, Wānaka（瓦纳卡） 9305, New Zealand（新西兰）；离湖边约400m（步行5–7分钟），镇中心餐馆步行10–15分钟（回程上坡）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/archway-motels.zh-cn.html?checkin=2026-11-22&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "sourceIds": [
-        "b-archway"
-      ],
-      "coordinateNote": "Booking物业地图点；按入住指示找三卧公寓",
+      "id": "moorings",
+      "name": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓）",
+      "lat": -44.6930577,
+      "lon": 169.1362695,
+      "address": "17 Lakeside Road（湖滨路）, Wanaka（瓦纳卡） 9305, New Zealand（新西兰，湖边，走2分钟到镇中心）",
+      "sourceUrl": "https://fbs.ibexres.com/production/doublerock/fbs979.html?bc=13357",
+      "coordinateNote": "OpenStreetMap地理编码点（17 Lakeside Road）；规划用",
       "checkin": "2026-11-22",
       "checkout": "2026-11-23",
       "nights": 1,
-      "beds": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房",
-      "price": "三人1晚 NZD514＋刷信用卡2.5%＝NZD526.85≈¥2,014；到店付款",
-      "cancel": "11/20前免费取消，到店付款（Booking（缤客订房网）列明）。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息。入住出示带照片的证件和订房人本人的信用卡，刷信用卡加2.5%。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。只剩1套；售完可订同店两卧（两张单人床＋一张大床＋沙发床，NZD498），再不行回到Fairway（费尔韦，8.2分，NZD619）。",
-      "nativeTotal": 526.85,
+      "price": "三人1晚 NZD679.32≈¥2,596；已加已知手续费，非所有卡最终扣款保证",
+      "nativeTotal": 679.32,
       "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 3成人11/22–23，10/27实时纽币页：NZD514含税、到店付款；刷信用卡另加2.5%，按NZD526.85计",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "14:00",
-      "checkoutTime": "08:00–10:00",
-      "perNightCNY": 2013.6207000000002,
+      "checkinTime": "14:00–19:30",
+      "checkoutTime": "10:00",
+      "perNightCNY": 2596.3610400000002,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "Booking细则：刷信用卡加收2.5%。",
+      "cardFeeNote": "2% surcharge for online or credit-card payment (official policy)",
+      "beds": "两卧两卫约80㎡：2张大床（queen）＋1张单人床，分两间卧室；两层，没有电梯",
+      "cancel": "官网直订刷信用卡加2%。取消：官网政策写提前72小时，但Google（谷歌）上同一官网价写11/8前免费取消，按11/8算，以确认函为准；入住前30天内可能先扣50%。14:00–19:30入住（前台10:30–14:00不在，晚到先打电话或发邮件约好）、10:00前退房；免费停车。卖完就订同店三卧（NZ$729.30，2张大床＋2张单人床，两个卫生间）。",
+      "priceStatus": "官网10/26实时：2 Bedroom 2 Bathroom三人NZ$666＋2%卡费＝NZ$679.32，只剩1套",
+      "bedConfirmation": "官网订房系统写明2张大床＋1张单人床、两间卧室；未锁房，订后确认三张床都铺好。",
+      "sourceIds": [
+        "h-moorings",
+        "h-moorings-rv"
+      ],
       "refundableDeposit": null,
-      "bedConfirmation": "房型列三间卧室共五张实体床；未锁房，订后留言三位成人。",
-      "reviews": "Booking（缤客订房网） 9.0（1,983条）、清洁9.3；Google（谷歌） 4.7/5（439条），TripAdvisor（猫途鹰） 4.5/5；这套是老楼翻新"
+      "review": {
+        "checked": "2026-10-27",
+        "headline": "Google（谷歌） 4.5（256条）· 湖边，过马路就是湖",
+        "verdict": "换成它：比Fairway（费尔韦汽车旅馆）干净、位置好，两卧两卫，三张床官网写明；每人只多约¥97。",
+        "replaced": "原来的Fairway（费尔韦汽车旅馆）近几个月的评价说房子旧、油漆剥落、临公路有车声、床垫塌陷，店主回复说2027年才全面翻新；两卧只有1个卫生间，床型官网也没写。",
+        "scores": "Google（谷歌） 4.5/5（256条）；Tripadvisor（猫途鹰） 4.6/5（589条）；Trip.com（携程国际版） 9.1/10（100条，清洁9.2）。",
+        "good": [
+          "近几个月的评价说“非常宽敞”“一尘不染”“阳台风景很好”“安静”",
+          "两间卧室：2张大床＋1张单人床，两个卫生间都有地暖",
+          "在湖边的Lakeside Road（湖滨路），走2分钟到镇中心，拍完湖岸黄昏走回来最近；免费停车"
+        ],
+        "bad": [
+          "不新：第三方网站写2000年建，有评价说“稍旧但舒服”",
+          "有两条差评说前台（老板）态度不好",
+          "两层楼没有电梯，要把箱子搬上楼",
+          "前台10:30–14:00不在，19:30后入住要提前约"
+        ],
+        "ask": [
+          "只剩1套，尽快在官网订；刷信用卡加2%，共NZ$679.32",
+          "取消期限按11/8算（官网写72小时，Google（谷歌）写11/8，以确认函为准）；入住前30天内可能先扣50%",
+          "卖完就订同店三卧（NZ$729.30，2张大床＋2张单人床）"
+        ],
+        "sourceIds": [
+          "h-moorings-rv",
+          "h-moorings"
+        ]
+      }
     },
     {
       "id": "bluepeaks",
@@ -1845,7 +1952,9 @@
       "sourceUrl": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "sourceIds": [
         "b-hotel-3",
-        "x-bluepeaks-loc"
+        "x-bluepeaks-loc",
+        "h-bluepeaks-rv",
+        "h-bluepeaks"
       ],
       "coordinateNote": "地图点在8 Coronation Drive公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge, 11 Sydney Street（约70 m）。",
       "checkin": "2026-11-23",
@@ -1853,7 +1962,7 @@
       "nights": 3,
       "beds": "两卧两卫100㎡：1双人床＋2单人床；上层只能走楼梯",
       "price": "三人3晚 NZD2,331.96≈¥8,913；已加已知手续费，非所有卡最终扣款保证",
-      "cancel": "11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 订时选“Two-Bedroom Apartment（两卧公寓）”里写明一张双人床＋两张单人床的那种（同楼还有两张大床的房型），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁。",
+      "cancel": "11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 官网直订同价（NZ$765.83/晚），但下单就扣款、入住48小时前可免费取消。只订“Two Bedroom Apartment（两卧公寓）”，别订名字带“2 Queen（两张大床）”的（只有两张床）。",
       "nativeTotal": 2331.9625,
       "currency": "NZD",
       "priceStatus": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
@@ -1866,7 +1975,31 @@
       "cardFeeNote": "Live table whole-NZD room price2295; fixed additional online fee exactly2.50 in fine print (table rounds to+3). Card-inclusive total is calculated from published charge policy, not a completed final payment page.",
       "refundableDeposit": null,
       "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。",
-      "reviews": "Booking（缤客订房网） 8.9（806条）、清洁9.3；2000年代初建，各套由业主分别装修，有的家具旧"
+      "review": {
+        "checked": "2026-10-27",
+        "headline": "Google（谷歌） 4.4（138条）· 位置4.9分，步行2分钟进城",
+        "verdict": "保留：位置最好，两卧两卫，三张真床；缺点是家具旧。更新的Sudima Five Mile（五英里苏迪玛酒店）在Frankton（弗兰克顿），只有1个卫生间，还更贵，不换。",
+        "scores": "Google（谷歌） 4.4/5（138条，位置4.9）；Trip.com（携程国际版） 4.6/5（85条）；Tripadvisor（猫途鹰） 4.3/5（207条）；Booking（缤客订房网） 8.9（817条，10/25）。",
+        "good": [
+          "多数评价说干净、床品干净，位置“无敌”",
+          "主卧1张大床带独立卫生间，次卧2张单人床，客厅另有1张单人床",
+          "免费有顶车位，每套一个"
+        ],
+        "bad": [
+          "多条评价说家具旧：沙发有污渍、门把手松、卫生间门锁不上",
+          "Wi-Fi（无线网）常断，烘干机弱；没有遮光帘，晚上能听到过路的车",
+          "上层只能走楼梯；20:00后取钥匙收NZ$90"
+        ],
+        "ask": [
+          "只订“Two Bedroom Apartment（两卧公寓）”（1张大床＋2张单人床），不要订名字带“2 Queen（两张大床）”的（只有两张床）",
+          "备注请求一楼、翻新过的单元；带眼罩",
+          "官网价和10/25一样（NZ$2,331.96含卡费），但官网下单就扣款；Booking（缤客订房网）那次是11/19前不付款"
+        ],
+        "sourceIds": [
+          "h-bluepeaks-rv",
+          "h-bluepeaks"
+        ]
+      }
     }
   ],
   "photos": [
@@ -2496,7 +2629,7 @@
         "i-flight-shanghai",
         "i-flight-tokyo16",
         "i-mel-early",
-        "b-hotel-0",
+        "h-adina",
         "x-nzeta-req"
       ]
     },
@@ -2548,30 +2681,30 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十二天控制版精算¥30,206.51–33,697.31/人，已含¥1,000机动金；按上限超出¥30,000约¥3,697.31（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按“新、干净、三张床、位置不偏、评价好”复查住宿：悉尼换Adina（阿迪娜公寓酒店）、特卡波换Twin Stars（双星度假屋，Tesoro（特索罗）已订满）、瓦纳卡换Archway（拱门汽车旅馆），住宿每人比原方案多约¥967。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）；其次是悉尼改订Adina标准两卧室公寓（每人省约¥561，但床型视供应，可能是两张大床）。机票约¥10,875、住宿约¥10,303、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥30,607–34,345，不能承诺不超。上限已保守计入约1%外币交易费（约¥269）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,236–2,472；建议先换AUD150＋NZ300≈¥1,854，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十二天控制版精算¥29,577.81–33,062.32/人，已含¥1,000机动金；按上限超出¥30,000约¥3,062.32（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按评价换了三处住宿（悉尼Adina Town Hall（雅迪娜市政厅公寓酒店）、特卡波Big Rock（大石屋）、瓦纳卡The Moorings（停泊处公寓）），基督城改官网直订，住宿每人比10/25多约¥338。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是悉尼用Adina（雅迪娜公寓酒店）的eClub（雅迪娜免费会员）会员价（含早，每人省约¥155），或改回Cosmopolitan Heights（大都会高地公寓）官网直订（每人省约¥546，但只有一把钥匙、要到外面取还）。机票约¥10,875、住宿约¥9,674、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥29,978–33,710，不能承诺不超。上限已保守计入约1%外币交易费（约¥263）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,236–2,472；建议先换AUD150＋NZ300≈¥1,854，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 下单前最要紧的几件事",
-      "body": "①住宿用可退价尽早订：悉尼订Adina（阿迪娜公寓酒店）尊贵两卧室公寓（11/15前免费取消）；特卡波Tesoro（特索罗）已订满，改Twin Stars（双星度假屋，11/6前免费取消）；瓦纳卡改Archway（拱门汽车旅馆）三卧（只剩1套，11/20前免费取消、到店付）。②两位朋友在11/19前买好并付清11/26离开新西兰的机票。③EK412（阿联酋航空） Saver（经济票价）不可退、同单改动作用于全部乘客：已确定能入境的人先出票，东京同伴下签后再单独下单，可先用免费24小时保留价。④APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；每处订后留言三位成人、三张床都铺好。⑤手机eSIM（电子手机卡）兼容；历史澳签费是否计入3万；旅行险官网试算豪华版¥198.40，投保时按真实生日再看一眼。⑥MU735（东方航空）在携程下单页核对总价，不加¥58保障服务；11/15（周日）21:10前到浦东T1（1号航站楼）。⑦大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
+      "body": "①住宿用可退价尽早订：悉尼Adina Town Hall（雅迪娜市政厅公寓酒店）两卧在官网订（11/15 14:00前免费取消、订时不扣款），勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”床型；瓦纳卡The Moorings（停泊处公寓）两卧两卫只剩1套；特卡波Tesoro（特索罗度假屋） 11/21已无房，改订Big Rock（大石屋），下单前看清取消条款。②两位朋友在11/19前买好并付清11/26离开新西兰的机票。③EK412（阿联酋航空） Saver（经济票价）不可退、同单改动作用于全部乘客：已确定能入境的人先出票，东京同伴下签后再单独下单，可先用免费24小时保留价。④APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；各住宿书面确认三张床都铺好。⑤手机eSIM（电子手机卡）兼容；历史澳签费是否计入3万；旅行险官网试算豪华版¥198.40，投保时按真实生日再看一眼。⑥MU735（东方航空）在携程下单页核对总价，不加¥58保障服务；11/15（周日）21:10前到浦东T1（1号航站楼）。⑦大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
       "sourceIds": [
         "r-apex-terms",
-        "b-twinstars",
+        "h-bigrock",
         "x-esim",
         "x-insurance",
-        "b-archway",
+        "h-moorings",
         "x-nzeta-req",
         "i-flight-ek",
-        "b-adina",
+        "h-adina",
         "i-flight-shanghai",
         "r-apex-faq"
       ]
     },
     {
       "title": "08 / 防晒、驱虫和超市补给",
-      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城机场附近或11/20在Geraldine（杰拉尔丁）买Twin Stars（双星度假屋）两晚的早晚餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
+      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城机场附近或11/20在Geraldine（杰拉尔丁）买Big Rock（大石屋）两晚的早晚餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
       "sourceIds": [
         "x-sunsmart",
         "x-milford"
@@ -2587,7 +2720,7 @@
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款（租车、三处住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。Booking（缤客订房网）上写“入住要出示信用卡”或“用信用卡收押金”的（悉尼Adina（阿迪娜公寓酒店）入住预授权AUD200、Blue Peaks（蓝色山峰）、Archway（拱门汽车旅馆）），用Visa或Mastercard信用卡订最稳，订房人要和卡同名、本人到场；押金和预授权会占额度。Archway刷信用卡加2.5%、Twin Stars（双星度假屋）加3%。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
+      "body": "大额付款（租车、三处住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。Booking（缤客订房网）上写“入住要出示信用卡”或“用信用卡收押金”的（Adina（雅迪娜公寓酒店）入住时要出示信用卡、Blue Peaks（蓝色山峰）、The Moorings（停泊处公寓）），用Visa或Mastercard信用卡订最稳，订房人要和卡同名、本人到场；押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
       "sourceIds": [
         "r-apex-faq",
         "i-nsw-payment",
@@ -2595,7 +2728,7 @@
         "x-boc-jcb",
         "x-jcb-anz",
         "x-bluepeaks-loc",
-        "b-adina"
+        "h-adina"
       ]
     }
   ],
@@ -2956,22 +3089,10 @@
       "checked": "2026-10-23"
     },
     {
-      "id": "b-hotel-0",
-      "title": "Cosmopolitan Heights Hosted by L'Abode（大都会高地公寓） · 11-16–11-19 · 3成人3晚",
-      "url": "https://www.booking.com/hotel/au/cosmopolitan-heights-hosted-by-l-abode.zh-cn.html?checkin=2026-11-16&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1&selected_currency=AUD",
-      "checked": "2026-10-25"
-    },
-    {
-      "id": "b-hotel-1",
-      "title": "Airport Palms Motel（机场棕榈汽车旅馆） · 11-19–11-20 · 3成人1晚",
-      "url": "https://www.booking.com/hotel/nz/airport-palms-motel.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "checked": "2026-10-27"
-    },
-    {
       "id": "b-hotel-3",
       "title": "Blue Peaks Apartments（蓝色山峰公寓） · 11-23–11-26 · 3成人3晚",
       "url": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "checked": "2026-10-27"
+      "checked": "2026-10-21"
     },
     {
       "id": "b-nzta-licence",
@@ -3007,6 +3128,11 @@
       "id": "route-nz-drive",
       "title": "新西兰旅游局：南岛湖山路线与驾驶时间",
       "url": "https://www.newzealand.com/sg/feature/mountains-and-glaciers-south-island-itinerary/"
+    },
+    {
+      "id": "route-clearbrook",
+      "title": "Clearbrook（清溪汽车旅馆）官方：两卧公寓",
+      "url": "https://www.clearbrook.co.nz/twobedroomapartment"
     },
     {
       "id": "route-wanaka-sun",
@@ -3290,12 +3416,6 @@
       "checked": "2026-10-23"
     },
     {
-      "id": "x-pullman",
-      "title": "Accor（雅高酒店集团）官网：Pullman Quay Grand（悉尼铂尔曼码头大酒店）花园景两卧1 King＋2 Joinable，11/16–19三人3晚含早€2,135.21–2,247.60；港景两卧为2 King",
-      "url": "https://all.accor.com/hotel/8779/index.en.shtml",
-      "checked": "2026-10-27"
-    },
-    {
       "id": "x-bridgemuseum",
       "title": "BridgeMuseum（大桥博物馆）官网（原Pylon Lookout（桥塔观景台））：11月周日至周四09:00–18:00、17:00停止入场，网上成人AUD 39.95",
       "url": "https://www.bridgemuseum.com.au/plan-your-visit",
@@ -3308,27 +3428,81 @@
       "checked": "2026-10-25"
     },
     {
-      "id": "b-adina",
-      "title": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店） · 11-16–11-19 · 3成人3晚 · AUD2,326 · Booking（缤客订房网） 9.3分（1,129条）",
-      "url": "https://www.booking.com/hotel/au/adina-sydney.zh-cn.html?checkin=2026-11-16&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1&selected_currency=AUD",
+      "id": "h-adina",
+      "title": "Adina Town Hall（雅迪娜市政厅公寓酒店）官网订房：11/16–19三人2 Bedroom King or Twin（两卧公寓，大床或单人床可选）特惠价AUD1,969.45，可免费选1 King and 1 Twin（一间特大床＋一间两张单人床）",
+      "url": "https://reservations.tfehotels.com/?adult=3&arrive=2026-11-16&chain=14687&child=0&config=SBE&currency=AUD&depart=2026-11-19&hotel=58447&level=hotel&locale=en-US&productcurrency=AUD&rooms=1&theme=ADISBE&themecode=ADISBE",
       "checked": "2026-10-27"
     },
     {
-      "id": "b-twinstars",
-      "title": "Twin Stars（双星度假屋） · 11-20–11-22 · 3成人2晚 · NZD1,972 · Booking（缤客订房网） 9.1分（114条）",
-      "url": "https://www.booking.com/hotel/nz/twin-stars.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "id": "h-adina-page",
+      "title": "TFE（雅迪娜所属酒店集团）官网：Adina Town Hall（雅迪娜市政厅公寓酒店） 2025年2月翻新重开，24小时前台，15:00入住/11:00退房",
+      "url": "https://www.tfehotels.com/en/hotels/adina-apartment-hotels/sydney-town-hall/",
       "checked": "2026-10-27"
     },
     {
-      "id": "b-archway",
-      "title": "Archway Motels & Chalets（拱门汽车旅馆小屋） · 11-22–11-23 · 3成人1晚 · NZD514 · Booking（缤客订房网） 9.0分（1,983条）",
-      "url": "https://www.booking.com/hotel/nz/archway-motels.zh-cn.html?checkin=2026-11-22&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "id": "h-adina-rv",
+      "title": "Google Travel（谷歌酒店搜索）：Adina Town Hall（雅迪娜市政厅公寓酒店）住客评价4.1（911条）",
+      "url": "https://www.google.com/travel/hotels/entity/ChkIpJL7w6Cx5MD-ARoML2cvMXB0eTUwMnZ3EAE/reviews",
       "checked": "2026-10-27"
     },
     {
-      "id": "b-snowypeak",
-      "title": "Snowy Peak Apartment（雪峰公寓） · 11-20–11-22 · 3成人2晚 · NZD2,300 · Booking（缤客订房网） 8.8分（173条）",
-      "url": "https://www.booking.com/hotel/nz/snowy-peak-apartment.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "id": "h-palms",
+      "title": "Airport Palms（机场棕榈）官网订房：11/19 Large One Bedroom（大型一卧公寓）三人NZ$279，11/17 14:00前免费取消",
+      "url": "https://fbs.ibexres.com/production/airportp33/fbs413.html?bc=6431",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-palms-rv",
+      "title": "Google Travel（谷歌酒店搜索）：Airport Palms（机场棕榈）住客评价4.7（327条），Tripadvisor（猫途鹰） 4.8（1,622条）",
+      "url": "https://www.google.com/travel/hotels/entity/ChgI1bXz-e-yh424ARoLL2cvMXRkeDh3emQQAQ/reviews",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-bigrock",
+      "title": "Book Tekapo（特卡波订房管理公司）官网：Big Rock（大石屋）四卧两卫，11/20、11/21两晚都有房",
+      "url": "https://booktekapo.co.nz/accommodation/big-rock",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-bigrock-rv",
+      "title": "Google Travel（谷歌酒店搜索）：Big Rock（大石屋）住客评价4.6（75条），Booking（缤客订房网）两晚NZ$1,827",
+      "url": "https://www.google.com/travel/hotels/entity/ChkQnI7SmMCP3eg1Gg0vZy8xMXoxNDJ0MThoEAI",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-booktekapo-terms",
+      "title": "Book Tekapo（特卡波订房管理公司）条款：7天内取消收全款，钥匙盒或电子锁自助入住，2.5%付款处理费",
+      "url": "https://booktekapo.co.nz/terms-and-conditions",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-moorings",
+      "title": "The Moorings（停泊处公寓）官网订房：11/22两卧两卫三人NZ$666＋2%，2张大床＋1张单人床",
+      "url": "https://fbs.ibexres.com/production/doublerock/fbs979.html?bc=13357",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-moorings-rv",
+      "title": "Google Travel（谷歌酒店搜索）：The Moorings（停泊处公寓）住客评价4.5（256条）",
+      "url": "https://www.google.com/travel/hotels/entity/ChgI8Ojj-96Q54asARoLL2cvMXRmZmZmOXAQAQ/reviews",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-bluepeaks",
+      "title": "Blue Peaks（蓝色山峰）官网：两卧公寓1张大床＋2张单人床（客厅另有1张），两个卫生间",
+      "url": "https://www.bluepeaksapartments.co.nz/two-bedroom-queenstown-apartment/",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-bluepeaks-rv",
+      "title": "Google Travel（谷歌酒店搜索）：Blue Peaks（蓝色山峰）住客评价4.4（138条），位置4.9",
+      "url": "https://www.google.com/travel/hotels/entity/ChgI0ZGi8Yj8nOZZGgwvZy8xMmhuc25uMmsQAQ/reviews",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "h-cosmo-direct",
+      "title": "L’Abode（公寓托管公司）官网：Cosmopolitan Heights（大都会高地公寓） 11/16–19三人AUD1,622，只给1把钥匙，KeyNest（钥匙寄存点）取还钥匙",
+      "url": "https://bookings.homhero.com.au/listing.html?id=8af7051a-e7a0-4b6e-b76f-f12df057359b-95",
       "checked": "2026-10-27"
     }
   ],
@@ -3510,31 +3684,30 @@
       },
       {
         "id": "hotel-adina",
-        "title": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店） · 11-16–11-19 / 3晚",
+        "title": "Adina Apartment Hotel Sydney Town Hall（悉尼市政厅雅迪娜公寓酒店） · 11-16–11-19 / 3晚",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 2326.0,
-          "max": 2326.0
+          "min": 1969.45,
+          "max": 1969.45
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 3成人11/16–19，10/27实时澳元页：尊贵两卧室公寓（卧室1两张单人床、卧室2一张大床）AUD2,326含税，剩6套；可退价；未到付款页",
-        "note": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大床（queen），有厨房、洗衣烘干机和阳台；11/15前免费取消、11/13前不付款（Booking（缤客订房网）列明，精确时刻依订单）。15:00起入住、11:00前退房，24小时前台，11/19清晨05:45退房也有人。入住时订房人本人出示带照片的证件和订房用的那张信用卡，两卧公寓预授权AUD200（不是消费，离店后5–10天解冻）。在Booking选“尊贵两卧室公寓”里写明“卧室1：2张单人床、卧室2：1张大号双人床”、可免费取消的那一档（AUD2,326），备注里写三位成人、请按两张单人床铺好，并请酒店邮件确认（酒店自己的房型名是“King或Twin（两张单人床）”，要写明Twin）；不要订“标准两卧室公寓”（床型视供应，可能两张大床），也不要订同房型不可退的那档。街角在市中心，怕吵就备注要高楼层；连住3晚约每3晚才全面打扫一次，毛巾可随时要。若售罄，后备是Pullman Quay Grand（悉尼铂尔曼码头大酒店）花园景两卧（贵很多）。 每晚约¥3,657，超过原¥3,000酒店上限。",
+        "status": "Adina（雅迪娜公寓酒店）官网10/26实时：2 Bedroom King or Twin（两卧公寓，大床或单人床可选）特惠价（不含早）三晚AUD1,969.45含税，显示只剩3间；澳洲10/1起刷卡不加费；未到填资料页",
+        "note": "两卧两卫92㎡：卧室1一张特大床（king）＋卧室2两张单人床（订时勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”）；有厨房、阳台、洗衣烘干机；官网Special Deal（特惠价，不含早）：11/15 14:00（悉尼时间）前免费取消，之后收一晚；订时不扣款，入住时要出示信用卡。15:00起入住、11:00前退房，24小时前台。订时在Bedding Request（床型要求）勾选免费的“1 King and 1 Twin”，再在特别要求栏写3位成人要3张床（页面写“视到店情况安排”，不是保证）。想含早：先免费注册eClub（雅迪娜免费会员）会员，同房型AUD1,870.97含每日早餐（是否三人都含没写）。后备：Cosmopolitan Heights（大都会高地公寓）官网直订AUD1,622，但只给1把钥匙、要到外面取还钥匙、订时先付一半。",
         "sourceIds": [
-          "b-adina",
-          "x-au-surcharge"
+          "h-adina"
         ],
         "perPersonNative": {
-          "min": 775.3333333333334,
-          "max": 775.3333333333334
+          "min": 656.4833333333333,
+          "max": 656.4833333333333
         },
         "perPersonCnyUnrounded": {
-          "min": 3657.2473333333332,
-          "max": 3657.2473333333332
+          "min": 3096.631883333333,
+          "max": 3096.631883333333
         },
         "perPersonCny": {
-          "min": 3657.25,
-          "max": 3657.25
+          "min": 3096.63,
+          "max": 3096.63
         }
       },
       {
@@ -3542,83 +3715,83 @@
         "title": "Airport Palms Motel（机场棕榈汽车旅馆） · 11-19–11-20 / 1晚",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 326.43,
-          "max": 326.43
+          "min": 279.0,
+          "max": 279.0
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "已进入未提交个人资料页，含税精确NZ326.43；卡费未确认",
-        "note": "大型一卧公寓45㎡：卧室1特大床＋客厅2单人床（两人睡客厅）；11/17当地00:00前可免费取消，之后收全额NZ326.43；不预付、到店付。14–20时入住、10:00前退房。卡费未找到，不保证为0；本路线先取车，不依赖酒店免费接驳。 想每人单独一间：同店三卧公寓（一张大床＋两间各两张单人床，60㎡）可退价NZD479，比现在多NZD153，只剩1套。要求一楼的房间（没有电梯，箱子重）。",
+        "status": "官网10/26实时：Large One Bedroom（大型一卧公寓）三人NZ$279（Booking（缤客订房网） 10/23为NZ$326.43），只剩2间；卡费未确认",
+        "note": "大型一卧公寓45㎡：卧室1特大床＋客厅2单人床（两人睡客厅）；官网直订：11/17 14:00（基督城时间）前免费取消，之后收一晚；订时不扣款，到店付。14:00–20:00入住（前台20:00下班，晚到要提前联系）、10:00前退房。卡费没写，不保证为0；本路线先取车，不依赖酒店接驳。想每人一间：同店三卧NZ$409（1张特大床＋4张单人床，只剩1间）。",
         "sourceIds": [
-          "b-hotel-1"
+          "h-palms"
         ],
         "perPersonNative": {
-          "min": 108.81,
-          "max": 108.81
+          "min": 93.0,
+          "max": 93.0
         },
         "perPersonCnyUnrounded": {
-          "min": 415.87182,
-          "max": 415.87182
+          "min": 355.446,
+          "max": 355.446
         },
         "perPersonCny": {
-          "min": 415.87,
-          "max": 415.87
+          "min": 355.45,
+          "max": 355.45
         }
       },
       {
-        "id": "hotel-twinstars",
-        "title": "Twin Stars（双星度假屋） · 11-20–11-22 / 2晚",
+        "id": "hotel-bigrock",
+        "title": "Big Rock（大石屋） · 11-20–11-22 / 2晚",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 2031.16,
-          "max": 2031.16
+          "min": 1872.68,
+          "max": 1872.68
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 3成人11/20–22，10/27实时纽币页：NZD1,972含税；刷信用卡另加3%，按NZD2,031.16计；未到付款页",
-        "note": "三卧两卫度假屋100㎡：两间各一张双人床、一间两张单人床，每人可以单独一间；有厨房和洗碗机；11/6前免费取消（比别处早），到店前房东向订房的卡收款（Booking（缤客订房网）列明，精确时刻依订单）。15:00–17:00入住、07:00–10:00退房；要提前告诉到达时间，过了入住时段才到要先经房东同意，否则加收NZD25；22:00–07:00保持安静。刷信用卡加3%。由Explore Tekapo Accommodation（特卡波住宿管理公司）管理。房子2005年建，不算新，但Booking清洁9.5、爱彼迎清洁4.9，近一年没找到差评。Tesoro（特索罗） 11/20–22已订满。后备：Snowy Peak Apartment（雪峰公寓，2020年建，Booking 8.8分，三卧两卫，NZD2,300＋3%，离镇中心步行约10分钟、回程上坡，11/13前免费取消）。 每晚约¥3,882，超过原¥3,000酒店上限。",
+        "status": "Google Travel（谷歌酒店搜索） 10/26实时：Booking（缤客订房网）两晚NZ$1,827；按Book Tekapo（特卡波订房管理公司）公布的2.5%付款处理费保守计NZ$1,872.68；Book Tekapo库存显示两晚都有房",
+        "note": "整栋四卧两卫约200㎡：两间大床房、一间双单人床房、一间单人床房（按官网照片），三人各住一间；取消条款还没核实：Google（谷歌）上Booking（缤客订房网）的报价没写免费取消；Book Tekapo（特卡波订房管理公司）条款写入住前7天内取消收全款（约11/13前取消不收，以订单为准）。15:00起入住、10:00前退房；钥匙盒或电子锁自助入住，入住信息约提前7天发送，直接去14 Andrew Don Drive（安德鲁·唐路），不必先到管理处。",
         "sourceIds": [
-          "b-twinstars"
+          "h-bigrock"
         ],
         "perPersonNative": {
-          "min": 677.0533333333334,
-          "max": 677.0533333333334
+          "min": 624.2266666666667,
+          "max": 624.2266666666667
         },
         "perPersonCnyUnrounded": {
-          "min": 2587.6978400000003,
-          "max": 2587.6978400000003
+          "min": 2385.79432,
+          "max": 2385.79432
         },
         "perPersonCny": {
-          "min": 2587.7,
-          "max": 2587.7
+          "min": 2385.79,
+          "max": 2385.79
         }
       },
       {
-        "id": "hotel-archway",
-        "title": "Archway Motels & Chalets（拱门汽车旅馆小屋） · 11-22–11-23 / 1晚",
+        "id": "hotel-moorings",
+        "title": "The Moorings Motel & Apartments（停泊处汽车旅馆公寓） · 11-22–11-23 / 1晚",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 526.85,
-          "max": 526.85
+          "min": 679.32,
+          "max": 679.32
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 3成人11/22–23，10/27实时纽币页：NZD514含税、到店付款；刷信用卡另加2.5%，按NZD526.85计",
-        "note": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房；11/20前免费取消，到店付款（Booking（缤客订房网）列明）。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息。入住出示带照片的证件和订房人本人的信用卡，刷信用卡加2.5%。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。只剩1套；售完可订同店两卧（两张单人床＋一张大床＋沙发床，NZD498），再不行回到Fairway（费尔韦，8.2分，NZD619）。",
+        "status": "官网10/26实时：2 Bedroom 2 Bathroom三人NZ$666＋2%卡费＝NZ$679.32，只剩1套",
+        "note": "两卧两卫约80㎡：2张大床（queen）＋1张单人床，分两间卧室；两层，没有电梯；官网直订刷信用卡加2%。取消：官网政策写提前72小时，但Google（谷歌）上同一官网价写11/8前免费取消，按11/8算，以确认函为准；入住前30天内可能先扣50%。14:00–19:30入住（前台10:30–14:00不在，晚到先打电话或发邮件约好）、10:00前退房；免费停车。卖完就订同店三卧（NZ$729.30，2张大床＋2张单人床，两个卫生间）。",
         "sourceIds": [
-          "b-archway"
+          "h-moorings"
         ],
         "perPersonNative": {
-          "min": 175.61666666666667,
-          "max": 175.61666666666667
+          "min": 226.44000000000003,
+          "max": 226.44000000000003
         },
         "perPersonCnyUnrounded": {
-          "min": 671.2069,
-          "max": 671.2069
+          "min": 865.4536800000001,
+          "max": 865.4536800000001
         },
         "perPersonCny": {
-          "min": 671.21,
-          "max": 671.21
+          "min": 865.45,
+          "max": 865.45
         }
       },
       {
@@ -3632,7 +3805,7 @@
         "splitPeople": 3,
         "category": "hotel",
         "status": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
-        "note": "两卧两卫100㎡：1双人床＋2单人床；上层只能走楼梯；11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 订时选“Two-Bedroom Apartment（两卧公寓）”里写明一张双人床＋两张单人床的那种（同楼还有两张大床的房型），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁。",
+        "note": "两卧两卫100㎡：1双人床＋2单人床；上层只能走楼梯；11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 官网直订同价（NZ$765.83/晚），但下单就扣款、入住48小时前可免费取消。只订“Two Bedroom Apartment（两卧公寓）”，别订名字带“2 Queen（两张大床）”的（只有两张床）。",
         "sourceIds": [
           "b-hotel-3"
         ],
@@ -4050,7 +4223,7 @@
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 268.94
+          "max": 262.65
         },
         "splitPeople": 1,
         "category": "essential",
@@ -4062,15 +4235,15 @@
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 268.94
+          "max": 262.65
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 268.94
+          "max": 262.65
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 268.94
+          "max": 262.65
         }
       },
       {
@@ -4102,26 +4275,26 @@
     ],
     "summary": {
       "totalCNY": {
-        "min": 30206.51,
-        "max": 33697.31,
-        "display": "控制版约¥30,207–33,697/人（含¥1,000机动金）"
+        "min": 29577.81,
+        "max": 33062.32,
+        "display": "控制版约¥29,578–33,062/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
           "min": 4543.4,
-          "max": 6803.23
+          "max": 6796.94
         },
         "AUD": {
-          "min": 1481.3633333333332,
-          "max": 1571.3633333333332
+          "min": 1362.5133333333333,
+          "max": 1452.5133333333333
         },
         "NZD": {
-          "min": 4886.320833333333,
-          "max": 5097.320833333333
+          "min": 4868.5075,
+          "max": 5079.5075
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -3697.31,
+      "headroomCNY": -3062.32,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -4130,25 +4303,25 @@
         "status": "上海出发者三段；未锁价，AirNZ（新西兰航空）卡费依卡种另核"
       },
       "hotel": {
-        "equivalentCNY": 10302.94,
+        "equivalentCNY": 9674.25,
         "wholeGroup": {
-          "AUD": 2326.0,
-          "NZD": 5216.4025
+          "AUD": 1969.45,
+          "NZD": 5162.9625
         },
-        "status": "5处10晚都有三张以上实体床；10/27按评价复查：悉尼换Adina（阿迪娜公寓酒店）、特卡波换Twin Stars（双星度假屋，Tesoro（特索罗）订满）、瓦纳卡换Archway（拱门汽车旅馆），均未锁房"
+        "status": "5处10晚都有三张以上实体床的房型；10/27按评价换了悉尼、特卡波、瓦纳卡三处，未锁房"
       },
       "relaxedFoodTotalCNY": {
-        "min": 30606.61,
-        "max": 34344.63,
+        "min": 29977.91,
+        "max": 33709.64,
         "note": "餐饮放宽至AUD180–230＋NZ560–720；其余相同且含1000机动金，上限超过3万元"
       },
       "comparisonNote": "MU735（东方航空）报价1人；EK三人AUD1,338.09÷3；NZ返程1人NZ$1,459。酒店、车、油、停车三人均分，餐饮/许可/翻译/保险/通信按本人。",
       "scope": "本次新增支出含必要交通、10晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥943–1,179），只能从机动金扣，扣完后几乎没有涨价或补险缓冲。可退押金/预授权不是消费。",
-      "narrative": "十二天控制版精算¥30,206.51–33,697.31/人，已含¥1,000机动金；按上限超出¥30,000约¥3,697.31（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按“新、干净、三张床、位置不偏、评价好”复查住宿：悉尼换Adina（阿迪娜公寓酒店）、特卡波换Twin Stars（双星度假屋，Tesoro（特索罗）已订满）、瓦纳卡换Archway（拱门汽车旅馆），住宿每人比原方案多约¥967。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）；其次是悉尼改订Adina标准两卧室公寓（每人省约¥561，但床型视供应，可能是两张大床）。机票约¥10,875、住宿约¥10,303、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥30,607–34,345，不能承诺不超。上限已保守计入约1%外币交易费（约¥269）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "narrative": "十二天控制版精算¥29,577.81–33,062.32/人，已含¥1,000机动金；按上限超出¥30,000约¥3,062.32（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按评价换了三处住宿（悉尼Adina Town Hall（雅迪娜市政厅公寓酒店）、特卡波Big Rock（大石屋）、瓦纳卡The Moorings（停泊处公寓）），基督城改官网直订，住宿每人比10/25多约¥338。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是悉尼用Adina（雅迪娜公寓酒店）的eClub（雅迪娜免费会员）会员价（含早，每人省约¥155），或改回Cosmopolitan Heights（大都会高地公寓）官网直订（每人省约¥546，但只有一把钥匙、要到外面取还）。机票约¥10,875、住宿约¥9,674、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥29,978–33,710，不能承诺不超。上限已保守计入约1%外币交易费（约¥263）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
-        "min": 30206.51,
-        "max": 33697.31,
-        "display": "控制版约¥30,207–33,697/人（含¥1,000机动金）"
+        "min": 29577.81,
+        "max": 33062.32,
+        "display": "控制版约¥29,578–33,062/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -4193,16 +4366,19 @@
       ]
     },
     {
-      "title": "特卡波：Tesoro（特索罗）已订满，改Twin Stars（双星度假屋）",
-      "body": "10/27复查：Tesoro（特索罗） 11/20–22在Booking（缤客订房网）和Book Tekapo（特卡波订房管理公司）官网都已无房。改Twin Stars（双星度假屋，16 Aorangi Crescent（奥兰吉新月街），步行约3分钟到镇中心）：三卧两卫，两间双人床、一间两张单人床，每人可以单独一间；Booking 9.1分（114条）、清洁9.5，爱彼迎4.79/5（168条）；2005年建，不算新。两晚含3%刷卡费NZD2,031，比Tesoro多约NZD160（每人约¥204），11/6前免费取消，比别处早。后备Snowy Peak Apartment（雪峰公寓）：2020年建、8.8分，三卧两卫，NZD2,300起，离镇中心步行约10分钟。看过不选：Tudor Rose（都铎玫瑰度假屋，1979年老房、只有15条点评）、White Peaks（白峰度假屋，1966年老房，Booking写23:00后不能进门，和看星星冲突）、Peppers（佩珀斯，7.9分、不可退）。",
+      "title": "住宿：10/27按评价重新挑过",
+      "body": "标准是新一点、干净、三人各一张真床、位置不偏。悉尼换成2025年刚翻新的Adina Town Hall（雅迪娜市政厅公寓酒店）两卧（24小时前台，三人各拿房卡）；特卡波Tesoro（特索罗度假屋） 11/21已无房，换成四卧两卫的Big Rock（大石屋）；瓦纳卡换到湖边、两卧两卫的The Moorings（停泊处公寓）；基督城Airport Palms（机场棕榈）和皇后镇Blue Peaks（蓝色山峰）评价好，保留。每处的评分、好评和差评写在每天的住宿卡里。",
       "sourceIds": [
-        "b-twinstars",
-        "b-snowypeak"
+        "h-adina-rv",
+        "h-bigrock-rv",
+        "h-moorings-rv",
+        "h-palms-rv",
+        "h-bluepeaks-rv"
       ]
     },
     {
-      "title": "三万元：上限超出，要选一项省钱",
-      "body": "十二天控制版精算¥30,206.51–33,697.31/人，已含¥1,000机动金；按上限超出¥30,000约¥3,697.31（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按“新、干净、三张床、位置不偏、评价好”复查住宿：悉尼换Adina（阿迪娜公寓酒店）、特卡波换Twin Stars（双星度假屋，Tesoro（特索罗）已订满）、瓦纳卡换Archway（拱门汽车旅馆），住宿每人比原方案多约¥967。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）；其次是悉尼改订Adina标准两卧室公寓（每人省约¥561，但床型视供应，可能是两张大床）。机票约¥10,875、住宿约¥10,303、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥30,607–34,345，不能承诺不超。上限已保守计入约1%外币交易费（约¥269）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "title": "三万元：上限略超，要选一项省钱",
+      "body": "十二天控制版精算¥29,577.81–33,062.32/人，已含¥1,000机动金；按上限超出¥30,000约¥3,062.32（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。10/27按评价换了三处住宿（悉尼Adina Town Hall（雅迪娜市政厅公寓酒店）、特卡波Big Rock（大石屋）、瓦纳卡The Moorings（停泊处公寓）），基督城改官网直订，住宿每人比10/25多约¥338。最有效的省钱办法是你本人改用三边和≤158cm的托运箱（省约¥1,612）并确认招行万事达借记卡为免货币兑换费的人民币结算版；其次是悉尼用Adina（雅迪娜公寓酒店）的eClub（雅迪娜免费会员）会员价（含早，每人省约¥155），或改回Cosmopolitan Heights（大都会高地公寓）官网直订（每人省约¥546，但只有一把钥匙、要到外面取还）。机票约¥10,875、住宿约¥9,674、租车约¥2,079、峡湾约¥1,219。需要餐饮按表控制、三人持续分摊、无新增高价活动；放宽餐饮约¥29,978–33,710，不能承诺不超。上限已保守计入约1%外币交易费（约¥263）和本人29/30寸箱的超尺寸费；招行人民币结算版万事达借记卡和≤158cm托运箱都能把这两项降到0。历史澳签费实付未知、玻璃轮胎待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
@@ -4301,16 +4477,46 @@
   },
   "hotelAlternatives": [
     {
-      "id": "pullman12",
+      "id": "cosmo27",
+      "property": "Cosmopolitan Heights (L'Abode)",
+      "dates": "2026-11-16–19",
+      "status": "悉尼后备（原首选）：L'Abode官网直订AUD1,622（订时付50%定金AUD811＋AUD500预授权，取消条款未显示）；Booking今天AUD1,872、Expedia AUD1,789、Stayz AUD1,794（Google Travel）。官网写'Only 1 key'，钥匙在步行约11分钟外的KeyNest点取还（6–8点可能关），和11/19 05:45出发冲突；第二卧是拼接大床，要申请才分成两张单人床，有住客说忘了分；2026年2月评价说家具厨具有点旧。",
+      "sourceUrl": "https://bookings.homhero.com.au/listing.html?id=8af7051a-e7a0-4b6e-b76f-f12df057359b-95"
+    },
+    {
+      "id": "pullman27",
       "property": "Pullman Quay Grand Sydney Harbour",
       "dates": "2026-11-16–19",
-      "room": "Deluxe Two King Bedroom Garden View Apartment",
-      "beds": "1 King + 2 Joinable beds + 1 double sofa bed (Accor site); ask in writing for the joinable beds to be made up as two singles",
-      "currency": "EUR",
-      "memberTotal": 2135.21,
-      "publicTotal": 2247.6,
-      "status": "悉尼后备：Adina售罄时改订；港景两卧为2 King不合格",
+      "status": "Accor 10/26: Deluxe Two King Bedroom Garden View €2,216.17 public / €2,105.36 member incl. breakfast; about ¥5,300–5,600 per person; not recommended on price",
       "sourceUrl": "https://all.accor.com/hotel/8779/index.en.shtml"
+    },
+    {
+      "id": "starlake27",
+      "property": "Star Lake View (Book Tekapo)",
+      "dates": "2026-11-20–22",
+      "status": "特卡波后备：7 Oneill Place，三卧两卫（2间大床房＋1间双单人床房），两晚都有房；Google上Booking两晚NZ$1,867；评价很少（Google 4.6/4条）；取消条款未核实",
+      "sourceUrl": "https://booktekapo.co.nz/accommodation/star-lake-view"
+    },
+    {
+      "id": "tesoro27",
+      "property": "Tesoro (Book Tekapo)",
+      "dates": "2026-11-20–22",
+      "status": "11/21晚已无房（Book Tekapo库存11/20=1、11/21=0），两晚连住订不到",
+      "sourceUrl": "https://booktekapo.co.nz/accommodation/tesoro"
+    },
+    {
+      "id": "fairway27",
+      "property": "Fairway Motel & Apartments",
+      "dates": "2026-11-22–23",
+      "status": "瓦纳卡后备：官网Superior 2 Bedroom 1 Bathroom NZ$550＋2%＝561（床型官网没写，10/22 Booking写1大床＋2单人床）；直订提前7天（11/15前）取消才免费；近几个月评价说房子旧、油漆剥落、临路有车声，店主说2027年才全面翻新",
+      "sourceUrl": "https://fbs.ibexres.com/production/fairway/fbs670.html"
+    },
+    {
+      "id": "sudima27",
+      "property": "Sudima Queenstown Five Mile",
+      "dates": "2026-11-23–26",
+      "status": "皇后镇备选但不换：2021年底开业、Google 4.6（430）；Deluxe Family 1张特大床＋2张单人床＋沙发床，只有1个卫生间，在Frankton（弗兰克顿）；官网可退价NZ$2,852（＋2.5%卡费），会员不可退价NZ$2,438.46",
+      "sourceUrl": "https://bookings.sudimahotels.com/"
     },
     {
       "id": "peppers12",
@@ -4350,64 +4556,14 @@
       "reviewCount": 2507,
       "sourceUrl": "https://www.booking.com/hotel/nz/peppers-bluewater-resort.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
       "officialRoomUrl": "https://all.accor.com/hotel/B3Q7/index.en.shtml",
-      "recommendation": "Conditional saving alternative, not the only workable 3-bed property",
+      "recommendation": "Not recommended",
       "wholeCNY": 6183.996,
       "perNightCNY": 3091.998,
       "perPersonNative": 539.3333333333334,
       "perPersonCNY": 2061.332,
       "bathrooms": 1,
-      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间，Tesoro有2个；Peppers不可退且Twin需书面保证"
-    },
-    {
-      "property": "Clearbrook Motel & Serviced Apartments",
-      "dates": "2026-11-22–23",
-      "status": "10/22官网直订与Booking均售罄，已改Fairway"
-    },
-    {
-      "property": "Airbnb19101552",
-      "dates": "2026-11-23–26",
-      "status": "实查不可订；不得使用旧两晚报价"
-    },
-    {
-      "property": "Cosmopolitan Heights Hosted by L'Abode",
-      "dates": "2026-11-16–19",
-      "status": "10/27换掉：Booking 8.3分（33条）、员工6.9；三人只有1张门禁卡，钥匙在外面的KeyNest点取还（工作日07:00才开，11/19清晨用不了）；第二间是两张单人床拼的大床，要拆开常被漏掉"
-    },
-    {
-      "property": "Tesoro",
-      "dates": "2026-11-20–22",
-      "status": "10/27 Booking和Book Tekapo官网都已无房"
-    },
-    {
-      "property": "Snowy Peak Apartment",
-      "dates": "2026-11-20–22",
-      "status": "特卡波后备：2020年建，Booking 8.8分（173条）、清洁9.1；三卧两卫（两张超大床＋两张单人床），NZD2,300＋刷卡3%，11/13前免费取消；离镇中心步行约10分钟、回程上坡",
-      "sourceUrl": "https://www.booking.com/hotel/nz/snowy-peak-apartment.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD"
-    },
-    {
-      "property": "Tudor Rose",
-      "dates": "2026-11-20–22",
-      "status": "Booking 9.4分但只有15条点评；1979年老房，2026年点评说只有一个浴室好用、电器旧"
-    },
-    {
-      "property": "White Peaks",
-      "dates": "2026-11-20–22",
-      "status": "1966年老房，两卧一卫；Booking写23:00–07:00不能进门，和看星星冲突"
-    },
-    {
-      "property": "Fairway Motel & Apartments",
-      "dates": "2026-11-22–23",
-      "status": "瓦纳卡后备：Booking 8.2分、清洁8.6，楼旧、临SH84有车声；两卧NZD619"
-    },
-    {
-      "property": "West Meadows Motel of Wanaka",
-      "dates": "2026-11-22–23",
-      "status": "9.3分、清洁9.7、2023年翻新，但11/22两卧无房"
-    },
-    {
-      "property": "A by Adina Sydney",
-      "dates": "2026-11-16–19",
-      "status": "Wynyard对面、2021年开业，11/16–19三人无房"
+      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间，Tesoro有2个；Peppers不可退且Twin需书面保证",
+      "status": "10/27不再作后备：2026年10月评价说房间小、吵、有异味、热水不够；只有1个卫生间、Twin不保证、不可退"
     }
   ],
   "todos": [
@@ -4422,19 +4578,6 @@
       "sourceIds": [
         "r-apex-faq",
         "x-bluepeaks-loc"
-      ]
-    },
-    {
-      "id": "nz-stays-book",
-      "due": "asap",
-      "who": [
-        "user"
-      ],
-      "title": "尽早订特卡波Twin Stars（双星度假屋）和瓦纳卡Archway（拱门汽车旅馆）三卧",
-      "detail": "Twin Stars（双星度假屋） 11/6前免费取消、到店前由房东收款；Archway（拱门汽车旅馆）三卧只剩1套，11/20前免费取消、到店付款。订后都留言三位成人。",
-      "sourceIds": [
-        "b-twinstars",
-        "b-archway"
       ]
     },
     {
@@ -4455,10 +4598,10 @@
       "who": [
         "user"
       ],
-      "title": "订悉尼Adina（阿迪娜公寓酒店）尊贵两卧室公寓（可免费取消价）",
-      "detail": "在Booking（缤客订房网）选写明“卧室1：2张单人床、卧室2：1张大号双人床”的尊贵两卧室公寓（AUD2,326那档），不要床型视供应的标准两卧室公寓；备注三位成人并请酒店邮件确认铺两张单人床。11/13前不付款、11/15前免费取消；用订房人本人的Visa（维萨卡）或Mastercard（万事达卡）信用卡，入住时同一张卡预授权AUD200。",
+      "title": "在Adina（雅迪娜公寓酒店）官网订悉尼两卧（特惠价，可免费取消）",
+      "detail": "选2 Bedroom King or Twin（两卧公寓，大床或单人床可选），在Bedding Request（床型要求）勾选免费的“1 King and 1 Twin（一间特大床＋一间两张单人床）”（1张特大床＋2张单人床），特别要求栏再写一遍；订时不扣款。官网10/26只剩3间。想含早就先免费注册eClub（雅迪娜免费会员）会员，AUD1,870.97。",
       "sourceIds": [
-        "b-adina"
+        "h-adina"
       ]
     },
     {
@@ -4475,6 +4618,31 @@
       ]
     },
     {
+      "id": "bigrock-book",
+      "due": "asap",
+      "who": [
+        "user"
+      ],
+      "title": "订特卡波Big Rock（大石屋）两晚（Tesoro（特索罗度假屋） 11/21已无房）",
+      "detail": "在Booking（缤客订房网）或Book Tekapo（特卡波订房管理公司）官网订，下单前看清取消条款（Book Tekapo条款：入住前7天内取消收全款）；订后请商家确认三人用的三张床都铺好。",
+      "sourceIds": [
+        "h-bigrock",
+        "h-booktekapo-terms"
+      ]
+    },
+    {
+      "id": "moorings-book",
+      "due": "asap",
+      "who": [
+        "user"
+      ],
+      "title": "订瓦纳卡The Moorings（停泊处公寓）两卧两卫（只剩1套）",
+      "detail": "官网订，刷信用卡加2%，共NZ$679.32；入住前30天内可能先扣50%。卖完就订同店三卧（NZ$729.30）。",
+      "sourceIds": [
+        "h-moorings"
+      ]
+    },
+    {
       "id": "apex-free-cancel",
       "due": "2026-11-05",
       "who": [
@@ -4484,18 +4652,6 @@
       "detail": "之后到取车前24小时取消收20%（最多NZ$100）。",
       "sourceIds": [
         "r-apex-faq"
-      ]
-    },
-    {
-      "id": "twinstars-cancel",
-      "due": "2026-11-05",
-      "who": [
-        "user"
-      ],
-      "title": "Twin Stars（双星度假屋）免费取消截止（11/6前，比别处早）",
-      "detail": "房东到店前收款，刷信用卡加3%；订后留言三位成人、预计15:30到。",
-      "sourceIds": [
-        "b-twinstars"
       ]
     },
     {
@@ -4520,6 +4676,18 @@
       "detail": "Saver（经济票价）不可退、同一订单改动作用于所有人：已能入境的人先出票，东京同学下签后再单独订。",
       "sourceIds": [
         "i-flight-ek"
+      ]
+    },
+    {
+      "id": "moorings-cancel",
+      "due": "2026-11-08",
+      "who": [
+        "user"
+      ],
+      "title": "The Moorings（停泊处公寓）免费取消截止（按11/8算）",
+      "detail": "官网政策写提前72小时，Google（谷歌）上写11/8前免费取消，以确认函为准。",
+      "sourceIds": [
+        "h-moorings"
       ]
     },
     {
@@ -4561,6 +4729,18 @@
       ]
     },
     {
+      "id": "bigrock-cancel",
+      "due": "2026-11-13",
+      "who": [
+        "user"
+      ],
+      "title": "Big Rock（大石屋）取消截止（入住前7天，以订单为准）",
+      "detail": "之后取消收全款。",
+      "sourceIds": [
+        "h-booktekapo-terms"
+      ]
+    },
+    {
       "id": "insurance",
       "due": "2026-11-14",
       "who": [
@@ -4598,15 +4778,27 @@
       ]
     },
     {
-      "id": "palms-cancel",
-      "due": "2026-11-16",
+      "id": "adina-cancel",
+      "due": "2026-11-15",
       "who": [
         "user"
       ],
-      "title": "Airport Palms（机场棕榈）免费取消截止（11/17当地0点前）",
-      "detail": "到店付款。想每人单独一间可改同店三卧（NZ$479，只剩1套）；要求一楼。",
+      "title": "Adina（雅迪娜公寓酒店）免费取消截止（11/15 14:00悉尼时间）",
+      "detail": "之后取消收一晚。出发前几天请朋友发邮件确认床型。",
       "sourceIds": [
-        "b-hotel-1"
+        "h-adina"
+      ]
+    },
+    {
+      "id": "palms-cancel",
+      "due": "2026-11-17",
+      "who": [
+        "user"
+      ],
+      "title": "Airport Palms（机场棕榈）免费取消截止（11/17 14:00基督城时间）",
+      "detail": "官网直订NZ$279，订时不扣款、到店付；前台20:00下班，晚到要提前联系。",
+      "sourceIds": [
+        "h-palms"
       ]
     },
     {
@@ -4647,25 +4839,13 @@
       ]
     },
     {
-      "id": "archway-cancel",
-      "due": "2026-11-19",
-      "who": [
-        "user"
-      ],
-      "title": "Archway（拱门汽车旅馆）免费取消截止（11/20前，到店付款）",
-      "detail": "订后留言三位成人、预计14:30到；刷信用卡加2.5%。",
-      "sourceIds": [
-        "b-archway"
-      ]
-    },
-    {
       "id": "bluepeaks-pay",
       "due": "2026-11-19",
       "who": [
         "user"
       ],
       "title": "Blue Peaks（蓝色山峰）扣款日（11/21前免费取消）",
-      "detail": "入住要出示和订单同名的信用卡，用Visa（维萨卡）或Mastercard（万事达卡）信用卡订最稳。订写明一张双人床＋两张单人床的两卧，备注要翻新过的单元。",
+      "detail": "入住要出示和订单同名的信用卡，用Visa（维萨卡）或Mastercard（万事达卡）信用卡订最稳。",
       "sourceIds": [
         "b-hotel-3"
       ]
