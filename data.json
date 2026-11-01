@@ -123,12 +123,12 @@
         {
           "time": "09:00",
           "endTime": "09:30",
-          "place": "Dorsett Melbourne（墨尔本）住宿区域",
+          "place": "Dorsett Melbourne（墨尔本帝盛酒店）住宿区域",
           "placeId": "dorsett",
           "lat": -37.813695,
           "lon": 144.953512,
           "kind": "transfer",
-          "detail": "去Dorsett Melbourne（墨尔本，615 Little Lonsdale Street，从Southern Cross（南十字星）站步行约10分钟）寄存大箱子；15:00后入住。",
+          "detail": "去Dorsett Melbourne（墨尔本帝盛酒店，615 Little Lonsdale Street，从Southern Cross（南十字星）站步行约10分钟）寄存大箱子；15:00后入住。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
           "sourceIds": [
@@ -205,12 +205,12 @@
         {
           "time": "14:00",
           "endTime": "17:30",
-          "place": "Dorsett Melbourne（墨尔本）住宿区域",
+          "place": "Dorsett Melbourne（墨尔本帝盛酒店）住宿区域",
           "placeId": "dorsett",
           "lat": -37.813695,
           "lon": 144.953512,
           "kind": "rest",
-          "detail": "坐免费电车或步行回Dorsett，15:00后办入住、洗澡、补觉。夜航后下午一定休息。",
+          "detail": "坐免费电车或步行回Dorsett（帝盛酒店），15:00后办入住、洗澡、补觉。夜航后下午一定休息。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
           "sourceIds": [
@@ -220,7 +220,7 @@
         {
           "time": "17:30",
           "endTime": "18:30",
-          "place": "Dorsett Melbourne（墨尔本）住宿区域",
+          "place": "Dorsett Melbourne（墨尔本帝盛酒店）住宿区域",
           "placeId": "dorsett",
           "lat": -37.813695,
           "lon": 144.953512,
@@ -282,12 +282,12 @@
         {
           "time": "21:30",
           "endTime": "22:00",
-          "place": "Dorsett Melbourne（墨尔本）住宿区域",
+          "place": "Dorsett Melbourne（墨尔本帝盛酒店）住宿区域",
           "placeId": "dorsett",
           "lat": -37.813695,
           "lon": 144.953512,
           "kind": "rest",
-          "detail": "打车回Dorsett，22:00前睡；明早05:45起床，从Southern Cross（南十字星）站坐SkyBus（墨尔本机场快线）去机场。",
+          "detail": "打车回Dorsett（帝盛酒店），22:00前睡；明早05:45起床，从Southern Cross（南十字星）站坐SkyBus（墨尔本机场快线）去机场。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
           "sourceIds": [
@@ -302,11 +302,11 @@
       "title": "墨尔本飞基督城，傍晚逛市区",
       "area": "墨尔本→基督城",
       "timezone": "上午墨尔本 UTC（协调世界时）+11 / 下午新西兰 UTC+13",
-      "hotelId": "give",
-      "summary": "QF167（澳洲航空） 09:10离开墨尔本、14:30抵达基督城；取车后开约20分钟进市区，住植物园对面的Hotel Give，傍晚逛植物园、雅芳河和河畔市场。",
+      "hotelId": "gloucester",
+      "summary": "QF167（澳洲航空） 09:10离开墨尔本、14:30抵达基督城；取车后开约20–25分钟进市区，住格洛斯特街的两卧两卫公寓，傍晚走路逛植物园、雅芳河和河畔市场。",
       "drive": "机场取车→市区约20–25分钟（约12km）；不长途驾驶",
       "photoGoal": "雅芳河和植物园的傍晚光线、重建后的市中心街景；不赶景点。",
-      "weatherPlan": "QF167（澳洲航空）大幅延误、赶不上APEX（新西兰租车公司） 18:29关门时，下班后取车须提前24小时安排并全额预付，临时办不了：直接打车去市区的Hotel Give（约12km），致电门店改到11/20 08:00取车，并确认不算no-show（未到场）、还车时间不变；11/20 09:30仍可出发。万一QF167取消，澳航会改签：同日墨尔本飞基督城还有NZ214（新西兰航空，09:10→14:35）、JQ171（捷星航空，12:05→17:20）和傍晚航班，请柜台尽量改到18:29前能取车的班次。出发前48小时看澳航航班动态。",
+      "weatherPlan": "QF167（澳洲航空）大幅延误、赶不上APEX（新西兰租车公司） 18:29关门时，下班后取车须提前24小时安排并全额预付，临时办不了：直接打车去市区的Gloucester Street（格洛斯特街）公寓（约12km），致电门店改到11/20 08:00取车，并确认不算no-show（未到场）、还车时间不变；11/20 09:30仍可出发。万一QF167取消，澳航会改签：同日墨尔本飞基督城还有NZ214（新西兰航空，09:10→14:35）、JQ171（捷星航空，12:05→17:20）和傍晚航班，请柜台尽量改到18:29前能取车的班次。出发前48小时看澳航航班动态。",
       "events": [
         {
           "time": "05:45",
@@ -393,27 +393,27 @@
         {
           "time": "17:45",
           "endTime": "18:15",
-          "place": "Hotel Give",
-          "placeId": "give",
-          "lat": -43.53213525858703,
-          "lon": 172.62825027108192,
+          "place": "Gloucester Street（格洛斯特街）公寓",
+          "placeId": "gloucester",
+          "lat": -43.5297182,
+          "lon": 172.6450892,
           "kind": "drive",
-          "detail": "从APEX（新西兰租车公司）门店开约20–25分钟进市区（约12km，第一次靠左开，慢慢来）到12 Hereford Street的Hotel Give，办入住（15:00–23:30），车停酒店停车场（收费以酒店为准）。",
+          "detail": "从APEX（新西兰租车公司）门店开约20–25分钟进市区（约12km，第一次靠左开，慢慢来）到Gloucester Street（格洛斯特街）的公寓，自助入住（15:00–22:00；门牌和门锁密码房东到达前发，先告诉房东约18:00到）。Booking（缤客订房网）没写停车，按房东说的停；附近有收费停车场，路边车位有限。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点；门牌和门锁密码房东在到达前发。",
           "sourceIds": [
-            "b-give"
+            "b-gloucester"
           ]
         },
         {
           "time": "18:15",
-          "endTime": "19:00",
+          "endTime": "19:15",
           "place": "基督城植物园 · 雅芳河",
           "placeId": "chch_gardens",
           "lat": -43.531,
           "lon": 172.6255,
           "kind": "walk_photo",
-          "detail": "酒店对面就是植物园（11–2月开到21:00），沿雅芳河走，看柳树、草坪和划平底船的人。",
+          "detail": "从公寓往西步行约20分钟（约1.6km），经Latimer Square（拉蒂默广场，纸板大教堂就在广场边）、大教堂广场和艺术中心到植物园（11–2月开到21:00）；沿雅芳河走，看柳树、草坪和划平底船的人。",
           "photoTip": "24–70mm拍河岸和老树，傍晚侧光最好看。",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
@@ -421,14 +421,14 @@
           ]
         },
         {
-          "time": "19:00",
-          "endTime": "20:00",
-          "place": "Riverside Market · 新摄政街",
+          "time": "19:15",
+          "endTime": "20:15",
+          "place": "Riverside Market（河畔市场） · 新摄政街",
           "placeId": "riverside_market",
           "lat": -43.5328,
           "lon": 172.6345,
           "kind": "meal",
-          "detail": "步行约10分钟到Riverside Market吃晚饭（周四开到21:00）；旁边是彩色的New Regent Street，再走几分钟到大教堂广场和纸板大教堂外面看看。",
+          "detail": "沿雅芳河往回走约10分钟到Riverside Market（河畔市场）吃晚饭（周四开到21:00）；旁边是彩色的New Regent Street（新摄政街），大教堂广场也在几分钟路程内。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
@@ -436,14 +436,14 @@
           ]
         },
         {
-          "time": "20:00",
+          "time": "20:15",
           "endTime": "20:45",
           "place": "雅芳河 · 纪念桥",
           "placeId": "chch_bridge",
           "lat": -43.5326,
           "lon": 172.6333,
           "kind": "photo_optional",
-          "detail": "可选：日落约20:38，在雅芳河边、纪念桥一带拍傍晚和蓝调。",
+          "detail": "可选：日落约20:38，在雅芳河边、纪念桥一带拍傍晚和蓝调（离市场步行约3分钟）。",
           "photoTip": "桥和河面倒影，低角度更好。",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": []
@@ -451,14 +451,14 @@
         {
           "time": "20:45",
           "endTime": "22:00",
-          "place": "Hotel Give",
-          "placeId": "give",
-          "lat": -43.53213525858703,
-          "lon": 172.62825027108192,
+          "place": "Gloucester Street（格洛斯特街）公寓",
+          "placeId": "gloucester",
+          "lat": -43.5297182,
+          "lon": 172.6450892,
           "kind": "rest",
-          "detail": "走回酒店休息，22:00前睡；明早09:30从市区出发去特卡波。",
+          "detail": "步行约15分钟（约1.2km）回公寓，22:00前睡；公寓22:00–07:00要保持安静。明早09:30从市区出发去特卡波。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点；门牌和门锁密码房东在到达前发。",
           "sourceIds": []
         }
       ],
@@ -475,7 +475,7 @@
       "area": "基督城→Tekapo（特卡波）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
       "hotelId": "alpinenook",
-      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Alpine Nook入住休息，傍晚拍教堂。",
+      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Alpine Nook（山间小居度假屋）入住休息，傍晚拍教堂。",
       "drive": "自驾 · 约3.2小时纯驾驶，另加Mt John（约翰山）上下山约40分钟",
       "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
       "weatherPlan": "云低或大风就跳过Mt John（约翰山，山顶看不到湖色还很冷），直接入住。当天先熟悉左侧通行，不加库克山往返。若到Tekapo（特卡波）遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
@@ -483,16 +483,16 @@
         {
           "time": "08:00",
           "endTime": "09:30",
-          "placeId": "give",
-          "place": "Hotel Give住宿区域",
+          "placeId": "gloucester",
+          "place": "Gloucester Street（格洛斯特街）公寓住宿区域",
           "kind": "meal",
           "detail": "早餐、装车、退房，检查路况；09:30从市区出发。",
           "photoTip": "",
-          "lat": -43.53213525858703,
-          "lon": 172.62825027108192,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "lat": -43.5297182,
+          "lon": 172.6450892,
+          "coordinateStatus": "Booking（缤客订房网）物业地图点；门牌和门锁密码房东在到达前发。",
           "sourceIds": [
-            "b-give"
+            "b-gloucester"
           ]
         },
         {
@@ -529,7 +529,7 @@
           "time": "12:15",
           "endTime": "14:00",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "drive",
           "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时45分钟含交通缓冲；实际入住以酒店规定为准。",
           "photoTip": "",
@@ -561,9 +561,9 @@
           "time": "15:30",
           "endTime": "18:15",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "rest",
-          "detail": "Alpine Nook在12 O'Neill Place，15:00–23:30入住，须提前告诉房东预计到达时间；三卧一卫，三人各一间。入住后休息、做晚饭，傍晚再出门拍教堂。",
+          "detail": "Alpine Nook（山间小居度假屋）在12 O'Neill Place，15:00–23:30入住，须提前告诉房东预计到达时间；三卧一卫，三人各一间。入住后休息、做晚饭，傍晚再出门拍教堂。",
           "photoTip": "",
           "lat": -44.0108973,
           "lon": 170.4874962,
@@ -578,7 +578,7 @@
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd（好牧羊人教堂）公共外部",
           "kind": "photo",
-          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Alpine Nook离镇中心约1.1km，开车几分钟。",
+          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Alpine Nook（山间小居度假屋）离镇中心约1.1km，开车几分钟。",
           "photoTip": "Z6III（尼康全画幅相机）＋24–120mm先拍山层，日落后用70–120mm把教堂拍成中远景、带湖岸前景；脚架用于蓝调。教堂内禁止拍照，整个Takapō（特卡波毛利语名）镇禁飞无人机。",
           "lat": -44.003,
           "lon": 170.482,
@@ -593,7 +593,7 @@
           "time": "21:30",
           "endTime": "22:00",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "rest",
           "detail": "短程返回住宿，备份后休息；今晚不再加月光或银河拍摄。",
           "photoTip": "",
@@ -625,7 +625,7 @@
           "time": "08:00",
           "endTime": "09:00",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "meal",
           "detail": "睡足后早餐，判断山区天气与路况；不为银河早起。",
           "photoTip": "",
@@ -732,7 +732,7 @@
           "time": "15:15",
           "endTime": "17:00",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "drive",
           "detail": "回Tekapo（特卡波），途中需要就停正规休息点；不在山里等到日落再开夜路。 回到Tekapo先在镇上加油站加满，明天过Lindis Pass（林迪斯山口）前油量不低于半箱（满箱约630km，D3（第3天）–D6（第6天）合计超过一箱）。",
           "photoTip": "",
@@ -749,7 +749,7 @@
           "time": "17:00",
           "endTime": "19:45",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "rest",
           "detail": "休息、晚餐和备份照片。",
           "photoTip": "",
@@ -766,7 +766,7 @@
           "placeId": "tekapo_lake",
           "place": "Lake Tekapo（特卡波湖）镇区湖岸",
           "kind": "photo_optional",
-          "detail": "若D4（第4天）已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 Alpine Nook离镇中心约1.1km，晚上开车回更省力。",
+          "detail": "若D4（第4天）已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 Alpine Nook（山间小居度假屋）离镇中心约1.1km，晚上开车回更省力。",
           "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
           "lat": -44.003,
           "lon": 170.478,
@@ -799,7 +799,7 @@
           "time": "08:00",
           "endTime": "09:30",
           "placeId": "alpinenook",
-          "place": "Alpine Nook住宿区域",
+          "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "meal",
           "detail": "早餐、打包、按住宿规定退房；09:30出发，正常方案不早起追日出。",
           "photoTip": "",
@@ -2152,96 +2152,96 @@
   "hotels": [
     {
       "id": "dorsett",
-      "name": "Dorsett Melbourne（墨尔本）",
+      "name": "Dorsett Melbourne（墨尔本帝盛酒店）",
       "lat": -37.813695,
       "lon": 144.953512,
       "address": "615 Little Lonsdale Street, Melbourne（墨尔本） VIC 3000",
-      "sourceUrl": "https://www.booking.com/hotel/au/dorsett-melbourne.zh-cn.html?checkin=2026-11-18&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
+      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=105596586&checkIn=2026-11-18&checkOut=2026-11-19&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
-        "b-dorsett"
+        "c-dorsett"
       ],
       "coordinateNote": "Booking物业地图点；按入住指示导航。",
       "checkin": "2026-11-18",
       "checkout": "2026-11-19",
       "nights": 1,
-      "beds": "标准双床间27㎡：2张双人床，最多3人（三人要有两人合睡一张）",
-      "price": "三人1晚可退价NZ$662≈¥2,493（Booking（缤客订房网）按纽币显示，实际按澳元结算）；你自己安排的，实际订的档位和金额以你的订单为准",
-      "cancel": "可退价11/17前免费取消；不可退价NZ$583。以你的订单为准。",
-      "nativeTotal": 662,
-      "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/1实时页：可退价NZ$662、不可退价NZ$583；你自己安排，金额待确认",
+      "beds": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡",
+      "price": "三人1晚¥2,257（携程探索房，在线付含税；Booking（缤客订房网）同房可退价NZ$662≈¥2,493）；你自己安排的，实际订的平台和金额以你的订单为准",
+      "cancel": "携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点）。以你的订单为准。",
+      "nativeTotal": 2257,
+      "currency": "CNY",
+      "priceStatus": "携程11/2实时页：探索房可退价¥2,257；你自己安排，金额待确认",
       "fixedThreeBeds": false,
       "booked": false,
       "checkinTime": "15:00–24:00",
       "checkoutTime": "11:00前",
-      "perNightCNY": 2493.2244,
+      "perNightCNY": 2257.0,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "未确认",
+      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
       "refundableDeposit": null,
       "bedConfirmation": "三人房只有2张双人床，有两人要合睡；需要第三张床就问酒店能否加床。",
       "reviews": "Booking（缤客订房网） 8.7（7,011条）、清洁9.1、位置9.1"
     },
     {
-      "id": "give",
-      "name": "Hotel Give",
-      "lat": -43.53213525858703,
-      "lon": 172.62825027108192,
-      "address": "12 Hereford Street, Christchurch（基督城） 8011（植物园和艺术中心对面）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/ymca-christchurch.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "id": "gloucester",
+      "name": "Spacious 2BR, 2Bath Home Base on Gloucester Street（格洛斯特街宽敞两卧两卫公寓）",
+      "lat": -43.5297182,
+      "lon": 172.6450892,
+      "address": "Gloucester Street（格洛斯特街）, Christchurch（基督城） Central 8011（Booking（缤客订房网）只写到邮编，门牌订后发）",
+      "sourceUrl": "https://www.booking.com/hotel/nz/spacious-2br-2bath-home-base-on-gloucester-street.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
       "sourceIds": [
-        "b-give"
+        "b-gloucester"
       ],
-      "coordinateNote": "Booking物业地图点；按入住指示导航。",
+      "coordinateNote": "Booking物业地图点；门牌和门锁密码房东在到达前发。",
       "checkin": "2026-11-19",
       "checkout": "2026-11-20",
       "nights": 1,
-      "beds": "典雅三人间：3张单人床，最多3人（一个房间）",
-      "price": "三人1晚可退价NZ$248≈¥934；含早餐NZ$327",
-      "cancel": "可退价11/18前免费取消、到店付款；不可退价NZ$236。酒店有停车场，收费以酒店为准。",
-      "nativeTotal": 248,
+      "beds": "两卧两卫公寓85㎡：卧室1一张大号双人床、卧室2两张单人床，两个浴室，有厨房、洗衣机、空调",
+      "price": "三人1晚NZ$412≈¥1,552（房费NZ$282＋税费NZ$130，Booking（缤客订房网）按纽币显示）；携程没有这套",
+      "cancel": "11/14前免费取消，11/12前不付款。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。Booking（缤客订房网）没写停车，订后问房东车停哪里。",
+      "nativeTotal": 412,
       "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/1实时页：可退价NZ$248（到店付）",
+      "priceStatus": "Booking（缤客订房网） 11/2实时页：两卧两卫可退价NZ$412（含税费）",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "15:00–23:30",
-      "checkoutTime": "以订单为准",
-      "perNightCNY": 934.0176,
+      "checkinTime": "15:00–22:00（须提前告诉房东到达时间；无接触自助入住，门锁密码到达前发）",
+      "checkoutTime": "06:00–10:00",
+      "perNightCNY": 1551.6744,
       "aboveOriginalNightlyCap": false,
       "cardFeeNote": "未确认",
       "refundableDeposit": null,
-      "bedConfirmation": "未锁房；订时确认三张单人床和停车位。",
-      "reviews": "Booking（缤客订房网） 8.7（4,996条）、清洁9.1、位置9.6"
+      "bedConfirmation": "房型列一张大号双人床＋两张单人床、两个浴室；未锁房，订后告诉房东三位成人、约18:00到。",
+      "reviews": "Booking（缤客订房网） 9.4（20条）、清洁9.7、位置9.7；房东Carebnb（房源托管公司）在Booking管理361处房源，平均9.2"
     },
     {
       "id": "alpinenook",
-      "name": "Alpine Nook",
+      "name": "Alpine Nook（山间小居度假屋）",
       "lat": -44.0108973,
       "lon": 170.4874962,
       "address": "12 O'Neill Place, Lake Tekapo（特卡波湖） 7999（离镇中心约1.1km）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/rossendale.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
+      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-22&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
-        "b-alpinenook"
+        "c-alpinenook"
       ],
       "coordinateNote": "Booking物业地图点；按入住指示导航。",
       "checkin": "2026-11-20",
       "checkout": "2026-11-22",
       "nights": 2,
-      "beds": "三卧一卫90㎡：一间超大双人床、一间大双人床、一间两张单人床（三人各一间）",
-      "price": "三人2晚NZ$1,893≈¥7,129",
-      "cancel": "11/13前免费取消，11/11前不付款。只有1个卫生间，早上要轮流用。",
-      "nativeTotal": 1893,
-      "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/1实时页：三人2晚NZ$1,893",
+      "beds": "三卧室房屋90㎡：卧室1一张1.81米特大床、卧室2一张1.51米大床、卧室3两张0.8米单人床，一个卫生间，三人各一间",
+      "price": "三人2晚¥6,776（携程在线付含税；Booking（缤客订房网）同房NZ$1,893≈¥7,129）",
+      "cancel": "新西兰时间11/12 23:59前免费取消（北京时间18:59），携程下单即付款。只有1个卫生间，早上要轮流用。",
+      "nativeTotal": 6776,
+      "currency": "CNY",
+      "priceStatus": "携程11/2实时页：三卧室房屋两晚¥6,776（在线付）",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00–23:30（须提前告诉房东到达时间）",
       "checkoutTime": "10:00前",
-      "perNightCNY": 3564.7083,
+      "perNightCNY": 3388.0,
       "aboveOriginalNightlyCap": true,
-      "cardFeeNote": "未确认",
+      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
       "refundableDeposit": null,
       "bedConfirmation": "房型列足够实体床；未锁房，订时确认三间卧室都可用。",
-      "reviews": "Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6"
+      "reviews": "Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6；携程4.7/5（36条）"
     },
     {
       "id": "archway",
@@ -2249,30 +2249,30 @@
       "lat": -44.69342849,
       "lon": 169.14169908,
       "address": "64 Hedditch Street（赫迪奇街）, Wānaka（瓦纳卡） 9305, New Zealand（新西兰）；离湖边约400m（步行5–7分钟），镇中心餐馆步行10–15分钟（回程上坡）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/archway-motels.zh-cn.html?checkin=2026-11-22&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=743002&checkIn=2026-11-22&checkOut=2026-11-23&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
-        "b-archway"
+        "c-archway"
       ],
       "coordinateNote": "Booking物业地图点；按入住指示找三卧公寓",
       "checkin": "2026-11-22",
       "checkout": "2026-11-23",
       "nights": 1,
       "beds": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房",
-      "price": "三人1晚 NZD551＋刷信用卡2.5%＝NZD564.78≈¥2,127；到店付款（10/27为NZD514）",
-      "cancel": "11/20前免费取消，到店付款（Booking（缤客订房网）列明）。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息。入住出示带照片的证件和订房人本人的信用卡，刷信用卡加2.5%。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。只剩1套；售完可订同店两卧（两张单人床＋一张大床＋沙发床，NZD530），再不行回到Fairway（费尔韦，8.2分，NZD619）。",
-      "nativeTotal": 564.78,
-      "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 3成人11/22–23，10/29实时纽币页：三卧公寓NZD551含税、到店付款、只剩1套（10/27为NZD514）；刷信用卡另加2.5%，按NZD564.78计",
+      "price": "三人1晚¥1,915（携程在线付含税，不用再付到店刷卡费；Booking（缤客订房网）同房NZ$535＋2.5%≈¥2,065）",
+      "cancel": "新西兰时间11/20 14:00前免费取消（北京时间09:00），携程下单即付款。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息；入住出示带照片的证件。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。售完可订同店标准家庭两卧（3张单人床＋1张特大床，携程¥1,858）。",
+      "nativeTotal": 1915,
+      "currency": "CNY",
+      "priceStatus": "携程11/2实时页：三卧室公寓¥1,915（在线付）",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "14:00",
       "checkoutTime": "08:00–10:00",
-      "perNightCNY": 2127.074436,
+      "perNightCNY": 1915.0,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "Booking细则：刷信用卡加收2.5%。",
+      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
       "refundableDeposit": null,
       "bedConfirmation": "房型列三间卧室共五张实体床；未锁房，订后留言三位成人。",
-      "reviews": "Booking（缤客订房网） 9.0（1,983条）、清洁9.3；Google（谷歌） 4.7/5（439条），TripAdvisor（猫途鹰） 4.5/5；这套是老楼翻新"
+      "reviews": "Booking（缤客订房网） 9.0（1,983条）、清洁9.3；Google（谷歌） 4.7/5（439条），TripAdvisor（猫途鹰） 4.5/5；这套是老楼翻新；携程4.6/5（183条）"
     },
     {
       "id": "bluepeaks",
@@ -2280,31 +2280,31 @@
       "lat": -45.03301,
       "lon": 168.66448,
       "address": "Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街）, Queenstown（皇后镇） 9300（入住与取钥匙）；公寓在8 Coronation Drive（加冕大道）",
-      "sourceUrl": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
+      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=2562050&checkIn=2026-11-23&checkOut=2026-11-26&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
-        "b-hotel-3",
+        "c-bluepeaks",
         "x-bluepeaks-loc"
       ],
       "coordinateNote": "地图点在8 Coronation Drive公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge, 11 Sydney Street（约70 m）。",
       "checkin": "2026-11-23",
       "checkout": "2026-11-26",
       "nights": 3,
-      "beds": "两卧两卫100㎡：1双人床＋2单人床；上层只能走楼梯",
-      "price": "三人3晚 NZD2,331.96≈¥8,783；已加已知手续费，非所有卡最终扣款保证",
-      "cancel": "11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 订时选“Two-Bedroom Apartment（两卧公寓）”里写明一张双人床＋两张单人床的那种（同楼还有两张大床的房型），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁。",
-      "nativeTotal": 2331.9625,
-      "currency": "NZD",
-      "priceStatus": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
+      "beds": "两卧两卫100㎡：卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床；上层只能走楼梯",
+      "price": "三人3晚¥8,124（携程在线付含税，仅剩2间；Booking（缤客订房网）同房NZ$2,298≈¥8,655）",
+      "cancel": "新西兰时间11/20 23:59前免费取消（北京时间18:59），携程下单即付款。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房。订携程的“两卧室公寓”（卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床，两个卫生间），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁，入住时可能要出示信用卡。",
+      "nativeTotal": 8124,
+      "currency": "CNY",
+      "priceStatus": "携程11/2实时页：两卧室公寓三晚¥8,124（在线付）",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00–20:00",
       "checkoutTime": "07:30–10:00",
-      "perNightCNY": 2927.5457225000005,
+      "perNightCNY": 2708.0,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "Live table whole-NZD room price2295; fixed additional online fee exactly2.50 in fine print (table rounds to+3). Card-inclusive total is calculated from published charge policy, not a completed final payment page.",
+      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
       "refundableDeposit": null,
       "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。",
-      "reviews": "Booking（缤客订房网） 8.9（806条）、清洁9.3；2000年代初建，各套由业主分别装修，有的家具旧"
+      "reviews": "Booking（缤客订房网） 8.9（806条）、清洁9.3；2000年代初建，各套由业主分别装修，有的家具旧；携程4.6/5（87条）"
     },
     {
       "id": "adina",
@@ -2325,7 +2325,7 @@
       "cancel": "11/25前免费取消，11/23前不付款。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。",
       "nativeTotal": 4050,
       "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套",
+      "priceStatus": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套；携程同房¥15,564且床型随机，所以用Booking",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00",
@@ -3045,32 +3045,32 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十四天控制版精算¥34,724.15–38,505.00/人，已含¥1,000机动金；按上限超出¥30,000约¥8,505.00（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,240（11/1按Booking（缤客订房网）实时价：墨尔本Dorsett可退价、基督城市区Hotel Give、特卡波Alpine Nook、悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,309–39,311，不能承诺不超。上限已保守计入约1%外币交易费（约¥222）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 下单前最要紧的几件事",
-      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签后马上一起出票。②住宿用可退价尽早订：新西兰几处日期没变，特卡波改订Alpine Nook（Snowy Peak（雪峰公寓）已订满；11/13前免费取消，只剩1套）、瓦纳卡Archway（拱门汽车旅馆）三卧（只剩1套，11/20前免费取消、到店付）；悉尼Adina（阿迪娜公寓酒店）改订11/26–30四晚（尊贵两卧可退价NZ$4,050，11/25前免费取消）；墨尔本Dorsett你已自己安排；基督城11/19订市区Hotel Give（11/18前免费取消）。③APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；租车日期不变（11/19取、11/26还）。④手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑤大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
+      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签后马上一起出票。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、瓦纳卡Archway（拱门汽车旅馆）三卧（¥1,915，11/20 14:00前）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，11/20 23:59前），携程下单即付款；Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，11/14前免费取消，携程没有）和悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，11/25前免费取消；携程床型随机）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；租车日期不变（11/19取、11/26还）。④手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑤大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
         "f-nz231",
-        "b-snowypeak",
-        "b-archway",
         "b-adina",
         "r-apex-terms",
         "x-esim",
         "x-insurance",
-        "b-give",
-        "b-alpinenook",
-        "b-dorsett"
+        "b-gloucester",
+        "c-dorsett",
+        "c-alpinenook",
+        "c-archway",
+        "c-bluepeaks"
       ]
     },
     {
       "title": "08 / 防晒、驱虫和超市补给",
-      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城市区或11/20在Geraldine（杰拉尔丁）买Alpine Nook两晚的早晚餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
+      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城市区或11/20在Geraldine（杰拉尔丁）买Alpine Nook（山间小居度假屋）两晚的早晚餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
       "sourceIds": [
         "x-sunsmart",
         "x-milford"
@@ -3086,7 +3086,7 @@
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款（租车、三处住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。Booking（缤客订房网）上写“入住要出示信用卡”或“用信用卡收押金”的（悉尼Adina（阿迪娜公寓酒店）入住预授权AUD200、Blue Peaks（蓝色山峰）、Archway（拱门汽车旅馆）），用Visa或Mastercard信用卡订最稳，订房人要和卡同名、本人到场；押金和预授权会占额度。Archway刷信用卡加2.5%。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
+      "body": "大额付款（租车、住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的四处在线付人民币，没有外币交易费和到店刷卡附加费；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场；基督城公寓损坏最多赔NZ$350。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
       "sourceIds": [
         "r-apex-faq",
         "i-nsw-payment",
@@ -3394,12 +3394,6 @@
       "url": "https://www.boc.cn/sourcedb/whpj/"
     },
     {
-      "id": "b-hotel-3",
-      "title": "Blue Peaks Apartments（蓝色山峰公寓） · 11-23–11-26 · 3成人3晚",
-      "url": "https://www.booking.com/hotel/nz/blue-peaks-apartments.zh-cn.html?checkin=2026-11-23&checkout=2026-11-26&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "checked": "2026-10-29"
-    },
-    {
       "id": "b-nzta-licence",
       "title": "NZTA（新西兰交通局） 海外驾照驾驶",
       "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads",
@@ -3704,12 +3698,6 @@
       "checked": "2026-10-29"
     },
     {
-      "id": "b-snowypeak",
-      "title": "Snowy Peak Apartment（雪峰公寓） · 11-20–11-22 · 3成人2晚 · NZD2,300 · Booking（缤客订房网） 8.8分（173条） · 10/29只剩1套",
-      "url": "https://www.booking.com/hotel/nz/snowy-peak-apartment.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "checked": "2026-10-29"
-    },
-    {
       "id": "x-inz-oct26",
       "title": "INZ（新西兰移民局，2026年10月更新）：中国护照持澳签从澳洲去新西兰可继续用NZeTA（新西兰电子旅行授权），直到另行通知",
       "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/chinese-and-pacific-island-visitors-travelling-from-australia/",
@@ -3849,19 +3837,13 @@
     },
     {
       "id": "b-dorsett",
-      "title": "Booking（缤客订房网） 11/1实查：Dorsett Melbourne（墨尔本） · 11/18–19 · 3成人1晚 · 可退价NZ$662（用户自己安排）",
+      "title": "Booking（缤客订房网） 11/1实查：Dorsett Melbourne（墨尔本帝盛酒店） · 11/18–19 · 3成人1晚 · 可退价NZ$662（用户自己安排）",
       "url": "https://www.booking.com/hotel/au/dorsett-melbourne.zh-cn.html?checkin=2026-11-18&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
       "checked": "2026-11-01"
     },
     {
-      "id": "b-give",
-      "title": "Booking（缤客订房网） 11/1实查：Hotel Give · 11/19–20 · 3成人三人间 · 可退价NZ$248",
-      "url": "https://www.booking.com/hotel/nz/ymca-christchurch.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-01"
-    },
-    {
       "id": "b-alpinenook",
-      "title": "Booking（缤客订房网） 11/1实查：Alpine Nook · 11/20–22 · 3成人2晚 · NZ$1,893",
+      "title": "Booking（缤客订房网） 11/1实查：Alpine Nook（山间小居度假屋） · 11/20–22 · 3成人2晚 · NZ$1,893",
       "url": "https://www.booking.com/hotel/nz/rossendale.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
       "checked": "2026-11-01"
     },
@@ -3873,7 +3855,7 @@
     },
     {
       "id": "x-riverside",
-      "title": "Urban List：Riverside Market周四至周六07:30–21:00（2025年指南）",
+      "title": "Urban List：Riverside Market（河畔市场）周四至周六07:30–21:00（2025年指南）",
       "url": "https://www.theurbanlist.com/christchurch/a-list/riverside-market-christchurch",
       "checked": "2026-11-01"
     },
@@ -3882,6 +3864,36 @@
       "title": "Skyline（天空缆车） Queenstown（皇后镇）：缆车约09:00–21:00，成人票约NZ$64–69",
       "url": "https://queenstown.skyline.co.nz/test-open-hours",
       "checked": "2026-11-01"
+    },
+    {
+      "id": "b-gloucester",
+      "title": "Booking（缤客订房网） 11/2实查：Spacious 2BR, 2Bath Home Base on Gloucester Street（格洛斯特街宽敞两卧两卫公寓） · 11/19–20 · 3成人 · 可退价NZ$412含税费",
+      "url": "https://www.booking.com/hotel/nz/spacious-2br-2bath-home-base-on-gloucester-street.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "c-dorsett",
+      "title": "携程11/2实查：Dorsett Melbourne（墨尔本帝盛酒店） · 11/18–19 · 探索房可退价¥2,257（在线付含税，登录会员价）",
+      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=105596586&checkIn=2026-11-18&checkOut=2026-11-19&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "c-alpinenook",
+      "title": "携程11/2实查：Alpine Nook（山间小居度假屋） · 11/20–22 · 三卧室房屋两晚¥6,776（在线付含税，登录会员价）",
+      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-22&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "c-archway",
+      "title": "携程11/2实查：Archway Motels & Chalets（拱门汽车旅馆小屋） · 11/22–23 · 三卧室公寓¥1,915（在线付含税，登录会员价）",
+      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=743002&checkIn=2026-11-22&checkOut=2026-11-23&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "c-bluepeaks",
+      "title": "携程11/2实查：Blue Peaks Apartments（蓝色山峰公寓） · 11/23–26 · 两卧室公寓三晚¥8,124（在线付含税，登录会员价）",
+      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=2562050&checkIn=2026-11-23&checkOut=2026-11-26&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
     }
   ],
   "droneAreas": [
@@ -4061,143 +4073,142 @@
       },
       {
         "id": "hotel-dorsett",
-        "title": "Dorsett Melbourne（墨尔本） · 11-18–11-19 / 1晚",
-        "currency": "NZD",
+        "title": "Dorsett Melbourne（墨尔本帝盛酒店） · 11-18–11-19 / 1晚",
+        "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 662,
-          "max": 662
+          "min": 2257,
+          "max": 2257
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 11/1实时页：可退价NZ$662、不可退价NZ$583；你自己安排，金额待确认",
-        "note": "标准双床间27㎡：2张双人床，最多3人（三人要有两人合睡一张）；可退价11/17前免费取消；不可退价NZ$583。以你的订单为准。",
+        "status": "携程11/2实时页：探索房可退价¥2,257；你自己安排，金额待确认",
+        "note": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡；携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点）。以你的订单为准。",
         "sourceIds": [
-          "b-dorsett",
-          "x-au-surcharge"
+          "c-dorsett"
         ],
         "perPersonNative": {
-          "min": 220.66666666666666,
-          "max": 220.66666666666666
+          "min": 752.3333333333334,
+          "max": 752.3333333333334
         },
         "perPersonCnyUnrounded": {
-          "min": 831.0748,
-          "max": 831.0748
+          "min": 752.3333333333334,
+          "max": 752.3333333333334
         },
         "perPersonCny": {
-          "min": 831.07,
-          "max": 831.07
+          "min": 752.33,
+          "max": 752.33
         }
       },
       {
-        "id": "hotel-give",
-        "title": "Hotel Give · 11-19–11-20 / 1晚",
+        "id": "hotel-gloucester",
+        "title": "Spacious 2BR, 2Bath Home Base on Gloucester Street（格洛斯特街宽敞两卧两卫公寓） · 11-19–11-20 / 1晚",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 248,
-          "max": 248
+          "min": 412,
+          "max": 412
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 11/1实时页：可退价NZ$248（到店付）",
-        "note": "典雅三人间：3张单人床，最多3人（一个房间）；可退价11/18前免费取消、到店付款；不可退价NZ$236。酒店有停车场，收费以酒店为准。",
+        "status": "Booking（缤客订房网） 11/2实时页：两卧两卫可退价NZ$412（含税费）",
+        "note": "两卧两卫公寓85㎡：卧室1一张大号双人床、卧室2两张单人床，两个浴室，有厨房、洗衣机、空调；11/14前免费取消，11/12前不付款。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。Booking（缤客订房网）没写停车，订后问房东车停哪里。",
         "sourceIds": [
-          "b-give"
+          "b-gloucester"
         ],
         "perPersonNative": {
-          "min": 82.66666666666667,
-          "max": 82.66666666666667
+          "min": 137.33333333333334,
+          "max": 137.33333333333334
         },
         "perPersonCnyUnrounded": {
-          "min": 311.3392,
-          "max": 311.3392
+          "min": 517.2248000000001,
+          "max": 517.2248000000001
         },
         "perPersonCny": {
-          "min": 311.34,
-          "max": 311.34
+          "min": 517.22,
+          "max": 517.22
         }
       },
       {
         "id": "hotel-alpinenook",
-        "title": "Alpine Nook · 11-20–11-22 / 2晚",
-        "currency": "NZD",
+        "title": "Alpine Nook（山间小居度假屋） · 11-20–11-22 / 2晚",
+        "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 1893,
-          "max": 1893
+          "min": 6776,
+          "max": 6776
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 11/1实时页：三人2晚NZ$1,893",
-        "note": "三卧一卫90㎡：一间超大双人床、一间大双人床、一间两张单人床（三人各一间）；11/13前免费取消，11/11前不付款。只有1个卫生间，早上要轮流用。",
+        "status": "携程11/2实时页：三卧室房屋两晚¥6,776（在线付）",
+        "note": "三卧室房屋90㎡：卧室1一张1.81米特大床、卧室2一张1.51米大床、卧室3两张0.8米单人床，一个卫生间，三人各一间；新西兰时间11/12 23:59前免费取消（北京时间18:59），携程下单即付款。只有1个卫生间，早上要轮流用。",
         "sourceIds": [
-          "b-alpinenook"
+          "c-alpinenook"
         ],
         "perPersonNative": {
-          "min": 631.0,
-          "max": 631.0
+          "min": 2258.6666666666665,
+          "max": 2258.6666666666665
         },
         "perPersonCnyUnrounded": {
-          "min": 2376.4722,
-          "max": 2376.4722
+          "min": 2258.6666666666665,
+          "max": 2258.6666666666665
         },
         "perPersonCny": {
-          "min": 2376.47,
-          "max": 2376.47
+          "min": 2258.67,
+          "max": 2258.67
         }
       },
       {
         "id": "hotel-archway",
         "title": "Archway Motels & Chalets（拱门汽车旅馆小屋） · 11-22–11-23 / 1晚",
-        "currency": "NZD",
+        "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 564.78,
-          "max": 564.78
+          "min": 1915,
+          "max": 1915
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 3成人11/22–23，10/29实时纽币页：三卧公寓NZD551含税、到店付款、只剩1套（10/27为NZD514）；刷信用卡另加2.5%，按NZD564.78计",
-        "note": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房；11/20前免费取消，到店付款（Booking（缤客订房网）列明）。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息。入住出示带照片的证件和订房人本人的信用卡，刷信用卡加2.5%。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。只剩1套；售完可订同店两卧（两张单人床＋一张大床＋沙发床，NZD530），再不行回到Fairway（费尔韦，8.2分，NZD619）。",
+        "status": "携程11/2实时页：三卧室公寓¥1,915（在线付）",
+        "note": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房；新西兰时间11/20 14:00前免费取消（北京时间09:00），携程下单即付款。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息；入住出示带照片的证件。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。售完可订同店标准家庭两卧（3张单人床＋1张特大床，携程¥1,858）。",
         "sourceIds": [
-          "b-archway"
+          "c-archway"
         ],
         "perPersonNative": {
-          "min": 188.26,
-          "max": 188.26
+          "min": 638.3333333333334,
+          "max": 638.3333333333334
         },
         "perPersonCnyUnrounded": {
-          "min": 709.024812,
-          "max": 709.024812
+          "min": 638.3333333333334,
+          "max": 638.3333333333334
         },
         "perPersonCny": {
-          "min": 709.02,
-          "max": 709.02
+          "min": 638.33,
+          "max": 638.33
         }
       },
       {
         "id": "hotel-bluepeaks",
         "title": "Blue Peaks Apartments（蓝色山峰公寓） · 11-23–11-26 / 3晚",
-        "currency": "NZD",
+        "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 2331.9625,
-          "max": 2331.9625
+          "min": 8124,
+          "max": 8124
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "三人三晚列表NZ2295（取整）＋预订费2.50＋1.5%卡费推算",
-        "note": "两卧两卫100㎡：1双人床＋2单人床；上层只能走楼梯；11/21前可免费取消、11/19前不付款，精确当地截止依订单。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房；须出示与订单同名的信用卡。 订时选“Two-Bedroom Apartment（两卧公寓）”里写明一张双人床＋两张单人床的那种（同楼还有两张大床的房型），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁。",
+        "status": "携程11/2实时页：两卧室公寓三晚¥8,124（在线付）",
+        "note": "两卧两卫100㎡：卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床；上层只能走楼梯；新西兰时间11/20 23:59前免费取消（北京时间18:59），携程下单即付款。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房。订携程的“两卧室公寓”（卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床，两个卫生间），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁，入住时可能要出示信用卡。",
         "sourceIds": [
-          "b-hotel-3"
+          "c-bluepeaks"
         ],
         "perPersonNative": {
-          "min": 777.3208333333333,
-          "max": 777.3208333333333
+          "min": 2708.0,
+          "max": 2708.0
         },
         "perPersonCnyUnrounded": {
-          "min": 2927.5457225,
-          "max": 2927.5457225
+          "min": 2708.0,
+          "max": 2708.0
         },
         "perPersonCny": {
-          "min": 2927.55,
-          "max": 2927.55
+          "min": 2708.0,
+          "max": 2708.0
         }
       },
       {
@@ -4210,7 +4221,7 @@
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套",
+        "status": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套；携程同房¥15,564且床型随机，所以用Booking",
         "note": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大床（queen），有厨房、洗衣烘干机和阳台；11/25前免费取消，11/23前不付款。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。",
         "sourceIds": [
           "b-adina",
@@ -4635,7 +4646,7 @@
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 221.71
+          "max": 155.32
         },
         "splitPeople": 1,
         "category": "essential",
@@ -4647,15 +4658,15 @@
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 221.71
+          "max": 155.32
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 221.71
+          "max": 155.32
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 221.71
+          "max": 155.32
         }
       },
       {
@@ -4687,26 +4698,26 @@
     ],
     "summary": {
       "totalCNY": {
-        "min": 34724.15,
-        "max": 38505.0,
-        "display": "控制版约¥34,724–38,505/人（含¥1,000机动金）"
+        "min": 34443.25,
+        "max": 38157.71,
+        "display": "控制版约¥34,443–38,158/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
-          "min": 14117.47,
-          "max": 16334.37
+          "min": 20474.803333333333,
+          "max": 22625.31333333333
         },
         "AUD": {
           "min": 420.0,
           "max": 575.0
         },
         "NZD": {
-          "min": 4945.100833333333,
-          "max": 5166.100833333333
+          "min": 3182.52,
+          "max": 3403.52
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -8505.0,
+      "headroomCNY": -8157.71,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -4715,25 +4726,26 @@
         "status": "吉祥多程＋QF167（澳洲航空）＋NZ231（新西兰航空），携程11/1实查1人价；未出票"
       },
       "hotel": {
-        "equivalentCNY": 12239.83,
+        "equivalentCNY": 11958.93,
         "wholeGroup": {
+          "CNY": 19072,
           "AUD": 0,
-          "NZD": 9749.7425
+          "NZD": 4462
         },
-        "status": "6处12晚：墨尔本Dorsett（你自己安排）、基督城Hotel Give、特卡波Alpine Nook、瓦纳卡Archway（拱门汽车旅馆）、皇后镇Blue Peaks（蓝色山峰）、悉尼Adina（阿迪娜公寓酒店）；都未锁房"
+        "status": "6处12晚：墨尔本Dorsett（帝盛酒店，你自己安排）、基督城Gloucester Street（格洛斯特街）公寓、特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Archway（拱门汽车旅馆）、皇后镇Blue Peaks（蓝色山峰）、悉尼Adina（阿迪娜公寓酒店）；携程4处、Booking（缤客订房网） 2处；都未锁房"
       },
       "relaxedFoodTotalCNY": {
-        "min": 35308.65,
-        "max": 39310.95,
+        "min": 35027.75,
+        "max": 38963.66,
         "note": "餐饮放宽至澳洲AUD360–450＋新西兰NZ560–720；其余相同且含1000机动金"
       },
       "comparisonNote": "三段机票都是你本人的携程1人价；酒店、车、油、停车三人均分（墨尔本、悉尼取估算区间）；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
       "scope": "本次新增支出含必要交通、12晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动（BridgeMuseum（大桥博物馆）、Scenic World（景观世界）等）/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥944–1,180）。可退押金/预授权不是消费。",
-      "narrative": "十四天控制版精算¥34,724.15–38,505.00/人，已含¥1,000机动金；按上限超出¥30,000约¥8,505.00（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,240（11/1按Booking（缤客订房网）实时价：墨尔本Dorsett可退价、基督城市区Hotel Give、特卡波Alpine Nook、悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,309–39,311，不能承诺不超。上限已保守计入约1%外币交易费（约¥222）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "narrative": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
-        "min": 34724.15,
-        "max": 38505.0,
-        "display": "控制版约¥34,724–38,505/人（含¥1,000机动金）"
+        "min": 34443.25,
+        "max": 38157.71,
+        "display": "控制版约¥34,443–38,158/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -4783,15 +4795,15 @@
       ]
     },
     {
-      "title": "特卡波：前三个候选都订满了，改Alpine Nook",
-      "body": "11/1复查：Snowy Peak（雪峰公寓） 11/20–22也没房了（之前Tesoro（特索罗）、Twin Stars（双星度假屋）已订满）。改Alpine Nook：三卧一卫、90㎡，三人各一间，Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6，两晚NZ$1,893，11/13前免费取消、11/11前不付款；只有1个卫生间，早上要轮流用。特卡波这几晚三人能住的酒店一家都没有。",
+      "title": "特卡波：前三个候选都订满了，改Alpine Nook（山间小居度假屋）",
+      "body": "11/1复查：Snowy Peak（雪峰公寓） 11/20–22也没房了（之前Tesoro（特索罗）、Twin Stars（双星度假屋）已订满）。改Alpine Nook（山间小居度假屋）：三卧一卫、90㎡，三人各一间，Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6；携程两晚¥6,776（比Booking便宜约¥350），新西兰时间11/12 23:59前免费取消；只有1个卫生间，早上要轮流用。特卡波这几晚三人能住的酒店一家都没有。11/2再查，那三家还是没房；免费取消截止前会继续盯，放出房就换。",
       "sourceIds": [
-        "b-alpinenook"
+        "c-alpinenook"
       ]
     },
     {
       "title": "三万元：上限超出，要选一项省钱",
-      "body": "十四天控制版精算¥34,724.15–38,505.00/人，已含¥1,000机动金；按上限超出¥30,000约¥8,505.00（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,240（11/1按Booking（缤客订房网）实时价：墨尔本Dorsett可退价、基督城市区Hotel Give、特卡波Alpine Nook、悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,309–39,311，不能承诺不超。上限已保守计入约1%外币交易费（约¥222）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "body": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
@@ -4885,7 +4897,7 @@
       },
       {
         "title": "06 / 取还车和司机证件",
-        "body": "CHC（基督城机场）28 Ron Guthrey Rd（罗恩·格思里路），计划17点取，当前08–18:29。下班后取车须提前24小时安排并全额预付，不能临时改；QF167（澳洲航空）大幅延误赶不上18:29，就打车去市区的Hotel Give，致电门店改到11/20 08:00取车，并确认不算no-show（未到场）。取车时APEX（新西兰租车公司）可能要求填Drive Safe（安全驾驶自测）问卷、追问靠左驾驶经验，必要时门店附近路考，不合格可终止合同；出发前两人读drivesafe.org.nz（安全驾驶自测网站）和NZTA（新西兰交通局）《Driving in New Zealand（新西兰驾驶指南）》。东京同学若在日本常开车（同为靠左），门店到酒店和11/20出基督城先由他开。ZQN（皇后镇机场）32 Lucas Place（卢卡斯巷），11:45到、12点交车再接驳机场。两人原件＋合规翻译/日本IDP（国际驾照）、本人实体受理卡到场并都入合同。距取车超过14天通常免费取消，14天内至24小时前20%上限NZ100，24小时内或no-show 50%上限NZ200，订单优先。",
+        "body": "CHC（基督城机场）28 Ron Guthrey Rd（罗恩·格思里路），计划17点取，当前08–18:29。下班后取车须提前24小时安排并全额预付，不能临时改；QF167（澳洲航空）大幅延误赶不上18:29，就打车去市区的Gloucester Street（格洛斯特街）公寓，致电门店改到11/20 08:00取车，并确认不算no-show（未到场）。取车时APEX（新西兰租车公司）可能要求填Drive Safe（安全驾驶自测）问卷、追问靠左驾驶经验，必要时门店附近路考，不合格可终止合同；出发前两人读drivesafe.org.nz（安全驾驶自测网站）和NZTA（新西兰交通局）《Driving in New Zealand（新西兰驾驶指南）》。东京同学若在日本常开车（同为靠左），门店到酒店和11/20出基督城先由他开。ZQN（皇后镇机场）32 Lucas Place（卢卡斯巷），11:45到、12点交车再接驳机场。两人原件＋合规翻译/日本IDP（国际驾照）、本人实体受理卡到场并都入合同。距取车超过14天通常免费取消，14天内至24小时前20%上限NZ100，24小时内或no-show 50%上限NZ200，订单优先。",
         "sourceIds": [
           "r-apex-chc",
           "r-apex-zqn",
@@ -5037,12 +5049,13 @@
       "who": [
         "user"
       ],
-      "title": "尽早订特卡波Alpine Nook、瓦纳卡Archway（拱门汽车旅馆）三卧（都只剩1套）和基督城Hotel Give",
-      "detail": "Alpine Nook两晚NZ$1,893（11/13前免费取消）；Archway（拱门汽车旅馆）三卧NZ$535（11/20前免费取消、到店付）；Hotel Give三人间NZ$248（11/18前免费取消、到店付）。",
+      "title": "尽早订：携程订特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Archway（拱门汽车旅馆）三卧、皇后镇Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓",
+      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Archway（拱门汽车旅馆）三卧¥1,915（11/20 14:00前）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（11/20 23:59前，仅剩2间）；这三家携程下单即付款。Gloucester Street（格洛斯特街）两卧两卫公寓NZ$412（Booking（缤客订房网），11/14前免费取消、11/12前不付款），订后问房东停车。",
       "sourceIds": [
-        "b-alpinenook",
-        "b-archway",
-        "b-give"
+        "c-alpinenook",
+        "c-archway",
+        "c-bluepeaks",
+        "b-gloucester"
       ]
     },
     {
@@ -5100,7 +5113,7 @@
         "all"
       ],
       "title": "东京同学澳签决策日",
-      "detail": "仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。Alpine Nook 11/13前都能免费取消；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。",
+      "detail": "仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。Alpine Nook（山间小居度假屋）新西兰时间11/12 23:59前都能免费取消；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。",
       "sourceIds": [
         "x-nzeta-req",
         "x-visa-times"
@@ -5178,15 +5191,27 @@
       ]
     },
     {
-      "id": "alpinenook-pay",
-      "due": "2026-11-11",
+      "id": "alpinenook-cancel",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
-      "title": "Alpine Nook扣款日（11/13前免费取消）",
-      "detail": "11/11前不付款；东京同学签证没下来就在11/13前取消。",
+      "title": "Alpine Nook（山间小居度假屋）免费取消截止（新西兰时间11/12 23:59，北京时间18:59）",
+      "detail": "携程订的已付款；东京同学签证没下来就在截止前取消。截止前会继续盯Tesoro（特索罗）、Twin Stars（双星度假屋）、Snowy Peak（雪峰公寓）有没有放出房。",
       "sourceIds": [
-        "b-alpinenook"
+        "c-alpinenook"
+      ]
+    },
+    {
+      "id": "gloucester-cancel",
+      "due": "2026-11-13",
+      "who": [
+        "user"
+      ],
+      "title": "Gloucester Street（格洛斯特街）公寓免费取消截止（11/14前）",
+      "detail": "Booking（缤客订房网）订的，11/12才扣款；行程有变就在11/14前取消。",
+      "sourceIds": [
+        "b-gloucester"
       ]
     },
     {
@@ -5228,18 +5253,6 @@
       ]
     },
     {
-      "id": "give-cancel",
-      "due": "2026-11-17",
-      "who": [
-        "user"
-      ],
-      "title": "Hotel Give免费取消截止（11/18前）",
-      "detail": "到店付款；行程有变就在11/18前取消。",
-      "sourceIds": [
-        "b-give"
-      ]
-    },
-    {
       "id": "nztd",
       "due": "2026-11-18",
       "who": [
@@ -5271,22 +5284,22 @@
       "who": [
         "user"
       ],
-      "title": "Archway（拱门汽车旅馆）免费取消截止（11/20前，到店付款）",
-      "detail": "订后留言三位成人、预计14:30到；刷信用卡加2.5%。",
+      "title": "Archway（拱门汽车旅馆）免费取消截止（新西兰时间11/20 14:00，北京时间09:00）",
+      "detail": "携程订的已付款；订后在携程留言三位成人、预计14:30到。",
       "sourceIds": [
-        "b-archway"
+        "c-archway"
       ]
     },
     {
-      "id": "bluepeaks-pay",
-      "due": "2026-11-19",
+      "id": "bluepeaks-cancel",
+      "due": "2026-11-20",
       "who": [
         "user"
       ],
-      "title": "Blue Peaks（蓝色山峰）扣款日（11/21前免费取消）",
-      "detail": "入住要出示和订单同名的信用卡，用Visa（维萨卡）或Mastercard（万事达卡）信用卡订最稳。订写明一张双人床＋两张单人床的两卧，备注要翻新过的单元。",
+      "title": "Blue Peaks（蓝色山峰）免费取消截止（新西兰时间11/20 23:59，北京时间18:59）",
+      "detail": "携程订的已付款；订“两卧室公寓”（一张大床＋两张单人床），备注三位成人、要翻新过的单元。",
       "sourceIds": [
-        "b-hotel-3"
+        "c-bluepeaks"
       ]
     },
     {
@@ -5376,7 +5389,7 @@
         "region": "nz",
         "points": [
           "09:10 坐澳洲航空QF167，14:30 到基督城",
-          "取车后进市区，住植物园对面",
+          "取车后进市区，住格洛斯特街两卧两卫公寓",
           "傍晚逛植物园、雅芳河，河畔市场吃晚饭"
         ],
         "stay": "基督城"
