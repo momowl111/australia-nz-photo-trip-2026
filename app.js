@@ -214,13 +214,34 @@ function renderRental(){
   const quote=D.rental.quote;
   $('#rental-proof').innerHTML=`<summary>查看APEX（租车公司）实际报价截图 <span>未预订</span></summary><p class="planner-note">${esc(quote.proofCaption)}</p><img src="${esc(quote.proofImage)}" alt="${esc(quote.proofAlt || quote.proofCaption)}" loading="lazy" class="proof-image">`;
 }
+function renderGlance(){
+  const G=D.glance; if(!G)return;
+  $('#glance-route').innerHTML=G.route.map(r=>`<li><b>${esc(r.stop)}<small>${esc(r.date)}</small></b>${r.leg?`<span class="leg">${esc(r.leg)}</span>`:''}</li>`).join('');
+  $('#glance-days').innerHTML=G.days.map(g=>`<li><button class="glance-day ${esc(g.region)}" data-day="${g.day}" type="button" aria-label="打开第${g.day}天详细行程：${esc(g.title)}"><span class="g-badge"><small>DAY</small>${g.day}</span><span class="g-body"><span class="g-date">${shortDate(g.date)} ${weekday(g.date)}</span><b>${esc(g.title)}</b><ul>${g.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><span class="g-stay">住：${esc(g.stay)}</span></span></button></li>`).join('');
+  $$('#glance-days .glance-day').forEach(b=>b.onclick=()=>openDayFromElsewhere(Number(b.dataset.day)));
+  $('#glance-stops').innerHTML=G.mapStops.map(s=>`<li class="${s.side?'side':''}"><span class="g-pin">${s.n}</span><b>${esc(s.name)}</b><small>${esc(s.days)}</small></li>`).join('');
+  $('#glance-drives').innerHTML=`<tbody>${G.drives.map(r=>`<tr><th scope="row">${esc(r.leg)}</th><td>${esc(r.time)}</td></tr>`).join('')}</tbody>`;
+  $('#glance-tips').innerHTML=G.tips.map(t=>`<li>${esc(t)}</li>`).join('');
+}
+// The one-page map only shows the South Island loop: blue = drive between overnight stops, orange dashes = day trips from the base.
+function initGlanceMap(){
+  const G=D.glance, el=$('#glance-map'); if(!G||!el)return;
+  const m=L.map(el,{scrollWheelZoom:false,dragging:!coarsePointer,zoomControl:false,keyboard:false,zoomAnimation:!reducedMotion,fadeAnimation:!reducedMotion});
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',crossOrigin:true}).addTo(m);
+  m.attributionControl.setPrefix(false);
+  const ll=s=>[s.lat,s.lon], at=n=>ll(G.mapStops.find(s=>s.n===n));
+  L.polyline(G.mapStops.filter(s=>!s.side).map(ll),{color:'#0071e3',weight:4,opacity:.85}).addTo(m);
+  G.mapStops.filter(s=>s.side).forEach(s=>L.polyline([at(s.from),ll(s)],{color:'#ff8d28',weight:3,dashArray:'6 6',opacity:.95}).addTo(m));
+  G.mapStops.forEach(s=>L.marker(ll(s),{icon:L.divIcon({className:'glance-marker'+(s.side?' side':'')+(s.labelLeft?' left':''),html:`<span>${s.n}</span>${s.label===false?'':`<b>${esc(s.name)}</b>`}`,iconSize:null}),keyboard:false,title:s.name}).addTo(m));
+  m.fitBounds(L.latLngBounds(G.mapStops.map(ll)),{padding:[24,24]});
+}
 function renderStatic() {
   $('#route-review').innerHTML=cards(D.routeReview,'before-card');
   $('#gear-grid').innerHTML=cards(D.gear,'gear-card');
   $('#weather-highlight').innerHTML=`<h3>${esc(D.weather.highlight.title)}</h3><div><p>${esc(D.weather.highlight.body)}</p><div class="source-links">${refLinks(D.weather.highlight.sourceIds)}</div></div>`;
   $('#weather-grid').innerHTML=cards(D.weather.cards,'weather-card');$('#risk-grid').innerHTML=cards(D.weather.risks,'risk-card');
   $('#before-grid').innerHTML=cards(D.before,'before-card');
-  renderBudget();renderRental();renderTodos();renderFacts();renderOverview();
+  renderBudget();renderRental();renderTodos();renderFacts();renderOverview();renderGlance();
   $('#drone-areas').innerHTML=cards(D.droneAreas.map(a=>({title:a.place,body:a.conclusion,sourceIds:a.sourceIds})),'risk-card');
   $('#sources').innerHTML=`<ul class="sources-list">${D.sources.map(s=>`<li><a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.title)} ↗</a> <span class="source-date">${s.checked?`核查 ${esc(String(s.checked).replace(/-/g,'.'))}`:'未复核'}</span></li>`).join('')}</ul>`;
   $('#credits').innerHTML=`<h3>照片授权</h3><ul class="credits-list">${D.photos.map(p=>`<li>${esc(p.title)} — ${workTitle(p)?`原题“${esc(workTitle(p))}”，`:''}${esc(byline(p))}；<a href="${esc(url(p.sourceUrl))}" target="_blank" rel="noopener">原作品</a>；<a href="${esc(url(p.licenseUrl))}" target="_blank" rel="noopener">${esc(licenseLabel(p))}</a>。页面卡片以CSS裁切显示，放大视图保留原比例；未将作品标记为本次旅行实拍。</li>`).join('')}</ul>`;
@@ -268,7 +289,7 @@ async function main(){
   try{const r=await dataRequest;if(!r.ok)throw new Error('行程数据未能载入');D=await r.json();if(!Array.isArray(D.days)||D.days.length!==D.meta?.totalDays||D.days.some((day,index)=>day.day!==index+1))throw new Error('行程数据不完整');selectedDay=Math.min(D.days.length,selectedDay);
     bindControls();renderStatic();renderPhotos();renderDay(false);stripTo(false);initChrome();
     if(hadDayParam)$('#planner').scrollIntoView({behavior:'auto'});
-    if(await leafletReady()){initMap();renderMap();}else mapUnavailable();
+    if(await leafletReady()){initMap();renderMap();initGlanceMap();}else mapUnavailable();
   }catch(e){$('#loading-note').hidden=false;$('#loading-note').className='fatal-error';$('#loading-note').textContent=`${e.message}。请刷新页面；若仍失败，可从页脚打开行程仓库。`;console.error(e);}
 }
 main();
