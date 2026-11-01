@@ -219,21 +219,42 @@ function renderGlance(){
   $('#glance-route').innerHTML=G.route.map(r=>`<li><b>${esc(r.stop)}<small>${esc(r.date)}</small></b>${r.leg?`<span class="leg">${esc(r.leg)}</span>`:''}</li>`).join('');
   $('#glance-days').innerHTML=G.days.map(g=>`<li><button class="glance-day ${esc(g.region)}" data-day="${g.day}" type="button" aria-label="打开第${g.day}天详细行程：${esc(g.title)}"><span class="g-badge"><small>DAY</small>${g.day}</span><span class="g-body"><span class="g-date">${shortDate(g.date)} ${weekday(g.date)}</span><b>${esc(g.title)}</b><ul>${g.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><span class="g-stay">住：${esc(g.stay)}</span></span></button></li>`).join('');
   $$('#glance-days .glance-day').forEach(b=>b.onclick=()=>openDayFromElsewhere(Number(b.dataset.day)));
-  $('#glance-stops').innerHTML=G.mapStops.map(s=>`<li class="${s.side?'side':''}"><span class="g-pin">${s.n}</span><b>${esc(s.name)}</b><small>${esc(s.days)}</small></li>`).join('');
+  if(G.art)$('#glance-art').innerHTML=glanceArt(G.art,D.photos);
   $('#glance-drives').innerHTML=`<tbody>${G.drives.map(r=>`<tr><th scope="row">${esc(r.leg)}</th><td>${esc(r.time)}</td></tr>`).join('')}</tbody>`;
   $('#glance-tips').innerHTML=G.tips.map(t=>`<li>${esc(t)}</li>`).join('');
 }
-// The one-page map only shows the South Island loop: blue = drive between overnight stops, orange dashes = day trips from the base.
-function initGlanceMap(){
-  const G=D.glance, el=$('#glance-map'); if(!G||!el)return;
-  const m=L.map(el,{scrollWheelZoom:false,dragging:!coarsePointer,zoomControl:false,keyboard:false,zoomAnimation:!reducedMotion,fadeAnimation:!reducedMotion});
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',crossOrigin:true}).addTo(m);
-  m.attributionControl.setPrefix(false);
-  const ll=s=>[s.lat,s.lon], at=n=>ll(G.mapStops.find(s=>s.n===n));
-  L.polyline(G.mapStops.filter(s=>!s.side).map(ll),{color:'#0071e3',weight:4,opacity:.85}).addTo(m);
-  G.mapStops.filter(s=>s.side).forEach(s=>L.polyline([at(s.from),ll(s)],{color:'#ff8d28',weight:3,dashArray:'6 6',opacity:.95}).addTo(m));
-  G.mapStops.forEach(s=>L.marker(ll(s),{icon:L.divIcon({className:'glance-marker'+(s.side?' side':'')+(s.labelLeft?' left':''),html:`<span>${s.n}</span>${s.label===false?'':`<b>${esc(s.name)}</b>`}`,iconSize:null}),keyboard:false,title:s.name}).addTo(m));
-  m.fitBounds(L.latLngBounds(G.mapStops.map(ll)),{padding:[24,24]});
+// Hand-drawn style South Island map for the one-page summary: tilted outline, lakes, mountain ticks, the drive (blue),
+// day trips and the Milford coach (orange), flights in and out, and a photo label card beside each stop so nothing sits on the route.
+function glanceArt(A,photos){
+  const W=640,rot=A.rotate*Math.PI/180,xs=A.stretch||1,k=Math.cos(44*Math.PI/180),[mt,mr,mb,ml]=A.margins||[60,150,60,150];
+  const pr=([lat,lon])=>{const x=(lon-170)*k,y=lat+44;return [(x*Math.cos(rot)-y*Math.sin(rot))*xs,x*Math.sin(rot)+y*Math.cos(rot)];};
+  const key=[...A.routes.flatMap(r=>r.pts),...A.stops.map(s=>[s.lat,s.lon])].map(pr),kx=key.map(p=>p[0]),ky=key.map(p=>p[1]);
+  const minX=Math.min(...kx),maxX=Math.max(...kx),minY=Math.min(...ky),maxY=Math.max(...ky);
+  const sc=(W-ml-mr)/(maxX-minX),H=Math.round((maxY-minY)*sc+mt+mb);
+  const P=ll=>{const [x,y]=pr(ll);return [ml+(x-minX)*sc,mt+(maxY-y)*sc];};
+  const f=n=>n.toFixed(1);
+  const smooth=(pts,closed)=>{const p=pts.map(P),n=p.length;if(n<2)return '';const at=i=>closed?p[(i+n)%n]:p[Math.max(0,Math.min(n-1,i))];let d=`M${f(p[0][0])},${f(p[0][1])}`;for(let i=0;i<(closed?n:n-1);i++){const p0=at(i-1),p1=at(i),p2=at(i+1),p3=at(i+2);d+=`C${f(p1[0]+(p2[0]-p0[0])/6)},${f(p1[1]+(p2[1]-p0[1])/6)} ${f(p2[0]-(p3[0]-p1[0])/6)},${f(p2[1]-(p3[1]-p1[1])/6)} ${f(p2[0])},${f(p2[1])}`;}return closed?d+'Z':d;};
+  const tw=(s,fs)=>[...String(s)].reduce((w,c)=>w+(c.charCodeAt(0)<256?.58:1)*fs,0);
+  let o=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="新西兰南岛手绘路线示意图：基督城、特卡波、库克山、瓦纳卡、箭镇、皇后镇、米尔福德峡湾、格林诺奇"><defs><filter id="g-rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3.2"/></filter><clipPath id="g-frame"><rect width="${W}" height="${H}" rx="22"/></clipPath></defs><g clip-path="url(#g-frame)">`;
+  o+=`<rect width="${W}" height="${H}" class="g-sea"/>`;
+  for(let i=0;i<7;i++){const x=30+(i*197)%(W-90),y=30+(i*263)%(H-60);o+=`<path class="g-wave" d="M${x},${y}q8,-6 16,0t16,0t16,0"/>`;}
+  o+=`<path class="g-land" filter="url(#g-rough)" d="${smooth(A.coast,true)}"/>`+A.islands.map(p=>`<path class="g-land" filter="url(#g-rough)" d="${smooth(p,true)}"/>`).join('');
+  o+=A.lakes.map(p=>`<path class="g-lake" d="${smooth(p,true)}"/>`).join('');
+  o+=A.alps.map(ll=>{const [x,y]=P(ll);return `<path class="g-mtn" d="M${f(x-11)},${f(y+7)}L${f(x)},${f(y-9)}L${f(x+11)},${f(y+7)}"/><path class="g-snow" d="M${f(x-4)},${f(y-3.5)}L${f(x)},${f(y-9)}L${f(x+4)},${f(y-3.5)}"/>`;}).join('');
+  {const [x,y]=P([A.peak.lat,A.peak.lon]);o+=`<path class="g-mtn big" d="M${f(x-18)},${f(y+12)}L${f(x)},${f(y-15)}L${f(x+18)},${f(y+12)}"/><path class="g-snow" d="M${f(x-7)},${f(y-4.5)}L${f(x)},${f(y-15)}L${f(x+7)},${f(y-4.5)}"/>`;}
+  o+=A.flights.map(fl=>{const x1=fl.from[0]*W,y1=fl.from[1]*H,[x2,y2]=P(fl.to),cx=(x1+x2)/2,cy=(y1+y2)/2-(y1<y2?40:-40);return `<path class="g-flight" d="M${f(x1)},${f(y1)}Q${f(cx)},${f(cy)} ${f(x2)},${f(y2)}"/><text class="g-flight-label" x="${f(x1)}" y="${f(y1<H/2?y1+20:y1-10)}" text-anchor="middle">${esc(fl.label)}</text>`;}).join('');
+  o+=A.routes.map(r=>{const d=smooth(r.pts,false);return r.kind==='drive'?`<path class="g-route-case" d="${d}"/><path class="g-route" d="${d}"/>`:`<path class="g-route-side${r.kind==='coach'?' coach':''}" d="${d}"/>`;}).join('');
+  const cards=A.stops.map(s=>{const [x,y]=P([s.lat,s.lon]),ph=s.photo&&photos.find(p=>p.id===s.photo),r=ph?26:0,h=64,w=Math.max(tw(s.name,24),tw(s.date,16))+(ph?r*2+26:48)+14,c=s.card;
+    const bx=c.col==='left'?10:c.col==='right'?W-10-w:c.x-w/2,by=c.y-h/2,[ex,ey]=c.col==='left'?[bx+w,c.y]:c.col==='right'?[bx,c.y]:[c.x,by];return {s,x,y,ph,r,h,w,bx,by,ex,ey};});
+  o+=cards.map(c=>`<path class="g-leader" d="M${f(c.x)},${f(c.y)}L${f(c.ex)},${f(c.ey)}"/>`).join('');
+  o+=A.stops.map(s=>{const [x,y]=P([s.lat,s.lon]);return `<circle class="g-dot${s.side?' side':''}" cx="${f(x)}" cy="${f(y)}" r="7"/>`;}).join('');
+  o+=cards.map(({s,ph,r,h,w,bx,by})=>{const nx=ph?bx+8+r*2-3:bx+24,ny=ph?by+13:by+h/2,tx=bx+(ph?r*2+20:44);
+    return `<g class="g-label${s.side?' side':''}"><rect x="${f(bx)}" y="${f(by)}" width="${f(w)}" height="${h}" rx="16"/>`
+      +(ph?`<clipPath id="g-clip-${s.n}"><circle cx="${f(bx+8+r)}" cy="${f(by+h/2)}" r="${r}"/></clipPath><image href="${esc(url(ph.imageUrl))}" x="${f(bx+8)}" y="${f(by+h/2-r)}" width="${r*2}" height="${r*2}" preserveAspectRatio="xMidYMid slice" clip-path="url(#g-clip-${s.n})"/>`:'')
+      +`<circle class="g-num" cx="${f(nx)}" cy="${f(ny)}" r="12"/><text class="g-num-t" x="${f(nx)}" y="${f(ny+5)}" text-anchor="middle">${s.n}</text>`
+      +`<text class="g-name" x="${f(tx)}" y="${f(by+29)}">${esc(s.name)}</text><text class="g-date" x="${f(tx)}" y="${f(by+51)}">${esc(s.date)}</text></g>`;}).join('');
+  {const cx=W-40,cy=H-62,a=-A.rotate;o+=`<g class="g-north" transform="rotate(${a} ${cx} ${cy})"><path d="M${cx},${cy-24}L${cx+9},${cy+10}L${cx},${cy+4}L${cx-9},${cy+10}Z"/><text x="${cx}" y="${cy+30}" text-anchor="middle">N</text></g>`;}
+  return o+'</g></svg>';
 }
 function renderStatic() {
   $('#route-review').innerHTML=cards(D.routeReview,'before-card');
@@ -289,7 +310,7 @@ async function main(){
   try{const r=await dataRequest;if(!r.ok)throw new Error('行程数据未能载入');D=await r.json();if(!Array.isArray(D.days)||D.days.length!==D.meta?.totalDays||D.days.some((day,index)=>day.day!==index+1))throw new Error('行程数据不完整');selectedDay=Math.min(D.days.length,selectedDay);
     bindControls();renderStatic();renderPhotos();renderDay(false);stripTo(false);initChrome();
     if(hadDayParam)$('#planner').scrollIntoView({behavior:'auto'});
-    if(await leafletReady()){initMap();renderMap();initGlanceMap();}else mapUnavailable();
+    if(await leafletReady()){initMap();renderMap();}else mapUnavailable();
   }catch(e){$('#loading-note').hidden=false;$('#loading-note').className='fatal-error';$('#loading-note').textContent=`${e.message}。请刷新页面；若仍失败，可从页脚打开行程仓库。`;console.error(e);}
 }
 main();
