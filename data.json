@@ -789,10 +789,10 @@
       "title": "穿越林迪斯，把黄昏留给瓦纳卡",
       "area": "Tekapo（特卡波）→Wānaka（瓦纳卡）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "archway",
-      "summary": "经Pukaki（普卡基）、Omarama（奥马拉马）与Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）住一晚；保留湖岸黄昏，不当过路打卡。",
+      "hotelId": "parkhill",
+      "summary": "经Pukaki（普卡基）、Omarama（奥马拉马）与Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）住一晚；住处离That Wānaka Tree（瓦纳卡孤独树）走路10–12分钟，黄昏和蓝调就在树边拍。",
       "drive": "自驾 · 约2.5–3小时纯驾驶，另留停靠与午餐",
-      "photoGoal": "林迪斯山坡线条、Wānaka（瓦纳卡）湖岸与雪山层次；24–120mm是主力。",
+      "photoGoal": "Lindis Pass（林迪斯山口）山坡线条、That Wānaka Tree（瓦纳卡孤独树）和湖岸雪山；24–120mm是主力。",
       "weatherPlan": "Lindis Pass（林迪斯山口）风雪按NZTA（新西兰交通局）调整，不找未经核实的小路绕行。若D5（第5天）入山取消而今天转晴，可改08:00出发走Pukaki（普卡基）/库克山短线，午前离山；取消或缩短林迪斯拍照，接受Wanaka（瓦纳卡）下午被压缩。该备选约增加1.5–2小时驾驶，司机累就放弃，不走Hooker（胡克谷步道）全程、不等山里日落。",
       "events": [
         {
@@ -858,74 +858,88 @@
         {
           "time": "13:10",
           "endTime": "14:30",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "place": "Wānaka（瓦纳卡）镇中心",
+          "placeId": "wanaka_newworld",
+          "lat": -44.6964223,
+          "lon": 169.1351385,
           "kind": "drive",
-          "detail": "经Tarras（塔拉斯）转SH8A（8A号国道）/SH6（6号国道）到Wānaka（瓦纳卡），入住前按确认函找64 Hedditch Street（赫迪奇街）；不继续开往皇后镇。",
+          "detail": "经Tarras（塔拉斯）转SH8A（8A号国道）/SH6（6号国道）到Wānaka（瓦纳卡）镇中心，约1小时10分；不继续开往皇后镇。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
-          "sourceIds": [
-            "b-archway"
-          ]
+          "coordinateStatus": "OpenStreetMap（开放街图）超市点位（20 Dunmore Street（邓莫尔街））；停车按现场标志。",
+          "sourceIds": []
         },
         {
           "time": "14:30",
-          "endTime": "17:30",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
-          "kind": "rest",
-          "detail": "入住、洗澡、午休；Archway（拱门汽车旅馆） 14:00起入住，前台开到20:30，延误到20:30以后要提前一天联系。三间卧室各睡实体床，房型按最终确认函；只有一个浴室。",
+          "endTime": "15:00",
+          "place": "New World（新世界）超市（Dunmore Street（邓莫尔街））",
+          "placeId": "wanaka_newworld",
+          "lat": -44.6964223,
+          "lon": 169.1351385,
+          "kind": "shopping",
+          "detail": "在镇中心的New World（新世界）超市买今晚零食和明早早餐（住处有全套厨房），每天07:00–22:00营业。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "coordinateStatus": "OpenStreetMap（开放街图）超市点位（20 Dunmore Street（邓莫尔街））；停车按现场标志。",
           "sourceIds": [
-            "b-archway"
+            "x-newworld-wanaka"
+          ]
+        },
+        {
+          "time": "15:00",
+          "endTime": "17:30",
+          "place": "Tranquility on Parkhill（帕克希尔的宁静）住处",
+          "placeId": "parkhill",
+          "lat": -44.7030063,
+          "lon": 169.1175138,
+          "kind": "rest",
+          "detail": "开约5分钟到Parkhill Avenue（帕克希尔大道，导航只能到这条街），按房东在爱彼迎发的入住指南找门牌、开智能门锁，15:00起自助入住；车停房子的免费车位。三间卧室各一张大床、两个卫生间；洗澡、午休。",
+          "photoTip": "",
+          "coordinateStatus": "爱彼迎订前只给大致位置；点位是OpenStreetMap（开放街图）上Parkhill Avenue（帕克希尔大道）的中点，门牌和开锁方式看房东在爱彼迎发的入住指南。",
+          "sourceIds": [
+            "a-parkhill"
           ]
         },
         {
           "time": "17:30",
-          "endTime": "19:30",
-          "placeId": "wanaka_lakefront",
-          "place": "Wānaka（瓦纳卡）镇区湖岸",
+          "endTime": "19:15",
+          "place": "Wānaka（瓦纳卡）镇中心",
+          "placeId": "wanaka_town",
+          "lat": -44.695766,
+          "lon": 169.1356191,
           "kind": "meal",
-          "detail": "在镇区吃晚餐，顺便看湖岸风向和前景；先吃饭，避免为了晚光漏餐。",
+          "detail": "开约5分钟到镇中心吃晚饭（离住处直线约1.6km），停车按现场标志；顺便看湖面风向。先吃饭，别为了晚光漏餐；吃完开回住处停好车。",
           "photoTip": "",
-          "lat": -44.693,
-          "lon": 169.133,
-          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
+          "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": []
         },
         {
-          "time": "19:45",
+          "time": "19:30",
           "endTime": "21:40",
-          "placeId": "wanaka_lakefront",
-          "place": "Wānaka（瓦纳卡）镇区湖岸",
+          "place": "That Wānaka Tree（瓦纳卡孤独树）一带湖岸",
+          "placeId": "wanaka_tree",
+          "lat": -44.6983546,
+          "lon": 169.1175644,
           "kind": "photo",
-          "detail": "湖岸黄昏与蓝调；11/22日落约21:00、民用暮光约21:34结束，21:40收工。用可安全到达的公共湖岸，不以孤独树排队或水位作为成片前提。Archway（拱门汽车旅馆）离湖边约400m（步行5–7分钟）。",
-          "photoTip": "24–35mm拍岸线、树影和山；70–120mm拍雪山与水面纹理，脚架压低防阵风。",
-          "lat": -44.693,
-          "lon": 169.133,
-          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
+          "detail": "走到湖边的孤独树拍黄昏和蓝调：11/22日落约21:00、民用暮光约21:34结束，21:40收工。走法：从住处走到Wānaka-Mount Aspiring Road（瓦纳卡—阿斯拜林山路）边Waterfall Creek（瀑布溪）步道起点的免费停车场，下到湖边往西北约250m就是孤独树，全程约0.8km、10–12分钟；手机导航如果让你绕湖边走约1.9km，不用跟。下雨可以开车约2分钟停这个停车场，傍晚车位紧。树长在浅水里，只在岸边拍，不下水、不爬树；人多就沿湖岸换位置。带头灯，回去时天黑。",
+          "photoTip": "24–35mm拍树、湖面和远山；70–120mm拍雪山与水面纹理；脚架压低防阵风，蓝调用长曝光。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上That Wānaka Tree（瓦纳卡孤独树）的位置；树长在浅水里，在岸边拍。",
           "sourceIds": [
-            "route-wanaka-sun"
+            "route-wanaka-sun",
+            "x-osm-wanaka-tree"
           ]
         },
         {
           "time": "21:40",
           "endTime": "22:15",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "place": "Tranquility on Parkhill（帕克希尔的宁静）住处",
+          "placeId": "parkhill",
+          "lat": -44.7030063,
+          "lon": 169.1175138,
           "kind": "rest",
-          "detail": "回房备份并休息；拍了完整黄昏，次晨不设日出闹钟，09:00再出门。",
+          "detail": "按原路走10–12分钟回住处，备份照片、休息。想拍明早日出就早点睡（见明天05:20的可选项）。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "coordinateStatus": "爱彼迎订前只给大致位置；点位是OpenStreetMap（开放街图）上Parkhill Avenue（帕克希尔大道）的中点，门牌和开锁方式看房东在爱彼迎发的入住指南。",
           "sourceIds": [
-            "b-archway"
+            "a-parkhill"
           ]
         }
       ],
@@ -945,48 +959,66 @@
       "weatherPlan": "经SH6（6号国道）/Cromwell（克伦威尔），不走Crown Range（皇冠山脉）。小雨照常去Arrowtown（箭镇，华人村小屋可避雨看展板），雨大就缩短步行；今晚给次日米尔福德长巴士日留睡眠。",
       "events": [
         {
-          "time": "08:00",
-          "endTime": "09:00",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
-          "kind": "meal",
-          "detail": "正常睡足后早餐、整理行李；11/23日出约05:58，但拍过昨晚黄昏就不安排05点起床。",
-          "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "time": "05:20",
+          "endTime": "06:30",
+          "place": "That Wānaka Tree（瓦纳卡孤独树）一带湖岸",
+          "placeId": "wanaka_tree",
+          "lat": -44.6983546,
+          "lon": 169.1175644,
+          "kind": "photo_optional",
+          "detail": "可选：日出约05:58。05:20出门，按昨晚的路走10–12分钟到孤独树，拍日出前后的天色和晨光，06:30前回去补觉；累了或阴雨就跳过，明天米尔福德07:40接车要早起。",
+          "photoTip": "16–35mm带树和湖面，70–120mm拍远山晨光；脚架放在岸边。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上That Wānaka Tree（瓦纳卡孤独树）的位置；树长在浅水里，在岸边拍。",
           "sourceIds": [
             "route-wanaka-sun",
-            "b-archway"
+            "x-osm-wanaka-tree"
+          ],
+          "optional": true
+        },
+        {
+          "time": "08:00",
+          "endTime": "09:00",
+          "placeId": "parkhill",
+          "place": "Tranquility on Parkhill（帕克希尔的宁静）住处",
+          "kind": "meal",
+          "detail": "在住处做早餐（昨天超市买的，厨房齐全）、整理行李；去拍了日出的人可以晚点起。",
+          "photoTip": "",
+          "lat": -44.7030063,
+          "lon": 169.1175138,
+          "coordinateStatus": "爱彼迎订前只给大致位置；点位是OpenStreetMap（开放街图）上Parkhill Avenue（帕克希尔大道）的中点，门牌和开锁方式看房东在爱彼迎发的入住指南。",
+          "sourceIds": [
+            "a-parkhill"
           ]
         },
         {
           "time": "09:00",
           "endTime": "09:40",
-          "placeId": "wanaka_lakefront",
-          "place": "Wānaka（瓦纳卡）镇区湖岸",
+          "placeId": "wanaka_tree",
+          "place": "That Wānaka Tree（瓦纳卡孤独树）一带湖岸",
           "kind": "photo_optional",
-          "detail": "湖岸短走，尝试与昨晚不同的光线；风雨大就留在住宿休息。",
+          "detail": "可选：按昨晚的路走10–12分钟到湖边，换个光线再拍孤独树和湖岸；风雨大就留在住处。",
           "photoTip": "24–120mm轻装，拍岸边层次与朋友合影。",
-          "lat": -44.693,
-          "lon": 169.133,
-          "coordinateStatus": "规划用湖岸区域点；不是停车入口或具体树木机位",
-          "sourceIds": [],
+          "lat": -44.6983546,
+          "lon": 169.1175644,
+          "coordinateStatus": "OpenStreetMap（开放街图）上That Wānaka Tree（瓦纳卡孤独树）的位置；树长在浅水里，在岸边拍。",
+          "sourceIds": [
+            "x-osm-wanaka-tree"
+          ],
           "optional": true
         },
         {
           "time": "09:40",
           "endTime": "10:00",
-          "placeId": "archway",
-          "place": "Archway Motels & Chalets（拱门汽车旅馆小屋）住宿区域",
+          "placeId": "parkhill",
+          "place": "Tranquility on Parkhill（帕克希尔的宁静）住处",
           "kind": "packing",
-          "detail": "回房拿行李，10:00前退房，清点充电器和存储卡。",
+          "detail": "回住处拿行李，10:00前退房（按房东的退房说明锁门、处理垃圾），清点充电器和存储卡。",
           "photoTip": "",
-          "lat": -44.69342849,
-          "lon": 169.14169908,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示找三卧公寓",
+          "lat": -44.7030063,
+          "lon": 169.1175138,
+          "coordinateStatus": "爱彼迎订前只给大致位置；点位是OpenStreetMap（开放街图）上Parkhill Avenue（帕克希尔大道）的中点，门牌和开锁方式看房东在爱彼迎发的入住指南。",
           "sourceIds": [
-            "b-archway"
+            "a-parkhill"
           ]
         },
         {
@@ -1077,7 +1109,7 @@
         }
       ],
       "shortTitle": "瓦纳卡到皇后镇",
-      "lightNote": "本晚不追21:04日落；明早米尔福德接车07:40，睡眠优先。 可选：想拍That Wānaka Tree（瓦纳卡孤独树），05:20出门、05:30–06:20在树边拍日出（距Archway（拱门汽车旅馆）约2.4km，开车约5分钟），回来补睡；明天米尔福德要早起，疲劳或阴雨就跳过。"
+      "lightNote": "本晚不追21:04日落；明早米尔福德接车07:40，睡眠优先。 可选：想拍That Wānaka Tree（瓦纳卡孤独树），05:20出门、05:30–06:20在树边拍日出（离住处走路10–12分钟），回来补睡；明天米尔福德要早起，疲劳或阴雨就跳过。"
     },
     {
       "day": 8,
@@ -2244,35 +2276,37 @@
       "reviews": "Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6；携程4.7/5（36条）"
     },
     {
-      "id": "archway",
-      "name": "Archway Motels & Chalets（拱门汽车旅馆小屋）",
-      "lat": -44.69342849,
-      "lon": 169.14169908,
-      "address": "64 Hedditch Street（赫迪奇街）, Wānaka（瓦纳卡） 9305, New Zealand（新西兰）；离湖边约400m（步行5–7分钟），镇中心餐馆步行10–15分钟（回程上坡）",
-      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=743002&checkIn=2026-11-22&checkOut=2026-11-23&adult=3&children=0&crn=1&curr=CNY",
+      "id": "parkhill",
+      "name": "Tranquility on Parkhill（帕克希尔的宁静）",
+      "lat": -44.7030063,
+      "lon": 169.1175138,
+      "address": "Parkhill Avenue（帕克希尔大道）, Wānaka（瓦纳卡） 9305（街名按房源名和爱彼迎的大致位置推断，门牌订后房东发；地图点是这条街的中点，不是房子）；离That Wānaka Tree（瓦纳卡孤独树）直线约0.5km（走路约0.8km、10–12分钟），离镇中心Helwick Street（赫尔威克街）直线约1.6km（开车约5分钟）",
+      "sourceUrl": "https://www.airbnb.cn/rooms/1533606373971586252?check_in=2026-11-22&check_out=2026-11-23&guests=3&adults=3",
       "sourceIds": [
-        "c-archway"
+        "a-parkhill",
+        "x-parkhill-booking",
+        "x-osm-parkhill"
       ],
-      "coordinateNote": "Booking物业地图点；按入住指示找三卧公寓",
+      "coordinateNote": "爱彼迎订前只给大致位置；点位是OpenStreetMap上Parkhill Avenue的中点，门牌和开锁方式看房东在爱彼迎发的入住指南。",
       "checkin": "2026-11-22",
       "checkout": "2026-11-23",
       "nights": 1,
-      "beds": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房",
-      "price": "三人1晚¥1,915（携程在线付含税，不用再付到店刷卡费；Booking（缤客订房网）同房NZ$535＋2.5%≈¥2,065）",
-      "cancel": "新西兰时间11/20 14:00前免费取消（北京时间09:00），携程下单即付款。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息；入住出示带照片的证件。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。售完可订同店标准家庭两卧（3张单人床＋1张特大床，携程¥1,858）。",
-      "nativeTotal": 1915,
+      "beds": "整套单层独栋，最多6人：三间卧室各1张约1.8米大床（房源介绍写其中一张2米），两个卫生间，有厨房、室内壁炉、露台",
+      "price": "三人1晚¥2,640（爱彼迎人民币总价，含全部费用）；Booking（缤客订房网）同房约NZ$700≈¥2,638，要按纽币付，加约1%外币卡费后不比爱彼迎便宜，而且所选日期显示过暂无空房",
+      "cancel": "新西兰时间11/21前免费取消，之后不退款。爱彼迎“先订后付”要入住前14天以上（11/8前）下单才有：¥2,640按下单页写的日期自动扣，扣款前3天发邮件；建议出发前（11/17前）在爱彼迎“付款”里手动付清，免得人在新西兰时扣款失败、订单被取消。15:00–24:00智能门锁自助入住，10:00前退房；房源写入住要出示身份证件，自助入住怎么核验按订后爱彼迎或房东的说明；有免费车位。房源页写没配烟雾和一氧化碳报警器，屋里有壁炉，不生火。",
+      "nativeTotal": 2640,
       "currency": "CNY",
-      "priceStatus": "携程11/2实时页：三卧室公寓¥1,915（在线付）",
+      "priceStatus": "爱彼迎11/2实时页：整套三卧两卫¥2,640（含全部费用）",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "14:00",
-      "checkoutTime": "08:00–10:00",
-      "perNightCNY": 1915.0,
+      "checkinTime": "15:00",
+      "checkoutTime": "10:00",
+      "perNightCNY": 2640.0,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
+      "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
-      "bedConfirmation": "房型列三间卧室共五张实体床；未锁房，订后留言三位成人。",
-      "reviews": "Booking（缤客订房网） 9.0（1,983条）、清洁9.3；Google（谷歌） 4.7/5（439条），TripAdvisor（猫途鹰） 4.5/5；这套是老楼翻新；携程4.6/5（183条）"
+      "bedConfirmation": "房源写三间卧室各1张约1.8米大床、两个卫生间；未锁房，订后在爱彼迎留言三位成人、约15:00到。",
+      "reviews": "Booking（缤客订房网） 9.5（9条）、位置9.7；爱彼迎4.86/5（14条），清洁5.0、地段5.0。评价不多但分数高，中国住客说干净、安静，走路10分钟内到湖边"
     },
     {
       "id": "bluepeaks",
@@ -3045,14 +3079,14 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 下单前最要紧的几件事",
-      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签后马上一起出票。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、瓦纳卡Archway（拱门汽车旅馆）三卧（¥1,915，11/20 14:00前）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，11/20 23:59前），携程下单即付款；Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，11/14前免费取消，携程没有）和悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，11/25前免费取消；携程床型随机）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；租车日期不变（11/19取、11/26还）。④手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑤大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
+      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签后马上一起出票。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，11/20 23:59前），携程下单即付款；Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，11/14前免费取消，携程没有）和悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，11/25前免费取消；携程床型随机）；爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）三卧两卫（¥2,640，下单先付¥0，11/21前免费取消）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；租车日期不变（11/19取、11/26还）。④手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑤大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3064,13 +3098,13 @@
         "b-gloucester",
         "c-dorsett",
         "c-alpinenook",
-        "c-archway",
+        "a-parkhill",
         "c-bluepeaks"
       ]
     },
     {
       "title": "08 / 防晒、驱虫和超市补给",
-      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城市区或11/20在Geraldine（杰拉尔丁）买Alpine Nook（山间小居度假屋）两晚的早晚餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
+      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城市区或11/20在Geraldine（杰拉尔丁）买Alpine Nook（山间小居度假屋）两晚的早晚餐，11/22下午在Wānaka（瓦纳卡）镇中心的New World（新世界）超市买当晚零食和11/23早餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
       "sourceIds": [
         "x-sunsmart",
         "x-milford"
@@ -3086,7 +3120,7 @@
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款（租车、住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的四处在线付人民币，没有外币交易费和到店刷卡附加费；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场；基督城公寓损坏最多赔NZ$350。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
+      "body": "大额付款（租车、住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的三处在线付人民币，没有外币交易费和到店刷卡附加费；爱彼迎这套也按人民币付；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场；基督城公寓损坏最多赔NZ$350。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
       "sourceIds": [
         "r-apex-faq",
         "i-nsw-payment",
@@ -3692,12 +3726,6 @@
       "checked": "2026-11-01"
     },
     {
-      "id": "b-archway",
-      "title": "Archway Motels & Chalets（拱门汽车旅馆小屋） · 11-22–11-23 · 3成人1晚 · NZD551 · Booking（缤客订房网） 9.0分（1,983条） · 10/29只剩1套",
-      "url": "https://www.booking.com/hotel/nz/archway-motels.zh-cn.html?checkin=2026-11-22&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1&selected_currency=NZD",
-      "checked": "2026-10-29"
-    },
-    {
       "id": "x-inz-oct26",
       "title": "INZ（新西兰移民局，2026年10月更新）：中国护照持澳签从澳洲去新西兰可继续用NZeTA（新西兰电子旅行授权），直到另行通知",
       "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/chinese-and-pacific-island-visitors-travelling-from-australia/",
@@ -3784,7 +3812,7 @@
     {
       "id": "f-ho-multi",
       "title": "Ctrip（携程）多程实查：HO1655（吉祥航空） 11/17＋HO1670（吉祥航空） 11/30，1人¥7,756含税，未锁价",
-      "url": "https://flights.ctrip.com/online/list/multi-sha-mel-syd0-sha?depdate=2026-11-17_2026-11-28&cabin=y_s&adult=1&child=0&infant=0",
+      "url": "https://flights.ctrip.com/online/list/multi-sha-mel-syd0-sha?depdate=2026-11-17_2026-11-30&cabin=y_s&adult=1&child=0&infant=0",
       "checked": "2026-11-01"
     },
     {
@@ -3893,6 +3921,42 @@
       "id": "c-bluepeaks",
       "title": "携程11/2实查：Blue Peaks Apartments（蓝色山峰公寓） · 11/23–26 · 两卧室公寓三晚¥8,124（在线付含税，登录会员价）",
       "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=2562050&checkIn=2026-11-23&checkOut=2026-11-26&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "a-parkhill",
+      "title": "爱彼迎11/2实查：Tranquility on Parkhill（帕克希尔的宁静） · 11/22–23 · 3成人 · 整套三卧两卫¥2,640（含全部费用，11/21前免费取消）",
+      "url": "https://www.airbnb.cn/rooms/1533606373971586252?check_in=2026-11-22&check_out=2026-11-23&guests=3&adults=3",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-parkhill-booking",
+      "title": "Booking（缤客订房网） 11/2：Tranquility on Parkhill（帕克希尔的宁静） 9.5分（9条）、位置9.7，11/22–23一晚约NZ$700",
+      "url": "https://www.booking.com/searchresults.zh-cn.html?ss=Tranquility+on+Parkhill+Wanaka&checkin=2026-11-22&checkout=2026-11-23&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-parkhill",
+      "title": "OpenStreetMap（开放街图）：Parkhill Avenue（帕克希尔大道，住处所在的街）",
+      "url": "https://www.openstreetmap.org/way/175276944",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-wanaka-tree",
+      "title": "OpenStreetMap（开放街图）：That Wānaka Tree（瓦纳卡孤独树）的位置，离Parkhill Avenue（帕克希尔大道）直线约0.5km",
+      "url": "https://www.openstreetmap.org/node/4396809376",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-newworld-wanaka",
+      "title": "OpenStreetMap（开放街图）：New World（新世界）超市（20 Dunmore Street（邓莫尔街）），每天07:00–22:00",
+      "url": "https://www.openstreetmap.org/way/260711089",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-airbnb-paylater",
+      "title": "爱彼迎帮助中心：先订后付要入住前14天以上下单，按结算页写的日期扣款，扣款前3天发邮件，扣不到要补付否则订单可能被取消",
+      "url": "https://www.airbnb.com/help/article/2143",
       "checked": "2026-11-02"
     }
   ],
@@ -4156,31 +4220,31 @@
         }
       },
       {
-        "id": "hotel-archway",
-        "title": "Archway Motels & Chalets（拱门汽车旅馆小屋） · 11-22–11-23 / 1晚",
+        "id": "hotel-parkhill",
+        "title": "Tranquility on Parkhill（帕克希尔的宁静） · 11-22–11-23 / 1晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 1915,
-          "max": 1915
+          "min": 2640,
+          "max": 2640
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "携程11/2实时页：三卧室公寓¥1,915（在线付）",
-        "note": "三卧公寓61㎡：一间两张单人床、一间一张大床（queen或king）、第三间两张单人床（用推拉门和客厅隔开），一个浴室，有厨房；新西兰时间11/20 14:00前免费取消（北京时间09:00），携程下单即付款。14:00起入住、08:00–10:00退房；前台08:30–20:30，20:30后到要至少提前一天联系拿自助入住信息；入住出示带照片的证件。这套三卧是老楼翻新的（不是2025年的新楼），第三间卧室用推拉门和客厅隔开，只有一个浴室，早上要轮流洗澡。售完可订同店标准家庭两卧（3张单人床＋1张特大床，携程¥1,858）。",
+        "status": "爱彼迎11/2实时页：整套三卧两卫¥2,640（含全部费用）",
+        "note": "整套单层独栋，最多6人：三间卧室各1张约1.8米大床（房源介绍写其中一张2米），两个卫生间，有厨房、室内壁炉、露台；新西兰时间11/21前免费取消，之后不退款。爱彼迎“先订后付”要入住前14天以上（11/8前）下单才有：¥2,640按下单页写的日期自动扣，扣款前3天发邮件；建议出发前（11/17前）在爱彼迎“付款”里手动付清，免得人在新西兰时扣款失败、订单被取消。15:00–24:00智能门锁自助入住，10:00前退房；房源写入住要出示身份证件，自助入住怎么核验按订后爱彼迎或房东的说明；有免费车位。房源页写没配烟雾和一氧化碳报警器，屋里有壁炉，不生火。",
         "sourceIds": [
-          "c-archway"
+          "a-parkhill"
         ],
         "perPersonNative": {
-          "min": 638.3333333333334,
-          "max": 638.3333333333334
+          "min": 880.0,
+          "max": 880.0
         },
         "perPersonCnyUnrounded": {
-          "min": 638.3333333333334,
-          "max": 638.3333333333334
+          "min": 880.0,
+          "max": 880.0
         },
         "perPersonCny": {
-          "min": 638.33,
-          "max": 638.33
+          "min": 880.0,
+          "max": 880.0
         }
       },
       {
@@ -4698,14 +4762,14 @@
     ],
     "summary": {
       "totalCNY": {
-        "min": 34443.25,
-        "max": 38157.71,
-        "display": "控制版约¥34,443–38,158/人（含¥1,000机动金）"
+        "min": 34684.92,
+        "max": 38399.37,
+        "display": "控制版约¥34,685–38,399/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
-          "min": 20474.803333333333,
-          "max": 22625.31333333333
+          "min": 20716.47,
+          "max": 22866.98
         },
         "AUD": {
           "min": 420.0,
@@ -4717,7 +4781,7 @@
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -8157.71,
+      "headroomCNY": -8399.37,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -4726,26 +4790,26 @@
         "status": "吉祥多程＋QF167（澳洲航空）＋NZ231（新西兰航空），携程11/1实查1人价；未出票"
       },
       "hotel": {
-        "equivalentCNY": 11958.93,
+        "equivalentCNY": 12200.59,
         "wholeGroup": {
-          "CNY": 19072,
+          "CNY": 19797,
           "AUD": 0,
           "NZD": 4462
         },
-        "status": "6处12晚：墨尔本Dorsett（帝盛酒店，你自己安排）、基督城Gloucester Street（格洛斯特街）公寓、特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Archway（拱门汽车旅馆）、皇后镇Blue Peaks（蓝色山峰）、悉尼Adina（阿迪娜公寓酒店）；携程4处、Booking（缤客订房网） 2处；都未锁房"
+        "status": "6处12晚：墨尔本Dorsett（帝盛酒店，你自己安排）、基督城Gloucester Street（格洛斯特街）公寓、特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）、皇后镇Blue Peaks（蓝色山峰）、悉尼Adina（阿迪娜公寓酒店）；携程3处、Booking（缤客订房网） 2处、爱彼迎1处；都未锁房"
       },
       "relaxedFoodTotalCNY": {
-        "min": 35027.75,
-        "max": 38963.66,
+        "min": 35269.42,
+        "max": 39205.33,
         "note": "餐饮放宽至澳洲AUD360–450＋新西兰NZ560–720；其余相同且含1000机动金"
       },
       "comparisonNote": "三段机票都是你本人的携程1人价；酒店、车、油、停车三人均分（墨尔本、悉尼取估算区间）；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
       "scope": "本次新增支出含必要交通、12晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动（BridgeMuseum（大桥博物馆）、Scenic World（景观世界）等）/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥944–1,180）。可退押金/预授权不是消费。",
-      "narrative": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "narrative": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
-        "min": 34443.25,
-        "max": 38157.71,
-        "display": "控制版约¥34,443–38,158/人（含¥1,000机动金）"
+        "min": 34684.92,
+        "max": 38399.37,
+        "display": "控制版约¥34,685–38,399/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -4803,7 +4867,7 @@
     },
     {
       "title": "三万元：上限超出，要选一项省钱",
-      "body": "十四天控制版精算¥34,443.25–38,157.71/人，已含¥1,000机动金；按上限超出¥30,000约¥8,157.71（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥11,959（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Archway（拱门汽车旅馆）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚）、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,028–38,964，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "body": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
@@ -5015,6 +5079,16 @@
       "property": "Twin Stars",
       "dates": "2026-11-20–22",
       "status": "10/27选定，10/29 Booking已无房"
+    },
+    {
+      "property": "Archway Motels & Chalets",
+      "dates": "2026-11-22–23",
+      "status": "11/2改订爱彼迎Tranquility on Parkhill（两个卫生间、离孤独树近）；Archway三卧携程¥1,915、新西兰时间11/20 14:00前免费取消，Parkhill订不到时用它"
+    },
+    {
+      "property": "Airbnb 1646271946170694159",
+      "dates": "2026-11-22–23",
+      "status": "朋友找的第二套，不选：1个卫生间、¥2,343，11/8后不能全额退，3周前有住客说热水只够两人洗"
     }
   ],
   "todos": [
@@ -5049,13 +5123,14 @@
       "who": [
         "user"
       ],
-      "title": "尽早订：携程订特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Archway（拱门汽车旅馆）三卧、皇后镇Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓",
-      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Archway（拱门汽车旅馆）三卧¥1,915（11/20 14:00前）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（11/20 23:59前，仅剩2间）；这三家携程下单即付款。Gloucester Street（格洛斯特街）两卧两卫公寓NZ$412（Booking（缤客订房网），11/14前免费取消、11/12前不付款），订后问房东停车。",
+      "title": "尽早订：携程订特卡波Alpine Nook（山间小居度假屋）、皇后镇Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）",
+      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（11/20 23:59前，仅剩2间）；这两家携程下单即付款。Gloucester Street（格洛斯特街）两卧两卫公寓NZ$412（Booking（缤客订房网），11/14前免费取消、11/12前不付款），订后问房东停车。Tranquility on Parkhill（帕克希尔的宁静）三卧两卫¥2,640（爱彼迎，11/8前下单可先订后付，11/21前免费取消），订后留言三位成人、约15:00到；订不到就订Archway（拱门汽车旅馆）三卧（携程¥1,915，新西兰时间11/20 14:00前免费取消）。",
       "sourceIds": [
         "c-alpinenook",
-        "c-archway",
         "c-bluepeaks",
-        "b-gloucester"
+        "b-gloucester",
+        "a-parkhill",
+        "c-archway"
       ]
     },
     {
@@ -5253,6 +5328,19 @@
       ]
     },
     {
+      "id": "parkhill-pay",
+      "due": "2026-11-16",
+      "who": [
+        "user"
+      ],
+      "title": "出发前在爱彼迎付清Tranquility on Parkhill（帕克希尔的宁静）的¥2,640",
+      "detail": "先订后付按下单页写的日期自动扣款（扣款前3天发邮件），那时人可能在新西兰，扣款失败要补付，否则订单可能被取消；出发前在爱彼迎“付款”里手动付清最稳。付了以后11/21前取消仍全额退。",
+      "sourceIds": [
+        "a-parkhill",
+        "x-airbnb-paylater"
+      ]
+    },
+    {
       "id": "nztd",
       "due": "2026-11-18",
       "who": [
@@ -5279,15 +5367,15 @@
       ]
     },
     {
-      "id": "archway-cancel",
-      "due": "2026-11-19",
+      "id": "parkhill-cancel",
+      "due": "2026-11-20",
       "who": [
         "user"
       ],
-      "title": "Archway（拱门汽车旅馆）免费取消截止（新西兰时间11/20 14:00，北京时间09:00）",
-      "detail": "携程订的已付款；订后在携程留言三位成人、预计14:30到。",
+      "title": "Tranquility on Parkhill（帕克希尔的宁静）免费取消截止（新西兰时间11/21前）",
+      "detail": "爱彼迎订的；行程有变就在11/21前取消，之后不退款。",
       "sourceIds": [
-        "c-archway"
+        "a-parkhill"
       ]
     },
     {
@@ -5425,7 +5513,7 @@
         "region": "nz",
         "points": [
           "翻过林迪斯山口",
-          "傍晚瓦纳卡湖边拍“孤独的树”"
+          "傍晚从住处走到湖边拍孤独树"
         ],
         "stay": "瓦纳卡"
       },
@@ -5435,7 +5523,7 @@
         "title": "瓦纳卡 → 箭镇 → 皇后镇",
         "region": "nz",
         "points": [
-          "上午在瓦纳卡慢慢逛",
+          "可选清晨拍孤独树日出，10:00前退房",
           "箭镇午饭、看华人村遗址",
           "下午到皇后镇，早睡"
         ],
