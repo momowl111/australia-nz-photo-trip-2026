@@ -29,6 +29,8 @@ const shiftDate = date => {
 };
 const scheduleText = text => start===17 ? text : String(text || '').replace(/11\/(1[5-9]|2[0-7])(?!\d)/g, (_,day)=>`11/${Number(day)+1}`);
 const geo = p => Number.isFinite(p.lat) && Number.isFinite(p.lon) && Math.abs(p.lat)<=90 && Math.abs(p.lon)<=180;
+// Every New Zealand stop lies east of 166°E and every Australian one west of 154°E, so 165°E splits the two countries.
+const inNZ = p => geo(p) && p.lon > 165;
 const nav = p => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.lat},${p.lon}`)}`;
 const refLinks = ids => (ids || []).map(id => D.sources.find(s => s.id === id)).filter(Boolean).map(s => `<a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.shortTitle || s.title)} ↗</a>`).join('');
 const eventText = e => scheduleText(e.detail || '');
@@ -38,7 +40,8 @@ const AIRPORT_TZ = {pvg:'Asia/Shanghai',syd_t1:'Australia/Sydney',mel_t2:'Austra
 const startZone = e => e.timezone || (e.endTimezone ? AIRPORT_TZ[e.placeId] || null : null);
 const workTitle = p => String(p.sourceTitle || '').replace(/^File:\s*/i,'').replace(/\.[a-z0-9]{2,5}$/i,'').trim();
 const cc0 = p => /^CC0\b/i.test(p.license || '');
-const licenseLabel = p => cc0(p) ? 'CC0（公有领域贡献）' : p.license;
+// Creative Commons = 知识共享, BY = 署名, SA = 相同方式共享.
+const licenseLabel = p => cc0(p) ? 'CC0（公有领域贡献）' : /^CC BY-SA\s/i.test(p.license || '') ? `${p.license}（知识共享署名—相同方式共享）` : /^CC BY\s/i.test(p.license || '') ? `${p.license}（知识共享署名）` : p.license;
 const byline = p => `${cc0(p)?'':'© '}${p.author}`;
 const yuan = n => `¥${Math.round(n).toLocaleString('zh-CN')}`;
 function toast(text) { clearTimeout(toastTimer); $('#toast').textContent=text; $('#toast').classList.add('show'); toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),3500); }
@@ -82,7 +85,6 @@ function renderDay(announce=true) {
   $('#rain-plan').ontoggle=e=>{rainOpen=e.target.open;};
   $$('#day-detail .locate-event').forEach(b=>b.onclick=()=>focusEvent(Number(b.dataset.index), b));
   $('#hero-dates').textContent=`11.${start} — 11.${start+D.days.length-1}`;
-  $('#shift-notice').hidden=true; $('#toggle-draft').hidden=true; document.body.classList.remove('draft');
   if(focusKey){let f=$(focusKey);if(f?.disabled)f=$(focusKey==='#prev-day'?'#next-day':'#prev-day');f?.focus({preventScroll:true});}
   if(announce)$('#day-status').textContent=`第${day.day}天 · ${shortDate(dateOf(day.day))} · ${day.shortTitle || day.area}`;
   hideReturn(); updateAddress(); renderMap(); renderOverview();
@@ -116,23 +118,29 @@ function renderMap() {
   $('#day-view').parentElement.style.setProperty('--seg-index',mapMode==='all'?1:0);
   $('#day-view').classList.toggle('active',mapMode==='day'); $('#day-view').setAttribute('aria-pressed',mapMode==='day');
   $('#all-view').classList.toggle('active',mapMode==='all'); $('#all-view').setAttribute('aria-pressed',mapMode==='all');
-  $('#map-mode-note').textContent=mapMode==='all'?'新西兰全程只画第4–10天；悉尼三天和飞行日请切回“当天”。数字＝第几天':'虚线只表示先后顺序，不是道路导航';
+  // Overview = every day with a stop in New Zealand (days 3–10, 11/19–26), drawn without its Melbourne/Sydney ends or Australian stays.
+  const all=mapMode==='all',nzDays=D.days.filter(d=>d.events.some(inNZ)),first=nzDays[0],last=nzDays[nzDays.length-1];
+  $('#map-mode-note').textContent=!all?'虚线只表示先后顺序，不是道路导航':first?`新西兰全程画第${first.day}–${last.day}天（${shortDate(dateOf(first.day))}–${shortDate(dateOf(last.day))}），只画新西兰境内；墨尔本、悉尼和航班请切回“当天”。数字＝第几天`:'行程里没有新西兰的点。';
   if(!map)return;
-  mapLayers.clearLayers();activeMarkers.clear();const bounds=[],flightBounds=[],all=mapMode==='all',labels=[],points=new Map();let n=0;
-  // Overview keeps to the South Island road trip; Sydney and flight days are readable only day by day.
-  const days=all?D.days.filter(d=>d.day>=3&&d.day<=9):D.days.filter(d=>d.day===selectedDay);
+  mapLayers.clearLayers();activeMarkers.clear();const bounds=[],flightBounds=[],labels=[],points=new Map();let n=0;
+  const days=all?nzDays:D.days.filter(d=>d.day===selectedDay);
   // Hotels shown as H absorb their own stay events (same placeId), so no numbered marker hides under the H.
-  const stays=new Map(($('#hotels-toggle').checked?D.hotels.filter(h=>geo(h)&&(all||days.some(d=>d.hotelId===h.id))):[]).map(h=>[h.id,{p:h,label:'H',evs:[]}]));
+  const stays=new Map(($('#hotels-toggle').checked?D.hotels.filter(h=>geo(h)&&days.some(d=>d.hotelId===h.id)&&(!all||inNZ(h))):[]).map(h=>[h.id,{p:h,label:'H',evs:[]}]));
   days.forEach(day=>{
-    const line=[];
-    day.events.forEach((e,i)=>{if(!geo(e))return; const key=`${e.lat},${e.lon}`;line.push([e.lat,e.lon]);(e.kind==='flight'?flightBounds:bounds).push([e.lat,e.lon]);
+    // A flight splits the day into legs. The departure airport's transfer and check-in points share the flight's coordinates, so leaving
+    // out the flight point alone still framed both cities; the day view frames the leg with the most stops (ties: the later leg).
+    const line=[],legs=[[]];
+    day.events.forEach((e,i)=>{if(!geo(e)||(all&&!inNZ(e)))return; const key=`${e.lat},${e.lon}`;line.push([e.lat,e.lon]);
+      if(e.kind==='flight'){flightBounds.push([e.lat,e.lon]);legs.push([]);}else legs[legs.length-1].push([e.lat,e.lon]);
       const pt=stays.get(e.placeId)||points.get(key)||points.set(key,{p:e,label:all?day.day:++n,evs:[]}).get(key);pt.evs.push([day,i,e]);
     });
-    if(line.length>1)L.polyline(line,{color:day.day<=3?'#c55300':'#6155f5',weight:2.5,opacity:.7,dashArray:'5,8',interactive:false}).addTo(mapLayers);
+    const stay=stays.get(day.hotelId);if(stay)legs[legs.length-1].push([stay.p.lat,stay.p.lon]);
+    bounds.push(...(all?legs.flat():legs.reduce((a,b)=>b.length>=a.length?b:a)));
+    if(line.length>1)L.polyline(line,{color:'#6155f5',weight:2.5,opacity:.7,dashArray:'5,8',interactive:false}).addTo(mapLayers);
   });
-  [...points.values(),...stays.values()].forEach(pt=>{const hotel=pt.label==='H',m=marker(pt.p,pt.label,hotel,all&&hotel?[]:pt.evs,!hotel&&pt.evs.every(([, ,e])=>isOptional(e)));if(hotel)bounds.push([pt.p.lat,pt.p.lon]);pt.evs.forEach(([day,i])=>{activeMarkers.set(`${day.day}-${i}`,m);if(!all)labels[i]=pt.label;});});
+  [...points.values(),...stays.values()].forEach(pt=>{const hotel=pt.label==='H',m=marker(pt.p,pt.label,hotel,all&&hotel?[]:pt.evs,!hotel&&pt.evs.every(([, ,e])=>isOptional(e)));pt.evs.forEach(([day,i])=>{activeMarkers.set(`${day.day}-${i}`,m);if(!all)labels[i]=pt.label;});});
   $$('#day-detail .pin').forEach(s=>{const l=labels[s.dataset.index];s.hidden=l==null;s.textContent=l??'';s.classList.toggle('hotel',l==='H');});
-  // Departure airports would zoom a landing day out to half a continent; frame the ground plan when there is one.
+  // A day that is only a flight still gets framed on its airport.
   const frame=bounds.length?bounds:flightBounds;
   if(frame.length)map.fitBounds(frame,{paddingTopLeft:[28,72],paddingBottomRight:[28,28],maxZoom:13,animate:!reducedMotion});
 }
@@ -171,14 +179,14 @@ const GROUPS=[['flight','机票'],['hotel','住宿'],['rental','租车'],['activ
 const groupOf = r => GROUPS.some(([k])=>k===r.category) ? r.category : 'other';
 function renderBudget(){
   const s=D.budget.summary, fx=D.budget.fx, rows=D.budget.rows, max=s.totalCNY.max, over=-s.headroomCNY;
-  const pick=id=>rows.find(r=>r.id===id)?.perPersonCnyUnrounded.max||0, lean=max-pick('bag-oversize')-pick('card-fx-fee');
+  const pick=id=>rows.find(r=>r.id===id)?.perPersonCnyUnrounded.max||0, lean=max-pick('bag-oversize');
   const sums=GROUPS.map(([k,label])=>({k,label,min:rows.filter(r=>groupOf(r)===k).reduce((a,r)=>a+r.perPersonCnyUnrounded.min,0),max:rows.filter(r=>groupOf(r)===k).reduce((a,r)=>a+r.perPersonCnyUnrounded.max,0)}));
-  $('#budget-hero').innerHTML=`<div class="budget-total"><p class="eyebrow">每人全程（含¥1,000机动金）</p><p class="big-number">${yuan(s.totalCNY.min)}<span>–</span>${yuan(max)}</p><p class="budget-verdict ${over>0?'over':'ok'}">${over>0?`按上限超出3万约 ${yuan(over)}`:`按上限距3万还剩 ${yuan(-over)}`}</p><p class="budget-tip">换三边和≤158cm的托运箱，并确认招行卡是免货币兑换费的人民币结算版，上限约 ${yuan(lean)}。悉尼两卧公寓和多打车是选定的舒适度取舍。</p></div><div class="budget-bars" role="list">${sums.map(g=>`<div class="bar-row" role="listitem"><span class="bar-label">${g.label}</span><span class="bar"><i style="width:${(g.max/max*100).toFixed(1)}%"></i></span><span class="bar-value">${g.min===g.max?yuan(g.max):`${yuan(g.min)}–${yuan(g.max)}`}</span></div>`).join('')}</div>`;
+  $('#budget-hero').innerHTML=`<div class="budget-total"><p class="eyebrow">你的全程预算（上海出发，含¥1,000机动金）</p><p class="big-number">${yuan(s.totalCNY.min)}<span>–</span>${yuan(max)}</p><p class="budget-verdict ${over>0?'over':'ok'}">${over>0?`按上限超出3万约 ${yuan(over)}`:`按上限距3万还剩 ${yuan(-over)}`}</p><p class="budget-tip">换三边和≤158cm的托运箱，上限约 ${yuan(lean)}；大额外币走银联通道或用免货币兑换费的卡，还能再省约 ${yuan(pick('card-fx-fee'))}。悉尼两卧公寓和多打车是选定的舒适度取舍。</p></div><div class="budget-bars" role="list">${sums.map(g=>`<div class="bar-row" role="listitem"><span class="bar-label">${g.label}</span><span class="bar"><i style="width:${(g.max/max*100).toFixed(1)}%"></i></span><span class="bar-value">${g.min===g.max?yuan(g.max):`${yuan(g.min)}–${yuan(g.max)}`}</span></div>`).join('')}</div>`;
   const hotelPer=h=>h.nativeTotal*fx[h.currency]/3;
   $('#stay-table').innerHTML=`<ul class="list-table">${D.hotels.map(h=>`<li><div><b>${esc(h.name)}</b><small>${shortDate(h.checkin)}–${shortDate(h.checkout)} · ${h.nights}晚 · ${esc(h.beds)}${h.reviews?` · ${esc(h.reviews.split('；')[0])}`:''}</small></div><span class="num">${yuan(hotelPer(h))}<small>每人</small></span></li>`).join('')}</ul>`;
   $('#flight-table').innerHTML=`<ul class="list-table">${rows.filter(r=>r.category==='flight').map(r=>`<li><div><b>${esc(r.title)}</b><small>${esc(r.status)}</small></div><span class="num">${yuan(r.perPersonCny.min)}<small>每人</small></span></li>`).join('')}</ul>`;
   const groupRows=GROUPS.map(([k,label])=>{const list=rows.filter(r=>groupOf(r)===k);if(!list.length)return '';const g=sums.find(x=>x.k===k);return `<tr class="group-row"><th scope="rowgroup" colspan="2">${label}</th><td>${g.min===g.max?yuan(g.max):`${yuan(g.min)}–${yuan(g.max)}`}</td></tr>${list.map(r=>`<tr><td data-label="项目"><strong>${esc(r.title)}</strong><small>${esc(r.status)}</small><details class="row-note"><summary>说明与来源</summary><small>${esc(r.note)}</small>${refLinks(r.sourceIds)}</details></td><td data-label="每人原币">${esc(r.currency)} ${range(r.perPersonNative)}</td><td data-label="约合人民币">${r.perPersonCny.min===r.perPersonCny.max?yuan(r.perPersonCny.min):`${yuan(r.perPersonCny.min)}–${yuan(r.perPersonCny.max)}`}</td></tr>`).join('')}`;}).join('');
-  $('#budget-table').innerHTML=`<div class="table-scroll"><table class="budget"><caption>11月16日主方案 · 上海出发者本人费用 · 报价快照</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${groupRows}</tbody><tfoot><tr><th colspan="2">合计（每人）</th><td>${yuan(s.totalCNY.min)}–${yuan(s.totalCNY.max)}</td></tr></tfoot></table></div><p class="planner-note">${esc(s.narrative)}</p><p class="planner-note">折算：AUD1≈¥${esc(fx.AUD)}；NZD1≈¥${esc(fx.NZD)}（${esc(fx.note)}）。${esc(D.budget.summary.comparisonNote)} 现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
+  $('#budget-table').innerHTML=`<div class="table-scroll"><table class="budget"><caption>${shortDate(dateOf(1))}–${shortDate(dateOf(D.days.length))}主方案 · 上海出发者本人费用 · 报价快照，未预订</caption><thead><tr><th>项目</th><th>每人原币</th><th>约合人民币</th></tr></thead><tbody>${groupRows}</tbody><tfoot><tr><th colspan="2">合计（每人）</th><td>${yuan(s.totalCNY.min)}–${yuan(s.totalCNY.max)}</td></tr></tfoot></table></div><p class="planner-note">${esc(s.narrative)}</p><p class="planner-note">折算：AUD1≈¥${esc(fx.AUD)}；NZD1≈¥${esc(fx.NZD)}（${esc(fx.note)}）。${esc(D.budget.summary.comparisonNote)} 现金是上述消费的支付方式，不再次加进总额。可退押金或信用卡预授权需另留额度。</p>`;
   const native=s.nativeTotals;
   $('#budget-table').insertAdjacentHTML('beforeend',`<p class="planner-note">个人原币支出合计：人民币 ¥${range(native.CNY)} ＋ 澳元 AUD ${range(native.AUD)} ＋ 新西兰元 NZD ${range(native.NZD)}；折合人民币的总额见上。三种货币分别列示，包含预算及机动金，不是三人的总花费。</p>`);
   $('#licence-detail').innerHTML=cards(D.budget.licences.map(l=>({title:l.driver,body:l.advice,sourceIds:l.sourceIds})),'risk-card');
@@ -189,20 +197,21 @@ const todoKey=id=>`trip-todo:${id}`;
 const todoMemory=new Map();let storageWarned=false;
 const todoDone=id=>{if(todoMemory.has(id))return todoMemory.get(id);try{return localStorage.getItem(todoKey(id))==='1';}catch{return false;}};
 function setTodo(id,done){todoMemory.set(id,done);try{done?localStorage.setItem(todoKey(id),'1'):localStorage.removeItem(todoKey(id));}catch{if(!storageWarned){storageWarned=true;toast('这台设备不能保存勾选，刷新后会丢失。');}}}
-const localToday=()=>{const n=new Date();return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`;};
+const localToday=(plusDays=0)=>{const n=new Date();n.setDate(n.getDate()+plusDays);return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`;};
 const overdue=t=>t.due!=='asap'&&t.due<localToday()&&!todoDone(t.id);
 const dueLabel=t=>t.due==='asap'?'尽快':`${shortDate(t.due)} ${weekday(t.due)}${overdue(t)?' · 已过期':''}`;
-function nextTodo(){const list=(D.todos||[]).filter(t=>!todoDone(t.id));return list.find(overdue)||list.find(t=>t.due==='asap'||t.due>=localToday());}
+// Overdue first, then anything dated in the next 3 days (ahead of the undated "asap" items), then the rest.
+function nextTodo(){const list=(D.todos||[]).filter(t=>!todoDone(t.id)),soon=localToday(3);return list.find(overdue)||list.find(t=>t.due!=='asap'&&t.due>=localToday()&&t.due<=soon)||list.find(t=>t.due==='asap'||t.due>=localToday());}
 function renderTodos(){
   const list=(D.todos||[]).filter(t=>todoWho==='all'||t.who.includes(todoWho)||t.who.includes('all'));
   const count=()=>{$('#todo-count').textContent=`已完成 ${list.filter(t=>todoDone(t.id)).length} / ${list.length}`;};count();
-  $('#todo-list').innerHTML=list.map(t=>`<li class="${todoDone(t.id)?'done':''}${overdue(t)?' overdue':''}"><label class="todo-check"><input type="checkbox" data-todo="${esc(t.id)}" ${todoDone(t.id)?'checked':''}><span class="due ${t.due==='asap'||overdue(t)?'asap':''}">${dueLabel(t)}</span></label><div class="todo-body"><b>${esc(t.title)}</b><small>${esc(t.detail)}</small><span class="who">${t.who.map(w=>WHO[w]).join('、')}</span>${t.sourceIds?.length?`<span class="source-links">${t.sourceIds.map(id=>D.sources.find(x=>x.id===id)).filter(Boolean).map((x,i)=>`<a href="${esc(url(x.url))}" target="_blank" rel="noopener" title="${esc(x.title)}">来源${i+1} ↗</a>`).join('')}</span>`:''}</div></li>`).join('');
+  $('#todo-list').innerHTML=list.map(t=>`<li class="${todoDone(t.id)?'done':''}${overdue(t)?' overdue':''}"><label class="todo-check"><input type="checkbox" data-todo="${esc(t.id)}" aria-labelledby="todo-${esc(t.id)}-t todo-${esc(t.id)}-d" ${todoDone(t.id)?'checked':''}><span class="due ${t.due==='asap'||overdue(t)?'asap':''}" id="todo-${esc(t.id)}-d">${dueLabel(t)}</span></label><div class="todo-body"><b id="todo-${esc(t.id)}-t">${esc(t.title)}</b><small>${esc(t.detail)}</small><span class="who">${t.who.map(w=>WHO[w]).join('、')}</span>${t.sourceIds?.length?`<span class="source-links">${t.sourceIds.map(id=>D.sources.find(x=>x.id===id)).filter(Boolean).map((x,i)=>`<a href="${esc(url(x.url))}" target="_blank" rel="noopener" title="${esc(x.title)}">来源${i+1} ↗</a>`).join('')}</span>`:''}</div></li>`).join('');
   // Update the ticked row in place so keyboard and screen-reader focus stays on the checkbox.
   $$('#todo-list input').forEach(i=>i.onchange=()=>{const t=list.find(x=>x.id===i.dataset.todo);setTodo(t.id,i.checked);const li=i.closest('li');li.classList.toggle('done',i.checked);li.classList.toggle('overdue',overdue(t));const due=li.querySelector('.due');due.textContent=dueLabel(t);due.classList.toggle('asap',t.due==='asap'||overdue(t));count();renderFacts();});
 }
 function renderFacts(){
   const s=D.budget.summary, over=-s.headroomCNY, t=nextTodo();
-  $('#fact-grid').innerHTML=`<div class="fact"><dt>日期</dt><dd>${shortDate(dateOf(1))} — ${shortDate(dateOf(D.days.length))}<small>11/17周二傍晚从浦东出发</small></dd></div><div class="fact"><dt>住宿</dt><dd>墨尔本1晚 → 南岛7晚 → 悉尼4晚<small>6处，墨尔本那晚有两人合睡一张床</small></dd></div><div class="fact link"><dt>每人预算</dt><dd><a href="#budget">${yuan(s.totalCNY.min)}–${yuan(s.totalCNY.max)}</a><small>${over>0?`按上限超3万约${yuan(over)} →`:'在3万以内 →'}</small></dd></div><div class="fact link"><dt>最近要办</dt><dd><a href="#before">${t?esc(t.title):'行前事项都已勾完'}</a><small>${t?`${dueLabel(t)} · ${t.who.map(w=>WHO[w]).join('、')} →`:''}</small></dd></div>`;
+  $('#fact-grid').innerHTML=`<div class="fact"><dt>日期</dt><dd>${shortDate(dateOf(1))} — ${shortDate(dateOf(D.days.length))}<small>11/17周二傍晚从浦东出发</small></dd></div><div class="fact"><dt>住宿</dt><dd>墨尔本1晚 → 南岛7晚 → 悉尼4晚<small>6处，墨尔本那晚有两人合睡一张床</small></dd></div><div class="fact link"><dt>你的预算（上海出发）</dt><dd><a href="#budget">${yuan(s.totalCNY.min)}–${yuan(s.totalCNY.max)}</a><small>${over>0?`按上限超3万约${yuan(over)} →`:'在3万以内 →'}</small></dd></div><div class="fact link"><dt>最近要办</dt><dd><a href="#before">${t?esc(t.title):'行前事项都已勾完'}</a><small>${t?`${dueLabel(t)} · ${t.who.map(w=>WHO[w]).join('、')} →`:''}</small></dd></div>`;
 }
 function renderOverview(){
   $('#overview-list').innerHTML=D.days.map(d=>{const h=D.hotels.find(x=>x.id===d.hotelId),date=dateOf(d.day);return `<li><button class="overview-row${d.day===selectedDay?' current':''}" data-day="${d.day}" type="button" aria-label="打开第${d.day}天：${esc(d.title)}"><span class="ov-date"><b>${shortDate(date)}</b><small>${weekday(date)} · 第${d.day}天</small></span><span class="ov-main"><b>${esc(d.title)}</b><small>${esc(d.drive)}</small></span><span class="ov-stay">${h?esc(h.name):'飞机上 / 当日抵达'}</span></button></li>`;}).join('');
@@ -217,7 +226,7 @@ function renderRental(){
 function renderGlance(){
   const G=D.glance; if(!G)return;
   $('#glance-route').innerHTML=G.route.map(r=>`<li><b>${esc(r.stop)}<small>${esc(r.date)}</small></b>${r.leg?`<span class="leg">${esc(r.leg)}</span>`:''}</li>`).join('');
-  $('#glance-days').innerHTML=G.days.map(g=>`<li><button class="glance-day ${esc(g.region)}" data-day="${g.day}" type="button" aria-label="打开第${g.day}天详细行程：${esc(g.title)}"><span class="g-badge"><small>DAY</small>${g.day}</span><span class="g-body"><span class="g-date">${shortDate(g.date)} ${weekday(g.date)}</span><b>${esc(g.title)}</b><ul>${g.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><span class="g-stay">住：${esc(g.stay)}</span></span></button></li>`).join('');
+  $('#glance-days').innerHTML=G.days.map(g=>`<li><button class="glance-day ${esc(g.region)}" data-day="${g.day}" type="button" aria-label="打开第${g.day}天详细行程：${esc(g.title)}"><span class="g-badge"><small>第</small>${g.day}<small>天</small></span><span class="g-body"><span class="g-date">${shortDate(g.date)} ${weekday(g.date)}</span><b>${esc(g.title)}</b><ul>${g.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><span class="g-stay">住：${esc(g.stay)}</span></span></button></li>`).join('');
   $$('#glance-days .glance-day').forEach(b=>b.onclick=()=>openDayFromElsewhere(Number(b.dataset.day)));
   if(G.art)$('#glance-art').innerHTML=glanceArt(G.art,D.photos);
   $('#glance-drives').innerHTML=`<tbody>${G.drives.map(r=>`<tr><th scope="row">${esc(r.leg)}</th><td>${esc(r.time)}</td></tr>`).join('')}</tbody>`;
@@ -265,9 +274,8 @@ function renderStatic() {
   renderBudget();renderRental();renderTodos();renderFacts();renderOverview();renderGlance();
   $('#drone-areas').innerHTML=cards(D.droneAreas.map(a=>({title:a.place,body:a.conclusion,sourceIds:a.sourceIds})),'risk-card');
   $('#sources').innerHTML=`<ul class="sources-list">${D.sources.map(s=>`<li><a href="${esc(url(s.url))}" target="_blank" rel="noopener">${esc(s.title)} ↗</a> <span class="source-date">${s.checked?`核查 ${esc(String(s.checked).replace(/-/g,'.'))}`:'未复核'}</span></li>`).join('')}</ul>`;
-  $('#credits').innerHTML=`<h3>照片授权</h3><ul class="credits-list">${D.photos.map(p=>`<li>${esc(p.title)} — ${workTitle(p)?`原题“${esc(workTitle(p))}”，`:''}${esc(byline(p))}；<a href="${esc(url(p.sourceUrl))}" target="_blank" rel="noopener">原作品</a>；<a href="${esc(url(p.licenseUrl))}" target="_blank" rel="noopener">${esc(licenseLabel(p))}</a>。页面卡片以CSS裁切显示，放大视图保留原比例；未将作品标记为本次旅行实拍。</li>`).join('')}</ul>`;
+  $('#credits').innerHTML=`<h3>照片授权</h3><ul class="credits-list">${D.photos.map(p=>`<li>${esc(p.title)} — ${workTitle(p)?`原题“${esc(workTitle(p))}”，`:''}${esc(byline(p))}；<a href="${esc(url(p.sourceUrl))}" target="_blank" rel="noopener">原作品</a>；<a href="${esc(url(p.licenseUrl))}" target="_blank" rel="noopener">${esc(licenseLabel(p))}</a>。页面卡片按网页样式裁切显示，放大视图保留原比例；未将作品标记为本次旅行实拍。</li>`).join('')}</ul>`;
 }
-function setStart(next){start=next;addressDirty=true;renderDay();renderFacts();stripTo(false);$(next===17?'#back-main':'#toggle-draft').focus({preventScroll:true});}
 function buildPrint(){document.querySelector('#print-plan')?.remove();const section=document.createElement('section');section.id='print-plan';section.className='print-only wrap';section.innerHTML=`<h2>完整${D.days.length}日计划 · ${shortDate(dateOf(1))}–${shortDate(dateOf(D.days.length))}</h2><p>${start!==17?"顺延草案：仅日期顺延，全部报价、航班、库存、取消期限与日月时刻未复核。":"主方案；全部尚未预订。"}</p>`+D.days.map(day=>`<article class="print-day"><p class="eyebrow">第${day.day}天 · ${shortDate(dateOf(day.day))} ${weekday(dateOf(day.day))} · ${esc(day.timezone)}</p><h3>${esc(day.title)}</h3><p>${esc(scheduleText(day.summary))}</p>${timelineHtml(day,true)}<p>风雨替代：${esc(scheduleText(day.weatherPlan))}</p>${hotelHtml(D.hotels.find(h=>h.id===day.hotelId), day, true)}</article>`).join('');$('#overview').after(section);}
 // Any print path (button, Ctrl+P, browser menu, mobile "save as PDF") rebuilds the plan for the current start date and opens every <details> until printing ends.
 let printState=null;
@@ -298,7 +306,6 @@ function initChrome(){
 function bindControls(){
   $('#day-view').onclick=()=>{mapMode='day';renderMap();};$('#all-view').onclick=()=>{mapMode='all';renderMap();};$('#hotels-toggle').onchange=renderMap;
   $('#share').onclick=share;$('#print').onclick=()=>window.print();
-  $('#toggle-draft').onclick=()=>setStart(17);$('#back-main').onclick=()=>setStart(16);
   $('#return-pill').onclick=backToEvent;
   $('#close-photo').onclick=()=>$('#photo-dialog').close();$('#photo-dialog').onclick=e=>{if(e.target===$('#photo-dialog'))$('#photo-dialog').close();};
   $$('#todo-filter button').forEach((b,i)=>b.onclick=()=>{todoWho=b.dataset.who;$('#todo-filter').style.setProperty('--seg-index',i);$$('#todo-filter button').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',x===b);});renderTodos();});

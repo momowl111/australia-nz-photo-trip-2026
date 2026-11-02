@@ -21,7 +21,7 @@
       "drive": "国际航班；不租车",
       "photoGoal": "出发日不安排拍摄；清点电池、存储卡和镜头。",
       "weatherPlan": "航班延误按航司通知走；墨尔本这一天本身就是缓冲，晚到几个小时也不影响11/19飞新西兰。",
-      "lightNote": "今天只赶飞机。备用锂电池全部随身、单独防短路。",
+      "lightNote": "今天只赶飞机。备用锂电池和充电宝全部随身、单独防短路；充电宝要有3C（中国强制性产品认证）标志、最多2个。",
       "events": [
         {
           "time": "13:30",
@@ -46,12 +46,15 @@
           "lat": 31.144,
           "lon": 121.808,
           "kind": "airport",
-          "detail": "值机、托运、过边检和安检。吉祥这张多程票每人托运2件、每件23kg、三边和≤158cm；手提1件5kg（≤115cm），另可免费带1件放前座下方的个人物品（可以是相机包）；锂电池和充电宝必须随身。国际航班值机一般起飞前60分钟截止，登机口提前关闭，以登机牌为准。",
+          "detail": "值机、托运、过边检和安检。吉祥这张多程票每人托运2件、每件23kg、三边和≤158cm；手提1件5kg（≤115cm），另可免费带1件放前座下方的个人物品（可以是相机包）；锂电池和充电宝必须随身：充电宝最多2个、要有清晰的3C（中国强制性产品认证）标志，机上不能用；备用电池吉祥旧规写每人2块，多带先问95520（见行前须知“04”）。相机镜头想做出境登记的（可选，见待办），先找海关申报台办，多留些时间。国际航班值机一般起飞前60分钟截止，登机口提前关闭，以登机牌为准。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
             "f-ho-multi",
-            "x-ho-bags"
+            "x-ho-bags",
+            "x-ho-powerbank",
+            "x-ho-spare",
+            "x-customs-276"
           ]
         },
         {
@@ -131,7 +134,7 @@
           "lat": -37.813695,
           "lon": 144.953512,
           "kind": "transfer",
-          "detail": "去Dorsett Melbourne（墨尔本帝盛酒店，615 Little Lonsdale Street，从Southern Cross（南十字星）站步行约10分钟）寄存大箱子；15:00后入住。",
+          "detail": "去Dorsett Melbourne（墨尔本帝盛酒店，615 Little Lonsdale Street（小朗斯代尔街），从Southern Cross（南十字星）站步行约10分钟）寄存大箱子；15:00后入住。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
           "sourceIds": [
@@ -185,8 +188,8 @@
           "lat": -37.8098,
           "lon": 144.9652,
           "kind": "photo",
-          "detail": "州立图书馆La Trobe Reading Room（拉筹伯阅览室）的八角穹顶，每天10:00–18:00开放、免费；官网曾有阅览室临时关闭的通知，出发前再查。阅览室保持安静，不用闪光灯、不架三脚架。",
-          "photoTip": "16mm从上层回廊往下拍穹顶和放射状书桌。",
+          "detail": "州立图书馆La Trobe Reading Room（拉筹伯阅览室）的八角穹顶，每天10:00–18:00开放、免费；官网写穹顶5、6层目前关闭，没写何时重开，前一天再看一次官网。阅览室保持安静，不用闪光灯、不架三脚架。",
+          "photoTip": "最高的5、6层回廊关着，从顶上俯拍放射状书桌可能拍不到：在阅览室地面用16mm仰拍穹顶，开放的低层回廊能上就从那里往下拍。",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
             "x-slv"
@@ -228,7 +231,7 @@
           "lat": -37.813695,
           "lon": 144.953512,
           "kind": "meal",
-          "detail": "附近吃晚饭。想看企鹅的，提前在Phillip Island Nature Parks（菲利普岛自然公园）官网订St Kilda（圣基尔达）的免费观赏场次。",
+          "detail": "附近吃晚饭。小企鹅免费票要在行前去官网抢（见待办，墨尔本同学11/10先抢）；没抢到就当天再刷退票，还没有就只拍日落、不去观景台。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
           "sourceIds": [
@@ -254,13 +257,13 @@
         },
         {
           "time": "19:15",
-          "endTime": "20:45",
+          "endTime": "20:05",
           "place": "St Kilda Pier（圣基尔达栈桥）",
           "placeId": "st_kilda_pier",
           "lat": -37.8646,
           "lon": 144.9702,
           "kind": "photo_optional",
-          "detail": "可选：日落约20:12，民用暮光到约20:42。拍栈桥、老亭子和海上晚霞，再拍城市天际线的蓝调。",
+          "detail": "可选：日落约20:12，民用暮光到约20:42。拍栈桥、老亭子和海上晚霞。有企鹅第1场票的，按票面时间前约25分钟收起脚架往尽头走（20:30场就是20:05，日落前就得走，栈桥蓝调拍不到）；没票的继续拍城市天际线的蓝调，到约20:42。",
           "photoTip": "16–35mm拍栈桥引导线，三脚架放在不挡步道的一侧。",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
@@ -268,18 +271,19 @@
           ]
         },
         {
-          "time": "20:45",
+          "time": "20:05",
           "endTime": "21:30",
-          "place": "St Kilda Breakwater（圣基尔达防波堤） 企鹅观赏区",
+          "place": "St Kilda Pier（圣基尔达栈桥）尽头企鹅观景台",
           "placeId": "st_kilda_pier",
           "lat": -37.8646,
           "lon": 144.9702,
           "kind": "photo_optional",
-          "detail": "可选：小企鹅观赏场次约日落后30分钟开始、约1小时，免费但要预订；全程不开闪光灯、不靠近不触碰，按工作人员指引。太累就跳过。",
+          "detail": "可选（要票）：沿栈桥走到尽头的观景台（栈桥全长约450米），至少提前10分钟到观景台，迟到票可能作废。第1场约日落后30分钟开始（官方11月参考时间约20:30，以票面为准），每场约45分钟，约21:15–21:30结束。全程关闪光灯、不用手电，不靠近不触碰，按工作人员指引。第2场约晚1小时开始，回到酒店要22:45左右，明早05:45起床，只在第1场没抢到时考虑。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
-            "x-stkilda-penguins"
+            "x-stkilda-penguins",
+            "x-stkilda-calendar"
           ]
         },
         {
@@ -309,7 +313,7 @@
       "summary": "QF167（澳洲航空） 09:10离开墨尔本、14:30抵达基督城；取车后开约20–25分钟进市区，住格洛斯特街的两卧两卫公寓，傍晚走路逛植物园、雅芳河和河畔市场。",
       "drive": "机场取车→市区约20–25分钟（约12km）；不长途驾驶",
       "photoGoal": "雅芳河和植物园的傍晚光线、重建后的市中心街景；不赶景点。",
-      "weatherPlan": "QF167（澳洲航空）大幅延误、赶不上APEX（新西兰租车公司） 18:29关门时，下班后取车须提前24小时安排并全额预付，临时办不了：直接打车去市区的Gloucester Street（格洛斯特街）公寓（约12km），致电门店改到11/20 08:00取车，并确认不算no-show（未到场）、还车时间不变；11/20 09:30仍可出发。万一QF167取消，请澳航柜台改当天最早的澳航或捷星航班，例如JQ171（捷星航空，12:05→17:20）或QF169（澳洲航空，18:50→次日00:10）；改到新西兰航空要看澳航同不同意，不保证。改签的航班基本赶不上APEX 18:29关门：改签后马上打电话给门店改到11/20 08:00取车，落地后打车去公寓；很晚才到就先告诉房东。出发前48小时看澳航航班动态。",
+      "weatherPlan": "QF167（澳洲航空）大幅延误、赶不上APEX（新西兰租车公司） 18:29关门时，下班后取车须提前24小时安排并全额预付，临时办不了：直接打车去市区的Gloucester Street（格洛斯特街）公寓（约12km），致电门店改到11/20 08:00取车，并确认不算no-show（未到场）、还车时间不变；11/20 09:30仍可出发。万一QF167取消，请澳航柜台改当天最早的澳航或捷星航班，例如JQ171（捷星航空，12:05→17:20）或QF169（澳洲航空，18:50→次日00:10）；改到新西兰航空要看澳航同不同意，不保证。改签的航班基本赶不上APEX 18:29关门：改签后马上打电话给门店改到11/20 08:00取车，落地后打车去公寓。两种情况都要记得：公寓自助入住只到22:00，预计22:00后才到，就先在Booking（缤客订房网）上告诉房东，问清能不能晚到自助入住。出发前48小时看澳航航班动态。",
       "events": [
         {
           "time": "05:45",
@@ -336,13 +340,17 @@
           "lat": -37.669,
           "lon": 144.841,
           "kind": "airport",
-          "detail": "值机、托运、出境和安检。澳航国际航班一般起飞前3小时才开柜台、起飞前60分钟截止，以澳航通知为准。值机时会查每人的NZeTA（新西兰电子旅行授权）和已付款的离开新西兰机票（NZ231（新西兰航空））。这段托运合计30kg、每件≤158cm，手提和个人物品合计7kg，超出按澳航规则收费。",
+          "detail": "值机、托运、出境和安检。澳航国际航班一般起飞前3小时才开柜台、起飞前60分钟截止，以澳航通知为准。值机时会查每人的NZeTA（新西兰电子旅行授权）和已付款的离开新西兰机票（NZ231（新西兰航空））。这段托运合计30kg、每件三边和≤158cm，手提和个人物品合计7kg；超重在机场按每公斤A$21收。澳航没有公布超尺寸收费：自助托运机量出超尺寸会让你重新装箱或付超额行李费，柜台也可以拒收，所以箱子要在出发前换成≤158cm的。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
             "f-qf167",
             "x-qantas-mel-checkin",
-            "x-nzeta-req"
+            "x-nzeta-req",
+            "x-qf-bags",
+            "x-qf-excess",
+            "x-qf-bagdrop",
+            "x-qf-coc"
           ]
         },
         {
@@ -397,22 +405,25 @@
         },
         {
           "time": "17:45",
-          "endTime": "18:15",
+          "endTime": "18:30",
           "place": "Gloucester Street（格洛斯特街）公寓",
           "placeId": "gloucester",
           "lat": -43.5297182,
           "lon": 172.6450892,
           "kind": "drive",
-          "detail": "从APEX（新西兰租车公司）门店开约20–25分钟进市区（约12km，第一次靠左开，慢慢来）到Gloucester Street（格洛斯特街）的公寓，自助入住（15:00–22:00；门牌和门锁密码房东到达前发，先告诉房东约18:00到）。Booking（缤客订房网）没写停车，按房东说的停；附近有收费停车场，路边车位有限。",
+          "detail": "从APEX（新西兰租车公司）门店开约20–25分钟进市区（约12km，第一次靠左开，慢慢来）到Gloucester Street（格洛斯特街）的公寓，自助入住（15:00–22:00；房东要求的身份验证或押金办完后，到达前发门牌和门锁密码；先告诉房东约18:00到）。公寓没有专用车位：先在门口附近按路牌临时停车，把三只大箱搬进一楼客厅（三层联排只能走楼梯，只拿过夜用品上楼），再在附近路边按路牌停好，看清限时和收费时段，第二天早上也要留意。附近找不到位，就停33 Lichfield Street（利奇菲尔德街）的市政停车楼：晚上18:00到次日10:00每小时NZ$4、最多NZ$10.40，在河畔市场旁边，离公寓约1.2km、走路约15分钟。车里不留行李和贵重物品。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；门牌和门锁密码房东在到达前发。",
           "sourceIds": [
-            "b-gloucester"
+            "b-gloucester",
+            "x-gloucester-airbnb",
+            "x-gloucester-bookabach",
+            "x-ccc-lichfield"
           ]
         },
         {
-          "time": "18:15",
-          "endTime": "19:15",
+          "time": "18:30",
+          "endTime": "19:30",
           "place": "基督城植物园 · 雅芳河",
           "placeId": "chch_gardens",
           "lat": -43.531,
@@ -426,14 +437,14 @@
           ]
         },
         {
-          "time": "19:15",
-          "endTime": "20:15",
-          "place": "Riverside Market（河畔市场） · 新摄政街",
+          "time": "19:30",
+          "endTime": "20:25",
+          "place": "Riverside Market（河畔市场）",
           "placeId": "riverside_market",
           "lat": -43.5328,
           "lon": 172.6345,
           "kind": "meal",
-          "detail": "沿雅芳河往回走约10分钟到Riverside Market（河畔市场）吃晚饭（周四开到21:00）；旁边是彩色的New Regent Street（新摄政街），大教堂广场也在几分钟路程内。",
+          "detail": "沿雅芳河往回走约10分钟到Riverside Market（河畔市场）吃晚饭（周四市场开到21:00，各家店打烊时间不一）；大教堂广场就在附近。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
@@ -441,8 +452,8 @@
           ]
         },
         {
-          "time": "20:15",
-          "endTime": "20:45",
+          "time": "20:25",
+          "endTime": "20:50",
           "place": "雅芳河 · 纪念桥",
           "placeId": "chch_bridge",
           "lat": -43.5326,
@@ -454,14 +465,14 @@
           "sourceIds": []
         },
         {
-          "time": "20:45",
+          "time": "20:50",
           "endTime": "22:00",
           "place": "Gloucester Street（格洛斯特街）公寓",
           "placeId": "gloucester",
           "lat": -43.5297182,
           "lon": 172.6450892,
           "kind": "rest",
-          "detail": "步行约15分钟（约1.2km）回公寓，22:00前睡；公寓22:00–07:00要保持安静。明早09:30从市区出发去特卡波。",
+          "detail": "走约15分钟（约1.2km）回公寓，可以顺路穿过彩色的New Regent Street（新摄政街）；22:00前睡，公寓22:00–07:00要保持安静。明早09:30从市区出发去特卡波。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点；门牌和门锁密码房东在到达前发。",
           "sourceIds": []
@@ -470,7 +481,8 @@
       "shortTitle": "飞往基督城",
       "lightNote": "基督城11/19日落约20:38，民用暮光到约21:11。植物园11–2月开到21:00。",
       "sourceIds": [
-        "r-apex-faq"
+        "r-apex-faq",
+        "b-gloucester"
       ]
     },
     {
@@ -481,7 +493,7 @@
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
       "hotelId": "alpinenook",
       "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Alpine Nook（山间小居度假屋）入住休息，傍晚拍教堂。",
-      "drive": "自驾 · 约3.2小时纯驾驶，另加Mt John（约翰山）上下山约40分钟",
+      "drive": "自驾 · 约3.2小时纯驾驶，另加Mt John（约翰山）上下山约40分钟；全程开车最长的一天，也是第一次长途靠左开",
       "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
       "weatherPlan": "云低或大风就跳过Mt John（约翰山，山顶看不到湖色还很冷），直接入住。当天先熟悉左侧通行，不加库克山往返。若到Tekapo（特卡波）遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
       "events": [
@@ -491,7 +503,7 @@
           "placeId": "gloucester",
           "place": "Gloucester Street（格洛斯特街）公寓住宿区域",
           "kind": "meal",
-          "detail": "早餐、装车、退房，检查路况；09:30从市区出发。",
+          "detail": "早餐、装车、退房，检查路况；09:30从市区出发。车停在Lichfield Street（利奇菲尔德街）停车楼的，先走约15分钟去取车、开回门口装箱（10:00前出场按夜间价）。",
           "photoTip": "",
           "lat": -43.5297182,
           "lon": 172.6450892,
@@ -502,7 +514,7 @@
         },
         {
           "time": "09:30",
-          "endTime": "11:15",
+          "endTime": "11:30",
           "placeId": "geraldine",
           "place": "Geraldine（杰拉尔丁）镇中心",
           "kind": "drive",
@@ -518,25 +530,27 @@
           ]
         },
         {
-          "time": "11:15",
-          "endTime": "12:15",
+          "time": "11:30",
+          "endTime": "12:40",
           "placeId": "geraldine",
           "place": "Geraldine（杰拉尔丁）镇中心",
           "kind": "meal",
-          "detail": "早午餐、厕所与伸展，司机至少完整休息一段再走。",
+          "detail": "早午餐、厕所与伸展，司机至少完整休息一段再走。顺路在镇上的FreshChoice（新鲜之选）超市（7 Peel Street（皮尔街），每天07:00–20:00）买Alpine Nook（山间小居度假屋）两晚的早晚餐，约20分钟；Tekapo（特卡波）只有一家小超市。",
           "photoTip": "",
           "lat": -44.094,
           "lon": 171.246,
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
+          "sourceIds": [
+            "x-osm-freshchoice-geraldine"
+          ]
         },
         {
-          "time": "12:15",
+          "time": "12:40",
           "endTime": "14:00",
           "placeId": "alpinenook",
           "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "drive",
-          "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时45分钟含交通缓冲；实际入住以酒店规定为准。",
+          "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时20分钟含交通缓冲；实际入住以酒店规定为准。",
           "photoTip": "",
           "lat": -44.0108973,
           "lon": 170.4874962,
@@ -564,11 +578,11 @@
         },
         {
           "time": "15:30",
-          "endTime": "18:15",
+          "endTime": "19:05",
           "placeId": "alpinenook",
           "place": "Alpine Nook（山间小居度假屋）住宿区域",
           "kind": "rest",
-          "detail": "Alpine Nook（山间小居度假屋）在12 O'Neill Place，15:00–23:30入住，须提前告诉房东预计到达时间；三卧一卫，三人各一间。入住后休息、做晚饭，傍晚再出门拍教堂。",
+          "detail": "Alpine Nook（山间小居度假屋）在12 O'Neill Place（奥尼尔巷），15:00–23:30入住，须提前告诉房东预计到达时间；三卧一卫，三人各一间。入住后休息、做晚饭，傍晚再出门拍教堂。",
           "photoTip": "",
           "lat": -44.0108973,
           "lon": 170.4874962,
@@ -622,9 +636,9 @@
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
       "hotelId": "alpinenook",
       "summary": "睡足后出发，拍Pukaki（普卡基）、Kea Point（基亚观景点）与Tasman Valley（塔斯曼谷）；不把三小时Hooker（胡克谷步道）全程当必选。",
-      "drive": "自驾 · 约3–3.5小时纯驾驶（全程最长的驾驶日）",
+      "drive": "自驾 · 约3–3.5小时纯驾驶",
       "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
-      "weatherPlan": "早晨查MetService（新西兰气象局）/NZTA（新西兰交通局）/DOC（新西兰保护部）；山被云遮且大雨或强风时取消入山，改Tekapo（特卡波）休息。D6（第6天）天气改善可把上午替换成Pukaki（普卡基）/库克山短线，但会压缩Wanaka（瓦纳卡）下午，不能再走完整Hooker（胡克谷步道）。若今天走Hooker Valley（胡克谷）全程，应替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，DOC纯步行约3小时，加拍摄和第一座桥限流排队至少留3.5–4小时；改走Hooker就约08:00从Tekapo出发，避开中午桥头高峰，不可全部叠加。 今年是很强的厄尔尼诺，风大时DOC会临时关步道；Hooker第一座吊桥装了限流闸门（同时最多20人），排队多留时间。",
+      "weatherPlan": "早晨查MetService（新西兰气象局）/NZTA（新西兰交通局）/DOC（新西兰保护部）；山被云遮且大雨或强风时取消入山，改Tekapo（特卡波）休息。D6（第6天）天气改善可把上午替换成Pukaki（普卡基）/库克山短线，但会压缩Wanaka（瓦纳卡）下午，不能再走完整Hooker（胡克谷步道）。若今天走Hooker Valley（胡克谷）全程，应替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，DOC纯步行约3小时，加拍摄和第一座桥限流排队至少留3.5–4小时；改走Hooker就约08:00从Tekapo出发，避开中午桥头高峰，不可全部叠加。 今年是很强的厄尔尼诺，风大时DOC会临时关步道；Hooker第一座吊桥同时最多20人：DOC 9/22说要在桥头装限流闸门（还没公布安装日期），夏季高峰有护林员在桥头看管，排队多留时间。",
       "events": [
         {
           "time": "08:00",
@@ -680,7 +694,7 @@
           "placeId": "white_horse",
           "place": "White Horse Hill（白马山营地）停车区",
           "kind": "drive",
-          "detail": "沿SH80（80号国道）到White Horse Hill（白马山营地）；停车NZ$2.50/半小时、全天封顶$25、前20分钟免费、只收卡，预留找车位与厕所时间。",
+          "detail": "沿SH80（80号国道）到White Horse Hill（白马山营地）；停车NZ$2.50/半小时、全天封顶$25、前20分钟免费、只收卡，预留找车位与厕所时间。DOC（新西兰保护部）提醒11–3月10:00–16:00这里车位可能不够，今天又是周六（周末人更多）。现场有电子屏显示停车场有没有空位；满了有两个办法：①按交通管理人员指挥，只停在Hooker Valley Road（胡克谷路）路边指定的一侧，多走一段路；②回村里按路牌找公共车位，从村里走Kea Point（基亚观景点），DOC标往返约2小时（从停车场约1小时），这时删掉下午的Tasman（塔斯曼冰川一带）。想避开高峰，可以按“今日拍摄”里写的07:00出发方案，由你们定。",
           "photoTip": "",
           "lat": -43.72,
           "lon": 170.092,
@@ -688,7 +702,11 @@
           "sourceIds": [
             "i-doc-kea",
             "i-road-conditions",
-            "x-doc-parking"
+            "x-doc-parking",
+            "x-doc-aoraki-visit",
+            "x-doc-aoraki-summer",
+            "x-rnz-aoraki-parking",
+            "w-docWalks"
           ]
         },
         {
@@ -731,7 +749,8 @@
           "lat": -43.698,
           "lon": 170.163,
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": []
+          "sourceIds": [],
+          "optional": true
         },
         {
           "time": "15:15",
@@ -785,7 +804,8 @@
       "shortTitle": "普卡基与雪山",
       "lightNote": "主峰光线：11:30–13:00在Kea Point（基亚观景点）看Aoraki（奥拉基/库克山）是高角度逆光，主峰偏灰；常见上午较晴、午后起云。可选：07:00出发、约08:30到White Horse Hill（白马山营地）先走Kea Point（侧光），回程Pukaki（普卡基）短停可缩短，因为D6（第6天）上午还会经过。代价是早起约1.5小时。",
       "sourceIds": [
-        "x-niwa-outlook"
+        "x-niwa-outlook",
+        "w-docHookerGate"
       ]
     },
     {
@@ -1109,7 +1129,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": []
         }
       ],
@@ -1128,11 +1148,11 @@
       "drive": "自己不开车；往返大巴＋游船约12小时40分，租车留酒店仍计租金。",
       "photoGoal": "峡湾峭壁、云雾、瀑布与船只比例；雨天水量可能更有表现，但不保证出航或主峰露出。",
       "lightNote": "不使用皇后镇日落时刻冒充Milford（米尔福德）时刻。船上24–120mm为主，快门防船摇，防雨优先，不架三脚架挡船上通道。",
-      "weatherPlan": "普通雨天仍可能发团，按运营方决定；SH94（94号国道）关闭或停航听通知。至少24小时可改/取消的条件要核对，不能把11/25换日视为必有座位。回程后直接休息。 NZTA（新西兰交通局）公告11/2起SH94 The Divide（分水岭）段工作日夜间封路（具体时段待查），大巴回程一般在傍晚前通过，晚点听司机安排。 今年是很强的厄尔尼诺（NIWA（新西兰国家水与大气研究所） 10/1展望）：西风多、峡湾一带雨偏多。直接在RealNZ（米尔福德游船巴士运营商）官网订（提前24小时可免费改期或退款），11/24早上07:30看NZTA米尔福德公路通告，不行就和11/25格林诺奇对调。SH94在Pop’s View（波普观景点）和Marian Hill（玛丽安山）施工，大巴可能不停Pop’s View。",
+      "weatherPlan": "普通雨天仍可能发团，按运营方决定；SH94（94号国道）关闭或停航听通知。回程后直接休息。 NZTA（新西兰交通局）：SH94 Homer Tunnel（霍默隧道）到The Divide（分水岭）停车场这一段11/2–11/5每晚20:00–次日05:00双向封路（22:00短暂放行），11/6 05:00结束，不影响11/24；11/22–23再看NZTA有没有新的夜间封路。 今年是很强的厄尔尼诺（NIWA（新西兰国家水与大气研究所） 10/1展望）：西风多、峡湾一带雨偏多。在RealNZ（米尔福德游船巴士运营商）官网直接订：出发前24小时（新西兰时间）以上可免费改期或退款，07:35这班的截止是11/23（周一）07:35，北京时间02:35。想因天气改到11/25、和格林诺奇对调：11/22晚上到11/23早上在瓦纳卡看MetService（新西兰气象局）的Milford Sound（米尔福德峡湾）预报和NZTA米尔福德公路通告，先确认11/25还有3个座位，再在截止前到RealNZ官网改期；过了截止就不能免费改。11/24早上只看RealNZ的短信或邮件：运营方取消，才和格林诺奇对调（改期还是退款按RealNZ通知，11/25不一定有座位）；照常发团而自己不去，三人NZ$957不退。SH94在Pop’s View（波普观景点）和Marian Hill（玛丽安山）施工，大巴可能不停Pop’s View。",
       "events": [
         {
           "time": "06:30",
-          "endTime": "07:10",
+          "endTime": "07:15",
           "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
           "placeId": "bluepeaks",
           "lat": -45.03301,
@@ -1146,18 +1166,20 @@
           ]
         },
         {
-          "time": "07:10",
+          "time": "07:15",
           "endTime": "07:30",
-          "place": "Upper Stanley Street（上斯坦利街）接车区域 · 11 Stanley Street（斯坦利街）",
+          "place": "Upper Stanley Street（上斯坦利街）车站 · 11 Stanley Street（斯坦利街）",
           "placeId": "milford_pickup",
-          "lat": -45.0305,
-          "lon": 168.6636,
-          "detail": "从酒店前往接车点，预留20分钟；这里只是规划区域点，不是准确站牌。按确认邮件或前台核对Upper Stanley Street（上斯坦利街）站位置。07:30前到场。",
+          "lat": -45.0333,
+          "lon": 168.6661,
+          "detail": "07:15出门，走几分钟到Stanley Street（斯坦利街）和Sydney Street（悉尼街）路口、Blue Peaks Lodge（蓝色山峰旅舍）旁边的Upper Stanley Street（上斯坦利街）车站，RealNZ（米尔福德游船巴士运营商）结账页写的地址是11 Stanley Street。07:30前到站，07:40上车；以确认邮件为准。",
           "photoTip": "",
           "kind": "transfer",
-          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上11 Stanley Street（斯坦利街）门牌的位置，就是RealNZ（米尔福德游船巴士运营商）结账页写的上车点地址；站牌在附近路边，以确认邮件为准。",
           "sourceIds": [
-            "x-milford"
+            "x-milford",
+            "x-osm-11-stanley",
+            "x-upper-stanley"
           ]
         },
         {
@@ -1225,7 +1247,10 @@
         "w-nztaRoads",
         "x-niwa-outlook",
         "x-nzta-list",
-        "x-milford"
+        "x-milford",
+        "x-nzta-sh94-night",
+        "x-realnz-terms",
+        "x-metservice-milford"
       ]
     },
     {
@@ -1238,7 +1263,7 @@
       "summary": "米尔福德次日不设日出闹钟。09:30出发去Glenorchy（格林诺奇），下午返皇后镇，第三晚仍住Blue Peaks（蓝色山峰）。 傍晚可选坐天空缆车（自费）。",
       "drive": "自驾 · 约1.3–1.5小时纯驾驶（单程约45km）",
       "photoGoal": "红色船屋、湖湾倒影、湿地步道与山谷；不深入Paradise（天堂谷）砂石路。",
-      "weatherPlan": "强风大雨取消湖湾自驾，改皇后镇室内和休息。与11/24米尔福德可否交换，须重查RealNZ（米尔福德游船巴士运营商）余位、至少24小时改期条件及路况；并非免费天气保障日。 Apex（新西兰租车公司）官网写明租车不得驶过Priory Road（普赖奥里路）路口以北的Glenorchy–Paradise Road（格林诺奇—天堂路），只在镇区、码头和潟湖步道一带活动。",
+      "weatherPlan": "强风大雨取消湖湾自驾，改皇后镇室内和休息。和11/24米尔福德对调，要在新西兰时间11/23 07:35前（出发前24小时）到RealNZ（米尔福德游船巴士运营商）官网改期，还要11/25有空位、路况允许；并非免费天气保障日。对调后，可选的天空缆车改在11/24傍晚。 Apex（新西兰租车公司）官网写明租车不得驶过Priory Road（普赖奥里路）路口以北的Glenorchy–Paradise Road（格林诺奇—天堂路），只在镇区、码头和潟湖步道一带活动。",
       "events": [
         {
           "time": "08:00",
@@ -1250,7 +1275,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": []
         },
         {
@@ -1308,7 +1333,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": [
             "i-glenorchy",
             "i-driver-rest"
@@ -1324,7 +1349,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": []
         },
         {
@@ -1342,27 +1367,30 @@
         },
         {
           "time": "19:30",
-          "endTime": "21:00",
-          "place": "Skyline（天空缆车） · 鲍勃峰",
+          "endTime": "21:45",
+          "place": "Skyline（天空缆车） · Brecon Street（布雷肯街）缆车下站→Bob's Peak（鲍勃峰）",
           "placeId": "skyline",
-          "lat": -45.0315,
-          "lon": 168.6583,
+          "lat": -45.0283,
+          "lon": 168.6562,
           "kind": "photo_optional",
-          "detail": "可选（自费）：步行到Brecon Street坐Skyline（天空缆车）缆车上鲍勃峰，看皇后镇、瓦卡蒂普湖和远山的傍晚金光。缆车约09:00–21:00（以官网为准），成人票约NZ$64–69，不在预算里，从机动金出。缆车关门比日落早，日落本身在山下湖边看。",
-          "photoTip": "24–70mm拍湖湾和镇子，傍晚逆光注意压高光。",
-          "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
+          "detail": "可选（自费）：晚饭后从湖边走约10分钟到Brecon Street（布雷肯街）尽头的缆车下站，坐Skyline（天空缆车）上Bob's Peak（鲍勃峰），看皇后镇、瓦卡蒂普湖和对面的The Remarkables（卓越山脉）。官网写缆车每天09:30–21:00，21:00是最晚上山登乘时间，上去后还能在山顶留约1小时（当天以官网为准）。成人NZ$69，不在预算里，从机动金出。按地形推算，太阳约20:40就落到西南面的山后（理论日落21:07），山顶和湖边都看不到太阳落下；之后拍对面山顶的余晖和镇上灯光的蓝调（民用暮光到约21:42），约21:45坐缆车下山。山顶旧主楼已拆，正在分段重建（2026–2028年），能去的观景区域以现场为准。",
+          "photoTip": "24–70mm拍湖湾和镇子，70–120mm拍对面山顶的余晖；20:40前朝西南拍是逆光，注意压高光。蓝调用脚架，靠边放，别挡通道。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上缆车下站（Brecon Street（布雷肯街）尽头）的位置；按现场指示排队上车。",
           "sourceIds": [
-            "x-skyline"
+            "x-skyline",
+            "x-skyline-price",
+            "x-skyline-works",
+            "x-osm-skyline"
           ]
         },
         {
-          "time": "21:00",
+          "time": "20:15",
           "endTime": "21:30",
           "placeId": "queenstown_bay",
           "place": "Queenstown Bay（皇后镇湾）湖畔",
           "kind": "photo_optional",
-          "detail": "可选：下缆车后到湖边看日落（约21:06）；不驾车去Glenorchy（格林诺奇）等日落，不熬夜等星空。",
-          "photoTip": "用24–120mm集中拍一两张，21:15收工；不拍午夜星空。",
+          "detail": "可选（不坐缆车的人）：在湖边拍晚光、对面山的余晖和蓝调。按地形推算，湖边太阳约20:40就被西南面Sunshine Bay（阳光湾）一侧的山坡挡住，看不到太阳落到湖里（理论日落21:07，民用暮光到约21:42）。不驾车去Glenorchy（格林诺奇）等日落，不熬夜等星空。",
+          "photoTip": "用24–120mm集中拍一两组，21:30收工；不拍午夜星空。",
           "lat": -45.033,
           "lon": 168.66,
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
@@ -1372,25 +1400,26 @@
           "optional": true
         },
         {
-          "time": "21:30",
-          "endTime": "22:15",
+          "time": "21:45",
+          "endTime": "22:30",
           "placeId": "bluepeaks",
           "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
           "kind": "rest",
-          "detail": "回酒店睡觉，给返程司机保留8小时左右睡眠。",
+          "detail": "坐缆车下山后走约15分钟（约1km）回公寓，只在湖边拍的人21:30往回走；洗澡睡觉，给明天还车和赶飞机的司机保留8小时左右睡眠。",
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": [
             "i-driver-rest"
           ]
         }
       ],
       "shortTitle": "格林诺奇",
-      "lightNote": "11:00–13:00在Glenorchy（格林诺奇）是高角度顶光，湖湾倒影要看风。可选：上午休息，约15:30出发，16:15–19:30拍侧光下的Mt Earnslaw（厄恩斯劳山）和湖面，19:30离开、约20:20日落前回镇，并删掉21:07镇区那一项；此时Humboldt（洪堡山脉）一侧是逆光，傍晚风大倒影可能拍不到。",
+      "lightNote": "11:00–13:00在Glenorchy（格林诺奇）是高角度顶光，湖湾倒影要看风。可选：上午休息，约15:30出发，16:15–19:30拍侧光下的Mt Earnslaw（厄恩斯劳山）和湖面，19:30离开、约20:20回皇后镇；此时Humboldt（洪堡山脉）一侧是逆光，傍晚风大倒影可能拍不到。这个下午方案和傍晚的天空缆车二选一：回镇后还想上山，要在21:00最晚登乘前上去，只能拍余晖和蓝调。 皇后镇四周有山，按地形推算太阳约20:40就落到西南面的山后（理论日落21:07），湖边和Bob's Peak（鲍勃峰）山顶都一样。",
       "sourceIds": [
-        "r-apex-faq"
+        "r-apex-faq",
+        "x-realnz-terms"
       ]
     },
     {
@@ -1415,7 +1444,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": [
             "f-nz231-recheck",
             "f-nz-shorthaul"
@@ -1445,7 +1474,7 @@
           "photoTip": "",
           "lat": -45.03301,
           "lon": 168.66448,
-          "coordinateStatus": "基于OpenStreetMap（开放街图） way 1289569912的物业中心。预订页公寓地址11 Sydney Street（悉尼街）；旅游/前台信息另见8 Coronation Drive（加冕大道），入住前按确认函找前台。",
+          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
           "sourceIds": []
         },
         {
@@ -1639,16 +1668,18 @@
         },
         {
           "time": "12:30",
-          "endTime": "14:40",
+          "endTime": "14:30",
           "place": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店）住宿区域",
           "placeId": "adina",
           "lat": -33.87425933,
           "lon": 151.20520413,
           "kind": "rest",
-          "detail": "午休。下午要走约4–5km，换好走路的鞋，带三脚架、水和薄外套。想上BridgeMuseum（大桥博物馆）就先在网上订16:30的入场时段。",
+          "detail": "午休。下午要走约4–5km，换好走路的鞋，带三脚架、水和薄外套。想上BridgeMuseum（大桥博物馆）就先在网上订16:30的入场时段。公寓北面约100米有在建酒店工地，周五白天可能有施工声，午休戴耳塞。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
-          "sourceIds": []
+          "sourceIds": [
+            "x-florin"
+          ]
         },
         {
           "time": "15:00",
@@ -1658,7 +1689,7 @@
           "lat": -33.856376,
           "lon": 151.21019,
           "kind": "photo",
-          "detail": "14:30从公寓步行约25分钟（约1.9km），或坐火车到Circular Quay（环形码头）再走5分钟，或打车约10分钟到岩石区。在大桥正下方隔水看歌剧院：下午太阳在西边身后，歌剧院是顺光，适合拍近景。 大型邮轮停在Overseas Passenger Terminal（海外客运码头）时会挡住从西侧看歌剧院的视线，出发前看港务局船期表。",
+          "detail": "14:30从公寓步行约25分钟（约1.9km），或坐火车到Circular Quay（环形码头）再走5分钟，或打车约10分钟到岩石区。在大桥正下方隔水看歌剧院：下午太阳在西边身后，歌剧院是顺光，适合拍近景。11/27船期表上没有邮轮停Overseas Passenger Terminal（海外客运码头），从这里看歌剧院不会被挡（船期可能变，出发前再看一眼）。",
           "photoTip": "24–70mm把歌剧院和渡轮放在一起，16mm从桥下仰拍桥身。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": [
@@ -1673,10 +1704,12 @@
           "lat": -33.85888,
           "lon": 151.209279,
           "kind": "walk_photo",
-          "detail": "1816年的砂岩小屋，有资料称是悉尼现存最老的建筑；之后穿后街小巷和老酒吧，拍砂岩老房子、坡道和街头人物。岩石区周末市集周六日才有，今天周五没有。",
+          "detail": "1816年的砂岩小屋，有资料称是悉尼现存最老的建筑；之后穿后街小巷和老酒吧，拍砂岩老房子、坡道和街头人物。岩石区市集周五10:00–15:00、周六日10:00–17:00，今天走到这里时周五的市集已经收摊。",
           "photoTip": "24–120mm街拍，人物避开画面边缘；16mm只用于窄巷。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
-          "sourceIds": []
+          "sourceIds": [
+            "x-rocks-market"
+          ]
         },
         {
           "time": "16:10",
@@ -1699,7 +1732,7 @@
           "lat": -33.8545903,
           "lon": 151.2094667,
           "kind": "photo_optional",
-          "detail": "可选：从Cumberland Street（坎伯兰街）的楼梯或电梯上桥，沿人行道往北走约300m到东南桥塔入口。原来的Pylon Lookout（桥塔观景台）已改为BridgeMuseum（大桥博物馆）：10/25查到11月周日到周四09:00–18:00、17:00停止入场，周五的开放时间出发前在官网核对；参观约1小时；网上订票AUD 39.95（现场AUD 49.95），要选30分钟的入场时段，建议订16:30。塔顶能俯瞰歌剧院和环形码头。不去的人在岩石区多逛或喝咖啡，17:30在天文台山会合。门票不在预算表里，从机动金出。",
+          "detail": "可选：从Cumberland Street（坎伯兰街）的楼梯或电梯上桥，沿人行道往北走约300m到东南桥塔入口。原来的Pylon Lookout（桥塔观景台）已改为BridgeMuseum（大桥博物馆）：官网写2–11月周日到周四09:00–18:00、17:00停止入场，周五周六09:00–18:30、17:30停止入场；参观约1小时；网上订票AUD 39.95（现场AUD 49.95），要选30分钟的入场时段，建议订16:30。塔顶能俯瞰歌剧院和环形码头。不去的人在岩石区多逛或喝咖啡，17:30在天文台山会合。门票不在预算表里，从机动金出。",
           "photoTip": "塔顶有护栏，24–70mm拍歌剧院和环形码头，16mm拍桥身钢结构。",
           "coordinateStatus": "OpenStreetMap（开放街图）的BridgeMuseum（大桥博物馆）位置；入口在大桥人行道上，按现场指示。",
           "sourceIds": [
@@ -1715,7 +1748,7 @@
           "lat": -33.859733,
           "lon": 151.205357,
           "kind": "photo",
-          "detail": "从桥塔下来走几分钟到天文台山。山顶公园免费，是从高处看海港大桥的好机位。天文台楼周四到周六开放，今天周五可以进去看（时间以官网为准）。",
+          "detail": "从桥塔下来走几分钟到天文台山。山顶公园免费，是从高处看海港大桥的好机位。天文台楼周四到周日开放，今天周五可以进去看（时间以官网为准）；正在做文物修缮，部分区域可能进不去。",
           "photoTip": "24–70mm拍大桥全景，70–120mm压缩桥身和北岸。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": [
@@ -1745,7 +1778,7 @@
           "lat": -33.844158,
           "lon": 151.213771,
           "kind": "meal",
-          "detail": "下桥走几分钟到McDougall Street（麦克杜格尔街）看蓝花楹（11月下旬多已近尾声），然后在基里比利就近吃晚饭，19:20前到码头。",
+          "detail": "下桥走几分钟到McDougall Street（麦克杜格尔街）看蓝花楹（11月下旬多已近尾声），然后在基里比利买外带边等边吃，19:10前到码头占位；想坐下来吃，就等20:15蓝调拍完再吃。",
           "photoTip": "",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": []
@@ -1874,11 +1907,12 @@
           "lat": -33.857198,
           "lon": 151.215123,
           "kind": "photo",
-          "detail": "步行约15分钟或打车到歌剧院，拍台阶和贝壳屋顶近景。想进去看，可参加内部导览（约1小时，要提前订）。大型邮轮停在Overseas Passenger Terminal（海外客运码头）时，岩石区和大桥下部的背景会被挡住，出发前看港务局船期表。",
+          "detail": "步行约15分钟或打车到歌剧院，拍台阶和贝壳屋顶近景。想进去看，可参加内部导览（约1小时，要提前订）。今天Carnival Splendor（嘉年华辉煌号）邮轮06:30–15:30停在Overseas Passenger Terminal（海外客运码头），从歌剧院往西看，岩石区和大桥下部会被船挡住：15:30前先在东侧拍帆顶局部，背景是农场湾；约15:30邮轮离港，在Western Broadwalk（西侧海滨步道）或Bennelong Point（便利朗角）拍它驶过，船走了再拍大桥方向（船期可能变，出发前看港务局船期表）。今晚前广场有On The Steps（台阶音乐季）露天演唱会（Australian Crawl（澳洲摇滚乐队），18:00开门）：前广场摆了舞台和座椅，Monumental Steps（纪念台阶）是售票观众区，下午可能围起来或拍进舞台；台阶拍得到就拍，拍不到就以帆顶为主，傍晚开门前人多。",
           "photoTip": "16mm贴近帆壳拍瓷砖纹理和线条，24–120mm挑局部；台阶上别架脚架挡路。",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": [
-            "x-cruise"
+            "x-cruise",
+            "x-soh-crawl"
           ]
         },
         {
@@ -1889,12 +1923,14 @@
           "lat": -33.864,
           "lon": 151.217,
           "kind": "photo",
-          "detail": "从歌剧院走进植物园，沿Farm Cove（农场湾）海边步道走向麦考利夫人座椅。植物园07:00–20:00开放，园内禁止无人机。",
+          "detail": "从歌剧院走进植物园，沿Farm Cove（农场湾）海边步道走向麦考利夫人座椅。植物园07:00–20:00开放，园内禁止无人机。从前广场边的Queen Elizabeth II Gate（伊丽莎白二世女王门）进园；今晚有演唱会，前广场这一带如果围起来了，就沿Macquarie Street（麦考瑞街）走到别的园门。",
           "photoTip": "24–120mm拍植物、树影和帆壳局部；16mm做环境构图。",
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
             "i-garden-hours",
-            "i-garden-drone"
+            "i-garden-drone",
+            "x-rbg-gate-j",
+            "x-soh-crawl"
           ]
         },
         {
@@ -1952,10 +1988,10 @@
       "area": "悉尼→Blue Mountains（蓝山）→悉尼",
       "timezone": "澳东夏令时 UTC（协调世界时）+11",
       "hotelId": "adina",
-      "summary": "可选的整日郊游：坐火车约2小时到Katoomba（卡通巴），看Three Sisters（三姐妹峰）和山谷，下午回悉尼收拾行李。天气不好或太累就留在市区。",
-      "drive": "火车＋步行；不租车",
+      "summary": "可选的整日郊游：去Katoomba（卡通巴）看Three Sisters（三姐妹峰）和山谷，下午回悉尼收拾行李。注意：Transport NSW（新州交通）通告11/28–29蓝山线施工，Blacktown（黑镇）以西全部改巴士，今天Central Station（中央车站）到Katoomba没有火车。还按今天去，就坐T1 Western Line（T1西线火车）到Blacktown换替代巴士，单程估计2.5小时以上（推断，官方没写）；或者和11/27（周五，照常有火车）对调。11/20前由你定（见待办），定了再改行程。天气不好或太累就留在市区。",
+      "drive": "火车＋替代巴士＋步行（11/29蓝山线停运）；不租车",
       "photoGoal": "Three Sisters（三姐妹峰）、山谷雾气和远山层次。",
-      "weatherPlan": "山区下雨或大雾（蓝山常见）就不去，改在市里：岩石区周末市集（周六日）、新南威尔士美术馆（免费）、QVB（维多利亚女王大厦）。火车维修停运时替代巴士要多算时间，不值得就放弃。",
+      "weatherPlan": "山区下雨或大雾（蓝山常见）就不去，改在市里：岩石区市集（周六日10:00–17:00）、新南威尔士美术馆（免费）、QVB（维多利亚女王大厦）。11/28–29蓝山线已公布停运，Blacktown（黑镇）以西改巴士，单程估计2.5小时以上（推断），觉得不值得就不去。也可以回歌剧院补拍台阶：今天没有邮轮停海外客运码头；台阶音乐季演到12/12，舞台可能还搭着（推断）。",
       "lightNote": "悉尼11/29日落约19:49；蓝山上午侧逆光，午后山谷容易起雾。今晚早睡赶早班机。",
       "events": [
         {
@@ -1966,7 +2002,7 @@
           "lat": -33.87425933,
           "lon": 151.20520413,
           "kind": "meal",
-          "detail": "早餐，带水、防晒和薄外套（山上比市区凉）。",
+          "detail": "早餐，带水、防晒和薄外套（山上比市区凉）。坐替代巴士去的话，06:15吃早餐、06:50出门。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
           "sourceIds": []
@@ -1979,11 +2015,12 @@
           "lat": -33.8832,
           "lon": 151.2063,
           "kind": "transfer",
-          "detail": "在Town Hall（市政厅）站坐火车一站到Central Station（中央车站），换Blue Mountains Line（蓝山线）城际列车；刷Opal（悉尼公交卡）或Visa/Mastercard（维萨/万事达卡）非接触卡。约每小时一班，出发前用Transport NSW（新州交通） App（手机应用）查时刻和维修停运。",
+          "detail": "在Town Hall（市政厅）站坐火车一站到Central Station（中央车站），换Blue Mountains Line（蓝山线）城际列车；刷Opal（悉尼公交卡）或Visa/Mastercard（维萨/万事达卡）非接触卡。注意：11/28–29蓝山线施工停运，今天没有去Katoomba（卡通巴）的火车。还按今天去，就从中央车站坐T1 Western Line（T1西线火车）到Blacktown（黑镇），换替代巴士去Katoomba，单程估计2.5小时以上，07:00前出门；车次前一晚在Transport NSW（新州交通） App（手机应用）或官网的Trip Planner（行程规划）查。这里的07:45和下面08:15、14:45几段，以及Scenic World（景观世界）那条说的14:45的车，都是按平时的火车写的；11/27（周五）中央车站到Katoomba照常有火车，部分班次改时刻。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
-            "x-bluemountains"
+            "x-bluemountains",
+            "x-bm-trackwork"
           ]
         },
         {
@@ -1994,11 +2031,12 @@
           "lat": -33.7128,
           "lon": 150.3116,
           "kind": "transfer",
-          "detail": "火车约2小时到Katoomba（卡通巴），路上补觉。",
+          "detail": "平时火车约2小时到Katoomba（卡通巴），路上补觉。11/29没有这段火车：要坐T1 Western Line（T1西线火车）到Blacktown（黑镇）再换替代巴士，单程估计2.5小时以上，后面的安排都往后推。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
-            "x-bluemountains"
+            "x-bluemountains",
+            "x-bm-trackwork"
           ]
         },
         {
@@ -2035,10 +2073,13 @@
           "lat": -33.7285,
           "lon": 150.3015,
           "kind": "photo_optional",
-          "detail": "可选：Scenic World（景观世界）的缆车和很陡的观光铁道是付费项目（门票不在预算里，从机动金出）；不去就在镇上逛逛、喝咖啡。",
+          "detail": "可选：Scenic World（景观世界）的缆车和很陡的观光铁道是付费项目（门票不在预算里，从机动金出）；官网写周末09:00–17:00、平日10:00–16:00。它离Katoomba（卡通巴）车站约3km（坐686路公交或打车），14:30才离开赶不上14:45的车，想坐这班就早点走。不去就在镇上逛逛、喝咖啡。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
-          "sourceIds": []
+          "sourceIds": [
+            "x-scenicworld",
+            "x-scenicworld-getting"
+          ]
         },
         {
           "time": "14:45",
@@ -2048,11 +2089,12 @@
           "lat": -33.7128,
           "lon": 150.3116,
           "kind": "transfer",
-          "detail": "坐火车回悉尼，约2小时。",
+          "detail": "坐火车回悉尼，平时约2小时；11/29要先坐替代巴士到Blacktown（黑镇），再换T1 Western Line（T1西线火车）回市区，估计2.5小时以上。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
-            "x-bluemountains"
+            "x-bluemountains",
+            "x-bm-trackwork"
           ]
         },
         {
@@ -2113,7 +2155,7 @@
       "drive": "机场大车＋国际航班；不租车",
       "photoGoal": "回程日不安排拍摄。",
       "weatherPlan": "航班延误按航司通知；回程没有后续衔接。悉尼机场有安检罢工时提前30分钟出门（05:00上车）。",
-      "lightNote": "清晨出发，前一晚收好电池和存储卡。",
+      "lightNote": "清晨出发，前一晚收好电池和存储卡；备用电池和充电宝放随身包，不放托运箱。",
       "events": [
         {
           "time": "05:00",
@@ -2123,7 +2165,7 @@
           "lat": -33.87425933,
           "lon": 151.20520413,
           "kind": "packing",
-          "detail": "起床、退房，在24小时前台还房卡。",
+          "detail": "起床；三人一起走就退房，有同学晚走就只在24小时前台还你那张房卡，他们11:00前退房。",
           "photoTip": "",
           "coordinateStatus": "Booking（缤客订房网）物业地图点（Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口）；24小时前台",
           "sourceIds": []
@@ -2186,10 +2228,13 @@
           "lat": 31.144,
           "lon": 121.808,
           "kind": "arrival",
-          "detail": "入境、取行李、过海关后回家。",
+          "detail": "入境、取行李、过海关后回家。在澳新买的东西合计超过¥5,000要走红色通道申报，超出的部分交税（不能拆分的单件按全价）；出境时登记过的相机镜头凭登记记录免税放行，不算进这¥5,000。没登记的，备好国内购买发票或订单截图。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
-          "sourceIds": []
+          "sourceIds": [
+            "x-customs-taxfree",
+            "x-customs-276"
+          ]
         }
       ]
     }
@@ -2200,10 +2245,12 @@
       "name": "Dorsett Melbourne（墨尔本帝盛酒店）",
       "lat": -37.813695,
       "lon": 144.953512,
-      "address": "615 Little Lonsdale Street, Melbourne（墨尔本） VIC 3000",
+      "address": "615 Little Lonsdale Street（小朗斯代尔街）, Melbourne（墨尔本） VIC（维多利亚州） 3000",
       "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=105596586&checkIn=2026-11-18&checkOut=2026-11-19&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
-        "c-dorsett"
+        "c-dorsett",
+        "x-dorsett-policy",
+        "x-dorsett-rooms"
       ],
       "coordinateNote": "Booking物业地图点；按入住指示导航。",
       "checkin": "2026-11-18",
@@ -2211,7 +2258,7 @@
       "nights": 1,
       "beds": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡",
       "price": "三人1晚¥2,257（携程探索房，在线付含税；Booking（缤客订房网）同房可退价NZ$662≈¥2,493）；你自己安排的，实际订的平台和金额以你的订单为准",
-      "cancel": "携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点）。以你的订单为准。",
+      "cancel": "携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点），但也只有2张床，官网同类的Deluxe Twin with Balcony（带阳台豪华双床房）写最多2位成人，解决不了第三人的床。入住时酒店另收AUD200押金（信用卡、借记卡都行，用信用卡），退房当天退回原卡。以你的订单为准。",
       "nativeTotal": 2257,
       "currency": "CNY",
       "priceStatus": "携程11/2实时页：探索房可退价¥2,257；你自己安排，金额待确认",
@@ -2222,8 +2269,12 @@
       "perNightCNY": 2257.0,
       "aboveOriginalNightlyCap": false,
       "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
-      "refundableDeposit": null,
-      "bedConfirmation": "三人房只有2张双人床，有两人要合睡；需要第三张床就问酒店能否加床。",
+      "refundableDeposit": {
+        "currency": "AUD",
+        "amount": 200,
+        "note": "Fixed deposit at check-in by credit or debit card; returned to the original payment account on the day of check-out (Trip.com policy); not consumption"
+      },
+      "bedConfirmation": "三人房只有2张双人床，有两人要合睡；不想两人合睡，就请会英语的朋友问酒店：3位成人能不能住这间（官网写这间住2位成人加2位小客人），房里的沙发床能不能给第三人铺好或另加床、收不收钱。英文询问稿里有这段。",
       "reviews": "Booking（缤客订房网） 8.7（7,011条）、清洁9.1、位置9.1"
     },
     {
@@ -2231,10 +2282,13 @@
       "name": "Spacious 2BR, 2Bath Home Base on Gloucester Street（格洛斯特街宽敞两卧两卫公寓）",
       "lat": -43.5297182,
       "lon": 172.6450892,
-      "address": "Gloucester Street（格洛斯特街）, Christchurch（基督城） Central 8011（Booking（缤客订房网）只写到邮编，门牌订后发）",
+      "address": "Gloucester Street（格洛斯特街）, Christchurch Central（基督城市中心） 8011（Booking（缤客订房网）只写到邮编，门牌订后发）",
       "sourceUrl": "https://www.booking.com/hotel/nz/spacious-2br-2bath-home-base-on-gloucester-street.zh-cn.html?checkin=2026-11-19&checkout=2026-11-20&group_adults=3&group_children=0&no_rooms=1",
       "sourceIds": [
-        "b-gloucester"
+        "b-gloucester",
+        "x-gloucester-airbnb",
+        "x-gloucester-bookabach",
+        "x-booking-cancel-time"
       ],
       "coordinateNote": "Booking物业地图点；门牌和门锁密码房东在到达前发。",
       "checkin": "2026-11-19",
@@ -2242,7 +2296,7 @@
       "nights": 1,
       "beds": "两卧两卫公寓85㎡：卧室1一张大号双人床、卧室2两张单人床，两个浴室，有厨房、洗衣机、空调",
       "price": "三人1晚NZ$412≈¥1,552（房费NZ$282＋税费NZ$130，Booking（缤客订房网）按纽币显示）；携程没有这套",
-      "cancel": "11/14前免费取消，11/12前不付款。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。Booking（缤客订房网）没写停车，订后问房东车停哪里。",
+      "cancel": "新西兰时间11/13 23:59前免费取消（北京时间11/13 18:59）：Booking（缤客订房网）写的“11/14前”按住宿当地时间算，北京时间11/13晚上7点以后再取消就晚了。新西兰时间11/12才扣款。精确时刻以Booking确认函为准。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。没有专用车位：爱彼迎上同一房源写明只能路边停车，Bookabach（新西兰度假屋网）也写不提供停车；路边按路牌停，找不到就停附近收费停车楼。三层联排、只能走楼梯：一楼客厅厨房，二楼一间卧室和浴室，三楼主卧和浴室。爱彼迎上房东要求订后用第三方软件做身份验证，并交可退押金或小额损坏险费；Booking这边要不要，看订后房东的消息，有要求就在出发前办完，才能拿到门牌和门锁密码。",
       "nativeTotal": 412,
       "currency": "NZD",
       "priceStatus": "Booking（缤客订房网） 11/2实时页：两卧两卫可退价NZ$412（含税费）",
@@ -2262,7 +2316,7 @@
       "name": "Alpine Nook（山间小居度假屋）",
       "lat": -44.0108973,
       "lon": 170.4874962,
-      "address": "12 O'Neill Place, Lake Tekapo（特卡波湖） 7999（离镇中心约1.1km）",
+      "address": "12 O'Neill Place（奥尼尔巷）, Lake Tekapo（特卡波湖） 7999（离镇中心约1.1km）",
       "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-22&adult=3&children=0&crn=1&curr=CNY",
       "sourceIds": [
         "c-alpinenook"
@@ -2305,7 +2359,7 @@
       "checkout": "2026-11-23",
       "nights": 1,
       "beds": "整套单层独栋，最多6人：三间卧室各1张约1.8米大床（房源介绍写其中一张2米），两个卫生间，有厨房、室内壁炉、露台",
-      "price": "三人1晚¥2,640（爱彼迎人民币总价，含全部费用）；Booking（缤客订房网）同房约NZ$700≈¥2,638，要按纽币付，加约1%外币卡费后不比爱彼迎便宜，而且所选日期显示过暂无空房",
+      "price": "三人1晚¥2,640（爱彼迎人民币总价，含全部费用）；Booking（缤客订房网）同房约NZ$700≈¥2,638，要按纽币付，加约1.5%外币卡费（约¥40）后约¥2,677，比爱彼迎还贵，而且所选日期显示过暂无空房",
       "cancel": "新西兰时间11/21前免费取消，之后不退款。爱彼迎“先订后付”要入住前14天以上（11/8前）下单才有：¥2,640按下单页写的日期自动扣，扣款前3天发邮件；建议出发前（11/17前）在爱彼迎“付款”里手动付清，免得人在新西兰时扣款失败、订单被取消。15:00–24:00智能门锁自助入住，10:00前退房；房源写入住要出示身份证件，自助入住怎么核验按订后爱彼迎或房东的说明；有免费车位。房源页写没配烟雾和一氧化碳报警器，屋里有壁炉，不生火。",
       "nativeTotal": 2640,
       "currency": "CNY",
@@ -2361,15 +2415,17 @@
       "address": "511 Kent Street（肯特街，Kent St（肯特街）与Bathurst St（巴瑟斯特街）路口），悉尼市中心；Town Hall（市政厅）站步行约4分钟，Wynyard（温亚德）站约15分钟，环形码头和岩石区约25分钟",
       "sourceUrl": "https://www.booking.com/hotel/au/adina-sydney.zh-cn.html?checkin=2026-11-26&checkout=2026-11-30&group_adults=3&group_children=0&no_rooms=1",
       "sourceIds": [
-        "b-adina"
+        "b-adina",
+        "x-florin",
+        "x-booking-cancel-time"
       ],
       "coordinateNote": "Booking物业地图点（Kent St与Bathurst St路口）；24小时前台",
       "checkin": "2026-11-26",
       "checkout": "2026-11-30",
       "nights": 4,
-      "beds": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大床（queen），有厨房、洗衣烘干机和阳台",
+      "beds": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大号双人床，有厨房、洗衣烘干机和阳台",
       "price": "三人4晚可退价NZ$4,050≈¥15,253（Booking（缤客订房网）按纽币显示，实际按澳元结算）",
-      "cancel": "11/25前免费取消，11/23前不付款。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。",
+      "cancel": "悉尼时间11/24 23:59前免费取消（新西兰时间11/25 01:59，北京时间11/24 20:59）：Booking（缤客订房网）写的“11/25前”按住宿当地时间算。悉尼时间11/23才扣款。精确时刻以Booking确认函为准。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。北面约100米、同一条Kent Street（肯特街）的499号在建20层的Hotel Florin（弗洛林酒店，2025年11月开工），工作日白天可能有施工声：订时备注要高楼层、远离北侧的房间，白天午休戴耳塞。",
       "nativeTotal": 4050,
       "currency": "NZD",
       "priceStatus": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套；携程同房¥15,564且床型随机，所以用Booking",
@@ -2385,7 +2441,7 @@
         "amount": 200,
         "note": "Credit-card pre-authorisation at check-in for two-bedroom apartments; released 5-10 days after departure; card and ID in the booking name; not consumption"
       },
-      "bedConfirmation": "房型列足够实体床；新日期未锁房，订时备注三位成人、第二间两张单人床。",
+      "bedConfirmation": "房型列足够实体床；新日期未锁房，订时备注三位成人，按房型保留卧室1两张单人床、卧室2一张大床。",
       "reviews": "Booking（缤客订房网） 9.3（1,141条）、清洁9.6"
     }
   ],
@@ -2429,7 +2485,7 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "alt": "从基里比利Jeffrey Street（杰弗里街）码头望向歌剧院、悉尼城市天际线和海港大桥，晴天下午。",
-      "seasonNote": "2023年2月25日16:34（EXIF（照片拍摄参数）），澳洲夏末晴天下午，不是日落。11/17傍晚太阳落在大桥背后，现场是大桥剪影和晚霞，色调和这张不同。",
+      "seasonNote": "2023年2月25日16:34（EXIF（照片拍摄参数）），澳洲夏末晴天下午，不是日落。11/27傍晚太阳落在大桥背后，现场是大桥剪影和晚霞，色调和这张不同。",
       "shootingTip": "24–35mm把码头亭子、歌剧院和大桥放进一张；70–120mm压缩歌剧院和天际线。日落后上脚架拍蓝调，傍晚人多，别占码头通道。",
       "hero": false,
       "dateTaken": "2023-02-25 16:34:34",
@@ -2478,7 +2534,7 @@
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "alt": "邦迪Icebergs（冰山泳池）泳池边缘、蓝绿色海水和拍岸浪，竖幅。",
-      "seasonNote": "2017年1月16日（EXIF（照片拍摄参数）），澳洲夏季；Unsplash（免费图库网站）发布于2017-03-26。海浪、泳池开放和水色随当天条件变化。11/18上午主行程。",
+      "seasonNote": "2017年1月16日（EXIF（照片拍摄参数）），澳洲夏季；Unsplash（免费图库网站）发布于2017-03-26。海浪、泳池开放和水色随当天条件变化。11/28上午主行程。",
       "shootingTip": "在上方公共步道用50–120mm挑泳池几何与浪花，24mm拍海滩全景。参考中的池边位置不是站位建议，不跨栏、不靠近拍岸浪。",
       "day": 12,
       "hero": false,
@@ -2603,7 +2659,7 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "alt": "从皇后镇缆车上方区域俯瞰城镇、湖湾与远山的宽幅全景。",
-      "seasonNote": "2009年12月22日，初夏；照片较早，城市和缆车设施已变化，适合参考湖山格局。 本图是缆车上站视角；与Glenorchy（格林诺奇）日游二选一替换，不能在湖畔复刻此高度。 主方案保留Glenorchy与峡湾，不含Skyline（天空缆车）；本图只作可替换视角参考。",
+      "seasonNote": "2009年12月22日，初夏；照片较早，城市和缆车设施已变化，适合参考湖山格局。 本图是缆车上站视角，湖边拍不到这个高度；11/25上午去Glenorchy（格林诺奇），傍晚可选自费坐Skyline（天空缆车）上去拍（见当天行程）。山顶旧主楼已拆，2026–2028年分段重建，取景以现场开放的区域为准。",
       "shootingTip": "24–35mm拍湖湾与城镇；70–120mm挑半岛、船只和山层。长横幅可用35–50mm拼接；平台使用三脚架时留出通行空间。",
       "day": 9,
       "hero": false,
@@ -2702,6 +2758,25 @@
       "note": "傍晚20:12–20:42（民用曙暮光宽窗口）；理论地平线时刻，建筑会提前遮光。"
     },
     {
+      "place": "Christchurch（基督城）",
+      "date": "2026-11-19",
+      "sunrise": "05:51",
+      "sunset": "20:38",
+      "blueHour": "清晨05:18–05:51；傍晚20:38–21:11（民用曙暮光参考窗）",
+      "civilDawn": "05:18",
+      "civilDusk": "21:11",
+      "astronomicalDawn": "03:47",
+      "astronomicalDusk": "22:43",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "w-sunChristchurch"
+      ],
+      "area": "墨尔本→基督城",
+      "note": "傍晚20:38–21:11（民用曙暮光参考窗）；早上还在墨尔本，日出只作参考。理论地平线时刻，建筑和河边的树会提前遮光。"
+    },
+    {
       "place": "Lake Tekapo（特卡波湖）",
       "date": "2026-11-20",
       "sunrise": "05:57",
@@ -2759,6 +2834,25 @@
       "note": "清晨05:24–05:59；晚上21:00–21:34（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
+      "place": "Wānaka（瓦纳卡）",
+      "date": "2026-11-23",
+      "sunrise": "05:58",
+      "sunset": "21:01",
+      "blueHour": "清晨05:23–05:58；晚上21:01–21:36（民用曙暮光参考窗）",
+      "civilDawn": "05:23",
+      "civilDusk": "21:36",
+      "astronomicalDawn": "03:46",
+      "astronomicalDusk": "23:14",
+      "timezone": "Pacific/Auckland",
+      "tzLabel": "NZDT UTC+13",
+      "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "sourceIds": [
+        "route-wanaka-sun"
+      ],
+      "area": "Wānaka（瓦纳卡）→Queenstown（皇后镇）",
+      "note": "清晨05:23–05:58是瓦纳卡的时刻（孤独树的可选日出）；傍晚已到皇后镇，那里日落约21:04。理论地平线时刻，山体会提前遮光。"
+    },
+    {
       "place": "Queenstown（皇后镇）",
       "date": "2026-11-23",
       "sunrise": "05:59",
@@ -2776,25 +2870,6 @@
       ],
       "area": "Wānaka（瓦纳卡）→Queenstown（皇后镇）",
       "note": "清晨05:24–05:59；傍晚21:04–21:39（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
-    },
-    {
-      "place": "Wānaka（瓦纳卡）",
-      "date": "2026-11-23",
-      "sunrise": "05:58",
-      "sunset": "21:01",
-      "blueHour": "清晨05:23–05:58；晚上21:01–21:36（民用曙暮光参考窗）",
-      "civilDawn": "05:23",
-      "civilDusk": "21:36",
-      "astronomicalDawn": "03:46",
-      "astronomicalDusk": "23:14",
-      "timezone": "Pacific/Auckland",
-      "tzLabel": "NZDT UTC+13",
-      "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
-      "sourceIds": [
-        "route-wanaka-sun"
-      ],
-      "area": "Wānaka（瓦纳卡）→Queenstown（皇后镇）",
-      "note": "清晨05:23–05:58；晚上21:01–21:36（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
       "place": "Queenstown（皇后镇）",
@@ -2920,13 +2995,21 @@
   "weather": {
     "highlight": {
       "title": "这次追月光与蓝调，\n不熬夜等银河。",
-      "body": "特卡波改住11/20、21，仍是明亮的盈凸月阶段。11/21、22凌晨分别仅约17分钟及0分钟月落后全黑窗口；考虑睡眠和次日驾驶，不安排熬夜追银河。11/20、21日落约20:49、20:51，拍湖山晚光、教堂外观与短时间蓝调更合适。",
+      "body": "特卡波住11/20、21两晚，仍是明亮的盈凸月阶段。11/21、22凌晨分别仅约17分钟及0分钟月落后全黑窗口；考虑睡眠和次日驾驶，不安排熬夜追银河。11/20、21日落约20:49、20:51，拍湖山晚光、教堂外观与短时间蓝调更合适。",
       "sourceIds": [
         "w-moonTekapo",
         "w-sunTekapo"
       ]
     },
     "cards": [
+      {
+        "title": "墨尔本11月：白天温和，傍晚海边凉",
+        "body": "BOM（澳大利亚气象局）墨尔本市区老站1855–2014年的长期平均：11月日最高22.0°C、日最低11.3°C，月雨量60.3mm，平均约8天有雨；市区新站2013–2026年是日最高22.2°C、日最低12.7°C。这是常年平均，不是11/18当天的预报。傍晚在St Kilda（圣基尔达）栈桥要待一个多小时，日落后气温往下走，海边风大时更冷，带防风外套；出发前几天看BOM预报。",
+        "sourceIds": [
+          "w-bomMelbourne",
+          "w-bomMelbourneOP"
+        ]
+      },
       {
         "title": "悉尼11月：温和偏暖，仍可能下雨",
         "body": "BOM（澳大利亚气象局） Sydney Airport（悉尼机场）长期平均11月日最高24.3°C、日最低15.6°C，月雨量80.7mm。用约16–24°C理解常年日夜平均水平；这不是当天温度上下限，也不是海港机位保证。早晚海风可冷，准备薄防风防雨层。",
@@ -3019,10 +3102,11 @@
       },
       {
         "title": "库克山一天留足时间，按正式停车区停车",
-        "body": "DOC（新西兰保护部）列Tekapo（特卡波）至White Horse Hill（白马山营地）约1.5小时单程。往返开车已约3小时，配长步道就是一天。White Horse Hill收费NZD2.50/半小时或25/日，超过20分钟需抵达时付费，只收卡。NZTA（新西兰交通局）已改进SH80（80号国道） Peter’s Lookout（彼得观景点）、Acland Lagoon（阿克兰潟湖）等停车区；只在合法停车位停，不站公路中线拍引导线。",
+        "body": "Tekapo（特卡波）到White Horse Hill（白马山营地）单程约1小时15–30分（DOC（新西兰保护部）按约1.5小时算），往返开车约2.5–3小时，配长步道就是一天。11–3月10:00–16:00停车场车位可能不够（DOC），周末更挤。White Horse Hill收费NZD2.50/半小时或25/日，超过20分钟需抵达时付费，只收卡。NZTA（新西兰交通局）已改进SH80（80号国道） Peter’s Lookout（彼得观景点）、Acland Lagoon（阿克兰潟湖）等停车区；只在合法停车位停，不站公路中线拍引导线。",
         "sourceIds": [
           "w-docHooker",
-          "w-nztaRest"
+          "w-nztaRest",
+          "x-doc-aoraki-visit"
         ]
       }
     ]
@@ -3030,7 +3114,7 @@
   "before": [
     {
       "title": "01 / 会合：11/18在墨尔本住处会合",
-      "body": "你坐吉祥HO1655（吉祥航空），11/18墨尔本当地07:00到，坐SkyBus（墨尔本机场快线）进城后先把行李放到住处。墨尔本同学在本地，直接来住处；东京同学自己订东京→墨尔本的航班，最好11/18白天到，出关后自己坐SkyBus或打车到住处。三人一起坐11/19 09:10的QF167（澳洲航空）去基督城，11/26一起坐NZ231（新西兰航空）回悉尼。QF167和NZ231三人都要买，最好同一天出票；NZ231也是在墨尔本值机时要查的“离开新西兰机票”。旅行结束后，你11/30坐HO1670（吉祥航空）回上海；东京同学自己订悉尼→东京，墨尔本同学自己订悉尼→墨尔本。朋友的机票和保险自理。提前把墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式和你的电话发给两位同学。",
+      "body": "你坐吉祥HO1655（吉祥航空），11/18墨尔本当地07:00到，坐SkyBus（墨尔本机场快线）进城后先把行李放到住处。墨尔本同学在本地，直接来住处；东京同学自己订东京→墨尔本的航班，最好11/18白天到，出关后自己坐SkyBus或打车到住处。三人一起坐11/19 09:10的QF167（澳洲航空）去基督城，11/26一起坐NZ231（新西兰航空）回悉尼。QF167和NZ231三人都要买，最好同一天出票；NZ231也是在墨尔本值机时要查的“离开新西兰机票”。旅行结束后，你11/30坐HO1670（吉祥航空）回上海；东京同学自己订悉尼→东京，墨尔本同学自己订悉尼→墨尔本。两位同学：住宿、租车、油费、停车三人均分，加上自己的米尔福德大巴＋游船，每人约¥15,945–16,171；机票、保险、NZeTA（新西兰电子旅行授权）、吃饭和市内交通各自付（首页的预算是你从上海出发的总数）。提前把墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式和你的电话发给两位同学。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3041,7 +3125,7 @@
     },
     {
       "title": "02 / 签证齐全，再买不可退住宿",
-      "body": "本页按东京同伴澳签按时获批来排程，签证尚未下来。建议以11/7为决策日：届时仍未下签，就启动两人方案或先取消可免费退的项目；东京同学下签当天就用App（手机应用）申请NZeTA（新西兰电子旅行授权）；你和墨尔本同学不用等，QF167（澳洲航空）和NZ231（新西兰航空）出票后就申请（墨尔本同学先在VEVO（澳洲签证在线查询）确认签证在INZ（新西兰移民局）名单里）。中国护照持澳签须先实际入境澳洲、再从澳洲机场直飞新西兰（只在澳洲机场内转机不算）；这次三人都在墨尔本正式入境、住一晚，再单独买票飞基督城，符合条件。NZeTA至少提前72小时申请（非保证时限），App17＋IVL（国际游客环保与旅游税）100＝NZ117。QF167在墨尔本值机时会查NZeTA和已付款的离开新西兰机票（NZ231），护照有效期至少到2027-02-26，可能要求资金证明（每月NZ$1,000，已付住宿时NZ$400），带近期银行或信用卡流水。NZTD（新西兰旅客申报）免费，起飞前24小时内（11/18 09:10墨尔本时间后）每人各自提交，所有食品、徒步鞋和脚架都申报，拿不准就申报；墨尔本买的新鲜水果登机前吃完；新西兰漏报即罚NZ$400起（高风险物品拟提高到NZ$800）。INZ在2026年10月更新：这条NZeTA通道“继续适用，直到另行通知”；首个12个月试行期11/3结束，出QF167和NZ231前（11/4–6）和申请NZeTA前都再看一次INZ这一页。三人最晚11/15申请完NZeTA：QF167起飞前72小时是11/16墨尔本09:10（北京06:10），再晚就不满72小时。 按澳洲移民局近期全球处理时间，10/14递交的旅游签证约一半在11/4前、约3/4在11/9前出结果，11/7前下签可能但不保证。墨尔本同学先在VEVO查自己现在生效的澳签：过桥签证不在INZ名单里，不能走这条NZeTA通道；而且只有过桥签证B（020）能在批准的出境期限内出去再回来，持过桥签证A、C、E一出境就失效、回不了澳洲，详见待办。11/18墨尔本、11/26悉尼要入境澳洲两次：三人都在VEVO或批准信核对，Entries（入境次数）是Multiple（多次），Must not arrive after（最晚入境日）和有效期都晚于11/26，停留期覆盖到离开澳洲那天；单次入境的人离开澳洲后要另办签证才能回来。你在订吉祥多程票前核一遍，东京同学核对完再出QF167和NZ231。把批准信或VEVO截图存在手机里（不联网也能看），墨尔本值机和11/26悉尼入境时备查。",
+      "body": "本页按东京同伴澳签按时获批来排程，签证尚未下来。建议以11/7为决策日：届时仍未下签，就启动两人方案（见待办“东京同学澳签决策日”）或先取消可免费退的项目；东京同学下签当天就用App（手机应用）申请NZeTA（新西兰电子旅行授权）；你和墨尔本同学不用等，QF167（澳洲航空）和NZ231（新西兰航空）出票后就申请（墨尔本同学先在VEVO（澳洲签证在线查询）确认签证在INZ（新西兰移民局）名单里）。中国护照持澳签须先实际入境澳洲、再从澳洲机场直飞新西兰（只在澳洲机场内转机不算）；这次三人都在墨尔本正式入境、住一晚，再单独买票飞基督城，符合条件。NZeTA至少提前72小时申请（非保证时限），App17＋IVL（国际游客环保与旅游税）100＝NZ117。QF167在墨尔本值机时会查NZeTA和已付款的离开新西兰机票（NZ231），护照有效期至少到2027-02-26，可能要求资金证明（每月NZ$1,000，已付住宿时NZ$400），带近期银行或信用卡流水。NZTD（新西兰旅客申报）免费，起飞前24小时内（11/18 09:10墨尔本时间后）每人各自提交，所有食品、徒步鞋和脚架都申报，拿不准就申报；墨尔本买的新鲜水果登机前吃完；新西兰漏报即罚NZ$400起（高风险物品拟提高到NZ$800）。INZ在2026年10月更新：这条NZeTA通道“继续适用，直到另行通知”；首个12个月试行期11/3结束，出QF167和NZ231前（11/4–6）和申请NZeTA前都再看一次INZ这一页。三人最晚11/15申请完NZeTA：QF167起飞前72小时是11/16墨尔本09:10（北京06:10），再晚就不满72小时。 按澳洲移民局近期全球处理时间，10/14递交的旅游签证约一半在11/4前、约3/4在11/9前出结果，11/7前下签可能但不保证。墨尔本同学先在VEVO查自己现在生效的澳签：过桥签证不在INZ名单里，不能走这条NZeTA通道；而且只有过桥签证B（020）能在批准的出境期限内出去再回来，持过桥签证A、C、E一出境就失效、回不了澳洲，详见待办。11/18墨尔本、11/26悉尼要入境澳洲两次：三人都在VEVO或批准信核对，Entries（入境次数）是Multiple（多次），Must not arrive after（最晚入境日）和有效期都晚于11/26，停留期覆盖到离开澳洲那天；单次入境的人离开澳洲后要另办签证才能回来。你在订吉祥多程票前核一遍，东京同学核对完再出QF167和NZ231。把批准信或VEVO截图存在手机里（不联网也能看），墨尔本值机和11/26悉尼入境时备查。 想留一个“东京同学澳签来不及、直接从东京飞新西兰”的备选，要另办新西兰访客签证，最好11/3、最晚11/5网上递交（见待办）。",
       "sourceIds": [
         "visa",
         "nzeta",
@@ -3074,7 +3158,7 @@
     },
     {
       "title": "04 / 行李、电池和无人机：按航段装包",
-      "body": "最紧的是澳航和新航这两段。①吉祥HO1655（吉祥航空）/HO1670（吉祥航空）：托运每人2件、每件23kg、三边和≤158cm；手提1件5kg（≤115cm），另可带1件放前座下方的个人物品（可以是相机包）。②澳航QF167（澳洲航空）：托运合计30kg、每件≤158cm；手提和个人物品合计7kg。③新航NZ231（新西兰航空）：最便宜的Seat（仅座位）票价不含托运，要选theworks（标准经济舱票，含1件23kg），或订完在官网每人加1件托运NZ$30（到机场再加每件NZ$115）；每件≤158cm；手提1件7kg＋1件小随身物品，鼓胀的相机包可能被算作手提。所以在新西兰期间把托运控制在每人1件23kg以内，买东西放到最后在悉尼买，回程用吉祥的第2件额度带回；真超了就提前在航司官网加购行李额，比机场便宜。你们带29/30寸箱，常见款含轮三边和165–173cm，三家都超158cm，可能被收超尺寸费（新航从新西兰飞澳洲超重或超尺寸每件NZ$80，吉祥和澳航的待查）；换成三边和≤158cm的箱子（如Samsonite（新秀丽） 75cm级157cm、28寸）最省事。出发前用卷尺量含轮含把手的三边和，不要拉开扩展层（会多约3cm）。备用锂电池和充电宝一律随身、单独防短路，按实际Wh和数量核对每家航司，机上都按不能用充电宝准备。若带Mini 5 Pro（大疆小型无人机），机身要有硬保护，按各航司规则托运或随身，电池随身。",
+      "body": "最紧的是澳航和新航这两段。①吉祥HO1655（吉祥航空）/HO1670（吉祥航空）：托运每人2件、每件23kg、三边和≤158cm；手提1件5kg（≤115cm），另可带1件放前座下方的个人物品（可以是相机包）。②澳航QF167（澳洲航空）：托运合计30kg、每件≤158cm；手提和个人物品合计7kg。③新航NZ231（新西兰航空）：最便宜的Seat（仅座位）票价不含托运，要选theworks（标准经济舱票，含1件23kg），或订完在官网每人加1件托运NZ$30（到机场再加每件NZ$115）；每件≤158cm；手提1件7kg＋1件小随身物品，鼓胀的相机包可能被算作手提。所以在新西兰期间把托运控制在每人1件23kg以内，买东西放到最后在悉尼买，回程用吉祥的第2件额度带回；真超了就提前在航司官网加购行李额，比机场便宜。你们三人都带29/30寸箱，常见款含轮三边和165–173cm，三家都超158cm：吉祥每段每件¥600（悉尼按澳元收），新航NZ231每件NZ$80；澳航QF167没有公布超尺寸收费，自助托运机量出超尺寸会让你重新装箱或付超额行李费，柜台也可以拒收，硬箱本身超尺寸，重新装箱也没用。所以三人最好都在11/10前换成实测三边和≤158cm的箱子（如Samsonite（新秀丽） 75cm级157cm；28寸也要量，有的超）。出发前用卷尺量含轮含把手的三边和，不要拉开扩展层（会多约3cm）。备用锂电池和充电宝一律随身、不能托运，每块单独防短路（贴住电极或分装小袋）。充电宝每人最多2个，每个不超过100Wh（瓦时，新航只收100Wh以内的；100–160Wh的吉祥和澳航要事先批准）；吉祥和澳航机上全程不能用，新航滑行和起降时不能用；澳航和新航要放在座位口袋或前座下方，不放头顶行李架，也不能用座位电源给它充电。坐吉祥的充电宝要有清晰的3C（中国强制性产品认证）标志（吉祥2026年2月乘机提示），被召回的批次不能带。备用电池：澳航和新航每人最多20块（含充电宝）；携程上附的吉祥规定写每人限带2块，你带3块以上相机或无人机电池，出发前打吉祥95520问清。若带Mini 5 Pro（大疆小型无人机），机身要有硬保护，按各航司规则托运或随身，电池随身。",
       "sourceIds": [
         "f-ho-multi",
         "x-ho-bags",
@@ -3082,12 +3166,21 @@
         "f-nz231",
         "f-nz-bags",
         "x-nz-excess",
-        "f-nz-shorthaul"
+        "f-nz-shorthaul",
+        "x-qf-bags",
+        "x-qf-bagdrop",
+        "x-qf-coc",
+        "x-ho-powerbank",
+        "x-ho-spare",
+        "x-cctv-powerbank",
+        "x-caac-3c",
+        "x-qf-batteries",
+        "x-airnz-batteries"
       ]
     },
     {
       "title": "05 / 租车、徒步与睡眠",
-      "body": "墨尔本和悉尼以步行、公共交通和打车为主，三人带箱子时叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）；新西兰两位驾驶人都写进租赁合同。中国大陆驾照带原件＋NZTA（新西兰交通局）认可英文翻译，日本驾照带原件＋日本正式IDP（国际驾照）。按旅行时25岁及24岁核查，主驾带本人实体信用卡。三只29/30寸箱按含轮外尺寸核对，取车先试装、固定背包并验车拍照。每约2小时休息，不为补拍赶夜路；鞋底和脚架清泥并如实申报。 出发前下载南岛（基督城–Mackenzie（麦肯齐）–瓦纳卡–皇后镇）离线地图，离线收藏新西兰4家住宿和两家APEX（新西兰租车公司）门店；Lindis Pass（林迪斯山口）、Tasman Valley（塔斯曼谷）等山区没有信号，进山前先设好导航。紧急电话：新西兰111，澳洲000。",
+      "body": "墨尔本和悉尼以步行、公共交通和打车为主，三人带箱子时叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）；新西兰两位驾驶人都写进租赁合同。中国大陆驾照带原件＋NZTA（新西兰交通局）认可英文翻译，日本驾照带原件＋日本正式IDP（国际驾照）。按旅行时25岁及24岁核查，主驾带本人实体信用卡。三只29/30寸箱按含轮外尺寸核对，取车先试装、固定背包并验车拍照。每约2小时休息，不为补拍赶夜路；鞋底和脚架清泥并如实申报。 出发前下载南岛（基督城–Mackenzie（麦肯齐）–瓦纳卡–皇后镇）离线地图，离线收藏新西兰4家住宿和两家APEX（新西兰租车公司）门店；Lindis Pass（林迪斯山口）、Tasman Valley（塔斯曼谷）等山区没有信号，进山前先设好导航。紧急电话：新西兰111，澳洲000；证件丢了看“11 / 证件丢了怎么办”。这个网站没网也打不开：出发前存一份PDF（便携文档），每天出门前把当天行程截图（见待办）。",
       "sourceIds": [
         "nzta-license",
         "i-driver-rest",
@@ -3097,14 +3190,14 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十四天控制版精算¥34,684.92–38,375.75/人，已含¥1,000机动金；按上限超出¥30,000约¥8,375.75（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,182，不能承诺不超。上限已保守计入1.5%外币交易费（约¥233）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 下单前最要紧的几件事",
-      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签、确认是多次入境后马上一起出票；NZ231携程已搜不到，在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定，官网要选theworks（标准经济舱票）或订完加1件托运。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，11/20 23:59前），携程下单即付款；Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，11/14前免费取消，携程没有）和悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，11/25前免费取消；携程床型随机）；爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）三卧两卫（¥2,640，下单先付¥0，11/21前免费取消）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）玻璃轮胎专项＋三箱尺寸；租车日期不变（11/19取、11/26还）。④手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑤大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
+      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签、确认是多次入境后马上一起出票；NZ231携程已搜不到，在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定，官网要选theworks（标准经济舱票）或订完加1件托运。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，新西兰时间11/20 23:59前），携程下单即付款；Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，新西兰时间11/13 23:59前免费取消，即北京时间18:59；携程没有）和悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，悉尼时间11/24 23:59前免费取消，即北京时间20:59；携程床型随机）；爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）三卧两卫（¥2,640，下单先付¥0，11/21前免费取消）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）：先问清玻璃轮胎专项和三只箱子放不放得下，最好在北京时间11/5 12:00前订车（11/19取、11/26还）：这之前取消免费，之后到取车前24小时取消收20%（最多NZ$100），11/5以后才订就没有免费取消期。④米尔福德：在RealNZ（米尔福德游船巴士运营商）官网直接订11/24 07:35大巴＋游船（三人NZ$957），新西兰时间11/23 07:35前可以免费改期或退款；天气不好想和11/25格林诺奇对调，也要在这之前改。⑤手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑥大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3119,7 +3212,11 @@
         "a-parkhill",
         "c-bluepeaks",
         "f-nz-shorthaul",
-        "x-au-600"
+        "x-au-600",
+        "r-apex-faq-cancel",
+        "x-milford",
+        "x-realnz-terms",
+        "x-booking-cancel-time"
       ]
     },
     {
@@ -3132,15 +3229,16 @@
     },
     {
       "title": "09 / 保险和就医",
-      "body": "新西兰境内的意外伤害，ACC（新西兰意外事故赔偿局）对访客也承担部分治疗费用，就医时说明是意外；疾病、送返回国和航程中受伤靠旅行险。安联：住院前，或门诊和牙科可能超过¥10,000时，先打救援热线0086 21 5230 0806；被盗24小时内报警并取得书面报告。电子保单和热线离线存在手机里。安联这款只承保从中国大陆出发的人，东京和墨尔本的两位朋友要各自在出发地买覆盖澳洲和新西兰、含医疗和救援的旅行险；墨尔本同学要书面确认学生保险是否覆盖新西兰，不能默认。",
+      "body": "新西兰境内的意外伤害，ACC（新西兰意外事故赔偿局）对访客也承担部分治疗费用，就医时说明是意外；疾病、送返回国和航程中受伤靠旅行险。安联：住院前，或门诊和牙科可能超过¥10,000时，先打救援热线0086 21 5230 0806；被盗24小时内报警并取得书面报告。但这款险基本不保相机、镜头和无人机：随身财产每件限¥1,000、合计最多¥5,000，手机、平板电脑、笔记本电脑以外的数码产品不在保障里。相机和镜头最好随身带，不留在车里过夜。电子保单和热线离线存在手机里。安联这款只承保从中国大陆出发的人，东京和墨尔本的两位朋友要各自在出发地买覆盖澳洲和新西兰、含医疗和救援的旅行险；墨尔本同学要书面确认学生保险是否覆盖新西兰，不能默认。",
       "sourceIds": [
         "x-acc",
-        "x-insurance"
+        "x-insurance",
+        "x-allianz-benefits"
       ]
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款（租车、住宿、三段机票）用信用卡：你另有额度充足的信用卡，两位朋友也有信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的三处在线付人民币，没有外币交易费和到店刷卡附加费；爱彼迎这套也按人民币付；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场；基督城公寓损坏最多赔NZ$350。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收约1%–1.5%。",
+      "body": "大额付款（租车、住宿、三段机票）用信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的三处在线付人民币，没有外币交易费和到店刷卡附加费，但墨尔本Dorsett（帝盛酒店）入住时还要刷AUD200押金（信用卡、借记卡都行，用信用卡），退房当天退回；爱彼迎这套也按人民币付；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场；基督城公寓损坏最多赔NZ$350。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收1.5%。",
       "sourceIds": [
         "r-apex-faq",
         "i-nsw-payment",
@@ -3148,7 +3246,24 @@
         "x-boc-jcb",
         "x-jcb-anz",
         "x-bluepeaks-loc",
-        "b-adina"
+        "b-adina",
+        "x-dorsett-policy",
+        "x-card-fx-15"
+      ]
+    },
+    {
+      "title": "11 / 证件丢了怎么办",
+      "body": "澳签和NZeTA（新西兰电子旅行授权）都绑着护照号，护照丢了后面的航班很可能要改。按顺序办：①报警，拿书面报案证明或报案编号（补证和保险理赔都要）：澳洲非紧急报警131444、新西兰105，紧急情况澳洲000、新西兰111。②打所在地中国总领馆的领事保护电话：墨尔本+61-3-98248810；基督城（管南岛）+64-3-3411016，新西兰境内拨03-3411016；悉尼+61-2-95505519。外交部全球领事保护与服务应急热线（24小时）+86-10-12308或+86-10-65612308。③用“中国领事”App（手机应用）申请新证件：短期旅行丢了护照、要尽快回国的选“应急旅行证”；还想接着去新西兰或回澳洲，先问总领馆补发护照要多久，再问航空公司持补发的证件能不能登机。④拿到新护照后在ImmiAccount（澳洲移民局账户）里提交Change of passport details（更改护照信息），澳洲移民局约3个工作日把澳签关联到新护照（用网页表格要14天）；NZeTA也绑着护照号，INZ（新西兰移民局）要求改护照号至少在出发前10天提出，来不及就要用新护照重新申请（推断）。⑤东京同学的在留卡在国外丢了：在当地报警、留好报案编号，回日本后14天内到出入国在留管理局申请补发。安联畅游全球豪华版和至尊版都含“旅行证件遗失”，最多赔¥5,000（还没买，见待办“买旅行险（你，安联）”）。出发前每人把护照资料页、签证批准信和NZeTA确认邮件拍照存在自己手机里，护照复印件和原件分开放；车里不留护照、相机和包。",
+      "sourceIds": [
+        "x-cg-melbourne",
+        "x-cg-christchurch",
+        "x-cg-sydney",
+        "x-mfa-passport",
+        "x-au-newpassport",
+        "x-nzeta-change",
+        "x-isa-zairyu",
+        "x-nz-105",
+        "x-allianz-benefits"
       ]
     }
   ],
@@ -3232,9 +3347,9 @@
     },
     {
       "id": "w-docHookerGate",
-      "title": "DOC（新西兰保护部）：2026年9月22日第一桥20人限流通知",
+      "title": "DOC（新西兰保护部，2026-09-22）：Hooker（胡克谷步道）第一座吊桥同时最多20人；计划在桥头装限流闸门（未公布安装日期），夏季高峰有护林员在桥头看管",
       "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/doc-plans-to-install-a-gate-to-manage-visitors-on-the-hooker-valley-track/",
-      "checked": "2026-10-21"
+      "checked": "2026-11-02"
     },
     {
       "id": "w-docHookerOpen",
@@ -3256,9 +3371,9 @@
     },
     {
       "id": "w-docWalks",
-      "title": "DOC（新西兰保护部）：Aoraki/Mount Cook（奥拉基/库克山）步道手册（PDF）",
+      "title": "DOC（新西兰保护部）：Aoraki/Mount Cook（奥拉基/库克山）步道手册PDF（便携文档）：Kea Point（基亚观景点）从村里往返约2小时，从White Horse Hill（白马山营地）停车场往返约1小时",
       "url": "https://www.doc.govt.nz/globalassets/documents/parks-and-recreation/tracks-and-walks/canterbury/walking-and-cycling-tracks-in-aoraki-mt-cook.pdf",
-      "checked": "2026-10-22"
+      "checked": "2026-11-02"
     },
     {
       "id": "w-bomSydney",
@@ -3568,9 +3683,9 @@
     },
     {
       "id": "x-milford",
-      "title": "RealNZ（米尔福德游船巴士运营商） 11/24米尔福德：Queenstown（皇后镇）巴士＋Classic Cruise（经典游船），NZ$319/人",
+      "title": "RealNZ（米尔福德游船巴士运营商）官网：皇后镇出发的米尔福德大巴＋Classic Cruise（经典游船），NZ$319/人起，每天06:45、06:55、07:35三班；官网直接订的，出发前24小时（新西兰时间）以上可改期或退款",
       "url": "https://www.realnz.com/en/experiences/day-cruises/milford-sound-day-trip-from-queenstown/",
-      "checked": "2026-10-29"
+      "checked": "2026-11-02"
     },
     {
       "id": "x-au-surcharge",
@@ -3640,9 +3755,9 @@
     },
     {
       "id": "x-ho-bags",
-      "title": "吉祥航空行李运输规定（2025-08版）",
+      "title": "吉祥航空《行李运输规定》（2025年8月版）：澳洲航线经济舱每件≤23kg、三边和≤158cm；第4.2.3.1条：超重（24–32kg）或超尺寸（159–203cm）每件600元，又超重又超尺寸不累计，按所在地货币收",
       "url": "https://meiyacommonfile.oss-cn-shenzhen.aliyuncs.com/policy/content41e1c91754449120477.pdf",
-      "checked": "2026-10-22"
+      "checked": "2026-11-02"
     },
     {
       "id": "x-acc",
@@ -3670,7 +3785,7 @@
     },
     {
       "id": "x-nz-excess",
-      "title": "Air NZ（新西兰航空）官网行李费表：新西兰飞澳洲，机场每多1件NZ$115，超重或超尺寸每件NZ$80（国内段NZ$40，飞其他地区NZ$120）",
+      "title": "Air NZ（新西兰航空）官网行李费表：按每段航班的出发国收；新西兰飞澳洲，机场每多1件NZ$115，超重或超尺寸每件NZ$80（国内段NZ$40，飞其他地区NZ$120）",
       "url": "https://www.airnewzealand.com/en-nz/travel-info/baggage",
       "checked": "2026-11-02"
     },
@@ -3724,9 +3839,9 @@
     },
     {
       "id": "x-syd-observatory",
-      "title": "Museums & Galleries NSW（新州博物馆与美术馆协会）：悉尼天文台周四至周六12:00–18:00开放",
-      "url": "https://mgnsw.org.au/organisations/sydney-observatory/",
-      "checked": "2026-10-23"
+      "title": "Powerhouse（动力博物馆）官网：悉尼天文台周四至周日开放；正在做文物修缮，部分区域可能进不去",
+      "url": "https://powerhouse.com.au/visit/sydney-observatory",
+      "checked": "2026-11-02"
     },
     {
       "id": "x-bridge-walk",
@@ -3736,9 +3851,9 @@
     },
     {
       "id": "x-bridgemuseum",
-      "title": "BridgeMuseum（大桥博物馆）官网（原Pylon Lookout（桥塔观景台））：11月周日至周四09:00–18:00、17:00停止入场，网上成人AUD 39.95",
+      "title": "BridgeMuseum（大桥博物馆）官网：2–11月周日至周四09:00–18:00、17:00停止入场，周五周六09:00–18:30、17:30停止入场；网上成人AUD39.95",
       "url": "https://www.bridgemuseum.com.au/plan-your-visit",
-      "checked": "2026-10-25"
+      "checked": "2026-11-02"
     },
     {
       "id": "b-adina",
@@ -3814,9 +3929,9 @@
     },
     {
       "id": "x-cruise",
-      "title": "新州港务局邮轮船期表（按出行日期查是否有大型邮轮停海外客运码头）",
+      "title": "新州港务局邮轮船期表（11/2查）：11/28 Carnival Splendor（嘉年华辉煌号） 06:30–15:30停海外客运码头；11/27、11/29没有邮轮；船期可能变",
       "url": "https://www.portauthoritynsw.com.au/cruise/sydney-harbour/sydney-harbour-full-cruise-schedule",
-      "checked": "2026-10-29"
+      "checked": "2026-11-02"
     },
     {
       "id": "x-fixed-fare",
@@ -3862,15 +3977,15 @@
     },
     {
       "id": "x-slv",
-      "title": "State Library Victoria（维多利亚州立图书馆）：La Trobe Reading Room（拉筹伯阅览室）每天10:00–18:00",
-      "url": "https://blogs.slv.vic.gov.au/news/opening-hours",
-      "checked": "2026-11-01"
+      "title": "State Library Victoria（维多利亚州立图书馆）官网：每天10:00–18:00开放；穹顶5、6层目前关闭，没写何时重开",
+      "url": "https://www.slv.vic.gov.au/visit/opening-hours",
+      "checked": "2026-11-02"
     },
     {
       "id": "x-stkilda-penguins",
-      "title": "Phillip Island Nature Parks（菲利普岛自然公园）：St Kilda（圣基尔达）企鹅免费观赏场次（须预订，禁闪光灯）",
+      "title": "Phillip Island Nature Parks（菲利普岛自然公园）官网：St Kilda（圣基尔达）小企鹅观赏免费、须预订；每周二墨尔本10:00放下一周的票，很快订完，可以回来刷退票；第1场约日落后30分钟开始，每场约45分钟；至少提前10分钟到栈桥尽头的观景台，迟到票可能作废；不用闪光灯和手电",
       "url": "https://penguins.org.au/attractions/st-kilda/",
-      "checked": "2026-11-01"
+      "checked": "2026-11-02"
     },
     {
       "id": "x-bluemountains",
@@ -3910,15 +4025,15 @@
     },
     {
       "id": "x-riverside",
-      "title": "Urban List：Riverside Market（河畔市场）周四至周六07:30–21:00（2025年指南）",
-      "url": "https://www.theurbanlist.com/christchurch/a-list/riverside-market-christchurch",
-      "checked": "2026-11-01"
+      "title": "Riverside Market（河畔市场）官网：周四07:30–21:00（周一至周三和周日到20:00），各摊位营业时间不一",
+      "url": "https://riverside.nz/",
+      "checked": "2026-11-02"
     },
     {
       "id": "x-skyline",
-      "title": "Skyline（天空缆车） Queenstown（皇后镇）：缆车约09:00–21:00，成人票约NZ$64–69",
-      "url": "https://queenstown.skyline.co.nz/test-open-hours",
-      "checked": "2026-11-01"
+      "title": "Skyline（天空缆车） Queenstown（皇后镇）官网营业时间：缆车每天09:30–21:00，21:00是最晚上山登乘时间，上去后还能在山顶留约1小时；时间可能因天气、维护或施工变动",
+      "url": "https://queenstown.skyline.co.nz/opening-hours/",
+      "checked": "2026-11-02"
     },
     {
       "id": "b-gloucester",
@@ -4123,6 +4238,330 @@
       "title": "澳洲边境执法局纸质入境卡样本：问是否带食品和蜂产品、带泥或在淡水区用过的鞋和装备，以及过去30天是否接触过农场、野外或湖溪",
       "url": "https://www.abf.gov.au/entering-leaving-australia/files/ipc-sample-english.pdf",
       "checked": "2026-11-02"
+    },
+    {
+      "id": "x-skyline-price",
+      "title": "Skyline（天空缆车） Queenstown（皇后镇）官网首页：缆车成人NZ$69、儿童NZ$48；从Bob's Peak（鲍勃峰）能看到The Remarkables（卓越山脉）和整个皇后镇",
+      "url": "https://queenstown.skyline.co.nz/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-skyline-works",
+      "title": "Project Skyline（天空缆车改建工程）：山顶旧主楼已拆除，2026–2028年分段重建，2029年初全部完工",
+      "url": "https://queenstown.skyline.co.nz/project-skyline/phases-of-construction/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-skyline",
+      "title": "OpenStreetMap（开放街图）：Skyline（天空缆车）缆车线路，下站在Brecon Street（布雷肯街）尽头",
+      "url": "https://www.openstreetmap.org/way/30471443",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-realnz-terms",
+      "title": "RealNZ（米尔福德游船巴士运营商）条款：出发前至少24小时（新西兰时间）通知才退款；按新西兰元收款，退款金额可能因汇率变动，银行卡手续费不退",
+      "url": "https://www.realnz.com/en/terms-conditions/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-metservice-milford",
+      "title": "MetService（新西兰气象局）：Milford Sound（米尔福德峡湾）天气预报",
+      "url": "https://www.metservice.com/towns-cities/regions/southland/locations/milford-sound",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-nzta-sh94-night",
+      "title": "NZTA（新西兰交通局，10/27更新）：SH94（94号国道） Homer Tunnel（霍默隧道）到The Divide（分水岭）停车场这一段，11/2–11/5每晚20:00–次日05:00双向封路，22:00短暂放行，11/6 05:00结束",
+      "url": "https://www.journeys.nzta.govt.nz/regions/southland/traffic-updates/565571/details",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "r-apex-faq-cancel",
+      "title": "APEX（新西兰租车公司）官网FAQ（常见问题）：取车前超过14天取消免费；14天内到取车前24小时收20%（最多NZ$100）；24小时内或没到场收50%（最多NZ$200）；订车不收订金，但按付款条件可能下单就扣全款",
+      "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-doc-aoraki-visit",
+      "title": "DOC（新西兰保护部）库克山国家公园页：11–3月10:00–16:00 White Horse Hill（白马山营地）停车场车位可能不够，Hooker Valley Track（胡克谷步道）人多，可以错峰去",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-doc-aoraki-summer",
+      "title": "DOC（新西兰保护部，2024-12-20）：Hooker Valley Track（胡克谷步道） 10:00–16:00人最多，避开节假日和周末更清静；White Horse Hill（白马山营地）停车场满了，只停在路边指定的一侧",
+      "url": "https://www.doc.govt.nz/news/media-releases/2024-media-releases/lets-care-for-aoraki-this-summer/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-rnz-aoraki-parking",
+      "title": "RNZ（新西兰广播电台，2026-01-26）：Hooker Valley Road（胡克谷路）路边仍可免费停车，交通管理人员全天疏导，有电子屏显示停车场有没有空位",
+      "url": "https://www.rnz.co.nz/news/top/585076/paid-parking-at-aoraki-mount-cook-raises-214k-in-first-month",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-11-stanley",
+      "title": "OpenStreetMap（开放街图）：11 Stanley Street（斯坦利街）的位置，在Sydney Street（悉尼街）路口；RealNZ（米尔福德游船巴士运营商）结账页写的Upper Stanley Street（上斯坦利街）车站就是这个地址",
+      "url": "https://www.openstreetmap.org/node/5616391234",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-upper-stanley",
+      "title": "RealNZ（米尔福德游船巴士运营商）米尔福德商务舱团代售页的上车点名单：Blue Peaks Lodge（蓝色山峰旅舍） - Upper Stanley Street（上斯坦利街） Bus Stop（车站）",
+      "url": "https://www.backpackerdeals.com/new-zealand/queenstown/milford-sound-business-class-experience",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-gloucester-airbnb",
+      "title": "爱彼迎上的同一房源（同一托管方）：只能路边停车、没有专用车位；三层联排只能走楼梯；订后用第三方软件做身份验证，并交可退押金或小额损坏险费",
+      "url": "https://www.airbnb.com/rooms/1475523011763120243",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-gloucester-bookabach",
+      "title": "Bookabach（新西兰度假屋网）上的同一房源：不提供停车",
+      "url": "https://www.bookabach.co.nz/holiday-accommodation/p20191505",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-ccc-lichfield",
+      "title": "基督城市议会2026/27收费：Lichfield Street（利奇菲尔德街）停车楼晚上18:00到次日10:00每小时NZ$4、最多NZ$10.40（白天每小时NZ$4.80）",
+      "url": "https://ccc.govt.nz/the-council/plans-strategies-policies-and-bylaws/plans/long-term-plan-and-annual-plans/fees-and-charges/fees-streets-and-transport",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-bm-trackwork",
+      "title": "Transport NSW（新州交通，10/20通告，11/2仍有效）：11/28–29蓝山线Blacktown（黑镇）以西全部改巴士，T1 Western Line（T1西线火车）只开Blacktown到市区，这两天Central Station（中央车站）到Katoomba（卡通巴）没有火车；11/27中央车站到Katoomba照常有火车（部分班次改时刻），Katoomba以西改巴士",
+      "url": "https://transportnsw.info/news/2026/trackwork-affecting-blue-mountains-line-western-nsw-regional-trains",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-scenicworld",
+      "title": "Scenic World（景观世界）官网：平日10:00–16:00，周末和公众假期09:00–17:00，最后一班在关门前20分钟",
+      "url": "https://www.scenicworld.com.au/plan-your-visit",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-scenicworld-getting",
+      "title": "Scenic World（景观世界）官网交通页：离Katoomba（卡通巴）车站约3km，686路公交两头都停",
+      "url": "https://www.scenicworld.com.au/getting-here",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-stkilda-calendar",
+      "title": "Phillip Island Nature Parks（菲利普岛自然公园）官方场次时间表：11月第1场约20:30，第2场晚1小时开始；按票面时间至少提前10分钟到",
+      "url": "https://penguins.org.au/assets/St-Kilda/St-Kilda-Penguin-Arrival-Calendar.jpg",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-stkilda-booking",
+      "title": "St Kilda（圣基尔达）小企鹅观赏官方订票页：11/2查时，已放出日期的第1场都订完了，第2场当天还有票",
+      "url": "https://stkilda.penguins.org.au/BookingCat/Availability/?ParentCategory=STKD",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-soh-crawl",
+      "title": "悉尼歌剧院官网：On The Steps（台阶音乐季）露天演唱会Australian Crawl（澳洲摇滚乐队），11/28（周六）在Monumental Steps（纪念台阶）脚下的前广场，18:00开门、18:45开演；台阶是不对号观众区，入场验包",
+      "url": "https://www.sydneyoperahouse.com/on-the-steps/australian-crawl",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-rbg-gate-j",
+      "title": "悉尼皇家植物园官网：Queen Elizabeth II Gate（伊丽莎白二世女王门，J门）是从歌剧院前广场进园的门",
+      "url": "https://www.botanicgardens.org.au/gate/j-queen-elizabeth-ii",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-dorsett-policy",
+      "title": "Trip.com（携程国际版）：Dorsett Melbourne（墨尔本帝盛酒店）入住时收固定押金AUD200（信用卡或借记卡），退房当天退回原付款账户；15:00–24:00入住、11:00前退房、24小时前台",
+      "url": "https://uk.trip.com/hotels/melbourne-hotel-detail-105596586/dorsett-melbourne/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-rocks-market",
+      "title": "The Rocks（岩石区）官网：岩石区市集周五10:00–15:00，周六日10:00–17:00",
+      "url": "https://www.therocks.com/whats-on/market-overview",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-florin",
+      "title": "Hickory（希科里建筑公司，承建商，2025年11月）：Kent Street（肯特街） 499号的Hotel Florin（弗洛林酒店）开工，要建20层酒店",
+      "url": "https://www.hickory.com.au/news/hickory-breaks-ground-on-florin-hotel-in-sydneys-cbd/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "w-sunChristchurch",
+      "title": "Timeanddate（时间日期网）：Christchurch（基督城） 2026年11月太阳表",
+      "url": "https://www.timeanddate.com/sun/new-zealand/christchurch?month=11&year=2026",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "w-bomMelbourne",
+      "title": "BOM（澳大利亚气象局）气候统计：墨尔本市区老站（086071）1855–2014年，11月日最高22.0°C、日最低11.3°C，月雨量60.3mm，平均8.3天有雨",
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_086071.shtml",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "w-bomMelbourneOP",
+      "title": "BOM（澳大利亚气象局）气候统计：墨尔本市区新站（086338）2013–2026年，11月日最高22.2°C、日最低12.7°C，月雨量64.4mm",
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_086338.shtml",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-qf-bags",
+      "title": "Qantas（澳洲航空）官网托运行李：国际航班每件三边和≤158cm，经济舱（美洲以外）合计30kg、单件≤32kg；澳洲国内航班每件≤140cm；页面没有写超尺寸收费",
+      "url": "https://www.qantas.com/en-au/baggage/checked",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-qf-excess",
+      "title": "Qantas（澳洲航空）官网加购行李页：澳洲和新西兰之间机场超额行李每公斤A$21；超额按件数或总重量算，没有超尺寸收费",
+      "url": "https://www.qantas.com/en-au/baggage/pre-purchase-additional",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-qf-bagdrop",
+      "title": "Qantas（澳洲航空）帮助中心：自助托运机用激光和秤量尺寸和重量，超出额度时让你选重新装箱或付超额行李费，付清才能登机",
+      "url": "https://help.qantas.com/support/s/article/Measuring-your-baggage-size-and-weight-against-your-allowance",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-qf-coc",
+      "title": "Qantas（澳洲航空）运输条件（2026-03-19版）第8.3条：超额行李要看舱位和单件上限，可以拒收，也可以收费后承运",
+      "url": "https://www.qantas.com/en-au/book/flights/conditions-of-carriage",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-card-fx-15",
+      "title": "平安银行信用卡常见问题：走Visa（维萨卡）或Mastercard（万事达卡）通道的非美元交易先折成美元，再收1.5%外汇兑换手续费；走银联通道从人民币账户扣",
+      "url": "https://creditcard.pingan.com/wenti/jingwaijiaoyi.shtml",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-dorsett-rooms",
+      "title": "Dorsett Melbourne（墨尔本帝盛酒店）官网房型页：Discovery Twin（探索双床房） 27㎡，列2张双人床和1张沙发床，写2位成人加2位小客人；同酒店的Deluxe Twin with Balcony（带阳台豪华双床房）写2位成人或1位成人加1位小客人",
+      "url": "https://www.dorsetthotels.com/dorsett-melbourne/accommodation/discovery-room.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-booking-cancel-time",
+      "title": "Booking.com（缤客订房网）官网文章（2026-07-10）：免费取消截止一般按酒店当地时区算，不按你所在的时区",
+      "url": "https://www.booking.com/articles/how-to-cancel-hotel-reservations.en-gb.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-allianz-benefits",
+      "title": "安联畅游全球官网产品页（11/2读）：随身财产每件或每套限¥1,000，豪华版和至尊版最多¥5,000；手机、平板电脑、笔记本电脑以外的数码电子产品及配件不在保障里；被盗或被抢24小时内报警并取得书面报告；旅行证件遗失最多¥5,000；至尊版另有商旅设备遗失¥5,000和境外自驾车意外身故伤残10万元；客服95342",
+      "url": "https://sales.allianz.com.cn/ewebsite/pages/product/yw/axwl2/YW0303.shtml",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-cg-christchurch",
+      "title": "中国驻克赖斯特彻奇总领馆（2026-07-28提醒）：领保电话0064-3-3411016（新西兰境外拨）、03-3411016（新西兰境内拨）；外交部全球领保热线+86-10-12308或+86-10-65612308；新西兰报警急救111",
+      "url": "https://christchurch.china-consulate.gov.cn/lsfws/lsbh/LSTX/202608/t20260810_12000892.htm",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-cg-sydney",
+      "title": "中国驻悉尼总领馆“联系我们”（2026-07-22）：领保热线+61-2-95505519；外交部全球领保热线+86-10-12308或+86-10-65612308；总领馆受理中国公民护照、旅行证",
+      "url": "https://sydney.china-consulate.gov.cn/lxwm/202505/t20250512_11619059.htm",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-cg-melbourne",
+      "title": "中国驻墨尔本总领馆（2026-06-23提醒）：领保热线+61-3-98248810；澳洲非紧急报警131444；手机、钱包、护照等贵重物品不要留在车里",
+      "url": "https://melbourne.china-consulate.gov.cn/chn/tz/202606/t20260623_11950416.htm",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-mfa-passport",
+      "title": "中国领事服务网：在境外用“中国领事”App（手机应用）申请护照或旅行证；短期出国丢了护照、急需回国的选“应急旅行证”；有紧急需要可联系使领馆走“绿色通道”",
+      "url": "https://cs.mfa.gov.cn/zggmcgx/hzlxz_149470/sbhzlxz/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-au-newpassport",
+      "title": "澳洲移民局：拿到新护照要告诉移民局，在ImmiAccount（澳洲移民局账户）里提交Change of passport details（更改护照信息）最快，3个工作日内把签证关联到新护照；用网页表格要14天",
+      "url": "https://immi.homeaffairs.gov.au/change-in-situation/passport-details",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-nzeta-change",
+      "title": "INZ（新西兰移民局）：NZeTA（新西兰电子旅行授权）可以申请更新护照号，改姓名或护照号至少要在出发前10天提出；国籍或签发国变了要重新申请",
+      "url": "https://www.immigration.govt.nz/about-us/contact/nzeta-change-request",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-isa-zairyu",
+      "title": "出入国在留管理庁：在留卡丢失，从知道之日起14天内申请补发；在国外期间发现的，从回日本入境那天算起；遗失或被盗要附报警受理编号",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00010.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-nz-105",
+      "title": "新西兰警察：不紧急的情况打105（24小时、免费），钱包手机丢失、车被撬都可以报",
+      "url": "https://www.police.govt.nz/105info",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-customs-276",
+      "title": "海关总署令第276号《海关进出境行李物品监管办法》（2025-04-01施行）：第13条，暂时出境的物品可以在出境时向海关书面申报登记，带回时海关凭登记记录放行；第12条，不清楚规定就走红色通道",
+      "url": "https://www.gov.cn/gongbao/2025/issue_11966/202504/content_7017461.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-customs-43",
+      "title": "海关总署2025年第43号公告（2025-04-01施行）：申报单可在“海关进出境人员指尖服务”小程序预填；暂时进出境物品要登记的照此办理；2007年第72号公告同时废止",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_b2f49d65a22e4ad48d4b8677ec77a317.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-customs-taxfree",
+      "title": "《进境物品关税、增值税、消费税征收办法》（2024-12-01施行）第11条：居民旅客带回在境外取得的物品，总值¥5,000以内免税，超过的只对超出部分征税，不能分割的单件全额征税；第12条：经海关核准的复进境物品免税，不算进¥5,000",
+      "url": "https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_1e3054b72cf8471abeed5b224eda0c8d.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-caac-3c",
+      "title": "民航局（2025-06-26）：自6/28起，没有3C（中国强制性产品认证）标识、3C标识不清晰或属于召回型号批次的充电宝不能带上境内航班",
+      "url": "https://app.caac.gov.cn/XWZX/MHYW/202506/t20250626_227805.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-cctv-powerbank",
+      "title": "央视新闻（2026-07-11）：充电宝只能随身，超过160Wh（瓦时）禁带，100–160Wh要航司批准、每人不超过2个，飞行全程不能用；境内航班严查3C（中国强制性产品认证），国际航班满足额定能量要求的可以通行",
+      "url": "https://apicnrapp.cnr.cn/html/share.html?id=30808460",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-ho-powerbank",
+      "title": "吉祥航空微信公众号乘机提示（2026-02-13）：严禁托运充电宝，随身携带的充电宝需有3C（中国强制性产品认证）认证",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4Njc3NzMxMg==&mid=2652452444&idx=2&sn=f3dd69437a677c8f57e26504a7c0260f",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-ho-spare",
+      "title": "携程订吉祥机票时附的《吉祥航空旅客限制运输物品》（吉祥商务部2020-08-21）：备用电池单独防短路、只能随身，每人限带2个；超过100Wh（瓦时）、不超过160Wh的锂电池要吉祥批准",
+      "url": "https://pages.c-ctrip.com/flight/h5/hybrid/booking/content/ho-transport-rule.html",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-airnz-batteries",
+      "title": "新西兰航空官网：每人最多20块备用电池，其中充电宝最多2个、每个不超过100Wh（瓦时），只能随身；机上充电宝不能放头顶行李架、不能用机上电源充电、滑行和起降时不能用",
+      "url": "https://www.airnewzealand.com/travelling-with-batteries-and-devices-on-planes",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-qf-batteries",
+      "title": "澳航官网：充电宝每人最多2个、每个不超过160Wh（瓦时），只能随身，放座位口袋或前座下方，飞行中不能用也不能充；备用电池每人合计最多20块，100–160Wh的最多2块且要批准",
+      "url": "https://www.qantas.com/en-au/baggage/dangerous-goods/spare-batteries-and-powerbanks",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-freshchoice-geraldine",
+      "title": "OpenStreetMap（开放街图）：Geraldine（杰拉尔丁）的FreshChoice（新鲜之选）超市，7 Peel Street（皮尔街），每天07:00–20:00（2025-07-04编辑，以门店为准）",
+      "url": "https://www.openstreetmap.org/way/408761880",
+      "checked": "2026-11-02"
     }
   ],
   "droneAreas": [
@@ -4315,9 +4754,11 @@
         "splitPeople": 3,
         "category": "hotel",
         "status": "携程11/2实时页：探索房可退价¥2,257；你自己安排，金额待确认",
-        "note": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡；携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点）。以你的订单为准。",
+        "note": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡；携程墨尔本时间11/17 18:00前免费取消（北京时间15:00）。多¥75可订豪华双床房带阳台31㎡（2张1.38米床，宽一点），但也只有2张床，官网同类的Deluxe Twin with Balcony（带阳台豪华双床房）写最多2位成人，解决不了第三人的床。入住时酒店另收AUD200押金（信用卡、借记卡都行，用信用卡），退房当天退回原卡。以你的订单为准。",
         "sourceIds": [
-          "c-dorsett"
+          "c-dorsett",
+          "x-dorsett-policy",
+          "x-dorsett-rooms"
         ],
         "perPersonNative": {
           "min": 752.3333333333334,
@@ -4343,9 +4784,10 @@
         "splitPeople": 3,
         "category": "hotel",
         "status": "Booking（缤客订房网） 11/2实时页：两卧两卫可退价NZ$412（含税费）",
-        "note": "两卧两卫公寓85㎡：卧室1一张大号双人床、卧室2两张单人床，两个浴室，有厨房、洗衣机、空调；11/14前免费取消，11/12前不付款。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。Booking（缤客订房网）没写停车，订后问房东车停哪里。",
+        "note": "两卧两卫公寓85㎡：卧室1一张大号双人床、卧室2两张单人床，两个浴室，有厨房、洗衣机、空调；新西兰时间11/13 23:59前免费取消（北京时间11/13 18:59）：Booking（缤客订房网）写的“11/14前”按住宿当地时间算，北京时间11/13晚上7点以后再取消就晚了。新西兰时间11/12才扣款。精确时刻以Booking确认函为准。房东Carebnb（房源托管公司）无接触入住；22:00–07:00要保持安静，损坏最多赔NZ$350。没有专用车位：爱彼迎上同一房源写明只能路边停车，Bookabach（新西兰度假屋网）也写不提供停车；路边按路牌停，找不到就停附近收费停车楼。三层联排、只能走楼梯：一楼客厅厨房，二楼一间卧室和浴室，三楼主卧和浴室。爱彼迎上房东要求订后用第三方软件做身份验证，并交可退押金或小额损坏险费；Booking这边要不要，看订后房东的消息，有要求就在出发前办完，才能拿到门牌和门锁密码。",
         "sourceIds": [
-          "b-gloucester"
+          "b-gloucester",
+          "x-booking-cancel-time"
         ],
         "perPersonNative": {
           "min": 137.33333333333334,
@@ -4455,10 +4897,12 @@
         "splitPeople": 3,
         "category": "hotel",
         "status": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套；携程同房¥15,564且床型随机，所以用Booking",
-        "note": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大床（queen），有厨房、洗衣烘干机和阳台；11/25前免费取消，11/23前不付款。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。",
+        "note": "尊贵两卧室公寓（两卫）92㎡：卧室1两张单人床、卧室2一张大号双人床，有厨房、洗衣烘干机和阳台；悉尼时间11/24 23:59前免费取消（新西兰时间11/25 01:59，北京时间11/24 20:59）：Booking（缤客订房网）写的“11/25前”按住宿当地时间算。悉尼时间11/23才扣款。精确时刻以Booking确认函为准。不可退价NZ$3,965；标准两卧NZ$3,456但床型看供应（可能是两张大床）。北面约100米、同一条Kent Street（肯特街）的499号在建20层的Hotel Florin（弗洛林酒店，2025年11月开工），工作日白天可能有施工声：订时备注要高楼层、远离北侧的房间，白天午休戴耳塞。",
         "sourceIds": [
           "b-adina",
-          "x-au-surcharge"
+          "x-au-surcharge",
+          "x-florin",
+          "x-booking-cancel-time"
         ],
         "perPersonNative": {
           "min": 1350.0,
@@ -4483,7 +4927,7 @@
         },
         "splitPeople": 3,
         "category": "rental",
-        "status": "官网Contact（联系报价页）最终汇总实查；未付款",
+        "status": "10/21官网Contact（联系报价页）汇总实查（10/25复查同价）；未付款，订车前要按同样日期、车型和保障重新报价",
         "note": "Maximum（零自付额全险）＋Roadside（道路救援）已含；玻璃轮胎专项未明确，如补齐另收费须重算；燃油停车分列。",
         "sourceIds": [
           "r-apex-booking",
@@ -4532,7 +4976,7 @@
       },
       {
         "id": "au-transport",
-        "title": "悉尼机场往返＋市内打车",
+        "title": "墨尔本＋悉尼交通（机场往返、打车、公交和蓝山）",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
           "min": 120,
@@ -4541,7 +4985,7 @@
         "splitPeople": 1,
         "category": "ground",
         "status": "个人预算（11/1按墨尔本＋悉尼重估）",
-        "note": "墨尔本：SkyBus（墨尔本机场快线）往返票AUD43.40/人（11/2官网价），St Kilda（圣基尔达）打车三人分摊；悉尼：机场两程叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型，进城试行固定价大车AUD80，三人分摊），市内6–8程打车分摊，偶尔坐火车、渡轮刷Opal（悉尼公交卡，Visa（维萨卡）/MC（万事达卡）/Amex（美国运通卡）），蓝山火车往返。不租车。",
+        "note": "墨尔本：SkyBus（墨尔本机场快线）往返票AUD43.40/人（11/2官网价），St Kilda（圣基尔达）打车三人分摊；悉尼：机场两程叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型，进城试行固定价大车AUD80，三人分摊），市内6–8程打车分摊，偶尔坐火车、渡轮刷Opal（悉尼公交卡，Visa（维萨卡）/MC（万事达卡）/Amex（美国运通卡）），蓝山往返（11/29火车＋替代巴士，或对调到11/27坐火车；都刷Opal）。不租车。",
         "sourceIds": [
           "b-syd-airport",
           "i-nsw-payment",
@@ -4565,7 +5009,7 @@
       },
       {
         "id": "au-meals",
-        "title": "悉尼餐饮 · 控制版",
+        "title": "澳洲餐饮（墨尔本＋悉尼） · 控制版",
         "currency": "AUD",
         "quotedOrBudgetTotal": {
           "min": 300,
@@ -4656,11 +5100,15 @@
         "splitPeople": 3,
         "category": "ground",
         "status": "整车预算（10/23加Mt John（约翰山））",
-        "note": "确定收费的有两处：White Horse Hill（白马山营地）停车NZ$2.50/半小时、全天封顶NZ$25、前20分钟免费、只收卡，按Kea Point（基亚观景点）约1.5–2小时≈NZ$7.5–10；11/20 Mt John（约翰山）上山路NZ$14/车，门口刷卡。各住宿列明免费停车，其余为预防性余量。",
+        "note": "确定收费的有两处：White Horse Hill（白马山营地）停车NZ$2.50/半小时、全天封顶NZ$25、前20分钟免费、只收卡，按停1.5–2.5小时（含找车位和厕所）≈NZ$7.5–12.5；11/20 Mt John（约翰山）上山路NZ$14/车，门口刷卡。可能收费的一处：基督城Gloucester Street（格洛斯特街）公寓没有专用车位，路边按路牌停；找不到位就停33 Lichfield Street（利奇菲尔德街）市政停车楼，晚上18:00到次日10:00最多NZ$10.40。瓦纳卡Parkhill（帕克希尔）有免费车位，皇后镇Blue Peaks（蓝色山峰）每套有1个指定车位；其余为预防性余量。",
         "sourceIds": [
           "b-qldc-parking",
           "x-doc-parking",
-          "x-mtjohn"
+          "x-mtjohn",
+          "x-ccc-lichfield",
+          "x-gloucester-airbnb",
+          "a-parkhill",
+          "x-bluepeaks-loc"
         ],
         "perPersonNative": {
           "min": 11.333333333333334,
@@ -4746,7 +5194,7 @@
         "splitPeople": 1,
         "category": "essential",
         "status": "Airalo（电子手机卡平台）所选弹窗实查总额；手机已确认支持eSIM（电子手机卡）",
-        "note": "用户10/22确认手机支持eSIM（电子手机卡）；只有数据，普通电话/短信另计，山区和米尔福德公路没有信号，先下载离线地图。",
+        "note": "用户10/22确认手机支持eSIM（电子手机卡）；只有数据，普通电话/短信另计，山区和米尔福德公路没有信号，先下载离线地图。国内号要开国际漫游，留着收银行验证码和航司短信（见待办）。",
         "sourceIds": [
           "x-esim"
         ],
@@ -4774,9 +5222,10 @@
         "splitPeople": 1,
         "category": "essential",
         "status": "估算：按安联官网12天试算×14/12，未购买",
-        "note": "安联畅游全球按11/17–11/30共14天投保：12天试算豪华版¥198.40、至尊版¥277.77，按天数比例估¥231–324；投保时按真实生日和14天在官网重新试算，须出境前投保。核实普通DOC（新西兰保护部）步道适用；不是APEX（新西兰租车公司）车损险，不保证Nikon（尼康）/DJI（大疆）财产全保。",
+        "note": "安联畅游全球按11/17–11/30共14天投保：12天试算豪华版¥198.40、至尊版¥277.77，按天数比例估¥231–324；投保时按真实生日和14天在官网重新试算，须出境前投保。核实普通DOC（新西兰保护部）步道适用；不是APEX（新西兰租车公司）车损险。相机、镜头和无人机基本不保：随身财产每件或每套限¥1,000、合计最多¥5,000，而且手机、平板电脑、笔记本电脑以外的数码产品和配件不在保障里（11/2官网产品页）；要不要另买器材保障见待办。",
         "sourceIds": [
-          "x-insurance"
+          "x-insurance",
+          "x-allianz-benefits"
         ],
         "perPersonNative": {
           "min": 231.47,
@@ -4849,28 +5298,30 @@
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 1602.59
+          "max": 1501.3
         },
         "splitPeople": 1,
         "category": "baggage",
         "status": "条件费用：取决于箱子三边和",
-        "note": "条件费用：常见29/30寸硬箱含轮三边和约165–173cm，超过吉祥、澳航和新航每件158cm的上限，可能被收超尺寸费；新航NZ231（新西兰航空）从新西兰飞澳洲超重或超尺寸每件NZ$80（11/2官网），吉祥和澳航的还没查，先按原方案约¥1,603的水平留上限。改用三边和≤158cm的托运箱（如75cm级或28寸）就是0。只计你本人那一只。",
+        "note": "常见29/30寸硬箱含轮三边和约165–173cm，超过吉祥、澳航和新航每件158cm的上限。吉祥澳洲航线超尺寸（159–203cm）每件¥600，超重和超尺寸不叠加：HO1655（吉祥航空）在浦东收¥600，HO1670（吉祥航空）在悉尼按澳元收，约合¥600（依据吉祥2025年8月版行李规定，出票时在吉祥官网再核）。新航NZ231（新西兰航空）从新西兰飞澳洲每件NZ$80（约¥301）。已知部分合计约¥1,501。澳航QF167（澳洲航空）没有公布超尺寸收费：自助托运机量出超尺寸会让你重新装箱或付超额行李费，柜台也可以拒收；硬箱本身超尺寸，重新装箱也没用，所以这一段花钱不一定能解决。改用实测三边和≤158cm的托运箱（75cm级；28寸也要量，有的超）就是0。只计你本人那一只。",
         "sourceIds": [
           "x-ho-bags",
-          "f-nz-bags",
-          "x-nz-excess"
+          "x-nz-excess",
+          "x-qf-bags",
+          "x-qf-bagdrop",
+          "x-qf-coc"
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 1602.59
+          "max": 1501.3
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 1602.59
+          "max": 1501.3
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 1602.59
+          "max": 1501.3
         }
       },
       {
@@ -4879,27 +5330,28 @@
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 155.32
+          "max": 232.99
         },
         "splitPeople": 1,
         "category": "essential",
         "status": "按信用卡为主估算",
-        "note": "大额改用信用卡：走银联通道通常不收货币兑换费；Visa（维萨卡）或Mastercard（万事达卡）信用卡不少银行收约1%–1.5%，以发卡行为准。招行人民币结算版万事达借记卡免货币兑换费，但单日限额5,000元，只刷小额。上限按全部外币支出1%保守计。刷卡一律选当地币种，拒绝DCC（动态货币转换）。",
+        "note": "大额改用信用卡：走银联通道通常不收货币兑换费；Visa（维萨卡）或Mastercard（万事达卡）信用卡不少银行收1.5%（例如平安银行：非美元交易先折成美元，再收1.5%），以发卡行为准。招行人民币结算版万事达借记卡免货币兑换费，但单日限额5,000元，只刷小额。上限按全部外币支出的1.5%计；大额走银联通道或用免货币兑换费的卡就是0。刷卡一律选当地币种，拒绝DCC（动态货币转换）。",
         "sourceIds": [
           "x-cmb-mc",
-          "x-boc-jcb"
+          "x-boc-jcb",
+          "x-card-fx-15"
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 155.32
+          "max": 232.99
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 155.32
+          "max": 232.99
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 155.32
+          "max": 232.99
         }
       },
       {
@@ -4932,13 +5384,13 @@
     "summary": {
       "totalCNY": {
         "min": 34684.92,
-        "max": 38399.37,
-        "display": "控制版约¥34,685–38,399/人（含¥1,000机动金）"
+        "max": 38375.75,
+        "display": "控制版约¥34,685–38,376/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
           "min": 20716.47,
-          "max": 22866.98
+          "max": 22843.36
         },
         "AUD": {
           "min": 420.0,
@@ -4950,7 +5402,7 @@
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -8399.37,
+      "headroomCNY": -8375.75,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -4969,16 +5421,16 @@
       },
       "relaxedFoodTotalCNY": {
         "min": 35269.42,
-        "max": 39205.33,
+        "max": 39181.71,
         "note": "餐饮放宽至澳洲AUD360–450＋新西兰NZ560–720；其余相同且含1000机动金"
       },
-      "comparisonNote": "三段机票都是你本人的携程1人价；酒店、车、油、停车三人均分（墨尔本、悉尼取估算区间）；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
+      "comparisonNote": "机票是你本人的1人价，按携程11/1实查（NZ231（新西兰航空）携程11/2已搜不到，预算暂不变）；住宿按11/1–11/2各平台实时页的可退价；住宿、租车、油费、停车三人均分；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
       "scope": "本次新增支出含必要交通、12晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动（BridgeMuseum（大桥博物馆）、Scenic World（景观世界）等）/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥944–1,180）。可退押金/预授权不是消费。",
-      "narrative": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "narrative": "十四天控制版精算¥34,684.92–38,375.75/人，已含¥1,000机动金；按上限超出¥30,000约¥8,375.75（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,182，不能承诺不超。上限已保守计入1.5%外币交易费（约¥233）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
         "min": 34684.92,
-        "max": 38399.37,
-        "display": "控制版约¥34,685–38,399/人（含¥1,000机动金）"
+        "max": 38375.75,
+        "display": "控制版约¥34,685–38,376/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -5005,12 +5457,15 @@
   "routeReview": [
     {
       "title": "十四天：墨尔本进、悉尼出",
-      "body": "11/17傍晚从浦东出发、11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12个酒店夜，另有1晚在飞机上。新西兰段（11/19–26）的日期、住宿、租车和米尔福德与原方案完全一样；中国护照持澳签先在墨尔本入境住一晚，再单独买票飞新西兰，符合NZeTA（新西兰电子旅行授权）条件。",
+      "body": "11/17傍晚从浦东出发、11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12个酒店夜，另有1晚在飞机上。新西兰段（11/19–26）的日期、租车和米尔福德与原方案一样；住宿换了三处：基督城从机场附近的Airport Palms（机场棕榈）改住市区的Gloucester Street（格洛斯特街）两卧两卫公寓（傍晚走路逛植物园和雅芳河），特卡波因前三个候选都订满改住Alpine Nook（山间小居度假屋），瓦纳卡从Archway（拱门汽车旅馆）改住爱彼迎的Tranquility on Parkhill（帕克希尔的宁静，两个卫生间，走路到孤独树）；皇后镇Blue Peaks（蓝色山峰）没变。中国护照持澳签先在墨尔本入境住一晚，再单独买票飞新西兰，符合NZeTA（新西兰电子旅行授权）条件。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
         "f-nz231",
-        "x-nzeta-req"
+        "x-nzeta-req",
+        "b-gloucester",
+        "c-alpinenook",
+        "a-parkhill"
       ]
     },
     {
@@ -5022,9 +5477,11 @@
     },
     {
       "title": "米尔福德用整天，避免疲劳自驾",
-      "body": "11/24 RealNZ（米尔福德游船巴士运营商）大巴＋船07:35–20:15，实查NZ$319/人；11/25 Glenorchy（格林诺奇）。前一晚早睡，后一天取消日出，不加直升机、Skyline（天空缆车）等高价项目。",
+      "body": "11/24 RealNZ（米尔福德游船巴士运营商）大巴＋船07:35–20:15，实查NZ$319/人；11/25 Glenorchy（格林诺奇）。前一晚早睡，后一天取消日出，不加直升机等高价项目；11/25傍晚的Skyline（天空缆车）是可选自费项目（成人NZ$69，不在预算里，从机动金出）。",
       "sourceIds": [
-        "x-milford"
+        "x-milford",
+        "x-skyline",
+        "x-skyline-price"
       ]
     },
     {
@@ -5035,12 +5492,12 @@
       ]
     },
     {
-      "title": "三万元：上限超出，要选一项省钱",
-      "body": "十四天控制版精算¥34,684.92–38,399.37/人，已含¥1,000机动金；按上限超出¥30,000约¥8,399.37（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,205，不能承诺不超。上限已保守计入约1%外币交易费（约¥155）和本人29/30寸箱的超尺寸费。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "title": "三万元：按上限超出约¥8,376",
+      "body": "十四天控制版精算¥34,684.92–38,375.75/人，已含¥1,000机动金；按上限超出¥30,000约¥8,375.75（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,201（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓和悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,269–39,182，不能承诺不超。上限已保守计入1.5%外币交易费（约¥233）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
-      "title": "多一天用来丰富景观，不是天气保险",
+      "title": "没有专门的天气备用日",
       "body": "库克山主窗口仍11/21，22日只可牺牲转场休息/瓦纳卡时间作短线补拍。峡湾24/25能否互换取决于团位和至少24小时改期条款；大雨封路不一定能补到。",
       "sourceIds": [
         "x-milford",
@@ -5050,16 +5507,18 @@
     },
     {
       "title": "为什么不提前一天离开新西兰",
-      "body": "11/24米尔福德、11/25格林诺奇，天气不好可以对调，11/25就是峡湾的备用日；提前到11/25离开就没有这个余地。真想提前，可改坐11/25 07:00的QF124（澳洲航空）去悉尼，吉祥回程改到11/28，少住2晚。代价：要另买QF124的票，已买的NZ231（新西兰航空）不能退；吉祥两段起飞前改期不收手续费，但新日期更贵要补差价；QF124 07:00起飞，APEX（新西兰租车公司）皇后镇门店08:00才开门，清晨还车要先和门店约好。",
+      "body": "11/24米尔福德、11/25格林诺奇：预报很差时，最晚新西兰时间11/23 07:35前（出发前24小时）可以把米尔福德改到11/25（要有空位）；11/24当天运营方取消，也可能改到11/25。提前到11/25离开就没有这个余地。真想提前，可改坐11/25 07:00的QF124（澳洲航空）去悉尼，吉祥回程改到11/28，少住2晚。代价：要另买QF124的票，已买的NZ231（新西兰航空）不能退；吉祥两段起飞前改期不收手续费，但新日期更贵要补差价；QF124 07:00起飞，APEX（新西兰租车公司）皇后镇门店08:00才开门，清晨还车要先和门店约好。",
       "sourceIds": [
         "f-ho-multi",
-        "r-apex-zqn-hours"
+        "r-apex-zqn-hours",
+        "x-milford",
+        "x-realnz-terms"
       ]
     }
   ],
   "rental": {
     "title": "APEX（新西兰租车公司）七天 NZ$1,631.56整车，\n两位司机轮流开。",
-    "body": "约¥6,145整车，三人分摊NZ$543.85≈¥2,048。Santa Fe（胜达）/同级＋Maximum（零自付额全险）零自付额＋Roadside（道路救援），官网实查163小时按7天收费。尚未预订；玻璃轮胎专项未明确，未取得全部保障无缺口的书面确认。",
+    "body": "约¥6,145整车，三人分摊NZ$543.85≈¥2,048。Santa Fe（胜达）/同级＋Maximum（零自付额全险）零自付额＋Roadside（道路救援），官网实查163小时按7天收费。尚未预订；玻璃轮胎专项未明确，未取得全部保障无缺口的书面确认。这是10/21的报价：订车前在官网按同样的日期、车型和保障重新报价，价格变了预算跟着改。",
     "sourceIds": [
       "r-apex-booking",
       "r-apex-faq",
@@ -5123,7 +5582,7 @@
       },
       {
         "title": "05 / 七天租车和六个主游览日",
-        "body": "11/19抵达取车、11/26中午还，163小时向上计7天。南岛7晚、8个自然日期、6个主游览日；11/24坐峡湾大巴时车辆停酒店，不能据此少算一天租金。新增一天实查较旧6天价每人约增¥198，旧价仅作历史比较。按24小时一段计费；11/26要赶15:45的NZ231（新西兰航空），12:00前交车，不安排晚还（未约定晚还每小时NZ$20）。",
+        "body": "11/19抵达取车、11/26中午还，163小时向上计7天。南岛7晚、8个自然日期、6个主游览日；11/24坐峡湾大巴时车辆停酒店，不能据此少算一天租金。按24小时一段计费；11/26要赶15:45的NZ231（新西兰航空），12:00前交车，不安排晚还（未约定晚还每小时NZ$20）。",
         "sourceIds": [
           "r-apex-booking",
           "r-apex-faq"
@@ -5142,18 +5601,6 @@
     ]
   },
   "hotelAlternatives": [
-    {
-      "id": "pullman12",
-      "property": "Pullman Quay Grand Sydney Harbour",
-      "dates": "2026-11-16–19",
-      "room": "Deluxe Two King Bedroom Garden View Apartment",
-      "beds": "1 King + 2 Joinable beds + 1 double sofa bed (Accor site); ask in writing for the joinable beds to be made up as two singles",
-      "currency": "EUR",
-      "memberTotal": 2135.21,
-      "publicTotal": 2247.6,
-      "status": "悉尼后备：Adina售罄时改订；港景两卧为2 King不合格",
-      "sourceUrl": "https://all.accor.com/hotel/8779/index.en.shtml"
-    },
     {
       "id": "peppers12",
       "property": "Peppers Bluewater Resort",
@@ -5198,57 +5645,47 @@
       "perPersonNative": 539.3333333333334,
       "perPersonCNY": 2031.2371999999998,
       "bathrooms": 1,
-      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间，Tesoro有2个；Peppers不可退且Twin需书面保证"
+      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间（现订的Alpine Nook也只有1个）；不可退，两张单人床要书面保证；NZD1,618是10/25的报价，之后没再查"
     },
     {
       "property": "Clearbrook Motel & Serviced Apartments",
       "dates": "2026-11-22–23",
-      "status": "10/22官网直订与Booking均售罄，已改Fairway"
-    },
-    {
-      "property": "Airbnb19101552",
-      "dates": "2026-11-23–26",
-      "status": "实查不可订；不得使用旧两晚报价"
-    },
-    {
-      "property": "Cosmopolitan Heights Hosted by L'Abode",
-      "dates": "2026-11-16–19",
-      "status": "10/27换掉：Booking 8.3分（33条）、员工6.9；三人只有1张门禁卡，钥匙在外面的KeyNest点取还（工作日07:00才开，11/19清晨用不了）；第二间是两张单人床拼的大床，要拆开常被漏掉"
+      "status": "10/22售罄；11/2再查两卧又有房（官网NZ$539，约11/8前免费取消），但只有两间卧室、其中一间是夹层，不比现在的住处好，没换"
     },
     {
       "property": "Tesoro",
       "dates": "2026-11-20–22",
-      "status": "10/27 Booking和Book Tekapo官网都已无房"
+      "status": "10/27 Booking和Book Tekapo官网都已无房；11/2再查仍无房，免费取消截止前继续盯"
     },
     {
       "property": "Tudor Rose",
       "dates": "2026-11-20–22",
-      "status": "Booking 9.4分但只有15条点评；1979年老房，2026年点评说只有一个浴室好用、电器旧"
+      "status": "10/27查：Booking 9.4分但只有15条点评；1979年老房，2026年点评说只有一个浴室好用、电器旧"
     },
     {
       "property": "White Peaks",
       "dates": "2026-11-20–22",
-      "status": "1966年老房，两卧一卫；Booking写23:00–07:00不能进门，和看星星冲突"
+      "status": "10/27查：1966年老房，两卧一卫；Booking写23:00–07:00不能进门，和看星星冲突"
     },
     {
       "property": "Fairway Motel & Apartments",
       "dates": "2026-11-22–23",
-      "status": "瓦纳卡后备：Booking 8.2分、清洁8.6，楼旧、临SH84有车声；两卧NZD619"
+      "status": "10/27时的瓦纳卡后备（现在后备是Archway）：Booking 8.2分、清洁8.6，楼旧、临SH84有车声；两卧NZD619（10/27价）"
     },
     {
       "property": "West Meadows Motel of Wanaka",
       "dates": "2026-11-22–23",
-      "status": "9.3分、清洁9.7、2023年翻新，但11/22两卧无房"
-    },
-    {
-      "property": "A by Adina Sydney",
-      "dates": "2026-11-16–19",
-      "status": "Wynyard对面、2021年开业，11/16–19三人无房"
+      "status": "10/27查：9.3分、清洁9.7、2023年翻新，但11/22两卧无房"
     },
     {
       "property": "Twin Stars",
       "dates": "2026-11-20–22",
-      "status": "10/27选定，10/29 Booking已无房"
+      "status": "10/27选定，10/29 Booking已无房；11/2再查仍无房，免费取消截止前继续盯"
+    },
+    {
+      "property": "Snowy Peak Apartment",
+      "dates": "2026-11-20–22",
+      "status": "10/29选定，11/1复查已订满，改Alpine Nook；11/2再查仍无房，免费取消截止前继续盯"
     },
     {
       "property": "Archway Motels & Chalets",
@@ -5282,7 +5719,7 @@
         "user"
       ],
       "title": "携程订吉祥多程票HO1655（吉祥航空）＋HO1670（吉祥航空，¥7,756那档）",
-      "detail": "多程：上海→墨尔本11/17、悉尼→上海11/30。不得退票（可退税费¥830），起飞前免费改期。姓名拼写与护照一致，不加购保障服务。",
+      "detail": "多程：上海→墨尔本11/17、悉尼→上海11/30。不得退票（可退税费¥830），起飞前免费改期。姓名拼写与护照一致，不加购保障服务。下单前先在VEVO（澳洲签证在线查询）核对自己的澳签：Entries（入境次数）是Multiple（多次）、最晚入境日晚于11/26、停留期覆盖到11/30。",
       "sourceIds": [
         "f-ho-multi"
       ]
@@ -5294,13 +5731,15 @@
         "user"
       ],
       "title": "尽早订：携程订特卡波Alpine Nook（山间小居度假屋）、皇后镇Blue Peaks（蓝色山峰），Booking（缤客订房网）订基督城Gloucester Street（格洛斯特街）公寓，爱彼迎订瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）",
-      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（11/20 23:59前，仅剩2间）；这两家携程下单即付款。Gloucester Street（格洛斯特街）两卧两卫公寓NZ$412（Booking（缤客订房网），11/14前免费取消、11/12前不付款），订后问房东停车。Tranquility on Parkhill（帕克希尔的宁静）三卧两卫¥2,640（爱彼迎，11/8前下单可先订后付，11/21前免费取消），订后留言三位成人、约15:00到；订不到就订Archway（拱门汽车旅馆）三卧（携程¥1,915，新西兰时间11/20 14:00前免费取消）。",
+      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（新西兰时间11/20 23:59前，仅剩2间）；这两家携程下单即付款。Gloucester Street（格洛斯特街）两卧两卫公寓NZ$412（Booking（缤客订房网），新西兰时间11/13 23:59前免费取消，即北京时间18:59；11/12才扣款）：没有专用车位、三层只能走楼梯；订后看房东消息，要做身份验证或交押金就尽早办，才能拿到门牌和门锁密码。Tranquility on Parkhill（帕克希尔的宁静）三卧两卫¥2,640（爱彼迎，11/8前下单可先订后付，11/21前免费取消），订后留言三位成人、约15:00到；订不到就订Archway（拱门汽车旅馆）三卧（携程¥1,915，新西兰时间11/20 14:00前免费取消）。",
       "sourceIds": [
         "c-alpinenook",
         "c-bluepeaks",
         "b-gloucester",
         "a-parkhill",
-        "c-archway"
+        "c-archway",
+        "x-gloucester-airbnb",
+        "x-booking-cancel-time"
       ]
     },
     {
@@ -5309,10 +5748,23 @@
       "who": [
         "user"
       ],
-      "title": "邮件问Apex（新西兰租车公司）：玻璃轮胎保障、三只30寸箱、航班延误改期",
-      "detail": "英文询问稿已备好，请会英语的朋友发送。取车14天前（11/5）取消免费。",
+      "title": "邮件问APEX（新西兰租车公司）：玻璃轮胎保障、三只29/30寸箱、驾照、航班延误改期",
+      "detail": "英文询问稿11/2已按14天新方案重写（APEX（新西兰租车公司）一段，加上基督城公寓、特卡波、瓦纳卡爱彼迎、皇后镇、悉尼Adina（阿迪娜公寓酒店）订好后发给房东的几段），请会英语的朋友核对后发送。答复来不及也先订车（见“订APEX”那条）：北京时间11/5 12:00以前取消免费。",
       "sourceIds": [
         "r-apex-faq"
+      ]
+    },
+    {
+      "id": "apex-book",
+      "due": "asap",
+      "who": [
+        "user"
+      ],
+      "title": "订APEX（新西兰租车公司）：北京时间11/5 12:00前订好，才有免费取消期",
+      "detail": "11/19 17:00基督城门店取、11/26 12:00皇后镇还，Santa Fe（胜达）或同级＋Maximum（零自付额全险）＋Roadside（道路救援），官网10/21报价NZ$1,631.56；订之前按同样的日期、车型和保障在官网重新报价，价格变了预算要跟着改。取车前超过14天取消免费：取车是新西兰时间11/19 17:00，免费取消到新西兰时间11/5 17:00，也就是北京时间11/5（周四）12:00，保守起见11/4前订好；之后到取车前24小时取消收20%（最多NZ$100），24小时内或没到场收50%（最多NZ$200），11/5以后才订就没有免费取消期。官网写订车时不收订金，但按付款条件也可能下单就扣全款。最好先拿到玻璃轮胎的书面答复；来不及就先订，答复不满意就在免费取消截止前取消。",
+      "sourceIds": [
+        "r-apex-faq-cancel",
+        "r-apex-booking"
       ]
     },
     {
@@ -5322,9 +5774,11 @@
         "user"
       ],
       "title": "订悉尼Adina（阿迪娜公寓酒店）尊贵两卧室公寓11/26–30四晚（可免费取消价）",
-      "detail": "尊贵两卧（两张单人床＋一张大床、两个卫生间）可退价NZ$4,050，只剩1套，11/25前免费取消；订时备注第二间铺两张单人床。",
+      "detail": "尊贵两卧（两张单人床＋一张大床、两个卫生间）可退价NZ$4,050，只剩1套，悉尼时间11/24 23:59前免费取消（新西兰时间11/25 01:59，北京时间20:59）；订时备注三位成人，按Booking（缤客订房网）房型写的保留卧室1两张单人床、卧室2一张大床（三人各睡一张床）；再备注要高楼层、远离北侧的房间（北面约100米有在建酒店工地）。",
       "sourceIds": [
-        "b-adina"
+        "b-adina",
+        "x-florin",
+        "x-booking-cancel-time"
       ]
     },
     {
@@ -5347,7 +5801,9 @@
       "id": "nz-visa-decide",
       "due": "2026-11-03",
       "who": [
-        "user"
+        "user",
+        "tokyo",
+        "melbourne"
       ],
       "title": "决定：东京同学要不要申请新西兰访客签证作保险；问墨尔本同学有没有正式驾照",
       "detail": "①澳签赶不上时，想让东京同学从东京直飞新西兰、照样当第二司机，就要另办新西兰访客签证：网上申请，NZ$441起；INZ（新西兰移民局）写八成在2周内出结果、9–3月最忙，建议批下来前不买不可退的票。所以最好11/3、最晚11/5递交；批了再订东京经奥克兰到基督城、皇后镇经奥克兰回东京的机票（不经澳洲），11/19 17:00在基督城APEX（新西兰租车公司）门店本人登记为第二司机。不申请，这个备选就没有了。②问墨尔本同学有没有澳洲正式驾照：APEX不收P1/P2实习驾照，附加司机要满21岁、取车时本人到场。东京同学来不了时，有正式驾照的墨尔本同学可以当第二司机；不然新西兰段约950–1000km由你一人开。",
@@ -5391,10 +5847,10 @@
       "who": [
         "user"
       ],
-      "title": "Apex（新西兰租车公司）租车免费取消截止（取车14天前）",
-      "detail": "之后到取车前24小时取消收20%（最多NZ$100）。",
+      "title": "Apex（新西兰租车公司）免费取消截止（北京时间11/5 12:00，取车前14天）",
+      "detail": "已订车才看这条：新西兰时间11/5 17:00（北京时间12:00）以前取消免费；之后到取车前24小时取消收20%（最多NZ$100），24小时内或没到场收50%（最多NZ$200）。",
       "sourceIds": [
-        "r-apex-faq"
+        "r-apex-faq-cancel"
       ]
     },
     {
@@ -5404,7 +5860,7 @@
         "all"
       ],
       "title": "东京同学澳签决策日",
-      "detail": "仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。Alpine Nook（山间小居度假屋）新西兰时间11/12 23:59前都能免费取消；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。下签后先看Entries（入境次数）：单次入境的人离开澳洲后要另办签证才能回来，11/26就回不了悉尼。",
+      "detail": "两人方案（建议，可以改）：你和墨尔本同学照原路线走，住处和车照订、改两人分摊，按现价每人约多¥7,372–7,485；新西兰段第二司机是有澳洲正式驾照的墨尔本同学，没有就你一人开；你们两人11/7照常出QF167（澳洲航空）和NZ231（新西兰航空），米尔福德先订两人；东京同学之后下签，再单独买机票、加订米尔福德（看余位），最晚11/15办NZeTA（新西兰电子旅行授权）。仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。Alpine Nook（山间小居度假屋）新西兰时间11/12 23:59前都能免费取消；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。下签后先看Entries（入境次数）：单次入境的人离开澳洲后要另办签证才能回来，11/26就回不了悉尼。",
       "sourceIds": [
         "x-nzeta-req",
         "x-visa-times",
@@ -5418,7 +5874,7 @@
         "all"
       ],
       "title": "三人订QF167（澳洲航空，11/19墨尔本→基督城）和NZ231（新西兰航空，11/26皇后镇→悉尼）",
-      "detail": "两张都不能退。东京同学下签后，先在批准信或VEVO（澳洲签证在线查询）看三项：①签证类别是600；②Entries（入境次数）是Multiple（多次）；③Must not arrive after（最晚入境日）和有效期都晚于11/26。三项都对，再马上一起出票（价格会涨）；如果是单次入境，东京同学就不买NZ231（新西兰航空），回程见“东京同学订机票”那条。NZ231也是墨尔本值机时要查的“离开新西兰机票”，只对能再次入境澳洲的人算数。QF167（澳洲航空）托运合计30kg。NZ231携程11/2已搜不到（航班照飞），在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定：官网最便宜的Seat（仅座位）票价（11/2 NZ$637）只含手提，要选theworks（标准经济舱票，含1件23kg），或订完马上在官网Manage booking（管理预订）里每人加1件托运NZ$30，别等到机场（每件NZ$115）；Trip.com 11/2约¥2,550，下单前看清含不含托运。",
+      "detail": "两张都不能退。11/7东京同学还没下签，就按两人方案：你和墨尔本同学先出票，东京同学下签后再单独买。东京同学下签后，先在批准信或VEVO（澳洲签证在线查询）看三项：①签证类别是600；②Entries（入境次数）是Multiple（多次）；③Must not arrive after（最晚入境日）和有效期都晚于11/26。三项都对，再马上一起出票（价格会涨）；如果是单次入境，东京同学就不买NZ231（新西兰航空），回程见“东京同学订机票”那条。NZ231也是墨尔本值机时要查的“离开新西兰机票”，只对能再次入境澳洲的人算数。QF167（澳洲航空）托运合计30kg。NZ231携程11/2已搜不到（航班照飞），在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定：官网最便宜的Seat（仅座位）票价（11/2 NZ$637）只含手提，要选theworks（标准经济舱票，含1件23kg），或订完马上在官网Manage booking（管理预订）里每人加1件托运NZ$30，别等到机场（每件NZ$115）；Trip.com 11/2约¥2,550，下单前看清含不含托运。",
       "sourceIds": [
         "f-qf167",
         "f-nz231-recheck",
@@ -5430,13 +5886,26 @@
       ]
     },
     {
+      "id": "milford-book",
+      "due": "2026-11-07",
+      "who": [
+        "user"
+      ],
+      "title": "在RealNZ（米尔福德游船巴士运营商）官网订11/24米尔福德大巴＋游船（07:35场，三人NZ$957）",
+      "detail": "在RealNZ（米尔福德游船巴士运营商）官网直接订从皇后镇出发的Classic Cruise（经典游船）＋往返大巴，不在第三方平台订（退改规则不一样）。上车点选Upper Stanley Street（上斯坦利街）车站，地址11 Stanley Street（斯坦利街），07:40上车、提前10分钟到，以确认邮件为准。东京同学没下签就先订两人。官网直接订的，在出发前24小时、也就是新西兰时间11/23 07:35（北京时间02:35）以前，可以免费改期、改人数或退款，之后不退；按新西兰元收款，退款可能有汇率差，发卡行手续费不退。",
+      "sourceIds": [
+        "x-milford",
+        "x-realnz-terms"
+      ]
+    },
+    {
       "id": "tokyo-flights",
       "due": "2026-11-07",
       "who": [
         "tokyo"
       ],
       "title": "东京同学订东京→墨尔本（11/18到）和悉尼→东京的机票",
-      "detail": "到墨尔本最好在11/18白天。悉尼→东京这张，等在批准信或VEVO（澳洲签证在线查询）确认Entries（入境次数）是Multiple（多次）以后再买；如果是单次入境，改订从新西兰直接回东京（如皇后镇经奥克兰），不经澳洲：中国护照不在澳洲免签过境名单上，经澳洲转机也要签证。",
+      "detail": "到墨尔本最好在11/18白天。悉尼→东京这张，等在批准信或VEVO（澳洲签证在线查询）确认Entries（入境次数）是Multiple（多次）以后再买；如果是单次入境，改订从新西兰直接回东京（如皇后镇经奥克兰），不经澳洲：中国护照不在澳洲免签过境名单上，经澳洲转机也要签证。东京→墨尔本这张也等澳签批下来再买，或买可退的票。悉尼Adina（阿迪娜公寓酒店）订到11/30 11:00退房：晚走的人11:00前退房，12/1以后走要自己订住处。",
       "sourceIds": [
         "x-au-600",
         "x-au-twov"
@@ -5449,7 +5918,7 @@
         "melbourne"
       ],
       "title": "墨尔本同学订悉尼→墨尔本的回程",
-      "detail": "11/26之后，按自己时间。",
+      "detail": "11/26之后，按自己时间。悉尼Adina（阿迪娜公寓酒店）订到11/30 11:00退房：墨尔本同学比你晚走的话，11:00前退房；12/1以后走要自己订住处。",
       "sourceIds": []
     },
     {
@@ -5468,13 +5937,31 @@
       "id": "measure-bags",
       "due": "2026-11-10",
       "who": [
-        "user"
+        "all"
       ],
-      "title": "量箱子含轮含把手的三边和",
-      "detail": "含轮含把手量三边和，不拉开扩展层。吉祥、澳航、新航都是每件≤158cm；超了就换28寸或75cm级箱子。",
+      "title": "三人各自量箱子含轮含把手的三边和",
+      "detail": "含轮含把手量三边和，不拉开扩展层。三人都坐QF167（澳洲航空）和NZ231（新西兰航空），每件都要≤158cm（吉祥也是）。超了就在11/10前换实测≤158cm的箱子（75cm级；28寸也要量）：澳航没有公布超尺寸收费，可能当场要求重新装箱或拒收；吉祥每段每件¥600，新航每件NZ$80。墨尔本同学回程如果坐澳航的悉尼→墨尔本国内航班，每件上限是140cm。",
       "sourceIds": [
+        "x-qf-bags",
+        "x-qf-bagdrop",
+        "x-qf-coc",
         "x-ho-bags",
-        "f-nz-bags"
+        "f-nz-bags",
+        "x-nz-excess"
+      ]
+    },
+    {
+      "id": "stkilda-penguins",
+      "due": "2026-11-10",
+      "who": [
+        "melbourne"
+      ],
+      "title": "墨尔本同学抢11/18圣基尔达小企鹅第1场免费票（三张）",
+      "detail": "官网每周二墨尔本10:00（北京07:00、东京08:00）放下一周的票，很快订完。11/10（周二）放票时先看有没有11/18，有就马上订；没有就11/17（周二）同一时间再抢，之后可以每天刷退票。订票留墨尔本同学的手机号，当天会发短信提醒；一次订不了三张就分开订。11/2查时，已放出日期的第1场都订完了，第2场当天还有票：第1场没抢到可以订第2场，但要很晚才回酒店，见11/18行程。",
+      "sourceIds": [
+        "x-stkilda-penguins",
+        "x-stkilda-booking",
+        "x-stkilda-calendar"
       ]
     },
     {
@@ -5495,22 +5982,24 @@
       "who": [
         "user"
       ],
-      "title": "Gloucester Street（格洛斯特街）公寓免费取消截止（11/14前）",
-      "detail": "Booking（缤客订房网）订的，11/12才扣款；行程有变就在11/14前取消。",
+      "title": "Gloucester Street（格洛斯特街）公寓免费取消截止（新西兰时间11/13 23:59，北京时间18:59）",
+      "detail": "Booking（缤客订房网）订的，新西兰时间11/12才扣款。行程有变就在北京时间11/13 18:59前取消：Booking页面写的“11/14前”指新西兰当地时间，北京时间11/13晚上7点以后再取消就晚了。",
       "sourceIds": [
-        "b-gloucester"
+        "b-gloucester",
+        "x-booking-cancel-time"
       ]
     },
     {
       "id": "insurance",
       "due": "2026-11-14",
       "who": [
-        "all"
+        "user"
       ],
-      "title": "买旅行险",
-      "detail": "按11/17–11/30共14天投保（11/17下午出境），在官网按真实生日重新试算；须出境前投保。",
+      "title": "买旅行险（你，安联）",
+      "detail": "按11/17–11/30共14天投保（11/17下午出境），在官网按真实生日重新试算；须出境前投保。豪华版还是至尊版由你定：两档的随身财产都最多赔¥5,000、都不保相机；至尊版多了境外自驾车意外身故和伤残10万元（这次自驾7天）和商旅设备遗失¥5,000，境外住院医疗也更高（100万元，豪华版60万元）。",
       "sourceIds": [
-        "x-insurance"
+        "x-insurance",
+        "x-allianz-benefits"
       ]
     },
     {
@@ -5523,6 +6012,62 @@
       "detail": "米尔福德公路和Lindis Pass（林迪斯山口）一带没有信号。",
       "sourceIds": [
         "x-esim"
+      ]
+    },
+    {
+      "id": "gear-cover",
+      "due": "2026-11-14",
+      "who": [
+        "user"
+      ],
+      "title": "决定：相机和镜头要不要另买器材保障",
+      "detail": "安联畅游全球的“旅行者行李及随身财产”每件或每套限¥1,000，豪华版和至尊版合计最多¥5,000，而且手机、平板电脑、笔记本电脑以外的数码电子产品和配件都不在保障里：Z6III（尼康全画幅相机）、24–120mm、16mm（带的话还有Mini 5 Pro（大疆小型无人机））基本不保。至尊版另有“商旅设备遗失”¥5,000，页面没写包不包括相机，投保前打安联客服95342问清。三选一：①另买专门的摄影器材险；②查自己的信用卡有没有附带的物品保障；③都不买，就定规矩：相机和镜头随身带，不留在车里过夜（基督城住处只能路边停车）。定了以后网站再按你选的改。",
+      "sourceIds": [
+        "x-allianz-benefits",
+        "b-gloucester"
+      ]
+    },
+    {
+      "id": "sms-roaming",
+      "due": "2026-11-14",
+      "who": [
+        "all"
+      ],
+      "title": "手机号开国际漫游，在澳新也能收短信验证码",
+      "detail": "eSIM（电子手机卡）只有数据。银行卡网上付款的短信验证码、航司改时间的短信都发到你们平时用的号（你是国内号，东京同学是日本号，墨尔本同学的澳洲号到了新西兰也要漫游）：出发前在运营商App（手机应用）里开通国际漫游，确认手机能让eSIM和国内卡同时在线（上网走eSIM，原来的卡只收短信，关掉它的数据漫游）。11/18在墨尔本先用一笔小额网上付款试一下能不能收到验证码。携程、Booking（缤客订房网）、爱彼迎、澳航、新航、APEX（新西兰租车公司）、RealNZ（米尔福德游船巴士运营商）的订单都留能收短信的号码和邮箱，装好航司App、打开通知。",
+      "sourceIds": [
+        "x-esim"
+      ]
+    },
+    {
+      "id": "batteries",
+      "due": "2026-11-14",
+      "who": [
+        "all"
+      ],
+      "title": "清点充电宝和备用电池",
+      "detail": "每人充电宝最多2个，每个不超过100Wh（瓦时），只能随身。你从浦东坐吉祥：充电宝要有清晰的3C（中国强制性产品认证）标志，再到市场监管总局缺陷产品召回技术中心网站查一下是不是召回批次（境内航班不能带无3C或召回的充电宝）。相机和无人机的备用电池看电池上印的Wh，每块单独防短路、只能随身。携程上附的吉祥规定写备用电池每人限带2块，澳航和新航每人最多20块（含充电宝）；你要带3块以上，出发前打吉祥95520问清再定带几块。",
+      "sourceIds": [
+        "x-ho-powerbank",
+        "x-caac-3c",
+        "x-ho-spare",
+        "x-qf-batteries",
+        "x-airnz-batteries"
+      ]
+    },
+    {
+      "id": "friends-insurance",
+      "due": "2026-11-14",
+      "who": [
+        "tokyo",
+        "melbourne"
+      ],
+      "title": "两位同学各自买旅行险",
+      "detail": "安联这款只承保从中国大陆出发的人。两位同学各自在出发地买覆盖澳洲和新西兰的旅行险：要含医疗、救援送返，新西兰段要开车的人还要看含不含境外自驾，按自己的出入境日期投保。墨尔本同学的学生保险是否覆盖新西兰，要书面确认，不能默认。相机等器材多数保险不保或限额很低，贵重的随身带。",
+      "sourceIds": [
+        "x-acc",
+        "x-insurance",
+        "x-allianz-benefits"
       ]
     },
     {
@@ -5551,6 +6096,30 @@
       "sourceIds": [
         "a-parkhill",
         "x-airbnb-paylater"
+      ]
+    },
+    {
+      "id": "offline-copy",
+      "due": "2026-11-16",
+      "who": [
+        "all"
+      ],
+      "title": "出发前把网站存一份PDF（便携文档），每天截图当天行程",
+      "detail": "网站没网就打不开，地图和照片也要联网加载；eSIM（电子手机卡）出问题或山里没信号时会看不了，所以出发前存一份PDF（便携文档）。11/16你在电脑上打开网站，点右上角“打印”，在打印窗口选“另存为PDF”，存下完整14天行程、行前须知和待办，发到群里，三人都存进手机（手机上没有打印按钮）。之后网站还会改，有网时以网站为准。每天出门前把当天行程截图；护照资料页、签证批准信、NZeTA（新西兰电子旅行授权）确认邮件、保单和订单确认也截图或拍照，只存在自己手机里。",
+      "sourceIds": []
+    },
+    {
+      "id": "customs-gear",
+      "due": "2026-11-16",
+      "who": [
+        "user"
+      ],
+      "title": "决定：相机镜头要不要在浦东出境时登记（先打12360问）",
+      "detail": "2025年4月起施行的《海关进出境行李物品监管办法》（署令第276号）第13条：暂时带出境、还要带回来的物品，可以在出境时向海关申报登记，回国时海关凭登记记录放行；旧的2007年公告要求单价超过5,000元的相机出境申报，2025年4月已废止，现在是“可以”，不是“必须”。登记过的相机镜头回国时免税，不算进¥5,000免税额。出发前打海关热线12360（外地拨021-12360）问浦东T2（2号航站楼）出境登记在哪办、大概多久，再决定办不办；要办可以先在微信或支付宝的“海关进出境人员指尖服务”小程序预填申报。不登记，就把国内购买发票或订单截图存在手机里，拍下机身和镜头的序列号，回国被问时能说明是带出去的。",
+      "sourceIds": [
+        "x-customs-276",
+        "x-customs-43",
+        "x-customs-taxfree"
       ]
     },
     {
@@ -5586,10 +6155,11 @@
         "user"
       ],
       "title": "看NZTA（新西兰交通局）路况：SH1（1号国道） Rangitata（朗伊塔塔）桥、SH6（6号国道） Nevis Bluff（内维斯崖）和Kawarau Gorge（卡瓦劳峡谷）、SH94（94号国道）",
-      "detail": "NZTA（新西兰交通局）通常只提前1–2周公布施工；11/24早上07:30再看米尔福德公路。",
+      "detail": "NZTA（新西兰交通局）通常只提前1–2周公布施工；米尔福德公路和峡湾预报在11/22晚上再看一次，决定要不要改期（见“米尔福德要不要改到11/25”那条）；11/24早上只看RealNZ（米尔福德游船巴士运营商）的通知。",
       "sourceIds": [
         "x-nzta-list",
-        "x-rangitata"
+        "x-rangitata",
+        "x-nzta-sh94-night"
       ]
     },
     {
@@ -5614,6 +6184,51 @@
       "detail": "携程订的已付款；订“两卧室公寓”（一张大床＋两张单人床），备注三位成人、要翻新过的单元。",
       "sourceIds": [
         "c-bluepeaks"
+      ]
+    },
+    {
+      "id": "bluemtn-decide",
+      "due": "2026-11-20",
+      "who": [
+        "user"
+      ],
+      "title": "决定11/29蓝山一日游：坐替代巴士去，还是和11/27对调",
+      "detail": "Transport NSW（新州交通）通告：11/28–29蓝山线施工，Blacktown（黑镇）以西全部改巴士，这两天Central Station（中央车站）到Katoomba（卡通巴）没有火车；11/27（周五）中央车站到Katoomba照常有火车，部分班次改时刻。①对调：11/27坐火车去蓝山（周五Scenic World（景观世界） 10:00–16:00），代价是11/26晚上刚从新西兰到，第二天一早就要出门；岩石区和大桥这一天挪到11/29（周日）：BridgeMuseum（大桥博物馆）周日17:00停止入场，天文台周日开，岩石区市集周日10:00–17:00，11/29也没有邮轮停海外客运码头；那天清晨日出就不拍了，午休时先收好行李，约20:45回公寓。②还是11/29去：从中央车站坐T1 Western Line（T1西线火车）到Blacktown换替代巴士，单程估计2.5小时以上（推断，官方没写），07:00前出门。③不去蓝山，11/29在市区休息、收拾行李。定了以后网站再按你选的改。",
+      "sourceIds": [
+        "x-bm-trackwork",
+        "x-scenicworld",
+        "x-bridgemuseum",
+        "x-syd-observatory",
+        "x-rocks-market",
+        "x-cruise"
+      ]
+    },
+    {
+      "id": "milford-swap",
+      "due": "2026-11-22",
+      "who": [
+        "user"
+      ],
+      "title": "决定米尔福德要不要改到11/25（免费改期截止：新西兰时间11/23 07:35，北京时间02:35）",
+      "detail": "11/22晚上在瓦纳卡看MetService（新西兰气象局）的Milford Sound（米尔福德峡湾）预报和NZTA（新西兰交通局）米尔福德公路通告。11/24很差、11/25好一些，就先看11/25还有没有3个座位，再在截止前到RealNZ（米尔福德游船巴士运营商）官网把米尔福德改到11/25，和Glenorchy（格林诺奇）对调；过了截止不能免费改，11/24当天只有运营方取消才能换。",
+      "sourceIds": [
+        "x-milford",
+        "x-realnz-terms",
+        "x-metservice-milford",
+        "w-nztaRoads"
+      ]
+    },
+    {
+      "id": "adina-cancel",
+      "due": "2026-11-23",
+      "who": [
+        "user"
+      ],
+      "title": "Adina（阿迪娜公寓酒店）免费取消截止（悉尼时间11/24 23:59，新西兰时间11/25 01:59，北京时间20:59）",
+      "detail": "Booking（缤客订房网）订的，悉尼时间11/23（新西兰时间11/23凌晨2点起）才扣全款。要取消最好11/23晚上在皇后镇办：11/24去米尔福德，路上大段没信号；最晚是11/24晚上约20:15回到皇后镇以后、新西兰时间11/25 01:59以前。",
+      "sourceIds": [
+        "b-adina",
+        "x-booking-cancel-time"
       ]
     },
     {
@@ -5834,7 +6449,8 @@
         "title": "蓝山（可选）",
         "region": "au",
         "points": [
-          "坐火车约2小时去卡通巴，看三姐妹峰",
+          "注意：11/28–29蓝山线停运，要坐替代巴士，单程估计2.5小时以上",
+          "要不要和11/27（周五有火车）对调，11/20前定",
           "晚上收拾行李，早睡"
         ],
         "stay": "悉尼"
@@ -5858,7 +6474,7 @@
       },
       {
         "leg": "特卡波 ⇄ 库克山",
-        "time": "单程约1小时15分"
+        "time": "单程约1小时15–30分"
       },
       {
         "leg": "特卡波 → 瓦纳卡",
@@ -5880,8 +6496,10 @@
     "tips": [
       "新西兰段两人轮流开车，靠左行驶；山区没信号，先下载离线地图。",
       "中国护照持澳签：先在墨尔本入境，再飞新西兰，才能用NZeTA（新西兰电子旅行授权）。三人各自用App（手机应用）申请，最晚11/15。",
+      "两位同学先在VEVO（澳洲签证在线查询）查自己的澳签：Entries（入境次数）要Multiple（多次）、有效期过11/26；过桥签证A、C、E一出境就失效。11/3定东京同学要不要另办新西兰访客签证作保险（见行前待办）。",
       "澳洲航空QF167和新西兰航空NZ231三人都要买；NZ231要选含1件23kg托运的票价（最便宜的只含手提），箱子三边和不超过158cm。",
-      "米尔福德和格林诺奇两天，天气不好可以对调。",
+      "米尔福德（11/24）和格林诺奇（11/25）想因天气对调，最晚新西兰时间11/23 07:35前在RealNZ（米尔福德游船巴士运营商）官网改期；11/24当天只有运营方取消才能换。",
+      "这个网站没网打不开：出发前存一份PDF（便携文档），每天出门前截图当天行程。",
       "全部还没预订；价格和住处以下面的详细行程为准。"
     ],
     "art": {
