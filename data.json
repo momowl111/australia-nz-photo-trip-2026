@@ -490,11 +490,11 @@
       "title": "睡足后出发，约翰山看湖，傍晚拍教堂",
       "area": "基督城→Tekapo（特卡波）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "alpinenook",
-      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Alpine Nook（山间小居度假屋）入住休息，傍晚拍教堂。",
+      "hotelId": "milkyway",
+      "summary": "09:30出发，经Geraldine（杰拉尔丁）午餐，14:00左右到Tekapo（特卡波）先上Mt John（约翰山）看湖全景；15:30后去Milky Way Views（银河美景）自助入住、休息做饭，傍晚拍教堂；特卡波只住这一晚。",
       "drive": "自驾 · 约3.2小时纯驾驶，另加Mt John（约翰山）上下山约40分钟；全程开车最长的一天，也是第一次长途靠左开",
       "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
-      "weatherPlan": "云低或大风就跳过Mt John（约翰山，山顶看不到湖色还很冷），直接入住。当天先熟悉左侧通行，不加库克山往返。若到Tekapo（特卡波）遇大风或大雨，直接休息；湖岸外拍可用翌日晚间补。",
+      "weatherPlan": "云低或大风就跳过Mt John（约翰山，山顶看不到湖色还很冷），直接入住。当天先熟悉左侧通行，不加库克山往返。若到Tekapo（特卡波）遇大风或大雨，直接休息；明晚在普卡基湖拍Aoraki（奥拉基/库克山）晚霞，教堂这次就不补拍了。",
       "events": [
         {
           "time": "08:00",
@@ -534,7 +534,7 @@
           "placeId": "geraldine",
           "place": "Geraldine（杰拉尔丁）镇中心",
           "kind": "meal",
-          "detail": "早午餐、厕所与伸展，司机至少完整休息一段再走。顺路在镇上的FreshChoice（新鲜之选）超市（7 Peel Street（皮尔街），每天07:00–20:00）买Alpine Nook（山间小居度假屋）两晚的早晚餐，约20分钟；Tekapo（特卡波）只有一家小超市。",
+          "detail": "早午餐、厕所与伸展，司机至少完整休息一段再走。顺路在镇上的FreshChoice（新鲜之选）超市（7 Peel Street（皮尔街），每天07:00–20:00）买今晚的晚饭和明早的早餐（特卡波只住一晚，明早07:00吃完就出发），约20分钟；Tekapo（特卡波）只有一家小超市。",
           "photoTip": "",
           "lat": -44.094,
           "lon": 171.246,
@@ -546,18 +546,18 @@
         {
           "time": "12:40",
           "endTime": "14:00",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
+          "placeId": "milkyway",
+          "place": "Milky Way Views（银河美景）住处",
           "kind": "drive",
-          "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时20分钟含交通缓冲；实际入住以酒店规定为准。",
+          "detail": "经Fairlie（费尔利）到Tekapo（特卡波），预留约1小时20分钟含交通缓冲；先上Mt John（约翰山），15:00后才能入住。",
           "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "lat": -44.00972,
+          "lon": 170.49196,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和钥匙盒密码房东订后发。",
           "sourceIds": [
             "i-nz-route",
             "i-road-conditions",
-            "b-alpinenook"
+            "a-milkyway"
           ]
         },
         {
@@ -578,16 +578,16 @@
         {
           "time": "15:30",
           "endTime": "19:05",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
+          "placeId": "milkyway",
+          "place": "Milky Way Views（银河美景）住处",
           "kind": "rest",
-          "detail": "Alpine Nook（山间小居度假屋）在12 O'Neill Place（奥尼尔巷），15:00–23:30入住，须提前告诉房东预计到达时间；三卧一卫，三人各一间。入住后休息、做晚饭，傍晚再出门拍教堂。",
+          "detail": "开到Milky Way Views（银河美景，门牌和钥匙盒密码房东订后在爱彼迎发），15:00后用钥匙盒自助入住，车停房子的免费车位。两层湖景房，四间卧室各一张约1.5米双人床，三人各住一间、两个卫生间；楼上客厅有大窗看湖。热水是储水罐、量有限（房东说约够洗15分钟，有住客说人多会用完）：三人错开洗、每人洗快一点。房源写隔壁在施工，白天可能有噪音。入住后休息、做晚饭，傍晚再出门拍教堂。",
           "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "lat": -44.00972,
+          "lon": 170.49196,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和钥匙盒密码房东订后发。",
           "sourceIds": [
-            "b-alpinenook"
+            "a-milkyway"
           ]
         },
         {
@@ -596,7 +596,7 @@
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd（好牧羊人教堂）公共外部",
           "kind": "photo",
-          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Alpine Nook（山间小居度假屋）离镇中心约1.1km，开车几分钟。",
+          "detail": "教堂围栏内院落夏令时09:00–20:00开放，20:00关门，夜间不得进入、勿翻门，也可能因婚礼或葬礼临时关闭。晚餐提前一点结束，19:15–19:55先在围栏内拍教堂近景和湖山；20:00后转到围栏外的公共湖岸或人行桥一侧等20:49日落和蓝调，民用暮光约21:23结束，21:30收工。停车用人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少；厕所也在镇子一侧。Milky Way Views（银河美景）离教堂和镇中心约1–1.5km，开车几分钟。",
           "photoTip": "Z6III（尼康全画幅相机）＋24–120mm先拍山层，日落后用70–120mm把教堂拍成中远景、带湖岸前景；脚架用于蓝调。教堂内禁止拍照，整个Takapō（特卡波毛利语名）镇禁飞无人机。",
           "lat": -44.003,
           "lon": 170.482,
@@ -610,17 +610,18 @@
         {
           "time": "21:30",
           "endTime": "22:00",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
+          "placeId": "milkyway",
+          "place": "Milky Way Views（银河美景）住处",
           "kind": "rest",
-          "detail": "短程返回住宿，备份后休息；今晚不再加月光或银河拍摄。",
+          "detail": "短程返回住处，备份后休息；今晚不再加月光或银河拍摄，也不参加凌晨的观星团（11/2查，三人能一起订的英文团只有01:30的Crater（陨坑观星团），普通话夜场已满）。明早07:00早餐、08:00出发去库克山。",
           "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "lat": -44.00972,
+          "lon": 170.49196,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和钥匙盒密码房东订后发。",
           "sourceIds": [
             "i-driver-rest",
-            "b-alpinenook"
+            "a-milkyway",
+            "x-dsp-crater"
           ]
         }
       ],
@@ -630,70 +631,41 @@
     {
       "day": 5,
       "date": "2026-11-21",
-      "title": "Pukaki（普卡基）与Aoraki（奥拉基/库克山）：以短步道换好照片",
-      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Tekapo",
+      "title": "库克山上午短步道，普卡基湖拍晚霞，住特威泽尔",
+      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Twizel（特威泽尔）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "alpinenook",
-      "summary": "睡足后出发，拍Pukaki（普卡基）、Kea Point（基亚观景点）与Tasman Valley（塔斯曼谷）；不把三小时Hooker（胡克谷步道）全程当必选。",
-      "drive": "自驾 · 约3–3.5小时纯驾驶",
-      "photoGoal": "雪山层次、冰川谷、湖水颜色与朋友比例。",
-      "weatherPlan": "早晨查MetService（新西兰气象局）/NZTA（新西兰交通局）/DOC（新西兰保护部）；山被云遮且大雨或强风时取消入山，改Tekapo（特卡波）休息。D6（第6天）天气改善可把上午替换成Pukaki（普卡基）/库克山短线，但会压缩Wanaka（瓦纳卡）下午，不能再走完整Hooker（胡克谷步道）。若今天走Hooker Valley（胡克谷）全程，应替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，DOC纯步行约3小时，加拍摄和第一座桥限流排队至少留3.5–4小时；改走Hooker就约08:00从Tekapo出发，避开中午桥头高峰，不可全部叠加。 今年是很强的厄尔尼诺，风大时DOC会临时关步道；Hooker第一座吊桥同时最多20人：DOC 9/22说要在桥头装限流闸门（还没公布安装日期），夏季高峰有护林员在桥头看管，排队多留时间。",
+      "hotelId": "pyramid",
+      "summary": "07:00早餐、退房，08:00出发直奔White Horse Hill（白马山营地），赶在10:00停车高峰前到，趁上午侧光走Kea Point（基亚观景点）；村里午饭，可选Tasman（塔斯曼冰川一带），14:00左右出山；Twizel（特威泽尔）超市补给后16:00入住The Pyramid（特威泽尔金字塔），早点吃晚饭；20:15–21:30在Lake Pukaki（普卡基湖）游客中心拍Aoraki（奥拉基/库克山）日落晚霞，约21:45回住处。",
+      "drive": "自驾 · 约3小时纯驾驶：特卡波→White Horse Hill（白马山营地）约107km，出山到Twizel（特威泽尔）约66km，晚上往返普卡基湖游客中心约30km；住处最后约1.5–2.4km是压实碎石路",
+      "photoGoal": "上午侧光下的雪山、冰川谷与朋友比例；傍晚普卡基湖对面的Aoraki（奥拉基/库克山）晚霞、蓝调和月光。",
+      "weatherPlan": "早晨查MetService（新西兰气象局）/NZTA（新西兰交通局）/DOC（新西兰保护部）；山被云遮且大雨或强风时取消入山，直接开到Twizel（特威泽尔），在镇上吃饭、逛超市，15:00后入住The Pyramid（特威泽尔金字塔）休息。D6（第6天）天气改善可把上午替换成Pukaki（普卡基）/库克山短线，但会压缩Wanaka（瓦纳卡）下午，不能再走完整Hooker（胡克谷步道）。若今天走Hooker Valley（胡克谷）全程，应替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，DOC纯步行约3小时，加拍摄和第一座桥限流排队至少留3.5–4小时；改走Hooker就09:30从White Horse Hill（白马山营地）起步（今天本来就08:00出发），约13:00–13:30回到停车场，再去村里吃午饭、删掉Tasman，不可全部叠加。 今年是很强的厄尔尼诺，风大时DOC会临时关步道；Hooker第一座吊桥同时最多20人：DOC 9/22说要在桥头装限流闸门（还没公布安装日期），夏季高峰有护林员在桥头看管，排队多留时间。 傍晚云厚看不到Aoraki（奥拉基/库克山）或风很大，就不去普卡基湖，留在住处休息；不为日落在SH80（80号国道）路边找地方停车。",
       "events": [
         {
-          "time": "08:00",
-          "endTime": "09:00",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
+          "time": "07:00",
+          "endTime": "08:00",
+          "place": "Milky Way Views（银河美景）住处",
+          "placeId": "milkyway",
+          "lat": -44.00972,
+          "lon": 170.49196,
           "kind": "meal",
-          "detail": "睡足后早餐，判断山区天气与路况；不为银河早起。",
+          "detail": "早餐（昨天在Geraldine（杰拉尔丁）买的）、打包，08:00前退房（The Pyramid（特威泽尔金字塔）房东同意提前放箱的话，06:30吃早餐、07:15出发，先去放箱，见待办）（规定10:00前，按房东的退房说明锁门、处理垃圾）。行李今天整天在车里：三只箱子叠起来会高过遮物帘，在住处就装好，用深色外套或毯子盖住，到了停车场不再翻动；护照、相机、现金、银行卡、电脑都随身带。车里的个人物品丢了APEX（新西兰租车公司）的保障不赔（租约8.2），看各自的旅行险。",
           "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和钥匙盒密码房东订后发。",
           "sourceIds": [
+            "a-milkyway",
             "i-weather",
             "i-road-conditions",
-            "i-driver-rest",
-            "b-alpinenook"
+            "x-police-valuables",
+            "r-apex-terms-82"
           ]
         },
         {
-          "time": "09:00",
-          "endTime": "10:15",
-          "placeId": "pukaki_view",
-          "place": "Lake Pukaki（普卡基湖）南岸观景区",
-          "kind": "photo",
-          "detail": "开车到Pukaki（普卡基）南岸，合法停车后拍湖与远山，途中时间约45–50分钟。",
-          "photoTip": "70–120mm压缩山湖，24–35mm带湖岸；不要站在SH8（8号国道）/SH80（80号国道）路中间拍。",
-          "lat": -44.186,
-          "lon": 170.143,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
-            "i-nz-route"
-          ]
-        },
-        {
-          "time": "10:15",
-          "endTime": "10:40",
-          "placeId": "peters_lookout",
-          "place": "Peters Lookout（彼得观景点）正式观景停车区",
-          "kind": "photo",
-          "detail": "沿SH80（80号国道）行驶后，在有空位的正式停车区短停。无安全停车位就跳过，不在公路中线取景。",
-          "photoTip": "24–35mm拍湖岸与山谷，70–120mm突出远处Aoraki（奥拉基/库克山）主峰；倒影需要低风，湖水颜色也受光线影响。",
-          "lat": -44.08901,
-          "lon": 170.135833,
-          "coordinateStatus": "参考点，停车区入口以现场指示为准",
-          "sourceIds": [
-            "w-nztaRest"
-          ]
-        },
-        {
-          "time": "10:40",
-          "endTime": "11:30",
+          "time": "08:00",
+          "endTime": "09:30",
           "placeId": "white_horse",
           "place": "White Horse Hill（白马山营地）停车区",
           "kind": "drive",
-          "detail": "沿SH80（80号国道）到White Horse Hill（白马山营地）；停车NZ$2.50/半小时、全天封顶$25、前20分钟免费、只收卡，预留找车位与厕所时间。DOC（新西兰保护部）提醒11–3月10:00–16:00这里车位可能不够，今天又是周六（周末人更多）。现场有电子屏显示停车场有没有空位；满了有两个办法：①按交通管理人员指挥，只停在Hooker Valley Road（胡克谷路）路边指定的一侧，多走一段路；②回村里按路牌找公共车位，从村里走Kea Point（基亚观景点），DOC标往返约2小时（从停车场约1小时），这时删掉下午的Tasman（塔斯曼冰川一带）。想避开高峰，可以按“今日拍摄”里写的07:00出发方案，由你们定。",
+          "detail": "08:00从Milky Way Views（银河美景）出发，沿SH8（8号国道）经普卡基湖南端转SH80（80号国道），直接开到White Horse Hill（白马山营地），约107km、1小时25–30分钟（DOC（新西兰保护部）按约1.5小时算）；沿途的普卡基湖和Aoraki（奥拉基/库克山）先不停，傍晚从普卡基湖游客中心拍。约09:30到，比DOC说的11–3月10:00–16:00停车高峰早，今天又是周六（周末人更多）。停车NZ$2.50/半小时、全天封顶$25、前20分钟免费、只收卡。现场有电子屏显示停车场有没有空位；满了有两个办法：①按交通管理人员指挥，只停在Hooker Valley Road（胡克谷路）路边指定的一侧，多走一段路；②回村里按路牌找公共车位，从村里走Kea Point（基亚观景点），DOC标往返约2小时（从停车场约1小时），这时删掉Tasman（塔斯曼冰川一带）。车里放着三只箱子：尽量停在缴费机和厕所附近、人多的车位，护照、相机、现金、银行卡和电脑都随身带。",
           "photoTip": "",
           "lat": -43.72,
           "lon": 170.092,
@@ -705,16 +677,18 @@
             "x-doc-aoraki-visit",
             "x-doc-aoraki-summer",
             "x-rnz-aoraki-parking",
-            "w-docWalks"
+            "w-docWalks",
+            "x-osrm-tekapo-whh",
+            "x-police-valuables"
           ]
         },
         {
-          "time": "11:30",
-          "endTime": "13:00",
+          "time": "09:30",
+          "endTime": "11:00",
           "placeId": "kea_point",
           "place": "Kea Point（基亚观景点）步道观景区",
           "kind": "walk_photo",
-          "detail": "以Kea Point（基亚观景点）短步道为主，1.5小时为慢走拍照预算；体力一般可换Mueller Lookout（穆勒冰川观景点）更短折返。",
+          "detail": "以Kea Point（基亚观景点）短步道为主（从停车场往返约1小时），1.5小时为慢走拍照预算；上午太阳在东北偏东，Aoraki（奥拉基/库克山）是侧光。体力一般可换Mueller Lookout（穆勒冰川观景点）更短折返。",
           "photoTip": "24–120mm足够拍山脊与人物；16mm拍步道纵深，风大不用架高脚架。",
           "lat": -43.71055,
           "lon": 170.08428,
@@ -725,12 +699,12 @@
           ]
         },
         {
-          "time": "13:00",
-          "endTime": "14:00",
+          "time": "11:15",
+          "endTime": "12:30",
           "placeId": "mount_cook_village",
           "place": "Aoraki/Mount Cook Village（奥拉基/库克山村）",
           "kind": "meal",
-          "detail": "在村内吃午餐或自带简餐，留一小时坐下休息；天气一般可加游客中心而删下午步道。",
+          "detail": "开几分钟到村里吃午餐或自带简餐，留一小时坐下休息；天气一般可加游客中心而删掉Tasman（塔斯曼冰川一带）。",
           "photoTip": "",
           "lat": -43.734,
           "lon": 170.096,
@@ -738,12 +712,12 @@
           "sourceIds": []
         },
         {
-          "time": "14:00",
-          "endTime": "15:15",
+          "time": "12:45",
+          "endTime": "14:00",
           "placeId": "tasman_view",
           "place": "Tasman Glacier Viewpoint（塔斯曼冰川观景点）步道停车区",
           "kind": "walk_photo",
-          "detail": "可选Tasman Glacier View（塔斯曼冰川观景点）：从Tasman Valley Road（塔斯曼谷路）尽头的Tasman Valley car park（塔斯曼谷停车场，旧称Blue Lakes（蓝湖）停车场）出发，DOC（新西兰保护部）标1.5km、往返约30分钟、300多级台阶；夏季厕所可能不开、无手机信号，先在村里上厕所。停车场以外的4WD（四轮驱动）路段不进。台阶湿滑或腿累则取消。",
+          "detail": "可选Tasman Glacier View（塔斯曼冰川观景点）：从Tasman Valley Road（塔斯曼谷路）尽头的Tasman Valley car park（塔斯曼谷停车场，旧称Blue Lakes（蓝湖）停车场）出发，DOC（新西兰保护部）标1.5km、往返约30分钟、300多级台阶；夏季厕所可能不开、无手机信号，先在村里上厕所。停车场以外的4WD（四轮驱动）路段不进。台阶湿滑或腿累则取消。 这里更偏、人少，车里有箱子，想缩短停车时间就删掉这一项。",
           "photoTip": "70–120mm拍冰川湖与山体纹理；照片优先级低于驾驶体力。",
           "lat": -43.698,
           "lon": 170.163,
@@ -752,110 +726,259 @@
           "optional": true
         },
         {
-          "time": "15:15",
-          "endTime": "17:00",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
+          "time": "14:00",
+          "endTime": "14:40",
+          "place": "SH80（80号国道）南下到Peters Lookout（彼得观景点）",
+          "placeId": "peters_lookout",
+          "lat": -44.08901,
+          "lon": 170.135833,
           "kind": "drive",
-          "detail": "回Tekapo（特卡波），途中需要就停正规休息点；不在山里等到日落再开夜路。 回到Tekapo先在镇上加油站加满，明天过Lindis Pass（林迪斯山口）前油量不低于半箱（满箱约630km，D3（第3天）–D6（第6天）合计超过一箱）。",
+          "detail": "约14:00出山，沿SH80（80号国道）南下约45km、约36分钟到Peters Lookout（彼得观景点，可选短停，见下一项；不停就直接开往Twizel（特威泽尔））。",
           "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "coordinateStatus": "参考点，停车区入口以现场指示为准",
           "sourceIds": [
-            "i-driver-rest",
-            "i-road-conditions",
-            "b-alpinenook"
+            "x-osrm-whh-twizel",
+            "x-doc-aoraki-towns",
+            "x-odt-sh80"
           ]
         },
         {
-          "time": "17:00",
-          "endTime": "19:45",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
-          "kind": "rest",
-          "detail": "休息、晚餐和备份照片。",
-          "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
-          "sourceIds": [
-            "b-alpinenook"
-          ]
-        },
-        {
-          "time": "19:45",
-          "endTime": "21:00",
-          "placeId": "tekapo_lake",
-          "place": "Lake Tekapo（特卡波湖）镇区湖岸",
+          "time": "14:40",
+          "endTime": "15:00",
+          "place": "Peters Lookout（彼得观景点）正式观景停车区",
+          "placeId": "peters_lookout",
+          "lat": -44.08901,
+          "lon": 170.135833,
           "kind": "photo_optional",
-          "detail": "若D4（第4天）已拍满意，这晚自由休息；否则补一组湖岸晚光。11/21日落约20:51，明天睡足再出发。 Alpine Nook（山间小居度假屋）离镇中心约1.1km，晚上开车回更省力。",
-          "photoTip": "只带一个镜头轻装；不再延长到午夜拍星。",
-          "lat": -44.003,
-          "lon": 170.478,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
+          "detail": "可选：白天短停拍普卡基湖和远处的Aoraki（奥拉基/库克山）。南下时停车场在湖的一侧，左转进去；只在能安全减速、停车场有空位时才进，不在公路边或路中间停车拍。傍晚不来这里拍日落：从这里回Twizel（特威泽尔）要在SH8（8号国道）/SH80（80号国道）路口右转，天黑后不做这个转弯。",
+          "photoTip": "24–35mm拍湖岸与山谷，70–120mm突出远处Aoraki（奥拉基/库克山）主峰；下午偏逆光，湖色比上午浅。",
+          "coordinateStatus": "参考点，停车区入口以现场指示为准",
           "sourceIds": [
-            "i-tekapo-sun"
+            "w-nztaRest",
+            "x-odt-sh80"
+          ],
+          "optional": true
+        },
+        {
+          "time": "15:00",
+          "endTime": "15:20",
+          "place": "SH80（80号国道）→SH8（8号国道）→Twizel（特威泽尔）",
+          "placeId": "twizel_town",
+          "lat": -44.2575,
+          "lon": 170.0994,
+          "kind": "drive",
+          "detail": "从Peters Lookout（彼得观景点）沿SH80（80号国道）再开约12km到SH8（8号国道）/SH80路口，右转上SH8往Twizel（特威泽尔），再开约9km，共约17分钟。这个路口是公认的事故点，从SH80出来的车常看错SH8来车的速度，一定停稳、看清两边再转。",
+          "photoTip": "",
+          "coordinateStatus": "OpenStreetMap（开放街图）上Twizel（特威泽尔）镇中心Market Place（市场广场）的位置；两家Four Square（新西兰小型连锁超市）超市都在这里。",
+          "sourceIds": [
+            "x-osrm-whh-twizel",
+            "x-odt-sh80"
+          ]
+        },
+        {
+          "time": "15:20",
+          "endTime": "15:50",
+          "place": "Four Square（新西兰小型连锁超市）超市（Twizel（特威泽尔） Market Place（市场广场））",
+          "placeId": "twizel_town",
+          "lat": -44.2575,
+          "lon": 170.0994,
+          "kind": "shopping",
+          "detail": "在Four Square Mackenzie（麦肯齐四方超市，27 Market Place（市场广场），周六07:15–20:30）或Four Square Twizel（特威泽尔四方超市，20 Market Place，周六07:30–20:00）买今晚的晚饭和明早的早餐。明早出发前在Mobil Twizel（特威泽尔美孚加油站，每天07:00–21:00）加满油，今天顺路加也行。",
+          "photoTip": "",
+          "coordinateStatus": "OpenStreetMap（开放街图）上Twizel（特威泽尔）镇中心Market Place（市场广场）的位置；两家Four Square（新西兰小型连锁超市）超市都在这里。",
+          "sourceIds": [
+            "x-foursquare-mackenzie",
+            "x-foursquare-twizel",
+            "x-mobil-twizel"
+          ]
+        },
+        {
+          "time": "16:00",
+          "endTime": "17:30",
+          "place": "The Pyramid（特威泽尔金字塔）住处",
+          "placeId": "pyramid",
+          "lat": -44.25459,
+          "lon": 170.04628,
+          "kind": "rest",
+          "detail": "从镇上开约8–10分钟到The Pyramid（特威泽尔金字塔）：走Old Glen Lyon Road（旧格伦莱昂路），最后约1.5–2.4km是压实碎石路，不超过50km/h、过弯降到30km/h以下，对向来车再减速。15:00–22:00智能门锁自助入住（门牌和开锁方式看房东在爱彼迎发的入住指南），车停房子的免费车位。三间卧室三人各一间、两个卫生间；把箱子搬进屋，洗澡、休息。",
+          "photoTip": "",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，反查是Pyramid Terrace（金字塔台地路））；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-pyramid",
+            "x-osm-old-glen-lyon",
+            "x-osm-pyramid-terrace",
+            "x-apex-gravel",
+            "r-apex-faq-roads",
+            "x-mackenzie-gravel"
+          ]
+        },
+        {
+          "time": "17:30",
+          "endTime": "19:30",
+          "place": "The Pyramid（特威泽尔金字塔）住处",
+          "placeId": "pyramid",
+          "lat": -44.25459,
+          "lon": 170.04628,
+          "kind": "meal",
+          "detail": "早点吃晚饭，赶在日落前吃完：在住处做下午超市买的菜；想出去吃，Twizel（特威泽尔）镇上Fishtail（尾鱼餐厅）每天12:00–21:30、Poppies（罂粟咖啡餐厅）周六17:30–20:30、MOW Bar（工务部酒吧餐厅）周六中午起营业，开车约8–10分钟；出去吃的话18:00–19:45在镇上吃，吃完直接从镇上开约10分钟去游客中心，不回住处（出门前在住处上好厕所、带好脚架和外套）。开车的人不喝酒。",
+          "photoTip": "",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，反查是Pyramid Terrace（金字塔台地路））；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "x-fishtail",
+            "x-poppies",
+            "x-mowbar",
+            "x-mackenzie-rural"
+          ]
+        },
+        {
+          "time": "19:55",
+          "endTime": "20:15",
+          "place": "Lake Pukaki（普卡基湖）游客中心停车场",
+          "placeId": "pukaki_vc",
+          "lat": -44.1901,
+          "lon": 170.1398,
+          "kind": "drive",
+          "detail": "19:55从住处出发，碎石路慢开出到Twizel（特威泽尔），再沿SH8（8号国道）往东北开约11km、约10分钟到普卡基湖南端的游客中心（在SH8上，不用在SH80（80号国道）路口转弯）。只停在游客中心的正式停车场，不在公路边停车；夜里停车场有没有门、厕所开不开没核实，在住处先上好厕所。",
+          "photoTip": "",
+          "coordinateStatus": "OpenStreetMap（开放街图）上游客中心的位置（SH8（8号国道）湖南端）；只停正式停车场，按现场标志。",
+          "sourceIds": [
+            "x-pukaki-vc",
+            "x-osm-pukaki-vc",
+            "w-nztaRest"
+          ]
+        },
+        {
+          "time": "20:15",
+          "endTime": "21:30",
+          "place": "Lake Pukaki（普卡基湖）游客中心湖边",
+          "placeId": "pukaki_vc",
+          "lat": -44.1901,
+          "lon": 170.1398,
+          "kind": "photo",
+          "detail": "拍Aoraki（奥拉基/库克山）日落晚霞和蓝调：日落20:53，Aoraki在正北约66km；湖岸约20:37就没了直射光，山顶约21:03还亮，最好的颜色在20:40–21:05，之后是蓝调，民用暮光到21:27，21:30收工。月亮86%亮，挂在北方天空，可以把月亮和雪山拍在一起。湖边风大很冷，带外套、手套和头灯。",
+          "photoTip": "70–120mm把Aoraki（奥拉基/库克山）和晚霞压近，24–35mm带湖岸和月亮；脚架放在游客中心旁的湖边，不站在公路上。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上游客中心的位置（SH8（8号国道）湖南端）；只停正式停车场，按现场标志。",
+          "sourceIds": [
+            "x-twizel-sun",
+            "x-twizel-moon",
+            "x-pukaki-vc"
+          ]
+        },
+        {
+          "time": "21:30",
+          "endTime": "22:00",
+          "place": "The Pyramid（特威泽尔金字塔）住处",
+          "placeId": "pyramid",
+          "lat": -44.25459,
+          "lon": 170.04628,
+          "kind": "rest",
+          "detail": "出游客中心停车场上SH8（8号国道）往Twizel（特威泽尔）是右转，要横过往特卡波方向的车道：停稳，等两边都没有车灯再走；之后沿SH8直行回Twizel（不经SH80（80号国道）路口），再走碎石路回住处，约21:45到；天黑后碎石路更难看清路边和弯道，开到40–50km/h以下，留意羊、兔子和骑车的人，看到动物减速、不猛打方向。洗澡、备份、休息；明早睡到自然醒。",
+          "photoTip": "",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，反查是Pyramid Terrace（金字塔台地路））；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "x-mackenzie-rural",
+            "x-apex-gravel",
+            "i-driver-rest"
+          ]
+        },
+        {
+          "time": "22:00",
+          "endTime": "23:30",
+          "place": "Twizel（特威泽尔）观星团",
+          "placeId": "twizel_stars",
+          "lat": -44.2575,
+          "lon": 170.0994,
+          "kind": "photo_optional",
+          "detail": "可选（自费，不在预算里，没订）：不想休息的话，21:30从普卡基湖直接回镇上参加观星团。86%的月亮整夜在天上，看不到银河，团里主要用望远镜看月亮、土星和大小麦哲伦云。①Stargaze Mackenzie（麦肯齐观星）的Cosmos Explorer（宇宙探索观星团），22:00在Lake Ruataniwha（鲁阿塔尼瓦湖，离镇上开车5–10分钟），成人NZ$119，75分钟，11/2剩7位；②Twizel Stargazing（特威泽尔观星团），22:15在镇上Distinction MacKenzie Country Hotel（麦肯齐乡村酒店）大堂集合，成人NZ$119，75分钟，11/2剩12位。两家都是出发前24小时以上取消全额退，坏天气退款或改期。散场约23:30，开碎石路回住处约10分钟；开车的人累就不去。",
+          "photoTip": "主要是导游带望远镜看；相机可以拍月亮特写，不拍银河。",
+          "coordinateStatus": "Twizel（特威泽尔）镇中心的区域点；集合点按订票确认（Cosmos Explorer（宇宙探索观星团）在Lake Ruataniwha（鲁阿塔尼瓦湖），Twizel Stargazing（特威泽尔观星团）在Distinction MacKenzie Country Hotel（麦肯齐乡村酒店））。",
+          "sourceIds": [
+            "x-stargaze-mackenzie",
+            "x-twizel-stargazing",
+            "x-dark-reserve"
           ],
           "optional": true
         }
       ],
-      "shortTitle": "普卡基与雪山",
-      "lightNote": "主峰光线：11:30–13:00在Kea Point（基亚观景点）看Aoraki（奥拉基/库克山）是高角度逆光，主峰偏灰；常见上午较晴、午后起云。可选：07:00出发、约08:30到White Horse Hill（白马山营地）先走Kea Point（侧光），回程Pukaki（普卡基）短停可缩短，因为D6（第6天）上午还会经过。代价是早起约1.5小时。",
+      "shortTitle": "库克山与普卡基",
+      "lightNote": "主峰光线：09:30–11:00在Kea Point（基亚观景点），太阳在东北偏东，Aoraki（奥拉基/库克山）是侧光，比中午的高角度逆光好；常见上午较晴、午后起云，所以今天一早出发。傍晚：Twizel（特威泽尔）日落20:53（方位约241°），Aoraki在普卡基湖游客中心正北约66km，太阳从左后方照到朝南、朝西南的雪坡；湖岸约20:37就没了直射光，山顶约21:03还亮，最好的颜色在20:40–21:05，之后是蓝调，民用暮光到21:27。月亮86%亮，16:51升起、整夜在北方天空，看不到银河；日落后月亮在东北方约30°高，用24mm横幅能把月亮和Aoraki拍进同一张；看得到的南坡是背光，不是月光照亮的雪山。",
       "sourceIds": [
         "x-niwa-outlook",
-        "w-docHookerGate"
+        "w-docHookerGate",
+        "x-twizel-sun",
+        "x-twizel-moon",
+        "x-pukaki-vc",
+        "x-odt-sh80"
       ]
     },
     {
       "day": 6,
       "date": "2026-11-22",
       "title": "穿越林迪斯，把黄昏留给瓦纳卡",
-      "area": "Tekapo（特卡波）→Wānaka（瓦纳卡）",
+      "area": "Twizel（特威泽尔）→Wānaka（瓦纳卡）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
       "hotelId": "parkhill",
-      "summary": "经Pukaki（普卡基）、Omarama（奥马拉马）与Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）住一晚；住处离That Wānaka Tree（瓦纳卡孤独树）走路10–12分钟，黄昏和蓝调就在树边拍。",
-      "drive": "自驾 · 约2.5–3小时纯驾驶，另留停靠与午餐",
+      "summary": "睡到自然醒，10:30从The Pyramid（特威泽尔金字塔）出发，Twizel（特威泽尔）加油后经Omarama（奥马拉马）与Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）住一晚；住处离That Wānaka Tree（瓦纳卡孤独树）走路10–12分钟，黄昏和蓝调就在树边拍。",
+      "drive": "自驾 · 约2小时纯驾驶（Twizel（特威泽尔）→Wānaka（瓦纳卡）约145km），另留停靠与午餐",
       "photoGoal": "Lindis Pass（林迪斯山口）山坡线条、That Wānaka Tree（瓦纳卡孤独树）和湖岸雪山；24–120mm是主力。",
-      "weatherPlan": "Lindis Pass（林迪斯山口）风雪按NZTA（新西兰交通局）调整，不找未经核实的小路绕行。若D5（第5天）入山取消而今天转晴，可改08:00出发走Pukaki（普卡基）/库克山短线，午前离山；取消或缩短林迪斯拍照，接受Wanaka（瓦纳卡）下午被压缩。该备选约增加1.5–2小时驾驶，司机累就放弃，不走Hooker（胡克谷步道）全程、不等山里日落。",
+      "weatherPlan": "Lindis Pass（林迪斯山口）风雪按NZTA（新西兰交通局）调整，不找未经核实的小路绕行。若D5（第5天）入山取消而今天转晴，可改07:30从The Pyramid（特威泽尔金字塔）退房出发走库克山短线（Twizel（特威泽尔）到White Horse Hill（白马山营地）约55分钟），午前离山；取消或缩短林迪斯拍照，接受Wanaka（瓦纳卡）下午被压缩。该备选约增加1.5–2小时驾驶，司机累就放弃，不走Hooker（胡克谷步道）全程、不等山里日落。",
       "events": [
         {
-          "time": "08:00",
-          "endTime": "09:30",
-          "placeId": "alpinenook",
-          "place": "Alpine Nook（山间小居度假屋）住宿区域",
-          "kind": "meal",
-          "detail": "早餐、打包、按住宿规定退房；09:30出发，正常方案不早起追日出。",
-          "photoTip": "",
-          "lat": -44.0108973,
-          "lon": 170.4874962,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点；按入住指示导航。",
+          "time": "05:20",
+          "endTime": "06:40",
+          "place": "Lake Pukaki（普卡基湖）游客中心湖边",
+          "placeId": "pukaki_vc",
+          "lat": -44.1901,
+          "lon": 170.1398,
+          "kind": "photo_optional",
+          "detail": "可选，想去才去：日出05:57，民用晨光05:23开始。05:20从住处出发，天没全亮，碎石路要慢开，到游客中心单程约15–20分钟；拍日出前后Aoraki（奥拉基/库克山）被第一缕光照亮的样子，06:40前回住处补觉。昨晚拍过、累了或阴天就跳过。",
+          "photoTip": "70–120mm拍雪山顶的第一缕光，24–35mm带湖面；湖边清晨接近0°C，穿厚。",
+          "coordinateStatus": "OpenStreetMap（开放街图）上游客中心的位置（SH8（8号国道）湖南端）；只停正式停车场，按现场标志。",
           "sourceIds": [
-            "b-alpinenook"
+            "x-twizel-sun",
+            "x-pukaki-vc",
+            "x-apex-gravel"
+          ],
+          "optional": true
+        },
+        {
+          "time": "08:30",
+          "endTime": "10:30",
+          "place": "The Pyramid（特威泽尔金字塔）住处",
+          "placeId": "pyramid",
+          "lat": -44.25459,
+          "lon": 170.04628,
+          "kind": "meal",
+          "detail": "睡到自然醒；早餐（昨天Four Square（新西兰小型连锁超市）买的）、整理行李，10:30出发，11:00前退房（按房东的退房说明锁门、处理垃圾）。",
+          "photoTip": "",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，反查是Pyramid Terrace（金字塔台地路））；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-pyramid"
           ]
         },
         {
-          "time": "09:30",
-          "endTime": "10:45",
-          "placeId": "pukaki_view",
-          "place": "Lake Pukaki（普卡基湖）南岸观景区",
-          "kind": "photo",
-          "detail": "经Pukaki（普卡基）南岸正规观景区短停；D5（第5天）已拍好就缩短停留。只在安全车位停车，湖面风大时拍山湖层次。",
-          "photoTip": "70–120mm压缩主峰和湖面；24–35mm带岸线。",
-          "lat": -44.186,
-          "lon": 170.143,
+          "time": "10:30",
+          "endTime": "11:05",
+          "place": "Twizel（特威泽尔）加油→Omarama（奥马拉马）",
+          "placeId": "omarama",
+          "lat": -44.488,
+          "lon": 169.967,
+          "kind": "drive",
+          "detail": "碎石路慢开出到Twizel（特威泽尔），在Mobil Twizel（特威泽尔美孚加油站，每天07:00–21:00）加满油再过Lindis Pass（林迪斯山口）；从住处到Omarama（奥马拉马）共约35km、约30分钟。",
+          "photoTip": "",
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
-            "i-nz-route"
+            "x-mobil-twizel",
+            "x-osrm-twizel-wanaka"
           ]
         },
         {
-          "time": "10:45",
+          "time": "11:05",
           "endTime": "12:15",
           "placeId": "omarama",
           "place": "Omarama（奥马拉马）休息区",
           "kind": "meal",
-          "detail": "经Twizel（特威泽尔）驶向Omarama（奥马拉马），午餐、厕所和伸展；驾驶约30–40分钟，途中疲劳就提前停。昨晚没加油就在Twizel或Omarama加满再过Lindis（林迪斯山口）。",
+          "detail": "在Omarama（奥马拉马）吃午饭、上厕所和伸展；疲劳就多停一会儿。",
           "photoTip": "",
           "lat": -44.488,
           "lon": 169.967,
@@ -968,7 +1091,7 @@
         }
       ],
       "shortTitle": "林迪斯与瓦纳卡",
-      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。"
+      "lightNote": "建议焦段为你的全画幅24–120mm；16mm用于有前景的大场景。保留休息，风大或疲劳就删掉外拍。 可选：05:57日出前后在普卡基湖游客中心拍Aoraki（奥拉基/库克山）日照金山（太阳从东南偏东升起，第一缕光照到雪山东侧）。"
     },
     {
       "day": 7,
@@ -976,8 +1099,8 @@
       "title": "瓦纳卡慢早晨，箭镇午餐，午后到皇后镇",
       "area": "Wānaka（瓦纳卡）→Queenstown（皇后镇）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "bluepeaks",
-      "summary": "晨间再给湖岸一次机会，10:00前退房；经Cromwell（克伦威尔）和Kawarau Gorge（卡瓦劳峡谷）到Arrowtown（箭镇）吃午饭、走华人村遗址，再经Frankton（弗兰克顿）超市进皇后镇，15:00入住。",
+      "hotelId": "ellen",
+      "summary": "晨间再给湖岸一次机会，10:00前退房；经Cromwell（克伦威尔）和Kawarau Gorge（卡瓦劳峡谷）到Arrowtown（箭镇）吃午饭、走华人村遗址，再经Frankton（弗兰克顿）超市进皇后镇，15:00后自助入住Queenstown Hill（皇后镇山）坡上的联排别墅。",
       "drive": "经SH6（6号国道）、Cromwell（克伦威尔）、Kawarau Gorge（卡瓦劳峡谷）绕Arrowtown（箭镇） · 约124公里 / 约1小时50分纯驾驶（比直达多约11公里、20分钟）",
       "photoGoal": "上午Wānaka（瓦纳卡）湖岸、Arrowtown（箭镇）老街和华人村石屋细节；皇后镇只做白天轻拍，今晚休息。",
       "weatherPlan": "经SH6（6号国道）/Cromwell（克伦威尔），不走Crown Range（皇冠山脉）。小雨照常去Arrowtown（箭镇，华人村小屋可避雨看展板），雨大就缩短步行；今晚给次日米尔福德长巴士日留睡眠。",
@@ -1097,7 +1220,7 @@
           "lat": -45.0108935,
           "lon": 168.7491717,
           "kind": "drive",
-          "detail": "开约17分钟到Frankton（弗兰克顿）的PAK’nSAVE（新西兰平价连锁超市），买齐Blue Peaks（蓝色山峰）三晚的早餐和11/24峡湾午餐。",
+          "detail": "开约17分钟到Frankton（弗兰克顿）的PAK’nSAVE（新西兰平价连锁超市），买齐皇后镇三晚的早餐和11/24峡湾午餐（联排别墅有厨房）。",
           "photoTip": "",
           "coordinateStatus": "OpenStreetMap（开放街图）地理编码点；规划用，不是精确入口或机位。",
           "sourceIds": []
@@ -1105,31 +1228,33 @@
         {
           "time": "14:30",
           "endTime": "15:00",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
-          "placeId": "bluepeaks",
-          "lat": -45.03301,
-          "lon": 168.66448,
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
+          "placeId": "ellen",
+          "lat": -45.03211,
+          "lon": 168.66872,
           "kind": "drive",
-          "detail": "从Frankton（弗兰克顿）开约12分钟进皇后镇。入住在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街），Stanley St（斯坦利街）路口）前台办理，公寓在8 Coronation Drive（加冕大道）坡上、上层只能走楼梯，每套1个指定车位；15:00起入住，20:00后取钥匙收NZ$90。",
+          "detail": "从Frankton（弗兰克顿）开约12分钟到Queenstown Hill（皇后镇山）坡上的联排别墅（门牌和开锁方式看房东在爱彼迎发的入住指南；导航先用地图点，门牌到了再改）。15:00后智能门锁自助入住，没有前台，也没有晚到取钥匙的费用，早到就在车里等几分钟；车停房源写的专用车位3/7（路边车位，不是车库；Santa Fe（胜达）停不停得下，订后先问房东）。",
           "photoTip": "",
-          "coordinateStatus": "第三方物业点与官网地址交叉核对；非车道入口。",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
             "route-nz-drive",
-            "x-bluepeaks-loc"
+            "a-ellen"
           ]
         },
         {
           "time": "15:00",
           "endTime": "21:00",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "rest",
-          "detail": "入住、休息、晚餐和照片备份；准备明天自带午餐、雨衣、防水相机包，核对接车点，21:00左右睡觉。不排晚间外拍。",
+          "detail": "三只大箱抬上楼（三层，卧室在二、三层，两人一起抬，先拿出要用的东西）；入住、休息、晚餐和照片备份；准备明天自带午餐、雨衣、防水相机包，看好走到Upper Stanley Street（上斯坦利街）车站的路（下坡约5–15分钟，门牌到了再按地图核对），21:00左右睡觉。不排晚间外拍。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
-          "sourceIds": []
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-ellen"
+          ]
         }
       ],
       "shortTitle": "瓦纳卡到皇后镇",
@@ -1142,43 +1267,45 @@
       "shortTitle": "米尔福德峡湾",
       "area": "Queenstown（皇后镇）→Milford Sound（米尔福德峡湾）→Queenstown",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "bluepeaks",
+      "hotelId": "ellen",
       "summary": "RealNZ（米尔福德游船巴士运营商）官网实查07:35–20:15场次，三人NZ$957。选择Upper Stanley Street（上斯坦利街）后显示07:40接车、至少提前10分钟到；具体接车与游船时刻按确认单。",
-      "drive": "自己不开车；往返大巴＋游船约12小时40分，租车留酒店仍计租金。",
+      "drive": "自己不开车；往返大巴＋游船约12小时40分，租车停在住处车位，仍计租金。",
       "photoGoal": "峡湾峭壁、云雾、瀑布与船只比例；雨天水量可能更有表现，但不保证出航或主峰露出。",
       "lightNote": "不使用皇后镇日落时刻冒充Milford（米尔福德）时刻。船上24–120mm为主，快门防船摇，防雨优先，不架三脚架挡船上通道。",
       "weatherPlan": "普通雨天仍可能发团，按运营方决定；SH94（94号国道）关闭或停航听通知。回程后直接休息。 NZTA（新西兰交通局）：SH94 Homer Tunnel（霍默隧道）到The Divide（分水岭）停车场这一段11/2–11/5每晚20:00–次日05:00双向封路（22:00短暂放行），11/6 05:00结束，不影响11/24；11/22–23再看NZTA有没有新的夜间封路。 今年是很强的厄尔尼诺（NIWA（新西兰国家水与大气研究所） 10/1展望）：西风多、峡湾一带雨偏多。在RealNZ（米尔福德游船巴士运营商）官网直接订：出发前24小时（新西兰时间）以上可免费改期或退款，07:35这班的截止是11/23（周一）07:35，北京时间02:35。想因天气改到11/25、和格林诺奇对调：11/22晚上到11/23早上在瓦纳卡看MetService（新西兰气象局）的Milford Sound（米尔福德峡湾）预报和NZTA米尔福德公路通告，先确认11/25还有3个座位，再在截止前到RealNZ官网改期；过了截止就不能免费改。11/24早上只看RealNZ的短信或邮件：运营方取消，才和格林诺奇对调（改期还是退款按RealNZ通知，11/25不一定有座位）；照常发团而自己不去，三人NZ$957不退。SH94在Pop’s View（波普观景点）和Marian Hill（玛丽安山）施工，大巴可能不停Pop’s View。",
       "events": [
         {
           "time": "06:30",
-          "endTime": "07:15",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
-          "placeId": "bluepeaks",
-          "lat": -45.03301,
-          "lon": 168.66448,
+          "endTime": "07:05",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
+          "placeId": "ellen",
+          "lat": -45.03211,
+          "lon": 168.66872,
           "detail": "早餐、带自备午餐饮水、防水外壳、保暖层；行李与三脚架留房间，贵重相机随身。 另带驱虫剂（DEET（避蚊胺）或派卡瑞丁，防沙蝇）、防晒和防滑鞋。",
           "photoTip": "",
           "kind": "meal",
-          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
-            "x-milford"
+            "x-milford",
+            "a-ellen"
           ]
         },
         {
-          "time": "07:15",
+          "time": "07:05",
           "endTime": "07:30",
           "place": "Upper Stanley Street（上斯坦利街）车站 · 11 Stanley Street（斯坦利街）",
           "placeId": "milford_pickup",
           "lat": -45.0333,
           "lon": 168.6661,
-          "detail": "07:15出门，走几分钟到Stanley Street（斯坦利街）和Sydney Street（悉尼街）路口、Blue Peaks Lodge（蓝色山峰旅舍）旁边的Upper Stanley Street（上斯坦利街）车站，RealNZ（米尔福德游船巴士运营商）结账页写的地址是11 Stanley Street。07:30前到站，07:40上车；以确认邮件为准。",
+          "detail": "07:05从联排别墅出门，下坡走到Stanley Street（斯坦利街）和Sydney Street（悉尼街）路口的Upper Stanley Street（上斯坦利街）车站，RealNZ（米尔福德游船巴士运营商）结账页写的地址是11 Stanley Street；按爱彼迎的大致位置估，直线约250m、走路约5–15分钟（推断，门牌到了再按地图核对，路远就提前出门）。07:30前到站，07:40上车；以确认邮件为准。",
           "photoTip": "",
           "kind": "transfer",
           "coordinateStatus": "OpenStreetMap（开放街图）上11 Stanley Street（斯坦利街）门牌的位置，就是RealNZ（米尔福德游船巴士运营商）结账页写的上车点地址；站牌在附近路边，以确认邮件为准。",
           "sourceIds": [
             "x-milford",
             "x-osm-11-stanley",
-            "x-upper-stanley"
+            "x-upper-stanley",
+            "a-ellen"
           ]
         },
         {
@@ -1229,16 +1356,17 @@
         {
           "time": "20:15",
           "endTime": "21:30",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
-          "placeId": "bluepeaks",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "detail": "回住宿晚餐、洗澡、简单备份并休息。夜间不再驾驶或追星，明早不设日出闹钟。",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
+          "placeId": "ellen",
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "detail": "下车后在Stanley Street（斯坦利街）附近的镇上吃晚饭（住处没备晚饭），再走上坡回联排别墅（约5–15分钟，推断），洗澡、简单备份并休息。夜间不再驾驶或追星，明早不设日出闹钟。",
           "photoTip": "",
           "kind": "rest",
-          "coordinateStatus": "行程区域定位，不是已确认上车/登船入口；按运营方确认单。",
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
-            "x-milford"
+            "x-milford",
+            "a-ellen"
           ]
         }
       ],
@@ -1258,8 +1386,8 @@
       "title": "格林诺奇湖湾，下午留给休息",
       "area": "Queenstown（皇后镇）→Glenorchy（格林诺奇）→Queenstown",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "bluepeaks",
-      "summary": "米尔福德次日不设日出闹钟。09:30出发去Glenorchy（格林诺奇），下午返皇后镇，第三晚仍住Blue Peaks（蓝色山峰）。 傍晚可选坐天空缆车（自费）。",
+      "hotelId": "ellen",
+      "summary": "米尔福德次日不设日出闹钟。09:30出发去Glenorchy（格林诺奇），下午返皇后镇，第三晚仍住联排别墅。 傍晚可选坐天空缆车（自费）。",
       "drive": "自驾 · 约1.3–1.5小时纯驾驶（单程约45km）",
       "photoGoal": "红色船屋、湖湾倒影、湿地步道与山谷；不深入Paradise（天堂谷）砂石路。",
       "weatherPlan": "强风大雨取消湖湾自驾，改皇后镇室内和休息。和11/24米尔福德对调，要在新西兰时间11/23 07:35前（出发前24小时）到RealNZ（米尔福德游船巴士运营商）官网改期，还要11/25有空位、路况允许；并非免费天气保障日。对调后，可选的天空缆车改在11/24傍晚。 Apex（新西兰租车公司）官网写明租车不得驶过Priory Road（普赖奥里路）路口以北的Glenorchy–Paradise Road（格林诺奇—天堂路），只在镇区、码头和潟湖步道一带活动。",
@@ -1267,15 +1395,17 @@
         {
           "time": "08:00",
           "endTime": "09:30",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "meal",
           "detail": "睡足后早餐；前一晚巴士20:15左右返回，不加日出拍摄。司机未恢复就延后出发或取消远处观景点。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
-          "sourceIds": []
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-ellen"
+          ]
         },
         {
           "time": "09:30",
@@ -1325,31 +1455,34 @@
         {
           "time": "13:30",
           "endTime": "14:45",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "drive",
-          "detail": "原路回Queenstown（皇后镇）；司机累就中途正规停车区休息。",
+          "detail": "原路回Queenstown（皇后镇），车停回专用车位；司机累就中途正规停车区休息。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
             "i-glenorchy",
-            "i-driver-rest"
+            "i-driver-rest",
+            "a-ellen"
           ]
         },
         {
           "time": "14:45",
-          "endTime": "18:00",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "endTime": "17:45",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "rest",
           "detail": "下午休息、整理行李、照片备份，核对明日航班。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
-          "sourceIds": []
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-ellen"
+          ]
         },
         {
           "time": "18:00",
@@ -1357,7 +1490,7 @@
           "placeId": "queenstown_bay",
           "place": "Queenstown Bay（皇后镇湾）湖畔",
           "kind": "meal",
-          "detail": "湖畔晚餐后散步；如果前面已拍满意，今晚直接休息。",
+          "detail": "17:45从联排别墅下坡走约15分钟到湖边（晚上要走去坐缆车，不开车），湖畔晚餐后散步；如果前面已拍满意，今晚直接休息。",
           "photoTip": "",
           "lat": -45.033,
           "lon": 168.66,
@@ -1401,16 +1534,17 @@
         {
           "time": "21:45",
           "endTime": "22:30",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "rest",
-          "detail": "坐缆车下山后走约15分钟（约1km）回公寓，只在湖边拍的人21:30往回走；洗澡睡觉，给明天还车和赶飞机的司机保留8小时左右睡眠。",
+          "detail": "坐缆车下山后经镇上走回联排别墅，约20–25分钟、后半段上坡（按大致位置估，缆车下站到住处直线约1.1km），只在湖边拍的人21:30往回走；洗澡睡觉，给明天还车和赶飞机的司机保留8小时左右睡眠。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
-            "i-driver-rest"
+            "i-driver-rest",
+            "a-ellen"
           ]
         }
       ],
@@ -1431,22 +1565,23 @@
       "summary": "上午湖边短走、10:00前退房，中午前还车；NZ231（新西兰航空） 15:45从皇后镇飞悉尼，当地17:05到，打车去Adina（阿迪娜公寓酒店）入住。",
       "drive": "市区→加油→还车 · 约10–15分钟驾驶＋加油，另留验车接驳",
       "photoGoal": "简单晨间湖岸；优先保证还车和航班衔接。",
-      "weatherPlan": "天气不好就在酒店休息到退房；航班延误就在机场等，晚到悉尼直接入住，不安排外拍。",
+      "weatherPlan": "天气不好就在住处休息到退房；航班延误就在机场等，晚到悉尼直接入住，不安排外拍。",
       "events": [
         {
           "time": "08:00",
           "endTime": "08:45",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "meal",
           "detail": "早餐，核对NZ231（新西兰航空）航班状态；行李按每人1件23kg托运重新分装（NZ231要买含托运的票价或已加购1件）。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
           "sourceIds": [
             "f-nz231-recheck",
-            "f-nz-shorthaul"
+            "f-nz-shorthaul",
+            "a-ellen"
           ]
         },
         {
@@ -1455,7 +1590,7 @@
           "placeId": "queenstown_gardens",
           "place": "Queenstown Gardens（皇后镇花园）",
           "kind": "photo_optional",
-          "detail": "步行湖边/Queenstown Gardens（皇后镇花园）短走，或直接休息；不安排日出和山路。",
+          "detail": "下坡走到湖边/Queenstown Gardens（皇后镇花园）短走（回来是上坡，约15分钟），或直接休息；不安排日出和山路。",
           "photoTip": "24–120mm一镜即可，避免开包摊开全部器材。",
           "lat": -45.036,
           "lon": 168.662,
@@ -1466,15 +1601,17 @@
         {
           "time": "09:30",
           "endTime": "10:00",
-          "placeId": "bluepeaks",
-          "place": "Blue Peaks Apartments（蓝色山峰公寓）住宿区域",
+          "placeId": "ellen",
+          "place": "Ellen's lake-view townhouse（埃伦湖景联排别墅）住处",
           "kind": "packing",
-          "detail": "回Blue Peaks（蓝色山峰）取行李，按酒店要求10:00前完成退房；清点相机、充电器和存储卡。",
+          "detail": "回联排别墅取行李，10:00前退房（按房东的退房说明锁门、处理垃圾），三只大箱抬下楼装车；清点相机、充电器和存储卡。",
           "photoTip": "",
-          "lat": -45.03301,
-          "lon": 168.66448,
-          "coordinateStatus": "地图点在8 Coronation Drive（加冕大道）公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街，约70 m）。",
-          "sourceIds": []
+          "lat": -45.03211,
+          "lon": 168.66872,
+          "coordinateStatus": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
+          "sourceIds": [
+            "a-ellen"
+          ]
         },
         {
           "time": "10:00",
@@ -2308,35 +2445,68 @@
       "reviews": "爱彼迎4.93/5（15条），清洁5.0、地段5.0、性价比4.9；近几个月的住客说装修新、很干净、楼内停车方便、每层只有一户；房东Devon，出租2年"
     },
     {
-      "id": "alpinenook",
-      "name": "Alpine Nook（山间小居度假屋）",
-      "lat": -44.0108973,
-      "lon": 170.4874962,
-      "address": "12 O'Neill Place（奥尼尔巷）, Lake Tekapo（特卡波湖） 7999（离镇中心约1.1km）",
-      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-22&adult=3&children=0&crn=1&curr=CNY",
+      "id": "milkyway",
+      "name": "Milky Way Views（银河美景）",
+      "lat": -44.00972,
+      "lon": 170.49196,
+      "address": "Lake Tekapo（特卡波湖）镇东侧（爱彼迎订前只给大致位置，门牌和钥匙盒密码订后房东发）；离原来看的Alpine Nook（山间小居度假屋）约400m，离好牧羊人教堂和镇中心约1–1.5km，住客说离超市和湖边近",
+      "sourceUrl": "https://www.airbnb.cn/rooms/43151313?check_in=2026-11-20&check_out=2026-11-21&adults=3",
       "sourceIds": [
-        "c-alpinenook"
+        "a-milkyway"
       ],
-      "coordinateNote": "Booking物业地图点；按入住指示导航。",
+      "coordinateNote": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和钥匙盒密码房东订后发。",
       "checkin": "2026-11-20",
-      "checkout": "2026-11-22",
-      "nights": 2,
-      "beds": "三卧室房屋90㎡：卧室1一张1.81米特大床、卧室2一张1.51米大床、卧室3两张0.8米单人床，一个卫生间，三人各一间",
-      "price": "三人2晚¥6,776（携程在线付含税；Booking（缤客订房网）同房NZ$1,893≈¥7,129）",
-      "cancel": "新西兰时间11/12 23:59前免费取消（北京时间18:59），携程下单即付款。只有1个卫生间，早上要轮流用。",
-      "nativeTotal": 6776,
+      "checkout": "2026-11-21",
+      "nights": 1,
+      "beds": "整栋两层湖景房（最多8人）：四间卧室各一张约1.5米双人床，三人各住一间；两个卫生间，有厨房、Wi-Fi（无线网络），楼上客厅有大窗看湖和山",
+      "price": "三人1晚¥4,495（爱彼迎人民币总价，含全部费用，页面写原价¥5,624）；原来的Alpine Nook（山间小居度假屋）一晚携程¥3,131，两晚11/2已涨到¥7,306",
+      "cancel": "下单后24小时内取消全额退款；之后到新西兰时间11/13 15:00前（北京时间11/13 10:00）取消，只退一半房费，服务费不退；过了这个时刻不退款。15:00后用钥匙盒（密码锁）自助入住，10:00前退房；房源内免费停车。热水是储水罐、量有限（房东说约够洗15分钟，几条评价说人多会用完）：三人错开洗、每人洗快一点。房源写隔壁在施工（房东管不了），白天可能有噪音；2026年6月有一条评价说屋里发现一只死老鼠，房东一小时内处理了。房源页写没有烟雾报警器和一氧化碳报警器。",
+      "nativeTotal": 4495,
       "currency": "CNY",
-      "priceStatus": "携程11/2实时页：三卧室房屋两晚¥6,776（在线付）",
+      "priceStatus": "爱彼迎11/2实时页：整栋两层湖景房¥4,495（含全部费用）",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "15:00–23:30（须提前告诉房东到达时间）",
+      "checkinTime": "15:00后（钥匙盒自助入住）",
       "checkoutTime": "10:00前",
-      "perNightCNY": 3388.0,
+      "perNightCNY": 4495.0,
       "aboveOriginalNightlyCap": true,
-      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
+      "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
-      "bedConfirmation": "房型列足够实体床；未锁房，订时确认三间卧室都可用。",
-      "reviews": "Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6；携程4.7/5（36条）"
+      "bedConfirmation": "房源写四间卧室各一张约1.5米双人床、两个卫生间；未锁房，订后在爱彼迎留言三位成人、约15:30到。",
+      "reviews": "爱彼迎4.7/5（174条），清洁4.7、如实描述4.8、入住便捷4.9、地段4.9、性价比4.6；房东是Book Tekapo（特卡波订房管理公司，管理100多处房屋的超赞房东，8,549条评价平均4.76）"
+    },
+    {
+      "id": "pyramid",
+      "name": "The Pyramid（特威泽尔金字塔）",
+      "lat": -44.25459,
+      "lon": 170.04628,
+      "address": "Twizel（特威泽尔）以西约4km的农场里（爱彼迎订前只给大致位置，地图点反查是Pyramid Terrace（金字塔台地路），门牌订后房东发）；从Twizel走Old Glen Lyon Road（旧格伦莱昂路），最后约1.5–2.4km是压实碎石路，不过运河桥；开到镇上约8–10分钟",
+      "sourceUrl": "https://www.airbnb.cn/rooms/1272732586097370105?check_in=2026-11-21&check_out=2026-11-22&adults=3",
+      "sourceIds": [
+        "a-pyramid",
+        "x-osm-pyramid-terrace",
+        "x-osm-old-glen-lyon"
+      ],
+      "coordinateNote": "爱彼迎订前只给大致位置（房源页地图点，反查是Pyramid Terrace）；门牌和开锁方式房东订后发。",
+      "checkin": "2026-11-21",
+      "checkout": "2026-11-22",
+      "nights": 1,
+      "beds": "整栋现代农场新房（最多6人）：卧室1一张约1.5米双人床带独立卫生间、卧室2一张约1.5米双人床、卧室3两张单人床，三人各住一间；两个卫生间，有厨房、洗衣机、Wi-Fi（无线网络）",
+      "price": "三人1晚¥3,369（爱彼迎人民币总价，含全部费用）；Twizel（特威泽尔）镇上的Mackenzie Haven（麦肯齐港湾民宿）五卧两卫半¥2,055便宜，但评分低、有住客说房间冷，留作备选",
+      "cancel": "11/16前免费取消（具体时刻看订单页，按房源当地时间），之后不退款。15:00–22:00智能门锁自助入住，11:00前退房；房源内免费停车，室外监控摄像头只对着停车区。进出最后约1.5–2.4km是压实碎石路：APEX（新西兰租车公司）允许开正规碎石路，建议不超过50km/h；在差路上开太快弄坏车底，零自付额也不赔。天黑后慢开，留意羊和兔子。房源页写没有烟雾报警器和一氧化碳报警器。",
+      "nativeTotal": 3369,
+      "currency": "CNY",
+      "priceStatus": "爱彼迎11/2实时页：整栋三卧两卫¥3,369（含全部费用）",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "15:00–22:00（智能门锁自助入住）",
+      "checkoutTime": "11:00前",
+      "perNightCNY": 3369.0,
+      "aboveOriginalNightlyCap": true,
+      "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
+      "refundableDeposit": null,
+      "bedConfirmation": "房源写三间卧室：两张约1.5米双人床、两张单人床，两个卫生间；未锁房，订后在爱彼迎留言三位成人、约16:00到。",
+      "reviews": "爱彼迎5.0/5（95条），清洁、如实描述、入住、沟通、地段都是5.0，性价比4.9，前5%的房源；最近的评价在1–3周前；房东是超赞房东"
     },
     {
       "id": "parkhill",
@@ -2372,36 +2542,35 @@
       "reviews": "Booking（缤客订房网） 9.5（9条）、位置9.7；爱彼迎4.86/5（14条），清洁5.0、地段5.0。评价不多但分数高，中国住客说干净、安静，走路10分钟内到湖边"
     },
     {
-      "id": "bluepeaks",
-      "name": "Blue Peaks Apartments（蓝色山峰公寓）",
-      "lat": -45.03301,
-      "lon": 168.66448,
-      "address": "Blue Peaks Lodge（蓝色山峰旅舍）, 11 Sydney Street（悉尼街）, Queenstown（皇后镇） 9300（入住与取钥匙）；公寓在8 Coronation Drive（加冕大道）",
-      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=2562050&checkIn=2026-11-23&checkOut=2026-11-26&adult=3&children=0&crn=1&curr=CNY",
+      "id": "ellen",
+      "name": "Ellen's lake-view townhouse（埃伦湖景联排别墅）",
+      "lat": -45.03211,
+      "lon": 168.66872,
+      "address": "Queenstown Hill（皇后镇山）坡上的新联排别墅（爱彼迎订前只给大致位置，门牌订后房东发）；住客说走下坡约15分钟到镇中心、开车约6分钟，回来是上坡；按大致位置估，离米尔福德上车点11 Stanley Street（斯坦利街）直线约250m、离天空缆车下站（Brecon Street（布雷肯街））约1.1km（推断，门牌到了再核）",
+      "sourceUrl": "https://www.airbnb.cn/rooms/1766618138826583489?check_in=2026-11-23&check_out=2026-11-26&adults=3",
       "sourceIds": [
-        "c-bluepeaks",
-        "x-bluepeaks-loc"
+        "a-ellen"
       ],
-      "coordinateNote": "地图点在8 Coronation Drive公寓楼一侧（约27 m）；入住前台在Blue Peaks Lodge, 11 Sydney Street（约70 m）。",
+      "coordinateNote": "爱彼迎订前只给大致位置（房源页地图点，可能偏几百米）；门牌和开锁方式房东订后发。",
       "checkin": "2026-11-23",
       "checkout": "2026-11-26",
       "nights": 3,
-      "beds": "两卧两卫100㎡：卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床；上层只能走楼梯",
-      "price": "三人3晚¥8,124（携程在线付含税，仅剩2间；Booking（缤客订房网）同房NZ$2,298≈¥8,655）",
-      "cancel": "新西兰时间11/20 23:59前免费取消（北京时间18:59），携程下单即付款。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房。订携程的“两卧室公寓”（卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床，两个卫生间），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁，入住时可能要出示信用卡。",
-      "nativeTotal": 8124,
+      "beds": "三层新联排别墅（最多6人）：卧室1一张约1.8米双人床、卧室2一张约1.8米双人床、卧室3两张单人床，三人各住一间；三个半卫生间（两间卧室带独立卫生间），每层有冷暖空调，有厨房、洗衣机，阳台看湖（Frankton Arm（弗兰克顿湾）、The Remarkables（卓越山脉）、瓦卡蒂普湖）；卧室在二、三层，三只大箱要抬上楼",
+      "price": "三人3晚¥8,298（爱彼迎人民币总价，含全部费用，页面写原价¥10,129）；比Blue Peaks（蓝色山峰，携程¥8,106）多¥192，每人多约¥64",
+      "cancel": "11/18前免费取消；之后到11/23入住前取消退一部分；入住后不退款（具体时刻看订单页）。15:00后智能门锁自助入住，没有前台、没有晚到取钥匙费；10:00前退房。一个专用路边车位，编号3/7（不是车库；房源没写Santa Fe（胜达）停不停得下，订后问房东）。房源页写“未配备”烟雾报警器和一氧化碳报警器。只有4条评价（都是5星）。",
+      "nativeTotal": 8298,
       "currency": "CNY",
-      "priceStatus": "携程11/2实时页：两卧室公寓三晚¥8,124（在线付）",
+      "priceStatus": "爱彼迎11/2实时页：三卧三卫半联排别墅三晚¥8,298（含全部费用）",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "15:00–20:00",
-      "checkoutTime": "07:30–10:00",
-      "perNightCNY": 2708.0,
+      "checkinTime": "15:00后（智能门锁自助入住）",
+      "checkoutTime": "10:00前",
+      "perNightCNY": 2766.0,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
+      "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
-      "bedConfirmation": "房型明确列足够实体床；未锁房，给3人预订仍需备注三床备齐并确认卧室可用范围。",
-      "reviews": "Booking（缤客订房网） 8.9（806条）、清洁9.3；2000年代初建，各套由业主分别装修，有的家具旧；携程4.6/5（87条）"
+      "bedConfirmation": "房源写三间卧室：两张约1.8米双人床、两张单人床，三个半卫生间；未锁房，订后在爱彼迎留言三位成人、约15:00到。",
+      "reviews": "爱彼迎5.0/5（只有4条），清洁5.0、入住便捷4.8、地段4.8、性价比5.0；房东是超赞房东（1,023条评价平均4.87）"
     },
     {
       "id": "adina",
@@ -2792,23 +2961,24 @@
       "note": "清晨05:24–05:57；晚上20:49–21:23（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
     },
     {
-      "place": "Lake Tekapo（特卡波湖）",
+      "place": "Lake Tekapo（特卡波湖） / Twizel（特威泽尔）",
       "date": "2026-11-21",
       "sunrise": "05:57",
-      "sunset": "20:51",
-      "blueHour": "清晨05:23–05:57；傍晚20:51–21:25（民用曙暮光宽窗口）",
+      "sunset": "20:53",
+      "blueHour": "清晨05:23–05:57（特卡波）；傍晚20:53–21:27（特威泽尔和普卡基湖，民用曙暮光宽窗口）",
       "civilDawn": "05:23",
-      "civilDusk": "21:25",
+      "civilDusk": "21:27",
       "astronomicalDawn": "03:49",
-      "astronomicalDusk": "22:59",
+      "astronomicalDusk": "23:02",
       "timezone": "Pacific/Auckland",
       "tzLabel": "NZDT UTC+13",
-      "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
+      "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。 傍晚三项按Timeanddate的Twizel（特威泽尔）表。",
       "sourceIds": [
-        "w-sunTekapo"
+        "w-sunTekapo",
+        "x-twizel-sun"
       ],
-      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Tekapo",
-      "note": "清晨05:23–05:57；傍晚20:51–21:25（民用曙暮光宽窗口）；理论地平线时刻，山体会提前遮光。"
+      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Twizel（特威泽尔）",
+      "note": "清晨05:23–05:57是特卡波的时刻（08:00才出发）；傍晚在特威泽尔和普卡基湖：日落20:53、民用暮光到21:27。从普卡基湖游客中心看，湖岸约20:37就没了直射光，Aoraki（奥拉基/库克山）山顶约21:03还亮，最好的颜色在20:40–21:05。理论地平线时刻，山体会提前遮光。"
     },
     {
       "place": "Wānaka（瓦纳卡）",
@@ -2824,10 +2994,11 @@
       "tzLabel": "NZDT UTC+13",
       "method": "Timeanddate（时间日期网） 2026年11月计算表，考虑当地夏令时与折射。取整到分钟，仅平坦天文地平线参考；山体/建筑遮挡会改变现场见日与光线。blueHour采用民用曙暮光作拍摄准备宽窗口，并非严格太阳-6°至-4°的蓝调定义。",
       "sourceIds": [
-        "route-wanaka-sun"
+        "route-wanaka-sun",
+        "x-twizel-sun"
       ],
-      "area": "Tekapo（特卡波）→Wānaka（瓦纳卡）",
-      "note": "清晨05:24–05:59；晚上21:00–21:34（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。"
+      "area": "Twizel（特威泽尔）→Wānaka（瓦纳卡）",
+      "note": "清晨05:24–05:59；晚上21:00–21:34（民用曙暮光参考窗）；理论地平线时刻，山体会提前遮光。 可选的清晨普卡基湖日出约05:57（Twizel（特威泽尔）时刻）。"
     },
     {
       "place": "Wānaka（瓦纳卡）",
@@ -2991,10 +3162,13 @@
   "weather": {
     "highlight": {
       "title": "这次追月光与蓝调，\n不熬夜等银河。",
-      "body": "特卡波住11/20、21两晚，仍是明亮的盈凸月阶段。11/21、22凌晨分别仅约17分钟及0分钟月落后全黑窗口；考虑睡眠和次日驾驶，不安排熬夜追银河。11/20、21日落约20:49、20:51，拍湖山晚光、教堂外观与短时间蓝调更合适。",
+      "body": "特卡波11/20只住一晚，11/21住Twizel（特威泽尔）。11/20–22三晚月亮约78%、86%、93%亮，下午到傍晚就升起，凌晨03:30以后才落：11/21凌晨只有约17分钟无月全黑，11/21晚一分钟都没有，住哪都拍不了银河；Twizel也在奥拉基麦肯齐国际暗夜保护区里，月出月落和特卡波只差1–2分钟。所以这几晚拍月光和晚霞：11/20教堂日落20:49；11/21在普卡基湖游客中心看Aoraki（奥拉基/库克山）日落晚霞（日落20:53，最好的颜色20:40–21:05）；不熬夜追银河。",
       "sourceIds": [
         "w-moonTekapo",
-        "w-sunTekapo"
+        "w-sunTekapo",
+        "x-twizel-moon",
+        "x-twizel-sun",
+        "x-dark-reserve"
       ]
     },
     "cards": [
@@ -3098,11 +3272,13 @@
       },
       {
         "title": "库克山一天留足时间，按正式停车区停车",
-        "body": "Tekapo（特卡波）到White Horse Hill（白马山营地）单程约1小时15–30分（DOC（新西兰保护部）按约1.5小时算），往返开车约2.5–3小时，配长步道就是一天。11–3月10:00–16:00停车场车位可能不够（DOC），周末更挤。White Horse Hill收费NZD2.50/半小时或25/日，超过20分钟需抵达时付费，只收卡。NZTA（新西兰交通局）已改进SH80（80号国道） Peter’s Lookout（彼得观景点）、Acland Lagoon（阿克兰潟湖）等停车区；只在合法停车位停，不站公路中线拍引导线。",
+        "body": "Tekapo（特卡波）到White Horse Hill（白马山营地）约1小时25–30分（DOC（新西兰保护部）按约1.5小时算），出山到Twizel（特威泽尔）约55分钟（DOC按约1小时算），配长步道就是一天；11/21一早从特卡波出发，约09:30到，比停车高峰早。11–3月10:00–16:00停车场车位可能不够（DOC），周末更挤。White Horse Hill收费NZD2.50/半小时或25/日，超过20分钟需抵达时付费，只收卡。NZTA（新西兰交通局）已改进SH80（80号国道） Peter’s Lookout（彼得观景点）、Acland Lagoon（阿克兰潟湖）等停车区；只在合法停车位停，不站公路中线拍引导线。",
         "sourceIds": [
           "w-docHooker",
           "w-nztaRest",
-          "x-doc-aoraki-visit"
+          "x-doc-aoraki-visit",
+          "x-doc-aoraki-towns",
+          "x-osrm-tekapo-whh"
         ]
       }
     ]
@@ -3110,7 +3286,7 @@
   "before": [
     {
       "title": "01 / 会合：11/18在墨尔本住处会合",
-      "body": "你坐吉祥HO1655（吉祥航空），11/18墨尔本当地07:00到，坐SkyBus（墨尔本机场快线）进城后先把行李放到住处。墨尔本同学在本地，直接来住处；东京同学自己订东京→墨尔本的航班，最好11/18白天到，出关后自己坐SkyBus或打车到住处。三人一起坐11/19 09:10的QF167（澳洲航空）去基督城，11/26一起坐NZ231（新西兰航空）回悉尼。QF167和NZ231三人都要买，最好同一天出票；NZ231也是在墨尔本值机时要查的“离开新西兰机票”。旅行结束后，你11/30坐HO1670（吉祥航空）回上海；东京同学自己订悉尼→东京，墨尔本同学自己订悉尼→墨尔本。两位同学：住宿、租车、油费、停车三人均分，加上自己的米尔福德大巴＋游船，每人约¥16,045–16,271；机票、保险、NZeTA（新西兰电子旅行授权）、吃饭和市内交通各自付（首页的预算是你从上海出发的总数）。提前把墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式和你的电话发给两位同学。",
+      "body": "你坐吉祥HO1655（吉祥航空），11/18墨尔本当地07:00到，坐SkyBus（墨尔本机场快线）进城后先把行李放到住处。墨尔本同学在本地，直接来住处；东京同学自己订东京→墨尔本的航班，最好11/18白天到，出关后自己坐SkyBus或打车到住处。三人一起坐11/19 09:10的QF167（澳洲航空）去基督城，11/26一起坐NZ231（新西兰航空）回悉尼。QF167和NZ231三人都要买，最好同一天出票；NZ231也是在墨尔本值机时要查的“离开新西兰机票”。旅行结束后，你11/30坐HO1670（吉祥航空）回上海；东京同学自己订悉尼→东京，墨尔本同学自己订悉尼→墨尔本。两位同学：住宿、租车、油费、停车三人均分，加上自己的米尔福德大巴＋游船，每人约¥16,466–16,692；机票、保险、NZeTA（新西兰电子旅行授权）、吃饭和市内交通各自付（首页的预算是你从上海出发的总数）。提前把墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式和你的电话发给两位同学。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3176,7 +3352,7 @@
     },
     {
       "title": "05 / 租车、徒步与睡眠",
-      "body": "墨尔本和悉尼以步行、公共交通和打车为主，三人带箱子时叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）；新西兰两位驾驶人都写进租赁合同。中国大陆驾照带原件＋NZTA（新西兰交通局）认可英文翻译，日本驾照带原件＋日本正式IDP（国际驾照）。按旅行时25岁及24岁核查，主驾带本人实体信用卡。三只29/30寸箱按含轮外尺寸核对，取车先试装、固定背包并验车拍照。每约2小时休息，不为补拍赶夜路；鞋底和脚架清泥并如实申报。 出发前下载南岛（基督城–Mackenzie（麦肯齐）–瓦纳卡–皇后镇）离线地图，离线收藏新西兰4家住宿和两家APEX（新西兰租车公司）门店；Lindis Pass（林迪斯山口）、Tasman Valley（塔斯曼谷）等山区没有信号，进山前先设好导航。紧急电话：新西兰111，澳洲000；证件丢了看“11 / 证件丢了怎么办”。这个网站没网也打不开：出发前存一份PDF（便携文档），每天出门前把当天行程截图（见待办）。",
+      "body": "墨尔本和悉尼以步行、公共交通和打车为主，三人带箱子时叫Maxi Taxi（大型出租车）或Uber Max（优步大行李车型）；新西兰两位驾驶人都写进租赁合同。中国大陆驾照带原件＋NZTA（新西兰交通局）认可英文翻译，日本驾照带原件＋日本正式IDP（国际驾照）。按旅行时25岁及24岁核查，主驾带本人实体信用卡。三只29/30寸箱按含轮外尺寸核对，取车先试装、固定背包并验车拍照。每约2小时休息，不为补拍赶夜路；鞋底和脚架清泥并如实申报。 出发前下载南岛（基督城–Mackenzie（麦肯齐）–瓦纳卡–皇后镇）离线地图，离线收藏新西兰5家住宿和两家APEX（新西兰租车公司）门店；Lindis Pass（林迪斯山口）、Tasman Valley（塔斯曼谷）等山区没有信号，进山前先设好导航。紧急电话：新西兰111，澳洲000；证件丢了看“11 / 证件丢了怎么办”。这个网站没网也打不开：出发前存一份PDF（便携文档），每天出门前把当天行程截图（见待办）。",
       "sourceIds": [
         "nzta-license",
         "i-driver-rest",
@@ -3186,14 +3362,14 @@
     },
     {
       "title": "06 / 预算和备份，留一点弹性",
-      "body": "十四天控制版精算¥34,785.36–38,468.44/人，已含¥1,000机动金；按上限超出¥30,000约¥8,468.44（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,301（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,370–39,274，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
+      "body": "十四天控制版精算¥35,206.03–38,889.10/人，已含¥1,000机动金；按上限超出¥30,000约¥8,889.10（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,722（11/2–3按各家最便宜的平台：携程订Dorsett（帝盛酒店），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订新西兰五处：基督城、特卡波、特威泽尔、瓦纳卡、皇后镇）、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车、观星团等自费项目从机动金出）；放宽餐饮约¥35,791–39,695，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。 现金每人AUD100–200＋NZ200–400≈¥1,225–2,450；建议先换AUD150＋NZ300≈¥1,838，属于已列消费的支付方式，不额外加总。主驾带本人实体信用卡，并另留押金/预授权可用额度。照片每日两份备份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 下单前最要紧的几件事",
-      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签、确认是多次入境后马上一起出票；NZ231携程已搜不到，在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定，官网要选theworks（标准经济舱票）或订完加1件托运。②住宿都订可免费取消的，哪家平台便宜用哪家：携程订特卡波Alpine Nook（山间小居度假屋，两晚¥6,776，新西兰时间11/12 23:59前免费取消）、皇后镇Blue Peaks（蓝色山峰，三晚¥8,124，新西兰时间11/20 23:59前），携程下单即付款；Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，悉尼时间11/24 23:59前免费取消，即北京时间20:59；携程床型随机）；爱彼迎订基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）三卧两卫（¥1,853，新西兰时间11/14 15:00前免费取消，即北京时间10:00）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）三卧两卫（¥2,640，下单先付¥0，11/21前免费取消）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。免费取消截止前会继续盯特卡波以前订满的三家，放出房就换。③APEX（新西兰租车公司）：先问清玻璃轮胎专项和三只箱子放不放得下，最好在北京时间11/5 12:00前订车（11/19取、11/26还）：这之前取消免费，之后到取车前24小时取消收20%（最多NZ$100），11/5以后才订就没有免费取消期。④米尔福德：在RealNZ（米尔福德游船巴士运营商）官网直接订11/24 07:35大巴＋游船（三人NZ$957），新西兰时间11/23 07:35前可以免费改期或退款；天气不好想和11/25格林诺奇对调，也要在这之前改。⑤手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑥大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
+      "body": "①机票：你先在携程订吉祥多程票（上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”）；三人再订QF167（澳洲航空，11/19）和NZ231（新西兰航空，11/26），这两张都不能退，东京同学下签、确认是多次入境后马上一起出票；NZ231携程已搜不到，在新西兰航空官网或Trip.com（携程国际版）订，在哪订由你定，官网要选theworks（标准经济舱票）或订完加1件托运。②住宿哪家平台便宜用哪家：爱彼迎订新西兰五处，先订特威泽尔The Pyramid（特威泽尔金字塔，11/21，¥3,369，11/16前免费取消；Twizel（特威泽尔）周六几乎订满），再订特卡波Milky Way Views（银河美景，11/20，¥4,495；只有下单24小时内能全额退，之后到新西兰时间11/13 15:00前取消只退一半房费）、皇后镇Ellen's lake-view townhouse（埃伦湖景联排别墅，三晚¥8,298，11/18前免费取消）、基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）三卧两卫（¥1,853，新西兰时间11/14 15:00前免费取消，即北京时间10:00）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）三卧两卫（¥2,640，11/21前免费取消）；入住前14天以上下单可以先订后付（见待办）。Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚（尊贵两卧NZ$4,050，悉尼时间11/24 23:59前免费取消，即北京时间20:59；携程床型随机）；墨尔本Dorsett（帝盛酒店）你已自己安排（携程比Booking便宜约¥236）。③APEX（新西兰租车公司）：先问清玻璃轮胎专项和三只箱子放不放得下，最好在北京时间11/5 12:00前订车（11/19取、11/26还）：这之前取消免费，之后到取车前24小时取消收20%（最多NZ$100），11/5以后才订就没有免费取消期。④米尔福德：在RealNZ（米尔福德游船巴士运营商）官网直接订11/24 07:35大巴＋游船（三人NZ$957），新西兰时间11/23 07:35前可以免费改期或退款；天气不好想和11/25格林诺奇对调，也要在这之前改。⑤手机eSIM（电子手机卡）兼容；旅行险按11/17–11/30共14天重新试算。⑥大额付款用信用卡，招行借记卡单日限额5,000元只刷小额。拿到最终支付总价后替换预算并重算，不以此页截图代替订单。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3204,44 +3380,48 @@
         "x-insurance",
         "a-hagley",
         "c-dorsett",
-        "c-alpinenook",
+        "a-milkyway",
+        "a-pyramid",
         "a-parkhill",
-        "c-bluepeaks",
+        "a-ellen",
         "f-nz-shorthaul",
         "x-au-600",
         "r-apex-faq-cancel",
         "x-milford",
         "x-realnz-terms",
-        "x-booking-cancel-time"
+        "x-booking-cancel-time",
+        "x-airbnb-paylater"
       ]
     },
     {
       "title": "08 / 防晒、驱虫和超市补给",
-      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/19晚在基督城市区或11/20在Geraldine（杰拉尔丁）买Alpine Nook（山间小居度假屋）两晚的早晚餐，11/22下午在Wānaka（瓦纳卡）镇中心的New World（新世界）超市买当晚零食和11/23早餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买Blue Peaks（蓝色山峰）三晚和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
+      "body": "新西兰11月正午紫外线指数常到约10（极高），湖面和船甲板反射更强：SPF50（防晒指数50）+防晒每2小时补涂、遮阳帽、太阳镜（开车防眩光也用得上）。米尔福德码头和Glenorchy（格林诺奇）湿地沙蝇多，黄昏最活跃：带含DEET（避蚊胺）或派卡瑞丁的驱虫剂，穿长袖长裤。控制版餐饮靠超市：11/20在Geraldine（杰拉尔丁）的FreshChoice（新鲜之选）买当晚晚饭和11/21早餐（特卡波只住一晚），11/21下午在Twizel（特威泽尔）的Four Square（新西兰小型连锁超市）买当晚晚饭和11/22早餐（周六开到20:00或20:30），11/22下午在Wānaka（瓦纳卡）镇中心的New World（新世界）超市买当晚零食和11/23早餐，11/23在Frankton（弗兰克顿） PAK’nSAVE（新西兰平价连锁超市）买皇后镇三晚的早餐和峡湾午餐；Tekapo（特卡波）只有一家小超市，Mount Cook（库克山）村商店选择少、价格高。",
       "sourceIds": [
         "x-sunsmart",
-        "x-milford"
+        "x-milford",
+        "x-osm-freshchoice-geraldine",
+        "x-foursquare-mackenzie"
       ]
     },
     {
       "title": "09 / 保险和就医",
-      "body": "新西兰境内的意外伤害，ACC（新西兰意外事故赔偿局）对访客也承担部分治疗费用，就医时说明是意外；疾病、送返回国和航程中受伤靠旅行险。安联：住院前，或门诊和牙科可能超过¥10,000时，先打救援热线0086 21 5230 0806；被盗24小时内报警并取得书面报告。但这款险基本不保相机、镜头和无人机：随身财产每件限¥1,000、合计最多¥5,000，手机、平板电脑、笔记本电脑以外的数码产品不在保障里。相机和镜头最好随身带，不留在车里过夜。电子保单和热线离线存在手机里。安联这款只承保从中国大陆出发的人，东京和墨尔本的两位朋友要各自在出发地买覆盖澳洲和新西兰、含医疗和救援的旅行险；墨尔本同学要书面确认学生保险是否覆盖新西兰，不能默认。",
+      "body": "新西兰境内的意外伤害，ACC（新西兰意外事故赔偿局）对访客也承担部分治疗费用，就医时说明是意外；疾病、送返回国和航程中受伤靠旅行险。安联：住院前，或门诊和牙科可能超过¥10,000时，先打救援热线0086 21 5230 0806；被盗24小时内报警并取得书面报告。但这款险基本不保相机、镜头和无人机：随身财产每件限¥1,000、合计最多¥5,000，手机、平板电脑、笔记本电脑以外的数码产品不在保障里。相机和镜头最好随身带，不留在车里过夜。电子保单和热线离线存在手机里。安联这款只承保从中国大陆出发的人，东京和墨尔本的两位朋友要各自在出发地买覆盖澳洲和新西兰、含医疗和救援的旅行险；墨尔本同学要书面确认学生保险是否覆盖新西兰，不能默认。 11/21从特卡波退房后，三只箱子要在库克山停车场的车里放几个小时：车里的个人物品丢了APEX（新西兰租车公司）的保障不赔（租约8.2），这款旅行险随身财产每件也只赔¥1,000，护照、相机、电脑等贵重物品随身带。",
       "sourceIds": [
         "x-acc",
         "x-insurance",
-        "x-allianz-benefits"
+        "x-allianz-benefits",
+        "r-apex-terms-82"
       ]
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款（租车、住宿、三段机票）用信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的三处在线付人民币，没有外币交易费和到店刷卡附加费，但墨尔本Dorsett（帝盛酒店）入住时还要刷AUD200押金（信用卡、借记卡都行，用信用卡），退房当天退回；爱彼迎订的两套也按人民币付；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收1.5%。",
+      "body": "大额付款（租车、住宿、三段机票）用信用卡。下单前看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）租车收Visa、Mastercard、美国运通和银联信用卡，也收银行发行的Visa/MC（万事达卡）借记卡，不收JCB（日本信用卡组织），要实体卡、持卡人本人到场，选零自付额时押金一处写NZ$500、离住址50km以外又写免押金，以订单为准。携程订的墨尔本Dorsett（帝盛酒店）在线付人民币，没有外币交易费和到店刷卡附加费，但入住时还要刷AUD200押金（信用卡、借记卡都行，用信用卡），退房当天退回；爱彼迎订的五处也按人民币付；Booking（缤客订房网）订的悉尼Adina（阿迪娜公寓酒店）入住时用订房人本人的Visa或Mastercard信用卡预授权AUD200，订房人要和卡同名、本人到场。押金和预授权会占额度。招行万事达借记卡（I类户，单日限额5,000元）只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过；中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收1.5%。",
       "sourceIds": [
         "r-apex-faq",
         "i-nsw-payment",
         "x-cmb-mc",
         "x-boc-jcb",
         "x-jcb-anz",
-        "x-bluepeaks-loc",
         "b-adina",
         "x-dorsett-policy",
         "x-card-fx-15"
@@ -3781,12 +3961,6 @@
       "checked": "2026-10-22"
     },
     {
-      "id": "x-bluepeaks-loc",
-      "title": "Blue Peaks（蓝色山峰）官网：公寓8 Coronation Dr（加冕大道），入住在11 Sydney St（悉尼街）的Lodge（旅舍）",
-      "url": "https://www.bluepeaksapartments.co.nz/location-contact/",
-      "checked": "2026-10-22"
-    },
-    {
       "id": "x-sunsmart",
       "title": "SunSmart NZ（新西兰防晒宣传项目）：9月至4月需防晒",
       "url": "https://www.sunsmart.org.nz/",
@@ -4027,12 +4201,6 @@
       "checked": "2026-11-01"
     },
     {
-      "id": "b-alpinenook",
-      "title": "Booking（缤客订房网） 11/1实查：Alpine Nook（山间小居度假屋） · 11/20–22 · 3成人2晚 · NZ$1,893",
-      "url": "https://www.booking.com/hotel/nz/rossendale.zh-cn.html?checkin=2026-11-20&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-01"
-    },
-    {
       "id": "x-chch-gardens",
       "title": "基督城市政府：植物园开放时间（11–2月07:00–21:00）",
       "url": "https://ccc.govt.nz/parks-and-gardens/christchurch-botanic-gardens/visit/botanic-gardens-opening-hours",
@@ -4057,12 +4225,6 @@
       "checked": "2026-11-02"
     },
     {
-      "id": "c-alpinenook",
-      "title": "携程11/2实查：Alpine Nook（山间小居度假屋） · 11/20–22 · 三卧室房屋两晚¥6,776（在线付含税，登录会员价）",
-      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-22&adult=3&children=0&crn=1&curr=CNY",
-      "checked": "2026-11-02"
-    },
-    {
       "id": "c-archway",
       "title": "携程11/2实查：Archway Motels & Chalets（拱门汽车旅馆小屋） · 11/22–23 · 三卧室公寓¥1,915（在线付含税，登录会员价）",
       "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=743002&checkIn=2026-11-22&checkOut=2026-11-23&adult=3&children=0&crn=1&curr=CNY",
@@ -4070,7 +4232,7 @@
     },
     {
       "id": "c-bluepeaks",
-      "title": "携程11/2实查：Blue Peaks Apartments（蓝色山峰公寓） · 11/23–26 · 两卧室公寓三晚¥8,124（在线付含税，登录会员价）",
+      "title": "携程11/2再查：Blue Peaks Apartments（蓝色山峰公寓） · 11/23–26 · 两卧室公寓三晚¥8,106（新西兰时间11/20 23:59前免费取消，仅剩2间）",
       "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=2562050&checkIn=2026-11-23&checkOut=2026-11-26&adult=3&children=0&crn=1&curr=CNY",
       "checked": "2026-11-02"
     },
@@ -4559,6 +4721,198 @@
       "title": "爱彼迎11/2实查：Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓） · 11/19–20 · 3成人 · 整套三卧两卫¥1,853（含全部费用，新西兰时间11/14 15:00前免费取消）",
       "url": "https://www.airbnb.cn/rooms/1659678722947736003",
       "checked": "2026-11-02"
+    },
+    {
+      "id": "a-milkyway",
+      "title": "爱彼迎11/2实查：Milky Way Views（银河美景） · 11/20–21 · 3成人 · 整栋两层湖景房¥4,495（含全部费用；下单24小时内全额退，新西兰时间11/13 15:00前取消退一半房费）",
+      "url": "https://www.airbnb.cn/rooms/43151313?check_in=2026-11-20&check_out=2026-11-21&adults=3",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "a-pyramid",
+      "title": "爱彼迎11/2实查：The Pyramid（特威泽尔金字塔） · 11/21–22 · 3成人 · 整栋三卧两卫¥3,369（含全部费用，11/16前免费取消）",
+      "url": "https://www.airbnb.cn/rooms/1272732586097370105?check_in=2026-11-21&check_out=2026-11-22&adults=3",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "a-ellen",
+      "title": "爱彼迎11/2实查：Ellen's lake-view townhouse（埃伦湖景联排别墅） · 11/23–26 · 3成人 · 三卧三卫半联排别墅三晚¥8,298（含全部费用，11/18前免费取消）",
+      "url": "https://www.airbnb.cn/rooms/1766618138826583489?check_in=2026-11-23&check_out=2026-11-26&adults=3",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "a-mackenzie-haven",
+      "title": "爱彼迎11/2实查：Twizel（特威泽尔）镇上的Mackenzie Haven（麦肯齐港湾民宿） · 11/21–22 · 五卧两卫半¥2,055（备选）",
+      "url": "https://www.airbnb.cn/rooms/37499610?check_in=2026-11-21&check_out=2026-11-22&adults=3",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "c-alpinenook-1n",
+      "title": "携程11/2实查：Alpine Nook（山间小居度假屋） 11/20一晚¥3,131（新西兰时间11/12 23:59前免费取消）；两晚¥7,306，周六那晚约¥4,175",
+      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-21&adult=3&children=0&crn=1&curr=CNY",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-twizel-sun",
+      "title": "Timeanddate（时间日期网）：Twizel（特威泽尔） 2026年11月太阳表（11/21日落20:53、民用暮光到21:27；11/22日出05:57）",
+      "url": "https://www.timeanddate.com/sun/@-44.2575,170.0994?month=11&year=2026",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-twizel-moon",
+      "title": "Timeanddate（时间日期网）：Twizel（特威泽尔） 2026年11月月亮表（11/21月亮86%亮，16:51升起，11/22 03:55落下，整夜没有无月的全黑）",
+      "url": "https://www.timeanddate.com/moon/@-44.2575,170.0994?month=11&year=2026",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-dark-reserve",
+      "title": "奥拉基麦肯齐国际暗夜保护区官网：保护区是库克山国家公园加麦肯齐盆地（含Lake Tekapo（特卡波湖）、Lake Pukaki（普卡基湖）），Twizel（特威泽尔）在这个盆地里",
+      "url": "https://www.darkskyreserve.org.nz/the-reserve",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-dsp-crater",
+      "title": "Dark Sky Project（暗夜星空项目）订票页（11/2查）：11/20晚三人能一起订的英文团只有11/21 01:30的Crater（陨坑观星团），普通话夜场已满",
+      "url": "https://book.darkskyproject.co.nz/activity/selection?filter=ProdGroup-DSPCRAT&workingDate=2026-11-20",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-twizel-stargazing",
+      "title": "Twizel Stargazing（特威泽尔观星团）订票页（11/2查）：22:15在Distinction MacKenzie Country Hotel（麦肯齐乡村酒店）大堂集合，75分钟，成人NZ$119，11/21剩12位",
+      "url": "https://gotekapo.rezdy.com/672219/twizel-stargazing-experience",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-stargaze-mackenzie",
+      "title": "Stargaze Mackenzie（麦肯齐观星）的Cosmos Explorer（宇宙探索观星团）订票页（11/2查）：22:00在Lake Ruataniwha（鲁阿塔尼瓦湖），75分钟，成人NZ$119，11/21剩7位",
+      "url": "https://stargazemackenzie.rezdy.com/715074/the-cosmos-explorer-tour",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-pukaki-vc",
+      "title": "Mackenzie（麦肯齐）旅游局：Lake Pukaki（普卡基湖）游客中心在SH8（8号国道）湖南端，有公共厕所，是望向Aoraki（奥拉基/库克山）的好位置",
+      "url": "https://mackenzienz.com/tours/walking-tracks-lake-pukaki/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-pukaki-vc",
+      "title": "OpenStreetMap（开放街图）：Lake Pukaki（普卡基湖）游客中心的位置（在SH8（8号国道）上，SH80（80号国道）路口以东约1.2km）",
+      "url": "https://www.openstreetmap.org/way/88259127",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-odt-sh80",
+      "title": "ODT（奥塔哥每日时报，2026-07-31）：SH8（8号国道）/SH80（80号国道）库克山路口是公认的事故点，NZTA（新西兰交通局）提议改可变限速，长期考虑建环岛",
+      "url": "https://www.odt.co.nz/canterbury/south-canterbury/changes-to-aoraki-mt-cook-turn-off-delights-road-safety-campaigner-vjn9d2j7",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-doc-aoraki-towns",
+      "title": "DOC（新西兰保护部）库克山国家公园页：有超市和服务的最近城镇是Twizel（特威泽尔，约1小时）和Tekapo（特卡波，约1.5小时）",
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osrm-tekapo-whh",
+      "title": "OSRM（开源路线计算）路线（11/2算，偏乐观）：特卡波到White Horse Hill（白马山营地）约107km、85分钟",
+      "url": "https://router.project-osrm.org/route/v1/driving/170.48745,-44.01090;170.0938,-43.7187",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osrm-whh-twizel",
+      "title": "OSRM（开源路线计算）路线（11/2算，偏乐观）：White Horse Hill（白马山营地）到Twizel（特威泽尔）约66km、52分钟",
+      "url": "https://router.project-osrm.org/route/v1/driving/170.09289,-43.71969;170.0994,-44.2575",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osrm-twizel-wanaka",
+      "title": "OSRM（开源路线计算）路线（11/2算，偏乐观）：Twizel（特威泽尔）到瓦纳卡Parkhill Avenue（帕克希尔大道）约145km、115分钟（从特卡波出发约203km、160分钟）",
+      "url": "https://router.project-osrm.org/route/v1/driving/170.0994,-44.2575;169.11751,-44.70301",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-foursquare-mackenzie",
+      "title": "Four Square Mackenzie（麦肯齐四方超市，27 Market Place（市场广场）, Twizel（特威泽尔））：周一至周六07:15–20:30，周日07:15–20:00",
+      "url": "https://www.foursquare.co.nz/south-island/canterbury/mackenzie",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-foursquare-twizel",
+      "title": "Four Square Twizel（特威泽尔四方超市，20 Market Place（市场广场））：周一至周六07:30–20:00，周日08:00–20:00",
+      "url": "https://www.foursquare.co.nz/south-island/canterbury/twizel",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-mobil-twizel",
+      "title": "Mobil Twizel（特威泽尔美孚加油站，50 Mackenzie Drive（麦肯齐大道））：每天07:00–21:00",
+      "url": "https://www.mobil.co.nz/en-nz/find-station/twizel-canterbury-mobiltwizel-300401509",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-fishtail",
+      "title": "Mackenzie（麦肯齐）旅游局：Fishtail（尾鱼餐厅）餐厅（12c Market Place（市场广场）, Twizel（特威泽尔））每天12:00–21:30",
+      "url": "https://www.mackenzienz.com/visit/fishtail-restaurant-and-bar/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-poppies",
+      "title": "Poppies（罂粟咖啡餐厅）官网（Twizel（特威泽尔））：晚餐17:30–20:30，周三周四休息",
+      "url": "https://www.poppiescafe.com/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-mowbar",
+      "title": "MOW Bar（工务部酒吧餐厅）官网（2 Market Place（市场广场）, Twizel（特威泽尔））：周六周日12:00开到晚上",
+      "url": "https://www.mowbar.co.nz/",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-pyramid-terrace",
+      "title": "OpenStreetMap（开放街图）：Pyramid Terrace（金字塔台地路），压实碎石路，约1.0km",
+      "url": "https://www.openstreetmap.org/way/671478470",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-osm-old-glen-lyon",
+      "title": "OpenStreetMap（开放街图）：Old Glen Lyon Road（旧格伦莱昂路），前约1.47km沥青，后段压实碎石",
+      "url": "https://www.openstreetmap.org/way/671473585",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-apex-gravel",
+      "title": "APEX（新西兰租车公司）安全驾驶提示：碎石路车速不超过50km/h，过弯和下坡降到30km/h以下，看到牲畜要减速",
+      "url": "https://apexrentals.co.nz/travel-tips/safe-driving-in-new-zealand",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "r-apex-faq-roads",
+      "title": "APEX（新西兰租车公司）官网FAQ（常见问题）：只能开正规修筑的沥青或碎石路；禁止越野、海滩、农场草场和四驱便道",
+      "url": "https://www.apexrentals.co.nz/rental-info/frequently-asked-questions",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "r-apex-terms-82",
+      "title": "APEX（新西兰租车公司）租约8.2：在差路上开太快造成的车底损坏、车里个人物品的损失，都不在零自付额豁免内",
+      "url": "https://www.apexrentals.co.nz/rental-info/terms-and-conditions",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-mackenzie-gravel",
+      "title": "麦肯齐区议会：碎石路驾驶提示（减速、拉开跟车距离，石子会打坏挡风玻璃和大灯）",
+      "url": "https://mackenzie.govt.nz/services/roading-and-transport/tips-for-gravel-road-driving",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-mackenzie-rural",
+      "title": "麦肯齐区议会：乡村道路要提防散放的牲畜和野生动物",
+      "url": "https://www.mackenzie.govt.nz/services/roading-and-transport/keeping-safe-on-rural-roads",
+      "checked": "2026-11-02"
+    },
+    {
+      "id": "x-police-valuables",
+      "title": "新西兰警方：车里看得见的东西容易被偷，要放进后备厢，步道停车场也一样",
+      "url": "https://www.police.govt.nz/news/release/keep-valuables-out-sight-vehicles",
+      "checked": "2026-11-02"
     }
   ],
   "droneAreas": [
@@ -4799,31 +5153,59 @@
         }
       },
       {
-        "id": "hotel-alpinenook",
-        "title": "Alpine Nook（山间小居度假屋） · 11-20–11-22 / 2晚",
+        "id": "hotel-milkyway",
+        "title": "Milky Way Views（银河美景） · 11-20–11-21 / 1晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 6776,
-          "max": 6776
+          "min": 4495,
+          "max": 4495
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "携程11/2实时页：三卧室房屋两晚¥6,776（在线付）",
-        "note": "三卧室房屋90㎡：卧室1一张1.81米特大床、卧室2一张1.51米大床、卧室3两张0.8米单人床，一个卫生间，三人各一间；新西兰时间11/12 23:59前免费取消（北京时间18:59），携程下单即付款。只有1个卫生间，早上要轮流用。",
+        "status": "爱彼迎11/2实时页：整栋两层湖景房¥4,495（含全部费用）",
+        "note": "整栋两层湖景房（最多8人）：四间卧室各一张约1.5米双人床，三人各住一间；两个卫生间，有厨房、Wi-Fi（无线网络），楼上客厅有大窗看湖和山；下单后24小时内取消全额退款；之后到新西兰时间11/13 15:00前（北京时间11/13 10:00）取消，只退一半房费，服务费不退；过了这个时刻不退款。15:00后用钥匙盒（密码锁）自助入住，10:00前退房；房源内免费停车。热水是储水罐、量有限（房东说约够洗15分钟，几条评价说人多会用完）：三人错开洗、每人洗快一点。房源写隔壁在施工（房东管不了），白天可能有噪音；2026年6月有一条评价说屋里发现一只死老鼠，房东一小时内处理了。房源页写没有烟雾报警器和一氧化碳报警器。",
         "sourceIds": [
-          "c-alpinenook"
+          "a-milkyway"
         ],
         "perPersonNative": {
-          "min": 2258.6666666666665,
-          "max": 2258.6666666666665
+          "min": 1498.3333333333333,
+          "max": 1498.3333333333333
         },
         "perPersonCnyUnrounded": {
-          "min": 2258.6666666666665,
-          "max": 2258.6666666666665
+          "min": 1498.3333333333333,
+          "max": 1498.3333333333333
         },
         "perPersonCny": {
-          "min": 2258.67,
-          "max": 2258.67
+          "min": 1498.33,
+          "max": 1498.33
+        }
+      },
+      {
+        "id": "hotel-pyramid",
+        "title": "The Pyramid（特威泽尔金字塔） · 11-21–11-22 / 1晚",
+        "currency": "CNY",
+        "quotedOrBudgetTotal": {
+          "min": 3369,
+          "max": 3369
+        },
+        "splitPeople": 3,
+        "category": "hotel",
+        "status": "爱彼迎11/2实时页：整栋三卧两卫¥3,369（含全部费用）",
+        "note": "整栋现代农场新房（最多6人）：卧室1一张约1.5米双人床带独立卫生间、卧室2一张约1.5米双人床、卧室3两张单人床，三人各住一间；两个卫生间，有厨房、洗衣机、Wi-Fi（无线网络）；11/16前免费取消（具体时刻看订单页，按房源当地时间），之后不退款。15:00–22:00智能门锁自助入住，11:00前退房；房源内免费停车，室外监控摄像头只对着停车区。进出最后约1.5–2.4km是压实碎石路：APEX（新西兰租车公司）允许开正规碎石路，建议不超过50km/h；在差路上开太快弄坏车底，零自付额也不赔。天黑后慢开，留意羊和兔子。房源页写没有烟雾报警器和一氧化碳报警器。",
+        "sourceIds": [
+          "a-pyramid"
+        ],
+        "perPersonNative": {
+          "min": 1123.0,
+          "max": 1123.0
+        },
+        "perPersonCnyUnrounded": {
+          "min": 1123.0,
+          "max": 1123.0
+        },
+        "perPersonCny": {
+          "min": 1123.0,
+          "max": 1123.0
         }
       },
       {
@@ -4855,31 +5237,31 @@
         }
       },
       {
-        "id": "hotel-bluepeaks",
-        "title": "Blue Peaks Apartments（蓝色山峰公寓） · 11-23–11-26 / 3晚",
+        "id": "hotel-ellen",
+        "title": "Ellen's lake-view townhouse（埃伦湖景联排别墅） · 11-23–11-26 / 3晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 8124,
-          "max": 8124
+          "min": 8298,
+          "max": 8298
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "携程11/2实时页：两卧室公寓三晚¥8,124（在线付）",
-        "note": "两卧两卫100㎡：卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床；上层只能走楼梯；新西兰时间11/20 23:59前免费取消（北京时间18:59），携程下单即付款。15–20时在Blue Peaks Lodge（蓝色山峰旅舍，11 Sydney Street（悉尼街））前台入住，过时取钥匙收NZ$90；公寓在8 Coronation Drive（加冕大道），10:00前退房。订携程的“两卧室公寓”（卧室1一张1.51米大床、卧室2两张单人床，客厅另有一张单人床，两个卫生间），备注三位成人、希望要翻新过的单元；前台07:30–20:00，入住时问清公寓在哪一栋和车位入口。办理入住的人须年满21岁，入住时可能要出示信用卡。",
+        "status": "爱彼迎11/2实时页：三卧三卫半联排别墅三晚¥8,298（含全部费用）",
+        "note": "三层新联排别墅（最多6人）：卧室1一张约1.8米双人床、卧室2一张约1.8米双人床、卧室3两张单人床，三人各住一间；三个半卫生间（两间卧室带独立卫生间），每层有冷暖空调，有厨房、洗衣机，阳台看湖（Frankton Arm（弗兰克顿湾）、The Remarkables（卓越山脉）、瓦卡蒂普湖）；卧室在二、三层，三只大箱要抬上楼；11/18前免费取消；之后到11/23入住前取消退一部分；入住后不退款（具体时刻看订单页）。15:00后智能门锁自助入住，没有前台、没有晚到取钥匙费；10:00前退房。一个专用路边车位，编号3/7（不是车库；房源没写Santa Fe（胜达）停不停得下，订后问房东）。房源页写“未配备”烟雾报警器和一氧化碳报警器。只有4条评价（都是5星）。",
         "sourceIds": [
-          "c-bluepeaks"
+          "a-ellen"
         ],
         "perPersonNative": {
-          "min": 2708.0,
-          "max": 2708.0
+          "min": 2766.0,
+          "max": 2766.0
         },
         "perPersonCnyUnrounded": {
-          "min": 2708.0,
-          "max": 2708.0
+          "min": 2766.0,
+          "max": 2766.0
         },
         "perPersonCny": {
-          "min": 2708.0,
-          "max": 2708.0
+          "min": 2766.0,
+          "max": 2766.0
         }
       },
       {
@@ -5096,14 +5478,16 @@
         "splitPeople": 3,
         "category": "ground",
         "status": "整车预算（10/23加Mt John（约翰山））",
-        "note": "确定收费的有两处：White Horse Hill（白马山营地）停车NZ$2.50/半小时、全天封顶NZ$25、前20分钟免费、只收卡，按停1.5–2.5小时（含找车位和厕所）≈NZ$7.5–12.5；11/20 Mt John（约翰山）上山路NZ$14/车，门口刷卡。基督城Hagley Park（哈格利公园）旁的公寓和瓦纳卡Parkhill（帕克希尔）都有免费车位，皇后镇Blue Peaks（蓝色山峰）每套有1个指定车位；其余为预防性余量。",
+        "note": "确定收费的有两处：White Horse Hill（白马山营地）停车NZ$2.50/半小时、全天封顶NZ$25、前20分钟免费、只收卡，按停1.5–2.5小时（含找车位和厕所）≈NZ$7.5–12.5；11/20 Mt John（约翰山）上山路NZ$14/车，门口刷卡。基督城Hagley Park（哈格利公园）旁的公寓、特卡波Milky Way Views（银河美景）、特威泽尔The Pyramid（特威泽尔金字塔）和瓦纳卡Parkhill（帕克希尔）都有免费车位，皇后镇Ellen（埃伦）联排别墅有1个专用车位（3/7）；其余为预防性余量。",
         "sourceIds": [
           "b-qldc-parking",
           "x-doc-parking",
           "x-mtjohn",
           "a-hagley",
           "a-parkhill",
-          "x-bluepeaks-loc"
+          "a-milkyway",
+          "a-pyramid",
+          "a-ellen"
         ],
         "perPersonNative": {
           "min": 11.333333333333334,
@@ -5378,14 +5762,14 @@
     ],
     "summary": {
       "totalCNY": {
-        "min": 34785.36,
-        "max": 38468.44,
-        "display": "控制版约¥34,785–38,468/人（含¥1,000机动金）"
+        "min": 35206.03,
+        "max": 38889.1,
+        "display": "控制版约¥35,206–38,889/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
-          "min": 21334.136666666665,
-          "max": 23453.266666666666
+          "min": 21754.803333333333,
+          "max": 23873.933333333334
         },
         "AUD": {
           "min": 420.0,
@@ -5397,7 +5781,7 @@
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -8468.44,
+      "headroomCNY": -8889.1,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
@@ -5406,26 +5790,26 @@
         "status": "吉祥多程＋QF167（澳洲航空）＋NZ231（新西兰航空），按携程11/1实查1人价（NZ231携程11/2已搜不到，预算暂不变）；未出票"
       },
       "hotel": {
-        "equivalentCNY": 12301.04,
+        "equivalentCNY": 12721.7,
         "wholeGroup": {
-          "CNY": 21650,
+          "CNY": 22912,
           "AUD": 0,
           "NZD": 4050
         },
-        "status": "6处12晚：墨尔本Dorsett（帝盛酒店，你自己安排）、基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）、特卡波Alpine Nook（山间小居度假屋）、瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）、皇后镇Blue Peaks（蓝色山峰）、悉尼Adina（阿迪娜公寓酒店）；携程3处、Booking（缤客订房网） 1处、爱彼迎2处；都未锁房"
+        "status": "7处12晚：墨尔本Dorsett（帝盛酒店，你自己安排）、基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）、特卡波Milky Way Views（银河美景）、特威泽尔The Pyramid（特威泽尔金字塔）、瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）、皇后镇Ellen's lake-view townhouse（埃伦湖景联排别墅）、悉尼Adina（阿迪娜公寓酒店）；携程1处、Booking（缤客订房网） 1处、爱彼迎5处；都未锁房"
       },
       "relaxedFoodTotalCNY": {
-        "min": 35369.86,
-        "max": 39274.39,
+        "min": 35790.53,
+        "max": 39695.05,
         "note": "餐饮放宽至澳洲AUD360–450＋新西兰NZ560–720；其余相同且含1000机动金"
       },
-      "comparisonNote": "机票是你本人的1人价，按携程11/1实查（NZ231（新西兰航空）携程11/2已搜不到，预算暂不变）；住宿按11/1–11/2各平台实时页的可退价；住宿、租车、油费、停车三人均分；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
+      "comparisonNote": "机票是你本人的1人价，按携程11/1实查（NZ231（新西兰航空）携程11/2已搜不到，预算暂不变）；住宿按11/1–11/2各平台实时页的价格（大多可免费取消；Milky Way Views（银河美景）下单24小时后只退一半房费）；住宿、租车、油费、停车三人均分；餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按本人。",
       "scope": "本次新增支出含必要交通、12晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动（BridgeMuseum（大桥博物馆）、Scenic World（景观世界）等）/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥944–1,180）。可退押金/预授权不是消费。",
-      "narrative": "十四天控制版精算¥34,785.36–38,468.44/人，已含¥1,000机动金；按上限超出¥30,000约¥8,468.44（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,301（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,370–39,274，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "narrative": "十四天控制版精算¥35,206.03–38,889.10/人，已含¥1,000机动金；按上限超出¥30,000约¥8,889.10（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,722（11/2–3按各家最便宜的平台：携程订Dorsett（帝盛酒店），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订新西兰五处：基督城、特卡波、特威泽尔、瓦纳卡、皇后镇）、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车、观星团等自费项目从机动金出）；放宽餐饮约¥35,791–39,695，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "legacyTotalCNY": {
-        "min": 34785.36,
-        "max": 38468.44,
-        "display": "控制版约¥34,785–38,468/人（含¥1,000机动金）"
+        "min": 35206.03,
+        "max": 38889.1,
+        "display": "控制版约¥35,206–38,889/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -5452,15 +5836,17 @@
   "routeReview": [
     {
       "title": "十四天：墨尔本进、悉尼出",
-      "body": "11/17傍晚从浦东出发、11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12个酒店夜，另有1晚在飞机上。新西兰段（11/19–26）的日期、租车和米尔福德与原方案一样；住宿换了三处：基督城从机场附近的Airport Palms（机场棕榈）改住爱彼迎的Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓，三卧两卫、三人各一间，有电梯和楼内车位；傍晚走路逛植物园和雅芳河），特卡波因前三个候选都订满改住Alpine Nook（山间小居度假屋），瓦纳卡从Archway（拱门汽车旅馆）改住爱彼迎的Tranquility on Parkhill（帕克希尔的宁静，两个卫生间，走路到孤独树）；皇后镇Blue Peaks（蓝色山峰）没变。中国护照持澳签先在墨尔本入境住一晚，再单独买票飞新西兰，符合NZeTA（新西兰电子旅行授权）条件。",
+      "body": "11/17傍晚从浦东出发、11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12个酒店夜，另有1晚在飞机上。新西兰段（11/19–26）的日期、租车和米尔福德与原方案一样；住宿全换了：基督城从机场附近的Airport Palms（机场棕榈）改住爱彼迎的Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓，三卧两卫、三人各一间，有电梯和楼内车位；傍晚走路逛植物园和雅芳河），特卡波11/20只住一晚、改住爱彼迎的Milky Way Views（银河美景，两层湖景房，三人各一间、两个卫生间），11/21改住Twizel（特威泽尔）附近爱彼迎的The Pyramid（特威泽尔金字塔，农场新房，三卧两卫），瓦纳卡从Archway（拱门汽车旅馆）改住爱彼迎的Tranquility on Parkhill（帕克希尔的宁静，两个卫生间，走路到孤独树）；皇后镇从Blue Peaks（蓝色山峰）改住爱彼迎的Ellen（埃伦）联排别墅（三人各一间、三个半卫生间）。中国护照持澳签先在墨尔本入境住一晚，再单独买票飞新西兰，符合NZeTA（新西兰电子旅行授权）条件。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
         "f-nz231",
         "x-nzeta-req",
         "a-hagley",
-        "c-alpinenook",
-        "a-parkhill"
+        "a-milkyway",
+        "a-pyramid",
+        "a-parkhill",
+        "a-ellen"
       ]
     },
     {
@@ -5480,15 +5866,34 @@
       ]
     },
     {
-      "title": "特卡波：前三个候选都订满了，改Alpine Nook（山间小居度假屋）",
-      "body": "11/1复查：Snowy Peak（雪峰公寓） 11/20–22也没房了（之前Tesoro（特索罗）、Twin Stars（双星度假屋）已订满）。改Alpine Nook（山间小居度假屋）：三卧一卫、90㎡，三人各一间，Booking（缤客订房网） 9.1（37条）、清洁9.4、位置9.6；携程两晚¥6,776（比Booking便宜约¥350），新西兰时间11/12 23:59前免费取消；只有1个卫生间，早上要轮流用。特卡波这几晚三人能住的酒店一家都没有。11/2再查，那三家还是没房；免费取消截止前会继续盯，放出房就换。",
+      "title": "特卡波只住一晚，11/21改住特威泽尔",
+      "body": "11/3定：特卡波只住11/20一晚（爱彼迎Milky Way Views（银河美景），¥4,495），11/21住Twizel（特威泽尔）以西约4km的The Pyramid（特威泽尔金字塔，爱彼迎，¥3,369）。为什么：①11/20–22三晚月亮约78%、86%、93%亮，凌晨03:30以后才落，住哪都没有全黑的夜空，拍不了银河；Twizel也在奥拉基麦肯齐国际暗夜保护区里。②特卡波第二晚只是少收拾一次行李，周六11/21那晚携程要约¥4,175。③Twizel离库克山和瓦纳卡都更近：11/21–22两天开车从约416km减到约318km，少开约1–1.5小时。④11/21傍晚在普卡基湖游客中心拍Aoraki（奥拉基/库克山）日落晚霞，从住处开约20分钟（Twizel镇上约10分钟），不用夜里开50–60km回特卡波。代价：多搬一次家；11/21早上就退房，三只箱子在库克山停车场的车里放几个小时（贵重物品随身、箱子盖好）；The Pyramid进出最后约1.5–2.4km是压实碎石路，按APEX（新西兰租车公司）建议不超过50km/h。Twizel周六几乎订满（11/2携程65家无房），先订The Pyramid；订不到就订Twizel镇上的Mackenzie Haven（麦肯齐港湾民宿，爱彼迎¥2,055），特卡波订不到Milky Way Views就订Alpine Nook（山间小居度假屋）一晚（携程¥3,131）。",
       "sourceIds": [
-        "c-alpinenook"
+        "a-milkyway",
+        "a-pyramid",
+        "c-alpinenook-1n",
+        "w-moonTekapo",
+        "x-twizel-moon",
+        "x-dark-reserve",
+        "x-osrm-twizel-wanaka",
+        "x-pukaki-vc",
+        "x-odt-sh80",
+        "x-apex-gravel",
+        "a-mackenzie-haven"
       ]
     },
     {
-      "title": "三万元：按上限超出约¥8,376",
-      "body": "十四天控制版精算¥34,785.36–38,468.44/人，已含¥1,000机动金；按上限超出¥30,000约¥8,468.44（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,301（11/2按各家最便宜的可退平台：携程订Dorsett（帝盛酒店）、Alpine Nook（山间小居度假屋）、Blue Peaks（蓝色山峰），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静））、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车等自费项目从机动金出）；放宽餐饮约¥35,370–39,274，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
+      "title": "皇后镇改住Ellen（埃伦）联排别墅：三人各一间",
+      "body": "11/3定：皇后镇11/23–26三晚从Blue Peaks（蓝色山峰，携程¥8,106，两卧两卫）改住爱彼迎的Ellen's lake-view townhouse（埃伦湖景联排别墅，¥8,298，多¥192，每人多约¥64）：三间卧室三人各一间，三个半卫生间，每层有冷暖空调，阳台看湖。代价：只有4条评价；房源写没有烟雾和一氧化碳报警器；三层楼梯，大箱要抬上楼；专用车位3/7在路边，Santa Fe（胜达）停不停得下房源没写；门牌订后才给。按大致位置估，走到米尔福德上车点（11 Stanley Street（斯坦利街））约5–15分钟，到镇中心约15分钟，回来是上坡（推断）。订不到就订Blue Peaks（新西兰时间11/20 23:59前免费取消）。",
+      "sourceIds": [
+        "a-ellen",
+        "c-bluepeaks",
+        "x-osm-11-stanley"
+      ]
+    },
+    {
+      "title": "三万元：按上限超出约¥8,889",
+      "body": "十四天控制版精算¥35,206.03–38,889.10/人，已含¥1,000机动金；按上限超出¥30,000约¥8,889.10（上限已含¥1,000机动金、保守的外币交易费和本人箱子超尺寸费）。机票约¥12,736（吉祥多程¥7,756＋QF167（澳洲航空） ¥2,358＋NZ231（新西兰航空） ¥2,622）；住宿约¥12,722（11/2–3按各家最便宜的平台：携程订Dorsett（帝盛酒店），Booking（缤客订房网）订悉尼Adina（阿迪娜公寓酒店）四晚，爱彼迎订新西兰五处：基督城、特卡波、特威泽尔、瓦纳卡、皇后镇）、租车约¥2,048（10/21报价，订前重新报价）、峡湾约¥1,201、油费整车NZ$360–500。需要餐饮按表控制、三人持续分摊、无新增高价活动（天空缆车、观星团等自费项目从机动金出）；放宽餐饮约¥35,791–39,695，不能承诺不超。上限已保守计入1.5%外币交易费（约¥225）和本人29/30寸箱在吉祥、新航的超尺寸费（约¥1,501；澳航没有公布收费，超尺寸可能被拒收）。历史澳签费实付未知、玻璃轮胎待确认、Dorsett实际金额和14天保险待确认、卡费/汇率可能变，付款前逐项替换预算并重新验算。",
       "sourceIds": []
     },
     {
@@ -5577,7 +5982,7 @@
       },
       {
         "title": "05 / 七天租车和六个主游览日",
-        "body": "11/19抵达取车、11/26中午还，163小时向上计7天。南岛7晚、8个自然日期、6个主游览日；11/24坐峡湾大巴时车辆停酒店，不能据此少算一天租金。按24小时一段计费；11/26要赶15:45的NZ231（新西兰航空），12:00前交车，不安排晚还（未约定晚还每小时NZ$20）。",
+        "body": "11/19抵达取车、11/26中午还，163小时向上计7天。南岛7晚、8个自然日期、6个主游览日；11/24坐峡湾大巴时车停在住处车位，不能据此少算一天租金。按24小时一段计费；11/26要赶15:45的NZ231（新西兰航空），12:00前交车，不安排晚还（未约定晚还每小时NZ$20）。",
         "sourceIds": [
           "r-apex-booking",
           "r-apex-faq"
@@ -5640,7 +6045,7 @@
       "perPersonNative": 539.3333333333334,
       "perPersonCNY": 2031.2371999999998,
       "bathrooms": 1,
-      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间（现订的Alpine Nook也只有1个）；不可退，两张单人床要书面保证；NZD1,618是10/25的报价，之后没再查"
+      "tradeoffNote": "Peppers山景两卧套房只有1个卫生间（现选的Milky Way Views有2个）；不可退，两张单人床要书面保证；NZD1,618是10/25的报价，之后没再查"
     },
     {
       "property": "Clearbrook Motel & Serviced Apartments",
@@ -5650,7 +6055,7 @@
     {
       "property": "Tesoro",
       "dates": "2026-11-20–22",
-      "status": "10/27 Booking和Book Tekapo官网都已无房；11/2再查仍无房，免费取消截止前继续盯"
+      "status": "10/27 Booking和Book Tekapo官网都已无房；11/2再查仍无房；11/3特卡波改为只住11/20一晚（爱彼迎Milky Way Views），不再盯"
     },
     {
       "property": "Tudor Rose",
@@ -5675,12 +6080,12 @@
     {
       "property": "Twin Stars",
       "dates": "2026-11-20–22",
-      "status": "10/27选定，10/29 Booking已无房；11/2再查仍无房，免费取消截止前继续盯"
+      "status": "10/27选定，10/29 Booking已无房；11/2再查仍无房；11/3特卡波改为只住11/20一晚（爱彼迎Milky Way Views），不再盯"
     },
     {
       "property": "Snowy Peak Apartment",
       "dates": "2026-11-20–22",
-      "status": "10/29选定，11/1复查已订满，改Alpine Nook；11/2再查仍无房，免费取消截止前继续盯"
+      "status": "10/29选定，11/1复查已订满，改Alpine Nook；11/2再查仍无房；11/3特卡波改为只住11/20一晚（爱彼迎Milky Way Views），不再盯"
     },
     {
       "property": "Archway Motels & Chalets",
@@ -5701,6 +6106,46 @@
       "property": "Airbnb 1293734730735133300（阳光两居室，拉乌奥拉公园旁）",
       "dates": "2026-11-19–20",
       "status": "用户发来的第二套，不选：¥1,426最便宜、房东会说中文、有封闭车位，但只有两间卧室（两人同住一间）、要扛箱子爬两段楼梯、热水定时加热量有限，只有下单24小时内免费取消（11/12前部分退款）"
+    },
+    {
+      "property": "Alpine Nook",
+      "dates": "2026-11-20–21",
+      "status": "11/3改订爱彼迎Milky Way Views（两个卫生间、离镇近）；Alpine Nook 11/20一晚携程¥3,131（新西兰时间11/12 23:59前免费取消，携程下单即付款），Milky Way Views订不到时用它；两晚11/2已涨到¥7,306"
+    },
+    {
+      "property": "Mackenzie Haven（Airbnb 37499610）",
+      "dates": "2026-11-21–22",
+      "status": "Twizel镇上（离中心约0.7km）五卧两卫半，爱彼迎¥2,055，4.76分（21条）、清洁4.6，有住客说房间冷、床旧；下单24小时内免费取消，11/14前部分退款。The Pyramid订不到时用它"
+    },
+    {
+      "property": "Mackenzie Bliss",
+      "dates": "2026-11-21–22",
+      "status": "不选：新房没有评价，¥1,550，只有1个卫生间"
+    },
+    {
+      "property": "Pukaki Lakeside Getaway（398 Mount Cook Road, Ben Ohau）",
+      "dates": "2026-11-21–22",
+      "status": "不选：用户看中的普卡基湖西岸小屋，11/21已订满（只有11/20有房，NZ$650）；库克山村只剩青旅床位"
+    },
+    {
+      "property": "Blue Peaks Apartments",
+      "dates": "2026-11-23–26",
+      "status": "11/3改订爱彼迎Ellen's lake-view townhouse（三人各一间、三个半卫生间，多¥192）；Blue Peaks两卧两卫携程¥8,106（新西兰时间11/20 23:59前免费取消，仅剩2间；就在米尔福德上车点旁边），Ellen订不到时用它"
+    },
+    {
+      "property": "Airbnb 1389358225071830808（Helen的市中心三卧公寓）",
+      "dates": "2026-11-23–26",
+      "status": "第二备选：¥7,729、4.95分（42条），但只有1个卫生间，车位窄（适合RAV4大小的车）；11/9前免费取消"
+    },
+    {
+      "property": "Airbnb 1730894769922246891（Jodie & Renee的Queenstown Hill别墅）",
+      "dates": "2026-11-23–26",
+      "status": "不选：¥9,686，比Ellen贵¥1,388，只有3条评价；三卫半、有车棚"
+    },
+    {
+      "property": "The Marina Lookout（1/7 Angelo Drive, Frankton）",
+      "dates": "2026-11-23–26",
+      "status": "不选：四卧，携程¥9,588、5.0分（25条），新西兰时间11/9 23:59前免费取消、仅剩1间，入住人要满25岁、21:00–08:00要安静；在Frankton，米尔福德那天和天空缆车那晚都要开车进城"
     }
   ],
   "todos": [
@@ -5714,7 +6159,7 @@
       "detail": "看卡面标志：Visa（维萨卡）或Mastercard（万事达卡）最通用；Apex（新西兰租车公司）也收美国运通和银联信用卡（不收JCB（日本信用卡组织））。要“入住出示信用卡”的酒店，订房人和持卡人同名、本人到场。招行借记卡单日限额5,000元，只刷小额。",
       "sourceIds": [
         "r-apex-faq",
-        "x-bluepeaks-loc"
+        "b-adina"
       ]
     },
     {
@@ -5735,13 +6180,17 @@
       "who": [
         "user"
       ],
-      "title": "尽早订：携程订特卡波Alpine Nook（山间小居度假屋）、皇后镇Blue Peaks（蓝色山峰），爱彼迎订基督城Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）和瓦纳卡Tranquility on Parkhill（帕克希尔的宁静）",
-      "detail": "Alpine Nook（山间小居度假屋）两晚¥6,776（新西兰时间11/12 23:59前免费取消）；Blue Peaks（蓝色山峰）两卧两卫三晚¥8,124（新西兰时间11/20 23:59前，仅剩2间）；这两家携程下单即付款。Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓）三卧两卫¥1,853（爱彼迎，新西兰时间11/14 15:00前免费取消，即北京时间10:00），订后留言三位成人、约18:00到；订不到就订Booking（缤客订房网）的Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，新西兰时间11/13 23:59前免费取消；没有专用车位、只能走楼梯）。Tranquility on Parkhill（帕克希尔的宁静）三卧两卫¥2,640（爱彼迎，11/8前下单可先订后付，11/21前免费取消），订后留言三位成人、约15:00到；订不到就订Archway（拱门汽车旅馆）三卧（携程¥1,915，新西兰时间11/20 14:00前免费取消）。",
+      "title": "尽早订：爱彼迎订新西兰五处住宿，先订特威泽尔The Pyramid（特威泽尔金字塔）",
+      "detail": "①The Pyramid（特威泽尔金字塔，11/21，¥3,369，11/16前免费取消）：Twizel（特威泽尔）周六几乎订满（11/2携程65家无房、Booking（缤客订房网）只剩1家），先订它。②Milky Way Views（银河美景，11/20，¥4,495）：下单24小时内全额退，之后到新西兰时间11/13 15:00（北京时间10:00）前取消只退一半房费；热水、施工和烟雾报警器下单前先问房东（见待办）。③Ellen's lake-view townhouse（埃伦湖景联排别墅，11/23–26三晚，¥8,298，11/18前免费取消）。④Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓，11/19，¥1,853，新西兰时间11/14 15:00前免费取消，即北京时间10:00）。⑤Tranquility on Parkhill（帕克希尔的宁静，11/22，¥2,640，11/21前免费取消）。都订三位成人，订后在爱彼迎留言大约几点到。订不到时：特卡波订Alpine Nook（山间小居度假屋）一晚（携程¥3,131，新西兰时间11/12 23:59前免费取消，下单即付款）；特威泽尔订镇上的Mackenzie Haven（麦肯齐港湾民宿，爱彼迎¥2,055）；皇后镇订Blue Peaks（蓝色山峰，携程¥8,106，新西兰时间11/20 23:59前免费取消）；基督城订Booking的Gloucester Street（格洛斯特街）两卧两卫公寓（NZ$412，新西兰时间11/13 23:59前免费取消；没有专用车位、只能走楼梯）；瓦纳卡订Archway（拱门汽车旅馆）三卧（携程¥1,915，新西兰时间11/20 14:00前免费取消）。携程只剩墨尔本Dorsett（帝盛酒店，你自己安排），Booking只订悉尼Adina（阿迪娜公寓酒店）。想用先订后付（下单先不付钱）：Elegant Apartment on Hagley Park 11/5前、Milky Way Views 11/6前、The Pyramid 11/7前、Tranquility on Parkhill 11/8前、Ellen's lake-view townhouse 11/9前下单；付款见待办“出发前在爱彼迎付清”。",
       "sourceIds": [
-        "c-alpinenook",
-        "c-bluepeaks",
+        "a-pyramid",
+        "a-milkyway",
+        "a-ellen",
         "a-hagley",
         "a-parkhill",
+        "c-alpinenook-1n",
+        "a-mackenzie-haven",
+        "c-bluepeaks",
         "c-archway",
         "x-booking-cancel-time"
       ]
@@ -5753,7 +6202,7 @@
         "user"
       ],
       "title": "邮件问APEX（新西兰租车公司）：玻璃轮胎保障、三只29/30寸箱、驾照、航班延误改期",
-      "detail": "英文询问稿11/2已按14天新方案重写（APEX（新西兰租车公司）一段，加上基督城公寓、特卡波、瓦纳卡爱彼迎、皇后镇、悉尼Adina（阿迪娜公寓酒店）订好后发给房东的几段），请会英语的朋友核对后发送。答复来不及也先订车（见“订APEX”那条）：北京时间11/5 12:00以前取消免费。",
+      "detail": "英文询问稿11/2已按14天新方案重写（APEX（新西兰租车公司）一段，加上基督城公寓、瓦纳卡爱彼迎、悉尼Adina（阿迪娜公寓酒店）订好后发给房东的几段；11/3加了特卡波Milky Way Views（银河美景）、特威泽尔The Pyramid（特威泽尔金字塔）、皇后镇Ellen（埃伦）联排别墅三段），请会英语的朋友核对后发送。答复来不及也先订车（见“订APEX”那条）：北京时间11/5 12:00以前取消免费。",
       "sourceIds": [
         "r-apex-faq"
       ]
@@ -5864,7 +6313,7 @@
         "all"
       ],
       "title": "东京同学澳签决策日",
-      "detail": "两人方案（建议，可以改）：你和墨尔本同学照原路线走，住处和车照订、改两人分摊，按现价每人约多¥7,422–7,535；新西兰段第二司机是有澳洲正式驾照的墨尔本同学，没有就你一人开；你们两人11/7照常出QF167（澳洲航空）和NZ231（新西兰航空），米尔福德先订两人；东京同学之后下签，再单独买机票、加订米尔福德（看余位），最晚11/15办NZeTA（新西兰电子旅行授权）。仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。Alpine Nook（山间小居度假屋）新西兰时间11/12 23:59前都能免费取消；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。下签后先看Entries（入境次数）：单次入境的人离开澳洲后要另办签证才能回来，11/26就回不了悉尼。",
+      "detail": "两人方案（建议，可以改）：你和墨尔本同学照原路线走，住处和车照订、改两人分摊，按现价每人约多¥7,632–7,745；新西兰段第二司机是有澳洲正式驾照的墨尔本同学，没有就你一人开；你们两人11/7照常出QF167（澳洲航空）和NZ231（新西兰航空），米尔福德先订两人；东京同学之后下签，再单独买机票、加订米尔福德（看余位），最晚11/15办NZeTA（新西兰电子旅行授权）。仍未下签，就启动两人方案，或先取消可以免费退的项目。按官方处理时间，11/7前下签大约一半多的把握。爱彼迎订的几处大多到11/14–11/21前能免费取消（Milky Way Views（银河美景）下单24小时后只能退一半房费）；Apex（新西兰租车公司） 11/5后取消最多收NZ$100。下签后先看Entries（入境次数）：单次入境的人离开澳洲后要另办签证才能回来，11/26就回不了悉尼。",
       "sourceIds": [
         "x-nzeta-req",
         "x-visa-times",
@@ -5969,15 +6418,17 @@
       ]
     },
     {
-      "id": "alpinenook-cancel",
-      "due": "2026-11-12",
+      "id": "host-questions",
+      "due": "2026-11-10",
       "who": [
         "user"
       ],
-      "title": "Alpine Nook（山间小居度假屋）免费取消截止（新西兰时间11/12 23:59，北京时间18:59）",
-      "detail": "携程订的已付款；东京同学签证没下来就在截止前取消。截止前会继续盯Tesoro（特索罗）、Twin Stars（双星度假屋）、Snowy Peak（雪峰公寓）有没有放出房。",
+      "title": "请会英语的朋友问房东：烟雾报警器、门牌和车位、提前放行李、热水（Milky Way Views（银河美景）下单前就问）",
+      "detail": "英文问询稿11/3写好了，请会英语的朋友核对后用爱彼迎站内信发。①三处都问有没有能用的烟雾报警器（房源页都写没有烟雾和一氧化碳报警器）。②Ellen's lake-view townhouse（埃伦湖景联排别墅）：门牌、走到Upper Stanley Street（上斯坦利街）车站（11 Stanley Street（斯坦利街），11/24 07:40上车）要几分钟、上下坡怎么走，专用车位3/7停不停得下Santa Fe（胜达）这样的大SUV（运动型多用途车）。③The Pyramid（特威泽尔金字塔）：11/21早上能不能先去放行李（不然三只箱子要在库克山停车场的车里放几个小时），进出的碎石路普通车能不能开。房东同意的话，那天07:15从Milky Way Views（银河美景）出发，约08:15到The Pyramid放箱（多开约30km、约40分钟），仍约09:30到White Horse Hill（白马山营地）；不同意就照原计划，箱子留在车里。④Milky Way Views：热水够几个人洗、用完多久再热，隔壁施工几点开工。这家下单24小时后取消只退一半房费，所以下单前用爱彼迎的“联系房东”先问，或者下单后马上发、24小时内看答复决定留不留。其他几处答复不满意，在各自的取消截止前再决定换不换。",
       "sourceIds": [
-        "c-alpinenook"
+        "a-ellen",
+        "a-pyramid",
+        "a-milkyway"
       ]
     },
     {
@@ -5990,6 +6441,18 @@
       "detail": "爱彼迎订的；行程有变就在北京时间11/14上午10点前取消，全额退款；过了这个时刻不退款。",
       "sourceIds": [
         "a-hagley"
+      ]
+    },
+    {
+      "id": "milkyway-cancel",
+      "due": "2026-11-13",
+      "who": [
+        "user"
+      ],
+      "title": "Milky Way Views（银河美景）取消截止：新西兰时间11/13 15:00前退一半房费（北京时间10:00）",
+      "detail": "爱彼迎订的：下单后24小时内取消全额退款；之后到新西兰时间11/13 15:00（北京时间11/13 10:00）前取消，只退一半房费，服务费不退；过了这个时刻不退。行程有变尽早定。",
+      "sourceIds": [
+        "a-milkyway"
       ]
     },
     {
@@ -6088,16 +6551,15 @@
       ]
     },
     {
-      "id": "parkhill-pay",
-      "due": "2026-11-16",
+      "id": "pyramid-cancel",
+      "due": "2026-11-15",
       "who": [
         "user"
       ],
-      "title": "出发前在爱彼迎付清Tranquility on Parkhill（帕克希尔的宁静）的¥2,640",
-      "detail": "先订后付按下单页写的日期自动扣款（扣款前3天发邮件），那时人可能在新西兰，扣款失败要补付，否则订单可能被取消；出发前在爱彼迎“付款”里手动付清最稳。付了以后11/21前取消仍全额退。",
+      "title": "The Pyramid（特威泽尔金字塔）免费取消截止（11/16前，具体时刻看订单页）",
+      "detail": "爱彼迎订的；行程有变就在11/16前取消，全额退款，之后不退。截止时刻按订单页写的房源当地时间，保守起见11/15办。",
       "sourceIds": [
-        "a-parkhill",
-        "x-airbnb-paylater"
+        "a-pyramid"
       ]
     },
     {
@@ -6125,6 +6587,23 @@
       ]
     },
     {
+      "id": "airbnb-pay",
+      "due": "2026-11-16",
+      "who": [
+        "user"
+      ],
+      "title": "出发前在爱彼迎付清五处住宿（用了先订后付的）",
+      "detail": "爱彼迎“先订后付”要入住前14天以上下单才有：Elegant Apartment on Hagley Park（哈格利公园旁的优雅公寓，11/19入住）11/5前、Milky Way Views（银河美景，11/20）11/6前、The Pyramid（特威泽尔金字塔，11/21）11/7前、Tranquility on Parkhill（帕克希尔的宁静，11/22）11/8前、Ellen's lake-view townhouse（埃伦湖景联排别墅，11/23）11/9前下单。之后按下单页写的日期自动扣款（扣款前3天发邮件），那时人可能在新西兰，扣款失败要补付，否则订单可能被取消；出发前在爱彼迎“付款”里手动付清最稳。付了以后取消，仍按各自的取消政策退款。",
+      "sourceIds": [
+        "a-hagley",
+        "a-milkyway",
+        "a-pyramid",
+        "a-parkhill",
+        "a-ellen",
+        "x-airbnb-paylater"
+      ]
+    },
+    {
       "id": "minashi",
       "due": "2026-11-17",
       "who": [
@@ -6135,6 +6614,18 @@
       "sourceIds": [
         "x-minashi",
         "x-sainyukoku"
+      ]
+    },
+    {
+      "id": "ellen-cancel",
+      "due": "2026-11-17",
+      "who": [
+        "user"
+      ],
+      "title": "Ellen's lake-view townhouse（埃伦湖景联排别墅）免费取消截止（11/18前）",
+      "detail": "爱彼迎订的；11/18前取消全额退；之后到11/23入住前取消只退一部分，入住后不退。具体时刻看订单页。",
+      "sourceIds": [
+        "a-ellen"
       ]
     },
     {
@@ -6174,18 +6665,6 @@
       "detail": "爱彼迎订的；行程有变就在11/21前取消，之后不退款。",
       "sourceIds": [
         "a-parkhill"
-      ]
-    },
-    {
-      "id": "bluepeaks-cancel",
-      "due": "2026-11-20",
-      "who": [
-        "user"
-      ],
-      "title": "Blue Peaks（蓝色山峰）免费取消截止（新西兰时间11/20 23:59，北京时间18:59）",
-      "detail": "携程订的已付款；订“两卧室公寓”（一张大床＋两张单人床），备注三位成人、要翻新过的单元。",
-      "sourceIds": [
-        "c-bluepeaks"
       ]
     },
     {
@@ -6279,8 +6758,13 @@
         "leg": "🚗 自驾7天"
       },
       {
-        "stop": "特卡波 · 库克山",
-        "date": "11/20–21",
+        "stop": "特卡波",
+        "date": "11/20",
+        "leg": "🚗"
+      },
+      {
+        "stop": "库克山 · 特威泽尔",
+        "date": "11/21",
         "leg": "🚗"
       },
       {
@@ -6355,21 +6839,22 @@
       {
         "day": 5,
         "date": "2026-11-21",
-        "title": "库克山一日",
+        "title": "特卡波 → 库克山 → 特威泽尔",
         "region": "nz",
         "points": [
-          "普卡基湖边看库克山",
-          "库克山国家公园走短步道",
-          "晚上回特卡波"
+          "08:00 退房出发，上午走库克山短步道",
+          "下午住进特威泽尔附近的农场新房",
+          "傍晚在普卡基湖拍库克山晚霞"
         ],
-        "stay": "特卡波"
+        "stay": "特威泽尔"
       },
       {
         "day": 6,
         "date": "2026-11-22",
-        "title": "特卡波 → 瓦纳卡",
+        "title": "特威泽尔 → 瓦纳卡",
         "region": "nz",
         "points": [
+          "睡到自然醒，10:30出发",
           "翻过林迪斯山口",
           "傍晚从住处走到湖边拍孤独树"
         ],
@@ -6383,7 +6868,7 @@
         "points": [
           "可选清晨拍孤独树日出，10:00前退房",
           "箭镇午饭、看华人村遗址",
-          "下午到皇后镇，早睡"
+          "下午到皇后镇，住山坡上的联排别墅，早睡"
         ],
         "stay": "皇后镇"
       },
@@ -6475,12 +6960,16 @@
         "time": "约3小时"
       },
       {
-        "leg": "特卡波 ⇄ 库克山",
-        "time": "单程约1小时15–30分"
+        "leg": "特卡波 → 库克山 → 特威泽尔",
+        "time": "约1小时30分＋1小时"
       },
       {
-        "leg": "特卡波 → 瓦纳卡",
-        "time": "约2.5–3小时"
+        "leg": "特威泽尔住处 ⇄ 普卡基湖游客中心",
+        "time": "单程约20分钟（镇上约10分钟；傍晚拍日落）"
+      },
+      {
+        "leg": "特威泽尔 → 瓦纳卡",
+        "time": "约2小时"
       },
       {
         "leg": "瓦纳卡 → 箭镇 → 皇后镇",
@@ -7065,6 +7554,35 @@
               170.477
             ],
             [
+              -44.18,
+              170.15
+            ],
+            [
+              -44.0,
+              170.1
+            ],
+            [
+              -43.735,
+              170.096
+            ]
+          ]
+        },
+        {
+          "kind": "drive",
+          "pts": [
+            [
+              -43.735,
+              170.096
+            ],
+            [
+              -44.0,
+              170.1
+            ],
+            [
+              -44.19,
+              170.13
+            ],
+            [
               -44.26,
               170.1
             ],
@@ -7095,27 +7613,6 @@
             [
               -45.031,
               168.663
-            ]
-          ]
-        },
-        {
-          "kind": "side",
-          "pts": [
-            [
-              -44.005,
-              170.477
-            ],
-            [
-              -44.18,
-              170.15
-            ],
-            [
-              -44.0,
-              170.1
-            ],
-            [
-              -43.735,
-              170.096
             ]
           ]
         },
@@ -7214,22 +7711,21 @@
         {
           "n": 2,
           "name": "特卡波",
-          "date": "11/20–21 住2晚",
+          "date": "11/20 住1晚",
           "lat": -44.005,
           "lon": 170.477,
           "card": {
             "col": "right",
-            "y": 250
+            "y": 200
           },
           "photo": "good_shepherd"
         },
         {
           "n": 3,
           "name": "库克山",
-          "date": "11/21 一日游",
+          "date": "11/21 上午短步道",
           "lat": -43.735,
           "lon": 170.096,
-          "side": true,
           "card": {
             "col": "left",
             "y": 120
@@ -7238,30 +7734,42 @@
         },
         {
           "n": 4,
+          "name": "特威泽尔",
+          "date": "11/21 住1晚",
+          "lat": -44.258,
+          "lon": 170.1,
+          "card": {
+            "col": "right",
+            "y": 275
+          },
+          "photo": "peters_lookout"
+        },
+        {
+          "n": 5,
           "name": "瓦纳卡",
           "date": "11/22",
           "lat": -44.703,
           "lon": 169.132,
           "card": {
             "col": "right",
-            "y": 330
+            "y": 350
           },
           "photo": "wanaka"
         },
         {
-          "n": 5,
+          "n": 6,
           "name": "箭镇",
           "date": "11/23 午饭",
           "lat": -44.942,
           "lon": 168.833,
           "card": {
             "col": "right",
-            "y": 410
+            "y": 425
           },
           "photo": null
         },
         {
-          "n": 6,
+          "n": 7,
           "name": "皇后镇",
           "date": "11/23–25 住3晚",
           "lat": -45.031,
@@ -7274,7 +7782,7 @@
           "photo": "queenstown"
         },
         {
-          "n": 7,
+          "n": 8,
           "name": "米尔福德峡湾",
           "date": "11/24 坐大巴",
           "lat": -44.672,
@@ -7287,7 +7795,7 @@
           "photo": "milford"
         },
         {
-          "n": 8,
+          "n": 9,
           "name": "格林诺奇",
           "date": "11/25 一日游",
           "lat": -44.851,
