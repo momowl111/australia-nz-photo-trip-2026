@@ -3271,52 +3271,62 @@
     {
       "id": "i-syd-arrival",
       "title": "悉尼机场官方：国际抵达",
-      "url": "https://www.sydneyairport.com.au/airport-guide/arriving/international"
+      "url": "https://www.sydneyairport.com.au/airport-guide/arriving/international",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-nsw-payment",
       "title": "Transport for NSW（新州交通局）：游客支付公共交通",
-      "url": "https://transportnsw.info/tickets-fares/fares/best-ways-for-visitors-to-pay"
+      "url": "https://transportnsw.info/tickets-fares/fares/best-ways-for-visitors-to-pay",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-garden-hours",
       "title": "悉尼皇家植物园官方：开放时间，11月07:00–20:00",
-      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit"
+      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-nz-route",
       "title": "新西兰旅游局：Christchurch（基督城）–Tekapo（特卡波）–Aoraki（奥拉基/库克山）–Queenstown（皇后镇）路线",
-      "url": "https://www.newzealand.com/nz/feature/road-trip-christchurch-to-queenstown/"
+      "url": "https://www.newzealand.com/nz/feature/road-trip-christchurch-to-queenstown/",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-doc-kea",
       "title": "DOC（新西兰保护部）：Kea Point Track（基亚观景点步道）及White Horse Hill（白马山营地）停车",
-      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/kea-point-track/"
+      "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/kea-point-track/",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-doc-hooker",
       "title": "DOC（新西兰保护部）：Hooker Valley Track（胡克谷步道），新二桥2026年7月已开放；出发前仍查实时警报",
-      "url": "https://www.doc.govt.nz/hooker-valley-track?tab-id=50578"
+      "url": "https://www.doc.govt.nz/hooker-valley-track?tab-id=50578",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-glenorchy",
       "title": "Queenstown（皇后镇）官方旅游局：Glenorchy（格林诺奇）距皇后镇约45分钟车程",
-      "url": "https://www.queenstownnz.co.nz/plan/surrounding-region/glenorchy/"
+      "url": "https://www.queenstownnz.co.nz/plan/surrounding-region/glenorchy/",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-glenorchy-walk",
       "title": "Queenstown（皇后镇）官方旅游局：Glenorchy Lagoon Walkway（格林诺奇潟湖步道）",
-      "url": "https://www.queenstownnz.co.nz/stories/post/glenorchy-walks-hikes/"
+      "url": "https://www.queenstownnz.co.nz/stories/post/glenorchy-walks-hikes/",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-road-conditions",
       "title": "NZTA（新西兰交通局）官方Journey Planner（路况行程规划）：路况、施工和封路",
-      "url": "https://www.journeys.nzta.govt.nz/journey-planner"
+      "url": "https://www.journeys.nzta.govt.nz/journey-planner",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-driver-rest",
       "title": "NZTA（新西兰交通局）官方：司机疲劳，建议睡8小时；约2小时或100公里休息",
-      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/general-road-code/about-limits/driver-fatigue"
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/general-road-code/about-limits/driver-fatigue",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-weather",
@@ -3327,17 +3337,20 @@
     {
       "id": "i-tekapo-sun",
       "title": "Timeanddate（时间日期网）：Tekapo（特卡波） 2026年11月太阳时刻",
-      "url": "https://www.timeanddate.com/sun/%406211234?month=11&year=2026"
+      "url": "https://www.timeanddate.com/sun/%406211234?month=11&year=2026",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-queenstown-sun",
       "title": "Timeanddate（时间日期网）：Queenstown（皇后镇） 11/23日落21:04，11/24日落21:05",
-      "url": "https://www.timeanddate.com/sun/new-zealand/queenstown?month=11&year=2026"
+      "url": "https://www.timeanddate.com/sun/new-zealand/queenstown?month=11&year=2026",
+      "checked": "2026-11-02"
     },
     {
       "id": "i-garden-drone",
       "title": "皇家植物园官方：普通游客严格禁止无人机",
-      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit/conditions-of-entry"
+      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit/conditions-of-entry",
+      "checked": "2026-11-02"
     },
     {
       "id": "w-docHooker",
@@ -3546,22 +3559,26 @@
     {
       "id": "nzeta",
       "title": "新西兰官方NZeTA（新西兰电子旅行授权）申请",
-      "url": "https://nzeta.immigration.govt.nz/"
+      "url": "https://nzeta.immigration.govt.nz/",
+      "checked": "2026-11-02"
     },
     {
       "id": "nztd",
       "title": "新西兰旅客申报 NZTD（新西兰旅客申报）",
-      "url": "https://www.travellerdeclaration.govt.nz/"
+      "url": "https://www.travellerdeclaration.govt.nz/",
+      "checked": "2026-11-02"
     },
     {
       "id": "nzta-license",
       "title": "NZTA（新西兰交通局）：海外驾照在新西兰驾驶",
-      "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads/"
+      "url": "https://www.nzta.govt.nz/travelling-on-our-roads/visitors-and-new-residents/driving-on-nz-roads/",
+      "checked": "2026-11-02"
     },
     {
       "id": "boc",
       "title": "中国银行外汇牌价，预算参考",
-      "url": "https://www.boc.cn/sourcedb/whpj/"
+      "url": "https://www.boc.cn/sourcedb/whpj/",
+      "checked": "2026-11-02"
     },
     {
       "id": "b-nzta-licence",
@@ -3596,12 +3613,14 @@
     {
       "id": "route-nz-drive",
       "title": "新西兰旅游局：南岛湖山路线与驾驶时间",
-      "url": "https://www.newzealand.com/sg/feature/mountains-and-glaciers-south-island-itinerary/"
+      "url": "https://www.newzealand.com/sg/feature/mountains-and-glaciers-south-island-itinerary/",
+      "checked": "2026-11-02"
     },
     {
       "id": "route-wanaka-sun",
       "title": "Timeanddate（时间日期网）：Wānaka（瓦纳卡） 2026年11月太阳时刻",
-      "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026"
+      "url": "https://www.timeanddate.com/sun/@2184707?month=11&year=2026",
+      "checked": "2026-11-02"
     },
     {
       "id": "r-apex-booking",
