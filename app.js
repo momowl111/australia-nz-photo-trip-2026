@@ -283,7 +283,7 @@ function renderRental(){
   $('#rental-cards').innerHTML=cards(D.rental.cards,'rental-card');
   const quote=D.rental.quote, status=quote.booked?'已预订':'未预订';
   const head=$('#rental-status');if(head)head.textContent=quote.booked?'已预订':'已核实报价，未预订';
-  $('#rental-proof').innerHTML=`<summary>查看APEX（租车公司）实际报价截图 <span>${status}</span></summary><p class="note">${esc(quote.proofCaption)}</p><img src="${esc(quote.proofImage)}" alt="${esc(quote.proofAlt || quote.proofCaption)}" loading="lazy" class="proof-image">`;
+  $('#rental-proof').innerHTML=`<summary>查看${esc(quote.provider)}实际报价截图 <span>${status}</span></summary><p class="note">${esc(quote.proofCaption)}</p><img src="${esc(quote.proofImage)}" alt="${esc(quote.proofAlt || quote.proofCaption)}" loading="lazy" class="proof-image">`;
 }
 // Monochrome travel icons for the route ribbon (the data writes the legs with 🚗 and ✈).
 const ICONS={car:'<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.6 16.5H3.5v-3.4l2.3-1.1 1.9-3.8h7.4l2.8 3.7 2.6.9v3.7h-2.1M9.4 16.5h5.2"/><circle cx="7.5" cy="16.5" r="1.9"/><circle cx="16.5" cy="16.5" r="1.9"/></svg>',
