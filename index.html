@@ -10,8 +10,8 @@
   <title>南半球，追光十四日 · 澳新摄影旅行</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preload" as="image" href="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mt_Cook_from_Peters_Lookout.jpg/1280px-Mt_Cook_from_Peters_Lookout.jpg" fetchpriority="high">
-  <link rel="stylesheet" href="assets/leaflet.css"><link rel="stylesheet" href="style.css?v=e19537d8a0">
-  <script defer src="app.js?v=460d38dc9c"></script><script defer src="assets/leaflet.js"></script>
+  <link rel="stylesheet" href="assets/leaflet.css"><link rel="stylesheet" href="style.css?v=ed827209c8">
+  <script defer src="app.js?v=d06ec0cf3d"></script><script defer src="assets/leaflet.js"></script>
 </head>
 <body>
 <a class="skip" href="#planner">跳到每日行程</a>
@@ -25,7 +25,7 @@
   <a href="#before"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="3"/><path d="m8 9 1.5 1.5L12 8M8 15l1.5 1.5L12 14M14.5 9.5H17M14.5 15.5H17"/></svg><span>待办</span></a>
   <a href="#budget"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M3 10h18M16 14.5h2"/></svg><span>预算</span></a>
   <a href="#weather"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .4-8 6 6 0 0 0-11.5 1.6A3.3 3.3 0 0 0 7 18Z"/></svg><span>天气</span></a>
-  <a href="#photography"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.7l1.3-2h5l1.3 2h1.7A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-8Z"/><circle cx="12" cy="12.5" r="3.5"/></svg><span>摄影</span></a>
+  <a href="#photography" data-tab="last"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.7l1.3-2h5l1.3 2h1.7A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-8Z"/><circle cx="12" cy="12.5" r="3.5"/></svg><span>摄影</span></a>
 </nav>
 
 <main id="top">
@@ -44,23 +44,26 @@
     <dl class="facts" id="fact-grid">
       <div class="fact"><dt>日期</dt><dd><span id="hero-dates">11.17 — 11.30</span><small>11/17周二傍晚从浦东出发</small></dd></div>
       <div class="fact"><dt>住宿</dt><dd>墨尔本1晚 · 南岛7晚 · 悉尼4晚</dd></div>
-      <div class="fact"><dt>你的预算</dt><dd>载入中…</dd></div>
+      <div class="fact"><dt>每人分摊</dt><dd>载入中…</dd></div>
       <div class="fact"><dt>最近要办</dt><dd>载入中…</dd></div>
     </dl>
+    <div class="whoami" id="whoami" hidden></div>
+    <div class="meet-hero" id="meet-hero" hidden></div>
     <p class="hero-credit-line"><a id="hero-credit" class="hero-credit" target="_blank" rel="noopener">封面照片出处 ↗</a></p>
   </div>
 </section>
 
 <section class="section wrap glance" id="glance" aria-labelledby="glance-title">
-  <header class="section-head"><h2 id="glance-title">14天总览</h2><p>墨尔本进、悉尼出，上海往返。南岛住7晚（皇后镇3晚），格林诺奇和米尔福德都保留；基督城取车、皇后镇还车，两人轮流开。点任意一天，打开那天的地图和时间表。</p></header>
+  <header class="section-head"><h2 id="glance-title">14天总览</h2><p>墨尔本进、悉尼出，上海往返。南岛住7晚（皇后镇3晚），去格林诺奇和米尔福德；基督城取车、皇后镇还车，两人轮流开。点任意一天，打开那天的地图和时间表。</p></header>
   <ol class="route" id="glance-route" aria-label="整体路线"></ol>
   <div class="glance-grid">
     <figure class="art-card"><div class="glance-art" id="glance-art"></div><figcaption class="glance-legend"><span><i class="lg-drive"></i>开车换住处</span><span><i class="lg-side"></i>当天往返或坐大巴</span><span><i class="lg-flight"></i>航班</span></figcaption></figure>
     <div class="overview" id="overview"><ol class="glance-days" id="glance-days"><li class="loading">正在载入行程…</li></ol></div>
+    <details class="disclosure glance-more" id="glance-more"><summary>开车时间和出发前要点 <span>点开看</span></summary>
     <div class="glance-foot">
       <section class="card" aria-labelledby="drives-title"><h3 id="drives-title">开车时间参考</h3><ul class="drive-list" id="glance-drives"></ul><p class="note">纯驾驶时间，不含停车拍照和吃饭。</p></section>
       <section class="card" aria-labelledby="tips-title"><h3 id="tips-title">出发前记住</h3><ul class="tips" id="glance-tips"></ul></section>
-    </div>
+    </div></details>
   </div>
 </section>
 
@@ -68,27 +71,29 @@
   <header class="section-head"><h2 id="planner-title">每日行程</h2><p>选一天，看地图、时间表和当晚住处。</p></header>
   <div id="strip-mark" aria-hidden="true"></div><div class="day-strip" id="day-strip" role="tablist" aria-label="选择旅行日期"></div><p class="loading-note" id="loading-note">正在载入行程…</p><p class="sr-only" id="day-status" role="status" aria-live="polite"></p>
   <div class="planner-shell">
+    <article class="day-detail" id="day-detail" role="tabpanel" aria-label="当天行程"></article>
     <div class="map-column">
       <div class="map-frame">
         <div class="map-toolbar"><div class="segmented" role="group" aria-label="地图范围"><button id="day-view" class="active" aria-pressed="true" type="button">当天</button><button id="all-view" aria-pressed="false" type="button">新西兰全程</button></div><label class="switch"><input type="checkbox" role="switch" id="hotels-toggle" checked><span>住宿</span></label></div>
         <div id="map" role="region" aria-label="行程交互地图"></div>
       </div>
       <p class="map-hint" id="map-hint" hidden>单指滑动页面；双指拖动或缩放地图，也可以点＋/−。</p>
-      <div class="map-caption"><span><i class="legend-dot"></i>拍摄 / 游览（数字＝时间表顺序）</span><span><i class="legend-dot hotel-dot"></i>候选住宿</span><span id="map-mode-note">虚线只表示先后顺序，不是道路导航</span><span class="map-credit">地图：Leaflet（地图组件）· © OpenStreetMap（开放街图）贡献者</span></div>
+      <div class="map-caption"><span><i class="legend-dot"></i>拍摄 / 游览（数字＝地点，同一地点共用一个号）</span><span><i class="legend-dot hotel-dot"></i>候选住宿</span><span id="map-mode-note">虚线只表示先后顺序，不是道路导航</span><span class="map-credit">地图：Leaflet（地图组件）· © OpenStreetMap（开放街图）贡献者</span></div>
       <p class="map-fallback" id="map-fallback" hidden>地图底图暂时无法加载。每天的地点、时间和导航链接仍可使用。</p>
     </div>
-    <article class="day-detail" id="day-detail" role="tabpanel" aria-label="当天行程"></article>
   </div>
   <p class="note">除特别标注外，时间都是当地时间。地图点位是规划用的大致位置，停车场入口、步道开放和实际车程出发前再核对；没有给每个日出日落都排活动，避免疲劳驾驶。</p>
   <details class="disclosure" id="route-review-wrap"><summary>方案取舍与理由 <span>为什么这样排</span></summary><div class="card-grid" id="route-review"></div></details>
 </section>
 
 <section class="section wrap before" id="before" aria-labelledby="before-title">
-  <header class="section-head"><h2 id="before-title">待办与行前须知</h2><p>按截止日期分组，点一条看说明和来源；勾选只保存在你这台设备上。</p></header>
+  <header class="section-head"><h2 id="before-title">待办与行前须知</h2><p>先选你是谁，只看自己的；点一条看说明和来源。勾选只保存在这台手机上。</p></header>
   <div class="before-layout"><div class="before-todos">
-  <div class="todo-head"><div class="filter" role="group" aria-label="按人查看" id="todo-filter"><button class="active" aria-pressed="true" data-who="all" type="button">全部</button><button aria-pressed="false" data-who="user" type="button">上海（你）</button><button aria-pressed="false" data-who="tokyo" type="button">东京同学</button><button aria-pressed="false" data-who="melbourne" type="button">墨尔本同学</button></div><span class="todo-count" id="todo-count"></span></div>
+  <div id="bookings" hidden></div>
+  <div class="todo-head"><div class="filter" role="group" aria-label="按人查看" id="todo-filter"><button class="active" aria-pressed="true" data-who="all" type="button">全部</button><button aria-pressed="false" data-who="user" type="button">上海同学</button><button aria-pressed="false" data-who="tokyo" type="button">东京同学</button><button aria-pressed="false" data-who="melbourne" type="button">墨尔本同学</button></div><span class="todo-count" id="todo-count"></span></div>
   <div class="todo-groups" id="todo-list"></div>
   </div><div class="before-notes">
+  <div id="meet-grid" hidden></div>
   <h3 class="sub-head">行前须知</h3>
   <p class="note lead-note">以下会合与费用信息按11/17–11/30主方案；住宿只有瓦纳卡11/22那晚已订，其余未预订。点一条看全文和来源。</p>
   <div id="before-grid"></div>
@@ -99,7 +104,9 @@
 </section>
 
 <section class="section wrap budget" id="budget" aria-labelledby="budget-title">
-  <header class="section-head"><h2 id="budget-title">预算</h2><p>上海出发者本人费用 · 报价快照，除瓦纳卡一晚外未预订</p></header>
+  <header class="section-head"><h2 id="budget-title">预算</h2><p>先看三人分摊；下面是上海同学本人的全程预算。都是报价快照，除瓦纳卡一晚外未预订。</p></header>
+  <div class="split-card card" id="split-card"></div>
+  <h3 class="sub-head">上海同学的全程预算</h3>
   <div class="budget-hero card" id="budget-hero"></div>
   <h3 class="sub-head">住宿与机票</h3>
   <div class="split-grid"><section class="card list-card" aria-labelledby="stays-title"><h3 id="stays-title">住宿一览 <small>点一处看床型和评分</small></h3><div id="stay-table"></div></section><section class="card list-card" aria-labelledby="flights-title"><h3 id="flights-title">机票一览</h3><div id="flight-table"></div></section></div>
@@ -111,7 +118,6 @@
   <div class="feature card" id="rental-highlight"></div>
   <div class="card-grid" id="rental-cards"></div>
   <details class="disclosure" id="rental-proof"></details>
-  <p class="note">报价为2026年11月9日在Snap（新西兰租车公司）官网订车流程实查：11/7选的Mitsubishi Outlander（三菱欧蓝德）两驱和同日先选的Toyota Highlander（丰田汉兰达）都已订满，改为Mitsubishi Pajero Sport（三菱帕杰罗运动版，2024款或类似，7座四驱柴油车）＋Simply Better Cover（零自付额全险，含玻璃轮胎）＋1位附加司机，共NZ$1,977，刷Visa（维萨卡）或Mastercard（万事达卡）另加2.5%，未预订；新西兰时间11/15 23:59前（北京时间18:59）取消不收费。APEX（原定的租车公司）这段单程11/7已售罄。主驾驶人25岁以上、第二驾驶人24岁，Snap没有年龄限制、不收年轻司机费。</p>
 </section>
 
 <section class="section wrap weather" id="weather" aria-labelledby="weather-title">

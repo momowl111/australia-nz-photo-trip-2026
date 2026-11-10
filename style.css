@@ -619,6 +619,114 @@ html:has(#photo-dialog[open]){overflow:hidden}
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
+/* ---------- 2026-11-10 friend-first pass ----------
+   The page is read by two friends on phones: say who is reading, show their share and their to-dos first, put the day's brief
+   before the map, keep amber for things that need action. */
+/* Chinese glosses after English names: a size smaller and lighter, so the sentence reads first; short ones never break. */
+.gl{font-size:.86em;font-weight:400;color:var(--ink-3)}
+.btn .gl,.day-button .gl,.chip .gl{color:inherit}
+/* Who is reading: a chooser until someone picks, then one quiet line. */
+.whoami{margin-top:10px;padding:14px 16px;border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);font-size:15px;line-height:1.6}
+.whoami:has(.who-now){padding:2px 4px;background:none;box-shadow:none}
+.who-ask{font-weight:600}
+.who-pick{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.who-now{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px;font-size:14px;color:var(--ink-2)}
+.who-switch{position:relative;min-height:36px;font-size:14px;font-weight:600;color:var(--accent)}
+.who-switch::before{content:"";position:absolute;inset:-4px -8px}
+.meet-hero{margin-top:10px}
+.meet-card .kv{width:100%}
+.meet-card .stay-book{width:100%}
+#meet-grid .sub-head{margin-top:40px}
+#meet-grid+.sub-head{margin-top:32px}
+@media (min-width:1000px){#meet-grid .sub-head,#meet-grid[hidden]+.sub-head{margin-top:0}}
+.hero-facts :focus-visible{outline-color:var(--focus)}
+/* Each friend's share of the costs. */
+.split-rows{list-style:none;margin-top:12px}
+.split-rows li{display:flex;justify-content:space-between;gap:16px;padding:9px 0;border-top:1px solid var(--line);font-size:15px;line-height:1.5;color:var(--ink-2)}
+.split-rows b{color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.split-note{margin-top:8px;font-size:15px;line-height:1.65;color:var(--ink-2)}
+.split-rows+.split-note{margin-top:0;padding-top:12px;border-top:1px solid var(--line)}
+.split-card+.sub-head{margin-top:32px}
+/* Booking status: one block per thing to book. */
+#bookings{margin-bottom:12px}
+.book-rows{list-style:none;padding:0 16px 6px}
+.book-rows li{padding:12px 0;border-top:1px solid var(--line);font-size:14px;line-height:1.65;color:var(--ink-2)}
+.book-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:2px}
+.book-top b{font-size:16px;line-height:1.5;color:var(--ink)}
+.book-rows p>span:first-child{display:inline-block;min-width:4.8em;color:var(--ink-3)}
+.ok-chip{background:var(--green-soft);color:var(--green);font-weight:600}
+/* The day's brief, and (today only) where we are in the timetable. */
+.day-brief{list-style:none;margin:10px 0 12px;padding:2px 14px;border-radius:var(--r-sm);background:var(--accent-soft)}
+.day-brief li{display:grid;grid-template-columns:3.2em minmax(0,1fr);gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.55}
+.day-brief li:first-child{border-top:0}
+.day-brief b{font-size:14px;line-height:1.75;font-weight:600;color:var(--accent);white-space:nowrap}
+.now-card{margin:10px 0 12px;padding:12px 14px;border-radius:var(--r-sm);background:var(--green-soft);font-size:16px;line-height:1.6}
+.now-card .kicker{color:var(--green)}
+.now-card a{color:var(--accent);font-weight:600;text-decoration:none}
+.now-card .now-line{color:var(--ink-2)}
+.timeline li.past .time,.timeline li.past .event::before{opacity:.5}
+.timeline li.past .event h4{color:var(--ink-2)}
+.badge{height:24px}
+.badge.now{background:var(--green);color:#fff}.badge.next{background:var(--accent-fill);color:var(--on-accent)}
+@media (prefers-color-scheme:dark){.badge.now{color:#10241a}}
+/* Events: the title leads; map and route are small text links beside 展开全文; meals, drives and rests are one thin line. */
+.event{display:flex;flex-wrap:wrap;align-items:center;column-gap:16px}
+.event>h4,.event>.clamp,.event>p,.event>.photo-tip{flex:0 0 100%;min-width:0}
+.event h4{font-size:17px}
+.event.has-more>.clamp:not(.open){cursor:pointer}
+.event-actions{gap:16px;margin-top:2px}
+.event>.more+.event-actions{margin-top:2px}
+.ev-link{position:relative;display:inline-flex;align-items:center;min-height:32px;font-size:14px;line-height:1.3;font-weight:500;color:var(--accent);text-decoration:none}
+.ev-link::before{content:"";position:absolute;inset:-6px -8px}
+.timeline>li.minor{padding-bottom:12px}
+.timeline li.minor .time{font-weight:500;color:var(--ink-2)}
+.timeline li.minor .event h4{font-size:15px;font-weight:500;color:var(--ink-2)}
+.timeline li.minor .event::before{left:-15px;top:8px;width:8px;height:8px;background:var(--line-2)}
+.timeline li.minor .clamp:not(.open)>p:first-child{-webkit-line-clamp:1;font-size:15px}
+.photo-tip{padding:2px 0 2px 12px;border-left:3px solid var(--route);border-radius:0;background:none;font-size:15px}
+/* Must-read boxes use body ink at 15px; 13–14px grey is for captions and sources only. */
+.day-facts{font-size:15px}
+.day-facts dd{color:var(--ink)}
+.day-facts dd small{display:block;font-size:14px;line-height:1.55;color:var(--ink-2)}
+.kv{font-size:15px}.kv dd{color:var(--ink)}
+.stay-book{margin-top:12px;border-top:1px solid var(--line)}
+.stay-book>summary{position:relative;display:flex;align-items:center;gap:7px;min-height:44px;font-size:14px;font-weight:600;color:var(--accent);cursor:pointer;list-style:none}
+.stay-book>summary::-webkit-details-marker{display:none}
+.stay-book>summary::after{content:"";flex:none;width:6px;height:6px;margin-top:-3px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg);transition:transform var(--dur),margin var(--dur)}
+.stay-book[open]>summary::after{margin-top:3px;transform:rotate(-135deg)}
+.stay-book .kv{padding-bottom:4px;font-size:14px}.stay-book .kv dd{color:var(--ink-2)}
+.rental-kv{margin-bottom:10px}
+.card-no{display:inline-block;margin-right:8px;font-size:13px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.clamp-box:not(.has-more)>.more{display:none}
+/* To-dos: titles carry the weight; a folded title shows two lines; the viewer's own group is tinted. */
+.todo-title{font-weight:600}
+.todo-item:not([open]) .todo-title{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.todo-group.mine .todo-group-head{color:var(--accent)}
+/* Amber means "act" or "risk" only: Australia days are neutral, New Zealand days stay lake blue. */
+.day-button.au::before,.region-dot.au{background:var(--ink-3)}
+.glance-day.au .g-badge{background:var(--sunken);color:var(--ink-2)}
+.glance-day.au .gd-stay{color:var(--ink-2)}
+.glance-more{margin-top:0}
+@media (min-width:1100px){.glance-more{grid-area:foot;border-top:0}}
+/* The day comes first in the page (reading and tab order); only the wide two-column layout puts the map back on the left. */
+@media (min-width:1100px){.planner-shell>.map-column{order:-1}.map-row{display:none}}
+@media (max-width:800px){.day-controls{display:none}}
+@media (max-width:599px){
+  .hero-kicker,.hero-lead{display:none}
+  .hero-media{min-height:250px}
+  /* One layer of cards: the day sits on the page, its boxes are the cards; a wider text column. */
+  .day-detail{padding:8px 0 0;background:none;box-shadow:none}
+  .day-facts,.day-more,.hotel-card,.pager{background:var(--surface);box-shadow:var(--shadow)}
+  .hotel-card .link-btn{background:var(--sunken)}
+  .timeline{--time:46px}
+  .timeline>li{column-gap:14px}
+  .timeline>li::before{left:calc(var(--time) + 6px)}
+  .event::before{left:-12px;box-shadow:0 0 0 3px var(--bg)}
+  .timeline li.optional .event::before{background:var(--bg);box-shadow:inset 0 0 0 2px var(--route),0 0 0 3px var(--bg)}
+  .timeline li.minor .event::before{left:-11px}
+  .photo-copy .credit .lic{display:none}}
+@media print{.whoami,.now-card,.stay-book>summary{display:none!important}.day-brief{padding:0 8px;border:1px solid #bbb;background:none}}
+
 /* ---------- print: the plan for every day, budget, to-dos and notes; long texts unclamped ---------- */
 .print-only{display:none}
 @media print{
