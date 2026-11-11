@@ -1,6 +1,6 @@
 {
   "meta": {
-    "checked": "2026-11-09",
+    "checked": "2026-11-11",
     "status": "14天：墨尔本1晚＋南岛7晚＋悉尼4晚；格林诺奇与米尔福德均保留；瓦纳卡一晚已订，其余未预订",
     "defaultStart": 17,
     "revision": "fourteen-day-20261101",
@@ -570,7 +570,7 @@
       "title": "睡足后出发，约翰山看湖，傍晚拍教堂",
       "area": "基督城→Tekapo（特卡波）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "milkyway",
+      "hotelId": "hazels",
       "summary": "09:30出发，在杰拉尔丁吃午饭、买菜，14:00左右到特卡波，先上约翰山看湖全景。15:30后入住、休息做饭，傍晚拍好牧羊人教堂。特卡波只住这一晚。",
       "drive": "自驾 · 约250km，纯驾驶3.8–4.1小时，含上下Mt John（约翰山）；靠左开不熟就按4.5小时左右算。全程开车最长的一天，也是第一次长途靠左开，到Ashburton（阿什伯顿）附近停10分钟歇一下",
       "photoGoal": "教堂外观、湖岸山层、日落和蓝调；不安排熬夜星空。",
@@ -628,18 +628,18 @@
         {
           "time": "12:40",
           "endTime": "14:00",
-          "placeId": "milkyway",
-          "place": "Milky Way Views（银河美景）住处",
+          "placeId": "hazels",
+          "place": "Hazel's House（黑兹尔之家）住处",
           "kind": "drive",
           "detail": "开到特卡波，留约1小时20分钟，含交通缓冲。途中经过Fairlie（费尔利）。到Tekapo（特卡波）先上Mt John（约翰山），15:00后才能入住。",
           "photoTip": "",
-          "lat": -44.0094331,
-          "lon": 170.4927958,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（6 Pollock Place（波洛克巷））；门锁或钥匙盒密码看确认后物业发的入住说明。",
+          "lat": -44.00865,
+          "lon": 170.47433,
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（4 Rodman Lane（罗德曼巷））；钥匙盒密码看房东在爱彼迎发的入住说明。",
           "sourceIds": [
             "i-nz-route",
             "i-road-conditions",
-            "b-milkyway"
+            "a-hazels"
           ]
         },
         {
@@ -662,17 +662,18 @@
         {
           "time": "15:30",
           "endTime": "19:05",
-          "placeId": "milkyway",
-          "place": "Milky Way Views（银河美景）住处",
+          "placeId": "hazels",
+          "place": "Hazel's House（黑兹尔之家）住处",
           "kind": "rest",
-          "detail": "约15:30入住，休息、做晚饭。Milky Way Views（银河美景）在6 Pollock Place（波洛克巷），车停房子的免费车位；门锁或钥匙盒密码看物业发的入住说明。热水是储水罐，量有限，房东说约够洗15分钟。按顺序洗：两人15:30–17:00先洗，第三人拍完教堂、21:30以后回来再洗，明早谁都不洗。房源写隔壁在施工，白天可能有噪音。傍晚再出门拍教堂。",
+          "detail": "约15:30入住，休息、做晚饭。Hazel's House（黑兹尔之家）在4 Rodman Lane（罗德曼巷），一条安静的死胡同里，车停房子的免费车位；钥匙盒密码看房东在爱彼迎发的入住说明。走到镇中心约10分钟。傍晚再出门拍教堂。",
           "photoTip": "",
-          "lat": -44.0094331,
-          "lon": 170.4927958,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（6 Pollock Place（波洛克巷））；门锁或钥匙盒密码看确认后物业发的入住说明。",
+          "lat": -44.00865,
+          "lon": 170.47433,
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（4 Rodman Lane（罗德曼巷））；钥匙盒密码看房东在爱彼迎发的入住说明。",
           "sourceIds": [
-            "b-milkyway",
-            "a-milkyway"
+            "a-hazels",
+            "b-hazels",
+            "x-osrm-1111"
           ]
         },
         {
@@ -681,7 +682,7 @@
           "placeId": "good_shepherd",
           "place": "Church of the Good Shepherd（好牧羊人教堂）公共外部",
           "kind": "photo",
-          "detail": "19:15–19:55先在围栏内拍教堂近景和湖山；院落20:00关门，夜间不得进入、勿翻门。20:00后转到围栏外的公共湖岸或人行桥一侧，等20:49日落和蓝调；民用暮光约21:23结束，21:30收工。院落夏令时09:00–20:00开放，也可能因婚礼或葬礼临时关闭。晚饭提前一点吃完。住处离教堂约1–1.5km，开车几分钟；停人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少。厕所也在镇子一侧。",
+          "detail": "19:15–19:55先在围栏内拍教堂近景和湖山；院落20:00关门，夜间不得进入、勿翻门。20:00后转到围栏外的公共湖岸或人行桥一侧，等20:49日落和蓝调；民用暮光约21:23结束，21:30收工。院落夏令时09:00–20:00开放，也可能因婚礼或葬礼临时关闭。晚饭提前一点吃完。住处离教堂约1.5km，开车约3分钟；停人行桥镇子一侧的公共停车场，Pioneer Drive（先驱大道）车位已很少。厕所也在镇子一侧。",
           "photoTip": "Z6III（尼康全画幅相机）＋24–120mm先拍山层，日落后用70–120mm把教堂拍成中远景、带湖岸前景；脚架用于蓝调。教堂内禁止拍照，整个Takapō（特卡波毛利语名）镇禁飞无人机。",
           "lat": -44.003,
           "lon": 170.482,
@@ -689,23 +690,24 @@
           "sourceIds": [
             "i-tekapo-sun",
             "i-nz-route",
-            "x-church"
+            "x-church",
+            "x-osrm-1111"
           ]
         },
         {
           "time": "21:30",
           "endTime": "22:00",
-          "placeId": "milkyway",
-          "place": "Milky Way Views（银河美景）住处",
+          "placeId": "hazels",
+          "place": "Hazel's House（黑兹尔之家）住处",
           "kind": "rest",
-          "detail": "回住处，第三个人洗澡，备份后休息。今晚不加拍月光或银河，也不参加凌晨的观星团。明早07:00早餐、08:00出发去库克山。",
+          "detail": "回住处，备份后休息。今晚不加拍月光或银河，也不参加凌晨的观星团。明早07:00早餐、08:00出发去库克山。",
           "photoTip": "",
-          "lat": -44.0094331,
-          "lon": 170.4927958,
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（6 Pollock Place（波洛克巷））；门锁或钥匙盒密码看确认后物业发的入住说明。",
+          "lat": -44.00865,
+          "lon": 170.47433,
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（4 Rodman Lane（罗德曼巷））；钥匙盒密码看房东在爱彼迎发的入住说明。",
           "sourceIds": [
             "i-driver-rest",
-            "b-milkyway",
+            "a-hazels",
             "x-dsp-crater"
           ]
         }
@@ -728,39 +730,39 @@
         },
         {
           "label": "今晚住",
-          "text": "特卡波银河美景独栋，约15:30入住"
+          "text": "特卡波Hazel's House（黑兹尔之家）四卧独栋，约15:30入住"
         },
         {
           "label": "注意",
-          "text": "热水有限：两人先洗，第三人晚上洗"
+          "text": "教堂院落20:00关门，之后在围栏外拍"
         }
       ]
     },
     {
       "day": 5,
       "date": "2026-11-21",
-      "title": "库克山上午短步道，普卡基湖拍晚霞，住特威泽尔",
-      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Twizel（特威泽尔）",
+      "title": "库克山上午短步道，普卡基湖拍晚霞，住奥马拉马",
+      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Omarama（奥马拉马）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
-      "hotelId": "twizel_cottage",
-      "summary": "08:00出发进库克山，赶在10:00停车高峰前到，上午走基亚观景点。14:00左右出山，16:00入住特威泽尔小屋。20:15起在普卡基湖拍晚霞，约21:45回住处。",
-      "drive": "自驾 · 纯驾驶约3小时：特卡波→White Horse Hill（白马山营地）约107km，出山到Twizel（特威泽尔）约66km，晚上往返普卡基湖游客中心约22km",
+      "hotelId": "sierra",
+      "summary": "08:00出发进库克山，赶在10:00停车高峰前到，上午走基亚观景点。14:00左右出山，在特威泽尔买菜、加油，约16:30入住奥马拉马的汽车旅馆。19:40出发去普卡基湖拍晚霞，约22:10回住处。",
+      "drive": "自驾 · 纯驾驶约3小时40分：特卡波→White Horse Hill（白马山营地）约106km，出山到Twizel（特威泽尔）约66km，再到Omarama（奥马拉马）约30km，晚上往返普卡基湖游客中心约80km",
       "photoGoal": "上午侧光下的雪山、冰川谷与朋友比例；傍晚普卡基湖对面的Aoraki（奥拉基/库克山）晚霞、蓝调和月光。",
-      "weatherPlan": "早晨查MetService（新西兰气象局）、NZTA（新西兰交通局）和DOC（新西兰保护部）。山被云遮，又有大雨或强风，就取消入山：直接开到Twizel（特威泽尔），在镇上吃饭、逛超市，15:00后入住小屋休息。那样的话，11/22天气转好，可以把上午换成普卡基湖或库克山短线；但会压缩瓦纳卡的下午，也不能再走完整的Hooker（胡克谷步道）。今天想走Hooker Valley（胡克谷）全程，就替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，不可全部叠加。DOC标纯步行约3小时，加上拍摄和第一座桥限流排队，至少留3.5–4小时：09:30从White Horse Hill（白马山营地）起步，约13:00–13:30回到停车场，再去村里吃午饭。今年是很强的厄尔尼诺，风大时DOC会临时关步道。Hooker第一座吊桥同时最多20人；DOC说要在桥头装限流闸门，还没公布安装日期。夏季高峰有护林员在桥头看管，排队多留时间。傍晚云厚看不到Aoraki（奥拉基/库克山）、风很大或司机累，就不去普卡基湖，留在住处休息；不为日落在SH80（80号国道）路边找地方停车。",
+      "weatherPlan": "早晨查MetService（新西兰气象局）、NZTA（新西兰交通局）和DOC（新西兰保护部）。山被云遮，又有大雨或强风，就取消入山：直接开到Twizel（特威泽尔），在镇上吃饭、逛超市，再开约25分钟到Omarama（奥马拉马），14:00后入住休息。那样的话，11/22天气转好，可以把上午换成普卡基湖或库克山短线；但会压缩瓦纳卡的下午，也不能再走完整的Hooker（胡克谷步道）。今天想走Hooker Valley（胡克谷）全程，就替换Kea Point（基亚观景点）和Tasman（塔斯曼冰川一带）两项，不可全部叠加。DOC标纯步行约3小时，加上拍摄和第一座桥限流排队，至少留3.5–4小时：09:30从White Horse Hill（白马山营地）起步，约13:00–13:30回到停车场，再去村里吃午饭。今年是很强的厄尔尼诺，风大时DOC会临时关步道。Hooker第一座吊桥同时最多20人；DOC说要在桥头装限流闸门，还没公布安装日期。夏季高峰有护林员在桥头看管，排队多留时间。傍晚云厚看不到Aoraki（奥拉基/库克山）、风很大或司机累，就不去普卡基湖，留在住处休息：单程约40km，回程是夜路；不为日落在SH80（80号国道）路边找地方停车。",
       "events": [
         {
           "time": "07:00",
           "endTime": "08:00",
-          "place": "Milky Way Views（银河美景）住处",
-          "placeId": "milkyway",
-          "lat": -44.0094331,
-          "lon": 170.4927958,
+          "place": "Hazel's House（黑兹尔之家）住处",
+          "placeId": "hazels",
+          "lat": -44.00865,
+          "lon": 170.47433,
           "kind": "meal",
-          "detail": "吃早餐、打包，08:00前退房，早上不洗澡。早餐是昨天在Geraldine（杰拉尔丁）买的；按物业的退房说明锁门、处理垃圾。行李今天整天在车里：三只箱子叠起来会高过遮物帘，在住处就装好，用深色外套或毯子盖住，到了停车场不再翻动。护照、相机、现金、银行卡、电脑都随身带；车里的个人物品丢了Snap（新西兰租车公司）不赔，看各自的旅行险。",
+          "detail": "吃早餐、打包，08:00出发。早餐是昨天在Geraldine（杰拉尔丁）买的；房源写10:00前退房，按房东的退房说明锁门、处理垃圾。行李今天整天在车里：三只箱子在住处就装好，用深色外套或毯子盖住，到了停车场不再翻动。护照、相机、现金、银行卡、电脑都随身带；车里的个人物品丢了Snap（新西兰租车公司）不赔，看各自的旅行险。",
           "photoTip": "",
-          "coordinateStatus": "Booking（缤客订房网）物业地图点（6 Pollock Place（波洛克巷））；门锁或钥匙盒密码看确认后物业发的入住说明。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（4 Rodman Lane（罗德曼巷））；钥匙盒密码看房东在爱彼迎发的入住说明。",
           "sourceIds": [
-            "b-milkyway",
+            "a-hazels",
             "i-weather",
             "i-road-conditions",
             "x-police-valuables",
@@ -773,7 +775,7 @@
           "placeId": "white_horse",
           "place": "White Horse Hill（白马山营地）停车区",
           "kind": "drive",
-          "detail": "08:00出发，约09:30到白马山营地停车场。沿SH8（8号国道）到普卡基湖南端转SH80（80号国道），直接开到White Horse Hill（白马山营地），约107km、1小时25–30分钟；DOC（新西兰保护部）按约1.5小时算。沿途的普卡基湖和Aoraki（奥拉基/库克山）先不停，傍晚从普卡基湖游客中心拍。DOC说11–3月10:00–16:00是停车高峰，今天又是周六，人更多。停车：前20分钟免费，之后NZ$2.50/半小时，全天封顶$25，只收卡。超过20分钟要在缴费机输车牌付费，到达时或离开前付都行，超时可以续。摄像头记车牌，没付或超时罚NZ$75；租车的罚单经Snap（新西兰租车公司）转来，每张另收最多NZ$50手续费。现场有电子屏显示有没有空位。满了有两个办法：①按交通管理人员指挥，只停在Hooker Valley Road（胡克谷路）路边指定的一侧，多走一段路；②回村里按路牌找公共车位，从村里走Kea Point（基亚观景点），DOC标往返约2小时，这时删掉Tasman（塔斯曼冰川一带）。车里有三只箱子：尽量停在缴费机和厕所附近、人多的车位。",
+          "detail": "08:00出发，约09:30到白马山营地停车场。沿SH8（8号国道）到普卡基湖南端转SH80（80号国道），直接开到White Horse Hill（白马山营地），约106km、1小时25–30分钟；DOC（新西兰保护部）按约1.5小时算。沿途的普卡基湖和Aoraki（奥拉基/库克山）先不停，傍晚从普卡基湖游客中心拍。DOC说11–3月10:00–16:00是停车高峰，今天又是周六，人更多。停车：前20分钟免费，之后NZ$2.50/半小时，全天封顶$25，只收卡。超过20分钟要在缴费机输车牌付费，到达时或离开前付都行，超时可以续。摄像头记车牌，没付或超时罚NZ$75；租车的罚单经Snap（新西兰租车公司）转来，每张另收最多NZ$50手续费。现场有电子屏显示有没有空位。满了有两个办法：①按交通管理人员指挥，只停在Hooker Valley Road（胡克谷路）路边指定的一侧，多走一段路；②回村里按路牌找公共车位，从村里走Kea Point（基亚观景点），DOC标往返约2小时，这时删掉Tasman（塔斯曼冰川一带）。车里有三只箱子：尽量停在缴费机和厕所附近、人多的车位。",
           "photoTip": "",
           "lat": -43.72,
           "lon": 170.092,
@@ -788,7 +790,8 @@
             "w-docWalks",
             "x-osrm-tekapo-whh",
             "x-police-valuables",
-            "r-snap-terms"
+            "r-snap-terms",
+            "x-osrm-1111"
           ]
         },
         {
@@ -886,13 +889,13 @@
         },
         {
           "time": "15:20",
-          "endTime": "15:50",
+          "endTime": "16:00",
           "place": "Twizel（特威泽尔）镇中心的Four Square（新西兰小型连锁超市）超市",
           "placeId": "twizel_town",
           "lat": -44.2575,
           "lon": 170.0994,
           "kind": "shopping",
-          "detail": "在镇中心的超市买今晚的晚饭和明早的早餐。有两家：Four Square Mackenzie（麦肯齐四方超市），27 Market Place（市场广场），周六07:15–20:30；Four Square Twizel（特威泽尔四方超市），20 Market Place，周六07:30–20:00。明早出发前在Mobil Twizel（特威泽尔美孚加油站）加满柴油，别加成汽油；加油站每天07:00–21:00，今天顺路加也行。",
+          "detail": "在镇中心的超市买今晚的晚饭和明早的早餐：今晚住的Omarama（奥马拉马）镇子小，店少。有两家：Four Square Mackenzie（麦肯齐四方超市），27 Market Place（市场广场），周六07:15–20:30；Four Square Twizel（特威泽尔四方超市），20 Market Place，周六07:30–20:00。买完在Mobil Twizel（特威泽尔美孚加油站）加满91号汽油，加油站每天07:00–21:00：今晚往返普卡基湖约80km，明天还要过Lindis Pass（林迪斯山口）。",
           "photoTip": "",
           "coordinateStatus": "OpenStreetMap（开放街图）上Twizel（特威泽尔）镇中心Market Place（市场广场）的位置；两家Four Square（新西兰小型连锁超市）都在这里。",
           "sourceIds": [
@@ -903,55 +906,69 @@
         },
         {
           "time": "16:00",
-          "endTime": "17:30",
-          "place": "特威泽尔镇上的三卧小屋住处",
-          "placeId": "twizel_cottage",
-          "lat": -44.25208,
-          "lon": 170.09868,
+          "endTime": "16:30",
+          "place": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）住处",
+          "placeId": "sierra",
+          "lat": -44.486212,
+          "lon": 169.968593,
+          "kind": "drive",
+          "detail": "沿SH8（8号国道）往南开约30km、约25分钟到Omarama（奥马拉马）。Sierra Motel & Apartments（塞拉汽车旅馆公寓）在镇北口的SH8路边，门牌8 Omarama-Twizel Road（奥马拉马—特威泽尔公路），进镇前就到。",
+          "photoTip": "",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（8 Omarama-Twizel Road（奥马拉马—特威泽尔公路））；到前台办入住。",
+          "sourceIds": [
+            "x-osrm-1111",
+            "b-sierra"
+          ]
+        },
+        {
+          "time": "16:30",
+          "endTime": "17:45",
+          "place": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）住处",
+          "placeId": "sierra",
+          "lat": -44.486212,
+          "lon": 169.968593,
           "kind": "rest",
-          "detail": "约16:00入住镇上的小屋，把箱子搬进屋，洗澡、休息。小屋离镇中心Market Place（市场广场）约0.8km，开车1–2分钟。门牌和门锁密码看房东在爱彼迎发的入住说明；自助入住，车停房子的免费车位。只有一个卫生间，三人按顺序洗。",
+          "detail": "到前台办入住：前台08:00–19:00有人，最晚19:00前到。入住时用Visa（维萨卡）或Mastercard（万事达卡）刷NZ$100预授权，退房当天解除。住的是两卧室公寓：一间一张大床，一间两张单人床；一个卫生间，三人按顺序洗。车停旅馆的免费车位，把箱子搬进屋，洗澡、休息。",
           "photoTip": "",
-          "coordinateStatus": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（8 Omarama-Twizel Road（奥马拉马—特威泽尔公路））；到前台办入住。",
           "sourceIds": [
-            "a-twizel_cottage",
-            "x-osrm-1109b"
+            "m-sierra",
+            "m-sierra-policy",
+            "b-sierra"
           ]
         },
         {
-          "time": "17:30",
+          "time": "17:45",
           "endTime": "19:30",
-          "place": "特威泽尔镇上的三卧小屋住处",
-          "placeId": "twizel_cottage",
-          "lat": -44.25208,
-          "lon": 170.09868,
+          "place": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）住处",
+          "placeId": "sierra",
+          "lat": -44.486212,
+          "lon": 169.968593,
           "kind": "meal",
-          "detail": "早点吃晚饭，赶在日落前吃完。可以在住处做下午超市买的菜。想出去吃，镇上Fishtail（尾鱼餐厅）每天12:00–21:30，Poppies（罂粟咖啡餐厅）周六17:30–20:30，MOW Bar（工务部酒吧餐厅）周六中午起营业；住处走到镇中心约5分钟。出去吃就18:00–19:45在镇上吃，吃完开车约10分钟去游客中心；出门前在住处上好厕所，带好脚架、外套和头灯。开车的人不喝酒。",
+          "detail": "早点吃晚饭，19:30前吃完。公寓的厨房有炉灶、烤箱、微波炉和冰箱，做下午在Twizel（特威泽尔）买的菜最稳妥。镇上的餐馆晚上开到几点没核到，想出去吃先问前台。出门前上好厕所，带好脚架、外套、手套和头灯；房门钥匙随身带，回来时前台已下班。开车的人不喝酒。",
           "photoTip": "",
-          "coordinateStatus": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（8 Omarama-Twizel Road（奥马拉马—特威泽尔公路））；到前台办入住。",
           "sourceIds": [
-            "x-fishtail",
-            "x-poppies",
-            "x-mowbar",
-            "x-mackenzie-rural",
-            "x-osrm-1109b"
+            "m-sierra",
+            "m-sierra-policy"
           ]
         },
         {
-          "time": "19:55",
+          "time": "19:40",
           "endTime": "20:15",
           "place": "Lake Pukaki（普卡基湖）游客中心停车场",
           "placeId": "pukaki_vc",
           "lat": -44.1901,
           "lon": 170.1398,
           "kind": "drive",
-          "detail": "19:55出发，开约10–12分钟到普卡基湖游客中心。经镇上沿SH8（8号国道）往东北开，共约11km；游客中心在湖南端的SH8上，途中直行经过SH80（80号国道）路口，不用转弯。只停游客中心的正式停车场，不在公路边停车；夜里停车场有没有门还不确定。游客中心的厕所收费：刷卡或手机NZ$1.50，现金NZ$2；夜里和清晨可能不开，出门前在住处上好厕所。",
+          "detail": "19:40出发，开约35分钟到普卡基湖游客中心，全程约40km。沿SH8（8号国道）往北，过了Twizel（特威泽尔）再开约10分钟，直行经过SH80（80号国道）路口，不用转弯；游客中心在湖南端的SH8路边。只停游客中心的正式停车场，不在公路边停车；夜里停车场有没有门还不确定。游客中心的厕所收费：刷卡或手机NZ$1.50，现金NZ$2；夜里和清晨可能不开，出门前在住处上好厕所。",
           "photoTip": "",
           "coordinateStatus": "OpenStreetMap（开放街图）上游客中心的位置（SH8（8号国道）湖南端）；只停正式停车场，按现场标志。",
           "sourceIds": [
             "x-pukaki-vc",
             "x-osm-pukaki-vc",
             "w-nztaRest",
-            "x-osrm-1109b",
+            "x-osrm-1111",
             "x-mackenzie-toilets"
           ]
         },
@@ -974,19 +991,19 @@
         },
         {
           "time": "21:30",
-          "endTime": "22:00",
-          "place": "特威泽尔镇上的三卧小屋住处",
-          "placeId": "twizel_cottage",
-          "lat": -44.25208,
-          "lon": 170.09868,
+          "endTime": "22:10",
+          "place": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）住处",
+          "placeId": "sierra",
+          "lat": -44.486212,
+          "lon": 169.968593,
           "kind": "rest",
-          "detail": "出停车场是右转，停稳、等两边都没有车灯再走。右转上SH8（8号国道）往Twizel（特威泽尔），要横过往特卡波方向的车道。之后沿SH8直行，约1.6km后直行经过SH8/SH80（80号国道）路口，不用转弯；这里事故多，夜里留意从SH80开出来的车。这段SH8夜里没有路灯，留意羊、兔子和骑车的人；看到动物减速，不猛打方向。约21:45回到住处，洗澡、备份、休息；明早睡到自然醒。",
+          "detail": "出停车场是右转，停稳、等两边都没有车灯再走。右转上SH8（8号国道）往Twizel（特威泽尔）方向，要横过往特卡波方向的车道。之后沿SH8直行，约1.6km后直行经过SH8/SH80（80号国道）路口，不用转弯；这里事故多，夜里留意从SH80开出来的车。过Twizel后再开约30km回Omarama（奥马拉马），全程约40km、约35分钟，约22:10到。这段SH8夜里没有路灯，留意羊、兔子和骑车的人；看到动物减速，不猛打方向。洗澡、备份、休息；明早睡到自然醒。",
           "photoTip": "",
-          "coordinateStatus": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（8 Omarama-Twizel Road（奥马拉马—特威泽尔公路））；到前台办入住。",
           "sourceIds": [
             "x-mackenzie-rural",
             "i-driver-rest",
-            "x-osrm-1109b"
+            "x-osrm-1111"
           ]
         },
         {
@@ -997,7 +1014,7 @@
           "lat": -44.2575,
           "lon": 170.0994,
           "kind": "photo_optional",
-          "detail": "自费，不在预算里，还没订：不想休息的话，21:30从普卡基湖直接回镇上参加观星团。月亮86%亮、整夜在天上，看不到银河；团里主要用望远镜看月亮、土星和大小麦哲伦云。①Stargaze Mackenzie（麦肯齐观星）的Cosmos Explorer（宇宙探索观星团）：22:00在Lake Ruataniwha（鲁阿塔尼瓦湖），离镇上开车5–10分钟。②Twizel Stargazing（特威泽尔观星团）：22:15开团，22:00前到镇上Distinction MacKenzie Country Hotel（麦肯齐乡村酒店）大堂签到，坐运营方的车去观星点。两家都是成人NZ$119、75分钟；出发前24小时以上取消全额退，坏天气退款或改期。散场约23:30，回住处开车几分钟；开车的人累就不去。",
+          "detail": "住在Omarama（奥马拉马），不建议去：散场约23:30，还要开约30km夜路回住处，过了半夜才到。想去的人看这里，自费，不在预算里，还没订：21:30从普卡基湖直接去Twizel（特威泽尔）镇上参加观星团。月亮86%亮、整夜在天上，看不到银河；团里主要用望远镜看月亮、土星和大小麦哲伦云。①Stargaze Mackenzie（麦肯齐观星）的Cosmos Explorer（宇宙探索观星团）：22:00在Lake Ruataniwha（鲁阿塔尼瓦湖），离镇上开车5–10分钟。②Twizel Stargazing（特威泽尔观星团）：22:15开团，22:00前到镇上Distinction MacKenzie Country Hotel（麦肯齐乡村酒店）大堂签到，坐运营方的车去观星点。两家都是成人NZ$119、75分钟；出发前24小时以上取消全额退，坏天气退款或改期。开车的人累就不去。",
           "photoTip": "主要是导游带望远镜看；相机可以拍月亮特写，不拍银河。",
           "coordinateStatus": "Twizel（特威泽尔）镇中心的区域点；集合点按订票确认（Cosmos Explorer（宇宙探索观星团）在Lake Ruataniwha（鲁阿塔尼瓦湖），Twizel Stargazing（特威泽尔观星团）在Distinction MacKenzie Country Hotel（麦肯齐乡村酒店））。",
           "sourceIds": [
@@ -1022,11 +1039,11 @@
       "brief": [
         {
           "label": "出发",
-          "text": "07:00早餐退房，08:00开车进库克山"
+          "text": "07:00早餐，08:00开车进库克山"
         },
         {
           "label": "车程",
-          "text": "全天纯驾驶约3小时"
+          "text": "全天纯驾驶约3小时40分，晚上回程是夜路"
         },
         {
           "label": "重点",
@@ -1034,7 +1051,7 @@
         },
         {
           "label": "今晚住",
-          "text": "特威泽尔小屋，15:00–22:00自助入住"
+          "text": "奥马拉马汽车旅馆两卧公寓，前台19:00下班"
         },
         {
           "label": "要带",
@@ -1046,101 +1063,66 @@
       "day": 6,
       "date": "2026-11-22",
       "title": "穿越林迪斯，把黄昏留给瓦纳卡",
-      "area": "Twizel（特威泽尔）→Wānaka（瓦纳卡）",
+      "area": "Omarama（奥马拉马）→Wānaka（瓦纳卡）",
       "timezone": "新西兰夏令时 UTC（协调世界时）+13",
       "hotelId": "parkhill",
-      "summary": "睡到自然醒，10:00退房，加油后10:30出发。经Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）吃午饭，住一晚。傍晚走10–12分钟到That Wānaka Tree（瓦纳卡孤独树），拍黄昏和蓝调。",
-      "drive": "自驾 · Twizel（特威泽尔）到Wānaka（瓦纳卡）约146km，纯驾驶约2小时，另留停靠和午餐的时间",
+      "summary": "睡到自然醒，10:00前退房，10:30出发。经Lindis Pass（林迪斯山口）到Wānaka（瓦纳卡）吃午饭，住一晚。傍晚走10–12分钟到That Wānaka Tree（瓦纳卡孤独树），拍黄昏和蓝调。",
+      "drive": "自驾 · Omarama（奥马拉马）到Wānaka（瓦纳卡）约115km，纯驾驶约1.5小时，另留停靠和午餐的时间",
       "photoGoal": "Lindis Pass（林迪斯山口）山坡线条、That Wānaka Tree（瓦纳卡孤独树）和湖岸雪山；24–120mm是主力。",
-      "weatherPlan": "Lindis Pass（林迪斯山口）遇风雪，按NZTA（新西兰交通局）的路况通告调整，不找没核实过的小路绕行。如果11/21因天气没进库克山，而今天转晴：可改成07:30退房出发，走库克山短线，午前离山。Twizel（特威泽尔）到White Horse Hill（白马山营地）约55分钟。这样要取消或缩短林迪斯的拍照，瓦纳卡的下午也会变短。这个备选多开约1.5–2小时，司机累就放弃；不走Hooker（胡克谷步道）全程，不等山里的日落。",
+      "weatherPlan": "Lindis Pass（林迪斯山口）遇风雪，按NZTA（新西兰交通局）的路况通告调整，不找没核实过的小路绕行。如果11/21因天气没进库克山，而今天转晴：可改成07:00退房出发，走库克山短线，午前离山。Omarama（奥马拉马）到White Horse Hill（白马山营地）约1小时15–20分钟。这样要取消或缩短林迪斯的拍照，瓦纳卡的下午也会变短。这个备选多开约2.5小时，司机累就放弃；不走Hooker（胡克谷步道）全程，不等山里的日落。",
       "events": [
-        {
-          "time": "05:10",
-          "endTime": "06:40",
-          "place": "Lake Pukaki（普卡基湖）游客中心湖边",
-          "placeId": "pukaki_vc",
-          "lat": -44.1901,
-          "lon": 170.1398,
-          "kind": "photo_optional",
-          "detail": "05:10从住处出发，到普卡基湖游客中心拍Aoraki（奥拉基/库克山）日出，06:40前回住处补觉。昨晚拍过、累了或阴天就跳过。开约11km、10–12分钟，约05:25到，架好脚架。民用晨光05:22开始，日出05:57；Aoraki山顶估计约05:50先被照亮，拍第一缕光照亮雪山的样子。天没全亮，SH8（8号国道）上留意兔子和羊。游客中心的厕所收费，夜里和清晨可能不开，出门前在住处上好厕所。",
-          "photoTip": "70–120mm拍雪山顶的第一缕光，24–35mm带湖面；湖边清晨接近0°C，穿厚。",
-          "coordinateStatus": "OpenStreetMap（开放街图）上游客中心的位置（SH8（8号国道）湖南端）；只停正式停车场，按现场标志。",
-          "sourceIds": [
-            "x-twizel-sun",
-            "x-pukaki-vc",
-            "x-osrm-1109b",
-            "x-mackenzie-rural",
-            "x-mackenzie-toilets"
-          ],
-          "optional": true
-        },
         {
           "time": "08:30",
           "endTime": "10:00",
-          "place": "特威泽尔镇上的三卧小屋住处",
-          "placeId": "twizel_cottage",
-          "lat": -44.25208,
-          "lon": 170.09868,
+          "place": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）住处",
+          "placeId": "sierra",
+          "lat": -44.486212,
+          "lon": 169.968593,
           "kind": "meal",
-          "detail": "睡到自然醒，吃早餐、收行李，10:00前退房。早餐是昨天在Four Square（新西兰小型连锁超市）买的。房源写11:00前退房；按房东的退房说明锁门、处理垃圾。",
+          "detail": "睡到自然醒，吃早餐、收行李，10:00前退房。早餐是昨天在Four Square（新西兰小型连锁超市）买的。退房时把钥匙交回前台。",
           "photoTip": "",
-          "coordinateStatus": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
+          "coordinateStatus": "Booking（缤客订房网）物业地图点（8 Omarama-Twizel Road（奥马拉马—特威泽尔公路））；到前台办入住。",
           "sourceIds": [
-            "a-twizel_cottage",
-            "x-osrm-1109b"
+            "m-sierra-policy"
           ]
         },
         {
-          "time": "10:30",
-          "endTime": "11:05",
-          "place": "Twizel（特威泽尔）加油→Omarama（奥马拉马）",
+          "time": "10:00",
+          "endTime": "10:30",
+          "place": "Omarama（奥马拉马）镇上",
           "placeId": "omarama",
           "lat": -44.488,
           "lon": 169.967,
-          "kind": "drive",
-          "detail": "先在Mobil Twizel（特威泽尔美孚加油站）加满柴油，10:30出发。别加成汽油；加油站在镇上，每天07:00–21:00营业。到Omarama（奥马拉马）约31km、约25分钟，之后再过Lindis Pass（林迪斯山口）。",
+          "kind": "rest",
+          "detail": "退房后在镇上歇一会儿：上厕所、买咖啡、伸展。Challenge Omarama（奥马拉马挑战者加油站）每天06:00–21:00，有咖啡和热食；油不到半箱就在这里加91号汽油，再过Lindis Pass（林迪斯山口）。三只箱子在车里：停在人多、看得见的车位，箱子盖好不露在外面。护照、相机、电脑随身带；车里的个人物品丢了，Snap（新西兰租车公司）不赔。",
           "photoTip": "",
           "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
           "sourceIds": [
-            "x-mobil-twizel",
-            "x-osrm-twizel-wanaka"
-          ]
-        },
-        {
-          "time": "11:05",
-          "endTime": "11:30",
-          "placeId": "omarama",
-          "place": "Omarama（奥马拉马）休息区",
-          "kind": "meal",
-          "detail": "在Omarama（奥马拉马）休息20–30分钟：上厕所、买咖啡、伸展。早餐吃得晚，午饭到瓦纳卡再吃；累了就多停一会儿。三只箱子在车里：停在人多、看得见的车位，箱子盖好不露在外面。护照、相机、电脑随身带；车里的个人物品丢了，Snap（新西兰租车公司）不赔。",
-          "photoTip": "",
-          "lat": -44.488,
-          "lon": 169.967,
-          "coordinateStatus": "approximate — 规划用区域点，未核精确入口/停车位",
-          "sourceIds": [
+            "x-challenge-omarama",
             "i-driver-rest",
             "x-police-valuables",
             "r-snap-terms"
           ]
         },
         {
-          "time": "11:30",
-          "endTime": "12:20",
+          "time": "10:30",
+          "endTime": "11:25",
           "placeId": "lindis_pass",
           "place": "Lindis Pass（林迪斯山口）观景区（停车入口以标识为准）",
           "kind": "photo",
-          "detail": "开约半小时到Lindis Pass（林迪斯山口）的正式观景停车区，拍约20分钟。没有安全的停车位或风很大就跳过。箱子在车里：停人多处，贵重物品随身带。",
+          "detail": "10:30出发，开约半小时到Lindis Pass（林迪斯山口）的正式观景停车区，拍约20分钟。没有安全的停车位或风很大就跳过。箱子在车里：停人多处，贵重物品随身带。",
           "photoTip": "70–120mm拍山坡的曲线；不站到公路中间拍。",
           "lat": -44.58885,
           "lon": 169.64304,
           "coordinateStatus": "已核对观景点；非精确停车入口",
           "sourceIds": [
-            "i-road-conditions"
+            "i-road-conditions",
+            "x-osrm-1111"
           ]
         },
         {
-          "time": "12:20",
-          "endTime": "13:30",
+          "time": "11:25",
+          "endTime": "12:40",
           "place": "Wānaka（瓦纳卡）镇中心",
           "placeId": "wanaka_town",
           "lat": -44.695766,
@@ -1152,14 +1134,14 @@
           "sourceIds": []
         },
         {
-          "time": "13:30",
+          "time": "12:40",
           "endTime": "14:30",
           "place": "Wānaka（瓦纳卡）镇中心",
           "placeId": "wanaka_town",
           "lat": -44.695766,
           "lon": 169.1356191,
           "kind": "meal",
-          "detail": "在镇中心吃午饭，司机多歇一会儿。湖边Ardmore Street（阿德莫尔街）一带餐馆多；停车按现场标志。箱子在车里：停人多处，贵重物品随身带。",
+          "detail": "在镇中心吃午饭，司机多歇一会儿。湖边Ardmore Street（阿德莫尔街）一带餐馆多；停车按现场标志。吃完在湖边走走，等15:00入住。箱子在车里：停人多处，贵重物品随身带。",
           "photoTip": "",
           "coordinateStatus": "行程区域定位，不是精确入口；按现场指示、站牌和确认单。",
           "sourceIds": [
@@ -1243,16 +1225,16 @@
         }
       ],
       "shortTitle": "林迪斯与瓦纳卡",
-      "lightNote": "主力焦段是全画幅24–120mm，有前景的大场景用16mm。风大或累了就删掉外拍，留出休息。清晨可选的普卡基湖日出：太阳从东南偏东升起，第一缕光照到Aoraki（奥拉基/库克山）雪山的东侧。",
+      "lightNote": "主力焦段是全画幅24–120mm，有前景的大场景用16mm。风大或累了就删掉外拍，留出休息。",
       "sourceIds": [],
       "brief": [
         {
           "label": "出发",
-          "text": "10:00退房，加满柴油，10:30出发"
+          "text": "10:00前退房，10:30出发"
         },
         {
           "label": "车程",
-          "text": "到瓦纳卡约146公里，纯驾驶约2小时"
+          "text": "到瓦纳卡约115公里，纯驾驶约1.5小时"
         },
         {
           "label": "重点",
@@ -1417,7 +1399,7 @@
           "lat": -45.02735253,
           "lon": 168.6660896,
           "kind": "drive",
-          "detail": "从Frankton（弗兰克顿）开约10分钟到镇东边的联排别墅。门牌和开锁方式看房东的入住指南，上海同学前一晚会私发；导航先用地图点，拿到门牌再改。自助入住，时间看订单；没有前台，早到就在车里等几分钟。车停房子的免费车位；车位够不够停这辆约4.8米长的7座车，见待办里问房东那条。",
+          "detail": "从Frankton（弗兰克顿）开约10分钟到镇东边的联排别墅。门牌和开锁方式看房东的入住指南，上海同学前一晚会私发；导航先用地图点，拿到门牌再改。自助入住，时间看订单；没有前台，早到就在车里等几分钟。车停房子的免费车位；车位够不够停这辆中型SUV（运动型多用途车），见待办里问房东那条。",
           "photoTip": "",
           "coordinateStatus": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
           "sourceIds": [
@@ -1816,7 +1798,7 @@
       "area": "Queenstown（皇后镇）→Sydney（悉尼）",
       "timezone": "新西兰 UTC（协调世界时）+13 / 傍晚悉尼 UTC+11",
       "hotelId": "adina",
-      "summary": "上午可在湖边短走，10:00前退房。提前吃午饭、加满柴油，约11:30还车。新西兰航空NZ231在15:45从皇后镇起飞，悉尼当地17:05到，打车去Adina（阿迪娜公寓酒店）入住。",
+      "summary": "上午可在湖边短走，10:00前退房。提前吃午饭、加满油，约11:30还车。新西兰航空NZ231在15:45从皇后镇起飞，悉尼当地17:05到，打车去Adina（阿迪娜公寓酒店）入住。",
       "drive": "自驾 · 住处→Remarkables Park（卓越公园购物区）吃饭→门店旁加油→还车，共开约20分钟；另留加油、验车和接驳的时间",
       "photoGoal": "简单晨间湖岸；优先保证还车和航班衔接。",
       "weatherPlan": "天气不好就在住处休息到退房。航班延误就在机场等；晚到悉尼直接入住，不安排外拍。NZ231（新西兰航空）万一取消：①在新西兰航空的手机应用或机场柜台改最早的航班。直飞不是每天都有，也可以经奥克兰或基督城转。②要拖到第二天，马上用Booking（缤客订房网）站内信或电话告诉Adina（阿迪娜公寓酒店）：11/26到不了、11/27到，请保留后面三晚；并拿到书面回复。不然第一晚没到，可能被当成no-show（未到场）取消整单。英文稿第7段末尾有现成的话。③车已经还了，当晚在机场旁的Frankton（弗兰克顿）另订一晚，打车过去。回程HO1670（吉祥航空）在11/30，不受影响。",
@@ -1906,7 +1888,7 @@
           "placeId": "snap_zqn",
           "place": "Snap（新西兰租车公司）皇后镇门店 · 5 Glenda Drive（格伦达路）",
           "kind": "rental_return",
-          "detail": "先在Snap（新西兰租车公司）门店旁的NPD（新西兰本土加油站）加满柴油，约11:30到5 Glenda Drive（格伦达路）还车，12:00前交车。从Remarkables Park（卓越公园购物区）开约6分钟、约3.6km到Glenda Drive；NPD旁边还有PAK’nSAVE（新西兰平价连锁超市）的加油站。别加成汽油，小票留着；没加满要付油钱，再加NZ$25。车里垃圾带走、大致收拾干净，太脏收NZ$200清洁费。和店员一起验车、交钥匙；有新的划痕或损伤当场说，按要求填Claims Form（车损报告表），不填零自付会失效。交车后请门店用免费接驳车送去机场，开车不到5分钟。不能晚还：要赶NZ231（新西兰航空）值机，这家门店17:00关门、不能下班后还车，过了约定时间零自付也会失效。",
+          "detail": "先在Snap（新西兰租车公司）门店旁的NPD（新西兰本土加油站）加满91号汽油，约11:30到5 Glenda Drive（格伦达路）还车，12:00前交车。从Remarkables Park（卓越公园购物区）开约6分钟、约3.6km到Glenda Drive；NPD旁边还有PAK’nSAVE（新西兰平价连锁超市）的加油站。别加成柴油，小票留着；没加满要付油钱，再加NZ$25。车里垃圾带走、大致收拾干净，太脏收NZ$200清洁费。和店员一起验车、交钥匙；有新的划痕或损伤当场说，按要求填Claims Form（车损报告表），不填零自付会失效。交车后请门店用免费接驳车送去机场，开车不到5分钟。不能晚还：要赶NZ231（新西兰航空）值机，这家门店17:00关门、不能下班后还车，过了约定时间零自付也会失效。",
           "photoTip": "",
           "lat": -45.009603,
           "lon": 168.7475612,
@@ -2029,7 +2011,7 @@
         },
         {
           "label": "车程",
-          "text": "到还车门店共开约20分钟，先加满柴油"
+          "text": "到还车门店共开约20分钟，先加满油"
         },
         {
           "label": "重点",
@@ -2793,9 +2775,9 @@
       "lat": -37.813695,
       "lon": 144.953512,
       "address": "615 Little Lonsdale Street（小朗斯代尔街）, Melbourne（墨尔本） VIC（维多利亚州） 3000",
-      "sourceUrl": "https://hotels.ctrip.com/hotels/detail/?hotelId=105596586&checkIn=2026-11-18&checkOut=2026-11-19&adult=3&children=0&crn=1&curr=CNY",
+      "sourceUrl": "https://www.booking.com/hotel/au/dorsett-melbourne.zh-cn.html?checkin=2026-11-18&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
       "sourceIds": [
-        "c-dorsett",
+        "b-dorsett",
         "x-dorsett-policy",
         "x-dorsett-rooms"
       ],
@@ -2803,19 +2785,19 @@
       "checkin": "2026-11-18",
       "checkout": "2026-11-19",
       "nights": 1,
-      "beds": "探索房27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡",
-      "price": "三人1晚约¥2,260，是携程探索房可退价，在线付人民币、含税；预算按¥2,257算。由上海同学在携程订，实际金额以订单为准。",
-      "cancel": "携程：墨尔本时间11/17 14:00前免费取消（北京时间11:00）。实际以订单为准。",
-      "nativeTotal": 2257,
-      "currency": "CNY",
-      "priceStatus": "携程11/2实时页：探索房可退价¥2,257；上海同学自己安排，金额待确认",
+      "beds": "标准双床间27㎡：2张1.31米双人床（偏窄），最多3人，三人要有两人合睡",
+      "price": "三人1晚AUD416≈¥1,964，是Booking（缤客订房网）可免费取消价，含税费，按澳元扣款。只订2位成人是AUD396。实际金额以订单为准。",
+      "cancel": "Booking（缤客订房网）：墨尔本时间11/16 23:59前免费取消（北京时间11/16 20:59）。Booking页面写“11/17前”，按住宿当地时间算。11/15扣款。",
+      "nativeTotal": 416,
+      "currency": "AUD",
+      "priceStatus": "Booking（缤客订房网） 11/11实时页：标准双床间（2张双人床，27㎡，最多3人）可免费取消价AUD416、不可退AUD325，只剩1间；携程同一间11/3可退¥2,260，11/11不登录看不到价",
       "fixedThreeBeds": false,
       "booked": false,
       "checkinTime": "15:00–24:00",
       "checkoutTime": "11:00前",
-      "perNightCNY": 2257.0,
+      "perNightCNY": 1963.5616000000002,
       "aboveOriginalNightlyCap": false,
-      "cardFeeNote": "携程在线付人民币：不产生外币交易费，也没有到店刷卡附加费。",
+      "cardFeeNote": "Booking按澳元收款（11/15扣），Visa或Mastercard信用卡不少银行收1.5%外币交易费，预算已按上限计入；付款页选澳元，不选人民币。",
       "refundableDeposit": {
         "currency": "AUD",
         "amount": 200,
@@ -2825,7 +2807,7 @@
       "reviews": "Booking（缤客订房网） 8.7（7,011条）、清洁9.1、位置9.1",
       "access": "到酒店前台办入住，15:00起。11/18上午先去寄存大箱子；能不能寄存和提前入住，上海同学问到后在群里说。",
       "notes": [
-        "只有2张双人床，官网写这间房住2位成人加2位小客人：墨尔本同学这晚住不住还没定，见待办“定好人数后在携程订墨尔本Dorsett（帝盛酒店）”",
+        "只有2张双人床，官网写这间房住2位成人加2位小客人：墨尔本同学这晚住不住还没定，见待办“定好人数后订墨尔本Dorsett（帝盛酒店）”",
         "入住时另收AUD200押金，用信用卡刷，退房当天退回原卡",
         "离Southern Cross（南十字星）站步行约10分钟"
       ]
@@ -2845,16 +2827,16 @@
       "checkout": "2026-11-20",
       "nights": 1,
       "beds": "三卧联排别墅，最多7人：楼上两间卧室各一张1.35米双人床，另一间是加大单人床，三人各住一间。楼下有沙发床。1.5个卫生间，有厨房。",
-      "price": "三人1晚¥947，是爱彼迎人民币总价，含全部费用。",
+      "price": "三人1晚¥957，是爱彼迎人民币总价，含全部费用。",
       "cancel": "下单后24小时内免费取消，之后不退款。",
-      "nativeTotal": 947,
+      "nativeTotal": 957,
       "currency": "CNY",
-      "priceStatus": "爱彼迎11/9实时页：三卧联排别墅¥947（含全部费用）",
+      "priceStatus": "爱彼迎11/11实时页：三卧联排别墅¥957（含全部费用；11/9是¥947）",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00后（房源写，以订单为准）",
       "checkoutTime": "11:00前（房源写，以订单为准）",
-      "perNightCNY": 947,
+      "perNightCNY": 957,
       "aboveOriginalNightlyCap": false,
       "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
@@ -2869,82 +2851,89 @@
       ]
     },
     {
-      "id": "milkyway",
-      "name": "Milky Way Views（银河美景）",
-      "lat": -44.0094331,
-      "lon": 170.4927958,
-      "address": "6 Pollock Place（波洛克巷）, Lake Tekapo（特卡波湖） 7999，在镇东侧。离好牧羊人教堂和镇中心约1–1.5km。住客说离超市和湖边近。",
-      "sourceUrl": "https://www.booking.com/hotel/nz/milky-way.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
+      "id": "hazels",
+      "name": "Hazel's House（黑兹尔之家）",
+      "lat": -44.00865,
+      "lon": 170.47433,
+      "address": "4 Rodman Lane（罗德曼巷）, Lake Tekapo（特卡波湖） 7999，在镇西侧一条安静的死胡同里，背靠保护区。走到镇中心的超市和餐馆约0.8km、10分钟。到好牧羊人教堂约1.5km，开车约3分钟，走路约20分钟。",
+      "sourceUrl": "https://www.airbnb.cn/rooms/43498677?check_in=2026-11-20&check_out=2026-11-21&adults=3",
       "sourceIds": [
-        "b-milkyway",
-        "a-milkyway"
+        "a-hazels",
+        "b-hazels",
+        "x-osrm-1111"
       ],
-      "coordinateNote": "Booking物业地图点（6 Pollock Place）；门锁或钥匙盒密码看确认后物业发的入住说明。",
+      "coordinateNote": "Booking物业地图点（4 Rodman Lane）；钥匙盒密码看房东在爱彼迎发的入住说明。",
       "checkin": "2026-11-20",
       "checkout": "2026-11-21",
       "nights": 1,
-      "beds": "整栋两层四卧独栋，约250㎡，最多8人：卧室1–4各一张约1.5米双人床，三人各住一间。两个卫生间，有厨房和Wi-Fi（无线网络）。看湖、花园和山，楼上客厅有大窗看湖。",
-      "price": "三人1晚NZ$853≈¥3,213，是Booking（缤客订房网）价，含税费，按纽币扣款。",
-      "cancel": "新西兰时间11/12 23:59前免费取消（北京时间11/12 18:59）。Booking（缤客订房网）页面写“11/13前”，按住宿当地时间算。过了截止再取消，按确认函收费。11/11按纽币扣NZ$853，之前不付款。",
-      "nativeTotal": 853,
-      "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/9实时页：四卧整栋NZ$853（含税费，可免费取消价）；特卡波这晚167家同类度假屋已无空房",
-      "fixedThreeBeds": true,
-      "booked": false,
-      "checkinTime": "15:00–23:30",
-      "checkoutTime": "06:00–10:00",
-      "perNightCNY": 3212.5686,
-      "aboveOriginalNightlyCap": true,
-      "cardFeeNote": "Booking按纽币收款（11/11扣），Visa或Mastercard信用卡不少银行收1.5%外币交易费，预算已按上限计入；付款页选纽币，不选人民币。",
-      "refundableDeposit": null,
-      "bedConfirmation": "Booking（缤客订房网）写卧室1–4各一张双人床、两个卫生间；未锁房，订后在Booking留言三位成人、约15:30到（Booking要求提前告诉到达时间）。",
-      "reviews": "Booking（缤客订房网） 9.1（45条），清洁9.3、舒适9.2、设施9.1、位置9.6、员工9.3、性价比8.7；爱彼迎4.7/5（174条）；爱彼迎上的房东是Book Tekapo（特卡波订房管理公司），管理100多处房屋；2026年6月有一条评价说屋里发现一只死老鼠，房东一小时内处理了",
-      "access": "门锁或钥匙盒密码看物业发的入住说明，上海同学入住前一晚私发。",
-      "parking": "房源内免费停车。",
-      "notes": [
-        "热水是储水罐，量有限：爱彼迎上房东说约够洗15分钟，有住客说人多会用完，三人按顺序洗",
-        "爱彼迎房源页写隔壁在施工，白天可能有噪音",
-        "爱彼迎房源页写没有烟雾报警器和一氧化碳报警器，见待办“买一个电池供电的光电式烟雾报警器带上”",
-        "退房时按物业的说明锁门、处理垃圾"
-      ]
-    },
-    {
-      "id": "twizel_cottage",
-      "name": "特威泽尔镇上的三卧小屋（爱彼迎）",
-      "lat": -44.25208,
-      "lon": 170.09868,
-      "address": "Twizel（特威泽尔）镇上；门牌订好后由上海同学私发。房源写走路5分钟到镇中心，2分钟到通往Twizel River（特威泽尔河）的保护区步道。按地图估，到镇中心Market Place（市场广场）约0.8km。到普卡基湖游客中心约11km，开车约10–12分钟。",
-      "sourceUrl": "https://www.airbnb.cn/rooms/1293975808451643528?check_in=2026-11-21&check_out=2026-11-22&adults=3",
-      "sourceIds": [
-        "a-twizel_cottage",
-        "x-osrm-1109b"
-      ],
-      "coordinateNote": "爱彼迎房源页地图点（订前只给大致位置，可能偏几百米）；门牌和入住方式房东订后发。",
-      "checkin": "2026-11-21",
-      "checkout": "2026-11-22",
-      "nights": 1,
-      "beds": "三卧整套，最近翻新，最多6人：卧室1两张单人床，卧室2一张约1.8米床，卧室3一张约1.5米床，三人各住一间。一个卫生间。有热泵、厨房和带顶的露台。",
-      "price": "三人1晚¥1,707，是爱彼迎人民币总价，含全部费用。",
-      "cancel": "下单后24小时内免费取消。之后到11/14前取消退一部分，具体时刻和比例看订单页。再晚不退。",
-      "nativeTotal": 1707,
+      "beds": "整栋四卧独栋，约140㎡，最多8人：卧室1一张约1.8米床，卧室2、3各一张约1.5米床，卧室4两张单人床，三人各住一间。两个卫生间，有厨房、洗衣机、空调和Wi-Fi（无线网络）。",
+      "price": "三人1晚¥2,466，是爱彼迎人民币总价，含全部费用。",
+      "cancel": "下单后24小时内免费取消。之后到11/13前取消退一部分，具体时刻和比例看订单页。再晚不退。",
+      "nativeTotal": 2466,
       "currency": "CNY",
-      "priceStatus": "爱彼迎11/9实时页（同日第二次）：三卧整套¥1,707（含全部费用）；页面提示常被订满，Twizel（特威泽尔）这晚按日期只剩这一套",
+      "priceStatus": "爱彼迎11/11实时页：四卧整栋¥2,466（含全部费用）；Booking（缤客订房网）同一栋NZ$659（644＋税费15，不可退）；原定的Milky Way Views（银河美景） 11/11在Booking显示这晚无空房",
       "fixedThreeBeds": true,
       "booked": false,
-      "checkinTime": "15:00–22:00",
-      "checkoutTime": "11:00前",
-      "perNightCNY": 1707,
+      "checkinTime": "15:00后",
+      "checkoutTime": "10:00前",
+      "perNightCNY": 2466,
       "aboveOriginalNightlyCap": false,
       "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
-      "bedConfirmation": "房源写卧室1两张单人床、卧室2一张约1.8米床、卧室3一张约1.5米床，一个卫生间；未锁房，订后在爱彼迎留言三位成人、约16:00到。",
-      "reviews": "爱彼迎4.94/5（89条），清洁4.9、如实描述5.0、入住便捷5.0、地段5.0、性价比4.9，排名前5%；超赞房东，出租2年；住客说温馨、舒适、方便",
-      "access": "15:00–22:00密码锁自助入住。门牌和密码由上海同学入住前一晚私发。",
+      "bedConfirmation": "爱彼迎写卧室1约1.8米床、卧室2和3各约1.5米床、卧室4两张单人床，两个卫生间；未锁房，订后在爱彼迎留言三位成人、约15:30到。",
+      "reviews": "爱彼迎4.89/5（102条），清洁4.8、如实描述4.9、入住便捷5.0、地段4.9、性价比4.8；超赞房东，出租10年。Booking（缤客订房网） 9.2（44条），清洁9.7、位置9.4",
+      "access": "钥匙盒自助入住。门牌和密码看房东在爱彼迎发的入住说明，上海同学入住前一晚私发。",
       "parking": "免费停车，停房子的车位。",
       "notes": [
-        "只有一个卫生间，三人按顺序洗",
         "房源页写已装烟雾报警器，没写一氧化碳报警器",
+        "客厅有燃木壁炉；取暖用空调就够，不生火",
         "退房时按房东的说明锁门、处理垃圾"
+      ]
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）",
+      "lat": -44.486212,
+      "lon": 169.968593,
+      "address": "8 Omarama-Twizel Road（奥马拉马—特威泽尔公路）, Omarama（奥马拉马），在镇北口的SH8（8号国道）路边。走到镇中心的加油站和小店约0.5km、7分钟。到普卡基湖游客中心约40km，开车约35分钟；到Twizel（特威泽尔）约30km。",
+      "sourceUrl": "https://book-directonline.com/properties/sierramotelandapartmentsdirect?locale=en&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-21&checkOutDate=2026-11-22",
+      "sourceIds": [
+        "m-sierra",
+        "m-sierra-policy",
+        "b-sierra",
+        "x-osrm-1111"
+      ],
+      "coordinateNote": "Booking物业地图点（8 Omarama-Twizel Road）；到前台办入住。",
+      "checkin": "2026-11-21",
+      "checkout": "2026-11-22",
+      "nights": 1,
+      "beds": "汽车旅馆的两卧室公寓，45㎡，最多4人：卧室1一张大床，卧室2两张单人床，三人各睡一张床，其中两人同住一间。一个卫生间。厨房有炉灶、烤箱和冰箱，床上有电热毯，有空调。",
+      "price": "三人1晚NZ$418.50≈¥1,576，是旅馆官网价，含GST（商品服务税），按纽币扣款。",
+      "cancel": "新西兰时间11/13 23:59前免费取消（北京时间11/13 18:59）。官网写“11/14前”，按旅馆当地时间算。之后取消或没到，收全款。下单时付全款。",
+      "nativeTotal": 418.5,
+      "currency": "NZD",
+      "priceStatus": "旅馆官网11/11实时页：2 Bedroom Unit（两卧室公寓） NZ$418.50（原价465，直订九折，含GST（商品服务税），11/14前可免费取消）；Booking（缤客订房网）同房型NZ$440不可退、只剩1间；原定的特威泽尔小屋11/11在爱彼迎显示不可出租，Twizel（特威泽尔）这晚Booking和爱彼迎都已无房",
+      "fixedThreeBeds": true,
+      "booked": false,
+      "checkinTime": "14:00–19:00",
+      "checkoutTime": "10:00前",
+      "perNightCNY": 1576.1547,
+      "aboveOriginalNightlyCap": false,
+      "cardFeeNote": "旅馆官网按纽币收款，Visa或Mastercard信用卡不少银行收1.5%外币交易费，预算已按上限计入。",
+      "refundableDeposit": {
+        "currency": "NZD",
+        "amount": 100,
+        "note": "Pre-authorisation per room at check-in by Visa or Mastercard; released on departure; not consumption"
+      },
+      "bedConfirmation": "官网写Room 1一张Queen床、Room 2两张单人床，一个卫生间；未锁房，订时备注三位成人、约16:30到。",
+      "reviews": "Booking（缤客订房网） 9.1（940条），清洁9.5、舒适9.6、位置9.4、员工9.3、性价比9.0；中国住客多说干净、设施齐全、接待热情",
+      "access": "到前台办入住：前台08:00–19:00有人，14:00起可入住，最晚19:00前到。入住时用Visa（维萨卡）或Mastercard（万事达卡）刷NZ$100预授权，退房当天解除。",
+      "parking": "免费停车，停旅馆的车位。",
+      "notes": [
+        "只有两间卧室：一人睡大床房，两人睡双床房",
+        "一个卫生间，三人按顺序洗",
+        "前台19:00下班：傍晚出门拍日落前带好房门钥匙",
+        "退房时把钥匙交回前台"
       ]
     },
     {
@@ -3002,23 +2991,23 @@
       "checkout": "2026-11-26",
       "nights": 3,
       "beds": "联排别墅，最多6人：三间卧室各一张1.5米双人床，三人各住一间。两个卫生间。看湖。",
-      "price": "三人3晚¥6,486，是爱彼迎人民币总价，含全部费用。想省钱可改订Queenstown Heights（皇后镇高地）三卧，三晚¥5,232，代价是只有一个淋浴卫生间。",
+      "price": "三人3晚¥5,904，是爱彼迎人民币总价，含全部费用。想省钱可改订Queenstown Heights（皇后镇高地）三卧，三晚¥5,276，代价是只有一个淋浴卫生间。",
       "cancel": "下单后24小时内免费取消。之后到11/16前取消退一部分，具体看订单页。再晚不退。",
-      "nativeTotal": 6486,
+      "nativeTotal": 5904,
       "currency": "CNY",
-      "priceStatus": "爱彼迎11/9实时页（同日第二次）：三卧联排别墅三晚¥6,486（含全部费用；同日早些时候¥6,278）",
+      "priceStatus": "爱彼迎11/11实时页：三卧联排别墅三晚¥5,904（含全部费用；11/9是¥6,486）",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "计划约15:00到（准确时间看订单）",
       "checkoutTime": "计划10:00前（准确时间看订单）",
-      "perNightCNY": 2162.0,
+      "perNightCNY": 1968.0,
       "aboveOriginalNightlyCap": false,
       "cardFeeNote": "爱彼迎按人民币收款，没有到店刷卡费；用人民币付一般没有货币转换费，以支付页和发卡行为准。",
       "refundableDeposit": null,
       "bedConfirmation": "房源写三间卧室各一张1.5米双人床、两个卫生间；未锁房，订后在爱彼迎留言三位成人、约15:00到。",
       "reviews": "爱彼迎4.81/5（226条），清洁4.8、如实描述4.9、地段4.8、性价比4.7；超赞房东，出租10年；住客多夸湖景；有住客提到屋里有些小的维修问题",
       "access": "自助入住，没有前台，时间看订单；早到就在车里等几分钟。门牌和开锁方式看房东发的入住指南，上海同学入住前一晚私发。",
-      "parking": "房源写免费停车。Pajero Sport（三菱帕杰罗运动版）是7座大车，约4.8米长，车位够不够大还没问到。",
+      "parking": "房源写免费停车。Outlander（欧蓝德）是中型SUV（运动型多用途车），车位够不够大还没问到。",
       "notes": [
         "三层房子：从入口到客厅和厨房要爬两段楼梯，大箱两人一起抬",
         "已装烟雾报警器，没有一氧化碳报警器",
@@ -3043,16 +3032,16 @@
       "checkout": "2026-11-30",
       "nights": 4,
       "beds": "尊贵两卧室公寓，92㎡，两个卫生间：卧室1两张单人床，卧室2一张大号双人床。有厨房、洗衣烘干机和阳台。",
-      "price": "三人4晚：可免费取消价约NZ$4,017，以付款页为准；预算按NZ$4,050≈¥15,253算。Booking（缤客订房网）按纽币显示，实际按澳元扣款，付款前把币种切成AUD看真实总价。想省钱：不可退价NZ$3,933；标准两卧NZ$3,456，但床型看供应，可能是两张大床。",
+      "price": "三人4晚AUD3,244≈¥15,312，是Booking（缤客订房网）可免费取消价，含税费，按澳元扣款。Booking页面可能按纽币或人民币显示，付款前把币种切成AUD再核对。",
       "cancel": "悉尼时间11/24 23:59前免费取消（新西兰时间11/25 01:59，北京时间11/24 20:59）。Booking（缤客订房网）页面写“11/25前”，按住宿当地时间算；精确时刻以确认函为准。悉尼时间11/23才扣款。",
-      "nativeTotal": 4050,
-      "currency": "NZD",
-      "priceStatus": "Booking（缤客订房网） 11/1实时页：尊贵两卧可退价NZ$4,050，只剩1套（11/3再查仍剩1套；11/6再查：固定床型这套AUD3,244，还剩2套）；携程同房¥15,564且床型随机，所以用Booking；11/9再查还剩2间，可免费取消价NZ$4,017",
+      "nativeTotal": 3244,
+      "currency": "AUD",
+      "priceStatus": "Booking（缤客订房网） 11/11实时页：固定床型的尊贵两卧可免费取消价AUD3,244，还剩2间；床型看供应的尊贵两卧不可退AUD3,176；携程同房¥15,564且床型随机，所以用Booking",
       "fixedThreeBeds": true,
       "booked": false,
       "checkinTime": "15:00",
       "checkoutTime": "11:00",
-      "perNightCNY": 3813.2775,
+      "perNightCNY": 3828.0011000000004,
       "aboveOriginalNightlyCap": true,
       "cardFeeNote": "澳大利亚2026-10-01起Visa、Mastercard、美国运通、银联、eftpos不得加收刷卡费，含境外发行的卡（RBA/ACCC）；Booking细则里旧的1.2%已不适用，JCB和Diners不在禁令内。",
       "refundableDeposit": {
@@ -3437,7 +3426,7 @@
         "w-sunTekapo",
         "x-twizel-sun"
       ],
-      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Twizel（特威泽尔）",
+      "area": "Tekapo（特卡波）→Aoraki/Mount Cook（奥拉基/库克山）→Omarama（奥马拉马）",
       "note": "清晨暮光05:23–05:57是特卡波的时刻，08:00才出发。傍晚在特威泽尔和普卡基湖：日落20:53，暮光到21:27。从普卡基湖游客中心看，湖岸约20:37就没了直射光，Aoraki（奥拉基/库克山）山顶约21:03还亮，最好的颜色在20:40–21:05。这是平地的理论时刻，山体会提前遮光。"
     },
     {
@@ -3457,8 +3446,8 @@
         "route-wanaka-sun",
         "x-twizel-sun"
       ],
-      "area": "Twizel（特威泽尔）→Wānaka（瓦纳卡）",
-      "note": "瓦纳卡的暮光时段：清晨05:24–05:59，晚上21:00–21:34。可选的清晨普卡基湖日出约05:57，按特威泽尔算。这是平地的理论时刻，山体会提前遮光。"
+      "area": "Omarama（奥马拉马）→Wānaka（瓦纳卡）",
+      "note": "瓦纳卡的暮光时段：清晨05:24–05:59，晚上21:00–21:34。这是平地的理论时刻，山体会提前遮光。"
     },
     {
       "place": "Wānaka（瓦纳卡）",
@@ -3746,7 +3735,7 @@
   "before": [
     {
       "title": "01 / 会合：11/18在墨尔本住处会合",
-      "body": "11/18三人在墨尔本的住处会合，各自几点到提前在群里说。\n上海同学11/18当地07:00到。东京同学自己订东京→墨尔本的航班，最好11/18白天到。墨尔本同学直接来住处。\n房间只有2张双人床，墨尔本同学也可以这晚回自己家睡。那样就11/19 06:15在Southern Cross（南十字星）站的SkyBus（墨尔本机场快线）车站会合，或约06:50到机场T2（2号航站楼）。\n11/19三人一起坐09:10的澳洲航空QF167去基督城，11/26一起坐新西兰航空NZ231回悉尼。回程各自订：上海同学11/30坐吉祥航空HO1670回上海，东京同学订悉尼→东京，墨尔本同学订悉尼→墨尔本。\n两位同学：住宿、租车、油费、停车三人均分，加上自己的米尔福德大巴＋游船，每人约¥14,942–15,231；机票、保险、NZeTA（新西兰电子旅行授权）、吃饭和市内交通各自付。“预算”一节里“上海同学的全程预算”是上海同学从上海出发的总数。\n怎么结，这是建议，可以商量：住处、租车、米尔福德由下单的人先付。回来后按订单实际金额三人均分，一次结清；外币按信用卡账单入账的人民币算。油费、停车和一起打的车按小票三人分。墨尔本同学11/18回家住的话，那晚房费怎么分先说好。\n上海同学提前把自己的电话、墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式发给两位同学。",
+      "body": "11/18三人在墨尔本的住处会合，各自几点到提前在群里说。\n上海同学11/18当地07:00到。东京同学自己订东京→墨尔本的航班，最好11/18白天到。墨尔本同学直接来住处。\n房间只有2张双人床，墨尔本同学也可以这晚回自己家睡。那样就11/19 06:15在Southern Cross（南十字星）站的SkyBus（墨尔本机场快线）车站会合，或约06:50到机场T2（2号航站楼）。\n11/19三人一起坐09:10的澳洲航空QF167去基督城，11/26一起坐新西兰航空NZ231回悉尼。回程各自订：上海同学11/30坐吉祥航空HO1670回上海，东京同学订悉尼→东京，墨尔本同学订悉尼→墨尔本。\n两位同学：住宿、租车、油费、停车三人均分，加上自己的米尔福德大巴＋游船，每人约¥14,099–14,306；机票、保险、NZeTA（新西兰电子旅行授权）、吃饭和市内交通各自付。“预算”一节里“上海同学的全程预算”是上海同学从上海出发的总数。\n怎么结，这是建议，可以商量：住处、租车、米尔福德由下单的人先付。回来后按订单实际金额三人均分，一次结清；外币按信用卡账单入账的人民币算。油费、停车和一起打的车按小票三人分。墨尔本同学11/18回家住的话，那晚房费怎么分先说好。\n上海同学提前把自己的电话、墨尔本住处和悉尼Adina（阿迪娜公寓酒店）的英文地址、入住方式发给两位同学。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3757,7 +3746,7 @@
     },
     {
       "title": "02 / 签证和入境：核对好再买不退的票",
-      "body": "中国护照持澳签去新西兰：要先实际入境澳洲，再从澳洲机场直飞新西兰，才能用NZeTA（新西兰电子旅行授权）。只在澳洲机场内转机不算。所以三人先在墨尔本入境、住一晚。\n澳洲要入境两次：11/18墨尔本、11/26悉尼。三人都在VEVO（澳洲签证在线查询）或批准信核对三项：①Entries（入境次数）是Multiple（多次）；②Must not arrive after（最晚入境日）和有效期都晚于11/26；③停留期覆盖到离开澳洲那天。单次入境的人离开澳洲后，要另办签证才能回来。核对完再买QF167（澳洲航空）和NZ231（新西兰航空）。\nNZeTA用手机应用申请，每人NZ$117，尽量11/15前办完。QF167起飞前72小时是11/16墨尔本09:10，即北京06:10。72小时是INZ（新西兰移民局）写的最长处理时间，不是硬截止：晚了也马上申请，只是不保证来得及。\n东京同学的澳签还没下来。按澳洲移民局的处理时间，10/14递交的旅游签证九成在11/14至11/16前出结果（推断）。没下签就按两人方案走，见待办。\n墨尔本同学先在VEVO查现在生效的澳签：过桥签证不在INZ名单里，不能走这条通道，见待办。\n11/19在墨尔本值机时会查：NZeTA、已付款的NZ231机票、护照有效期至少到2027-02-26。可能要求资金证明：每月NZ$1,000，住宿已付的话NZ$400，带近期银行或信用卡流水。批准信或VEVO页面存在手机里，没网也能看，11/26悉尼入境时也备查。\nNZTD（新西兰旅客申报）入境申报怎么交见待办：食品、中成药、徒步鞋和脚架都申报，漏报罚NZ$400起。墨尔本买的新鲜水果登机前吃完。",
+      "body": "中国护照持澳签去新西兰：要先实际入境澳洲，再从澳洲机场直飞新西兰，才能用NZeTA（新西兰电子旅行授权）。只在澳洲机场内转机不算。所以三人先在墨尔本入境、住一晚。\n澳洲要入境两次：11/18墨尔本、11/26悉尼。三人都在VEVO（澳洲签证在线查询）或批准信核对三项：①Entries（入境次数）是Multiple（多次）；②Must not arrive after（最晚入境日）和有效期都晚于11/26；③停留期覆盖到离开澳洲那天。单次入境的人离开澳洲后，要另办签证才能回来。核对完再买QF167（澳洲航空）和NZ231（新西兰航空）。\nNZeTA用手机应用申请，每人NZ$117，尽量11/15前办完。QF167起飞前72小时是11/16墨尔本09:10，即北京06:10。72小时是INZ（新西兰移民局）写的最长处理时间，不是硬截止：晚了也马上申请，只是不保证来得及。\n东京同学的澳签还没下来。澳洲移民局的处理时间：旅游签证九成在31天内出结果，10/14递交的话第31天是11/14。没下签就按两人方案走，见待办。\n墨尔本同学先在VEVO查现在生效的澳签：过桥签证不在INZ名单里，不能走这条通道，见待办。\n11/19在墨尔本值机时会查：NZeTA、已付款的NZ231机票、护照有效期至少到2027-02-26。可能要求资金证明：每月NZ$1,000，住宿已付的话NZ$400，带近期银行或信用卡流水。批准信或VEVO页面存在手机里，没网也能看，11/26悉尼入境时也备查。\nNZTD（新西兰旅客申报）入境申报怎么交见待办：食品、中成药、徒步鞋和脚架都申报，漏报罚NZ$400起。墨尔本买的新鲜水果登机前吃完。",
       "sourceIds": [
         "visa",
         "nzeta",
@@ -3825,14 +3814,14 @@
     },
     {
       "title": "06 / 预算、现金和照片备份",
-      "body": "上海同学这一趟约¥33,682–37,451，已含¥1,000机动金。按上限算，比三万元超出约¥7,451。逐项金额和没算进去的可选项目见“预算”。两位同学的分摊见“会合”。\n现金：每人带AUD100–200和NZ$200–400，约¥1,225–2,450。建议先换AUD150和NZ$300，约¥1,838。现金只是付款方式，花的还是预算里的钱，不另外加总。\n照片每天备份两份。",
+      "body": "上海同学这一趟约¥33,600–37,283，已含¥1,000机动金。按上限算，比三万元超出约¥7,283。逐项金额和没算进去的可选项目见“预算”。两位同学的分摊见“会合”。\n现金：每人带AUD100–200和NZ$200–400，约¥1,225–2,450。建议先换AUD150和NZ$300，约¥1,838。现金只是付款方式，花的还是预算里的钱，不另外加总。\n照片每天备份两份。",
       "sourceIds": [
         "boc"
       ]
     },
     {
       "title": "07 / 还要订什么：机票、住处、租车、米尔福德",
-      "body": "订没订、金额和免费取消期限看“预订状态”；每一项怎么订看对应的待办。要订的有这些：\n①上海同学在携程订吉祥多程票：上海→墨尔本11/17、悉尼→上海11/30，¥7,756那档，不选“留学生专享”。\n②QF167（澳洲航空）和NZ231（新西兰航空）三人都要买，两张都不能退。东京同学还没下签的话，上海同学和墨尔本同学先出票；东京同学下签、确认是多次入境后再单独买。\n③新西兰和悉尼的住处、Snap（新西兰租车公司）的车：按待办里的顺序尽快订。爱彼迎下单时就付全款。\n④墨尔本Dorsett（帝盛酒店）：先定墨尔本同学11/18住不住，再由上海同学在携程订。\n⑤米尔福德：在RealNZ（米尔福德游船巴士运营商）官网订11/24 07:35的大巴＋游船。\n⑥各自装好eSIM（电子手机卡），买好旅行险。\n大额付款用信用卡，见“付款”。金额以订单为准。",
+      "body": "订没订、金额和免费取消期限看“预订状态”；每一项怎么订看对应的待办。要订的有这些：\n①上海同学在携程订吉祥多程票：上海→墨尔本11/17、悉尼→上海11/30，¥7,766那档，不选“留学生专享”。\n②QF167（澳洲航空）和NZ231（新西兰航空）三人都要买，两张都不能退。东京同学还没下签的话，上海同学和墨尔本同学先出票；东京同学下签、确认是多次入境后再单独买。\n③新西兰和悉尼的住处、Snap（新西兰租车公司）的车：按待办里的顺序尽快订。爱彼迎下单时就付全款。\n④墨尔本Dorsett（帝盛酒店）：先定墨尔本同学11/18住不住，再由上海同学订。\n⑤米尔福德：在RealNZ（米尔福德游船巴士运营商）官网订11/24 07:35的大巴＋游船。\n⑥各自装好eSIM（电子手机卡），买好旅行险。\n大额付款用信用卡，见“付款”。金额以订单为准。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
@@ -3842,9 +3831,9 @@
         "x-esim",
         "x-insurance",
         "a-chc_townhouse",
-        "c-dorsett",
-        "b-milkyway",
-        "a-twizel_cottage",
+        "b-dorsett",
+        "a-hazels",
+        "m-sierra",
         "a-parkhill",
         "a-qt_townhouse",
         "f-nz-shorthaul",
@@ -3854,7 +3843,7 @@
         "x-realnz-terms",
         "x-booking-cancel-time",
         "x-airbnb-paylater",
-        "x-unavailable-1109"
+        "x-mackenzie-1111"
       ]
     },
     {
@@ -3881,7 +3870,7 @@
     },
     {
       "title": "10 / 付款：大额用信用卡，借记卡只刷小额",
-      "body": "大额付款用信用卡：租车、住宿、三段机票。下单前看卡面标志，Visa（维萨卡）或Mastercard（万事达卡）最通用。再按待办“订房订车前打开信用卡的境外交易和网上支付”把卡设好。\n租车：Snap（新西兰租车公司）收Visa、Mastercard，信用卡和借记卡都加收2.5%；美国运通加收5%；没写收银联和JCB（日本信用卡组织）。要主驾本人名字的实体卡，本人到场。选Simply Better Cover（零自付额全险）不收押金。主驾已确认有本人名字的Visa或万事达信用卡，车款用它付。\n住处：墨尔本Dorsett（帝盛酒店）在携程在线付人民币，没有外币交易费和到店刷卡附加费。入住时还要刷AUD200押金，信用卡、借记卡都行，建议用信用卡，退房当天退回。爱彼迎订的四处也按人民币付。特卡波Milky Way Views（银河美景）按纽币扣款，用信用卡，可能有外币交易费。悉尼Adina（阿迪娜公寓酒店）入住时预授权AUD200：用订房人本人的Visa或Mastercard信用卡，订房人要和卡同名、本人到场。押金和预授权会占额度，要留出可用额度。\n招行万事达借记卡单日限额5,000元，只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过。中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。\n刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收1.5%。",
+      "body": "大额付款用信用卡：租车、住宿、三段机票。下单前看卡面标志，Visa（维萨卡）或Mastercard（万事达卡）最通用。再按待办“打开信用卡的境外交易和网上支付”把卡设好。\n租车：Snap（新西兰租车公司）收Visa、Mastercard，信用卡和借记卡都加收2.5%；美国运通加收5%；没写收银联和JCB（日本信用卡组织）。要主驾本人名字的实体卡，本人到场。选Simply Better Cover（零自付额全险）不收押金。主驾已确认有本人名字的Visa或万事达信用卡，车款用它付。\n住处：爱彼迎订的四处按人民币付。墨尔本Dorsett（帝盛酒店）和悉尼Adina（阿迪娜公寓酒店）按澳元扣款，Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓）按纽币扣款，都用信用卡，可能有外币交易费。Dorsett入住时还要刷AUD200押金，信用卡、借记卡都行，建议用信用卡，退房当天退回。Sierra Motel & Apartments入住时刷NZ$100预授权，只收Visa或Mastercard。悉尼Adina入住时预授权AUD200：用订房人本人的Visa或Mastercard信用卡，订房人要和卡同名、本人到场。押金和预授权会占额度，要留出可用额度。\n招行万事达借记卡单日限额5,000元，只用于小额日常刷卡和悉尼刷卡乘车，大额会刷不过。中行JCB作备用，在澳新走运通网络，超市、加油站多半能刷。\n刷卡一律选当地币种，拒绝DCC（动态货币转换）。外币交易费看发卡行：走银联通道通常不收，Visa或Mastercard信用卡不少银行收1.5%。",
       "sourceIds": [
         "r-snap-faq",
         "i-nsw-payment",
@@ -3891,7 +3880,8 @@
         "b-adina",
         "x-dorsett-policy",
         "x-card-fx-15",
-        "b-milkyway"
+        "m-sierra-policy",
+        "b-dorsett"
       ]
     },
     {
@@ -4459,9 +4449,9 @@
     },
     {
       "id": "b-adina",
-      "title": "Booking（缤客订房网） 11/9实查：Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店） · 11/26–30 · 3成人：尊贵两卧还剩2间，可免费取消价NZ$4,017（“11/25前”免费取消，11/23前不付款），不可退价NZ$3,933",
+      "title": "Booking（缤客订房网） 11/11实查：Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店） · 11/26–30 · 3成人：尊贵两卧（卧室1两张单人床、卧室2一张大号双人床，两卫）还剩2间，可免费取消价AUD3,244（“11/25前”免费取消，11/23前不付款）；床型看供应的尊贵两卧不可退AUD3,176、可退AUD3,736",
       "url": "https://www.booking.com/hotel/au/adina-sydney.zh-cn.html?checkin=2026-11-26&checkout=2026-11-30&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
       "id": "x-syd-strike",
@@ -4555,15 +4545,15 @@
     },
     {
       "id": "f-ho-multi",
-      "title": "Ctrip（携程）多程实查：HO1655（吉祥航空） 11/17＋HO1670（吉祥航空） 11/30，1人¥7,756含税，未锁价",
+      "title": "Ctrip多程实查（11/11）：HO1655（吉祥航空） 11/17＋HO1670（吉祥航空） 11/30，1人¥7,766含税，未锁价；同一页厦门航空经厦门中转的多程票¥5,788（去程虹桥18:10出发、11/18 10:35到墨尔本，回程悉尼12:35出发、22:50到虹桥；起飞前退票费¥1,200，托运1件23kg）",
       "url": "https://flights.ctrip.com/online/list/multi-sha-mel-syd0-sha?depdate=2026-11-17_2026-11-30&cabin=y_s&adult=1&child=0&infant=0",
-      "checked": "2026-11-01"
+      "checked": "2026-11-11"
     },
     {
       "id": "f-qf167",
-      "title": "Ctrip（携程）实查：QF167（澳洲航空） 11/19 墨尔本→基督城，1人¥2,358含税，未锁价",
+      "title": "Ctrip实查（11/11）：QF167（澳洲航空） 11/19 墨尔本→基督城，1人¥3,109含税，未锁价；同一时刻的NZ214（新西兰航空） ¥3,165、剩2张；Google（谷歌）机票上QF167约¥3,032",
       "url": "https://flights.ctrip.com/online/list/oneway-mel-chc?depdate=2026-11-19&cabin=y_s&adult=1&child=0&infant=0",
-      "checked": "2026-11-01"
+      "checked": "2026-11-11"
     },
     {
       "id": "f-nz231",
@@ -4609,9 +4599,9 @@
     },
     {
       "id": "b-dorsett",
-      "title": "Booking（缤客订房网） 11/1实查：Dorsett Melbourne（墨尔本帝盛酒店） · 11/18–19 · 3成人1晚 · 可退价NZ$662（用户自己安排）",
+      "title": "Booking（缤客订房网） 11/11实查：Dorsett Melbourne（墨尔本帝盛酒店） · 11/18–19：标准双床间（2张双人床，27㎡，最多3人）3位成人可免费取消价AUD416（“11/17前”免费取消，11/15前不付款）、不可退AUD325；2位成人可免费取消AUD396；只剩1间。携程同一间11/3可退¥2,260，11/11不登录看不到价",
       "url": "https://www.booking.com/hotel/au/dorsett-melbourne.zh-cn.html?checkin=2026-11-18&checkout=2026-11-19&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-01"
+      "checked": "2026-11-11"
     },
     {
       "id": "x-chch-gardens",
@@ -4699,9 +4689,9 @@
     },
     {
       "id": "f-nz231-recheck",
-      "title": "11/2复查：携程已搜不到NZ231（新西兰航空） 11/26（航班照飞，15:45→17:05）；Google Flights（谷歌航班）上新西兰航空官网直订最低NZ$637≈¥2,394，只含手提、首件托运另付；Trip.com（携程国际版）约¥2,550",
+      "title": "11/11复查：携程又能搜到NZ231（新西兰航空） 11/26（15:45→17:05），¥2,596，剩4张；Google（谷歌）机票上新西兰航空官网直订最低约¥2,375，只含手提、首件托运另付",
       "url": "https://www.google.com/travel/flights?q=Flights%20to%20SYD%20from%20ZQN%20on%202026-11-26%20oneway&hl=zh-CN&curr=CNY",
-      "checked": "2026-11-02"
+      "checked": "2026-11-11"
     },
     {
       "id": "f-nz-shorthaul",
@@ -5100,18 +5090,6 @@
       "checked": "2026-11-02"
     },
     {
-      "id": "a-milkyway",
-      "title": "爱彼迎11/2实查：Milky Way Views（银河美景） · 11/20–21 · 3成人 · 整栋两层湖景房¥4,495（含全部费用；下单24小时内全额退，新西兰时间11/13 15:00前取消退一半房费）",
-      "url": "https://www.airbnb.cn/rooms/43151313?check_in=2026-11-20&check_out=2026-11-21&adults=3",
-      "checked": "2026-11-02"
-    },
-    {
-      "id": "c-alpinenook-1n",
-      "title": "携程11/2实查：Alpine Nook（山间小居度假屋） 11/20一晚¥3,131（新西兰时间11/12 23:59前免费取消）；两晚¥7,306，周六那晚约¥4,175",
-      "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=121765015&checkIn=2026-11-20&checkOut=2026-11-21&adult=3&children=0&crn=1&curr=CNY",
-      "checked": "2026-11-02"
-    },
-    {
       "id": "x-twizel-sun",
       "title": "Timeanddate（时间日期网）：Twizel（特威泽尔） 2026年11月太阳表（11/21日落20:53、民用暮光到21:27；11/22日出05:57）",
       "url": "https://www.timeanddate.com/sun/@-44.2575,170.0994?month=11&year=2026",
@@ -5184,12 +5162,6 @@
       "checked": "2026-11-02"
     },
     {
-      "id": "x-osrm-twizel-wanaka",
-      "title": "OSRM（开源路线计算）路线（11/2算，偏乐观）：Twizel（特威泽尔）到瓦纳卡Parkhill Avenue（帕克希尔大道）约145km、115分钟（从特卡波出发约203km、160分钟）",
-      "url": "https://router.project-osrm.org/route/v1/driving/170.0994,-44.2575;169.11751,-44.70301",
-      "checked": "2026-11-02"
-    },
-    {
       "id": "x-foursquare-mackenzie",
       "title": "Four Square Mackenzie（麦肯齐四方超市，27 Market Place（市场广场）, Twizel（特威泽尔））：周一至周六07:15–20:30，周日07:15–20:00",
       "url": "https://www.foursquare.co.nz/south-island/canterbury/mackenzie",
@@ -5208,24 +5180,6 @@
       "checked": "2026-11-02"
     },
     {
-      "id": "x-fishtail",
-      "title": "Mackenzie（麦肯齐）旅游局：Fishtail（尾鱼餐厅）餐厅（12c Market Place（市场广场）, Twizel（特威泽尔））每天12:00–21:30",
-      "url": "https://www.mackenzienz.com/visit/fishtail-restaurant-and-bar/",
-      "checked": "2026-11-02"
-    },
-    {
-      "id": "x-poppies",
-      "title": "Poppies（罂粟咖啡餐厅）官网（Twizel（特威泽尔））：晚餐17:30–20:30，周三周四休息",
-      "url": "https://www.poppiescafe.com/",
-      "checked": "2026-11-02"
-    },
-    {
-      "id": "x-mowbar",
-      "title": "MOW Bar（工务部酒吧餐厅）官网（2 Market Place（市场广场）, Twizel（特威泽尔））：周六周日12:00开到晚上",
-      "url": "https://www.mowbar.co.nz/",
-      "checked": "2026-11-02"
-    },
-    {
       "id": "x-mackenzie-rural",
       "title": "麦肯齐区议会：乡村道路要提防散放的牲畜和野生动物",
       "url": "https://www.mackenzie.govt.nz/services/roading-and-transport/keeping-safe-on-rural-roads",
@@ -5236,12 +5190,6 @@
       "title": "新西兰警方：车里看得见的东西容易被偷，要放进后备厢，步道停车场也一样",
       "url": "https://www.police.govt.nz/news/release/keep-valuables-out-sight-vehicles",
       "checked": "2026-11-02"
-    },
-    {
-      "id": "b-milkyway",
-      "title": "Booking（缤客订房网） 11/9实查：Milky Way Views（银河美景） · 11/20–21 · 3成人：四卧整栋NZ$853含税费，“11/13前”免费取消（新西兰时间11/12 23:59前），11/11前不付款；特卡波这晚167家同类度假屋已无空房",
-      "url": "https://www.booking.com/hotel/nz/milky-way.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-09"
     },
     {
       "id": "x-osm-freshchoice-merivale",
@@ -5269,9 +5217,9 @@
     },
     {
       "id": "x-visa-times-1102",
-      "title": "Australian Visa Tracker（澳洲签证处理进度追踪网站，每天转载澳洲移民局数据）：600旅游类11/2更新，50%在21天内、75%在27天内、90%在31天内",
+      "title": "Australian Visa Tracker（澳洲签证处理进度追踪网站，每天转载澳洲移民局数据）：600旅游类11/11更新，50%在21天内、75%在27天内、90%在31天内",
       "url": "https://australianvisatracker.com/visa/600/stream/10",
-      "checked": "2026-11-06"
+      "checked": "2026-11-11"
     },
     {
       "id": "x-stkilda-sessions",
@@ -5329,9 +5277,9 @@
     },
     {
       "id": "r-snap-booking",
-      "title": "Snap（新西兰租车公司）官网订车流程11/9实查（同日第二次，第1、2步，没填个人资料）：11/19 17:00基督城机场取、11/26 12:00皇后镇还；之前选的Outlander（欧蓝德）两驱和Highlander（汉兰达，2017–18）都已订满，Highlander Hybrid（汉兰达混动）、RAV4 Hybrid（丰田荣放混动）、Delica（得利卡）也订满；Pajero Sport（三菱帕杰罗运动版）四驱车组（Mitsubishi Pajero（三菱帕杰罗） 2024款或类似，7座，Snap标8.8L/100km）每天NZ$167×7＝1,169＋Premium Location Fee（机场网点费） NZ$50＋One Way Fee（异地还车费） NZ$499＝NZ$1,718，加Simply Better Cover（零自付额全险） NZ$238和1位附加司机（每天NZ$3）共NZ$1,977",
+      "title": "Snap（新西兰租车公司）官网订车流程11/11实查（第1、2步，没填个人资料）：11/19 17:00基督城机场取、11/26 12:00皇后镇还；Pajero Sport（三菱帕杰罗运动版）四驱车组已订满；Premium SUV 2WD（高级SUV两驱）的Mitsubishi Outlander（三菱欧蓝德，2022–2026款，5座，Snap标7.5L/100km）每天NZ$135.65×7＝949.55＋Premium Location Fee（机场网点费） NZ$50＋One Way Fee（异地还车费） NZ$499＝NZ$1,498.55，加Simply Better Cover（零自付额全险） NZ$238和1位附加司机（每天NZ$3）共NZ$1,757.55；Toyota Highlander Hybrid（丰田汉兰达混动，2025–2026款或类似，7座，6.2L/100km）每天NZ$179.87×7＋50＋499＝NZ$1,808.09，同样配置共NZ$2,067.09",
       "url": "https://www.snaprentals.co.nz/booking?PickUpLocation=6&PickUpDate=2026-11-19&PickUpTime=05%3A00+pm&DropOffLocation=2&DropOffDate=2026-11-26&DropOffTime=12%3A00+pm&Promo=",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
       "id": "r-snap-terms",
@@ -5383,27 +5331,15 @@
     },
     {
       "id": "a-chc_townhouse",
-      "title": "爱彼迎11/9实查：基督城市中心三卧联排别墅（房源1464142248963565554）· 11/19–20 · 3成人 · ¥947（含全部费用）；两间双人卧室、一间加大单人卧室在楼上，楼下沙发床，1.5个卫生间；免费车位1个，自助入住；4.93（41条），超赞房东",
+      "title": "爱彼迎11/11实查：基督城市中心三卧联排别墅（房源1464142248963565554）· 11/19–20 · 3成人 · ¥957（含全部费用）；两间双人卧室、一间加大单人卧室在楼上，楼下沙发床，1.5个卫生间；免费车位1个，自助入住；4.93（41条），超赞房东；下单24小时内免费取消，之后不退",
       "url": "https://www.airbnb.cn/rooms/1464142248963565554?check_in=2026-11-19&check_out=2026-11-20&adults=3",
-      "checked": "2026-11-09"
-    },
-    {
-      "id": "a-omarama_house",
-      "title": "爱彼迎11/9实查：Omarama township location（奥马拉马镇上的整套房，房源1010489122639145612）· 11/21–22 · 3成人 · 三卧整套¥1,866（含全部费用）；一个卫生间，免费停车、自助入住；4.77（35条），超赞房东；页面提示常被订满",
-      "url": "https://www.airbnb.cn/rooms/1010489122639145612?check_in=2026-11-21&check_out=2026-11-22&adults=3",
-      "checked": "2026-11-09"
-    },
-    {
-      "id": "b-omarama",
-      "title": "Booking（缤客订房网） 11/9实查：Omarama township location（奥马拉马镇上的整套房） - how good! · 11/21–22 · 3成人：卧室1超大号双人床、卧室2大号双人床、卧室3两张单人床；不可退价NZ$473、可部分退款NZ$525、11/19前可免费取消NZ$770（申请预订，房东24小时内答复）",
-      "url": "https://www.booking.com/hotel/nz/omarama-township-location-how-good.zh-cn.html?checkin=2026-11-21&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
       "id": "a-qt_townhouse",
-      "title": "爱彼迎11/9实查（同日第二次）：皇后镇湖景联排别墅（房源13514194，房源写在机场和镇中心之间）· 11/23–26 · 3成人 · 三晚¥6,486（含全部费用；同日早些时候¥6,278）；三间卧室各一张1.5米双人床、两个卫生间，免费停车、自助入住；4.81（226条），清洁4.8，超赞房东；下单24小时内免费取消，11/16前取消退一部分",
+      "title": "爱彼迎11/11实查：皇后镇湖景联排别墅（房源13514194）· 11/23–26 · 3成人 · 三晚¥5,904（含全部费用）；三间卧室各一张1.5米双人床、两个卫生间，免费停车、自助入住；4.81（226条），清洁4.8，超赞房东；下单24小时内免费取消，11/16前取消退一部分",
       "url": "https://www.airbnb.cn/rooms/13514194?check_in=2026-11-23&check_out=2026-11-26&adults=3",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
       "id": "x-unavailable-1109",
@@ -5412,16 +5348,10 @@
       "checked": "2026-11-09"
     },
     {
-      "id": "x-sixt-rav4-1109",
-      "title": "rentalcars.com（租车比价网） 11/9实查：Sixt（西克斯特租车）的Toyota RAV4混动或类似车，基督城机场→皇后镇机场11/19–26共NZ$1,729.59（网上预付NZ$1,280.60＋取车时付异地还车费NZ$448.99），自付额NZ$5,990，取车前48小时可免费取消；零自付和附加司机要在柜台另加",
-      "url": "https://www.rentalcars.com/search-results?locationName=Christchurch%20Airport&dropLocationName=Queenstown%20Airport&coordinates=-43.4894%2C172.5322&dropCoordinates=-45.0211%2C168.7392&puDay=19&puMonth=11&puYear=2026&puHour=17&puMinute=0&doDay=26&doMonth=11&doYear=2026&doHour=12&doMinute=0&ftsType=A&dropFtsType=A",
-      "checked": "2026-11-09"
-    },
-    {
       "id": "x-realnz-1109",
-      "title": "RealNZ（米尔福德游船巴士运营商）订票日历（FareHarbor）11/9实查：11/24米尔福德经典游船＋皇后镇往返大巴06:55和07:35都还能订，每位成人NZ$319起",
+      "title": "RealNZ（米尔福德游船巴士运营商）订票日历（FareHarbor）11/11实查：11/24米尔福德经典游船＋皇后镇往返大巴06:55和07:35都还能订，每位成人NZ$319起",
       "url": "https://fareharbor.com/embeds/book/wayfaregroup/items/date/2026-11-24/2026/11/?flow=1640318&full-items=yes",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
       "id": "x-osrm-1109",
@@ -5436,46 +5366,64 @@
       "checked": "2026-11-09"
     },
     {
-      "id": "a-twizel_cottage",
-      "title": "爱彼迎11/9实查（同日第二次）：特威泽尔镇上的三卧整套（房源1293975808451643528，最近翻新）· 11/21–22 · 3成人 · ¥1,707（含全部费用）；卧室1两张单人床、卧室2约1.8米床、卧室3约1.5米床，一个卫生间；15:00–22:00密码锁自助入住、11:00前退房、免费停车；4.94（89条），清洁4.9、地段5.0，超赞房东；下单24小时内免费取消，11/14前取消退一部分；已装烟雾报警器、没写一氧化碳报警器",
-      "url": "https://www.airbnb.cn/rooms/1293975808451643528?check_in=2026-11-21&check_out=2026-11-22&adults=3",
-      "checked": "2026-11-09"
-    },
-    {
-      "id": "x-twizel-1109",
-      "title": "11/9（同日第二次）Twizel（特威泽尔） 11/21–22三人整套：爱彼迎按日期只剩上面这一套；Booking（缤客订房网）同晚只有Omahau Down（奥马豪唐农场住宿，双人间加沙发床，NZ$446）和Simons Hill（西蒙斯山度假屋，每间木屋一张大床，NZ$1,760）",
-      "url": "https://www.airbnb.cn/s/Twizel--Canterbury--New-Zealand/homes?checkin=2026-11-21&checkout=2026-11-22&adults=3",
-      "checked": "2026-11-09"
-    },
-    {
-      "id": "x-osrm-1109b",
-      "title": "OSRM（开源路线计算）路线（11/9算，偏乐观）：特威泽尔小屋到普卡基湖游客中心约11.1km、10分钟，到镇中心Market Place（市场广场）约0.8km；小屋到瓦纳卡Parkhill（帕克希尔）约146km、1小时55分；Omarama（奥马拉马）整房到瓦纳卡约115km、1小时32分、到普卡基湖游客中心约41km",
-      "url": "https://router.project-osrm.org/route/v1/driving/170.09868,-44.25208;170.1398,-44.1901?overview=false",
-      "checked": "2026-11-09"
-    },
-    {
       "id": "a-qt_heights",
-      "title": "爱彼迎11/9实查：皇后镇Queenstown Heights（皇后镇高地）三卧（房源16328605，两层房子的楼下独立单元，房源写开车3分钟到市中心）· 11/23–26 · 3成人 · 三晚¥5,232（含全部费用）；床约1.5、1.5、1.35米，一个淋浴卫生间加独立马桶，1个私人车位，最多5人；4.82（265条），清洁4.9，超赞房东；下单24小时内免费取消，11/16前取消退一部分；已装烟雾报警器、没有一氧化碳报警器；房东一家（两个小孩）住楼上，房源提醒可能有噪音",
+      "title": "爱彼迎11/11实查：皇后镇Queenstown Heights（皇后镇高地）三卧（房源16328605，两层房子的楼下独立单元，房源写开车3分钟到市中心）· 11/23–26 · 3成人 · 三晚¥5,276（含全部费用）；床约1.5、1.5、1.35米，一个淋浴卫生间加独立马桶，1个私人车位，最多5人；4.82（265条），清洁4.9，超赞房东；房东一家住楼上，房源提醒可能有噪音",
       "url": "https://www.airbnb.cn/rooms/16328605?check_in=2026-11-23&check_out=2026-11-26&adults=3",
-      "checked": "2026-11-09"
+      "checked": "2026-11-11"
     },
     {
-      "id": "x-pajero-sport",
-      "title": "CarExpert（澳洲汽车评测）：2024款Mitsubishi Pajero Sport（三菱帕杰罗运动版）只有2.4L涡轮柴油发动机；7座版放倒第三排后备厢502L、两排都放倒1,488L（厂家数据）",
-      "url": "https://www.carexpert.com.au/car-reviews/2024-mitsubishi-pajero-sport-review",
-      "checked": "2026-11-09"
+      "id": "a-hazels",
+      "title": "爱彼迎11/11实查：特卡波Hazel's House（黑兹尔之家，房源43498677）· 11/20–21 · 3成人 · ¥2,466（含全部费用）；四卧五床两卫：卧室1约1.8米床、卧室2和3各约1.5米床、卧室4两张单人床；钥匙盒自助入住、免费停车、燃木壁炉，步行约10分钟到镇中心；4.89（102条），清洁4.8、入住便捷5.0、地段4.9，超赞房东，出租10年；下单24小时内免费取消，11/13前取消退一部分；已装烟雾报警器、没写一氧化碳报警器",
+      "url": "https://www.airbnb.cn/rooms/43498677?check_in=2026-11-20&check_out=2026-11-21&adults=3",
+      "checked": "2026-11-11"
     },
     {
-      "id": "x-ruc",
-      "title": "Calculate.co.nz（新西兰计算器网站，引NZTA（新西兰交通局））：轻型柴油车road user charges（道路使用费）每1,000km NZ$76（2026）",
-      "url": "https://www.calculate.co.nz/reference/nz-road-user-charges.php",
-      "checked": "2026-11-09"
+      "id": "b-hazels",
+      "title": "Booking（缤客订房网） 11/11实查：Hazel's House（黑兹尔之家） - Lake Tekapo（特卡波湖） · 4 Rodman Lane（罗德曼巷） · 11/20–21 · 3成人：四卧（超大号双人床、两张大号双人床、两张单人床）两卫140㎡，NZ$644＋税费NZ$15，不可退；15:00后入住、10:00前退房，免费私人停车位；9.2（44条），清洁9.7、位置9.4",
+      "url": "https://www.booking.com/hotel/nz/hazel-39-s-house-lake-tekapo.zh-cn.html?checkin=2026-11-20&checkout=2026-11-21&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-11-11"
     },
     {
-      "id": "x-rentalcars-1109b",
-      "title": "rentalcars（租车比价网） 11/9（同日第二次）基督城机场11/19 17:00→皇后镇机场11/26 12:00，7天价格（不含租车公司自己的零自付保障）：Snap（新西兰租车公司） Pajero 4x4（7座）NZ$1,636，Sixt（西克斯特租车） RAV4混动NZ$1,656、Highlander（汉兰达）混动NZ$1,720，GO Rentals Outlander（欧蓝德） NZ$2,408，Ezi（另一家新西兰租车公司） Outlander 4x4（7座）NZ$2,725",
-      "url": "https://www.rentalcars.com/search-results?locationName=Christchurch%20Airport&dropLocationName=Queenstown%20Airport&coordinates=-43.4894%2C172.5322&dropCoordinates=-45.0211%2C168.7392&puDay=19&puMonth=11&puYear=2026&puHour=17&puMinute=0&doDay=26&doMonth=11&doYear=2026&doHour=12&doMinute=0&ftsType=A&dropFtsType=A&driversAge=25",
-      "checked": "2026-11-09"
+      "id": "x-tekapo-1111",
+      "title": "Booking（缤客订房网） 11/11实查：特卡波11/20三人整套还有35家，原定的Milky Way Views（银河美景）显示这晚无空房；Tekapo Blue（特卡波蓝屋）四卧两卫看湖NZ$719（704＋税费15，“11/13前”免费取消，9.0分118条、清洁9.3）；Sefton View（塞夫顿景观度假屋）三卧一卫看湖NZ$688（“11/13前”免费取消，9.1分106条、清洁9.6）；Tudor Rose（都铎玫瑰度假屋）四卧两卫NZ$785；Snowy Peak Apartment（雪峰公寓）三卧两卫NZ$748",
+      "url": "https://www.booking.com/searchresults.zh-cn.html?ss=Lake+Tekapo%2C+New+Zealand&checkin=2026-11-20&checkout=2026-11-21&group_adults=3&no_rooms=1&group_children=0&selected_currency=NZD&order=price",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "m-sierra",
+      "title": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）官网订房页11/11实查：11/21–22 · 3位 · 2 Bedroom Unit（两卧室公寓，45㎡，Room 1一张Queen床、Room 2两张单人床，一个卫生间，带烤箱的厨房）NZ$418.50（原价465，直订九折），11/14前可免费取消，下单时付款；1 Bedroom Unit（一卧室公寓） NZ$378",
+      "url": "https://book-directonline.com/properties/sierramotelandapartmentsdirect?locale=en&items[0][adults]=3&items[0][children]=0&items[0][infants]=0&currency=NZD&checkInDate=2026-11-21&checkOutDate=2026-11-22",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "m-sierra-policy",
+      "title": "Sierra Motel & Apartments（塞拉汽车旅馆公寓）官网政策页：14:00入住、10:00退房，前台08:00–19:00；到店前7天以上取消不收费，7天内取消或不到收全款；入住时每间刷NZ$100预授权，只收Visa（维萨卡）或Mastercard（万事达卡），退房当天解除；价格含GST（商品服务税）",
+      "url": "https://book-directonline.com/properties/sierramotelandapartmentsdirect/policies",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "b-sierra",
+      "title": "Booking（缤客订房网） 11/11实查：Sierra Motel & Apartments（塞拉汽车旅馆公寓，8 Omarama-Twizel Road（奥马拉马—特威泽尔公路）, Omarama（奥马拉马））· 11/21–22 · 3成人：两卧室公寓NZ$440不可退、只剩1间；14:00–19:00入住、07:30–10:00退房；免费停车；9.1（940条），清洁9.5、舒适9.6、位置9.4",
+      "url": "https://www.booking.com/hotel/nz/asure-sierra-motel.zh-cn.html?checkin=2026-11-21&checkout=2026-11-22&group_adults=3&group_children=0&no_rooms=1",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "x-mackenzie-1111",
+      "title": "11/11实查11/21–22（周六）三人住处：原定的特威泽尔小屋在爱彼迎显示这晚不可出租，Twizel（特威泽尔）在Booking（缤客订房网）上“未找到住宿”；特卡波在Booking只剩7家，三卧NZ$1,067起；库克山村只剩青旅床位；Omarama（奥马拉马）在Booking上只有Sierra Motel & Apartments（塞拉汽车旅馆公寓）和一套没有评价的三卧（NZ$800）",
+      "url": "https://www.booking.com/searchresults.zh-cn.html?ss=Twizel%2C+New+Zealand&checkin=2026-11-21&checkout=2026-11-22&group_adults=3&no_rooms=1&group_children=0&selected_currency=NZD&order=price",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "x-osrm-1111",
+      "title": "OSRM（开源路线计算）路线（11/11算，偏乐观）：Hazel's House（黑兹尔之家）到好牧羊人教堂开车1.5km、3分钟，步行1.4km、19分钟，到镇中心步行0.8km；到White Horse Hill（白马山营地）约106km、83分钟；White Horse Hill到Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓）约95km、74分钟，其中Twizel（特威泽尔）到旅馆约30km、24分钟；旅馆到普卡基湖游客中心约40km、31分钟，到Lindis Pass（林迪斯山口）约33km、25分钟，到瓦纳卡Parkhill（帕克希尔）约115km、91分钟",
+      "url": "https://router.project-osrm.org/route/v1/driving/169.968593,-44.486212;170.1398,-44.1901?overview=false",
+      "checked": "2026-11-11"
+    },
+    {
+      "id": "x-challenge-omarama",
+      "title": "Challenge Omarama（奥马拉马挑战者加油站）加油站官网：12 Chain Hills Highway（链山公路）, Omarama（奥马拉马），每天06:00–21:00，有热食和咖啡；下班后可在室外自助终端刷卡加油",
+      "url": "https://challenge.net.nz/challenge-stations/station/challenge-omarama",
+      "checked": "2026-11-11"
     }
   ],
   "droneAreas": [
@@ -5573,28 +5521,28 @@
         "title": "HO1655（吉祥航空）＋HO1670（吉祥航空） · 上海浦东T2（2号航站楼）→墨尔本T2 / 悉尼T1（1号航站楼）→上海浦东T2 · 11/17去 / 11/30回",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 7756,
-          "max": 7756
+          "min": 7766,
+          "max": 7766
         },
         "splitPeople": 1,
         "category": "flight",
-        "status": "未出票 · 携程11/1的1人含税价",
+        "status": "未出票 · 携程11/11的1人含税价",
         "note": "不得退票，可退税费¥830。两段起飞前都可免费改期，要补差价；起飞后不得更改。不得签转。舱位S/V。手提行李要≤115cm且≤20×40×55cm。托运和手提额度见行前须知04。",
         "sourceIds": [
           "f-ho-multi",
           "x-ho-bags"
         ],
         "perPersonNative": {
-          "min": 7756.0,
-          "max": 7756.0
+          "min": 7766.0,
+          "max": 7766.0
         },
         "perPersonCnyUnrounded": {
-          "min": 7756.0,
-          "max": 7756.0
+          "min": 7766.0,
+          "max": 7766.0
         },
         "perPersonCny": {
-          "min": 7756.0,
-          "max": 7756.0
+          "min": 7766.0,
+          "max": 7766.0
         }
       },
       {
@@ -5602,27 +5550,27 @@
         "title": "QF167（澳洲航空） · 墨尔本T2（2号航站楼）→基督城 · 11/19",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 2358,
-          "max": 2358
+          "min": 3109,
+          "max": 3109
         },
         "splitPeople": 1,
         "category": "flight",
-        "status": "未出票 · 携程11/1的1人含税价",
+        "status": "未出票 · 携程11/11的1人含税价",
         "note": "退改按同航线QF169（澳洲航空）最低价的票规：不得退票，可退税费；改期¥720。以QF167（澳洲航空）的出票规则为准。行李额见行前须知04，也是按QF169的票规，QF167下单页再核。",
         "sourceIds": [
           "f-qf167"
         ],
         "perPersonNative": {
-          "min": 2358.0,
-          "max": 2358.0
+          "min": 3109.0,
+          "max": 3109.0
         },
         "perPersonCnyUnrounded": {
-          "min": 2358.0,
-          "max": 2358.0
+          "min": 3109.0,
+          "max": 3109.0
         },
         "perPersonCny": {
-          "min": 2358.0,
-          "max": 2358.0
+          "min": 3109.0,
+          "max": 3109.0
         }
       },
       {
@@ -5635,7 +5583,7 @@
         },
         "splitPeople": 1,
         "category": "flight",
-        "status": "未出票 · 预算按携程11/1价；携程已搜不到，改在新西兰航空官网或Trip.com（携程国际版）订",
+        "status": "未出票 · 预算按携程11/1价；11/11携程¥2,596",
         "note": "NZ231（新西兰航空）要买含1件23kg托运的票价。官网最便宜的Seat（仅座位）票价只含7kg手提和1件个人物品，手提要≤118cm且≤55×40×23cm。加托运见待办“给NZ231加托运或升级票价”，国际航班起飞前90分钟前都能在官网加。官网票改期每人每次NZ$100加差价，不退票。官网NZ$637＋托运NZ$30≈¥2,512，Trip.com（携程国际版）约¥2,550；预算按¥2,622。订前看清含不含托运和改退规则。",
         "sourceIds": [
           "f-nz231",
@@ -5660,31 +5608,31 @@
       {
         "id": "hotel-dorsett",
         "title": "Dorsett Melbourne（墨尔本帝盛酒店） · 11-18–11-19 / 1晚",
-        "currency": "CNY",
+        "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 2257,
-          "max": 2257
+          "min": 416,
+          "max": 416
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "未订 · 携程11/2可退价¥2,257；上海同学自己安排，金额以订单为准",
-        "note": "入住时另刷AUD200押金，退房当天退回，不算消费。床位、取消期限见11/18的住宿卡和预订状态表。",
+        "status": "未订 · Booking（缤客订房网） 11/11可免费取消价AUD416，金额以订单为准",
+        "note": "按澳元扣款，11/15扣。入住时另刷AUD200押金，退房当天退回，不算消费。床位、取消期限见11/18的住宿卡和预订状态表。",
         "sourceIds": [
-          "c-dorsett",
+          "b-dorsett",
           "x-dorsett-policy",
           "x-dorsett-rooms"
         ],
         "perPersonNative": {
-          "min": 752.3333333333334,
-          "max": 752.3333333333334
+          "min": 138.66666666666666,
+          "max": 138.66666666666666
         },
         "perPersonCnyUnrounded": {
-          "min": 752.3333333333334,
-          "max": 752.3333333333334
+          "min": 654.5205333333333,
+          "max": 654.5205333333333
         },
         "perPersonCny": {
-          "min": 752.33,
-          "max": 752.33
+          "min": 654.52,
+          "max": 654.52
         }
       },
       {
@@ -5692,83 +5640,83 @@
         "title": "基督城市中心三卧联排别墅（爱彼迎） · 11-19–11-20 / 1晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 947,
-          "max": 947
+          "min": 957,
+          "max": 957
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "未订 · 爱彼迎11/9价，含全部费用",
+        "status": "未订 · 爱彼迎11/11价，含全部费用",
         "note": "爱彼迎人民币总价。床位、取消期限见11/19的住宿卡和预订状态表。",
         "sourceIds": [
           "a-chc_townhouse"
         ],
         "perPersonNative": {
-          "min": 315.6666666666667,
-          "max": 315.6666666666667
+          "min": 319.0,
+          "max": 319.0
         },
         "perPersonCnyUnrounded": {
-          "min": 315.6666666666667,
-          "max": 315.6666666666667
+          "min": 319.0,
+          "max": 319.0
         },
         "perPersonCny": {
-          "min": 315.67,
-          "max": 315.67
+          "min": 319.0,
+          "max": 319.0
         }
       },
       {
-        "id": "hotel-milkyway",
-        "title": "Milky Way Views（银河美景） · 11-20–11-21 / 1晚",
-        "currency": "NZD",
-        "quotedOrBudgetTotal": {
-          "min": 853,
-          "max": 853
-        },
-        "splitPeople": 3,
-        "category": "hotel",
-        "status": "未订 · Booking（缤客订房网） 11/9价，含税费，可免费取消",
-        "note": "按纽币扣款，11/11扣。床位、取消期限见11/20的住宿卡和预订状态表。",
-        "sourceIds": [
-          "b-milkyway"
-        ],
-        "perPersonNative": {
-          "min": 284.3333333333333,
-          "max": 284.3333333333333
-        },
-        "perPersonCnyUnrounded": {
-          "min": 1070.8562,
-          "max": 1070.8562
-        },
-        "perPersonCny": {
-          "min": 1070.86,
-          "max": 1070.86
-        }
-      },
-      {
-        "id": "hotel-twizel_cottage",
-        "title": "特威泽尔镇上的三卧小屋（爱彼迎） · 11-21–11-22 / 1晚",
+        "id": "hotel-hazels",
+        "title": "Hazel's House（黑兹尔之家） · 11-20–11-21 / 1晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 1707,
-          "max": 1707
+          "min": 2466,
+          "max": 2466
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "未订 · 爱彼迎11/9价，含全部费用",
-        "note": "爱彼迎人民币总价。床位、取消期限见11/21的住宿卡和预订状态表。",
+        "status": "未订 · 爱彼迎11/11价，含全部费用",
+        "note": "爱彼迎人民币总价。床位、取消期限见11/20的住宿卡和预订状态表。",
         "sourceIds": [
-          "a-twizel_cottage"
+          "a-hazels"
         ],
         "perPersonNative": {
-          "min": 569.0,
-          "max": 569.0
+          "min": 822.0,
+          "max": 822.0
         },
         "perPersonCnyUnrounded": {
-          "min": 569.0,
-          "max": 569.0
+          "min": 822.0,
+          "max": 822.0
         },
         "perPersonCny": {
-          "min": 569.0,
-          "max": 569.0
+          "min": 822.0,
+          "max": 822.0
+        }
+      },
+      {
+        "id": "hotel-sierra",
+        "title": "Sierra Motel & Apartments（塞拉汽车旅馆公寓） · 11-21–11-22 / 1晚",
+        "currency": "NZD",
+        "quotedOrBudgetTotal": {
+          "min": 418.5,
+          "max": 418.5
+        },
+        "splitPeople": 3,
+        "category": "hotel",
+        "status": "未订 · 旅馆官网11/11价，含GST（商品服务税）",
+        "note": "按纽币扣款，下单时付。入住时另刷NZ$100预授权，不算消费。床位、取消期限见11/21的住宿卡和预订状态表。",
+        "sourceIds": [
+          "m-sierra"
+        ],
+        "perPersonNative": {
+          "min": 139.5,
+          "max": 139.5
+        },
+        "perPersonCnyUnrounded": {
+          "min": 525.3849,
+          "max": 525.3849
+        },
+        "perPersonCny": {
+          "min": 525.38,
+          "max": 525.38
         }
       },
       {
@@ -5804,41 +5752,41 @@
         "title": "皇后镇湖景联排别墅（爱彼迎） · 11-23–11-26 / 3晚",
         "currency": "CNY",
         "quotedOrBudgetTotal": {
-          "min": 6486,
-          "max": 6486
+          "min": 5904,
+          "max": 5904
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "未订 · 爱彼迎11/9价，三晚含全部费用",
+        "status": "未订 · 爱彼迎11/11价，三晚含全部费用",
         "note": "三晚合计，爱彼迎人民币总价。床位、取消期限和省钱的备选见11/23的住宿卡和预订状态表。",
         "sourceIds": [
           "a-qt_townhouse"
         ],
         "perPersonNative": {
-          "min": 2162.0,
-          "max": 2162.0
+          "min": 1968.0,
+          "max": 1968.0
         },
         "perPersonCnyUnrounded": {
-          "min": 2162.0,
-          "max": 2162.0
+          "min": 1968.0,
+          "max": 1968.0
         },
         "perPersonCny": {
-          "min": 2162.0,
-          "max": 2162.0
+          "min": 1968.0,
+          "max": 1968.0
         }
       },
       {
         "id": "hotel-adina",
         "title": "Adina Apartment Hotel Sydney Town Hall（阿迪娜公寓酒店市政厅店） · 11-26–11-30 / 4晚",
-        "currency": "NZD",
+        "currency": "AUD",
         "quotedOrBudgetTotal": {
-          "min": 4050,
-          "max": 4050
+          "min": 3244,
+          "max": 3244
         },
         "splitPeople": 3,
         "category": "hotel",
-        "status": "未订 · 预算按Booking（缤客订房网） 11/1可退价NZ$4,050；11/9还剩2间，可免费取消价NZ$4,017",
-        "note": "Booking（缤客订房网）页面按纽币显示，实际按澳元扣，整套约AUD3,231。“原币合计”里这笔暂时记在纽币下，订好后按实际澳元金额改。入住时另刷AUD200预授权，不算消费。床位、取消期限见11/26的住宿卡和预订状态表。",
+        "status": "未订 · Booking（缤客订房网） 11/11可免费取消价AUD3,244，还剩2间",
+        "note": "按澳元扣款，悉尼时间11/23扣。入住时另刷AUD200预授权，不算消费。床位、取消期限见11/26的住宿卡和预订状态表。",
         "sourceIds": [
           "b-adina",
           "x-au-surcharge",
@@ -5846,46 +5794,46 @@
           "x-booking-cancel-time"
         ],
         "perPersonNative": {
-          "min": 1350.0,
-          "max": 1350.0
+          "min": 1081.3333333333333,
+          "max": 1081.3333333333333
         },
         "perPersonCnyUnrounded": {
-          "min": 5084.37,
-          "max": 5084.37
+          "min": 5104.001466666667,
+          "max": 5104.001466666667
         },
         "perPersonCny": {
-          "min": 5084.37,
-          "max": 5084.37
+          "min": 5104.0,
+          "max": 5104.0
         }
       },
       {
         "id": "nz-rental",
-        "title": "Snap（新西兰租车公司）租车 · Pajero Sport（三菱帕杰罗运动版） · 7天两位司机",
+        "title": "Snap（新西兰租车公司）租车 · Outlander（欧蓝德） · 7天两位司机",
         "currency": "NZD",
         "quotedOrBudgetTotal": {
-          "min": 2026.43,
-          "max": 2026.43
+          "min": 1801.49,
+          "max": 1801.49
         },
         "splitPeople": 3,
         "category": "rental",
-        "status": "未订 · Snap（新西兰租车公司）官网11/9价NZ$1,977，另加刷卡费2.5%",
-        "note": "官网价NZ$1,977含GST（商品服务税），已含Simply Better Cover（零自付额全险）和1位附加司机。刷Visa（维萨卡）或Mastercard（万事达卡）加收2.5%，即NZ$49.43，预算按NZ$2,026.43算。费用明细见租车卡片01。燃油和停车另列。",
+        "status": "未订 · Snap（新西兰租车公司）官网11/11价NZ$1,757.55，另加刷卡费2.5%",
+        "note": "官网价NZ$1,757.55含GST（商品服务税），已含Simply Better Cover（零自付额全险）和1位附加司机。刷Visa（维萨卡）或Mastercard（万事达卡）加收2.5%，即NZ$43.94，预算按NZ$1,801.49算。费用明细见租车卡片01。燃油和停车另列。",
         "sourceIds": [
           "r-snap-booking",
           "r-snap-terms",
           "r-snap-faq"
         ],
         "perPersonNative": {
-          "min": 675.4766666666667,
-          "max": 675.4766666666667
+          "min": 600.4966666666667,
+          "max": 600.4966666666667
         },
         "perPersonCnyUnrounded": {
-          "min": 2543.980222,
-          "max": 2543.980222
+          "min": 2261.590546,
+          "max": 2261.590546
         },
         "perPersonCny": {
-          "min": 2543.98,
-          "max": 2543.98
+          "min": 2261.59,
+          "max": 2261.59
         }
       },
       {
@@ -6007,30 +5955,28 @@
         "currency": "NZD",
         "quotedOrBudgetTotal": {
           "min": 255,
-          "max": 445
+          "max": 380
         },
         "splitPeople": 3,
         "category": "ground",
-        "status": "整车预算 · 柴油价按MBIE（新西兰商业创新和就业部） 10/30这周",
-        "note": "全程约900–950km：路线约880km，加镇内、Twizel（特威泽尔）往返普卡基湖和绕行。Snap（新西兰租车公司）标的油耗是8.8L/100km；三人带箱子走山路，按8.8–10.5L/100km算，约80–100L。柴油全国均价约NZ$3.22/L，乡镇贵一些，上限按约NZ$3.70/L算，油钱约NZ$255–370。Snap没写要不要另收RUC（柴油道路使用费），按每1,000km NZ$76，上限再加约NZ$75。去Milford（米尔福德）坐大巴，不算油费。满油取车、满油还车，没加满收油钱再加NZ$25。11/22早上在Mobil Twizel（特威泽尔美孚加油站）加满，还车前在Snap皇后镇门店旁的NPD（新西兰本土加油站）加满。出发前一周用Gaspy（新西兰油价查询应用）再看油价。",
+        "status": "整车预算 · 91号汽油价按MBIE（新西兰商业创新和就业部） 10/30这周",
+        "note": "全程约950–1,000km：路线约940km，含Omarama（奥马拉马）往返普卡基湖，再加镇内和绕行。Snap（新西兰租车公司）标的油耗是7.5L/100km；三人带箱子走山路，按7.5–9.5L/100km算，约71–95L。91号汽油全国均价约NZ$3.57/L，乡镇贵一些，上限按约NZ$4.00/L算，油钱约NZ$255–380。去Milford（米尔福德）坐大巴，不算油费。满油取车、满油还车，没加满收油钱再加NZ$25。11/21下午在Mobil Twizel（特威泽尔美孚加油站）加满，还车前在Snap皇后镇门店旁的NPD（新西兰本土加油站）加满。出发前一周用Gaspy（新西兰油价查询应用）再看油价。",
         "sourceIds": [
           "r-snap-booking",
           "r-snap-terms",
-          "x-fuel-mbie",
-          "x-pajero-sport",
-          "x-ruc"
+          "x-fuel-mbie"
         ],
         "perPersonNative": {
           "min": 85.0,
-          "max": 148.33333333333334
+          "max": 126.66666666666667
         },
         "perPersonCnyUnrounded": {
           "min": 320.127,
-          "max": 558.653
+          "max": 477.052
         },
         "perPersonCny": {
           "min": 320.13,
-          "max": 558.65
+          "max": 477.05
         }
       },
       {
@@ -6051,8 +5997,8 @@
           "x-mtjohn",
           "a-chc_townhouse",
           "a-parkhill",
-          "a-milkyway",
-          "a-twizel_cottage",
+          "a-hazels",
+          "b-sierra",
           "a-qt_townhouse"
         ],
         "perPersonNative": {
@@ -6276,7 +6222,7 @@
         "currency": "CNY",
         "quotedOrBudgetTotal": {
           "min": 0,
-          "max": 247.69
+          "max": 244.16
         },
         "splitPeople": 1,
         "category": "essential",
@@ -6289,15 +6235,15 @@
         ],
         "perPersonNative": {
           "min": 0.0,
-          "max": 247.69
+          "max": 244.16
         },
         "perPersonCnyUnrounded": {
           "min": 0.0,
-          "max": 247.69
+          "max": 244.16
         },
         "perPersonCny": {
           "min": 0.0,
-          "max": 247.69
+          "max": 244.16
         }
       },
       {
@@ -6329,54 +6275,54 @@
     ],
     "summary": {
       "totalCNY": {
-        "min": 33682.45,
-        "max": 37450.76,
-        "display": "控制版约¥33,682–37,451/人（含¥1,000机动金）"
+        "min": 33599.74,
+        "max": 37282.92,
+        "display": "控制版约¥33,600–37,283/人（含¥1,000机动金）"
       },
       "nativeTotals": {
         "CNY": {
-          "min": 18796.47,
-          "max": 20938.06
+          "min": 18867.47,
+          "max": 21005.53
         },
         "AUD": {
-          "min": 420.0,
-          "max": 575.0
+          "min": 1640.0,
+          "max": 1795.0
         },
         "NZD": {
-          "min": 3426.1433333333334,
-          "max": 3663.81
+          "min": 1856.33,
+          "max": 2072.33
         }
       },
       "budgetCapCNY": 30000,
-      "headroomCNY": -7450.76,
+      "headroomCNY": -7282.92,
       "reserveIncludedCNY": 1000,
       "fullyItemized": true,
       "unallocatedResidualCNY": 0,
       "flight": {
-        "equivalentCNY": 12736.0,
-        "status": "吉祥多程＋QF167（澳洲航空）＋NZ231（新西兰航空），按携程11/1实查1人价（NZ231携程11/2已搜不到，预算暂不变）；未出票"
+        "equivalentCNY": 13497.0,
+        "status": "吉祥多程＋QF167（澳洲航空）＋NZ231（新西兰航空）：吉祥和QF167按携程11/11实查1人价，NZ231预算仍按¥2,622（11/11携程¥2,596）；未出票"
       },
       "hotel": {
-        "equivalentCNY": 10834.23,
+        "equivalentCNY": 10272.91,
         "wholeGroup": {
-          "CNY": 14037,
-          "AUD": 0,
-          "NZD": 4903
+          "CNY": 11967,
+          "AUD": 3660,
+          "NZD": 418.5
         },
-        "status": "7处12晚：墨尔本Dorsett（帝盛酒店，上海同学自己安排）、基督城市中心三卧联排别墅、特卡波Milky Way Views（银河美景）、Twizel（特威泽尔）镇上的三卧小屋、瓦纳卡Tranquility on Parkhill（帕克希尔的宁静，11/3已订）、皇后镇湖景联排别墅、悉尼Adina（阿迪娜公寓酒店）；携程1处、Booking（缤客订房网） 2处、爱彼迎4处；瓦纳卡已订，其余未锁房（11/9原定的基督城、特威泽尔、皇后镇三处被别人订走，已换；11/21先改Omarama（奥马拉马），同日再查改回Twizel）"
+        "status": "7处12晚：墨尔本Dorsett（帝盛酒店）、基督城市中心三卧联排别墅、特卡波Hazel's House（黑兹尔之家）、Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓）、瓦纳卡Tranquility on Parkhill（帕克希尔的宁静，11/3已订）、皇后镇湖景联排别墅、悉尼Adina（阿迪娜公寓酒店）；Booking（缤客订房网） 2处、旅馆官网1处、爱彼迎4处；瓦纳卡已订，其余未锁房（11/11原定的特卡波Milky Way Views（银河美景）、特威泽尔小屋被订走，已换）"
       },
       "relaxedFoodTotalCNY": {
-        "min": 34266.96,
-        "max": 38256.71,
+        "min": 34184.25,
+        "max": 38088.87,
         "note": "餐饮放宽至澳洲AUD360–450＋新西兰NZ560–720；其余相同且含1000机动金"
       },
       "comparisonNote": "机票是上海同学一个人的价格。住宿、租车、油费、停车三人均分。餐饮、NZeTA（新西兰电子旅行授权）、翻译、保险、通信按一人算。各处的取消期限见预订状态表。",
       "scope": "本次新增支出含必要交通、12晚住宿、租车燃油停车、峡湾、餐饮、NZeTA（新西兰电子旅行授权）+IVL（国际游客环保与旅游税）、翻译、保险、通信、视卡种的发卡行外币交易费、本人托运箱超尺寸（条件）和1000机动金。购物/新增活动（BridgeMuseum（大桥博物馆）、Scenic World（景观世界）等）/无人机许可从余量扣；历史已付澳签费未获金额，尚未加进：若也计入3万，按递交日期约AUD200–250（≈¥944–1,180）。可退押金/预授权不是消费。",
-      "narrative": "这是上海同学一个人的全程预算。十四天控制版¥33,682.45–37,450.76/人，已含¥1,000机动金；按上限超出¥30,000约¥7,450.76。机票约¥12,736：吉祥多程¥7,756，QF167（澳洲航空） ¥2,358，NZ231（新西兰航空） ¥2,622。住宿约¥10,834：携程订Dorsett（帝盛酒店），Booking（缤客订房网）订Milky Way Views（银河美景）和Adina（阿迪娜公寓酒店），爱彼迎订新西兰另外四处，其中瓦纳卡已订。租车约¥2,544，含刷卡费2.5%。峡湾约¥1,201。油费整车NZ$255–445，是柴油。上限已保守计入两笔：1.5%外币交易费（约¥248）；上海同学29/30寸箱在吉祥、新航的超尺寸费，约¥1,501。澳航没有公布超尺寸收费，超尺寸可能被拒收。这个数的前提：餐饮按表控制，三人一直分摊，不加高价活动。放宽餐饮约¥34,267–38,257。可选自费项目不在总额里：天空缆车约¥260、大桥博物馆约¥189、观星团约¥448，加上景观世界和歌剧院导览，全做约¥1,440/人，比¥1,000机动金还多；想做就在上限上再加。还没定的：租车还没订；Dorsett和瓦纳卡Parkhill（帕克希尔）的实际金额以订单为准；14天保险待确认；历史澳签费实付未知；卡费和汇率可能变。订好后按实际金额更新。",
+      "narrative": "这是上海同学一个人的全程预算。十四天控制版¥33,599.74–37,282.92/人，已含¥1,000机动金；按上限超出¥30,000约¥7,282.92。机票约¥13,497：吉祥多程¥7,766，QF167（澳洲航空） ¥3,109，NZ231（新西兰航空） ¥2,622。住宿约¥10,273：Booking（缤客订房网）订Dorsett（帝盛酒店）和Adina（阿迪娜公寓酒店），旅馆官网订Omarama（奥马拉马）那一晚，爱彼迎订新西兰另外四处，其中瓦纳卡已订。租车约¥2,262，含刷卡费2.5%。峡湾约¥1,201。油费整车NZ$255–380。上限已保守计入两笔：1.5%外币交易费（约¥244）；上海同学29/30寸箱在吉祥、新航的超尺寸费，约¥1,501。澳航没有公布超尺寸收费，超尺寸可能被拒收。这个数的前提：餐饮按表控制，三人一直分摊，不加高价活动。放宽餐饮约¥34,184–38,089。可选自费项目不在总额里：天空缆车约¥260、大桥博物馆约¥189、观星团约¥448，加上景观世界和歌剧院导览，全做约¥1,440/人，比¥1,000机动金还多；想做就在上限上再加。还没定的：租车还没订；Dorsett和瓦纳卡Parkhill（帕克希尔）的实际金额以订单为准；14天保险待确认；历史澳签费实付未知；卡费和汇率可能变。订好后按实际金额更新。",
       "legacyTotalCNY": {
-        "min": 33682.45,
-        "max": 37450.76,
-        "display": "控制版约¥33,682–37,451/人（含¥1,000机动金）"
+        "min": 33599.74,
+        "max": 37282.92,
+        "display": "控制版约¥33,600–37,283/人（含¥1,000机动金）"
       }
     },
     "licences": [
@@ -6405,15 +6351,15 @@
   "routeReview": [
     {
       "title": "十四天：墨尔本进、悉尼出",
-      "body": "11/17傍晚从浦东出发，11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12晚住宿，另有1晚在飞机上。\n为什么从墨尔本进：中国护照持澳签，要先在澳洲入境，再单独买票飞新西兰，才符合NZeTA（新西兰电子旅行授权）的条件。所以先在墨尔本入境、住一晚。\n南岛7晚这样住：基督城1晚，市中心的三卧联排别墅；特卡波1晚，Milky Way Views（银河美景）；特威泽尔1晚，镇上的三卧小屋；瓦纳卡1晚，Tranquility on Parkhill（帕克希尔的宁静）；皇后镇3晚，镇东边的湖景联排别墅。每处都是整套房子，三人各住一间。哪处已订看“预订状态”。",
+      "body": "11/17傍晚从浦东出发，11/30下午回到上海。墨尔本1晚、南岛7晚、悉尼4晚，共12晚住宿，另有1晚在飞机上。\n为什么从墨尔本进：中国护照持澳签，要先在澳洲入境，再单独买票飞新西兰，才符合NZeTA（新西兰电子旅行授权）的条件。所以先在墨尔本入境、住一晚。\n南岛7晚这样住：基督城1晚，市中心的三卧联排别墅；特卡波1晚，Hazel's House（黑兹尔之家）；Omarama（奥马拉马） 1晚，Sierra Motel & Apartments（塞拉汽车旅馆公寓）的两卧室公寓；瓦纳卡1晚，Tranquility on Parkhill（帕克希尔的宁静）；皇后镇3晚，镇东边的湖景联排别墅。除了Omarama那晚，每处都是整套房子，三人各住一间。哪处已订看“预订状态”。",
       "sourceIds": [
         "f-ho-multi",
         "f-qf167",
         "f-nz231",
         "x-nzeta-req",
         "a-chc_townhouse",
-        "b-milkyway",
-        "a-twizel_cottage",
+        "a-hazels",
+        "m-sierra",
         "a-parkhill",
         "a-qt_townhouse"
       ]
@@ -6435,26 +6381,23 @@
       ]
     },
     {
-      "title": "特卡波只住一晚，11/21住特威泽尔",
-      "body": "特卡波只住11/20一晚，住Milky Way Views（银河美景）；11/21住特威泽尔镇上新翻修的三卧小屋。为什么：\n①11/20–22三晚月亮约78%、86%、93%亮，凌晨03:30以后才落。住哪都没有全黑的夜空，拍不了银河。特威泽尔也在奥拉基麦肯齐国际暗夜保护区里。\n②在特卡波住第二晚，只是少收拾一次行李；周六11/21那晚要约¥4,175。\n③特威泽尔离库克山和瓦纳卡都更近：11/21–22两天开车从约416km减到约318km，少开约1–1.5小时。\n④11/21傍晚在普卡基湖游客中心拍库克山的日落晚霞，从住处开约10–12分钟，不用夜里开远路。\n代价：多搬一次家。11/21早上就退房，三只箱子要在库克山停车场的车里放几个小时，贵重物品随身带，箱子盖好。\n备选：特威泽尔小屋订不到怎么办，见待办。特卡波订不到Milky Way Views，就订Alpine Nook（山间小居度假屋）一晚，携程¥3,131。",
+      "title": "特卡波只住一晚，11/21住奥马拉马",
+      "body": "特卡波只住11/20一晚，住Hazel's House（黑兹尔之家）；11/21住Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓）。为什么：\n①11/20–22三晚月亮约78%、86%、93%亮，凌晨03:30以后才落。住哪都没有全黑的夜空，拍不了银河。\n②11/21是周六：特威泽尔镇上订不到三人的住处，特卡波的三卧要NZ$1,067起，库克山村只有青旅床位。Omarama这家汽车旅馆评分高，是这晚订得到的住处里最划算的。\n③Omarama在去瓦纳卡的路上，11/22只用开约115km。\n代价：11/21傍晚去普卡基湖拍日落，单程约40km、35分钟，回程是夜路，司机累就不去。11/21早上就退房，三只箱子要在库克山停车场的车里放几个小时，贵重物品随身带，箱子盖好。\n备选见待办“按顺序订完5处住处和租车”。",
       "sourceIds": [
-        "b-milkyway",
-        "a-twizel_cottage",
-        "x-twizel-1109",
-        "a-omarama_house",
-        "b-omarama",
-        "c-alpinenook-1n",
+        "a-hazels",
+        "m-sierra",
+        "b-sierra",
+        "x-mackenzie-1111",
+        "x-tekapo-1111",
         "w-moonTekapo",
         "x-twizel-moon",
-        "x-dark-reserve",
-        "x-osrm-twizel-wanaka",
-        "x-pukaki-vc",
-        "x-odt-sh80"
+        "x-osrm-1111",
+        "x-pukaki-vc"
       ]
     },
     {
       "title": "皇后镇住镇东边的湖景联排别墅：三人各一间",
-      "body": "11/23–26三晚住爱彼迎的湖景联排别墅。为什么选它：\n三间卧室各一张1.5米双人床，三人各住一间。两个卫生间，免费停车。\n走得到米尔福德上车点：到11 Stanley Street（斯坦利街）约0.9km，下坡13–15分钟，回来上坡17–19分钟。到天空缆车下站约20–23分钟。这些是按地图点和地形推算的。\n代价：房子在Queenstown Hill（皇后镇山）坡上，回来要爬坡。床是1.5米双人床，不是单人床。车位够不够停7座的Pajero Sport（三菱帕杰罗运动版），要订后问。\n想省钱的备选：Queenstown Heights（皇后镇高地）三卧，三晚¥5,232，便宜¥1,254，开车3分钟到市中心。它只有一个淋浴卫生间加独立马桶，最多住5人；房东一家带两个小孩住楼上，房源提醒可能有噪音。",
+      "body": "11/23–26三晚住爱彼迎的湖景联排别墅。为什么选它：\n三间卧室各一张1.5米双人床，三人各住一间。两个卫生间，免费停车。\n走得到米尔福德上车点：到11 Stanley Street（斯坦利街）约0.9km，下坡13–15分钟，回来上坡17–19分钟。到天空缆车下站约20–23分钟。这些是按地图点和地形推算的。\n代价：房子在Queenstown Hill（皇后镇山）坡上，回来要爬坡。床是1.5米双人床，不是单人床。车位够不够停Outlander（欧蓝德），要订后问。\n想省钱的备选：Queenstown Heights（皇后镇高地）三卧，三晚¥5,276，便宜¥628，开车3分钟到市中心。它只有一个淋浴卫生间加独立马桶，最多住5人；房东一家带两个小孩住楼上，房源提醒可能有噪音。",
       "sourceIds": [
         "a-qt_townhouse",
         "x-unavailable-1109",
@@ -6462,8 +6405,8 @@
       ]
     },
     {
-      "title": "三万元：按上限超出约¥7,451",
-      "body": "上海同学这一趟约¥33,682–37,451，已含¥1,000机动金。按上限算，比三万元超出约¥7,451。其中机票约¥12,736，住宿约¥10,834。逐项金额、哪些还没定、哪些可选项目没算进去，见“预算”。",
+      "title": "三万元：按上限超出约¥7,283",
+      "body": "上海同学这一趟约¥33,600–37,283，已含¥1,000机动金。按上限算，比三万元超出约¥7,283。其中机票约¥13,497，住宿约¥10,273。逐项金额、哪些还没定、哪些可选项目没算进去，见“预算”。",
       "sourceIds": []
     },
     {
@@ -6487,54 +6430,52 @@
     }
   ],
   "rental": {
-    "title": "Snap（新西兰租车公司）七座四驱车租七天，\n两位司机轮流开。",
-    "body": "11/19 17:00在Snap（新西兰租车公司）基督城门店取车，地址170 Orchard Road（果园路）；11/26 12:00前在皇后镇5 Glenda Drive（格伦达路）门店还车。车是Mitsubishi Pajero Sport（三菱帕杰罗运动版），2024款或类似，7座四驱柴油车，含Simply Better Cover（零自付额全险）和1位附加司机；官网价NZ$1,977，刷卡加收2.5%后NZ$2,026.43≈¥7,632整车。还没订：新西兰时间11/15 23:59前取消不收费（北京时间18:59），见待办“订Snap租车”。",
+    "title": "Snap（新西兰租车公司）的五座车租七天，\n两位司机轮流开。",
+    "body": "11/19 17:00在Snap（新西兰租车公司）基督城门店取车，地址170 Orchard Road（果园路）；11/26 12:00前在皇后镇5 Glenda Drive（格伦达路）门店还车。车是Mitsubishi Outlander（三菱欧蓝德）两驱，2022–2026款，5座汽油车，含Simply Better Cover（零自付额全险）和1位附加司机；官网价NZ$1,757.55，刷卡加收2.5%后NZ$1,801.49≈¥6,785整车。还没订：新西兰时间11/15 23:59前取消不收费（北京时间18:59），见待办“订Snap租车”。",
     "sourceIds": [
       "r-snap-booking",
       "r-snap-terms",
       "r-snap-cover"
     ],
     "quote": {
-      "checked": "2026-11-09",
+      "checked": "2026-11-11",
       "booked": false,
       "provider": "Snap（新西兰租车公司）",
-      "vehicle": "Mitsubishi Pajero Sport（三菱帕杰罗运动版）四驱，2024款或类似，7座自动挡柴油车，2.4L涡轮柴油，Snap（新西兰租车公司）标的油耗是8.8L/100km",
+      "vehicle": "Mitsubishi Outlander（三菱欧蓝德）两驱，2022–2026款，5座自动挡汽油车，Snap（新西兰租车公司）标的油耗是7.5L/100km",
       "pickup": "2026-11-19T17:00:00+13:00",
       "return": "2026-11-26T12:00:00+13:00",
       "durationHours": 163,
       "billableDays": 7,
-      "dailyRateNzd": 167.0,
-      "baseRentalNzd": 1169.0,
+      "dailyRateNzd": 135.65,
+      "baseRentalNzd": 949.55,
       "premiumLocationFeeNzd": 50,
       "oneWayNzd": 499,
       "coverName": "Simply Better Cover（零自付额全险）",
       "coverNzd": 238,
       "additionalDriverNzd": 21,
       "youngDriverNzd": 0,
-      "quoteTotalNzd": 1977.0,
-      "cardFeeNzd": 49.43,
-      "totalNzd": 2026.43,
+      "quoteTotalNzd": 1757.55,
+      "cardFeeNzd": 43.94,
+      "totalNzd": 1801.49,
       "gstIncluded": true,
       "glassTyresIncluded": true,
       "luggagePhysicalFitConfirmed": false,
-      "priceStatus": "Snap（新西兰租车公司）官网订车流程11/9（同日第二次）实查，含GST（商品服务税，第2步默认Limited Cover（免费基本保障）时总价NZ$1,718，加Simply Better Cover（零自付额全险） NZ$238和附加司机每天NZ$3）；三只29/30寸箱要取车时试装"
+      "priceStatus": "Snap（新西兰租车公司）官网订车流程11/11实查，含GST（商品服务税，第2步默认Limited Cover（免费基本保障）时总价NZ$1,498.55，加Simply Better Cover（零自付额全险） NZ$238和附加司机每天NZ$3）；三只29/30寸箱要取车时试装"
     },
     "cards": [
       {
         "title": "01 / 总价怎么算",
-        "body": "Pajero Sport（三菱帕杰罗运动版）每天NZ$167×7＝1,169，加Premium Location Fee（机场网点费） 50、One Way Fee（异地还车费） 499、Simply Better Cover（零自付额全险）每天34×7＝238、附加司机每天3×7＝21，共NZ$1,977，含GST（商品服务税）。刷Visa（维萨卡）或Mastercard（万事达卡）另加2.5%，约NZ$49.43，预算已计入；刷卡规则见租车卡片06。不收年轻司机费。这是柴油车：Snap（新西兰租车公司）的常见问题和条款页没写要不要另交RUC（柴油道路使用费）。轻型柴油车按每1,000km NZ$76算，预算上限已留约NZ$75；订车时问清，见待办“发邮件问Snap：箱子、晚到取车、碎石路”。",
+        "body": "Outlander（欧蓝德）每天NZ$135.65×7＝949.55，加Premium Location Fee（机场网点费） 50、One Way Fee（异地还车费） 499、Simply Better Cover（零自付额全险）每天34×7＝238、附加司机每天3×7＝21，共NZ$1,757.55，含GST（商品服务税）。刷Visa（维萨卡）或Mastercard（万事达卡）另加2.5%，约NZ$43.94，预算已计入；刷卡规则见租车卡片06。不收年轻司机费。汽油车，加91号汽油。",
         "sourceIds": [
           "r-snap-booking",
-          "r-snap-faq",
-          "x-ruc"
+          "r-snap-faq"
         ]
       },
       {
         "title": "02 / 三只29/30寸大箱，取车先试装",
-        "body": "取车时当场试装。Pajero Sport（三菱帕杰罗运动版）是7座四驱车，车身约4.8米长。放倒第三排后，后备厢约502L；这是厂家数据，量到第二排靠背顶。三只29/30寸硬箱竖着并排放，每只约32cm宽；三人坐前排和第二排。第二排只坐一人时，可以把40%那一侧放倒。背包放脚坑，不堆过靠背，不挡后窗。停车时用深色外套盖住箱子，注意防盗。",
+        "body": "取车时当场试装。Outlander（欧蓝德）是5座中型SUV（运动型多用途车），Snap（新西兰租车公司）没写能放几件行李。29/30寸硬箱高约79–82cm，只能平躺：两只平放叠在后备厢，第三只平放在放倒的第二排“40”那一侧，后排的人坐“60”那一侧。背包放脚坑，不挡后窗。三人坐车能装下，但很紧，叠起来会高过遮物帘；停车时用深色外套盖住箱子，注意防盗。想宽松一点：同一页的Toyota Highlander Hybrid（丰田汉兰达混动），2025–2026款，7座，同样配置共NZ$2,067.09，贵约NZ$310。",
         "sourceIds": [
-          "r-snap-booking",
-          "x-pajero-sport"
+          "r-snap-booking"
         ]
       },
       {
@@ -6547,7 +6488,7 @@
       },
       {
         "title": "04 / 开车规则、碎石路和山路",
-        "body": "靠左行驶。进环岛顺时针走，让右边来的车。中线是黄色实线就不能超车。开车时不能手拿手机，罚NZ$150、扣20分；导航手机放支架，或让副驾看。这是柴油车：加油枪上标Diesel（柴油），别加成汽油。出发前两位司机读drivesafe.org.nz（安全驾驶自测网站）和NZTA（新西兰交通局）的《Driving in New Zealand（新西兰驾驶指南）》，前一个有中文页。东京同学若在日本常开车，同为靠左，门店到住处和11/20出基督城这两段先由东京同学开。碎石路慢开，例如Tasman Valley Road（塔斯曼谷路）；停车场以外的4WD（四轮驱动）路段不进。Glenorchy（格林诺奇）以北的Paradise（天堂谷）砂石路不去。Snap（新西兰租车公司）条款没有点名禁止碎石路，只禁止开到沙滩、私人车道或容易伤车的路面上；但零自付不保车底和车顶。进库克山、过Lindis Pass（林迪斯山口）前看NZTA路况。车上警告灯亮了，马上停车联系Snap。",
+        "body": "靠左行驶。进环岛顺时针走，让右边来的车。中线是黄色实线就不能超车。开车时不能手拿手机，罚NZ$150、扣20分；导航手机放支架，或让副驾看。这是汽油车：加91号汽油，别加成柴油，柴油枪上标Diesel（柴油）。出发前两位司机读drivesafe.org.nz（安全驾驶自测网站）和NZTA（新西兰交通局）的《Driving in New Zealand（新西兰驾驶指南）》，前一个有中文页。东京同学若在日本常开车，同为靠左，门店到住处和11/20出基督城这两段先由东京同学开。碎石路慢开，例如Tasman Valley Road（塔斯曼谷路）；停车场以外的4WD（四轮驱动）路段不进。Glenorchy（格林诺奇）以北的Paradise（天堂谷）砂石路不去。Snap（新西兰租车公司）条款没有点名禁止碎石路，只禁止开到沙滩、私人车道或容易伤车的路面上；但零自付不保车底和车顶。进库克山、过Lindis Pass（林迪斯山口）前看NZTA路况。车上警告灯亮了，马上停车联系Snap。",
         "sourceIds": [
           "r-snap-terms",
           "x-drivesafe"
@@ -6563,7 +6504,7 @@
       },
       {
         "title": "06 / 取车、还车、证件和刷卡",
-        "body": "取车：基督城170 Orchard Road（果园路）门店，每天08:00–17:30。出关后在Snap（新西兰租车公司）官网的Christchurch Airport Shuttle Request（基督城机场接驳车预约）页面叫免费接驳车，到Domestic Terminal（国内航站楼）的Door 2（2号门）外、标着Car Rental Transfers（租车接驳）的候车亭等，开车不到5分钟。计划17:00取车，最晚17:15到店；晚到的办法见11/19的“天气不好怎么办”。还车：皇后镇5 Glenda Drive（格伦达路）, Frankton（弗兰克顿）门店，每天08:00–17:00，不能下班后还车。约11:30到，先在门店旁的NPD（新西兰本土加油站）加满柴油，12:00前交车，再坐免费接驳车去机场，开车不到5分钟。证件：两位司机都到场、都写进合同，各带驾照原件和英文翻译；中国驾照用NZTA（新西兰交通局）认可翻译，日本驾照带日本正式IDP（国际驾照）。主驾带本人名字的实体卡。刷卡：Visa（维萨卡）、Mastercard（万事达卡）的信用卡和借记卡都加收2.5%，美国运通加收5%，付纽币现金不加收。Snap电话+64 9 275 2438，任何手机都能打；0800 288 699只有新西兰本地号码能打，在澳洲可打1800 560 647。取消期限见预订状态表。",
+        "body": "取车：基督城170 Orchard Road（果园路）门店，每天08:00–17:30。出关后在Snap（新西兰租车公司）官网的Christchurch Airport Shuttle Request（基督城机场接驳车预约）页面叫免费接驳车，到Domestic Terminal（国内航站楼）的Door 2（2号门）外、标着Car Rental Transfers（租车接驳）的候车亭等，开车不到5分钟。计划17:00取车，最晚17:15到店；晚到的办法见11/19的“天气不好怎么办”。还车：皇后镇5 Glenda Drive（格伦达路）, Frankton（弗兰克顿）门店，每天08:00–17:00，不能下班后还车。约11:30到，先在门店旁的NPD（新西兰本土加油站）加满91号汽油，12:00前交车，再坐免费接驳车去机场，开车不到5分钟。证件：两位司机都到场、都写进合同，各带驾照原件和英文翻译；中国驾照用NZTA（新西兰交通局）认可翻译，日本驾照带日本正式IDP（国际驾照）。主驾带本人名字的实体卡。刷卡：Visa（维萨卡）、Mastercard（万事达卡）的信用卡和借记卡都加收2.5%，美国运通加收5%，付纽币现金不加收。Snap电话+64 9 275 2438，任何手机都能打；0800 288 699只有新西兰本地号码能打，在澳洲可打1800 560 647。取消期限见预订状态表。",
         "sourceIds": [
           "r-snap-chc",
           "r-snap-zqn",
@@ -6758,17 +6699,47 @@
     {
       "property": "Asure Sierra Motel（Booking，Omarama）",
       "dates": "2026-11-21–22",
-      "status": "Twizel小屋和Omarama整房都订不到时用：Booking 11/9 NZ$440，9.1分，3张床"
+      "status": "11/11改订这家：官网直订2 Bedroom Unit NZ$418.50（11/14前可免费取消）；Booking同房型NZ$440不可退、只剩1间"
     },
     {
       "property": "Queenstown Heights三卧（Airbnb 16328605）",
       "dates": "2026-11-23–26",
-      "status": "皇后镇想省钱的选择：三晚¥5,232（比湖景联排别墅便宜¥1,254），4.82分（265条）、清洁4.9，开车3分钟到市中心，1个私人车位；只有一个淋浴卫生间加独立马桶，最多5人，房东一家（两个小孩）住楼上，房源提醒可能有噪音"
+      "status": "皇后镇想省钱的选择：11/11三晚¥5,276（比湖景联排别墅便宜¥628），4.82分（265条）、清洁4.9，开车3分钟到市中心，1个私人车位；只有一个淋浴卫生间加独立马桶，最多5人，房东一家住楼上，房源提醒可能有噪音"
     },
     {
       "property": "Toyota Highlander 2017–18（Snap）",
       "dates": "2026-11-19–26",
       "status": "11/9早些时候选它（NZ$1,961.60），同日再查已订满，改订Pajero Sport（NZ$1,977）"
+    },
+    {
+      "property": "Milky Way Views（Booking）",
+      "dates": "2026-11-20–21",
+      "status": "11/11 Booking显示这晚无空房，改订Hazel's House（爱彼迎¥2,466，四卧两卫，比它便宜约¥747）"
+    },
+    {
+      "property": "特威泽尔镇上的三卧小屋（Airbnb 1293975808451643528）",
+      "dates": "2026-11-21–22",
+      "status": "11/11爱彼迎显示这晚不可出租，Twizel全镇无房，改订Omarama的Sierra Motel & Apartments"
+    },
+    {
+      "property": "Tekapo Blue（Booking，Rankin Rise）",
+      "dates": "2026-11-20–21",
+      "status": "Hazel's House订不到时用：四卧两卫看湖，NZ$719，9.0分（118条）、清洁9.3，新西兰时间11/12 23:59前免费取消"
+    },
+    {
+      "property": "Sefton View（Booking，29 Coulson Lane）",
+      "dates": "2026-11-20–21",
+      "status": "Hazel's House订不到时的第二选择：三卧一卫看湖，NZ$688，9.1分（106条）、清洁9.6"
+    },
+    {
+      "property": "Mitsubishi Pajero Sport（Snap）",
+      "dates": "2026-11-19–26",
+      "status": "11/11显示已订满，改订Outlander两驱（NZ$1,757.55）；Highlander Hybrid 2025–26（NZ$2,067.09）是后备"
+    },
+    {
+      "property": "厦门航空多程票（携程，经厦门中转）",
+      "dates": "2026-11-17 / 11-30",
+      "status": "11/11 ¥5,788，比吉祥直飞便宜¥1,978；去程虹桥18:10出发、11/18 10:35到墨尔本，回程悉尼12:35出发、22:50到虹桥；用户11/1说过不想多转机，没有改"
     }
   ],
   "todos": [
@@ -6779,7 +6750,7 @@
         "user"
       ],
       "title": "携程订吉祥航空多程票",
-      "detail": "HO1655（吉祥航空）上海→墨尔本11/17，HO1670（吉祥航空）悉尼→上海11/30，选¥7,756那档，不选“留学生专享”。不得退票，只退税费¥830；起飞前免费改期。姓名拼写与护照一致，不加购保障服务。下单前先在VEVO（澳洲签证在线查询）核对澳签：Entries（入境次数）是Multiple（多次），最晚入境日晚于11/26，停留期覆盖到11/30。",
+      "detail": "HO1655（吉祥航空）上海→墨尔本11/17，HO1670（吉祥航空）悉尼→上海11/30，选¥7,766那档，不选“留学生专享”。不得退票，只退税费¥830；起飞前免费改期。姓名拼写与护照一致，不加购保障服务。下单前先在VEVO（澳洲签证在线查询）核对澳签：Entries（入境次数）是Multiple（多次），最晚入境日晚于11/26，停留期覆盖到11/30。",
       "sourceIds": [
         "f-ho-multi"
       ]
@@ -6791,7 +6762,7 @@
         "user"
       ],
       "title": "发邮件问Snap（新西兰租车公司）：箱子、晚到取车、碎石路",
-      "detail": "用英文询问稿第1段，请会英语的朋友核对后发；订车前后发都行。要问：三只29/30寸硬箱在Pajero Sport（三菱帕杰罗运动版）里放不放得下；柴油车要不要另交RUC（柴油道路使用费）；QF167（澳洲航空）晚到时，能不能先扣款、转到下班后取车点，或把取车改到11/20早上且不算no-show（未到场）；开Tasman Valley Road（塔斯曼谷路）的碎石路到尽头停车场，算不算正常使用；刷卡和预授权；能不能给新一点的车；日本驾照带IDP（国际驾照）行不行，Snap（新西兰租车公司）常见问题两处说法不一。答复来不及也先订车。答复不满意，就在免费取消期限前取消或改车型，期限见预订状态表。",
+      "detail": "用英文询问稿第1段，请会英语的朋友核对后发；订车前后发都行。要问：三只29/30寸硬箱在Outlander（欧蓝德）里放不放得下；QF167（澳洲航空）晚到时，能不能先扣款、转到下班后取车点，或把取车改到11/20早上且不算no-show（未到场）；开Tasman Valley Road（塔斯曼谷路）的碎石路到尽头停车场，算不算正常使用；刷卡和预授权；能不能给新一点的车；日本驾照带IDP（国际驾照）行不行，Snap（新西兰租车公司）常见问题两处说法不一。答复来不及也先订车。答复不满意，就在免费取消期限前取消或改车型，期限见预订状态表。",
       "sourceIds": [
         "r-snap-faq",
         "r-snap-chc",
@@ -6806,7 +6777,7 @@
         "melbourne"
       ],
       "title": "QF167（澳洲航空）和NZ231（新西兰航空）出票：两人先买",
-      "detail": "QF167（澳洲航空）是11/19 09:10墨尔本→基督城，NZ231（新西兰航空）是11/26 15:45皇后镇→悉尼。两张都不能退。上海同学和墨尔本同学现在出票；墨尔本同学先查好自己的签证，见待办“墨尔本同学：在VEVO（澳洲签证在线查询）查生效的澳签”。东京同学下签后再单独买。QF167没票或太贵时，同一天09:10还有新西兰航空一班，14:35到基督城，最便宜的票价不含托运。票价每天在变，以出票页为准，定了就出票。NZ231在新西兰航空官网或Trip.com（携程国际版）订，携程搜不到；在Trip.com订，下单前看清含不含托运。到达机场选Sydney（悉尼），代码SYD（悉尼机场），到T1（1号航站楼）；新西兰航空11月起也飞Western Sydney（西悉尼新机场），代码WSI，选错就离市中心很远。建议都选theworks（标准经济舱票）票价：含1件23kg托运、机上餐和免费选座，选在一起的靠窗座位，起飞时拍皇后镇雪山。买了不含托运的Seat（仅座位）票价，见待办“给NZ231加托运或升级票价”。NZ231也是墨尔本值机时要查的“离开新西兰机票”，只对能再次入境澳洲的人算数。",
+      "detail": "QF167（澳洲航空）是11/19 09:10墨尔本→基督城，NZ231（新西兰航空）是11/26 15:45皇后镇→悉尼。两张都不能退。上海同学和墨尔本同学现在出票；墨尔本同学先查好自己的签证，见待办“墨尔本同学：在VEVO（澳洲签证在线查询）查生效的澳签”。东京同学下签后再单独买。QF167没票或太贵时，同一天09:10还有新西兰航空一班，14:35到基督城，最便宜的票价不含托运。票价每天在变，以出票页为准，定了就出票。NZ231在新西兰航空官网、携程或Trip.com（携程国际版）订；不在官网订的话，下单前看清含不含托运。到达机场选Sydney（悉尼），代码SYD（悉尼机场），到T1（1号航站楼）；新西兰航空11月起也飞Western Sydney（西悉尼新机场），代码WSI，选错就离市中心很远。建议都选theworks（标准经济舱票）票价：含1件23kg托运、机上餐和免费选座，选在一起的靠窗座位，起飞时拍皇后镇雪山。买了不含托运的Seat（仅座位）票价，见待办“给NZ231加托运或升级票价”。NZ231也是墨尔本值机时要查的“离开新西兰机票”，只对能再次入境澳洲的人算数。",
       "sourceIds": [
         "f-qf167",
         "f-nz231-recheck",
@@ -6848,20 +6819,22 @@
     },
     {
       "id": "card-check",
-      "due": "2026-11-10",
+      "due": "2026-11-12",
       "who": [
         "all"
       ],
       "title": "打开信用卡的境外交易和网上支付",
-      "detail": "在发卡行的手机应用里打开信用卡的境外交易和境外网上（无卡）支付，再看境外单笔和单日限额够不够。三笔扣款前别关：11/11 Milky Way Views（银河美景）按纽币扣，11/19取车当天Snap（新西兰租车公司）扣约NZ$2,026，悉尼时间11/23 Adina（阿迪娜公寓酒店）按澳元扣。扣款日留意短信。Snap只收主驾本人名字的Visa（维萨卡）、Mastercard（万事达卡）或美国运通实体卡，没写收JCB（日本信用卡组织）和银联，取车时带上这张卡。要“入住出示信用卡”的酒店，订房人和持卡人同名、本人到场。招行借记卡单日限额5,000元，只刷小额。两位同学付机票和保险的卡也这样设好。",
+      "detail": "在发卡行的手机应用里打开信用卡的境外交易和境外网上（无卡）支付，再看境外单笔和单日限额够不够。这几笔扣款前别关：Sierra Motel & Apartments（塞拉汽车旅馆公寓）下单时按纽币扣，11/15 Dorsett（帝盛酒店）按澳元扣，11/19取车当天Snap（新西兰租车公司）扣约NZ$1,801，悉尼时间11/23 Adina（阿迪娜公寓酒店）按澳元扣。扣款日留意短信。Snap只收主驾本人名字的Visa（维萨卡）、Mastercard（万事达卡）或美国运通实体卡，没写收JCB（日本信用卡组织）和银联，取车时带上这张卡。要“入住出示信用卡”的酒店，订房人和持卡人同名、本人到场。招行借记卡单日限额5,000元，只刷小额。两位同学付机票和保险的卡也这样设好。",
       "sourceIds": [
         "r-snap-faq",
-        "b-adina"
+        "b-adina",
+        "m-sierra",
+        "b-dorsett"
       ]
     },
     {
       "id": "mel-visa",
-      "due": "2026-11-10",
+      "due": "2026-11-12",
       "who": [
         "melbourne"
       ],
@@ -6877,37 +6850,22 @@
     },
     {
       "id": "dorsett-book",
-      "due": "2026-11-10",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
-      "title": "定好人数后在携程订墨尔本Dorsett（帝盛酒店）",
-      "detail": "先等墨尔本同学回话：11/18住酒店还是回家住。三人都住：订3位成人；房间只有2张1.31米双人床，有两人合睡。请会英语的朋友发英文稿第8段第1–4问，问第三人能不能用沙发床或加床、早上寄存箱子、约14:00提前入住。墨尔本同学回家住：订2位成人，只发第3、4问。订携程探索房的可退价，¥2,260。免费取消期限见预订状态表。订好后在群里说一声。",
+      "title": "定好人数后订墨尔本Dorsett（帝盛酒店）",
+      "detail": "先等墨尔本同学回话：11/18住酒店还是回家住。三人都住：订3位成人；房间只有2张1.31米双人床，有两人合睡。请会英语的朋友发英文稿第8段第1–4问，问第三人能不能用沙发床或加床、早上寄存箱子、约14:00提前入住。墨尔本同学回家住：订2位成人，只发第3、4问。在Booking（缤客订房网）订标准双床间的可免费取消价：3位成人AUD416，2位成人AUD396；这个房型只剩1间。携程登录后同一间更便宜的话，就在携程订。免费取消期限见预订状态表。订好后在群里说一声。",
       "sourceIds": [
+        "b-dorsett",
         "c-dorsett",
         "x-dorsett-policy",
         "x-dorsett-rooms"
       ]
     },
     {
-      "id": "host-questions",
-      "due": "2026-11-10",
-      "who": [
-        "user"
-      ],
-      "title": "请会英语的朋友发英文稿问房东",
-      "detail": "英文问询稿第2–8段，请会英语的朋友核对。住处订好后发：爱彼迎的用站内信，Milky Way Views（银河美景）和Adina（阿迪娜公寓酒店）用Booking（缤客订房网）站内信。瓦纳卡已订，第5段现在就可以发。第2段基督城：门牌和入住方式、车位、约18:00到，航班晚了能不能更晚自助入住。第3段Milky Way Views：有没有能用的烟雾报警器；热水够几个人洗、用完多久再热；隔壁施工几点开工。第4段特威泽尔：说三位成人、约16:00到，问入住方式和车位。第5段瓦纳卡Parkhill（帕克希尔）：自助入住怎么核验证件、烟雾报警器、车位和退房说明；壁炉以外有没有热泵或电暖器，瓦纳卡11月夜里常在5–7°C，不生壁炉。第6段皇后镇：门牌、有几层楼梯、车位能不能停7座的Pajero Sport（三菱帕杰罗运动版），车长约4.8米；走到Upper Stanley Street（上斯坦利街）车站要几分钟，11/24早上07:40在那里上车。第7段悉尼Adina：订好后用Booking站内信发。第8段墨尔本Dorsett（帝盛酒店）：见待办“定好人数后在携程订墨尔本Dorsett”。答复不满意，在各自的免费取消期限前再决定换不换，期限见预订状态表。",
-      "sourceIds": [
-        "a-qt_townhouse",
-        "a-twizel_cottage",
-        "b-milkyway",
-        "a-parkhill",
-        "a-chc_townhouse"
-      ]
-    },
-    {
       "id": "parkhill-paycheck",
-      "due": "2026-11-10",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
@@ -6920,7 +6878,7 @@
     },
     {
       "id": "mel-dorsett-reply",
-      "due": "2026-11-10",
+      "due": "2026-11-12",
       "who": [
         "melbourne"
       ],
@@ -6933,50 +6891,47 @@
     },
     {
       "id": "nz-stays-book",
-      "due": "2026-11-11",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
       "title": "按顺序订完5处住处和租车",
-      "detail": "最好11/11前订完，都订三位成人。顺序：①11/21 Twizel（特威泽尔）镇上的三卧小屋，爱彼迎，这晚镇上只剩这一套；②租车，见待办“订Snap（新西兰租车公司）租车”；③特卡波Milky Way Views（银河美景），11/20，在Booking（缤客订房网）订；④悉尼Adina（阿迪娜公寓酒店），11/26–30，在Booking订；⑤11/23–26皇后镇湖景联排别墅，爱彼迎；⑥11/19基督城联排别墅，爱彼迎，下单24小时后不退，所以最后订。瓦纳卡已订。租车和Booking两处现在订不扣钱，可以先一起订。爱彼迎下单就扣全款，见待办“还没订的爱彼迎三处，下单时付全款、用信用卡”。订后在平台上留言大约几点到：基督城约18:00，特卡波约15:30，特威泽尔约16:00，皇后镇约15:00；已订的瓦纳卡也留言约15:00到。爱彼迎订好后，在订单页看准确的取消截止时刻，记到手机里。东京同学没下签也照订。扣款日和免费取消期限见预订状态表。备选：特威泽尔订不到，就订Omarama（奥马拉马）三卧整房，爱彼迎约¥1,871，Booking上同一套不可退NZ$473、可免费取消NZ$770。再不行订Omarama的Asure Sierra Motel（塞拉汽车旅馆），Booking上NZ$440，9.1分，3张床。皇后镇想省¥1,254，可改订Queenstown Heights（皇后镇高地）三卧，爱彼迎房源号16328605，4.82分，三晚¥5,232，只有一个淋浴卫生间加独立马桶。两处都订不到，看爱彼迎房源1024911706343225115，三卧四床，约¥7,579。基督城订不到，就换另一家三卧整套。",
+      "detail": "都订三位成人，东京同学没下签也照订。顺序：①11/21 Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓），在旅馆官网订2 Bedroom Unit（两卧室公寓），这晚附近订得到的住处很少；②租车，见待办“订Snap（新西兰租车公司）租车”；③悉尼Adina（阿迪娜公寓酒店），11/26–30，在Booking（缤客订房网）订；④11/20特卡波Hazel's House（黑兹尔之家），爱彼迎；⑤11/23–26皇后镇湖景联排别墅，爱彼迎；⑥11/19基督城联排别墅，爱彼迎，下单24小时后不退，所以最后订。瓦纳卡已订。租车和Adina现在订不扣钱；Sierra Motel & Apartments下单就扣款，免费取消期内取消全额退。爱彼迎下单就扣全款，见待办“还没订的爱彼迎三处，下单时付全款、用信用卡”。订后在平台上留言大约几点到：基督城约18:00，特卡波约15:30，Omarama约16:30，皇后镇约15:00；已订的瓦纳卡也留言约15:00到。爱彼迎订好后，在订单页看准确的取消截止时刻，记到手机里。扣款日和免费取消期限见预订状态表。备选：Sierra Motel & Apartments官网订不到，Booking上同一家的两卧室公寓NZ$440，不可退。Hazel's House订不到，在Booking订Tekapo Blue（特卡波蓝屋）四卧，NZ$719；或Sefton View（塞夫顿景观度假屋）三卧，NZ$688，只有一个卫生间。皇后镇想省¥628，可改订Queenstown Heights（皇后镇高地）三卧，爱彼迎房源号16328605，4.82分，三晚¥5,276，只有一个淋浴卫生间加独立马桶。基督城订不到，就换另一家三卧整套。",
       "sourceIds": [
-        "a-twizel_cottage",
-        "a-omarama_house",
-        "b-omarama",
+        "m-sierra",
+        "b-sierra",
         "r-snap-booking",
+        "b-adina",
+        "a-hazels",
+        "x-tekapo-1111",
         "a-qt_townhouse",
         "a-qt_heights",
-        "b-adina",
         "a-chc_townhouse",
-        "b-milkyway",
-        "x-unavailable-1109"
+        "x-mackenzie-1111"
       ]
     },
     {
       "id": "snap-book",
-      "due": "2026-11-11",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
       "title": "订Snap（新西兰租车公司）租车",
-      "detail": "7座车只剩这个车组，尽快订；两人方案也用这辆车。用租车卡片来源里的订车网址，日期和地点已填好。第1步选Pajero Sport（三菱帕杰罗运动版）四驱车组：页面写的是Mitsubishi Pajero（三菱帕杰罗），2024款或类似，7座，NZ$1,718。第2步保险选Simply Better Cover（零自付额全险），每天NZ$34；附加项把Additional Driver（附加司机）加到1位，每天NZ$3。核对总价NZ$1,977，再填驾驶员资料和付款信息。航班号填QF167（澳洲航空）：晚到要转下班后取车点时用得上，见11/19的“天气不好怎么办”。付款用主驾本人名字的Visa（维萨卡）或Mastercard（万事达卡）信用卡；订车不收订金，全款在取车当天扣。最晚北京时间11/15 18:59前订，再晚就没有免费取消期；取消规则见预订状态表。订好后在群里说一声。订不到时的备选：rentalcars（租车比价网）上Sixt（西克斯特租车）的RAV4 Hybrid（丰田荣放混动），约NZ$1,656，不含零自付；Sixt条款不保Tasman Valley Road（塔斯曼谷路），24岁的附加司机另收年轻司机费。",
+      "detail": "这个车组剩的车不多，尽快订；两人方案也用这辆车。用租车卡片来源里的订车网址，日期和地点已填好。第1步选Premium SUV 2WD（高级SUV两驱）车组：页面写的是Mitsubishi Outlander（三菱欧蓝德），2022–2026款，5座，NZ$1,499。第2步保险选Simply Better Cover（零自付额全险），每天NZ$34；附加项把Additional Driver（附加司机）加到1位，每天NZ$3。核对总价NZ$1,757.55，再填驾驶员资料和付款信息。航班号填QF167（澳洲航空）：晚到要转下班后取车点时用得上，见11/19的“天气不好怎么办”。付款用主驾本人名字的Visa（维萨卡）或Mastercard（万事达卡）信用卡；订车不收订金，全款在取车当天扣。最晚北京时间11/15 18:59前订，再晚就没有免费取消期；取消规则见预订状态表。订好后在群里说一声。订不到时的备选：同一页的Toyota Highlander Hybrid（丰田汉兰达混动），2025–2026款，7座，同样配置共NZ$2,067.09；后备厢大，三只大箱好放。",
       "sourceIds": [
         "r-snap-booking",
         "r-snap-terms",
-        "r-snap-cover",
-        "x-rentalcars-1109b",
-        "x-ruc",
-        "x-sixt-rav4-1109"
+        "r-snap-cover"
       ]
     },
     {
       "id": "adina-book",
-      "due": "2026-11-11",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
       "title": "订悉尼Adina（阿迪娜公寓酒店）两卧公寓11/26–30四晚",
-      "detail": "在Booking（缤客订房网）订尊贵两卧室公寓，选可免费取消价：4晚约NZ$4,017，以付款页为准。床型固定：卧室1两张单人床，卧室2一张大床，两个卫生间。订时备注三件事：三位成人；保留这个床型，三人各睡一张床；要高楼层、远离北侧的房间，北面约100米有在建酒店工地。实际按澳元扣款：付款前把页面右上角的币种切成AUD，看真实总价再付。查到时这个房型还剩2间。扣款日和免费取消期限见预订状态表。",
+      "detail": "在Booking（缤客订房网）订尊贵两卧室公寓，选可免费取消价：4晚AUD3,244，以付款页为准。床型固定：卧室1两张单人床，卧室2一张大床，两个卫生间。订时备注三件事：三位成人；保留这个床型，三人各睡一张床；要高楼层、远离北侧的房间，北面约100米有在建酒店工地。按澳元扣款：页面按纽币或人民币显示的话，付款前把右上角的币种切成AUD，看真实总价再付。这个房型还剩2间。扣款日和免费取消期限见预订状态表。",
       "sourceIds": [
         "b-adina",
         "x-florin",
@@ -6985,15 +6940,15 @@
     },
     {
       "id": "airbnb-pay",
-      "due": "2026-11-11",
+      "due": "2026-11-12",
       "who": [
         "user"
       ],
       "title": "还没订的爱彼迎三处，下单时付全款、用信用卡",
-      "detail": "基督城联排别墅¥947、特威泽尔小屋¥1,707、皇后镇联排别墅¥6,486，下单时都选付全款，不用“先订后付”。先订后付会按下单页写的日期自动扣款，那时人可能在新西兰；扣款失败要补付，否则订单可能被取消。都用信用卡付：皇后镇这一笔就超过招行借记卡的单日限额5,000元。用支付宝的话选信用卡付款，不走这张借记卡。付了以后取消，仍按各自的取消政策退款。",
+      "detail": "基督城联排别墅¥957、特卡波Hazel's House（黑兹尔之家） ¥2,466、皇后镇联排别墅¥5,904，下单时都选付全款，不用“先订后付”。先订后付会按下单页写的日期自动扣款，那时人可能在新西兰；扣款失败要补付，否则订单可能被取消。都用信用卡付：皇后镇这一笔就超过招行借记卡的单日限额5,000元。用支付宝的话选信用卡付款，不走这张借记卡。付了以后取消，仍按各自的取消政策退款。",
       "sourceIds": [
         "a-chc_townhouse",
-        "a-twizel_cottage",
+        "a-hazels",
         "a-qt_townhouse",
         "x-airbnb-paylater"
       ]
@@ -7053,6 +7008,22 @@
       "detail": "说清是正式驾照还是P1/P2驾照。东京同学来不了时，要请墨尔本同学当新西兰段的第二司机。有驾照就带上实体驾照：取车时两位司机都要到店，登记进租车合同。",
       "sourceIds": [
         "r-snap-faq"
+      ]
+    },
+    {
+      "id": "host-questions",
+      "due": "2026-11-13",
+      "who": [
+        "user"
+      ],
+      "title": "请会英语的朋友发英文稿问房东",
+      "detail": "英文问询稿第2–8段，请会英语的朋友核对。住处订好后发：爱彼迎的用站内信，Adina（阿迪娜公寓酒店）用Booking（缤客订房网）站内信。瓦纳卡已订，第5段现在就可以发。第2段基督城：门牌和入住方式、车位、约18:00到，航班晚了能不能更晚自助入住。第3段特卡波Hazel's House（黑兹尔之家）：说三位成人、约15:30到，问钥匙盒在哪、车停哪。第4段Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓）：订房时在备注里写三位成人、约16:30到，不用另发。第5段瓦纳卡Parkhill（帕克希尔）：自助入住怎么核验证件、烟雾报警器、车位和退房说明；壁炉以外有没有热泵或电暖器，瓦纳卡11月夜里常在5–7°C，不生壁炉。第6段皇后镇：门牌、有几层楼梯、车位能不能停Outlander（欧蓝德）这样的中型SUV（运动型多用途车）；走到Upper Stanley Street（上斯坦利街）车站要几分钟，11/24早上07:40在那里上车。第7段悉尼Adina：订好后用Booking站内信发。第8段墨尔本Dorsett（帝盛酒店）：见待办“定好人数后订墨尔本Dorsett”。答复不满意，在各自的免费取消期限前再决定换不换，期限见预订状态表。",
+      "sourceIds": [
+        "a-qt_townhouse",
+        "a-hazels",
+        "m-sierra",
+        "a-parkhill",
+        "a-chc_townhouse"
       ]
     },
     {
@@ -7163,12 +7134,11 @@
         "user"
       ],
       "title": "买一个电池供电的光电式烟雾报警器带上",
-      "detail": "三人带一个就够，不用每人都买。由上海同学买，买好在群里说一声。网上买电池供电的光电式烟雾报警器，约¥30–60，不买离子式。装好电池、按测试键试响，放随身行李。每到一处，把它放在卧室外的走廊或客厅，三人都认清两个出口。Milky Way Views（银河美景）和Tranquility on Parkhill（帕克希尔的宁静）的房源页写没有烟雾报警器；基督城、特威泽尔、皇后镇三处写已装，但都没有或没写一氧化碳报警器。",
+      "detail": "三人带一个就够，不用每人都买。由上海同学买，买好在群里说一声。网上买电池供电的光电式烟雾报警器，约¥30–60，不买离子式。装好电池、按测试键试响，放随身行李。每到一处，把它放在卧室外的走廊或客厅，三人都认清两个出口。Tranquility on Parkhill（帕克希尔的宁静）的房源页写没有烟雾报警器；基督城、特卡波、皇后镇三处写已装，但都没有或没写一氧化碳报警器。",
       "sourceIds": [
-        "b-milkyway",
-        "a-milkyway",
-        "a-twizel_cottage",
+        "a-hazels",
         "a-parkhill",
+        "a-chc_townhouse",
         "a-qt_townhouse"
       ]
     },
@@ -7206,12 +7176,13 @@
         "all"
       ],
       "title": "东京同学澳签：没下签就按两人方案",
-      "detail": "东京同学10/14递交的澳签还没批。按澳洲移民局的处理时间，旅游签证九成在约31–33天内出结果，估计是11/14至11/16。没下签就走两人方案（建议，可以改）：上海同学和墨尔本同学照原路线走，住处和车照订，改两人分摊，按现价每人约多¥6,871–7,015；QF167（澳洲航空）和NZ231（新西兰航空）两人现在出票；米尔福德照订三人。第二司机见待办“问墨尔本同学有没有澳洲驾照”。一下签，东京同学照待办“东京同学：下签当天告诉上海同学”做：核对签证、当天申请NZeTA（新西兰电子旅行授权）、再买机票。11/16以后才下签也马上申请NZeTA，批下来再买QF167。到11/18还没批下来，就去不了新西兰这一段：新西兰时间11/23 07:35前在RealNZ（米尔福德游船巴士运营商）官网把米尔福德减1人，即北京时间02:35。",
+      "detail": "东京同学10/14递交的澳签还没批。澳洲移民局的处理时间：旅游签证一半在21天内、九成在31天内出结果，第31天是11/14。没下签就走两人方案（建议，可以改）：上海同学和墨尔本同学照原路线走，住处和车照订，改两人分摊，按现价每人约多¥6,449–6,552；QF167（澳洲航空）和NZ231（新西兰航空）两人现在出票；米尔福德照订三人。第二司机见待办“问墨尔本同学有没有澳洲驾照”。一下签，东京同学照待办“东京同学：下签当天告诉上海同学”做：核对签证、当天申请NZeTA（新西兰电子旅行授权）、再买机票。11/16以后才下签也马上申请NZeTA，批下来再买QF167。到11/18还没批下来，就去不了新西兰这一段：新西兰时间11/23 07:35前在RealNZ（米尔福德游船巴士运营商）官网把米尔福德减1人，即北京时间02:35；悉尼Adina（阿迪娜公寓酒店）可在免费取消期限前改订同一家的一室公寓，四晚约AUD1,915，两张单人床的床型要看供应。",
       "sourceIds": [
         "x-nzeta-req",
         "x-visa-times",
         "x-au-600",
-        "x-visa-times-1102"
+        "x-visa-times-1102",
+        "b-adina"
       ]
     },
     {
@@ -7486,7 +7457,7 @@
         "leg": "🚗"
       },
       {
-        "stop": "库克山 · 特威泽尔",
+        "stop": "库克山 · 奥马拉马",
         "date": "11/21",
         "leg": "🚗"
       },
@@ -7562,19 +7533,19 @@
       {
         "day": 5,
         "date": "2026-11-21",
-        "title": "特卡波 → 库克山 → 特威泽尔",
+        "title": "特卡波 → 库克山 → 奥马拉马",
         "region": "nz",
         "points": [
           "08:00 退房出发，上午走库克山短步道",
-          "下午住进特威泽尔镇上的三卧小屋",
+          "下午在特威泽尔买菜加油，住进奥马拉马的汽车旅馆",
           "傍晚在普卡基湖拍库克山晚霞"
         ],
-        "stay": "特威泽尔"
+        "stay": "奥马拉马"
       },
       {
         "day": 6,
         "date": "2026-11-22",
-        "title": "特威泽尔 → 瓦纳卡",
+        "title": "奥马拉马 → 瓦纳卡",
         "region": "nz",
         "points": [
           "睡到自然醒，10:30出发",
@@ -7624,7 +7595,7 @@
         "title": "皇后镇 ✈ 悉尼",
         "region": "nz",
         "points": [
-          "上午湖边散步，提前吃午饭，门店旁加满柴油，11:30还车",
+          "上午湖边散步，提前吃午饭，门店旁加满油，11:30还车",
           "15:45 坐新西兰航空NZ231，17:05 到悉尼"
         ],
         "stay": "悉尼"
@@ -7683,16 +7654,16 @@
         "time": "约3小时"
       },
       {
-        "leg": "特卡波 → 库克山 → 特威泽尔",
-        "time": "约1小时30分＋1小时"
+        "leg": "特卡波 → 库克山 → 奥马拉马",
+        "time": "约1小时30分＋1小时20分"
       },
       {
-        "leg": "特威泽尔住处 ⇄ 普卡基湖游客中心",
-        "time": "单程约10–12分钟（约11km；傍晚拍日落，可选清晨日出）"
+        "leg": "奥马拉马住处 ⇄ 普卡基湖游客中心",
+        "time": "单程约35分钟（约40km；傍晚拍日落）"
       },
       {
-        "leg": "特威泽尔 → 瓦纳卡",
-        "time": "约2小时"
+        "leg": "奥马拉马 → 瓦纳卡",
+        "time": "约1.5小时"
       },
       {
         "leg": "瓦纳卡 → 箭镇 → 皇后镇",
@@ -8452,10 +8423,10 @@
         },
         {
           "n": 4,
-          "name": "特威泽尔",
+          "name": "奥马拉马",
           "date": "11/21 住1晚",
-          "lat": -44.258,
-          "lon": 170.1,
+          "lat": -44.486,
+          "lon": 169.969,
           "card": {
             "col": "right",
             "y": 275
@@ -8531,13 +8502,13 @@
   "bookings": [
     {
       "item": "墨尔本Dorsett（帝盛酒店），11/18住1晚",
-      "platform": "携程",
+      "platform": "Booking（缤客订房网）",
       "status": "未订",
       "latest": "尽快：先定墨尔本同学住不住",
-      "freeCancel": "墨尔本时间11/17 14:00前，即北京时间11/17 11:00",
-      "charge": "下单时在线付人民币，可退价¥2,260。入住时另刷AUD200押金，退房当天退回",
+      "freeCancel": "墨尔本时间11/16 23:59前，即北京时间11/16 20:59",
+      "charge": "11/15按澳元扣AUD416，这是三位成人的可免费取消价。入住时另刷AUD200押金，退房当天退回",
       "sourceIds": [
-        "c-dorsett",
+        "b-dorsett",
         "x-dorsett-policy"
       ]
     },
@@ -8545,34 +8516,34 @@
       "item": "基督城联排别墅，11/19住1晚",
       "platform": "爱彼迎",
       "status": "未订",
-      "latest": "11/11前，排在最后订；订前确认机票和日期都定了",
+      "latest": "11/12前，排在最后订；订前确认机票和日期都定了",
       "freeCancel": "下单后24小时内全额退，之后不退",
-      "charge": "下单时付全款¥947",
+      "charge": "下单时付全款¥957",
       "sourceIds": [
         "a-chc_townhouse"
       ]
     },
     {
-      "item": "特卡波Milky Way Views（银河美景），11/20住1晚",
-      "platform": "Booking（缤客订房网）",
+      "item": "特卡波Hazel's House（黑兹尔之家），11/20住1晚",
+      "platform": "爱彼迎",
       "status": "未订",
-      "latest": "11/11前；11/11起再订会马上扣款",
-      "freeCancel": "新西兰时间11/12 23:59前，即北京时间11/12 18:59",
-      "charge": "11/11按纽币扣NZ$853。扣款后在截止前取消一般会退，但汇率差和发卡行手续费可能不退",
+      "latest": "11/12前",
+      "freeCancel": "下单后24小时内全额退；之后到11/13前退一部分，再晚不退。比例和准确时刻看订单页，按房源当地时间",
+      "charge": "下单时付全款¥2,466",
       "sourceIds": [
-        "b-milkyway",
-        "x-booking-cancel-time"
+        "a-hazels"
       ]
     },
     {
-      "item": "特威泽尔三卧小屋，11/21住1晚",
-      "platform": "爱彼迎",
+      "item": "Omarama（奥马拉马）的Sierra Motel & Apartments（塞拉汽车旅馆公寓），11/21住1晚",
+      "platform": "旅馆官网",
       "status": "未订",
-      "latest": "11/11前，第一个订",
-      "freeCancel": "下单后24小时内全额退；之后到11/14前退一部分，再晚不退。比例和准确时刻看订单页，按房源当地时间",
-      "charge": "下单时付全款¥1,707",
+      "latest": "11/12前，第一个订",
+      "freeCancel": "新西兰时间11/13 23:59前，即北京时间11/13 18:59；之后取消或没到，收全款",
+      "charge": "下单时按纽币付全款NZ$418.50。入住时另刷NZ$100预授权，退房当天解除",
       "sourceIds": [
-        "a-twizel_cottage"
+        "m-sierra",
+        "m-sierra-policy"
       ]
     },
     {
@@ -8590,9 +8561,9 @@
       "item": "皇后镇湖景联排别墅，11/23–26住3晚",
       "platform": "爱彼迎",
       "status": "未订",
-      "latest": "11/11前",
+      "latest": "11/12前",
       "freeCancel": "下单后24小时内全额退；之后到11/16前退一部分，再晚不退。比例和准确时刻看订单页，按房源当地时间",
-      "charge": "下单时付全款¥6,486",
+      "charge": "下单时付全款¥5,904",
       "sourceIds": [
         "a-qt_townhouse"
       ]
@@ -8601,9 +8572,9 @@
       "item": "悉尼Adina（阿迪娜公寓酒店），11/26–30住4晚",
       "platform": "Booking（缤客订房网）",
       "status": "未订",
-      "latest": "11/11前",
+      "latest": "11/12前",
       "freeCancel": "悉尼时间11/24 23:59前，即新西兰时间11/25 01:59、北京时间11/24 20:59",
-      "charge": "悉尼时间11/23按澳元扣全款，即北京时间11/22 21:00起。可免费取消价4晚约NZ$4,017，以付款页为准",
+      "charge": "悉尼时间11/23按澳元扣全款，即北京时间11/22 21:00起。可免费取消价4晚AUD3,244，以付款页为准",
       "sourceIds": [
         "b-adina",
         "x-booking-cancel-time"
@@ -8615,7 +8586,7 @@
       "status": "未订",
       "latest": "尽快；最晚北京时间11/15 18:59，再晚订就没有免费取消期",
       "freeCancel": "新西兰时间11/15 23:59前，即北京时间11/15 18:59。11/16–18取消收50%，11/19当天取消或没到场收全款",
-      "charge": "订车不收订金，11/19取车当天扣全款，约NZ$2,026",
+      "charge": "订车不收订金，11/19取车当天扣全款，约NZ$1,801",
       "sourceIds": [
         "r-snap-booking",
         "r-snap-terms",
@@ -8640,7 +8611,7 @@
       "status": "未出票",
       "latest": "尽快，上海同学自己订",
       "freeCancel": "不得退票，只退税费¥830；起飞前免费改期",
-      "charge": "出票时付，¥7,756那档",
+      "charge": "出票时付，¥7,766那档",
       "sourceIds": [
         "f-ho-multi"
       ]
@@ -8657,7 +8628,7 @@
     },
     {
       "item": "NZ231（新西兰航空）皇后镇→悉尼，11/26",
-      "platform": "新西兰航空官网或Trip.com（携程国际版）",
+      "platform": "新西兰航空官网、携程或Trip.com（携程国际版）",
       "status": "未出票",
       "latest": "尽快，票价每天在变：上海同学和墨尔本同学现在买，东京同学下签后买",
       "freeCancel": "不能退",
